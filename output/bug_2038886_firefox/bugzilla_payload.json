@@ -1,0 +1,415 @@
+{
+  "bug_id": "2038886",
+  "endpoints": {
+    "attachments": "https://bugzilla.mozilla.org/rest/bug/2038886/attachment?exclude_fields=data",
+    "bug": "https://bugzilla.mozilla.org/rest/bug/2038886",
+    "comments": "https://bugzilla.mozilla.org/rest/bug/2038886/comment",
+    "history": "https://bugzilla.mozilla.org/rest/bug/2038886/history"
+  },
+  "fetched_at": "2026-05-25T20:43:48+00:00",
+  "responses": {
+    "attachments": {
+      "attachments": {},
+      "bugs": {
+        "2038886": [
+          {
+            "attacher": "bfarkas@mozilla.com",
+            "bug_id": 2038886,
+            "content_type": "video/mp4",
+            "creation_time": "2026-05-12T07:26:35Z",
+            "creator": "bfarkas@mozilla.com",
+            "creator_detail": {
+              "email": "bfarkas@mozilla.com",
+              "id": 779692,
+              "name": "bfarkas@mozilla.com",
+              "nick": "bfarkas",
+              "real_name": "Bernadett Farkas"
+            },
+            "description": "Text hightlight issue Nightly vs Chrome",
+            "file_name": "devforum.mp4",
+            "flags": [],
+            "id": 9585451,
+            "is_obsolete": 0,
+            "is_patch": 0,
+            "is_private": 0,
+            "last_change_time": "2026-05-12T07:26:35Z",
+            "size": 1655246,
+            "summary": "Text hightlight issue Nightly vs Chrome"
+          }
+        ]
+      }
+    },
+    "bug": {
+      "bugs": [
+        {
+          "alias": null,
+          "assigned_to": "nobody@mozilla.org",
+          "assigned_to_detail": {
+            "email": "nobody@mozilla.org",
+            "id": 1,
+            "name": "nobody@mozilla.org",
+            "nick": "nobody",
+            "real_name": "Nobody; OK to take it and work on it"
+          },
+          "blocks": [],
+          "cc": [
+            "alice0775@gmail.com",
+            "sky@mozilla.com"
+          ],
+          "cc_detail": [
+            {
+              "email": "alice0775@gmail.com",
+              "id": 293623,
+              "name": "alice0775@gmail.com",
+              "nick": "alice0775",
+              "real_name": "Alice0775 White"
+            },
+            {
+              "email": "sky@mozilla.com",
+              "id": 421268,
+              "name": "sky@mozilla.com",
+              "nick": "skyschub",
+              "real_name": "Sky Schubert [:skyschub]"
+            }
+          ],
+          "cf_a11y_review_project_flag": "---",
+          "cf_accessibility_severity": "---",
+          "cf_cab_review": "---",
+          "cf_fx_iteration": "---",
+          "cf_fx_points": "---",
+          "cf_last_resolved": null,
+          "cf_performance_impact": "---",
+          "cf_qa_whiteboard": "",
+          "cf_status_firefox150": "affected",
+          "cf_status_firefox151": "affected",
+          "cf_status_firefox152": "affected",
+          "cf_status_firefox153": "---",
+          "cf_status_firefox_esr115": "---",
+          "cf_status_firefox_esr140": "---",
+          "cf_tracking_firefox151": "---",
+          "cf_tracking_firefox152": "---",
+          "cf_tracking_firefox153": "---",
+          "cf_tracking_firefox_esr115": "---",
+          "cf_tracking_firefox_esr140": "---",
+          "cf_tracking_firefox_relnote": "---",
+          "cf_user_story": "platform:windows,mac,linux,android\r\nimpact:annoyance-minor\r\nconfiguration:general\r\naffects:all\r\nbranch:release\r\ndiagnosis-team:dom\r\nuser-impact-score:50",
+          "cf_webcompat_priority": "P3",
+          "cf_webcompat_score": "3",
+          "classification": "Client Software",
+          "comment_count": 5,
+          "component": "Site Reports",
+          "creation_time": "2026-05-12T07:26:01Z",
+          "creator": "bfarkas@mozilla.com",
+          "creator_detail": {
+            "email": "bfarkas@mozilla.com",
+            "id": 779692,
+            "name": "bfarkas@mozilla.com",
+            "nick": "bfarkas",
+            "real_name": "Bernadett Farkas"
+          },
+          "depends_on": [],
+          "dupe_of": null,
+          "duplicates": [],
+          "flags": [],
+          "groups": [],
+          "id": 2038886,
+          "is_cc_accessible": true,
+          "is_confirmed": true,
+          "is_creator_accessible": true,
+          "is_open": true,
+          "keywords": [
+            "webcompat:needs-diagnosis",
+            "webcompat:site-report"
+          ],
+          "last_change_time": "2026-05-14T08:09:21Z",
+          "mentors": [],
+          "mentors_detail": [],
+          "op_sys": "Windows 10",
+          "platform": "Desktop",
+          "priority": "P3",
+          "product": "Web Compatibility",
+          "qa_contact": "",
+          "regressed_by": [],
+          "regressions": [],
+          "resolution": "",
+          "see_also": [
+            "https://github.com/webcompat/web-bugs/issues/220599"
+          ],
+          "severity": "S4",
+          "status": "NEW",
+          "summary": "devforum.roblox.com - \"Copy Link to Highlight\" fails to highlight the targeted text when opened in a newly loaded tab",
+          "target_milestone": "---",
+          "type": "defect",
+          "url": "https://devforum.roblox.com/t/beta-roplus-free-roblox-enhancement-extension/4369102/39",
+          "version": "unspecified",
+          "votes": 0,
+          "whiteboard": "[webcompat-source:web-bugs]"
+        }
+      ],
+      "faults": []
+    },
+    "comments": {
+      "bugs": {
+        "2038886": {
+          "comments": [
+            {
+              "attachment_id": null,
+              "author": "bfarkas@mozilla.com",
+              "bug_id": 2038886,
+              "count": 0,
+              "creation_time": "2026-05-12T07:26:01Z",
+              "creator": "bfarkas@mozilla.com",
+              "id": 18078769,
+              "is_private": false,
+              "raw_text": "**Environment:**\nOperating system: Windows 10\nFirefox version: Firefox 150.0 / Firefox Nightly 152.0a1 (2026-05-11)\n\n**Steps to reproduce:**\n1. Access: https://devforum.roblox.com/t/beta-roplus-free-roblox-enhancement-extension/4369102/39\n2. Select any string of text on the page\n3. Right-click the selected text and choose \"Copy Link to Highlight\"\n4. Close the current tab completely (or open a completely new, blank tab)\n5. Paste the copied URL into the address bar and press Enter\n6. Observe the page\n\n**Expected Behavior:**\nThe selected text appears highlighted\n\n**Actual Behavior:**\nThe selected text does not appear highlighted\n\n**Notes:**\n- If you are already on the loaded webpage, and you paste the text-fragment URL into the address bar and press Enter, the highlighting works correctly. The failure only occurs when loading the URL into a new or entirely refreshed tab.\n- Reproduces regardless of the status of ETP\n- Reproduces in firefox-nightly, and firefox-release\n- Does not reproduce in chrome\n\nCreated from https://github.com/webcompat/web-bugs/issues/220599",
+              "reactions": {},
+              "tags": [],
+              "text": "**Environment:**\nOperating system: Windows 10\nFirefox version: Firefox 150.0 / Firefox Nightly 152.0a1 (2026-05-11)\n\n**Steps to reproduce:**\n1. Access: https://devforum.roblox.com/t/beta-roplus-free-roblox-enhancement-extension/4369102/39\n2. Select any string of text on the page\n3. Right-click the selected text and choose \"Copy Link to Highlight\"\n4. Close the current tab completely (or open a completely new, blank tab)\n5. Paste the copied URL into the address bar and press Enter\n6. Observe the page\n\n**Expected Behavior:**\nThe selected text appears highlighted\n\n**Actual Behavior:**\nThe selected text does not appear highlighted\n\n**Notes:**\n- If you are already on the loaded webpage, and you paste the text-fragment URL into the address bar and press Enter, the highlighting works correctly. The failure only occurs when loading the URL into a new or entirely refreshed tab.\n- Reproduces regardless of the status of ETP\n- Reproduces in firefox-nightly, and firefox-release\n- Does not reproduce in chrome\n\nCreated from https://github.com/webcompat/web-bugs/issues/220599",
+              "time": "2026-05-12T07:26:01Z"
+            },
+            {
+              "attachment_id": 9585451,
+              "author": "bfarkas@mozilla.com",
+              "bug_id": 2038886,
+              "count": 1,
+              "creation_time": "2026-05-12T07:26:35Z",
+              "creator": "bfarkas@mozilla.com",
+              "id": 18078770,
+              "is_private": false,
+              "raw_text": "",
+              "reactions": {},
+              "tags": [],
+              "text": "Created attachment 9585451\nText hightlight issue Nightly vs Chrome",
+              "time": "2026-05-12T07:26:35Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "release-mgmt-account-bot@mozilla.tld",
+              "bug_id": 2038886,
+              "count": 2,
+              "creation_time": "2026-05-12T07:41:09Z",
+              "creator": "release-mgmt-account-bot@mozilla.tld",
+              "id": 18078778,
+              "is_private": false,
+              "raw_text": "Since nightly and release are affected, beta will likely be affected too.\nFor more information, please visit [BugBot documentation](https://wiki.mozilla.org/BugBot#missing_beta_status.py).",
+              "reactions": {},
+              "tags": [],
+              "text": "Since nightly and release are affected, beta will likely be affected too.\nFor more information, please visit [BugBot documentation](https://wiki.mozilla.org/BugBot#missing_beta_status.py).",
+              "time": "2026-05-12T07:41:09Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "sky@mozilla.com",
+              "bug_id": 2038886,
+              "count": 3,
+              "creation_time": "2026-05-13T14:26:31Z",
+              "creator": "sky@mozilla.com",
+              "id": 18081873,
+              "is_private": false,
+              "raw_text": "This might be caused by them pushState'ing over the anchor? Chrome seems to store the anchor (or the highlight/fragment) despite it no longer being in the URL.",
+              "reactions": {},
+              "tags": [],
+              "text": "This might be caused by them pushState'ing over the anchor? Chrome seems to store the anchor (or the highlight/fragment) despite it no longer being in the URL.",
+              "time": "2026-05-13T14:26:31Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "sky@mozilla.com",
+              "bug_id": 2038886,
+              "count": 4,
+              "creation_time": "2026-05-13T15:51:55Z",
+              "creator": "sky@mozilla.com",
+              "id": 18082150,
+              "is_private": false,
+              "raw_text": "Hm, interesting, this appears to be a bit more complicated. I tried it with \n\n```html\n<script>\n  window.history.pushState({}, \"\", window.location.href);\n</script>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>\n```\n\nwhich shows similar behavior than Discourse does - i.e. the text isn't selected and the anchor disappears, but that testcase also breaks in Chrome, while it does *not* break in the real example linked here. So there's something else (additional?) going on.",
+              "reactions": {},
+              "tags": [],
+              "text": "Hm, interesting, this appears to be a bit more complicated. I tried it with \n\n```html\n<script>\n  window.history.pushState({}, \"\", window.location.href);\n</script>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>\n```\n\nwhich shows similar behavior than Discourse does - i.e. the text isn't selected and the anchor disappears, but that testcase also breaks in Chrome, while it does *not* break in the real example linked here. So there's something else (additional?) going on.",
+              "time": "2026-05-13T15:51:55Z"
+            }
+          ]
+        }
+      },
+      "comments": {}
+    },
+    "history": {
+      "bugs": [
+        {
+          "alias": null,
+          "history": [
+            {
+              "changes": [
+                {
+                  "added": "affected",
+                  "field_name": "cf_status_firefox150",
+                  "removed": "---"
+                },
+                {
+                  "added": "affected",
+                  "field_name": "cf_status_firefox152",
+                  "removed": "---"
+                }
+              ],
+              "when": "2026-05-12T07:26:44Z",
+              "who": "bfarkas@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "affected",
+                  "field_name": "cf_status_firefox151",
+                  "removed": "---"
+                }
+              ],
+              "when": "2026-05-12T07:41:09Z",
+              "who": "release-mgmt-account-bot@mozilla.tld"
+            },
+            {
+              "changes": [
+                {
+                  "added": "alice0775@gmail.com",
+                  "field_name": "cc",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-05-12T13:30:01Z",
+              "who": "alice0775@gmail.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "S4",
+                  "field_name": "severity",
+                  "removed": "--"
+                },
+                {
+                  "added": "dschubert@mozilla.com",
+                  "field_name": "cc",
+                  "removed": ""
+                },
+                {
+                  "added": "webcompat:needs-diagnosis",
+                  "field_name": "keywords",
+                  "removed": ""
+                },
+                {
+                  "added": "P3",
+                  "field_name": "priority",
+                  "removed": "--"
+                },
+                {
+                  "added": "@@ -1 +1,7 @@\n-\n+platform:windows,mac,linux,android\r\n+impact:annoyance-minor\r\n+configuration:general\r\n+affects:all\r\n+branch:release\r\n+diagnosis-team:dom\r\n+user-impact-score:50\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                },
+                {
+                  "added": "P3",
+                  "field_name": "cf_webcompat_priority",
+                  "removed": "---"
+                },
+                {
+                  "added": "4",
+                  "field_name": "cf_webcompat_score",
+                  "removed": "---"
+                }
+              ],
+              "when": "2026-05-13T14:26:31Z",
+              "who": "sky@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "@@ -1,7 +1 @@\n-platform:windows,mac,linux,android\r\n+user-impact-score:0\n-impact:annoyance-minor\r\n-configuration:general\r\n-affects:all\r\n-branch:release\r\n-diagnosis-team:dom\r\n-user-impact-score:50\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                },
+                {
+                  "added": "1",
+                  "field_name": "cf_webcompat_score",
+                  "removed": "4"
+                }
+              ],
+              "when": "2026-05-13T14:26:38Z",
+              "who": "release-mgmt-account-bot@mozilla.tld"
+            },
+            {
+              "changes": [
+                {
+                  "added": "S2",
+                  "field_name": "severity",
+                  "removed": "S4"
+                },
+                {
+                  "added": "P1",
+                  "field_name": "priority",
+                  "removed": "P3"
+                },
+                {
+                  "added": "@@ -1 +1,6 @@\n-user-impact-score:0\n+user-impact-score:1000\r\n+platform:windows,mac,linux,android\r\n+impact:site-broken\r\n+configuration:general\r\n+affects:all\r\n+branch:release\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                },
+                {
+                  "added": "P1",
+                  "field_name": "cf_webcompat_priority",
+                  "removed": "P3"
+                },
+                {
+                  "added": "9",
+                  "field_name": "cf_webcompat_score",
+                  "removed": "1"
+                }
+              ],
+              "when": "2026-05-13T14:30:55Z",
+              "who": "sky@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "S4",
+                  "field_name": "severity",
+                  "removed": "S2"
+                },
+                {
+                  "added": "P3",
+                  "field_name": "priority",
+                  "removed": "P1"
+                },
+                {
+                  "added": "@@ -1,6 +1,7 @@\n-user-impact-score:1000\r\n platform:windows,mac,linux,android\r\n-impact:site-broken\r\n+impact:annoyance-minor\r\n configuration:general\r\n affects:all\r\n-branch:release\n+branch:release\r\n+diagnosis-team:dom\r\n+user-impact-score:50\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                },
+                {
+                  "added": "P3",
+                  "field_name": "cf_webcompat_priority",
+                  "removed": "P1"
+                },
+                {
+                  "added": "4",
+                  "field_name": "cf_webcompat_score",
+                  "removed": "9"
+                }
+              ],
+              "when": "2026-05-13T14:31:36Z",
+              "who": "sky@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "3",
+                  "field_name": "cf_webcompat_score",
+                  "removed": "4"
+                }
+              ],
+              "when": "2026-05-14T08:09:21Z",
+              "who": "release-mgmt-account-bot@mozilla.tld"
+            }
+          ],
+          "id": 2038886
+        }
+      ]
+    }
+  },
+  "show_bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=2038886"
+}

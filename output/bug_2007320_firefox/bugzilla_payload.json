@@ -1,0 +1,314 @@
+{
+  "bug_id": "2007320",
+  "endpoints": {
+    "attachments": "https://bugzilla.mozilla.org/rest/bug/2007320/attachment?exclude_fields=data",
+    "bug": "https://bugzilla.mozilla.org/rest/bug/2007320",
+    "comments": "https://bugzilla.mozilla.org/rest/bug/2007320/comment",
+    "history": "https://bugzilla.mozilla.org/rest/bug/2007320/history"
+  },
+  "fetched_at": "2026-05-25T20:43:34+00:00",
+  "responses": {
+    "attachments": {
+      "attachments": {},
+      "bugs": {
+        "2007320": [
+          {
+            "attacher": "ctanase@mozilla.com",
+            "bug_id": 2007320,
+            "content_type": "image/png",
+            "creation_time": "2025-12-22T06:03:39Z",
+            "creator": "ctanase@mozilla.com",
+            "creator_detail": {
+              "email": "ctanase@mozilla.com",
+              "id": 707939,
+              "name": "ctanase@mozilla.com",
+              "nick": "ctanase",
+              "real_name": "Calin Tanase"
+            },
+            "description": "image.png",
+            "file_name": "image.png",
+            "flags": [],
+            "id": 9534441,
+            "is_obsolete": 0,
+            "is_patch": 0,
+            "is_private": 0,
+            "last_change_time": "2025-12-22T06:03:39Z",
+            "size": 5303150,
+            "summary": "image.png"
+          }
+        ]
+      }
+    },
+    "bug": {
+      "bugs": [
+        {
+          "alias": null,
+          "assigned_to": "nobody@mozilla.org",
+          "assigned_to_detail": {
+            "email": "nobody@mozilla.org",
+            "id": 1,
+            "name": "nobody@mozilla.org",
+            "nick": "nobody",
+            "real_name": "Nobody; OK to take it and work on it"
+          },
+          "blocks": [],
+          "cc": [
+            "alice0775@gmail.com",
+            "james@hoppipolla.co.uk"
+          ],
+          "cc_detail": [
+            {
+              "email": "alice0775@gmail.com",
+              "id": 293623,
+              "name": "alice0775@gmail.com",
+              "nick": "alice0775",
+              "real_name": "Alice0775 White"
+            },
+            {
+              "email": "james@hoppipolla.co.uk",
+              "id": 389650,
+              "name": "james@hoppipolla.co.uk",
+              "nick": "jgraham",
+              "real_name": "James Graham [:jgraham]"
+            }
+          ],
+          "cf_a11y_review_project_flag": "---",
+          "cf_accessibility_severity": "---",
+          "cf_cab_review": "---",
+          "cf_fx_iteration": "---",
+          "cf_fx_points": "---",
+          "cf_last_resolved": null,
+          "cf_performance_impact": "---",
+          "cf_qa_whiteboard": "",
+          "cf_status_firefox146": "affected",
+          "cf_status_firefox147": "affected",
+          "cf_status_firefox148": "affected",
+          "cf_status_firefox151": "---",
+          "cf_status_firefox152": "---",
+          "cf_status_firefox153": "---",
+          "cf_status_firefox_esr115": "affected",
+          "cf_status_firefox_esr140": "affected",
+          "cf_tracking_firefox151": "---",
+          "cf_tracking_firefox152": "---",
+          "cf_tracking_firefox153": "---",
+          "cf_tracking_firefox_esr115": "---",
+          "cf_tracking_firefox_esr140": "---",
+          "cf_tracking_firefox_relnote": "---",
+          "cf_user_story": "user-impact-score:18\r\nplatform:windows,mac,linux,android\r\nimpact:content-missing\r\nconfiguration:general\r\naffects:some\r\nbranch:release\r\ndiagnosis-team:layout",
+          "cf_webcompat_priority": "P3",
+          "cf_webcompat_score": "2",
+          "classification": "Client Software",
+          "comment_count": 2,
+          "component": "Site Reports",
+          "creation_time": "2025-12-22T06:02:39Z",
+          "creator": "ctanase@mozilla.com",
+          "creator_detail": {
+            "email": "ctanase@mozilla.com",
+            "id": 707939,
+            "name": "ctanase@mozilla.com",
+            "nick": "ctanase",
+            "real_name": "Calin Tanase"
+          },
+          "depends_on": [],
+          "dupe_of": null,
+          "duplicates": [],
+          "flags": [],
+          "groups": [],
+          "id": 2007320,
+          "is_cc_accessible": true,
+          "is_confirmed": true,
+          "is_creator_accessible": true,
+          "is_open": true,
+          "keywords": [
+            "webcompat:needs-diagnosis",
+            "webcompat:site-report"
+          ],
+          "last_change_time": "2025-12-22T16:11:07Z",
+          "mentors": [],
+          "mentors_detail": [],
+          "op_sys": "Windows 10",
+          "platform": "Desktop",
+          "priority": "P3",
+          "product": "Web Compatibility",
+          "qa_contact": "",
+          "regressed_by": [],
+          "regressions": [],
+          "resolution": "",
+          "see_also": [
+            "https://github.com/webcompat/web-bugs/issues/196553"
+          ],
+          "severity": "S4",
+          "status": "NEW",
+          "summary": "Lines missing in an SVG image on the left and right side, only ones on center get displayed",
+          "target_milestone": "---",
+          "type": "defect",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Tectonic_plates_boundaries_physical_World_map_Wt_180degE_centered-en.svg",
+          "version": "unspecified",
+          "votes": 0,
+          "whiteboard": "[webcompat-source:web-bugs]"
+        }
+      ],
+      "faults": []
+    },
+    "comments": {
+      "bugs": {
+        "2007320": {
+          "comments": [
+            {
+              "attachment_id": null,
+              "author": "ctanase@mozilla.com",
+              "bug_id": 2007320,
+              "count": 0,
+              "creation_time": "2025-12-22T06:02:39Z",
+              "creator": "ctanase@mozilla.com",
+              "id": 17817711,
+              "is_private": false,
+              "raw_text": "**Environment:**\nOperating system: Windows 10\nFirefox version: Firefox 146.0/148\n\n**Steps to reproduce:**\n1. Go to https://upload.wikimedia.org/wikipedia/commons/a/aa/Tectonic_plates_boundaries_physical_World_map_Wt_180degE_centered-en.svg\n2. Zoom out or scroll the map.\n3. Observe the left and right side of the map.\n\n**Expected Behavior:**\nThe lines/continental boundaries are displayed.\n\n**Actual Behavior:**\nThe lines/continental boundaries are missing on the right and left side.\n\n**Notes:**\n- Reproduces regardless of the status of ETP\n- Reproduces in firefox-nightly, and firefox-release\n- Does not reproduce in chrome\n\nCreated from https://github.com/webcompat/web-bugs/issues/196553",
+              "reactions": {},
+              "tags": [],
+              "text": "**Environment:**\nOperating system: Windows 10\nFirefox version: Firefox 146.0/148\n\n**Steps to reproduce:**\n1. Go to https://upload.wikimedia.org/wikipedia/commons/a/aa/Tectonic_plates_boundaries_physical_World_map_Wt_180degE_centered-en.svg\n2. Zoom out or scroll the map.\n3. Observe the left and right side of the map.\n\n**Expected Behavior:**\nThe lines/continental boundaries are displayed.\n\n**Actual Behavior:**\nThe lines/continental boundaries are missing on the right and left side.\n\n**Notes:**\n- Reproduces regardless of the status of ETP\n- Reproduces in firefox-nightly, and firefox-release\n- Does not reproduce in chrome\n\nCreated from https://github.com/webcompat/web-bugs/issues/196553",
+              "time": "2025-12-22T06:02:39Z"
+            },
+            {
+              "attachment_id": 9534441,
+              "author": "ctanase@mozilla.com",
+              "bug_id": 2007320,
+              "count": 1,
+              "creation_time": "2025-12-22T06:03:39Z",
+              "creator": "ctanase@mozilla.com",
+              "id": 17817744,
+              "is_private": false,
+              "raw_text": "",
+              "reactions": {},
+              "tags": [],
+              "text": "Created attachment 9534441\nimage.png",
+              "time": "2025-12-22T06:03:39Z"
+            }
+          ]
+        }
+      },
+      "comments": {}
+    },
+    "history": {
+      "bugs": [
+        {
+          "alias": null,
+          "history": [
+            {
+              "changes": [
+                {
+                  "added": "@@ -1 +1 @@\n-\n+user-impact-score:0\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                },
+                {
+                  "added": "1",
+                  "field_name": "cf_webcompat_score",
+                  "removed": "---"
+                }
+              ],
+              "when": "2025-12-22T08:07:05Z",
+              "who": "release-mgmt-account-bot@mozilla.tld"
+            },
+            {
+              "changes": [
+                {
+                  "added": "alice0775@gmail.com",
+                  "field_name": "cc",
+                  "removed": ""
+                }
+              ],
+              "when": "2025-12-22T08:43:31Z",
+              "who": "alice0775@gmail.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "affected",
+                  "field_name": "cf_status_firefox_esr115",
+                  "removed": "---"
+                },
+                {
+                  "added": "affected",
+                  "field_name": "cf_status_firefox_esr140",
+                  "removed": "---"
+                },
+                {
+                  "added": "affected",
+                  "field_name": "cf_status_firefox146",
+                  "removed": "---"
+                },
+                {
+                  "added": "affected",
+                  "field_name": "cf_status_firefox147",
+                  "removed": "---"
+                },
+                {
+                  "added": "affected",
+                  "field_name": "cf_status_firefox148",
+                  "removed": "---"
+                }
+              ],
+              "when": "2025-12-22T09:30:38Z",
+              "who": "alice0775@gmail.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "@@ -1 +1,7 @@\n-user-impact-score:0\n+user-impact-score:18\r\n+platform:windows,mac,linux,android\r\n+impact:content-missing\r\n+configuration:general\r\n+affects:some\r\n+branch:release\r\n+diagnosis-team:layout\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                },
+                {
+                  "added": "P3",
+                  "field_name": "priority",
+                  "removed": "--"
+                },
+                {
+                  "added": "james@hoppipolla.co.uk",
+                  "field_name": "cc",
+                  "removed": ""
+                },
+                {
+                  "added": "S4",
+                  "field_name": "severity",
+                  "removed": "--"
+                },
+                {
+                  "added": "webcompat:needs-diagnosis",
+                  "field_name": "keywords",
+                  "removed": ""
+                },
+                {
+                  "added": "P3",
+                  "field_name": "cf_webcompat_priority",
+                  "removed": "---"
+                },
+                {
+                  "added": "2",
+                  "field_name": "cf_webcompat_score",
+                  "removed": "1"
+                }
+              ],
+              "when": "2025-12-22T15:16:28Z",
+              "who": "james@hoppipolla.co.uk"
+            },
+            {
+              "changes": [
+                {
+                  "added": "Lines missing in an SVG image on the left and right side, only ones on center get displayed",
+                  "field_name": "summary",
+                  "removed": "upload.wikimedia.org - Lines/Continental boundaries are missing on the left and right side of the map, only the ones on center get displayed"
+                }
+              ],
+              "when": "2025-12-22T16:11:07Z",
+              "who": "a9016009@gmx.de"
+            }
+          ],
+          "id": 2007320
+        }
+      ]
+    }
+  },
+  "show_bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=2007320"
+}

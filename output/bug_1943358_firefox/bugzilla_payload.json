@@ -1,0 +1,728 @@
+{
+  "bug_id": "1943358",
+  "endpoints": {
+    "attachments": "https://bugzilla.mozilla.org/rest/bug/1943358/attachment?exclude_fields=data",
+    "bug": "https://bugzilla.mozilla.org/rest/bug/1943358",
+    "comments": "https://bugzilla.mozilla.org/rest/bug/1943358/comment",
+    "history": "https://bugzilla.mozilla.org/rest/bug/1943358/history"
+  },
+  "fetched_at": "2026-05-25T20:43:57+00:00",
+  "responses": {
+    "attachments": {
+      "attachments": {},
+      "bugs": {
+        "1943358": [
+          {
+            "attacher": "ctanase@mozilla.com",
+            "bug_id": 1943358,
+            "content_type": "video/mp4",
+            "creation_time": "2025-01-23T15:20:36Z",
+            "creator": "ctanase@mozilla.com",
+            "creator_detail": {
+              "email": "ctanase@mozilla.com",
+              "id": 707939,
+              "name": "ctanase@mozilla.com",
+              "nick": "ctanase",
+              "real_name": "Calin Tanase"
+            },
+            "description": "image reposition FF vs Chrome.mp4",
+            "file_name": "image-reposition-FF-vs-Chrome.mp4",
+            "flags": [],
+            "id": 9461319,
+            "is_obsolete": 0,
+            "is_patch": 0,
+            "is_private": 0,
+            "last_change_time": "2025-01-23T15:20:36Z",
+            "size": 2342605,
+            "summary": "image reposition FF vs Chrome.mp4"
+          },
+          {
+            "attacher": "emilio@crisal.io",
+            "bug_id": 1943358,
+            "content_type": "text/html",
+            "creation_time": "2025-12-10T14:48:56Z",
+            "creator": "emilio@crisal.io",
+            "creator_detail": {
+              "email": "emilio@crisal.io",
+              "id": 546716,
+              "name": "emilio@crisal.io",
+              "nick": "emilio",
+              "real_name": "Emilio Cobos \u00c1lvarez [:emilio]"
+            },
+            "description": "Potentially reduced test-case.",
+            "file_name": "file_1943358.txt",
+            "flags": [],
+            "id": 9532054,
+            "is_obsolete": 0,
+            "is_patch": 0,
+            "is_private": 0,
+            "last_change_time": "2025-12-10T14:48:56Z",
+            "size": 632,
+            "summary": "Potentially reduced test-case."
+          }
+        ]
+      }
+    },
+    "bug": {
+      "bugs": [
+        {
+          "alias": null,
+          "assigned_to": "nobody@mozilla.org",
+          "assigned_to_detail": {
+            "email": "nobody@mozilla.org",
+            "id": 1,
+            "name": "nobody@mozilla.org",
+            "nick": "nobody",
+            "real_name": "Nobody; OK to take it and work on it"
+          },
+          "blocks": [
+            1927965
+          ],
+          "cc": [
+            "alice0775@gmail.com",
+            "dholbert@mozilla.com",
+            "emilio@crisal.io",
+            "jmuizelaar@mozilla.com",
+            "masayuki@d-toybox.com",
+            "sean@seanfeng.dev",
+            "sky@mozilla.com"
+          ],
+          "cc_detail": [
+            {
+              "email": "alice0775@gmail.com",
+              "id": 293623,
+              "name": "alice0775@gmail.com",
+              "nick": "alice0775",
+              "real_name": "Alice0775 White"
+            },
+            {
+              "email": "dholbert@mozilla.com",
+              "id": 278074,
+              "name": "dholbert@mozilla.com",
+              "nick": "dholbert",
+              "real_name": "Daniel Holbert [:dholbert]"
+            },
+            {
+              "email": "emilio@crisal.io",
+              "id": 546716,
+              "name": "emilio@crisal.io",
+              "nick": "emilio",
+              "real_name": "Emilio Cobos \u00c1lvarez [:emilio]"
+            },
+            {
+              "email": "jmuizelaar@mozilla.com",
+              "id": 309398,
+              "name": "jmuizelaar@mozilla.com",
+              "nick": "jrmuizel",
+              "real_name": "Jeff Muizelaar [:jrmuizel]"
+            },
+            {
+              "email": "masayuki@d-toybox.com",
+              "id": 34283,
+              "name": "masayuki@d-toybox.com",
+              "nick": "masayuki",
+              "real_name": "Masayuki Nakano [:masayuki] (he/him)(JST, +0900)"
+            },
+            {
+              "email": "sean@seanfeng.dev",
+              "id": 625922,
+              "name": "sean@seanfeng.dev",
+              "nick": "sefeng211",
+              "real_name": "Sean Feng [:sefeng211]"
+            },
+            {
+              "email": "sky@mozilla.com",
+              "id": 421268,
+              "name": "sky@mozilla.com",
+              "nick": "skyschub",
+              "real_name": "Sky Schubert [:skyschub]"
+            }
+          ],
+          "cf_a11y_review_project_flag": "---",
+          "cf_accessibility_severity": "---",
+          "cf_cab_review": "---",
+          "cf_fx_iteration": "---",
+          "cf_fx_points": "---",
+          "cf_last_resolved": null,
+          "cf_performance_impact": "---",
+          "cf_qa_whiteboard": "",
+          "cf_status_firefox134": "affected",
+          "cf_status_firefox135": "affected",
+          "cf_status_firefox136": "affected",
+          "cf_status_firefox151": "---",
+          "cf_status_firefox152": "---",
+          "cf_status_firefox153": "---",
+          "cf_status_firefox_esr115": "---",
+          "cf_status_firefox_esr140": "---",
+          "cf_tracking_firefox151": "---",
+          "cf_tracking_firefox152": "---",
+          "cf_tracking_firefox153": "---",
+          "cf_tracking_firefox_esr115": "---",
+          "cf_tracking_firefox_esr140": "---",
+          "cf_tracking_firefox_relnote": "---",
+          "cf_user_story": "platform:windows,mac,linux\nimpact:feature-broken\nconfiguration:general\naffects:all\nbranch:release\ndiagnosis-team:dom\nuser-impact-score:225\noutreach-assignee:jakea\noutreach-contact-date:2025-12-03",
+          "cf_webcompat_priority": "P2",
+          "cf_webcompat_score": "6",
+          "classification": "Client Software",
+          "comment_count": 18,
+          "component": "Site Reports",
+          "creation_time": "2025-01-23T15:20:36Z",
+          "creator": "ctanase@mozilla.com",
+          "creator_detail": {
+            "email": "ctanase@mozilla.com",
+            "id": 707939,
+            "name": "ctanase@mozilla.com",
+            "nick": "ctanase",
+            "real_name": "Calin Tanase"
+          },
+          "depends_on": [],
+          "dupe_of": null,
+          "duplicates": [],
+          "flags": [],
+          "groups": [],
+          "id": 1943358,
+          "is_cc_accessible": true,
+          "is_confirmed": true,
+          "is_creator_accessible": true,
+          "is_open": true,
+          "keywords": [
+            "webcompat:blocked",
+            "webcompat:contact-in-progress",
+            "webcompat:needs-diagnosis",
+            "webcompat:site-report"
+          ],
+          "last_change_time": "2026-05-13T14:29:57Z",
+          "mentors": [],
+          "mentors_detail": [],
+          "op_sys": "Windows 10",
+          "platform": "Desktop",
+          "priority": "P2",
+          "product": "Web Compatibility",
+          "qa_contact": "",
+          "regressed_by": [],
+          "regressions": [],
+          "resolution": "",
+          "see_also": [
+            "https://bugzilla.mozilla.org/show_bug.cgi?id=2005275"
+          ],
+          "severity": "S3",
+          "status": "NEW",
+          "summary": "notion.so - \"Reposition\" feature for images does not work",
+          "target_milestone": "---",
+          "type": "defect",
+          "url": "https://www.notion.so/",
+          "version": "Firefox 136",
+          "votes": 0,
+          "whiteboard": "[webcompat-source:product]"
+        }
+      ],
+      "faults": []
+    },
+    "comments": {
+      "bugs": {
+        "1943358": {
+          "comments": [
+            {
+              "attachment_id": 9461319,
+              "author": "ctanase@mozilla.com",
+              "bug_id": 1943358,
+              "count": 0,
+              "creation_time": "2025-01-23T15:20:36Z",
+              "creator": "ctanase@mozilla.com",
+              "id": 17312152,
+              "is_private": false,
+              "raw_text": "**Environment:**\nOperating system: Linux / Windows 10\nFirefox version: Firefox 134.0 (release) / 136\n\n**Preconditions:**\n- Account needed (login with Google account available)\n- Clean profile\n\n**Steps to reproduce:**\n1. Navigate to: https://www.notion.so/\n2. Log in with your account.\n3. Go to an existing page (or create one by clicking on the button \"Create a new page\" next to your account name).\n4. Hover above the page title.\n5. Click on \"Add cover\".\n6. Hover over the cover and  click \"Reposition\".\n7. Click and drag down the cover and release.\n8. Observe the behavior.\n\n**Expected Behavior:**\nThe cover position changes and can be saved.\n\n**Actual Behavior:**\nThe cover position resets and editing mode cancels.\n\n**Notes:**\n- Reproducible on the latest Firefox Release and Nightly\n- Reproducible regardless of the ETP setting\n- Works as expected using Chrome\n\n---\n\nCreated from webcompat-user-report:9c0163eb-a3e8-4c23-b759-c25bb1a3cc1a",
+              "reactions": {},
+              "tags": [],
+              "text": "Created attachment 9461319\nimage reposition FF vs Chrome.mp4\n\n**Environment:**\nOperating system: Linux / Windows 10\nFirefox version: Firefox 134.0 (release) / 136\n\n**Preconditions:**\n- Account needed (login with Google account available)\n- Clean profile\n\n**Steps to reproduce:**\n1. Navigate to: https://www.notion.so/\n2. Log in with your account.\n3. Go to an existing page (or create one by clicking on the button \"Create a new page\" next to your account name).\n4. Hover above the page title.\n5. Click on \"Add cover\".\n6. Hover over the cover and  click \"Reposition\".\n7. Click and drag down the cover and release.\n8. Observe the behavior.\n\n**Expected Behavior:**\nThe cover position changes and can be saved.\n\n**Actual Behavior:**\nThe cover position resets and editing mode cancels.\n\n**Notes:**\n- Reproducible on the latest Firefox Release and Nightly\n- Reproducible regardless of the ETP setting\n- Works as expected using Chrome\n\n---\n\nCreated from webcompat-user-report:9c0163eb-a3e8-4c23-b759-c25bb1a3cc1a",
+              "time": "2025-01-23T15:20:36Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "release-mgmt-account-bot@mozilla.tld",
+              "bug_id": 1943358,
+              "count": 1,
+              "creation_time": "2025-01-23T15:40:49Z",
+              "creator": "release-mgmt-account-bot@mozilla.tld",
+              "id": 17312176,
+              "is_private": false,
+              "raw_text": "Since nightly and release are affected, beta will likely be affected too.\nFor more information, please visit [BugBot documentation](https://wiki.mozilla.org/BugBot#missing_beta_status.py).",
+              "reactions": {},
+              "tags": [],
+              "text": "Since nightly and release are affected, beta will likely be affected too.\nFor more information, please visit [BugBot documentation](https://wiki.mozilla.org/BugBot#missing_beta_status.py).",
+              "time": "2025-01-23T15:40:49Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "sean@seanfeng.dev",
+              "bug_id": 1943358,
+              "count": 2,
+              "creation_time": "2025-02-05T22:39:30Z",
+              "creator": "sean@seanfeng.dev",
+              "id": 17334205,
+              "is_private": false,
+              "raw_text": "I haven't found the root cause of this so far..still looking",
+              "reactions": {},
+              "tags": [],
+              "text": "I haven't found the root cause of this so far..still looking",
+              "time": "2025-02-05T22:39:30Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "sean@seanfeng.dev",
+              "bug_id": 1943358,
+              "count": 3,
+              "creation_time": "2025-02-07T00:40:57Z",
+              "creator": "sean@seanfeng.dev",
+              "id": 17336143,
+              "is_private": false,
+              "raw_text": "Upon the `mouseup` event handling, the site executes these code in Firefox.\n```\n          (\n            () => function (e, t, o) {\n              return (0, c().hj) (o) ? o : function (e, t) {\n                if ('gallery' === e || 'board' === e) {\n                  const e = t.getFormat().card_cover_position;\n                  if ((0, c().hj) (e)) return e\n                }\n                const o = 0.5;\n                if (t.isCollectionView()) {\n                  const e = t.getCollectionViewCollectionStore();\n                  if (e) {\n                    const t = e.getFormat().collection_cover_position;\n                    return (0, p().z4) (t) ? o : t\n                  }\n                }\n                const n = t.getFormat(),\n                r = n.page_cover_position;\n                if ((0, c().hj) (r)) return r;\n                return o\n              }(e, t)\n            }(S, x, d.temporaryPosition)\n```\nThat `const o = 0.5;` is the key here, basically the above code will reset the `object-position` property for this image to 50%. \n\nBy comparing the execution, the code differs at this function\n```\n        const h = function(e) {\n            const t = (0,\n            n.useRef)(null)\n              , r = (0,\n            i().O7)()\n              , {isMobile: s} = (0,\n            i().Fy)()\n              , [d,u] = (0,\n            n.useState)(f)\n              , g = (0,\n            n.useCallback)(( () => {\n                u(f)\n            }\n            ), [])\n              , {renderControl: h, onFlushTemporaryPosition: v, style: b, source: S, store: x} = e\n              , {isRepositioning: C, image: k, startDragRenderedPosition: P, startDragImageScreenHeight: w} = d\n              , M = (0,\n            a().VK)(( () => 0 === o(965903).default.state.stores.length), [])\n              , [_,I] = (0,\n            n.useState)(!1)\n              , T = (0,\n            a().qz)(e.mouseStore, o(233417).Z)\n              , R = (0,\n```\nIt's the `default.state.stores.length` value is different between Firefox and Chrome. It was 1 in Firefox and 0 in Chrome, that caused the callstack becomes different, and Chrome didn't execute the function that reset its position.",
+              "reactions": {},
+              "tags": [],
+              "text": "Upon the `mouseup` event handling, the site executes these code in Firefox.\n```\n          (\n            () => function (e, t, o) {\n              return (0, c().hj) (o) ? o : function (e, t) {\n                if ('gallery' === e || 'board' === e) {\n                  const e = t.getFormat().card_cover_position;\n                  if ((0, c().hj) (e)) return e\n                }\n                const o = 0.5;\n                if (t.isCollectionView()) {\n                  const e = t.getCollectionViewCollectionStore();\n                  if (e) {\n                    const t = e.getFormat().collection_cover_position;\n                    return (0, p().z4) (t) ? o : t\n                  }\n                }\n                const n = t.getFormat(),\n                r = n.page_cover_position;\n                if ((0, c().hj) (r)) return r;\n                return o\n              }(e, t)\n            }(S, x, d.temporaryPosition)\n```\nThat `const o = 0.5;` is the key here, basically the above code will reset the `object-position` property for this image to 50%. \n\nBy comparing the execution, the code differs at this function\n```\n        const h = function(e) {\n            const t = (0,\n            n.useRef)(null)\n              , r = (0,\n            i().O7)()\n              , {isMobile: s} = (0,\n            i().Fy)()\n              , [d,u] = (0,\n            n.useState)(f)\n              , g = (0,\n            n.useCallback)(( () => {\n                u(f)\n            }\n            ), [])\n              , {renderControl: h, onFlushTemporaryPosition: v, style: b, source: S, store: x} = e\n              , {isRepositioning: C, image: k, startDragRenderedPosition: P, startDragImageScreenHeight: w} = d\n              , M = (0,\n            a().VK)(( () => 0 === o(965903).default.state.stores.length), [])\n              , [_,I] = (0,\n            n.useState)(!1)\n              , T = (0,\n            a().qz)(e.mouseStore, o(233417).Z)\n              , R = (0,\n```\nIt's the `default.state.stores.length` value is different between Firefox and Chrome. It was 1 in Firefox and 0 in Chrome, that caused the callstack becomes different, and Chrome didn't execute the function that reset its position.",
+              "time": "2025-02-07T00:40:57Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "dholbert@mozilla.com",
+              "bug_id": 1943358,
+              "count": 4,
+              "creation_time": "2025-02-07T19:27:54Z",
+              "creator": "dholbert@mozilla.com",
+              "id": 17337542,
+              "is_private": false,
+              "raw_text": "For reference, the JS in comment 3 is here, for me at least:\nhttps://www.notion.so/_assets/73155-2def67dbe976f2b2.js\n\nI spent a little while poking around to see if I could learn more about why `o(965903).default.state.stores.length` is different when mouseup arrives, but it's non-trivial...  I did find that `o` here seems to be some sort of registry of various objects with numeric IDs, and the `965903` object-id is only passed in a few places. In particular, the places I found were: the spot quoted in comment 3, and here:\n```\n      z = () => o(965903),\n```\nhttps://www.notion.so/_assets/floatingTableOfContents-4211eca2e9c2929d.js\n(so in that file, all `z()` usages are referring to this same object with the all-important `default.state.stores.length` value)\n\n...and in a bunch of spots in this file (with different single-character aliases similar to the `z` one above):\nhttps://www.notion.so/_assets/91852-b680287d52efaae9.js\n\nI'm not immediately finding where/why that object's `default.state.stores` array is going from empty to non-empty, though.",
+              "reactions": {},
+              "tags": [],
+              "text": "For reference, the JS in comment 3 is here, for me at least:\nhttps://www.notion.so/_assets/73155-2def67dbe976f2b2.js\n\nI spent a little while poking around to see if I could learn more about why `o(965903).default.state.stores.length` is different when mouseup arrives, but it's non-trivial...  I did find that `o` here seems to be some sort of registry of various objects with numeric IDs, and the `965903` object-id is only passed in a few places. In particular, the places I found were: the spot quoted in comment 3, and here:\n```\n      z = () => o(965903),\n```\nhttps://www.notion.so/_assets/floatingTableOfContents-4211eca2e9c2929d.js\n(so in that file, all `z()` usages are referring to this same object with the all-important `default.state.stores.length` value)\n\n...and in a bunch of spots in this file (with different single-character aliases similar to the `z` one above):\nhttps://www.notion.so/_assets/91852-b680287d52efaae9.js\n\nI'm not immediately finding where/why that object's `default.state.stores` array is going from empty to non-empty, though.",
+              "time": "2025-02-07T19:27:54Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "sean@seanfeng.dev",
+              "bug_id": 1943358,
+              "count": 5,
+              "creation_time": "2025-02-07T22:25:09Z",
+              "creator": "sean@seanfeng.dev",
+              "id": 17337757,
+              "is_private": false,
+              "raw_text": "Thanks Daniel! \n\nI think we've spent enough time to diagnosis bug, I'll just put this into the blocked queue.",
+              "reactions": {},
+              "tags": [],
+              "text": "Thanks Daniel! \n\nI think we've spent enough time to diagnosis bug, I'll just put this into the blocked queue.",
+              "time": "2025-02-07T22:25:09Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "jmuizelaar@mozilla.com",
+              "bug_id": 1943358,
+              "count": 6,
+              "creation_time": "2025-02-14T19:29:42Z",
+              "creator": "jmuizelaar@mozilla.com",
+              "id": 17349634,
+              "is_private": false,
+              "raw_text": "We tried debugging this during our needs diagnosis meeting. We didn't get that far.\n\nI've reached out to Notion but haven't heard back yet.",
+              "reactions": {},
+              "tags": [],
+              "text": "We tried debugging this during our needs diagnosis meeting. We didn't get that far.\n\nI've reached out to Notion but haven't heard back yet.",
+              "time": "2025-02-14T19:29:42Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "jmuizelaar@mozilla.com",
+              "bug_id": 1943358,
+              "count": 7,
+              "creation_time": "2025-12-04T02:20:18Z",
+              "creator": "jmuizelaar@mozilla.com",
+              "id": 17792472,
+              "is_private": false,
+              "raw_text": "The `.default.state.stores.length` code looks more like this now:\n```\n        i = (0, n(484714).v3) (),\n        {\n          renderControl: a,\n          onFlushTemporaryPosition: s,\n          style: d,\n          source: p,\n          store: y\n        }\n        = e,\n        v = (0, r().K8) ((() => 0 === n(502438).default.state.stores.length), []),\n```",
+              "reactions": {},
+              "tags": [],
+              "text": "The `.default.state.stores.length` code looks more like this now:\n```\n        i = (0, n(484714).v3) (),\n        {\n          renderControl: a,\n          onFlushTemporaryPosition: s,\n          style: d,\n          source: p,\n          store: y\n        }\n        = e,\n        v = (0, r().K8) ((() => 0 === n(502438).default.state.stores.length), []),\n```",
+              "time": "2025-12-04T02:20:18Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "jmuizelaar@mozilla.com",
+              "bug_id": 1943358,
+              "count": 8,
+              "creation_time": "2025-12-04T04:49:39Z",
+              "creator": "jmuizelaar@mozilla.com",
+              "id": 17792533,
+              "is_private": false,
+              "raw_text": "It looks like `stores` is filled with code around here:\n```js\n                   if ((0, v().K) (o)) {\n                      var r;\n                      let e = (0, y().T) (o.start.store);\n                      if (\n                        (null === (r = e) || void 0 === r ? void 0 : r.getType()) === s().xd.tableRow\n                      ) {\n                        var a;\n                        const t = null === (a = e.getRecordStoreUIParent()) ||\n                        void 0 === a ? void 0 : a.recordStoreUIParentStore;\n                        t &&\n                        t instanceof m().B &&\n                        (e = t)\n                      }\n                      if (!e) return;\n                      return {\n                        stores: [\n                          e\n                        ]\n                      }\n```",
+              "reactions": {},
+              "tags": [],
+              "text": "It looks like `stores` is filled with code around here:\n```js\n                   if ((0, v().K) (o)) {\n                      var r;\n                      let e = (0, y().T) (o.start.store);\n                      if (\n                        (null === (r = e) || void 0 === r ? void 0 : r.getType()) === s().xd.tableRow\n                      ) {\n                        var a;\n                        const t = null === (a = e.getRecordStoreUIParent()) ||\n                        void 0 === a ? void 0 : a.recordStoreUIParentStore;\n                        t &&\n                        t instanceof m().B &&\n                        (e = t)\n                      }\n                      if (!e) return;\n                      return {\n                        stores: [\n                          e\n                        ]\n                      }\n```",
+              "time": "2025-12-04T04:49:39Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "jmuizelaar@mozilla.com",
+              "bug_id": 1943358,
+              "count": 9,
+              "creation_time": "2025-12-04T04:58:52Z",
+              "creator": "jmuizelaar@mozilla.com",
+              "id": 17792538,
+              "is_private": false,
+              "raw_text": "And that seems to be coming from code having to do with selection:\n```\n                                A('onSelect: delegateSelection', t),\n                                t.leaf.delegateSelection('start')\n```",
+              "reactions": {},
+              "tags": [],
+              "text": "And that seems to be coming from code having to do with selection:\n```\n                                A('onSelect: delegateSelection', t),\n                                t.leaf.delegateSelection('start')\n```",
+              "time": "2025-12-04T04:58:52Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "jmuizelaar@mozilla.com",
+              "bug_id": 1943358,
+              "count": 10,
+              "creation_time": "2025-12-04T05:05:00Z",
+              "creator": "jmuizelaar@mozilla.com",
+              "id": 17792570,
+              "is_private": false,
+              "raw_text": "There's this code:\n```js\nif (A(\"onSelect (react selection)\", d().toStaticRange(n)),\n                !ne.current && n && ue.current && n.commonAncestorContainer === ue.current)\n```\nChrome seems to be getting `true` for `n.commonAncestorContainer === ue.current` and we get false.",
+              "reactions": {},
+              "tags": [],
+              "text": "There's this code:\n```js\nif (A(\"onSelect (react selection)\", d().toStaticRange(n)),\n                !ne.current && n && ue.current && n.commonAncestorContainer === ue.current)\n```\nChrome seems to be getting `true` for `n.commonAncestorContainer === ue.current` and we get false.",
+              "time": "2025-12-04T05:05:00Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "jmuizelaar@mozilla.com",
+              "bug_id": 1943358,
+              "count": 11,
+              "creation_time": "2025-12-04T14:26:00Z",
+              "creator": "jmuizelaar@mozilla.com",
+              "id": 17793175,
+              "is_private": false,
+              "raw_text": "`n` is a selection range and `n.commonAncestorContainer` is `<div class=layout>` in Firefox but matches `ue.current` in Chrome which is a small `<span>`",
+              "reactions": {},
+              "tags": [],
+              "text": "`n` is a selection range and `n.commonAncestorContainer` is `<div class=layout>` in Firefox but matches `ue.current` in Chrome which is a small `<span>`",
+              "time": "2025-12-04T14:26:00Z"
+            },
+            {
+              "attachment_id": 9532054,
+              "author": "emilio@crisal.io",
+              "bug_id": 1943358,
+              "count": 12,
+              "creation_time": "2025-12-10T14:48:56Z",
+              "creator": "emilio@crisal.io",
+              "id": 17801910,
+              "is_private": false,
+              "raw_text": "Dragging over the image doesn't change the selection in chrome, but it focuses the toplevel editor and collapses the selection to start in Firefox.\n\nI think that at least explains the selection change Jeff is seeing.",
+              "reactions": {},
+              "tags": [],
+              "text": "Created attachment 9532054\nPotentially reduced test-case.\n\nDragging over the image doesn't change the selection in chrome, but it focuses the toplevel editor and collapses the selection to start in Firefox.\n\nI think that at least explains the selection change Jeff is seeing.",
+              "time": "2025-12-10T14:48:56Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "emilio@crisal.io",
+              "bug_id": 1943358,
+              "count": 13,
+              "creation_time": "2025-12-10T14:59:29Z",
+              "creator": "emilio@crisal.io",
+              "id": 17801932,
+              "is_private": false,
+              "raw_text": "The first selection change comes from:\n\n```\n#12 0x00007f2d8c78d0ad in mozilla::SelectionChangeEventDispatcher::OnSelectionChange (this=this@entry=0x7f2d827e8f20, aDoc=0x7f2d830d5200, aSel=aSel@entry=0x7f2d9c14fbc0, aReason=0)\n    at /home/emilio/src/moz/firefox-2/dom/base/SelectionChangeEventDispatcher.cpp:77\n#13 0x00007f2d8c787e1f in mozilla::dom::Selection::NotifySelectionListeners (this=this@entry=0x7f2d9c14fbc0) at /home/emilio/src/moz/firefox-2/dom/base/Selection.cpp:4064\n#14 0x00007f2d8c77fcd5 in mozilla::dom::Selection::RemoveAllRangesInternal (this=0x7f2d9c14fbc0, aRv=<optimized out>, aIsUnlinking=<optimized out>) at /home/emilio/src/moz/firefox-2/dom/base/Selection.cpp:2573\n#15 0x00007f2d90d6353d in nsFrameSelection::ClearNormalSelection (this=this@entry=0x7f2d9c14f780) at /home/emilio/src/moz/firefox-2/layout/generic/nsFrameSelection.cpp:2186\n#16 0x00007f2d90d66771 in nsFrameSelection::SetAncestorLimiter (this=0x7f2d9c14f780, aLimiter=<optimized out>) at /home/emilio/src/moz/firefox-2/layout/generic/nsFrameSelection.cpp:3083\n#17 0x00007f2d8c786a58 in mozilla::dom::Selection::SetAncestorLimiter (this=<optimized out>, aLimiter=0x7f2d812045e0) at /home/emilio/src/moz/firefox-2/dom/base/Selection.cpp:2312\n#18 0x00007f2d908ee2e2 in mozilla::HTMLEditor::InitializeSelectionAncestorLimit (this=0x7f2d82744800, aAncestorLimit=...) at /home/emilio/src/moz/firefox-2/editor/libeditor/HTMLEditor.cpp:1093\n#19 0x00007f2d9084d2c4 in mozilla::EditorBase::InitializeSelection (this=0x7f2d82744800, aOriginalEventTargetNode=<optimized out>) at /home/emilio/src/moz/firefox-2/editor/libeditor/EditorBase.cpp:5798\n#20 0x00007f2d908693cb in mozilla::EditorBase::OnFocus (this=0x2, aOriginalEventTargetNode=...) at /home/emilio/src/moz/firefox-2/editor/libeditor/EditorBase.cpp:6204\n#21 0x00007f2d908ec782 in mozilla::HTMLEditor::OnFocus (this=0x7f2d82744800, aOriginalEventTargetNode=...) at /home/emilio/src/moz/firefox-2/editor/libeditor/HTMLEditor.cpp:795\n#22 0x00007f2d9088c9fb in mozilla::EditorEventListener::Focus (this=this@entry=0x7f2d82738f70, aFocusEvent=<optimized out>) at /home/emilio/src/moz/firefox-2/editor/libeditor/EditorEventListener.cpp:1171\n#23 0x00007f2d9088bb63 in mozilla::EditorEventListener::HandleEvent (this=this@entry=0x7f2d82738f70, aEvent=aEvent@entry=0x7f2d846b5f90) at /home/emilio/src/moz/firefox-2/editor/libeditor/EditorEventListener.cpp:449\n#24 0x00007f2d9095c335 in mozilla::HTMLEditorEventListener::HandleEvent (this=0x7f2d82738f70, aEvent=0x7f2d846b5f90) at /home/emilio/src/moz/firefox-2/editor/libeditor/HTMLEditorEventListener.cpp:102\n#25 0x00007f2d8e5c7922 in mozilla::EventListenerManager::HandleEventSingleListener (this=this@entry=0x7f2d83a1aca0, aListener=<optimized out>,\n    aListener@entry=0x7f2d8467af58, aTypeAtom=aTypeAtom@entry=0x7f2d86cfde84 <mozilla::detail::gGkAtoms+73436>, aEvent=aEvent@entry=0x7ffe2d07d8a0, aDOMEvent=0x7f2d846b5f90, aCurrentTarget=0x7f2d9c132b80, aItemInShadowTree=<optimized out>)\n    at /home/emilio/src/moz/firefox-2/dom/events/EventListenerManager.cpp:1273\n```",
+              "reactions": {},
+              "tags": [],
+              "text": "The first selection change comes from:\n\n```\n#12 0x00007f2d8c78d0ad in mozilla::SelectionChangeEventDispatcher::OnSelectionChange (this=this@entry=0x7f2d827e8f20, aDoc=0x7f2d830d5200, aSel=aSel@entry=0x7f2d9c14fbc0, aReason=0)\n    at /home/emilio/src/moz/firefox-2/dom/base/SelectionChangeEventDispatcher.cpp:77\n#13 0x00007f2d8c787e1f in mozilla::dom::Selection::NotifySelectionListeners (this=this@entry=0x7f2d9c14fbc0) at /home/emilio/src/moz/firefox-2/dom/base/Selection.cpp:4064\n#14 0x00007f2d8c77fcd5 in mozilla::dom::Selection::RemoveAllRangesInternal (this=0x7f2d9c14fbc0, aRv=<optimized out>, aIsUnlinking=<optimized out>) at /home/emilio/src/moz/firefox-2/dom/base/Selection.cpp:2573\n#15 0x00007f2d90d6353d in nsFrameSelection::ClearNormalSelection (this=this@entry=0x7f2d9c14f780) at /home/emilio/src/moz/firefox-2/layout/generic/nsFrameSelection.cpp:2186\n#16 0x00007f2d90d66771 in nsFrameSelection::SetAncestorLimiter (this=0x7f2d9c14f780, aLimiter=<optimized out>) at /home/emilio/src/moz/firefox-2/layout/generic/nsFrameSelection.cpp:3083\n#17 0x00007f2d8c786a58 in mozilla::dom::Selection::SetAncestorLimiter (this=<optimized out>, aLimiter=0x7f2d812045e0) at /home/emilio/src/moz/firefox-2/dom/base/Selection.cpp:2312\n#18 0x00007f2d908ee2e2 in mozilla::HTMLEditor::InitializeSelectionAncestorLimit (this=0x7f2d82744800, aAncestorLimit=...) at /home/emilio/src/moz/firefox-2/editor/libeditor/HTMLEditor.cpp:1093\n#19 0x00007f2d9084d2c4 in mozilla::EditorBase::InitializeSelection (this=0x7f2d82744800, aOriginalEventTargetNode=<optimized out>) at /home/emilio/src/moz/firefox-2/editor/libeditor/EditorBase.cpp:5798\n#20 0x00007f2d908693cb in mozilla::EditorBase::OnFocus (this=0x2, aOriginalEventTargetNode=...) at /home/emilio/src/moz/firefox-2/editor/libeditor/EditorBase.cpp:6204\n#21 0x00007f2d908ec782 in mozilla::HTMLEditor::OnFocus (this=0x7f2d82744800, aOriginalEventTargetNode=...) at /home/emilio/src/moz/firefox-2/editor/libeditor/HTMLEditor.cpp:795\n#22 0x00007f2d9088c9fb in mozilla::EditorEventListener::Focus (this=this@entry=0x7f2d82738f70, aFocusEvent=<optimized out>) at /home/emilio/src/moz/firefox-2/editor/libeditor/EditorEventListener.cpp:1171\n#23 0x00007f2d9088bb63 in mozilla::EditorEventListener::HandleEvent (this=this@entry=0x7f2d82738f70, aEvent=aEvent@entry=0x7f2d846b5f90) at /home/emilio/src/moz/firefox-2/editor/libeditor/EditorEventListener.cpp:449\n#24 0x00007f2d9095c335 in mozilla::HTMLEditorEventListener::HandleEvent (this=0x7f2d82738f70, aEvent=0x7f2d846b5f90) at /home/emilio/src/moz/firefox-2/editor/libeditor/HTMLEditorEventListener.cpp:102\n#25 0x00007f2d8e5c7922 in mozilla::EventListenerManager::HandleEventSingleListener (this=this@entry=0x7f2d83a1aca0, aListener=<optimized out>,\n    aListener@entry=0x7f2d8467af58, aTypeAtom=aTypeAtom@entry=0x7f2d86cfde84 <mozilla::detail::gGkAtoms+73436>, aEvent=aEvent@entry=0x7ffe2d07d8a0, aDOMEvent=0x7f2d846b5f90, aCurrentTarget=0x7f2d9c132b80, aItemInShadowTree=<optimized out>)\n    at /home/emilio/src/moz/firefox-2/dom/events/EventListenerManager.cpp:1273\n```",
+              "time": "2025-12-10T14:59:29Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "jmuizelaar@mozilla.com",
+              "bug_id": 1943358,
+              "count": 14,
+              "creation_time": "2025-12-10T16:36:22Z",
+              "creator": "jmuizelaar@mozilla.com",
+              "id": 17802144,
+              "is_private": false,
+              "raw_text": "Masayuki, thoughts about our behaviour vs. Chrome's on the test case?",
+              "reactions": {},
+              "tags": [],
+              "text": "Masayuki, thoughts about our behaviour vs. Chrome's on the test case?",
+              "time": "2025-12-10T16:36:22Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "emilio@crisal.io",
+              "bug_id": 1943358,
+              "count": 15,
+              "creation_time": "2025-12-10T17:44:04Z",
+              "creator": "emilio@crisal.io",
+              "id": 17802277,
+              "is_private": false,
+              "raw_text": "I confirmed that a patch like this:\n\n```diff\ndiff --git a/editor/libeditor/EditorBase.cpp b/editor/libeditor/EditorBase.cpp\nindex ab31cb916f665..27a1da98d3981 100644\n--- a/editor/libeditor/EditorBase.cpp\n+++ b/editor/libeditor/EditorBase.cpp\n@@ -5765,6 +5765,8 @@ nsresult EditorBase::InitializeSelection(\n     return NS_ERROR_FAILURE;\n   }\n\n+  return NS_OK;\n+\n   // Init the caret\n   RefPtr<nsCaret> caret = GetCaret();\n   if (NS_WARN_IF(!caret)) {\n```\n\nFixes the notion issue (of course it causes other issues elsewhere).",
+              "reactions": {},
+              "tags": [],
+              "text": "I confirmed that a patch like this:\n\n```diff\ndiff --git a/editor/libeditor/EditorBase.cpp b/editor/libeditor/EditorBase.cpp\nindex ab31cb916f665..27a1da98d3981 100644\n--- a/editor/libeditor/EditorBase.cpp\n+++ b/editor/libeditor/EditorBase.cpp\n@@ -5765,6 +5765,8 @@ nsresult EditorBase::InitializeSelection(\n     return NS_ERROR_FAILURE;\n   }\n\n+  return NS_OK;\n+\n   // Init the caret\n   RefPtr<nsCaret> caret = GetCaret();\n   if (NS_WARN_IF(!caret)) {\n```\n\nFixes the notion issue (of course it causes other issues elsewhere).",
+              "time": "2025-12-10T17:44:04Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "masayuki@d-toybox.com",
+              "bug_id": 1943358,
+              "count": 16,
+              "creation_time": "2025-12-10T23:42:25Z",
+              "creator": "masayuki@d-toybox.com",
+              "id": 17802765,
+              "is_private": false,
+              "raw_text": "Sounds like Chrome does not make the editing host get focused when it does not have focus and mouse down on non-editable element. If it's right, I guess [`EventStateManager::PostHandleEvent` sets focus to the editing host](https://searchfox.org/firefox-main/rev/55aaa33f526ad11857e3f2e07a87daef1aa56ad4/dom/events/EventStateManager.cpp#915,4111,4129-4130) and modifying here will fix this bug. Although I don't have much time for now because this is a risky change and may need follow up work for regressions.",
+              "reactions": {},
+              "tags": [],
+              "text": "Sounds like Chrome does not make the editing host get focused when it does not have focus and mouse down on non-editable element. If it's right, I guess [`EventStateManager::PostHandleEvent` sets focus to the editing host](https://searchfox.org/firefox-main/rev/55aaa33f526ad11857e3f2e07a87daef1aa56ad4/dom/events/EventStateManager.cpp#915,4111,4129-4130) and modifying here will fix this bug. Although I don't have much time for now because this is a risky change and may need follow up work for regressions.",
+              "time": "2025-12-10T23:42:25Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "emilio@crisal.io",
+              "bug_id": 1943358,
+              "count": 17,
+              "creation_time": "2025-12-10T23:45:45Z",
+              "creator": "emilio@crisal.io",
+              "id": 17802771,
+              "is_private": false,
+              "raw_text": "Chrome does seem to focus it tho, there's a focusring around the editable element. It's just the caret doesn't get moved.",
+              "reactions": {},
+              "tags": [],
+              "text": "Chrome does seem to focus it tho, there's a focusring around the editable element. It's just the caret doesn't get moved.",
+              "time": "2025-12-10T23:45:45Z"
+            }
+          ]
+        }
+      },
+      "comments": {}
+    },
+    "history": {
+      "bugs": [
+        {
+          "alias": null,
+          "history": [
+            {
+              "changes": [
+                {
+                  "added": "affected",
+                  "field_name": "cf_status_firefox135",
+                  "removed": "---"
+                }
+              ],
+              "when": "2025-01-23T15:40:49Z",
+              "who": "release-mgmt-account-bot@mozilla.tld"
+            },
+            {
+              "changes": [
+                {
+                  "added": "alice0775@gmail.com",
+                  "field_name": "cc",
+                  "removed": ""
+                }
+              ],
+              "when": "2025-01-23T15:42:56Z",
+              "who": "alice0775@gmail.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "P3",
+                  "field_name": "cf_webcompat_priority",
+                  "removed": "---"
+                }
+              ],
+              "when": "2025-01-24T20:40:38Z",
+              "who": "james@hoppipolla.co.uk"
+            },
+            {
+              "changes": [
+                {
+                  "added": "P2",
+                  "field_name": "priority",
+                  "removed": "--"
+                },
+                {
+                  "added": "@@ -1 +1,7 @@\n-\n+platform:windows,mac,linux\r\n+impact:feature-broken\r\n+configuration:general\r\n+affects:all\r\n+branch:release\r\n+diagnosis-team:dom\r\n+user-impact-score:300\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                },
+                {
+                  "added": "dschubert@mozilla.com",
+                  "field_name": "cc",
+                  "removed": ""
+                },
+                {
+                  "added": "S3",
+                  "field_name": "severity",
+                  "removed": "--"
+                },
+                {
+                  "added": "webcompat:needs-diagnosis",
+                  "field_name": "keywords",
+                  "removed": ""
+                },
+                {
+                  "added": "P2",
+                  "field_name": "cf_webcompat_priority",
+                  "removed": "P3"
+                }
+              ],
+              "when": "2025-01-27T16:18:50Z",
+              "who": "sky@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "sefeng@mozilla.com",
+                  "field_name": "cc",
+                  "removed": ""
+                }
+              ],
+              "when": "2025-02-05T22:39:30Z",
+              "who": "sean@seanfeng.dev"
+            },
+            {
+              "changes": [
+                {
+                  "added": "dholbert@mozilla.com",
+                  "field_name": "cc",
+                  "removed": ""
+                }
+              ],
+              "when": "2025-02-07T19:27:54Z",
+              "who": "dholbert@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "webcompat:blocked",
+                  "field_name": "keywords",
+                  "removed": ""
+                }
+              ],
+              "when": "2025-02-07T22:25:09Z",
+              "who": "sean@seanfeng.dev"
+            },
+            {
+              "changes": [
+                {
+                  "added": "1927965",
+                  "field_name": "blocks",
+                  "removed": ""
+                }
+              ],
+              "when": "2025-02-11T17:16:09Z",
+              "who": "dholbert@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "jmuizelaar@mozilla.com",
+                  "field_name": "cc",
+                  "removed": ""
+                },
+                {
+                  "added": "webcompat:contact-in-progress",
+                  "field_name": "keywords",
+                  "removed": ""
+                },
+                {
+                  "added": "@@ -4,4 +4,6 @@\n affects:all\r\n branch:release\r\n diagnosis-team:dom\r\n-user-impact-score:300\n+user-impact-score:300\r\n+outreach-assignee:jrmuizel\r\n+outreach-contact-date:2025-02-13\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                }
+              ],
+              "when": "2025-02-14T19:29:42Z",
+              "who": "jmuizelaar@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "6",
+                  "field_name": "cf_webcompat_score",
+                  "removed": "---"
+                }
+              ],
+              "when": "2025-02-26T17:51:27Z",
+              "who": "release-mgmt-account-bot@mozilla.tld"
+            },
+            {
+              "changes": [
+                {
+                  "added": "@@ -5,5 +5,5 @@\n branch:release\r\n diagnosis-team:dom\r\n user-impact-score:300\r\n-outreach-assignee:jrmuizel\r\n+outreach-assignee:jakea\r\n-outreach-contact-date:2025-02-13\n+outreach-contact-date:2025-12-03\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                }
+              ],
+              "when": "2025-12-03T15:34:25Z",
+              "who": "sky@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "emilio@crisal.io",
+                  "field_name": "cc",
+                  "removed": ""
+                }
+              ],
+              "when": "2025-12-10T14:34:23Z",
+              "who": "emilio@crisal.io"
+            },
+            {
+              "changes": [
+                {
+                  "added": "masayuki@d-toybox.com",
+                  "field_name": "cc",
+                  "removed": ""
+                },
+                {
+                  "added": "needinfo?(masayuki@d-toybox.com)",
+                  "field_name": "flagtypes.name",
+                  "removed": ""
+                }
+              ],
+              "when": "2025-12-10T16:36:22Z",
+              "who": "jmuizelaar@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "https://bugzilla.mozilla.org/show_bug.cgi?id=2005275",
+                  "field_name": "see_also",
+                  "removed": ""
+                }
+              ],
+              "when": "2025-12-10T21:42:27Z",
+              "who": "emilio@crisal.io"
+            },
+            {
+              "changes": [
+                {
+                  "added": "",
+                  "field_name": "flagtypes.name",
+                  "removed": "needinfo?(masayuki@d-toybox.com)"
+                }
+              ],
+              "when": "2025-12-10T23:42:25Z",
+              "who": "masayuki@d-toybox.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "@@ -1,9 +1,9 @@\n-platform:windows,mac,linux\r\n-impact:feature-broken\r\n-configuration:general\r\n-affects:all\r\n-branch:release\r\n-diagnosis-team:dom\r\n-user-impact-score:300\r\n-outreach-assignee:jakea\r\n+platform:windows,mac,linux\n+impact:feature-broken\n+configuration:general\n+affects:all\n+branch:release\n+diagnosis-team:dom\n+user-impact-score:225\n+outreach-assignee:jakea\n outreach-contact-date:2025-12-03\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-05-13T14:29:57Z",
+              "who": "release-mgmt-account-bot@mozilla.tld"
+            }
+          ],
+          "id": 1943358
+        }
+      ]
+    }
+  },
+  "show_bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1943358"
+}

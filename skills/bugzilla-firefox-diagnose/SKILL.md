@@ -1,13 +1,13 @@
 ---
 name: bugzilla-firefox-diagnose
-description: Fetch Mozilla Bugzilla web compatibility bugs, identify the Firefox version and target site from the bug data, attempt browser reproduction in that Firefox version, inspect the gathered browser evidence, and write a Markdown diagnosis to an output directory. Use when the user asks Codex to diagnose a Bugzilla bug, reproduce a webcompat issue in Firefox, or generate an output bug ID diagnosis report from Bugzilla evidence.
+description: Fetch Mozilla Bugzilla web compatibility bugs, extract the first comment's steps/expected/actual behavior, run a controlled Firefox-versus-Chrome reproduction, inspect public Bugzilla artifacts, analyze the page when the bug reproduces, and write a Markdown diagnosis. Use when the user asks Codex to diagnose a Bugzilla bug, reproduce a webcompat issue, compare Firefox behavior with Chrome, or generate an output bug ID diagnosis report from Bugzilla evidence.
 ---
 
 # Bugzilla Firefox Diagnose
 
 ## Workflow
 
-Use the bundled helper for the repeatable work:
+Start with the bundled helper for repeatable Bugzilla fetching and Firefox setup:
 
 ```bash
 python3 ~/.codex/skills/bugzilla-firefox-diagnose/scripts/diagnose_bugzilla_firefox.py <bug_id> --output-dir output
@@ -25,6 +25,38 @@ The helper:
 - Captures Firefox screenshots at common desktop and mobile-ish viewport sizes.
 - Writes `output/bug_<id>_diagnosis.md` and supporting artifacts under `output/bug_<id>_firefox/`.
 
+The helper output is only a starting point. A completed diagnosis must execute the reported reproduction steps and compare Firefox with Chrome.
+
+## Required Reproduction Process
+
+For each bug:
+
+1. Read comment 0 from `output/bug_<id>_firefox/bugzilla_payload.json`.
+2. Extract the first-comment preconditions, steps to reproduce, expected behavior, actual behavior, environment, and notes. Do not rely only on the bug summary.
+3. Inspect public Bugzilla artifacts, including attachment metadata and any available screenshots/videos, to understand the reporter's Firefox-vs-Chrome claim.
+4. Execute the first-comment steps in Firefox and Chrome under controlled conditions.
+5. Compare Firefox behavior against Chrome behavior and compare both browsers against the expected and actual results from comment 0.
+6. If Firefox reproduces the reported actual behavior while Chrome satisfies the expected behavior, analyze the page to identify the likely cause.
+7. If reproduction cannot be completed, write a partial diagnosis that clearly names the blocker, what evidence was collected, and what still needs to be done.
+
+## Controlled Browser Comparison
+
+Use comparable conditions for Firefox and Chrome:
+
+- Use the Firefox version specified in Bugzilla when available.
+- Record exact Firefox and Chrome version outputs.
+- Use clean browser profiles, the same URL, viewport, locale/device mode when relevant, and comparable tracking-protection/privacy settings.
+- Perform the same user interactions in both browsers, including clicks, typing, clipboard actions, zooming, scrolling, navigation, or reload/new-tab behavior required by the first-comment steps.
+- Capture evidence for both browsers: screenshots or video, console errors, network failures, DOM state, and relevant command logs.
+- If a step requires credentials, a free trial, private account data, a device capability, or a manual action that cannot be automated, attempt the accessible portion and mark the remaining reproduction as blocked/partial.
+
+Classify the comparison explicitly:
+
+- **Reproduced cross-browser issue**: Firefox shows the reported actual result and Chrome shows the expected result under the same controlled steps.
+- **Not reproduced**: Firefox and Chrome both match expected behavior, or Firefox no longer shows the reported actual result.
+- **Site/environment drift**: the target URL, content, login flow, feature, or public behavior has changed enough that live reproduction no longer matches the Bugzilla artifacts.
+- **Blocked/partial**: required credentials, unavailable target content, inaccessible browser version, missing device capability, or non-automatable setup prevents a full comparison.
+
 ## Firefox Version Rules
 
 Use the Firefox version specified in Bugzilla when the helper can identify one. Do not silently substitute another version.
@@ -41,17 +73,23 @@ If no matching Firefox binary is installed:
 After running the helper:
 
 1. Read `output/bug_<id>_diagnosis.md`.
-2. Inspect screenshots in `output/bug_<id>_firefox/`, using local image-viewing tools when available.
-3. Compare what Firefox actually rendered against the Bugzilla expected/actual text and attachments metadata.
-4. Update the Markdown report if the helper only produced a scaffold. Keep evidence tied to Bugzilla fields, comments, Firefox version output, screenshots, command logs, and any browser observations.
+2. Read comment 0 from the Bugzilla payload and extract its steps, expected result, and actual result.
+3. Inspect public Bugzilla artifacts and Firefox helper screenshots in `output/bug_<id>_firefox/`.
+4. Execute the comment-0 steps in Firefox and Chrome, collecting comparable evidence for both browsers.
+5. Compare Firefox vs Chrome and actual vs expected. State whether the bug is reproduced, not reproduced, blocked/partial, or affected by site/environment drift.
+6. If reproduced, inspect the page implementation enough to identify the likely cause. Use DevTools-style evidence where possible: console exceptions, network errors, event handlers, DOM/CSS differences, feature detection, URL/fragment handling, storage/cookie state, or minimized page code.
+7. Update the Markdown report if the helper only produced a scaffold. Keep evidence tied to Bugzilla fields, comment 0, attachments, browser version output, screenshots/videos, command logs, and browser observations.
 
 Keep the final report concise and include:
 
 - Bug metadata
 - Bugzilla evidence
 - Firefox version selection
-- Browser reproduction evidence
+- Chrome version selection
+- Controlled browser reproduction evidence
+- Actual-vs-expected comparison
 - Diagnosis
+- Cause analysis, when reproduced
 - Confidence
 - Suggested next steps
 - Sources and artifacts
