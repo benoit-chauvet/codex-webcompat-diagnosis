@@ -1,6 +1,6 @@
 ---
 name: bugzilla-firefox-diagnose
-description: Fetch Mozilla Bugzilla web compatibility bugs, extract the first comment's steps/expected/actual behavior, run a controlled Firefox-versus-Chrome reproduction, inspect public Bugzilla artifacts, analyze the page when the bug reproduces, and write a Markdown diagnosis. Use when the user asks Codex to diagnose a Bugzilla bug, reproduce a webcompat issue, compare Firefox behavior with Chrome, or generate an output bug ID diagnosis report from Bugzilla evidence.
+description: Fetch Mozilla Bugzilla web compatibility bugs, extract the first comment's steps/expected/actual behavior, run a controlled Firefox-versus-Chrome reproduction, inspect public Bugzilla artifacts, analyze the page when the bug reproduces, write Markdown diagnoses, and generate an aggregate summary. Use when the user asks Codex to diagnose a Bugzilla bug, reproduce a webcompat issue, compare Firefox behavior with Chrome, generate an output bug ID diagnosis report from Bugzilla evidence, or summarize completed Bugzilla diagnoses.
 ---
 
 # Bugzilla Firefox Diagnose
@@ -24,6 +24,7 @@ The helper:
 - Can download a matching archived Firefox release on macOS into a temp cache when `--download-firefox` is provided.
 - Captures Firefox screenshots at common desktop and mobile-ish viewport sizes.
 - Writes `output/bug_<id>_diagnosis.md` and supporting artifacts under `output/bug_<id>_firefox/`.
+- Updates `summary.md` next to the output directory with linked Bugzilla bug headings and each report's Diagnosis and Cause Analysis sections.
 
 The helper output is only a starting point. A completed diagnosis must execute the reported reproduction steps and compare Firefox with Chrome.
 
@@ -79,6 +80,18 @@ After running the helper:
 5. Compare Firefox vs Chrome and actual vs expected. State whether the bug is reproduced, not reproduced, blocked/partial, or affected by site/environment drift.
 6. If reproduced, inspect the page implementation enough to identify the likely cause. Use DevTools-style evidence where possible: console exceptions, network errors, event handlers, DOM/CSS differences, feature detection, URL/fragment handling, storage/cookie state, or minimized page code.
 7. Update the Markdown report if the helper only produced a scaffold. Keep evidence tied to Bugzilla fields, comment 0, attachments, browser version output, screenshots/videos, command logs, and browser observations.
+8. After all per-bug reports are finalized, regenerate the aggregate summary from the completed reports without rerunning diagnosis:
+
+```bash
+python3 ~/.codex/skills/bugzilla-firefox-diagnose/scripts/diagnose_bugzilla_firefox.py --summary-only --output-dir output
+```
+
+This writes `summary.md` next to `output/` by default. Use `--summary-path path/to/summary.md` when the summary should live elsewhere. The summary format is:
+
+- `# Diagnosis Summary`
+- `## Bug [<id>](https://bugzilla.mozilla.org/show_bug.cgi?id=<id>)`
+- `### Diagnosis`
+- `### Cause Analysis`
 
 Keep the final report concise and include:
 
@@ -108,4 +121,10 @@ python3 ~/.codex/skills/bugzilla-firefox-diagnose/scripts/diagnose_bugzilla_fire
 
 # Gather Bugzilla evidence and write a report without launching Firefox.
 python3 ~/.codex/skills/bugzilla-firefox-diagnose/scripts/diagnose_bugzilla_firefox.py 1905304 --skip-browser
+
+# Refresh only the aggregate summary from existing reports; do not fetch Bugzilla data or launch browsers.
+python3 ~/.codex/skills/bugzilla-firefox-diagnose/scripts/diagnose_bugzilla_firefox.py --summary-only --output-dir output
+
+# Write a diagnosis report without updating the aggregate summary.
+python3 ~/.codex/skills/bugzilla-firefox-diagnose/scripts/diagnose_bugzilla_firefox.py 1905304 --no-summary
 ```

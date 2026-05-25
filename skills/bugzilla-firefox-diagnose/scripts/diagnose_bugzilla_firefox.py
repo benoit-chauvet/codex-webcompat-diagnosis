@@ -22,6 +22,8 @@ from urllib.request import Request, urlopen
 
 BUGZILLA_BASE = "https://bugzilla.mozilla.org"
 URL_RE = re.compile(r"https?://[^\s<>)\"']+", re.IGNORECASE)
+REPORT_TITLE_RE = re.compile(r"^#\s+Bug\s+(\d+)\s+Diagnosis\s*$", re.MULTILINE)
+SECTION_HEADING_RE = re.compile(r"^##\s+(.+?)\s*$", re.MULTILINE)
 VERSION_PATTERNS = [
     re.compile(r"\bFirefox\s+(?:Nightly\s+|Release\s+|Beta\s+|version\s+)?([0-9]{2,3}(?:\.[0-9A-Za-z]+)*)", re.IGNORECASE),
     re.compile(r"\b(?:Fx|FF)\s*([0-9]{2,3}(?:\.[0-9A-Za-z]+)*)\b", re.IGNORECASE),
@@ -500,6 +502,114 @@ def markdown_list(items: list[str]) -> str:
     return "\n".join(f"- {item}" for item in items)
 
 
+def report_bug_id(report_text: str, report_path: Path) -> str | None:
+    match = REPORT_TITLE_RE.search(report_text)
+    if match:
+        return match.group(1)
+    match = re.search(r"bug_(\d+)_diagnosis\.md$", report_path.name)
+    return match.group(1) if match else None
+
+
+def report_bugzilla_url(report_text: str, bug_id: str, bugzilla_base: str) -> str:
+    match = re.search(r"^Bugzilla:\s*(https?://\S+)\s*$", report_text, re.MULTILINE)
+    if match:
+        return match.group(1)
+    return bugzilla_url(bugzilla_base, "/show_bug.cgi", {"id": bug_id})
+
+
+def report_generated_at(report_text: str) -> str:
+    match = re.search(r"^Generated:\s*(.+?)\s*$", report_text, re.MULTILINE)
+    return match.group(1) if match else ""
+
+
+def extract_markdown_section(report_text: str, heading: str) -> str:
+    for match in SECTION_HEADING_RE.finditer(report_text):
+        if match.group(1).strip().lower() != heading.lower():
+            continue
+        start = match.end()
+        next_match = SECTION_HEADING_RE.search(report_text, start)
+        end = next_match.start() if next_match else len(report_text)
+        body = report_text[start:end].strip()
+        return body or "Not documented."
+    return "Not documented."
+
+
+def existing_summary_order(summary_path: Path) -> list[tuple[str, str]]:
+    if not summary_path.exists():
+        return []
+    try:
+        text = summary_path.read_text(encoding="utf-8")
+    except OSError:
+        return []
+    return re.findall(r"^##\s+Bug\s+(?:\[(\d+)\]\([^)]+\)|(\d+))\s*$", text, re.MULTILINE)
+
+
+def flattened_existing_summary_order(summary_path: Path) -> list[str]:
+    order: list[str] = []
+    for linked, plain in existing_summary_order(summary_path):
+        bug_id = linked or plain
+        if bug_id:
+            order.append(bug_id)
+    return order
+
+
+def default_summary_path(output_dir: Path) -> Path:
+    return output_dir.parent / "summary.md"
+
+
+def sort_summary_entries(entries: list[dict[str, str]], summary_path: Path) -> list[dict[str, str]]:
+    existing_order = flattened_existing_summary_order(summary_path)
+    if existing_order:
+        rank = {bug_id: index for index, bug_id in enumerate(existing_order)}
+        return sorted(
+            entries,
+            key=lambda entry: (
+                rank.get(entry["bug_id"], len(rank)),
+                entry["generated_at"],
+                entry["bug_id"],
+            ),
+        )
+    return sorted(entries, key=lambda entry: (entry["generated_at"], entry["bug_id"]))
+
+
+def write_summary(output_dir: Path, summary_path: Path, bugzilla_base: str) -> int:
+    entries: list[dict[str, str]] = []
+    for report_path in sorted(output_dir.glob("bug_*_diagnosis.md")):
+        report_text = report_path.read_text(encoding="utf-8")
+        bug_id = report_bug_id(report_text, report_path)
+        if not bug_id:
+            continue
+        entries.append(
+            {
+                "bug_id": bug_id,
+                "bugzilla_url": report_bugzilla_url(report_text, bug_id, bugzilla_base),
+                "generated_at": report_generated_at(report_text),
+                "diagnosis": extract_markdown_section(report_text, "Diagnosis"),
+                "cause_analysis": extract_markdown_section(report_text, "Cause Analysis"),
+            }
+        )
+
+    lines = ["# Diagnosis Summary"]
+    for entry in sort_summary_entries(entries, summary_path):
+        lines.extend(
+            [
+                "",
+                f"## Bug [{entry['bug_id']}]({entry['bugzilla_url']})",
+                "",
+                "### Diagnosis",
+                "",
+                entry["diagnosis"],
+                "",
+                "### Cause Analysis",
+                "",
+                entry["cause_analysis"],
+            ]
+        )
+    summary_path.parent.mkdir(parents=True, exist_ok=True)
+    summary_path.write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
+    return len(entries)
+
+
 def command_status(result: CaptureResult) -> str:
     if result.timed_out:
         return "timed out"
@@ -569,6 +679,11 @@ def write_report(
         diagnosis = "Firefox was selected, but no browser captures were produced."
         confidence = "Low until the browser command succeeds."
 
+    cause_analysis = (
+        "Not determined by the helper scaffold. Replace this section after completing the controlled "
+        "Firefox-vs-Chrome comparison and implementation analysis."
+    )
+
     report = f"""# Bug {payload.get('bug_id')} Diagnosis
 
 Generated: {generated_at}
@@ -606,6 +721,10 @@ Artifacts: {artifact_dir}
 
 {diagnosis}
 
+## Cause Analysis
+
+{cause_analysis}
+
 ## Confidence
 
 {confidence}
@@ -630,7 +749,7 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description="Fetch a Bugzilla bug, attempt Firefox reproduction, and write a Markdown diagnosis report."
     )
-    parser.add_argument("bug_id", help="Bugzilla bug id or URL containing a bug id")
+    parser.add_argument("bug_id", nargs="?", help="Bugzilla bug id or URL containing a bug id")
     parser.add_argument("--output-dir", default="output", type=Path, help="Directory for reports and artifacts")
     parser.add_argument("--bugzilla-base", default=BUGZILLA_BASE, help="Bugzilla base URL")
     parser.add_argument("--firefox-bin", help="Path to a Firefox binary to use")
@@ -645,6 +764,9 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
     parser.add_argument("--url", help="Target URL override if Bugzilla does not contain the right URL")
     parser.add_argument("--allow-version-mismatch", action="store_true", help="Use another Firefox if the requested major version is unavailable")
     parser.add_argument("--skip-browser", action="store_true", help="Write Bugzilla evidence without launching Firefox")
+    parser.add_argument("--summary-only", action="store_true", help="Regenerate summary.md from existing diagnosis reports without fetching Bugzilla data or launching browsers")
+    parser.add_argument("--no-summary", action="store_true", help="Do not update summary.md after writing a diagnosis report")
+    parser.add_argument("--summary-path", type=Path, help="Path for the aggregate summary. Default: summary.md next to the output directory")
     parser.add_argument("--timeout", default=90, type=int, help="Per-screenshot timeout in seconds")
     parser.add_argument(
         "--viewport",
@@ -657,8 +779,20 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
 
 def main(argv: list[str] | None = None) -> int:
     args = parse_args(sys.argv[1:] if argv is None else argv)
-    bug_id = normalize_bug_id(args.bug_id)
     output_dir = args.output_dir.resolve()
+    summary_path = (
+        args.summary_path.expanduser().resolve()
+        if args.summary_path
+        else default_summary_path(output_dir)
+    )
+    if args.summary_only:
+        count = write_summary(output_dir, summary_path, args.bugzilla_base)
+        print(f"Wrote diagnosis summary for {count} report(s) to {summary_path}")
+        return 0
+    if not args.bug_id:
+        raise SystemExit("bug_id is required unless --summary-only is used")
+
+    bug_id = normalize_bug_id(args.bug_id)
     artifact_dir = output_dir / f"bug_{bug_id}_firefox"
     report_path = output_dir / f"bug_{bug_id}_diagnosis.md"
     artifact_dir.mkdir(parents=True, exist_ok=True)
@@ -710,6 +844,9 @@ def main(argv: list[str] | None = None) -> int:
         args.allow_version_mismatch,
     )
     print(f"Wrote diagnosis report to {report_path}")
+    if not args.no_summary:
+        count = write_summary(output_dir, summary_path, args.bugzilla_base)
+        print(f"Wrote diagnosis summary for {count} report(s) to {summary_path}")
     return 0
 
 

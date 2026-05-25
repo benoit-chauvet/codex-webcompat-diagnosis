@@ -1,4 +1,4 @@
 interface:
   display_name: "Bugzilla Firefox Diagnose"
-  short_description: "Diagnose Bugzilla webcompat bugs across Firefox and Chrome"
-  default_prompt: "Use $bugzilla-firefox-diagnose to diagnose Mozilla Bugzilla bug 1905304 with a controlled Firefox-versus-Chrome comparison and write the report to output/."
+  short_description: "Diagnose Bugzilla webcompat bugs and summarize Firefox/Chrome findings"
+  default_prompt: "Use $bugzilla-firefox-diagnose to diagnose Mozilla Bugzilla bug 1905304 with a controlled Firefox-versus-Chrome comparison, write the report to output/, and refresh summary.md."

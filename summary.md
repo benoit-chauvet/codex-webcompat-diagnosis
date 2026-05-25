@@ -1,6 +1,6 @@
 # Diagnosis Summary
 
-## Bug 1905304
+## Bug [1905304](https://bugzilla.mozilla.org/show_bug.cgi?id=1905304)
 
 ### Diagnosis
 
@@ -10,7 +10,7 @@ The original visual issue cannot be diagnosed from the current live URL. The Bug
 
 Not performed because the original bug was not reproduced. The current cross-browser difference appears to be WebMD's current 404-page behavior, not the reported icon alignment issue.
 
-## Bug 2028875
+## Bug [2028875](https://bugzilla.mozilla.org/show_bug.cgi?id=2028875)
 
 ### Diagnosis
 
@@ -20,7 +20,7 @@ The blank-page issue reproduces. The page shell loads an external module from `h
 
 The current JavaScript bundle contains `nI=""` and later calls `new WebSocket(nI)`. Bugzilla comment 2 reported `DOMException: An invalid or illegal string was specified` during WebSocket creation, which is consistent with Firefox rejecting the empty WebSocket URL. Chrome continues rendering the app despite that construction, while Firefox appears to stop before the Vue app reaches the visible rendered state.
 
-## Bug 2030213
+## Bug [2030213](https://bugzilla.mozilla.org/show_bug.cgi?id=2030213)
 
 ### Diagnosis
 
@@ -30,7 +30,7 @@ No live reproduction conclusion. The available evidence confirms the target URL 
 
 Not performed because the bug was not reproduced. A valid next diagnosis needs an interactive session that reaches the chat editor and records paste-event data, especially `ClipboardEvent.clipboardData.items` MIME types in Firefox and Chrome.
 
-## Bug 2007320
+## Bug [2007320](https://bugzilla.mozilla.org/show_bug.cgi?id=2007320)
 
 ### Diagnosis
 
@@ -40,7 +40,7 @@ The SVG rendering issue reproduces. The Firefox screenshot shows the base raster
 
 The saved SVG source contains Inkscape-generated boundary layers such as `Rift / Spreading ridge`, `Transform fault`, and `Non-subducting plate boundaries`, made of many `polyline` elements with very large source coordinates and `stroke-width:36788.72265625`, scaled back into the visible map by a tiny transform matrix such as `matrix(1.4948461e-4,0,0,-1.4952008e-4,2451.4803,1498.0059)`. The likely cause is a Firefox SVG painting/culling issue for transformed large-coordinate polylines with huge pre-transform stroke widths; Chrome keeps those shapes in the painted display list and renders them.
 
-## Bug 2016362
+## Bug [2016362](https://bugzilla.mozilla.org/show_bug.cgi?id=2016362)
 
 ### Diagnosis
 
@@ -50,7 +50,7 @@ No live reproduction conclusion. The bug requires a logged-in, enrolled Coursera
 
 Not performed because the reported behavior was not reproduced. Bugzilla discussion suspects a contenteditable/code-editor issue, possibly an editor with syntax highlighting, but the current evidence does not identify the site implementation.
 
-## Bug 2038886
+## Bug [2038886](https://bugzilla.mozilla.org/show_bug.cgi?id=2038886)
 
 ### Diagnosis
 
@@ -60,7 +60,7 @@ The local run is partial. Bugzilla public comments provide a plausible direction
 
 Not confirmed locally. Bugzilla comment 3 suggests the site may `pushState` over the anchor/text fragment; comment 4 notes a simple `pushState` testcase also breaks Chrome, so the real Discourse behavior likely has an additional timing or navigation-state factor. A real diagnosis needs instrumentation of `history.pushState`, `location.hash`, and text-fragment highlight timing in both browsers during a fresh load.
 
-## Bug 1943358
+## Bug [1943358](https://bugzilla.mozilla.org/show_bug.cgi?id=1943358)
 
 ### Diagnosis
 
@@ -70,7 +70,7 @@ No live reproduction conclusion from this run. The public Bugzilla artifacts and
 
 Public Bugzilla analysis points to a Firefox editor/selection behavior difference. The downloaded reduced testcase contains a `contenteditable=true` ancestor wrapping a `contenteditable=false; user-select:none` child with a non-draggable image. Bugzilla comments report that dragging over the image changes/collapses selection in Firefox, which changes Notion's internal `default.state.stores.length` path and resets cover position; Chrome focuses differently and does not move the caret/selection the same way.
 
-## Bug 1957422
+## Bug [1957422](https://bugzilla.mozilla.org/show_bug.cgi?id=1957422)
 
 ### Diagnosis
 
