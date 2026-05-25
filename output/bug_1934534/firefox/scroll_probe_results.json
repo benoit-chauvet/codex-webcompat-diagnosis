@@ -1,0 +1,106 @@
+{
+  "url": "https://zs.thnet.gov.cn/index",
+  "viewport": "1280x900",
+  "generated_at": "2026-05-25T21:46:02Z",
+  "firefox": {
+    "browser": "firefox",
+    "binary": "/private/tmp/bug1934534_ff135_mnt/Firefox.app/Contents/MacOS/firefox",
+    "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "firefox",
+      "browserVersion": "135.0",
+      "moz:accessibilityChecks": false,
+      "moz:buildID": "20250130195129",
+      "moz:geckodriverVersion": "0.36.0",
+      "moz:headless": true,
+      "moz:platformVersion": "25.5.0",
+      "moz:processID": 10473,
+      "moz:profile": "/var/folders/ms/_ys5hmhs7zzfhpwwzzs_h78m0000gn/T/rust_mozprofile9hEqij",
+      "moz:shutdownTimeout": 60000,
+      "moz:webdriverClick": true,
+      "moz:windowless": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "mac",
+      "proxy": {},
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+        "implicit": 0,
+        "pageLoad": 300000,
+        "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:135.0) Gecko/20100101 Firefox/135.0"
+    },
+    "before": {
+      "activeText": "天河“政企+”服务平台\n首页\n惠企政策\n投资指引\n政企互动\n企业风采\n企业中心\n登录\n汇天河筑未来\n如今，广州市天河区是粤港澳大湾区首屈一指的总部中心、金融中心、科技中心，高端服务中心和国际交往中心，是广州参与粤港澳大湾区建设和全球竞争的主力军。是全球企业的投资首选地和最佳发展地。\n重点平台\n天河中央商务区\n天河中央商务区位于广州新城市中轴线与珠江黄金岸线的交汇点，占地面积20平方公里 ，包括已建成的12平方公里天河北及珠江新城，以及正在开发建设中的8平方公里的广州国际金融城，形成“梯次开发”的科学规划布局。天河中央商务区是广州城市功能的主要承载区....\n详细\nMore\n天河中央商务区\n广州",
+      "bodyScrollHeight": 900,
+      "bodyScrollTop": 0,
+      "containerComputedTransform": "none",
+      "containerInlineTransform": "",
+      "docScrollTop": 0,
+      "frameOverflow": "hidden",
+      "homeOverflow": "hidden",
+      "href": "https://zs.thnet.gov.cn/index",
+      "innerHeight": 900,
+      "scrollY": 0,
+      "title": "天河政企+服务平台"
+    },
+    "after": {
+      "activeText": "天河“政企+”服务平台\n首页\n惠企政策\n投资指引\n政企互动\n企业风采\n企业中心\n登录\n汇天河筑未来\n如今，广州市天河区是粤港澳大湾区首屈一指的总部中心、金融中心、科技中心，高端服务中心和国际交往中心，是广州参与粤港澳大湾区建设和全球竞争的主力军。是全球企业的投资首选地和最佳发展地。\n重点平台\n天河中央商务区\n天河中央商务区位于广州新城市中轴线与珠江黄金岸线的交汇点，占地面积20平方公里 ，包括已建成的12平方公里天河北及珠江新城，以及正在开发建设中的8平方公里的广州国际金融城，形成“梯次开发”的科学规划布局。天河中央商务区是广州城市功能的主要承载区....\n详细\nMore\n天河中央商务区\n广州",
+      "bodyScrollHeight": 900,
+      "bodyScrollTop": 0,
+      "containerComputedTransform": "none",
+      "containerInlineTransform": "",
+      "docScrollTop": 0,
+      "frameOverflow": "hidden",
+      "homeOverflow": "hidden",
+      "href": "https://zs.thnet.gov.cn/index",
+      "innerHeight": 900,
+      "scrollY": 0,
+      "title": "天河政企+服务平台"
+    },
+    "action_error": null,
+    "geckodriver_log": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_1934534/firefox/geckodriver_scroll_probe.log"
+  },
+  "chrome": {
+    "browser": "chrome",
+    "binary": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+    "version": {
+      "Browser": "Chrome/148.0.7778.179",
+      "Protocol-Version": "1.3",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/148.0.0.0 Safari/537.36",
+      "V8-Version": "14.8.178.22",
+      "WebKit-Version": "537.36 (@4687a88676f95bfbce9ec62314791faae363fea6)",
+      "webSocketDebuggerUrl": "ws://127.0.0.1:53694/devtools/browser/4ff8ef98-c5f3-41c1-b34e-97825aaf204c"
+    },
+    "before": {
+      "href": "https://zs.thnet.gov.cn/index",
+      "title": "天河政企+服务平台",
+      "scrollY": 0,
+      "docScrollTop": 0,
+      "bodyScrollTop": 0,
+      "bodyScrollHeight": 900,
+      "innerHeight": 900,
+      "homeOverflow": "hidden",
+      "frameOverflow": "hidden",
+      "containerInlineTransform": "",
+      "containerComputedTransform": "none",
+      "activeText": "天河“政企+”服务平台\n首页\n惠企政策\n投资指引\n政企互动\n企业风采\n企业中心\n登录\n汇天河筑未来\n如今，广州市天河区是粤港澳大湾区首屈一指的总部中心、金融中心、科技中心，高端服务中心和国际交往中心，是广州参与粤港澳大湾区建设和全球竞争的主力军。是全球企业的投资首选地和最佳发展地。\n重点平台\n天河中央商务区\n天河中央商务区位于广州新城市中轴线与珠江黄金岸线的交汇点，占地面积20平方公里 ，包括已建成的12平方公里天河北及珠江新城，以及正在开发建设中的8平方公里的广州国际金融城，形成“梯次开发”的科学规划布局。天河中央商务区是广州城市功能的主要承载区....\n详细\nMore\n天河中央商务区\n广州"
+    },
+    "after": {
+      "href": "https://zs.thnet.gov.cn/index",
+      "title": "天河政企+服务平台",
+      "scrollY": 0,
+      "docScrollTop": 0,
+      "bodyScrollTop": 0,
+      "bodyScrollHeight": 900,
+      "innerHeight": 900,
+      "homeOverflow": "hidden",
+      "frameOverflow": "hidden",
+      "containerInlineTransform": "translateY(-900px)",
+      "containerComputedTransform": "matrix(1, 0, 0, 1, 0, -900)",
+      "activeText": "天河“政企+”服务平台\n首页\n惠企政策\n投资指引\n政企互动\n企业风采\n企业中心\n登录\n汇天河筑未来\n如今，广州市天河区是粤港澳大湾区首屈一指的总部中心、金融中心、科技中心，高端服务中心和国际交往中心，是广州参与粤港澳大湾区建设和全球竞争的主力军。是全球企业的投资首选地和最佳发展地。\n重点平台\n天河中央商务区\n天河中央商务区位于广州新城市中轴线与珠江黄金岸线的交汇点，占地面积20平方公里 ，包括已建成的12平方公里天河北及珠江新城，以及正在开发建设中的8平方公里的广州国际金融城，形成“梯次开发”的科学规划布局。天河中央商务区是广州城市功能的主要承载区....\n详细\nMore\n天河中央商务区\n广州"
+    }
+  }
+}

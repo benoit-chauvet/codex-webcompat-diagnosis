@@ -507,6 +507,9 @@ def report_bug_id(report_text: str, report_path: Path) -> str | None:
     if match:
         return match.group(1)
     match = re.search(r"bug_(\d+)_diagnosis\.md$", report_path.name)
+    if match:
+        return match.group(1)
+    match = re.search(r"bug_(\d+)$", report_path.parent.name)
     return match.group(1) if match else None
 
 
@@ -574,7 +577,11 @@ def sort_summary_entries(entries: list[dict[str, str]], summary_path: Path) -> l
 
 def write_summary(output_dir: Path, summary_path: Path, bugzilla_base: str) -> int:
     entries: list[dict[str, str]] = []
-    for report_path in sorted(output_dir.glob("bug_*_diagnosis.md")):
+    report_paths = {
+        *output_dir.glob("bug_*_diagnosis.md"),
+        *output_dir.glob("bug_*/diagnosis.md"),
+    }
+    for report_path in sorted(report_paths):
         report_text = report_path.read_text(encoding="utf-8")
         bug_id = report_bug_id(report_text, report_path)
         if not bug_id:
@@ -793,8 +800,9 @@ def main(argv: list[str] | None = None) -> int:
         raise SystemExit("bug_id is required unless --summary-only is used")
 
     bug_id = normalize_bug_id(args.bug_id)
-    artifact_dir = output_dir / f"bug_{bug_id}_firefox"
-    report_path = output_dir / f"bug_{bug_id}_diagnosis.md"
+    bug_dir = output_dir / f"bug_{bug_id}"
+    artifact_dir = bug_dir / "firefox"
+    report_path = bug_dir / "diagnosis.md"
     artifact_dir.mkdir(parents=True, exist_ok=True)
 
     print(f"Fetching Bugzilla data for bug {bug_id}...")

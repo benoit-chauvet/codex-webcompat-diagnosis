@@ -79,3 +79,17 @@ The load-completeness part of the bug reproduces. Chrome reaches the LiA chat pa
 ### Cause Analysis
 
 Public Bugzilla analysis and the downloaded reduction point at the Salesforce/Lidl chat widget integration rather than the isolated Svelte widget itself. The reduction includes the Svelte-style `ChatWidget` code and the send button class toggle `I(C, "scw-active", t[13])`. Bugzilla comments report that the isolated widget can apply `scw-active`, but the live site does not do so in Firefox, likely because the Salesforce `near-membrane` sandbox/proxy layer or surrounding integration prevents the expected state mutation/event propagation from reaching the widget.
+
+## Bug [1934534](https://bugzilla.mozilla.org/show_bug.cgi?id=1934534)
+
+### Diagnosis
+
+Reproduced. The page implements a custom full-screen section scroller and disables native overflow. In Firefox 135, wheel input leaves the page at the initial section; in Chrome 148, wheel input advances the section container by one viewport height. This matches the reporter's Firefox-broken / Chrome-working result.
+
+### Cause Analysis
+
+The site relies on the legacy non-standard `mousewheel` event for desktop wheel navigation. The downloaded app bundle attaches the handler as `on:{mousewheel:function(e){ e.preventDefault(); t.mouseWheel(...) }}` on `.homePage-body`. That handler increments/decrements `itemIndex` and calls `handleMove()`, which sets `.homePage-body.style.transform` to `translateY(...)`.
+
+Firefox does not dispatch the legacy `mousewheel` event for normal wheel input; it dispatches the standard `wheel` event. Because the page also sets the full-screen wrapper to `height:100vh; overflow:hidden` and keeps `#homePage` overflow hidden, there is no native scrolling fallback. Chrome still dispatches the legacy compatibility event, so the custom `mouseWheel` handler runs and moves the section container.
+
+Likely site fix: listen for the standard `wheel` event, preferably with a non-passive listener only if `preventDefault()` is required, and keep the existing `mousewheel` listener only as a legacy fallback. The handler should read `deltaY` from the `WheelEvent`.

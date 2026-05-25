@@ -23,7 +23,7 @@ The helper:
 - Selects a Firefox binary whose reported major version matches the bug when possible.
 - Can download a matching archived Firefox release on macOS into a temp cache when `--download-firefox` is provided.
 - Captures Firefox screenshots at common desktop and mobile-ish viewport sizes.
-- Writes `output/bug_<id>_diagnosis.md` and supporting artifacts under `output/bug_<id>_firefox/`.
+- Writes `output/bug_<id>/diagnosis.md` and supporting Firefox artifacts under `output/bug_<id>/firefox/`.
 - Updates `summary.md` next to the output directory with linked Bugzilla bug headings and each report's Diagnosis and Cause Analysis sections.
 
 The helper output is only a starting point. A completed diagnosis must execute the reported reproduction steps and compare Firefox with Chrome.
@@ -32,7 +32,7 @@ The helper output is only a starting point. A completed diagnosis must execute t
 
 For each bug:
 
-1. Read comment 0 from `output/bug_<id>_firefox/bugzilla_payload.json`.
+1. Read comment 0 from `output/bug_<id>/firefox/bugzilla_payload.json`.
 2. Extract the first-comment preconditions, steps to reproduce, expected behavior, actual behavior, environment, and notes. Do not rely only on the bug summary.
 3. Inspect public Bugzilla artifacts, including attachment metadata and any available screenshots/videos, to understand the reporter's Firefox-vs-Chrome claim.
 4. Execute the first-comment steps in Firefox and Chrome under controlled conditions.
@@ -73,9 +73,9 @@ If no matching Firefox binary is installed:
 
 After running the helper:
 
-1. Read `output/bug_<id>_diagnosis.md`.
+1. Read `output/bug_<id>/diagnosis.md`.
 2. Read comment 0 from the Bugzilla payload and extract its steps, expected result, and actual result.
-3. Inspect public Bugzilla artifacts and Firefox helper screenshots in `output/bug_<id>_firefox/`.
+3. Inspect public Bugzilla artifacts and Firefox helper screenshots in `output/bug_<id>/firefox/`.
 4. Execute the comment-0 steps in Firefox and Chrome, collecting comparable evidence for both browsers.
 5. Compare Firefox vs Chrome and actual vs expected. State whether the bug is reproduced, not reproduced, blocked/partial, or affected by site/environment drift.
 6. If reproduced, inspect the page implementation enough to identify the likely cause. Use DevTools-style evidence where possible: console exceptions, network errors, event handlers, DOM/CSS differences, feature detection, URL/fragment handling, storage/cookie state, or minimized page code.

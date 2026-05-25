@@ -20,8 +20,9 @@ The bundled script:
 
 - `skills/bugzilla-firefox-diagnose/SKILL.md`: Codex skill instructions.
 - `skills/bugzilla-firefox-diagnose/scripts/diagnose_bugzilla_firefox.py`: helper script used by the skill.
-- `output/bug_<id>_diagnosis.md`: generated diagnosis report.
-- `output/bug_<id>_firefox/`: Bugzilla payload and screenshot artifacts.
+- `output/bug_<id>/diagnosis.md`: generated diagnosis report.
+- `output/bug_<id>/firefox/`: Bugzilla payload and Firefox screenshot artifacts.
+- `output/bug_<id>/chrome/`: Chrome comparison artifacts when collected.
 
 The installed skill copy lives at:
 
@@ -58,11 +59,11 @@ python3 skills/bugzilla-firefox-diagnose/scripts/diagnose_bugzilla_firefox.py 19
 For bug `1905304`, the script writes:
 
 ```text
-output/bug_1905304_diagnosis.md
-output/bug_1905304_firefox/bugzilla_payload.json
-output/bug_1905304_firefox/screenshot_firefox_1280x900.png
-output/bug_1905304_firefox/screenshot_firefox_1440x1000.png
-output/bug_1905304_firefox/screenshot_firefox_390x844.png
+output/bug_1905304/diagnosis.md
+output/bug_1905304/firefox/bugzilla_payload.json
+output/bug_1905304/firefox/screenshot_firefox_1280x900.png
+output/bug_1905304/firefox/screenshot_firefox_1440x1000.png
+output/bug_1905304/firefox/screenshot_firefox_390x844.png
 ```
 
 The report includes bug metadata, Bugzilla evidence, Firefox version selection, browser capture results, diagnosis, confidence, next steps, and artifact paths.
