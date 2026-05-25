@@ -1,0 +1,4 @@
+interface:
+  display_name: "Bugzilla Firefox Diagnose"
+  short_description: "Diagnose Bugzilla webcompat bugs in Firefox"
+  default_prompt: "Use $bugzilla-firefox-diagnose to diagnose Mozilla Bugzilla bug 1905304 with Firefox and write the report to output/."
