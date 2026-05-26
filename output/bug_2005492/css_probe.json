@@ -1,0 +1,1621 @@
+{
+  "firefox": {
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:146.0) Gecko/20100101 Firefox/146.0",
+    "fontsStatus": "loaded",
+    "fontFaces": [
+      {
+        "family": "Cash Sans",
+        "style": "normal",
+        "weight": "200",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Cash Sans",
+        "style": "normal",
+        "weight": "300",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Cash Sans",
+        "style": "normal",
+        "weight": "400",
+        "stretch": "normal",
+        "status": "loaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Cash Sans",
+        "style": "normal",
+        "weight": "500",
+        "stretch": "normal",
+        "status": "loaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Cash Sans",
+        "style": "normal",
+        "weight": "600",
+        "stretch": "normal",
+        "status": "loaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Cash Sans",
+        "style": "normal",
+        "weight": "700",
+        "stretch": "normal",
+        "status": "loaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Cash Sans",
+        "style": "normal",
+        "weight": "800",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Cash Sans",
+        "style": "normal",
+        "weight": "900",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Cash Sans Wide",
+        "style": "normal",
+        "weight": "200",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Cash Sans Wide",
+        "style": "normal",
+        "weight": "300",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Cash Sans Wide",
+        "style": "normal",
+        "weight": "400",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Cash Sans Wide",
+        "style": "normal",
+        "weight": "500",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Cash Sans Wide",
+        "style": "normal",
+        "weight": "600",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Cash Sans Wide",
+        "style": "normal",
+        "weight": "700",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Cash Sans Wide",
+        "style": "normal",
+        "weight": "800",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Cash Sans Wide",
+        "style": "normal",
+        "weight": "900",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Cash Sans Mono",
+        "style": "normal",
+        "weight": "300",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Cash Sans Mono",
+        "style": "normal",
+        "weight": "400",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Cash Sans Mono",
+        "style": "normal",
+        "weight": "500",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat",
+        "style": "normal",
+        "weight": "200",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat",
+        "style": "normal",
+        "weight": "300",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat",
+        "style": "normal",
+        "weight": "400",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat",
+        "style": "normal",
+        "weight": "500",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat",
+        "style": "normal",
+        "weight": "600",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat",
+        "style": "normal",
+        "weight": "700",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat",
+        "style": "normal",
+        "weight": "800",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat",
+        "style": "normal",
+        "weight": "900",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Wide",
+        "style": "normal",
+        "weight": "200",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Wide",
+        "style": "normal",
+        "weight": "300",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Wide",
+        "style": "normal",
+        "weight": "400",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Wide",
+        "style": "normal",
+        "weight": "500",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Wide",
+        "style": "normal",
+        "weight": "600",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Wide",
+        "style": "normal",
+        "weight": "700",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Wide",
+        "style": "normal",
+        "weight": "800",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Wide",
+        "style": "normal",
+        "weight": "900",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Condensed",
+        "style": "normal",
+        "weight": "200",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Condensed",
+        "style": "normal",
+        "weight": "300",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Condensed",
+        "style": "normal",
+        "weight": "400",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Condensed",
+        "style": "normal",
+        "weight": "500",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Condensed",
+        "style": "normal",
+        "weight": "600",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Condensed",
+        "style": "normal",
+        "weight": "700",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Condensed",
+        "style": "normal",
+        "weight": "800",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Condensed",
+        "style": "normal",
+        "weight": "900",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Compressed",
+        "style": "normal",
+        "weight": "200",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Compressed",
+        "style": "normal",
+        "weight": "300",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Compressed",
+        "style": "normal",
+        "weight": "400",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Compressed",
+        "style": "normal",
+        "weight": "500",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Compressed",
+        "style": "normal",
+        "weight": "600",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Compressed",
+        "style": "normal",
+        "weight": "700",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Compressed",
+        "style": "normal",
+        "weight": "800",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Compressed",
+        "style": "normal",
+        "weight": "900",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Extended",
+        "style": "normal",
+        "weight": "200",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Extended",
+        "style": "normal",
+        "weight": "300",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Extended",
+        "style": "normal",
+        "weight": "400",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Extended",
+        "style": "normal",
+        "weight": "500",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Extended",
+        "style": "normal",
+        "weight": "600",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Extended",
+        "style": "normal",
+        "weight": "700",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Extended",
+        "style": "normal",
+        "weight": "800",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Extended",
+        "style": "normal",
+        "weight": "900",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Narrow",
+        "style": "normal",
+        "weight": "200",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Narrow",
+        "style": "normal",
+        "weight": "300",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Narrow",
+        "style": "normal",
+        "weight": "400",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Narrow",
+        "style": "normal",
+        "weight": "500",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Narrow",
+        "style": "normal",
+        "weight": "600",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Narrow",
+        "style": "normal",
+        "weight": "700",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Narrow",
+        "style": "normal",
+        "weight": "800",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Narrow",
+        "style": "normal",
+        "weight": "900",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "PPNeueMachina",
+        "style": "normal",
+        "weight": "400",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "PPNeueMachina",
+        "style": "normal",
+        "weight": "500",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "PPNeueMachina",
+        "style": "normal",
+        "weight": "600",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "PPNeueMachina",
+        "style": "normal",
+        "weight": "700",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "PPNeueMachina",
+        "style": "normal",
+        "weight": "800",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Diphtong Pixel OT",
+        "style": "normal",
+        "weight": "400",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      }
+    ],
+    "headline": {
+      "text": "Jack Dorsey on Intelligence, Velocity, and the Next Chapter for Block at J.P. Morgan",
+      "rect": {
+        "x": 90.64999389648438,
+        "y": 640.36669921875,
+        "width": 229.70001220703125,
+        "height": 96,
+        "top": 640.36669921875,
+        "right": 320.3500061035156,
+        "bottom": 736.36669921875,
+        "left": 90.64999389648438
+      },
+      "styles": {
+        "font": "700 16px serif",
+        "font-family": "serif",
+        "font-size": "16px",
+        "font-weight": "700",
+        "line-height": "normal",
+        "margin-top": "0px",
+        "margin-bottom": "24px",
+        "padding-top": "0px",
+        "padding-bottom": "0px",
+        "height": "96px",
+        "min-height": "0px",
+        "max-height": "none",
+        "display": "block",
+        "overflow": "visible",
+        "overflow-wrap": "break-word",
+        "grid-template-columns": "none",
+        "grid-template-rows": "none",
+        "grid-column": "headline",
+        "grid-row": "headline"
+      }
+    },
+    "content": {
+      "rect": {
+        "x": 90.64999389648438,
+        "y": 572.1666870117188,
+        "width": 229.70001220703125,
+        "height": 220.1999969482422,
+        "top": 572.1666870117188,
+        "right": 320.3500061035156,
+        "bottom": 792.3666839599609,
+        "left": 90.64999389648438
+      },
+      "styles": {
+        "font": "16px serif",
+        "font-family": "serif",
+        "font-size": "16px",
+        "font-weight": "400",
+        "line-height": "normal",
+        "margin-top": "0px",
+        "margin-bottom": "0px",
+        "padding-top": "0px",
+        "padding-bottom": "0px",
+        "height": "220.2px",
+        "min-height": "auto",
+        "max-height": "none",
+        "display": "block",
+        "overflow": "hidden",
+        "overflow-wrap": "break-word",
+        "grid-template-columns": "none",
+        "grid-template-rows": "none",
+        "grid-column": "content",
+        "grid-row": "content"
+      }
+    },
+    "card": {
+      "rect": {
+        "x": 90.64999389648438,
+        "y": 364.3999938964844,
+        "width": 229.70001220703125,
+        "height": 427.9666748046875,
+        "top": 364.3999938964844,
+        "right": 320.3500061035156,
+        "bottom": 792.3666687011719,
+        "left": 90.64999389648438
+      },
+      "styles": {
+        "font": "16px serif",
+        "font-family": "serif",
+        "font-size": "16px",
+        "font-weight": "400",
+        "line-height": "normal",
+        "margin-top": "0px",
+        "margin-bottom": "0px",
+        "padding-top": "0px",
+        "padding-bottom": "0px",
+        "height": "auto",
+        "min-height": "0px",
+        "max-height": "none",
+        "display": "inline",
+        "overflow": "visible",
+        "overflow-wrap": "normal",
+        "grid-template-columns": "none",
+        "grid-template-rows": "none",
+        "grid-column": "auto",
+        "grid-row": "auto"
+      }
+    },
+    "matchedRules": [
+      "@media screen and (min-width: 0px) {\n  .css-zh33qs { --font-size: 28px; --letter-spacing: 0px; }\n}",
+      "@media screen and (min-width: 480px) {\n  .css-zh33qs { --font-size: calc(28px + (56 - 28) * ((100vw - 480px) / (960 - 480))); --letter-spacing: 0px; }\n}",
+      "@media screen and (min-width: 960px) {\n  .css-zh33qs { --font-size: calc(18.666666666666668px + (37.333333333333336 - 18.666666666666668) * ((100vw - 960px) / (1920 - 960))); --letter-spacing: 0px; }\n}",
+      "@media screen and (min-width: 1440px) {\n  .css-zh33qs { --font-size: calc(18.666666666666668px + (37.333333333333336 - 18.666666666666668) * ((100vw - 960px) / (1920 - 960))); --letter-spacing: 0px; }\n}",
+      "@media screen and (min-width: 1920px) {\n  .css-zh33qs { --font-size: 37.333333333333336px; --letter-spacing: 0px; }\n}"
+    ],
+    "resourceUrls": [
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/assets/fluidity.BTSO3V_b.css",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/assets/BlockButton.BuQPMwTc.css",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/assets/GlobalNav.BpbKKnSe.css",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/assets/Modal.B07iRm1v.css",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/assets/index.DwrORIcR.css",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/assets/FontSizeDecorator.CSrR3wCf.css",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/assets/HeadingSizeDecorator.DLLW1sRE.css",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/assets/2.CCyzV9f-.css",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/5dbvKT3Y.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/assets/file-drop-zone.B2QB5GWI.css",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/assets/0._g63C1XF.css",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/assets/zod.DpB-4lCy.css",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/assets/ShapeLinkGroup.4QlN6nlH.css",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/assets/TabBar.CK5h9gSS.css",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/assets/CollectionHeader.PgugaUvc.css",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/assets/LinkDecorator.U6Yk7Kc5.css",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/assets/RunningLane.-56U_OAi.css",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/assets/SanityComponentFactory.DUej64dn.css",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/Be8lYuHp.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/B6VrzirR.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/DUA26O-F.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/BG7qcuBV.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/jiN31hWO.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/nodes/0.CyeFWZSA.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/BeDqGsSp.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/B3PdZyK1.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/C60g-Vr_.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/beOizWKY.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/assets/Footer.B-25-gBB.css",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/D2uggyHF.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/entry/start.Vqy3K7kP.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/DCyjnkbO.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/ZhPdo_fL.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/D37q6Wun.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/BccH7LHg.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/BaVMHGRi.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/2aHH5S3r.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/CCWuhfQI.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/B4zT-y70.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/entry/app._W_x541F.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/COBRlmUp.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/CTR29lf4.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/DboiWccr.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/B6Ncmh01.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/CAcX2OYP.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/CZg7Rw8R.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/BJWjXv0e.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/DfeMuw_X.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/B9GZyyWw.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/CbNGVfFD.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/BPQ_uLIv.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/BCaz-XNT.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/C_tPZEKJ.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/CldlH_wB.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/CH1UWEQx.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/6PA5Dw78.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/CFwVxQtv.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/gXDrKuZd.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/C0qK2Ddd.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/COcpea1E.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/CUvzijcK.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/7O4rIfb6.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/BtacvFip.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/7qhmEyYn.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/CwKsK5V1.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/SaZJ5gIV.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/D0TidXAb.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/DxnM7suP.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/BkPsQs_s.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/By_CCunp.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/DicjsJ3h.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/nodes/6.BR4L_ndQ.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/DPEuho2v.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/DB9lLxXQ.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/nodes/5.1tEG1M-p.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/mIGKqBt-.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/nodes/2.DXIwrQa9.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/BWSDjVga.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/nodes/15.EJmcbyXd.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/lUlWd4PZ.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/DGGamTOP.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/CuC7_k3D.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/CYGRyVhA.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/Du1BDIg6.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/CP7bQVbA.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/D4S4T8Ob.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/S6umrGGq.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/DeRFBn69.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/C0YIu3qz.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/4T5-lkvo.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/CwuUu5p5.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/D61gXwA8.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/DgRKg-tg.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/LnStqLTi.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/CdB6c9Bb.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/DaZcWzzP.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/CK0PQUtx.js",
+      "https://cdn.block.xyz/fonts/pilatwide/PilatWide-Demi.woff2",
+      "https://cdn.block.xyz/fonts/pilatwide/PilatWide-Bold.woff2",
+      "https://cdn.block.xyz/fonts/ppneuemachina/PPNeueMachina-Regular.woff2",
+      "https://cdn.block.xyz/fonts/ppneuemachina/PPNeueMachina-Bold.woff2",
+      "https://cdn.block.xyz/fonts/pilatwide/PilatWide-Book.woff2",
+      "https://cdn.block.xyz/fonts/pilatwide/PilatWide-Regular.woff2",
+      "https://cdn.block.xyz/fonts/cashsans/CashSans-Medium.woff2",
+      "https://cdn.block.xyz/fonts/cashsans/CashSans-Bold.woff2",
+      "https://cdn.block.xyz/fonts/cashsans/CashSans-Regular.woff2",
+      "https://cdn.block.xyz/fonts/cashsans/CashSans-Semibold.woff2",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/nodes/1.fcTe96K5.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/DKG2moBT.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/xvj9SF23.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/BzcMGBwy.js"
+    ]
+  },
+  "chrome": {
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/148.0.0.0 Safari/537.36",
+    "fontsStatus": "loaded",
+    "fontFaces": [
+      {
+        "family": "Cash Sans",
+        "style": "normal",
+        "weight": "200",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Cash Sans",
+        "style": "normal",
+        "weight": "300",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Cash Sans",
+        "style": "normal",
+        "weight": "400",
+        "stretch": "normal",
+        "status": "loaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Cash Sans",
+        "style": "normal",
+        "weight": "500",
+        "stretch": "normal",
+        "status": "loaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Cash Sans",
+        "style": "normal",
+        "weight": "600",
+        "stretch": "normal",
+        "status": "loaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Cash Sans",
+        "style": "normal",
+        "weight": "700",
+        "stretch": "normal",
+        "status": "loaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Cash Sans",
+        "style": "normal",
+        "weight": "800",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Cash Sans",
+        "style": "normal",
+        "weight": "900",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Cash Sans Wide",
+        "style": "normal",
+        "weight": "200",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Cash Sans Wide",
+        "style": "normal",
+        "weight": "300",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Cash Sans Wide",
+        "style": "normal",
+        "weight": "400",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Cash Sans Wide",
+        "style": "normal",
+        "weight": "500",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Cash Sans Wide",
+        "style": "normal",
+        "weight": "600",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Cash Sans Wide",
+        "style": "normal",
+        "weight": "700",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Cash Sans Wide",
+        "style": "normal",
+        "weight": "800",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Cash Sans Wide",
+        "style": "normal",
+        "weight": "900",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Cash Sans Mono",
+        "style": "normal",
+        "weight": "300",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Cash Sans Mono",
+        "style": "normal",
+        "weight": "400",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Cash Sans Mono",
+        "style": "normal",
+        "weight": "500",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat",
+        "style": "normal",
+        "weight": "200",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat",
+        "style": "normal",
+        "weight": "300",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat",
+        "style": "normal",
+        "weight": "400",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat",
+        "style": "normal",
+        "weight": "500",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat",
+        "style": "normal",
+        "weight": "600",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat",
+        "style": "normal",
+        "weight": "700",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat",
+        "style": "normal",
+        "weight": "800",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat",
+        "style": "normal",
+        "weight": "900",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Wide",
+        "style": "normal",
+        "weight": "200",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Wide",
+        "style": "normal",
+        "weight": "300",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Wide",
+        "style": "normal",
+        "weight": "400",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Wide",
+        "style": "normal",
+        "weight": "500",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Wide",
+        "style": "normal",
+        "weight": "600",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Wide",
+        "style": "normal",
+        "weight": "700",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Wide",
+        "style": "normal",
+        "weight": "800",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Wide",
+        "style": "normal",
+        "weight": "900",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Condensed",
+        "style": "normal",
+        "weight": "200",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Condensed",
+        "style": "normal",
+        "weight": "300",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Condensed",
+        "style": "normal",
+        "weight": "400",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Condensed",
+        "style": "normal",
+        "weight": "500",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Condensed",
+        "style": "normal",
+        "weight": "600",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Condensed",
+        "style": "normal",
+        "weight": "700",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Condensed",
+        "style": "normal",
+        "weight": "800",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Condensed",
+        "style": "normal",
+        "weight": "900",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Compressed",
+        "style": "normal",
+        "weight": "200",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Compressed",
+        "style": "normal",
+        "weight": "300",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Compressed",
+        "style": "normal",
+        "weight": "400",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Compressed",
+        "style": "normal",
+        "weight": "500",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Compressed",
+        "style": "normal",
+        "weight": "600",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Compressed",
+        "style": "normal",
+        "weight": "700",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Compressed",
+        "style": "normal",
+        "weight": "800",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Compressed",
+        "style": "normal",
+        "weight": "900",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Extended",
+        "style": "normal",
+        "weight": "200",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Extended",
+        "style": "normal",
+        "weight": "300",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Extended",
+        "style": "normal",
+        "weight": "400",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Extended",
+        "style": "normal",
+        "weight": "500",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Extended",
+        "style": "normal",
+        "weight": "600",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Extended",
+        "style": "normal",
+        "weight": "700",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Extended",
+        "style": "normal",
+        "weight": "800",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Extended",
+        "style": "normal",
+        "weight": "900",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Narrow",
+        "style": "normal",
+        "weight": "200",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Narrow",
+        "style": "normal",
+        "weight": "300",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Narrow",
+        "style": "normal",
+        "weight": "400",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Narrow",
+        "style": "normal",
+        "weight": "500",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Narrow",
+        "style": "normal",
+        "weight": "600",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Narrow",
+        "style": "normal",
+        "weight": "700",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Narrow",
+        "style": "normal",
+        "weight": "800",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Pilat Narrow",
+        "style": "normal",
+        "weight": "900",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "PPNeueMachina",
+        "style": "normal",
+        "weight": "400",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "PPNeueMachina",
+        "style": "normal",
+        "weight": "500",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "PPNeueMachina",
+        "style": "normal",
+        "weight": "600",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "PPNeueMachina",
+        "style": "normal",
+        "weight": "700",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "PPNeueMachina",
+        "style": "normal",
+        "weight": "800",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      },
+      {
+        "family": "Diphtong Pixel OT",
+        "style": "normal",
+        "weight": "400",
+        "stretch": "normal",
+        "status": "unloaded",
+        "loaded": "[object Promise]"
+      }
+    ],
+    "headline": {
+      "text": "Jack Dorsey on Intelligence, Velocity, and the Next Chapter for Block at J.P. Morgan",
+      "rect": {
+        "x": 90.65625,
+        "y": 639.15625,
+        "width": 229.671875,
+        "height": 143.125,
+        "top": 639.15625,
+        "right": 320.328125,
+        "bottom": 782.28125,
+        "left": 90.65625
+      },
+      "styles": {
+        "font": "700 16px Times",
+        "font-family": "Times",
+        "font-size": "16px",
+        "font-weight": "700",
+        "line-height": "normal",
+        "margin-top": "0px",
+        "margin-bottom": "24px",
+        "padding-top": "0px",
+        "padding-bottom": "0px",
+        "height": "143.125px",
+        "min-height": "0px",
+        "max-height": "none",
+        "display": "block",
+        "overflow": "visible",
+        "overflow-wrap": "break-word",
+        "grid-template-columns": "none",
+        "grid-template-rows": "none",
+        "grid-column": "headline",
+        "grid-row": "headline"
+      }
+    },
+    "content": {
+      "rect": {
+        "x": 90.65625,
+        "y": 572.15625,
+        "width": 229.671875,
+        "height": 266.125,
+        "top": 572.15625,
+        "right": 320.328125,
+        "bottom": 838.28125,
+        "left": 90.65625
+      },
+      "styles": {
+        "font": "16px Times",
+        "font-family": "Times",
+        "font-size": "16px",
+        "font-weight": "400",
+        "line-height": "normal",
+        "margin-top": "0px",
+        "margin-bottom": "0px",
+        "padding-top": "0px",
+        "padding-bottom": "0px",
+        "height": "266.125px",
+        "min-height": "auto",
+        "max-height": "none",
+        "display": "block",
+        "overflow": "hidden",
+        "overflow-wrap": "break-word",
+        "grid-template-columns": "none",
+        "grid-template-rows": "none",
+        "grid-column": "content",
+        "grid-row": "content"
+      }
+    },
+    "card": {
+      "rect": {
+        "x": 90.65625,
+        "y": 364.421875,
+        "width": 229.671875,
+        "height": 473.859375,
+        "top": 364.421875,
+        "right": 320.328125,
+        "bottom": 838.28125,
+        "left": 90.65625
+      },
+      "styles": {
+        "font": "16px Times",
+        "font-family": "Times",
+        "font-size": "16px",
+        "font-weight": "400",
+        "line-height": "normal",
+        "margin-top": "0px",
+        "margin-bottom": "0px",
+        "padding-top": "0px",
+        "padding-bottom": "0px",
+        "height": "auto",
+        "min-height": "0px",
+        "max-height": "none",
+        "display": "inline",
+        "overflow": "visible",
+        "overflow-wrap": "normal",
+        "grid-template-columns": "none",
+        "grid-template-rows": "none",
+        "grid-column": "auto",
+        "grid-row": "auto"
+      }
+    },
+    "matchedRules": [
+      "@media screen and (min-width: 0px) {\n  .css-zh33qs { --font-size: 28px; --letter-spacing: 0px; }\n}",
+      "@media screen and (min-width: 480px) {\n  .css-zh33qs { --font-size: calc(28px + (56 - 28) * ((100vw - 480px) / (960 - 480))); --letter-spacing: 0px; }\n}",
+      "@media screen and (min-width: 960px) {\n  .css-zh33qs { --font-size: calc(18.666666666666668px + (37.333333333333336 - 18.666666666666668) * ((100vw - 960px) / (1920 - 960))); --letter-spacing: 0px; }\n}",
+      "@media screen and (min-width: 1440px) {\n  .css-zh33qs { --font-size: calc(18.666666666666668px + (37.333333333333336 - 18.666666666666668) * ((100vw - 960px) / (1920 - 960))); --letter-spacing: 0px; }\n}",
+      "@media screen and (min-width: 1920px) {\n  .css-zh33qs { --font-size: 37.333333333333336px; --letter-spacing: 0px; }\n}"
+    ],
+    "resourceUrls": [
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/assets/fluidity.BTSO3V_b.css",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/assets/FontSizeDecorator.CSrR3wCf.css",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/assets/GlobalNav.BpbKKnSe.css",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/assets/index.DwrORIcR.css",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/assets/Modal.B07iRm1v.css",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/assets/BlockButton.BuQPMwTc.css",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/assets/file-drop-zone.B2QB5GWI.css",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/assets/HeadingSizeDecorator.DLLW1sRE.css",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/assets/TabBar.CK5h9gSS.css",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/assets/0._g63C1XF.css",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/assets/LinkDecorator.U6Yk7Kc5.css",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/assets/2.CCyzV9f-.css",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/assets/ShapeLinkGroup.4QlN6nlH.css",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/assets/RunningLane.-56U_OAi.css",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/assets/zod.DpB-4lCy.css",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/assets/SanityComponentFactory.DUej64dn.css",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/assets/CollectionHeader.PgugaUvc.css",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/assets/Footer.B-25-gBB.css",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/entry/start.Vqy3K7kP.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/BaVMHGRi.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/5dbvKT3Y.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/COBRlmUp.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/D2uggyHF.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/BG7qcuBV.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/beOizWKY.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/DCyjnkbO.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/CCWuhfQI.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/entry/app._W_x541F.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/jiN31hWO.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/ZhPdo_fL.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/BeDqGsSp.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/B6VrzirR.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/B4zT-y70.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/D37q6Wun.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/nodes/0.CyeFWZSA.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/DUA26O-F.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/C60g-Vr_.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/B3PdZyK1.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/BccH7LHg.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/CTR29lf4.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/Be8lYuHp.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/2aHH5S3r.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/B6Ncmh01.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/CFwVxQtv.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/D0TidXAb.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/BtacvFip.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/CwKsK5V1.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/CAcX2OYP.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/DboiWccr.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/7qhmEyYn.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/7O4rIfb6.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/6PA5Dw78.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/CUvzijcK.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/CH1UWEQx.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/gXDrKuZd.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/CZg7Rw8R.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/COcpea1E.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/BJWjXv0e.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/CldlH_wB.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/C0qK2Ddd.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/CbNGVfFD.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/SaZJ5gIV.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/BCaz-XNT.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/DxnM7suP.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/C_tPZEKJ.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/DfeMuw_X.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/BWSDjVga.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/nodes/5.1tEG1M-p.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/By_CCunp.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/B9GZyyWw.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/BPQ_uLIv.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/DB9lLxXQ.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/mIGKqBt-.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/BkPsQs_s.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/nodes/2.DXIwrQa9.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/DicjsJ3h.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/nodes/6.BR4L_ndQ.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/CuC7_k3D.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/DGGamTOP.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/nodes/15.EJmcbyXd.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/Du1BDIg6.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/CP7bQVbA.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/CdB6c9Bb.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/DeRFBn69.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/CYGRyVhA.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/DgRKg-tg.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/lUlWd4PZ.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/DPEuho2v.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/D61gXwA8.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/D4S4T8Ob.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/CwuUu5p5.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/C0YIu3qz.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/CK0PQUtx.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/4T5-lkvo.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/LnStqLTi.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/S6umrGGq.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/DaZcWzzP.js",
+      "https://cdn.block.xyz/fonts/pilatwide/PilatWide-Demi.woff2",
+      "https://cdn.block.xyz/fonts/pilatwide/PilatWide-Bold.woff2",
+      "https://cdn.block.xyz/fonts/pilatwide/PilatWide-Regular.woff2",
+      "https://cdn.block.xyz/fonts/pilatwide/PilatWide-Book.woff2",
+      "https://cdn.block.xyz/fonts/cashsans/CashSans-Regular.woff2",
+      "https://cdn.block.xyz/fonts/cashsans/CashSans-Medium.woff2",
+      "https://cdn.block.xyz/fonts/cashsans/CashSans-Bold.woff2",
+      "https://cdn.block.xyz/fonts/ppneuemachina/PPNeueMachina-Regular.woff2",
+      "https://cdn.block.xyz/fonts/ppneuemachina/PPNeueMachina-Bold.woff2",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/nodes/1.fcTe96K5.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/BzcMGBwy.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/xvj9SF23.js",
+      "https://cdn.block.xyz/_svelte/c9099ea22af6de8814404551c3070867933856b4/_app/immutable/chunks/DKG2moBT.js"
+    ]
+  }
+}

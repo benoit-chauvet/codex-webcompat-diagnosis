@@ -13,13 +13,14 @@ The bundled script:
 - Infers the target URL from the Bugzilla `url` field and comment text.
 - Selects a local Firefox binary whose major version matches the bug.
 - On macOS, can download a matching archived Firefox release with `--download-firefox`.
-- Captures headless Firefox screenshots at desktop and mobile-ish viewport sizes.
+- Captures headless Firefox screenshots and page state with Puppeteer at desktop and mobile-ish viewport sizes.
 - Writes a diagnosis report and supporting artifacts under `output/`.
 
 ## Main Files
 
 - `skills/bugzilla-firefox-diagnose/SKILL.md`: Codex skill instructions.
 - `skills/bugzilla-firefox-diagnose/scripts/diagnose_bugzilla_firefox.py`: helper script used by the skill.
+- `skills/bugzilla-firefox-diagnose/scripts/puppeteer_capture.mjs`: Puppeteer capture helper used by the Python script.
 - `output/bug_<id>/diagnosis.md`: generated diagnosis report.
 - `output/bug_<id>/firefox/`: Bugzilla payload and Firefox screenshot artifacts.
 - `output/bug_<id>/chrome/`: Chrome comparison artifacts when collected.
@@ -32,6 +33,13 @@ The installed skill copy lives at:
 ```
 
 ## Usage
+
+Install the skill's Node dependency once if it is not already present:
+
+```bash
+cd ~/.codex/skills/bugzilla-firefox-diagnose
+npm install
+```
 
 Run the installed skill helper:
 
@@ -63,6 +71,7 @@ For bug `1905304`, the script writes:
 output/bug_1905304/diagnosis.md
 output/bug_1905304/firefox/bugzilla_payload.json
 output/bug_1905304/firefox/screenshot_firefox_1280x900.png
+output/bug_1905304/firefox/state_firefox_1280x900.json
 output/bug_1905304/firefox/screenshot_firefox_1440x1000.png
 output/bug_1905304/firefox/screenshot_firefox_390x844.png
 ```

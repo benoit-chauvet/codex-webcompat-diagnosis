@@ -14,6 +14,7 @@ python3 ~/.codex/skills/bugzilla-firefox-diagnose/scripts/diagnose_bugzilla_fire
 ```
 
 If working from a local copy of this skill, run the script from that skill path instead.
+The helper uses `scripts/puppeteer_capture.mjs` for browser automation. If Node cannot resolve Puppeteer, run `npm install` in the `bugzilla-firefox-diagnose` skill directory before rerunning the helper.
 
 The helper:
 
@@ -22,7 +23,7 @@ The helper:
 - Infers the target URL from the Bugzilla `url` field and comments.
 - Selects a Firefox binary whose reported major version matches the bug when possible.
 - Can download a matching archived Firefox release on macOS into a temp cache when `--download-firefox` is provided.
-- Captures Firefox screenshots at common desktop and mobile-ish viewport sizes.
+- Captures Firefox screenshots and page state with Puppeteer at common desktop and mobile-ish viewport sizes.
 - Writes `output/bug_<id>/diagnosis.md` and supporting Firefox artifacts under `output/bug_<id>/firefox/`.
 - Appends to `summary.md` next to the output directory with linked Bugzilla bug headings and each report's Diagnosis and Cause Analysis sections.
 
@@ -44,6 +45,9 @@ For each bug:
 
 Use comparable conditions for Firefox and Chrome:
 
+- Use Puppeteer as the default browser automation tool for Firefox and Chrome probes. Prefer short `.mjs` scripts using `puppeteer-core` with explicit `executablePath` values for the selected browser binaries.
+- Do not use Selenium, `geckodriver` HTTP calls, or hand-rolled Chrome DevTools Protocol clients unless Puppeteer cannot perform a required capability. If a fallback is required, document the limitation in the report.
+- For simple navigation captures, reuse `scripts/puppeteer_capture.mjs`; for interaction-heavy bugs, create a task-specific Puppeteer probe under the bug output directory and collect screenshots, console events, failed requests, and DOM/page state from the same scripted steps in both browsers.
 - Use the Firefox version specified in Bugzilla when available.
 - Record exact Firefox and Chrome version outputs.
 - Use clean browser profiles, the same URL, viewport, locale/device mode when relevant, and comparable tracking-protection/privacy settings.
@@ -75,10 +79,10 @@ After running the helper:
 
 1. Read `output/bug_<id>/diagnosis.md`.
 2. Read comment 0 from the Bugzilla payload and extract its steps, expected result, and actual result.
-3. Inspect public Bugzilla artifacts and Firefox helper screenshots in `output/bug_<id>/firefox/`.
-4. Execute the comment-0 steps in Firefox and Chrome, collecting comparable evidence for both browsers.
+3. Inspect public Bugzilla artifacts and Firefox helper screenshots/page state in `output/bug_<id>/firefox/`.
+4. Execute the comment-0 steps in Firefox and Chrome with Puppeteer, collecting comparable evidence for both browsers.
 5. Compare Firefox vs Chrome and actual vs expected. State whether the bug is reproduced, not reproduced, blocked/partial, or affected by site/environment drift.
-6. If reproduced, inspect the page implementation enough to identify the likely cause. Use DevTools-style evidence where possible: console exceptions, network errors, event handlers, DOM/CSS differences, feature detection, URL/fragment handling, storage/cookie state, or minimized page code.
+6. If reproduced, inspect the page implementation enough to identify the likely cause. Use Puppeteer evidence where possible: console exceptions, network errors, event handlers, DOM/CSS differences, feature detection, URL/fragment handling, storage/cookie state, or minimized page code.
 7. Update the Markdown report if the helper only produced a scaffold. Keep evidence tied to Bugzilla fields, comment 0, attachments, browser version output, screenshots/videos, command logs, and browser observations.
 8. After all per-bug reports are finalized, append missing entries to the aggregate summary without rerunning diagnosis:
 

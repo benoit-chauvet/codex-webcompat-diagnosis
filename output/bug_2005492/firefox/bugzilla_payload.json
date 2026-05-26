@@ -1,0 +1,295 @@
+{
+  "bug_id": "2005492",
+  "endpoints": {
+    "attachments": "https://bugzilla.mozilla.org/rest/bug/2005492/attachment?exclude_fields=data",
+    "bug": "https://bugzilla.mozilla.org/rest/bug/2005492",
+    "comments": "https://bugzilla.mozilla.org/rest/bug/2005492/comment",
+    "history": "https://bugzilla.mozilla.org/rest/bug/2005492/history"
+  },
+  "fetched_at": "2026-05-26T19:27:11+00:00",
+  "responses": {
+    "attachments": {
+      "attachments": {},
+      "bugs": {
+        "2005492": [
+          {
+            "attacher": "rbucata@mozilla.com",
+            "bug_id": 2005492,
+            "content_type": "video/mp4",
+            "creation_time": "2025-12-11T13:21:03Z",
+            "creator": "rbucata@mozilla.com",
+            "creator_detail": {
+              "email": "rbucata@mozilla.com",
+              "id": 675083,
+              "name": "rbucata@mozilla.com",
+              "nick": "rbucata",
+              "real_name": "Raul Bucata"
+            },
+            "description": "Chr vs ff",
+            "file_name": "11.12.2025_14.50.38_REC.mp4",
+            "flags": [],
+            "id": 9532341,
+            "is_obsolete": 0,
+            "is_patch": 0,
+            "is_private": 0,
+            "last_change_time": "2025-12-11T13:21:03Z",
+            "size": 1040525,
+            "summary": "Chr vs ff"
+          }
+        ]
+      }
+    },
+    "bug": {
+      "bugs": [
+        {
+          "alias": null,
+          "assigned_to": "nobody@mozilla.org",
+          "assigned_to_detail": {
+            "email": "nobody@mozilla.org",
+            "id": 1,
+            "name": "nobody@mozilla.org",
+            "nick": "nobody",
+            "real_name": "Nobody; OK to take it and work on it"
+          },
+          "blocks": [],
+          "cc": [
+            "kberezina@mozilla.com"
+          ],
+          "cc_detail": [
+            {
+              "email": "kberezina@mozilla.com",
+              "id": 638886,
+              "name": "kberezina@mozilla.com",
+              "nick": "ksenia",
+              "real_name": "Ksenia Berezina [:ksenia]"
+            }
+          ],
+          "cf_a11y_review_project_flag": "---",
+          "cf_accessibility_severity": "---",
+          "cf_cab_review": "---",
+          "cf_fx_iteration": "---",
+          "cf_fx_points": "---",
+          "cf_last_resolved": null,
+          "cf_performance_impact": "---",
+          "cf_qa_whiteboard": "",
+          "cf_status_firefox146": "affected",
+          "cf_status_firefox147": "affected",
+          "cf_status_firefox148": "affected",
+          "cf_status_firefox151": "---",
+          "cf_status_firefox152": "---",
+          "cf_status_firefox153": "---",
+          "cf_status_firefox_esr115": "---",
+          "cf_status_firefox_esr140": "---",
+          "cf_tracking_firefox151": "---",
+          "cf_tracking_firefox152": "---",
+          "cf_tracking_firefox153": "---",
+          "cf_tracking_firefox_esr115": "---",
+          "cf_tracking_firefox_esr140": "---",
+          "cf_tracking_firefox_relnote": "---",
+          "cf_user_story": "user-impact-score:40\r\nplatform:windows,mac,linux,android\r\nimpact:significant-visual\r\nconfiguration:general\r\naffects:all\r\nbranch:release\r\ndiagnosis-team:layout",
+          "cf_webcompat_priority": "P3",
+          "cf_webcompat_score": "3",
+          "classification": "Client Software",
+          "comment_count": 3,
+          "component": "Site Reports",
+          "creation_time": "2025-12-11T13:19:55Z",
+          "creator": "rbucata@mozilla.com",
+          "creator_detail": {
+            "email": "rbucata@mozilla.com",
+            "id": 675083,
+            "name": "rbucata@mozilla.com",
+            "nick": "rbucata",
+            "real_name": "Raul Bucata"
+          },
+          "depends_on": [],
+          "dupe_of": null,
+          "duplicates": [],
+          "flags": [],
+          "groups": [],
+          "id": 2005492,
+          "is_cc_accessible": true,
+          "is_confirmed": true,
+          "is_creator_accessible": true,
+          "is_open": true,
+          "keywords": [
+            "webcompat:needs-diagnosis",
+            "webcompat:site-report"
+          ],
+          "last_change_time": "2025-12-15T16:29:20Z",
+          "mentors": [],
+          "mentors_detail": [],
+          "op_sys": "Windows 10",
+          "platform": "Desktop",
+          "priority": "P3",
+          "product": "Web Compatibility",
+          "qa_contact": "",
+          "regressed_by": [],
+          "regressions": [],
+          "resolution": "",
+          "see_also": [
+            "https://github.com/webcompat/web-bugs/issues/194474"
+          ],
+          "severity": "S3",
+          "status": "NEW",
+          "summary": "block.xyz - Text for titles inside cards is squeezed",
+          "target_milestone": "---",
+          "type": "defect",
+          "url": "https://block.xyz/news",
+          "version": "unspecified",
+          "votes": 0,
+          "whiteboard": "[webcompat-source:web-bugs]"
+        }
+      ],
+      "faults": []
+    },
+    "comments": {
+      "bugs": {
+        "2005492": {
+          "comments": [
+            {
+              "attachment_id": null,
+              "author": "rbucata@mozilla.com",
+              "bug_id": 2005492,
+              "count": 0,
+              "creation_time": "2025-12-11T13:19:55Z",
+              "creator": "rbucata@mozilla.com",
+              "id": 17803593,
+              "is_private": false,
+              "raw_text": "**Environment:**\nOperating system: Windows 10\nFirefox version: Firefox 146.0\n\n**Steps to reproduce:**\n1. Navigate to: https://block.xyz/news\n2. Observe the cards that have only text, no other elements\n\n**Expected Behavior:**\nText is rendered correctly\n\n**Actual Behavior:**\nText is rendered squeezed\n\n**Notes:**\n- Reproduces regardless of the status of ETP\n- Reproduces in firefox-nightly, and firefox-release\n- Does not reproduce in chrome\n\nCreated from https://github.com/webcompat/web-bugs/issues/194474",
+              "reactions": {},
+              "tags": [],
+              "text": "**Environment:**\nOperating system: Windows 10\nFirefox version: Firefox 146.0\n\n**Steps to reproduce:**\n1. Navigate to: https://block.xyz/news\n2. Observe the cards that have only text, no other elements\n\n**Expected Behavior:**\nText is rendered correctly\n\n**Actual Behavior:**\nText is rendered squeezed\n\n**Notes:**\n- Reproduces regardless of the status of ETP\n- Reproduces in firefox-nightly, and firefox-release\n- Does not reproduce in chrome\n\nCreated from https://github.com/webcompat/web-bugs/issues/194474",
+              "time": "2025-12-11T13:19:55Z"
+            },
+            {
+              "attachment_id": 9532341,
+              "author": "rbucata@mozilla.com",
+              "bug_id": 2005492,
+              "count": 1,
+              "creation_time": "2025-12-11T13:21:03Z",
+              "creator": "rbucata@mozilla.com",
+              "id": 17803595,
+              "is_private": false,
+              "raw_text": "",
+              "reactions": {},
+              "tags": [],
+              "text": "Created attachment 9532341\nChr vs ff",
+              "time": "2025-12-11T13:21:03Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "release-mgmt-account-bot@mozilla.tld",
+              "bug_id": 2005492,
+              "count": 2,
+              "creation_time": "2025-12-11T13:40:52Z",
+              "creator": "release-mgmt-account-bot@mozilla.tld",
+              "id": 17803619,
+              "is_private": false,
+              "raw_text": "Since nightly and release are affected, beta will likely be affected too.\nFor more information, please visit [BugBot documentation](https://wiki.mozilla.org/BugBot#missing_beta_status.py).",
+              "reactions": {},
+              "tags": [],
+              "text": "Since nightly and release are affected, beta will likely be affected too.\nFor more information, please visit [BugBot documentation](https://wiki.mozilla.org/BugBot#missing_beta_status.py).",
+              "time": "2025-12-11T13:40:52Z"
+            }
+          ]
+        }
+      },
+      "comments": {}
+    },
+    "history": {
+      "bugs": [
+        {
+          "alias": null,
+          "history": [
+            {
+              "changes": [
+                {
+                  "added": "affected",
+                  "field_name": "cf_status_firefox146",
+                  "removed": "---"
+                },
+                {
+                  "added": "affected",
+                  "field_name": "cf_status_firefox148",
+                  "removed": "---"
+                }
+              ],
+              "when": "2025-12-11T13:20:42Z",
+              "who": "rbucata@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "affected",
+                  "field_name": "cf_status_firefox147",
+                  "removed": "---"
+                }
+              ],
+              "when": "2025-12-11T13:40:52Z",
+              "who": "release-mgmt-account-bot@mozilla.tld"
+            },
+            {
+              "changes": [
+                {
+                  "added": "@@ -1 +1 @@\n-\n+user-impact-score:0\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                },
+                {
+                  "added": "1",
+                  "field_name": "cf_webcompat_score",
+                  "removed": "---"
+                }
+              ],
+              "when": "2025-12-13T08:07:53Z",
+              "who": "release-mgmt-account-bot@mozilla.tld"
+            },
+            {
+              "changes": [
+                {
+                  "added": "@@ -1 +1,7 @@\n-user-impact-score:0\n+user-impact-score:40\r\n+platform:windows,mac,linux,android\r\n+impact:significant-visual\r\n+configuration:general\r\n+affects:all\r\n+branch:release\r\n+diagnosis-team:layout\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                },
+                {
+                  "added": "P3",
+                  "field_name": "priority",
+                  "removed": "--"
+                },
+                {
+                  "added": "S3",
+                  "field_name": "severity",
+                  "removed": "--"
+                },
+                {
+                  "added": "kberezina@mozilla.com",
+                  "field_name": "cc",
+                  "removed": ""
+                },
+                {
+                  "added": "webcompat:needs-diagnosis",
+                  "field_name": "keywords",
+                  "removed": ""
+                },
+                {
+                  "added": "3",
+                  "field_name": "cf_webcompat_score",
+                  "removed": "1"
+                },
+                {
+                  "added": "P3",
+                  "field_name": "cf_webcompat_priority",
+                  "removed": "---"
+                }
+              ],
+              "when": "2025-12-15T16:29:20Z",
+              "who": "kberezina@mozilla.com"
+            }
+          ],
+          "id": 2005492
+        }
+      ]
+    }
+  },
+  "show_bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=2005492"
+}

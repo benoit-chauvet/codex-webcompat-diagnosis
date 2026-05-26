@@ -40,8 +40,10 @@ class FirefoxCandidate:
 
 @dataclass(frozen=True)
 class CaptureResult:
+    browser: str
     viewport: str
     screenshot: Path
+    state: Path | None
     returncode: int | None
     stdout: str
     stderr: str
@@ -437,26 +439,75 @@ def capture_firefox(
     viewport: tuple[int, int],
     timeout: int,
 ) -> CaptureResult:
+    return capture_with_puppeteer("firefox", firefox.path, url, artifact_dir, viewport, timeout)
+
+
+def capture_with_puppeteer(
+    browser_name: str,
+    browser_binary: Path,
+    url: str,
+    artifact_dir: Path,
+    viewport: tuple[int, int],
+    timeout: int,
+) -> CaptureResult:
     width, height = viewport
     viewport_label = f"{width}x{height}"
-    screenshot = artifact_dir / f"screenshot_firefox_{viewport_label}.png"
-    profile = artifact_dir / "profiles" / viewport_label
+    screenshot = artifact_dir / f"screenshot_{browser_name}_{viewport_label}.png"
+    state = artifact_dir / f"state_{browser_name}_{viewport_label}.json"
+    profile = artifact_dir / "profiles" / f"{browser_name}_{viewport_label}"
     if profile.exists():
         shutil.rmtree(profile)
     profile.mkdir(parents=True)
     if screenshot.exists():
         screenshot.unlink()
+    if state.exists():
+        state.unlink()
 
+    node = shutil.which("node")
+    script = Path(__file__).with_name("puppeteer_capture.mjs")
+    if not node:
+        return CaptureResult(
+            browser_name,
+            viewport_label,
+            screenshot,
+            state,
+            127,
+            "",
+            "node executable not found; install Node.js before running Puppeteer browser capture.",
+            False,
+        )
+    if not script.exists():
+        return CaptureResult(
+            browser_name,
+            viewport_label,
+            screenshot,
+            state,
+            127,
+            "",
+            f"Puppeteer capture script not found: {script}",
+            False,
+        )
     command = [
-        str(firefox.path),
-        "--headless",
-        "--profile",
-        str(profile),
+        node,
+        str(script),
+        "--browser",
+        browser_name,
+        "--executable",
+        str(browser_binary),
+        "--url",
+        url,
         "--screenshot",
         str(screenshot),
-        "--window-size",
-        f"{width},{height}",
-        url,
+        "--state",
+        str(state),
+        "--profile-dir",
+        str(profile),
+        "--width",
+        str(width),
+        "--height",
+        str(height),
+        "--timeout-ms",
+        str(timeout * 1000),
     ]
     try:
         result = subprocess.run(
@@ -464,13 +515,15 @@ def capture_firefox(
             text=True,
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE,
-            timeout=timeout,
+            timeout=max(timeout + 20, int(timeout * 1.25)),
             check=False,
         )
         wait_for_file(screenshot, 5)
         return CaptureResult(
+            browser_name,
             viewport_label,
             screenshot,
+            state,
             result.returncode,
             result.stdout.strip(),
             result.stderr.strip(),
@@ -478,8 +531,10 @@ def capture_firefox(
         )
     except subprocess.TimeoutExpired as error:
         return CaptureResult(
+            browser_name,
             viewport_label,
             screenshot,
+            state,
             None,
             (error.stdout or "").strip() if isinstance(error.stdout, str) else "",
             (error.stderr or "").strip() if isinstance(error.stderr, str) else "",
@@ -693,7 +748,11 @@ def write_report(
     for capture in captures:
         exists = capture.screenshot.exists() and capture.screenshot.stat().st_size > 0
         file_note = str(capture.screenshot) if exists else f"{capture.screenshot} (not created)"
-        capture_lines.append(f"{capture.viewport}: {command_status(capture)} - {file_note}")
+        state_note = f"; state: {capture.state}" if capture.state and capture.state.exists() else ""
+        error_note = ""
+        if capture.returncode not in (0, None) or capture.timed_out:
+            error_note = f"; error: {compact(capture.stderr or capture.stdout, 300)}"
+        capture_lines.append(f"{capture.browser} {capture.viewport}: {command_status(capture)} - {file_note}{state_note}{error_note}")
 
     if skipped_browser:
         diagnosis = "Browser launch was skipped. The report contains Bugzilla evidence only."
@@ -712,7 +771,7 @@ def write_report(
         if target_major is not None and firefox.major != target_major:
             mismatch = " The selected Firefox version does not match the Bugzilla version, so treat the browser evidence as exploratory."
         diagnosis = (
-            "Firefox browser evidence was captured. Inspect the screenshots and update this section with the visual or behavioral "
+            "Firefox browser evidence was captured with Puppeteer. Inspect the screenshots and update this section with the visual or behavioral "
             f"finding tied to the Bugzilla expected/actual behavior.{mismatch}"
         )
         confidence = "Medium for evidence collection; final diagnosis depends on screenshot inspection."
@@ -772,10 +831,11 @@ Artifacts: {artifact_dir}
 
 ## Suggested Next Steps
 
-- If screenshots were captured, inspect them and replace the scaffold diagnosis with the observed behavior.
+- If Puppeteer captured screenshots, inspect them and replace the scaffold diagnosis with the observed behavior.
+- If Puppeteer is missing, run `npm install` in the bugzilla-firefox-diagnose skill directory and rerun.
 - If the requested Firefox version was unavailable, install or point `--firefox-bin` at that version and rerun.
 - If no target URL was inferred, rerun with `--url`.
-- If the issue depends on interaction, rerun manually or with browser automation that performs the required steps.
+- If the issue depends on interaction, rerun with a Puppeteer probe that performs the required steps.
 
 ## Sources and Artifacts
 

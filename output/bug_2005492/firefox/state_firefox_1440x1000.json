@@ -1,0 +1,39 @@
+{
+  "ok": true,
+  "browser": "firefox",
+  "executable": "/private/var/folders/ms/_ys5hmhs7zzfhpwwzzs_h78m0000gn/T/bugzilla-firefox-diagnose-cache/146.0/app/Firefox.app/Contents/MacOS/firefox",
+  "puppeteerPackage": "puppeteer-core",
+  "requestedUrl": "https://block.xyz/news",
+  "finalUrl": "https://block.xyz/news",
+  "httpStatus": 200,
+  "viewport": {
+    "width": 1440,
+    "height": 1000,
+    "deviceScaleFactor": 1
+  },
+  "screenshot": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2005492/firefox/screenshot_firefox_1440x1000.png",
+  "navigationError": null,
+  "networkIdleError": null,
+  "events": {
+    "console": [],
+    "pageErrors": [],
+    "requestFailures": []
+  },
+  "documentState": {
+    "url": "https://block.xyz/news",
+    "title": "Block - News - Latest",
+    "readyState": "complete",
+    "viewport": {
+      "innerWidth": 1440,
+      "innerHeight": 1000,
+      "devicePixelRatio": 1
+    },
+    "documentElement": {
+      "clientWidth": 1440,
+      "clientHeight": 1000,
+      "scrollWidth": 1440,
+      "scrollHeight": 7880
+    },
+    "bodyTextSample": "NEWS\nIMPACT\nAI\nOPEN SOURCE\nBITCOIN\nCAREERS\nBUILDER FELLOWSHIP\nINVESTORS\nLatest News\nMAY 21, 2026\nJack Dorsey on Intelligence, Velocity, and the Next Chapter for Block at J.P. Morgan\nREAD MORE\nMAY 14, 2026\nBlock Hosts Cash App Teen Advisory Council and NYC students at NYSE\nREAD MORE\nMAY 08, 2026\nScaling solutions for child safety online: Block partners with Tech Coalition\nREAD MORE\nMAY 05, 2026\nGetting Game Day Ready with Square: Building with Atlanta's Entrepreneurs Before the World Cup\nREAD MORE\nMAY 04, 2026\nAI Is Reshaping Security: How Block Uses It to Help Protect Customers\nREAD MORE\nAPRIL 27, 2026\nBlock launches Bitkey wallet with screen, automatic bitcoin earning on Cash App, and Proof of Reserves\nREAD MORE\nAPRIL 23, 2026\nBlock Launches Support for Bronx Museum's Teen Community Programs\nREAD MORE\nAPRIL 22, 2026\nUber and Block Expand Global Partnership to Transform Restaurant Operations and Launch Cash App Pay\nREAD MORE\nAPRIL 16, 2026\nClosing the Technology Access Gap for Students"
+  }
+}

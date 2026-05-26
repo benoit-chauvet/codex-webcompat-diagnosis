@@ -104,3 +104,43 @@ Not reproduced locally. The live AA route planner currently renders the Google m
 ### Cause Analysis
 
 No confirmed site-side cause was identified because the local Firefox runs did not reproduce the black tiles. The attachment's black rectangles are confined to the Google Maps viewport and align with the map tile/canvas rendering area, while the surrounding AA route-planner UI continues to work. Combined with the current DOM evidence showing Google Maps tile images and 256x256 canvas layers, the most plausible unconfirmed direction is a Firefox graphics/compositing issue in the Google Maps rendering path, potentially Windows/GPU-dependent, rather than a route-calculation or AA form logic failure.
+
+## Bug [2042167](https://bugzilla.mozilla.org/show_bug.cgi?id=2042167)
+
+### Diagnosis
+
+Firefox browser evidence was captured with Puppeteer. Inspect the screenshots and update this section with the visual or behavioral finding tied to the Bugzilla expected/actual behavior.
+
+### Cause Analysis
+
+Not determined by the helper scaffold. Replace this section after completing the controlled Firefox-vs-Chrome comparison and implementation analysis.
+
+## Bug [1859289](https://bugzilla.mozilla.org/show_bug.cgi?id=1859289)
+
+### Diagnosis
+
+No installed Firefox binary matching major version 120 was found, so reproduction could not be attempted.
+
+### Cause Analysis
+
+Not determined by the helper scaffold. Replace this section after completing the controlled Firefox-vs-Chrome comparison and implementation analysis.
+
+## Bug [1859289](https://bugzilla.mozilla.org/show_bug.cgi?id=1859289)
+
+### Diagnosis
+
+Firefox browser evidence was captured with Puppeteer. Inspect the screenshots and update this section with the visual or behavioral finding tied to the Bugzilla expected/actual behavior.
+
+### Cause Analysis
+
+Not determined by the helper scaffold. Replace this section after completing the controlled Firefox-vs-Chrome comparison and implementation analysis.
+
+## Bug [2005492](https://bugzilla.mozilla.org/show_bug.cgi?id=2005492)
+
+### Diagnosis
+
+Reproduced. Firefox 146 renders the Block news card headlines with squeezed vertical spacing while Chrome 148 renders the same text correctly. The text column widths and line counts match across browsers; the difference is line spacing. For example, the first 5-line title is 96px tall in Firefox but 143.13px tall in Chrome.
+
+### Cause Analysis
+
+The card title markup places a heading-size decorator inside `h3.headline`; the decorator carries the real `font-size`, `font-family`, and `line-height: 115%`, but it is styled with `display: contents`. In Firefox, the large Cash Sans glyph metrics are applied, but the multi-line layout is packed using the parent `h3` default 16px/normal line-height cadence. Chrome uses the decorator's computed line-height. A Firefox probe confirmed that changing the decorator to `display: block` makes the headline height match Chrome, so the likely cause is a Firefox layout bug/difference for `display: contents` descendants contributing line-height to heading line boxes.

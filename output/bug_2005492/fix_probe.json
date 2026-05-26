@@ -1,0 +1,353 @@
+{
+  "before": {
+    "h3": {
+      "rect": {
+        "x": 90.64999389648438,
+        "y": 640.36669921875,
+        "width": 229.70001220703125,
+        "height": 96,
+        "top": 640.36669921875,
+        "right": 320.3500061035156,
+        "bottom": 736.36669921875,
+        "left": 90.64999389648438
+      },
+      "styles": {
+        "display": "block",
+        "font": "700 16px serif",
+        "fontFamily": "serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "fontWeight": "700",
+        "marginTop": "0px",
+        "marginBottom": "24px",
+        "height": "96px"
+      },
+      "lineRects": [
+        {
+          "x": 90.65,
+          "y": 627.97,
+          "width": 167.03,
+          "height": 32
+        },
+        {
+          "x": 90.65,
+          "y": 647.17,
+          "width": 134.83,
+          "height": 32
+        },
+        {
+          "x": 90.65,
+          "y": 666.37,
+          "width": 180.38,
+          "height": 32
+        },
+        {
+          "x": 90.65,
+          "y": 685.57,
+          "width": 183.3,
+          "height": 32
+        },
+        {
+          "x": 90.65,
+          "y": 704.77,
+          "width": 219.8,
+          "height": 32
+        }
+      ]
+    },
+    "child": {
+      "text": "Jack Dorsey on Intelligence, Velocity, and the Next Chapter for Block at J.P. Morgan",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "styles": {
+        "display": "contents",
+        "font": "500 24.8833px / 28.6167px \"Cash Sans\", sans-serif",
+        "fontFamily": "\"Cash Sans\", sans-serif",
+        "fontSize": "24.8833px",
+        "lineHeight": "28.6167px",
+        "fontWeight": "500",
+        "marginTop": "0px",
+        "marginBottom": "0px",
+        "height": "auto"
+      },
+      "lineRects": [
+        {
+          "x": 90.65,
+          "y": 627.97,
+          "width": 167.03,
+          "height": 32
+        },
+        {
+          "x": 90.65,
+          "y": 647.17,
+          "width": 134.83,
+          "height": 32
+        },
+        {
+          "x": 90.65,
+          "y": 666.37,
+          "width": 180.38,
+          "height": 32
+        },
+        {
+          "x": 90.65,
+          "y": 685.57,
+          "width": 183.3,
+          "height": 32
+        },
+        {
+          "x": 90.65,
+          "y": 704.77,
+          "width": 219.8,
+          "height": 32
+        }
+      ]
+    }
+  },
+  "displayBlock": {
+    "h3": {
+      "rect": {
+        "x": 90.64999389648438,
+        "y": 640.36669921875,
+        "width": 229.70001220703125,
+        "height": 143.0833282470703,
+        "top": 640.36669921875,
+        "right": 320.3500061035156,
+        "bottom": 783.4500274658203,
+        "left": 90.64999389648438
+      },
+      "styles": {
+        "display": "block",
+        "font": "700 16px serif",
+        "fontFamily": "serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "fontWeight": "700",
+        "marginTop": "0px",
+        "marginBottom": "24px",
+        "height": "143.083px"
+      },
+      "lineRects": [
+        {
+          "x": 90.65,
+          "y": 640.37,
+          "width": 229.7,
+          "height": 143.08
+        },
+        {
+          "x": 90.65,
+          "y": 638.68,
+          "width": 167.03,
+          "height": 32
+        },
+        {
+          "x": 90.65,
+          "y": 667.3,
+          "width": 134.83,
+          "height": 32
+        },
+        {
+          "x": 90.65,
+          "y": 695.92,
+          "width": 180.38,
+          "height": 32
+        },
+        {
+          "x": 90.65,
+          "y": 724.53,
+          "width": 183.3,
+          "height": 32
+        },
+        {
+          "x": 90.65,
+          "y": 753.15,
+          "width": 219.8,
+          "height": 32
+        }
+      ]
+    },
+    "child": {
+      "text": "Jack Dorsey on Intelligence, Velocity, and the Next Chapter for Block at J.P. Morgan",
+      "rect": {
+        "x": 90.64999389648438,
+        "y": 640.36669921875,
+        "width": 229.70001220703125,
+        "height": 143.0833282470703,
+        "top": 640.36669921875,
+        "right": 320.3500061035156,
+        "bottom": 783.4500274658203,
+        "left": 90.64999389648438
+      },
+      "styles": {
+        "display": "block",
+        "font": "500 24.8833px / 28.6167px \"Cash Sans\", sans-serif",
+        "fontFamily": "\"Cash Sans\", sans-serif",
+        "fontSize": "24.8833px",
+        "lineHeight": "28.6167px",
+        "fontWeight": "500",
+        "marginTop": "0px",
+        "marginBottom": "0px",
+        "height": "143.083px"
+      },
+      "lineRects": [
+        {
+          "x": 90.65,
+          "y": 638.68,
+          "width": 167.03,
+          "height": 32
+        },
+        {
+          "x": 90.65,
+          "y": 667.3,
+          "width": 134.83,
+          "height": 32
+        },
+        {
+          "x": 90.65,
+          "y": 695.92,
+          "width": 180.38,
+          "height": 32
+        },
+        {
+          "x": 90.65,
+          "y": 724.53,
+          "width": 183.3,
+          "height": 32
+        },
+        {
+          "x": 90.65,
+          "y": 753.15,
+          "width": 219.8,
+          "height": 32
+        }
+      ]
+    }
+  },
+  "h3LineHeight": {
+    "h3": {
+      "rect": {
+        "x": 90.64999389648438,
+        "y": 640.36669921875,
+        "width": 229.70001220703125,
+        "height": 143.0833282470703,
+        "top": 640.36669921875,
+        "right": 320.3500061035156,
+        "bottom": 783.4500274658203,
+        "left": 90.64999389648438
+      },
+      "styles": {
+        "display": "block",
+        "font": "700 16px / 18.4px serif",
+        "fontFamily": "serif",
+        "fontSize": "16px",
+        "lineHeight": "18.4px",
+        "fontWeight": "700",
+        "marginTop": "0px",
+        "marginBottom": "24px",
+        "height": "143.083px"
+      },
+      "lineRects": [
+        {
+          "x": 90.65,
+          "y": 640.37,
+          "width": 229.7,
+          "height": 143.08
+        },
+        {
+          "x": 90.65,
+          "y": 638.68,
+          "width": 167.03,
+          "height": 32
+        },
+        {
+          "x": 90.65,
+          "y": 667.3,
+          "width": 134.83,
+          "height": 32
+        },
+        {
+          "x": 90.65,
+          "y": 695.92,
+          "width": 180.38,
+          "height": 32
+        },
+        {
+          "x": 90.65,
+          "y": 724.53,
+          "width": 183.3,
+          "height": 32
+        },
+        {
+          "x": 90.65,
+          "y": 753.15,
+          "width": 219.8,
+          "height": 32
+        }
+      ]
+    },
+    "child": {
+      "text": "Jack Dorsey on Intelligence, Velocity, and the Next Chapter for Block at J.P. Morgan",
+      "rect": {
+        "x": 90.64999389648438,
+        "y": 640.36669921875,
+        "width": 229.70001220703125,
+        "height": 143.0833282470703,
+        "top": 640.36669921875,
+        "right": 320.3500061035156,
+        "bottom": 783.4500274658203,
+        "left": 90.64999389648438
+      },
+      "styles": {
+        "display": "block",
+        "font": "500 24.8833px / 28.6167px \"Cash Sans\", sans-serif",
+        "fontFamily": "\"Cash Sans\", sans-serif",
+        "fontSize": "24.8833px",
+        "lineHeight": "28.6167px",
+        "fontWeight": "500",
+        "marginTop": "0px",
+        "marginBottom": "0px",
+        "height": "143.083px"
+      },
+      "lineRects": [
+        {
+          "x": 90.65,
+          "y": 638.68,
+          "width": 167.03,
+          "height": 32
+        },
+        {
+          "x": 90.65,
+          "y": 667.3,
+          "width": 134.83,
+          "height": 32
+        },
+        {
+          "x": 90.65,
+          "y": 695.92,
+          "width": 180.38,
+          "height": 32
+        },
+        {
+          "x": 90.65,
+          "y": 724.53,
+          "width": 183.3,
+          "height": 32
+        },
+        {
+          "x": 90.65,
+          "y": 753.15,
+          "width": 219.8,
+          "height": 32
+        }
+      ]
+    }
+  }
+}
