@@ -1,0 +1,13 @@
+1779784317843	SessionStore	DEBUG	Can't read session file which doesn't exist: clean
+1779784317845	SessionStore	DEBUG	Can't read session file which doesn't exist: recovery
+1779784317847	SessionStore	DEBUG	Can't read session file which doesn't exist: recoveryBackup
+1779784317848	SessionStore	DEBUG	Can't read session file which doesn't exist: cleanBackup
+1779784317849	SessionStore	DEBUG	Can't read session file which doesn't exist: clean
+1779784317914	SessionStore	DEBUG	Can't read session file which doesn't exist: recovery
+1779784317946	SessionStore	DEBUG	Can't read session file which doesn't exist: recoveryBackup
+1779784317952	SessionStore	DEBUG	Can't read session file which doesn't exist: cleanBackup
+1779784317952	SessionStore	WARN	No readable session files found to restore, starting with empty session
+1779784317952	SessionStore	DEBUG	Completed SessionFile.read() with result.origin: empty
+1779784317952	SessionStore	DEBUG	No valid session found
+1779784318495	SessionStore	DEBUG	onQuitApplicationGranted, shutdown of 0 windows will be sync? false
+1779784318508	SessionStore	DEBUG	Last session save attempt: 1779784318495ms ago

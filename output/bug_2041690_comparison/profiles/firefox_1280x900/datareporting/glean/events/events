@@ -1,0 +1,27 @@
+{"timestamp":5313381,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"glean_timestamp":"1779784956832","path_key":"clean","can_load":"false","loadfail_reason":"File doesn't exist."}}
+{"timestamp":5313382,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"loadfail_reason":"File doesn't exist.","glean_timestamp":"1779784956833","can_load":"false","path_key":"recovery"}}
+{"timestamp":5313384,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"loadfail_reason":"File doesn't exist.","can_load":"false","glean_timestamp":"1779784956835","path_key":"recoveryBackup"}}
+{"timestamp":5313385,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"can_load":"false","path_key":"cleanBackup","glean_timestamp":"1779784956836","loadfail_reason":"File doesn't exist."}}
+{"timestamp":5313385,"category":"zero_byte_load","name":"load_png","extra":{"status":"NS_ERROR_FILE_NOT_FOUND","glean_timestamp":"1779784956836","file_name":"omni.ja!/chrome/toolkit/content/mozapps/extensions/default-theme/preview.png","cancel_reason":"","sync":"false","cancelled":"false"}}
+{"timestamp":5313386,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"can_load":"false","path_key":"clean","loadfail_reason":"File doesn't exist.","glean_timestamp":"1779784956837"}}
+{"timestamp":5313455,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"glean_timestamp":"1779784956906","can_load":"false","path_key":"recovery","loadfail_reason":"File doesn't exist."}}
+{"timestamp":5313460,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"path_key":"recoveryBackup","loadfail_reason":"File doesn't exist.","can_load":"false","glean_timestamp":"1779784956911"}}
+{"timestamp":5313465,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"path_key":"cleanBackup","loadfail_reason":"File doesn't exist.","glean_timestamp":"1779784956917","can_load":"false"}}
+{"timestamp":5313721,"category":"nimbus_events","name":"migration","extra":{"migration_id":"multi-phase-migrations","glean_timestamp":"1779784957172","success":"true"}}
+{"timestamp":5313721,"category":"nimbus_events","name":"migration","extra":{"glean_timestamp":"1779784957172","migration_id":"separate-rollout-opt-out","success":"true"}}
+{"timestamp":5313759,"category":"nimbus_events","name":"migration","extra":{"glean_timestamp":"1779784957210","migration_id":"noop","success":"true"}}
+{"timestamp":5313759,"category":"nimbus_events","name":"migration","extra":{"success":"true","glean_timestamp":"1779784957210","migration_id":"noop"}}
+{"timestamp":5313759,"category":"nimbus_events","name":"migration","extra":{"migration_id":"import-enrollments-to-sql","glean_timestamp":"1779784957210","success":"true"}}
+{"timestamp":5313759,"category":"nimbus_events","name":"migration","extra":{"success":"true","glean_timestamp":"1779784957210","migration_id":"graduate-firefox-labs-auto-pip"}}
+{"timestamp":5313759,"category":"nimbus_events","name":"migration","extra":{"glean_timestamp":"1779784957210","migration_id":"graduate-firefox-labs-jpeg-xl","success":"true"}}
+{"timestamp":5313768,"category":"jsonfile","name":"load_autofillprofiles","extra":{"glean_timestamp":"1779784957219","value":"error_notfounderror"}}
+{"timestamp":5313790,"category":"nimbus_events","name":"remote_settings_sync_error","extra":{"collection":"nimbus-desktop-experiments","reason":"get-exception","trigger":"enabled","force_sync":"false","glean_timestamp":"1779784957241"}}
+{"timestamp":5313791,"category":"nimbus_events","name":"is_ready","extra":{"glean_timestamp":"1779784957242"}}
+{"timestamp":5313791,"category":"nimbus_events","name":"migration","extra":{"migration_id":"firefox-labs-enrollments","success":"true","glean_timestamp":"1779784957242"}}
+{"timestamp":5313801,"category":"containers","name":"container_profile_loaded","extra":{"glean_timestamp":"1779784957252","containers":"4"}}
+{"timestamp":5313815,"category":"zero_byte_load","name":"load_png","extra":{"cancel_reason":"","sync":"false","file_name":"omni.ja!/chrome/browser/content/builtin-themes/light/preview.png","cancelled":"false","glean_timestamp":"1779784957266","status":"NS_ERROR_FILE_NOT_FOUND"}}
+{"timestamp":5313815,"category":"zero_byte_load","name":"load_png","extra":{"sync":"false","file_name":"omni.ja!/chrome/browser/content/builtin-themes/dark/preview.png","cancelled":"false","status":"NS_ERROR_FILE_NOT_FOUND","cancel_reason":"","glean_timestamp":"1779784957266"}}
+{"timestamp":5313815,"category":"zero_byte_load","name":"load_png","extra":{"sync":"false","file_name":"omni.ja!/chrome/browser/content/builtin-themes/alpenglow/preview.png","status":"NS_ERROR_FILE_NOT_FOUND","cancel_reason":"","cancelled":"false","glean_timestamp":"1779784957266"}}
+{"timestamp":5313827,"category":"jsonfile","name":"load_logins","extra":{"glean_timestamp":"1779784957278","value":"error_notfounderror"}}
+{"timestamp":5313829,"category":"upgrade_dialog","name":"trigger_reason","extra":{"value":"not-major","glean_timestamp":"1779784957280"}}
+{"timestamp":5313999,"category":"zero_byte_load","name":"load_html","extra":{"cancelled":"true","file_name":"omni.ja!/chrome/browser/builtin-addons/newtab/prerendered/activity-stream.html","status":"NS_ERROR_FAILURE","sync":"false","glean_timestamp":"1779784957450","cancel_reason":""}}

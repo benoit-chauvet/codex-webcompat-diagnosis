@@ -1,0 +1,84 @@
+{
+  "eventCount": 1642,
+  "failureCount": 13,
+  "failures": [
+    {
+      "blockedReason": "",
+      "errorText": "net::ERR_ABORTED",
+      "type": "Document",
+      "url": ""
+    },
+    {
+      "blockedReason": "",
+      "errorText": "net::ERR_ABORTED",
+      "type": "Fetch",
+      "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-46MTN63V4K&gtm=45je65k1v897714858za200zb9177251398zd9177251398&_p=1779785150242&gcs=G100&gcd=13p3p3p2p5l1&npa=1&dma_cps=-&dma=1&tcfd=10001&gdid=dYmQxMT&ecid=2074394025&_eu=EAAAAGA&are=1&cid=1460931047.1779785151&ec_mode=a&frm=0&ir=1&pscdl=denied&rcb=16&sr=800x600&uaa=arm&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=macOS&uapv=26.5.0&uaw=0&ul=en-gb&gaf=2&_s=1&tag_exp=0~115938465~115938469~118689381&dp=%2Froute-planner%2Froute-results&sid=1779785151&sct=1&seg=0&dl=https%3A%2F%2Fwww.theaa.com%2Froute-planner%2Froute%3Ffrom%3Dg74%25204xt%26to%3DFK10%25203SA&dt=Route%20Planner%20%7C%20Directions%2C%20traffic%20and%20maps%20%7C%20AA&_tu=CA&en=page_view&_fv=1&_nsi=1&_ss=2&_c=1&_ee=1&ep.tealiumprofile=route-planner_prod&ep.measurement_id=G-46MTN63V4K&ep.version=ut4.51.202505220748&ep.web_section=route%20planner&ep.tealium_platform=tealiumIQ&ep.pathname=%2Froute-planner%2Froute&ep.full_url=https%3A%2F%2Fwww.theaa.com%2Froute-planner%2Froute%3Ffrom%3Dg74%25204xt%26to%3DFK10%25203SA&up.user_agent=Mozilla%2F5.0%20(Macintosh%3B%20Intel%20Mac%20OS%20X%2010_15_7)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20HeadlessChrome%2F148.0.0.0%20Safari%2F537.36&tfd=1182"
+    },
+    {
+      "blockedReason": "",
+      "errorText": "net::ERR_ABORTED",
+      "type": "Fetch",
+      "url": "https://region1.analytics.google.com/g/collect?v=2&tid=G-46MTN63V4K&gtm=45je65k1v897714858za200zb9177251398zd9177251398&_p=1779785150242&_gaz=1&gcs=G111&gcu=1&gcd=13r3r3r2r5l1&npa=0&dma_cps=a&dma=1&tcfd=10001&gdid=dYmQxMT&ecid=2074394025&_eu=EAAAAGQ&are=1&cid=1460931047.1779785151&ec_mode=c&frm=0&gcut=3&ir=1&pscdl=noapi&rcb=16&sr=800x600&uaa=arm&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=macOS&uapv=26.5.0&uaw=0&ul=en-gb&gaf=2&_s=2&tag_exp=0~115938465~115938469~118689381&sid=1779785151&sct=1&seg=1&dl=https%3A%2F%2Fwww.theaa.com%2Froute-planner%2Froute%3Ffrom%3Dg74%25204xt%26to%3DFK10%25203SA&dt=Route%20Planner%20%7C%20Directions%2C%20traffic%20and%20maps%20%7C%20AA&_tu=CA&en=user_engagement&ep.tealiumprofile=route-planner_prod&ep.measurement_id=G-46MTN63V4K&ep.version=ut4.51.202505220748&ep.web_section=route%20planner&ep.tealium_platform=tealiumIQ&ep.ga_temp_client_id=1460931047.1779785151&ep.ga_temp_ecid=2074394025&_et=11141&tfd=12329"
+    },
+    {
+      "blockedReason": "",
+      "errorText": "net::ERR_NAME_NOT_RESOLVED",
+      "type": "Image",
+      "url": "https://pixelg.adswizz.com/one.png?client=TheAA&eventId=&action=cs&event=RoutePlanner&j=0&_rnd=0.792012499216652"
+    },
+    {
+      "blockedReason": "",
+      "errorText": "net::ERR_BLOCKED_BY_ORB",
+      "type": "Image",
+      "url": "https://ib.adnxs.com/getuid?https://loadm.exelator.com/load/?p=204&g=013&bi=$UID&j=0"
+    },
+    {
+      "blockedReason": "",
+      "errorText": "net::ERR_ABORTED",
+      "type": "Fetch",
+      "url": "https://ingesteu.quantummetric.com/horizon/d"
+    },
+    {
+      "blockedReason": "",
+      "errorText": "net::ERR_ABORTED",
+      "type": "Fetch",
+      "url": "https://ingesteu.quantummetric.com/horizon/theaa?T=B&u=https%3A%2F%2Fwww.theaa.com%2Froute-planner%2Froute%3Ffrom%3D****&t=1779785163339&v=1779785163415&H=cb5d156aae7b4cea16d73363&s=82866f9afd38a5ba8b60d886eb984963&U=2c8109a03e6a0cf52530b1f52ff5feaa&N=0&Q=2&S=0&b=1413&z=1"
+    },
+    {
+      "blockedReason": "",
+      "errorText": "net::ERR_ABORTED",
+      "type": "Fetch",
+      "url": "https://ingesteu.quantummetric.com/horizon/theaa?T=B&u=https%3A%2F%2Fwww.theaa.com%2Froute-planner%2Froute%3Ffrom%3D****&t=1779785163339&v=1779785163415&H=cb5d156aae7b4cea16d73363&s=82866f9afd38a5ba8b60d886eb984963&P=1&N=1&S=0&b=726&z=1"
+    },
+    {
+      "blockedReason": "",
+      "errorText": "net::ERR_ABORTED",
+      "type": "Fetch",
+      "url": "https://ingesteu.quantummetric.com/horizon/theaa?T=B&u=https%3A%2F%2Fwww.theaa.com%2Froute-planner%2Froute%3Ffrom%3D****&t=1779785163339&v=1779785163414&H=cb5d156aae7b4cea16d73363&s=82866f9afd38a5ba8b60d886eb984963&U=2c8109a03e6a0cf52530b1f52ff5feaa&Q=1&Y=1&X=eb79009c83e54e3a8cb863d6489cc702&S=0&b=290644&z=1"
+    },
+    {
+      "blockedReason": "",
+      "errorText": "net::ERR_ABORTED",
+      "type": "Fetch",
+      "url": "https://ingesteu.quantummetric.com/horizon/theaa?T=B&u=https%3A%2F%2Fwww.theaa.com%2Froute-planner%2Froute%3Ffrom%3D****&t=1779785163339&v=1779785163565&H=cb5d156aae7b4cea16d73363&s=82866f9afd38a5ba8b60d886eb984963&Q=1&Y=1&X=ae76dd5d7b2f4684b0850cdca3542242&S=290644&b=576&z=1"
+    },
+    {
+      "blockedReason": "",
+      "errorText": "net::ERR_ABORTED",
+      "type": "Fetch",
+      "url": "https://ingesteu.quantummetric.com/horizon/theaa?T=B&u=https%3A%2F%2Fwww.theaa.com%2Froute-planner%2Froute%3Ffrom%3D****&t=1779785163339&v=1779785163635&H=cb5d156aae7b4cea16d73363&s=82866f9afd38a5ba8b60d886eb984963&Q=1&Y=1&X=0744e403203742f994ae9c79d449e8ea&S=291220&b=1836&z=1"
+    },
+    {
+      "blockedReason": "",
+      "errorText": "net::ERR_ABORTED",
+      "type": "Fetch",
+      "url": "https://ingesteu.quantummetric.com/horizon/theaa?T=B&u=https%3A%2F%2Fwww.theaa.com%2Froute-planner%2Froute%3Ffrom%3D****&t=1779785163339&v=1779785166888&H=cb5d156aae7b4cea16d73363&s=82866f9afd38a5ba8b60d886eb984963&P=2&N=2&S=726&b=995&z=1"
+    },
+    {
+      "blockedReason": "",
+      "errorText": "net::ERR_ABORTED",
+      "type": "Fetch",
+      "url": "https://ingesteu.quantummetric.com/horizon/theaa?T=B&u=https%3A%2F%2Fwww.theaa.com%2Froute-planner%2Froute%3Ffrom%3D****&t=1779785163339&v=1779785166888&H=cb5d156aae7b4cea16d73363&s=82866f9afd38a5ba8b60d886eb984963&N=1&Q=2&S=1413&b=424&z=1"
+    }
+  ]
+}

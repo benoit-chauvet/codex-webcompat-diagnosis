@@ -575,46 +575,80 @@ def sort_summary_entries(entries: list[dict[str, str]], summary_path: Path) -> l
     return sorted(entries, key=lambda entry: (entry["generated_at"], entry["bug_id"]))
 
 
-def write_summary(output_dir: Path, summary_path: Path, bugzilla_base: str) -> int:
-    entries: list[dict[str, str]] = []
-    report_paths = {
-        *output_dir.glob("bug_*_diagnosis.md"),
-        *output_dir.glob("bug_*/diagnosis.md"),
-    }
-    for report_path in sorted(report_paths):
-        report_text = report_path.read_text(encoding="utf-8")
-        bug_id = report_bug_id(report_text, report_path)
-        if not bug_id:
-            continue
-        entries.append(
-            {
-                "bug_id": bug_id,
-                "bugzilla_url": report_bugzilla_url(report_text, bug_id, bugzilla_base),
-                "generated_at": report_generated_at(report_text),
-                "diagnosis": extract_markdown_section(report_text, "Diagnosis"),
-                "cause_analysis": extract_markdown_section(report_text, "Cause Analysis"),
-            }
-        )
+def report_paths_for_summary(output_dir: Path) -> list[Path]:
+    return sorted(
+        {
+            *output_dir.glob("bug_*_diagnosis.md"),
+            *output_dir.glob("bug_*/diagnosis.md"),
+        }
+    )
 
-    lines = ["# Diagnosis Summary"]
-    for entry in sort_summary_entries(entries, summary_path):
-        lines.extend(
-            [
-                "",
-                f"## Bug [{entry['bug_id']}]({entry['bugzilla_url']})",
-                "",
-                "### Diagnosis",
-                "",
-                entry["diagnosis"],
-                "",
-                "### Cause Analysis",
-                "",
-                entry["cause_analysis"],
-            ]
-        )
+
+def summary_entry(report_path: Path, bugzilla_base: str) -> dict[str, str] | None:
+    report_text = report_path.read_text(encoding="utf-8")
+    bug_id = report_bug_id(report_text, report_path)
+    if not bug_id:
+        return None
+    return {
+        "bug_id": bug_id,
+        "bugzilla_url": report_bugzilla_url(report_text, bug_id, bugzilla_base),
+        "generated_at": report_generated_at(report_text),
+        "diagnosis": extract_markdown_section(report_text, "Diagnosis"),
+        "cause_analysis": extract_markdown_section(report_text, "Cause Analysis"),
+    }
+
+
+def format_summary_entry(entry: dict[str, str]) -> str:
+    lines = [
+        f"## Bug [{entry['bug_id']}]({entry['bugzilla_url']})",
+        "",
+        "### Diagnosis",
+        "",
+        entry["diagnosis"],
+        "",
+        "### Cause Analysis",
+        "",
+        entry["cause_analysis"],
+    ]
+    return "\n".join(lines).rstrip()
+
+
+def append_summary_entries(summary_path: Path, entries: list[dict[str, str]]) -> int:
+    if not entries:
+        return 0
+
     summary_path.parent.mkdir(parents=True, exist_ok=True)
-    summary_path.write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
+    existing = summary_path.read_text(encoding="utf-8") if summary_path.exists() else ""
+    additions = "\n\n".join(format_summary_entry(entry) for entry in entries)
+    with summary_path.open("a", encoding="utf-8") as summary_file:
+        if not existing.strip():
+            summary_file.write("# Diagnosis Summary\n\n")
+        elif existing.endswith("\n\n"):
+            pass
+        elif existing.endswith("\n"):
+            summary_file.write("\n")
+        else:
+            summary_file.write("\n\n")
+        summary_file.write(additions)
+        summary_file.write("\n")
     return len(entries)
+
+
+def append_missing_summary_entries(output_dir: Path, summary_path: Path, bugzilla_base: str) -> int:
+    entries: list[dict[str, str]] = []
+    existing_bug_ids = set(flattened_existing_summary_order(summary_path))
+    for report_path in report_paths_for_summary(output_dir):
+        entry = summary_entry(report_path, bugzilla_base)
+        if not entry or entry["bug_id"] in existing_bug_ids:
+            continue
+        entries.append(entry)
+        existing_bug_ids.add(entry["bug_id"])
+    return append_summary_entries(summary_path, sort_summary_entries(entries, summary_path))
+
+
+def append_summary_report(report_path: Path, summary_path: Path, bugzilla_base: str) -> int:
+    entry = summary_entry(report_path, bugzilla_base)
+    return append_summary_entries(summary_path, [entry] if entry else [])
 
 
 def command_status(result: CaptureResult) -> str:
@@ -771,7 +805,7 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
     parser.add_argument("--url", help="Target URL override if Bugzilla does not contain the right URL")
     parser.add_argument("--allow-version-mismatch", action="store_true", help="Use another Firefox if the requested major version is unavailable")
     parser.add_argument("--skip-browser", action="store_true", help="Write Bugzilla evidence without launching Firefox")
-    parser.add_argument("--summary-only", action="store_true", help="Regenerate summary.md from existing diagnosis reports without fetching Bugzilla data or launching browsers")
+    parser.add_argument("--summary-only", action="store_true", help="Append missing diagnosis reports to summary.md without fetching Bugzilla data or launching browsers")
     parser.add_argument("--no-summary", action="store_true", help="Do not update summary.md after writing a diagnosis report")
     parser.add_argument("--summary-path", type=Path, help="Path for the aggregate summary. Default: summary.md next to the output directory")
     parser.add_argument("--timeout", default=90, type=int, help="Per-screenshot timeout in seconds")
@@ -793,8 +827,8 @@ def main(argv: list[str] | None = None) -> int:
         else default_summary_path(output_dir)
     )
     if args.summary_only:
-        count = write_summary(output_dir, summary_path, args.bugzilla_base)
-        print(f"Wrote diagnosis summary for {count} report(s) to {summary_path}")
+        count = append_missing_summary_entries(output_dir, summary_path, args.bugzilla_base)
+        print(f"Appended {count} missing diagnosis summary entr{'y' if count == 1 else 'ies'} to {summary_path}")
         return 0
     if not args.bug_id:
         raise SystemExit("bug_id is required unless --summary-only is used")
@@ -853,8 +887,8 @@ def main(argv: list[str] | None = None) -> int:
     )
     print(f"Wrote diagnosis report to {report_path}")
     if not args.no_summary:
-        count = write_summary(output_dir, summary_path, args.bugzilla_base)
-        print(f"Wrote diagnosis summary for {count} report(s) to {summary_path}")
+        count = append_summary_report(report_path, summary_path, args.bugzilla_base)
+        print(f"Appended diagnosis summary for {count} report(s) to {summary_path}")
     return 0
 
 

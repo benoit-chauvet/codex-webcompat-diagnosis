@@ -93,3 +93,14 @@ The site relies on the legacy non-standard `mousewheel` event for desktop wheel 
 Firefox does not dispatch the legacy `mousewheel` event for normal wheel input; it dispatches the standard `wheel` event. Because the page also sets the full-screen wrapper to `height:100vh; overflow:hidden` and keeps `#homePage` overflow hidden, there is no native scrolling fallback. Chrome still dispatches the legacy compatibility event, so the custom `mouseWheel` handler runs and moves the section container.
 
 Likely site fix: listen for the standard `wheel` event, preferably with a non-passive listener only if `preventDefault()` is required, and keep the existing `mousewheel` listener only as a legacy fallback. The handler should read `deltaY` from the `WheelEvent`.
+
+
+## Bug [2041690](https://bugzilla.mozilla.org/show_bug.cgi?id=2041690)
+
+### Diagnosis
+
+Not reproduced locally. The live AA route planner currently renders the Google map tiles and route correctly in both tested Firefox versions and in Chrome under matching clean-profile automation. The Bugzilla attachment remains valid evidence that Firefox showed a black-tile map rendering failure on the reporter's Windows desktop environment, but the failure did not reproduce here.
+
+### Cause Analysis
+
+No confirmed site-side cause was identified because the local Firefox runs did not reproduce the black tiles. The attachment's black rectangles are confined to the Google Maps viewport and align with the map tile/canvas rendering area, while the surrounding AA route-planner UI continues to work. Combined with the current DOM evidence showing Google Maps tile images and 256x256 canvas layers, the most plausible unconfirmed direction is a Firefox graphics/compositing issue in the Google Maps rendering path, potentially Windows/GPU-dependent, rather than a route-calculation or AA form logic failure.
