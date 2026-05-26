@@ -1,3 +1,0 @@
-/submit/firefox-desktop/baseline/1/18662304-b964-4f0d-be1c-0a137ec31d1d
-{"ping_info":{"seq":0,"start_time":"2026-05-25T23:38:05.885+02:00","end_time":"2026-05-25T23:38:05.904+02:00","reason":"active"},"client_info":{"telemetry_sdk_build":"63.0.0","first_run_date":"2026-05-25+02:00","build_date":"1970-01-01T00:00:00+00:00","client_id":"2d473d1c-37d0-4dfa-ba1d-6f549d50c8e8","locale":"en-US","os":"Darwin","app_build":"20250130195129","os_version":"25.5.0","app_display_version":"135.0","architecture":"aarch64","app_channel":"release"},"metrics":{"uuid":{"legacy.telemetry.profile_group_id":"fe035eb0-37bf-4c27-98aa-9bf69f122c01","legacy.telemetry.client_id":"1ab91eba-7931-4ba3-a10c-6c52fe78d785"}}}
-{"headers":{},"body_has_info_sections":true,"ping_name":"baseline"}

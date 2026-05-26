@@ -1,3 +1,0 @@
-/submit/firefox-desktop/new-profile/1/19224c7c-7c56-4183-8849-eaaf950c2b45
-{"ping_info":{"seq":0,"start_time":"2026-05-26T10:31:57.485+02:00","end_time":"2026-05-26T10:31:57.523+02:00"},"client_info":{"telemetry_sdk_build":"67.3.2","os":"Darwin","app_build":"20260525212335","app_channel":"nightly","app_display_version":"153.0a1","architecture":"aarch64","os_version":"25.5.0","locale":"en-US","first_run_date":"2026-05-26+02:00","build_date":"1970-01-01T00:00:00+00:00","client_id":"014fe098-51c8-4ddb-9078-e3f82791f1ee"},"metrics":{"quantity":{"startup.profile_count":7},"string":{"startup.profile_database_version":"2","startup.profile_selection_reason":"argument-profile"}}}
-{"headers":{},"body_has_info_sections":true,"ping_name":"new-profile","uploader_capabilities":[]}

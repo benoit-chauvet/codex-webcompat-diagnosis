@@ -1,8 +1,0 @@
-{"timestamp":1497203,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"glean_timestamp":"1779741831643","path_key":"clean","loadfail_reason":"File doesn't exist.","can_load":"false"}}
-{"timestamp":1497204,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"path_key":"recovery","loadfail_reason":"File doesn't exist.","can_load":"false","glean_timestamp":"1779741831645"}}
-{"timestamp":1497206,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"path_key":"recoveryBackup","glean_timestamp":"1779741831647","can_load":"false","loadfail_reason":"File doesn't exist."}}
-{"timestamp":1497210,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"path_key":"cleanBackup","glean_timestamp":"1779741831651","can_load":"false","loadfail_reason":"File doesn't exist."}}
-{"timestamp":1497211,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"can_load":"false","path_key":"clean","loadfail_reason":"File doesn't exist.","glean_timestamp":"1779741831652"}}
-{"timestamp":1497285,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"can_load":"false","loadfail_reason":"File doesn't exist.","path_key":"recovery","glean_timestamp":"1779741831726"}}
-{"timestamp":1497316,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"path_key":"recoveryBackup","can_load":"false","glean_timestamp":"1779741831756","loadfail_reason":"File doesn't exist."}}
-{"timestamp":1497321,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"can_load":"false","loadfail_reason":"File doesn't exist.","path_key":"cleanBackup","glean_timestamp":"1779741831762"}}

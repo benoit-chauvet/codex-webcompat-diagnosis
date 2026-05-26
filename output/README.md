@@ -1,1 +1,0 @@
-Output folder for diagnose results
