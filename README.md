@@ -23,6 +23,7 @@ The bundled script:
 - `output/bug_<id>/diagnosis.md`: generated diagnosis report.
 - `output/bug_<id>/firefox/`: Bugzilla payload and Firefox screenshot artifacts.
 - `output/bug_<id>/chrome/`: Chrome comparison artifacts when collected.
+- summary.md: Summary of the diagnosed bugs
 
 The installed skill copy lives at:
 
