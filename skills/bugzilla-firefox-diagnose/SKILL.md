@@ -25,7 +25,7 @@ The helper:
 - Can download a matching archived Firefox release on macOS into a temp cache when `--download-firefox` is provided.
 - Captures Firefox screenshots and page state with Puppeteer at common desktop and mobile-ish viewport sizes.
 - Writes `output/bug_<id>/diagnosis.md` and supporting Firefox artifacts under `output/bug_<id>/firefox/`.
-- For reproduced issues, the completed diagnosis must add a cause-validation test case under `output/bug_<id>/testcase/`.
+- For reproduced issues, the completed diagnosis must add a reduced cause-validation test case under `output/bug_<id>/testcase/` and a minimal standalone test case under `output/bug_<id>/minimal-testcase/`.
 - Appends to `summary.md` next to the output directory with linked Bugzilla bug headings and each report's Diagnosis and Cause Analysis sections.
 
 The helper output is only a starting point. A completed diagnosis must execute the reported reproduction steps and compare Firefox with Chrome.
@@ -40,7 +40,7 @@ For each bug:
 4. Execute the first-comment steps in Firefox and Chrome under controlled conditions.
 5. Compare Firefox behavior against Chrome behavior and compare both browsers against the expected and actual results from comment 0.
 6. If Firefox reproduces the reported actual behavior while Chrome satisfies the expected behavior, analyze the page to identify the likely cause.
-7. For reproduced issues, create a focused test case that demonstrates the cause analysis is true, not just that the original site still fails.
+7. For reproduced issues, create a focused reduced test case that demonstrates the cause analysis is true, not just that the original site still fails, and also create a minimal standalone test case.
 8. If reproduction cannot be completed, write a partial diagnosis that clearly names the blocker, what evidence was collected, and what still needs to be done.
 
 ## Controlled Browser Comparison
@@ -66,13 +66,15 @@ Classify the comparison explicitly:
 
 ## Cause-Validation Test Cases
 
-When the comparison is classified as **Reproduced cross-browser issue**, add a reduced test case before finalizing the diagnosis:
+When the comparison is classified as **Reproduced cross-browser issue**, add both a reduced cause-validation test case and a minimal standalone test case before finalizing the diagnosis:
 
 - Create `output/bug_<id>/testcase/` with the smallest practical HTML/CSS/JS assets needed to isolate the suspected cause.
 - Make the causal condition observable and, when practical, controllable: include a failing path and a control/fixed path, mode switch, or equivalent assertion that distinguishes the suspected cause from the symptom.
 - Prefer self-contained static files such as `index.html`, `style.css`, and `testcase_probe.mjs`. Avoid external dependencies unless the bug specifically depends on them.
 - Run the test case in Firefox and Chrome with comparable Puppeteer steps, collecting screenshots, console output, DOM state, and command logs under `output/bug_<id>/testcase/artifacts/`.
 - Record objective pass/fail criteria in the report so the reader can see why the test case validates the cause analysis.
+- Create `output/bug_<id>/minimal-testcase/` with the smallest standalone reproduction that still demonstrates the browser difference. Prefer a single `index.html`; omit controls, explanatory UI, fixtures, and instrumentation unless they are required to trigger or observe the bug.
+- Run the minimal test case in Firefox and Chrome as well, collecting artifacts under `output/bug_<id>/minimal-testcase/artifacts/` when practical.
 - If the issue cannot be reduced because it depends on credentials, private APIs, server behavior, anti-bot checks, or unavailable proprietary code, create the smallest mock or instrumented live-site probe possible and clearly document the remaining limitation.
 
 ## Firefox Version Rules
@@ -96,8 +98,8 @@ After running the helper:
 4. Execute the comment-0 steps in Firefox and Chrome with Puppeteer, collecting comparable evidence for both browsers.
 5. Compare Firefox vs Chrome and actual vs expected. State whether the bug is reproduced, not reproduced, blocked/partial, or affected by site/environment drift.
 6. If reproduced, inspect the page implementation enough to identify the likely cause. Use Puppeteer evidence where possible: console exceptions, network errors, event handlers, DOM/CSS differences, feature detection, URL/fragment handling, storage/cookie state, or minimized page code.
-7. If reproduced, create and run the cause-validation test case, then cite its files and artifacts in the report.
-8. Update the Markdown report if the helper only produced a scaffold. Keep evidence tied to Bugzilla fields, comment 0, attachments, browser version output, screenshots/videos, command logs, browser observations, and the test case.
+7. If reproduced, create and run the reduced cause-validation test case and the minimal standalone test case, then cite their files and artifacts in the report.
+8. Update the Markdown report if the helper only produced a scaffold. Keep evidence tied to Bugzilla fields, comment 0, attachments, browser version output, screenshots/videos, command logs, browser observations, and the test cases.
 9. After all per-bug reports are finalized, append missing entries to the aggregate summary without rerunning diagnosis:
 
 ```bash
@@ -121,7 +123,7 @@ Keep the final report concise and include:
 - Actual-vs-expected comparison
 - Diagnosis
 - Cause analysis, when reproduced
-- Cause-validation test case, when reproduced
+- Cause-validation test cases, when reproduced
 - Confidence
 - Suggested next steps
 - Sources and artifacts

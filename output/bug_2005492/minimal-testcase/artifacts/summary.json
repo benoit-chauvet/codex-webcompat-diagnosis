@@ -1,0 +1,40 @@
+{
+  "generatedAt": "2026-05-26T20:09:40.503Z",
+  "testcaseUrl": "file:///Users/bchauvet/codex-webcompat-diagnosis/output/bug_2005492/minimal-testcase/index.html",
+  "results": [
+    {
+      "browserName": "firefox",
+      "browserVersion": "firefox/146.0",
+      "screenshot": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2005492/minimal-testcase/artifacts/firefox/screenshot.png",
+      "statePath": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2005492/minimal-testcase/artifacts/firefox/state.json",
+      "summary": {
+        "childLineHeightPx": 28.617,
+        "headlineHeightPx": 96,
+        "textLineCount": 5,
+        "textLineTopDeltaMedianPx": 19.2,
+        "gapToChildLineHeightRatio": 0.671
+      }
+    },
+    {
+      "browserName": "chrome",
+      "browserVersion": "Chrome/148.0.7778.179",
+      "screenshot": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2005492/minimal-testcase/artifacts/chrome/screenshot.png",
+      "statePath": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2005492/minimal-testcase/artifacts/chrome/state.json",
+      "summary": {
+        "childLineHeightPx": 28.617,
+        "headlineHeightPx": 143.047,
+        "textLineCount": 5,
+        "textLineTopDeltaMedianPx": 28.61,
+        "gapToChildLineHeightRatio": 1
+      }
+    }
+  ],
+  "validation": {
+    "passed": true,
+    "criteria": {
+      "firefoxSqueezed": true,
+      "chromeUnsqueezed": true
+    },
+    "explanation": "The minimal testcase passes when Firefox lays out the display: contents child with a line gap below the child line-height while Chrome uses the child line-height."
+  }
+}

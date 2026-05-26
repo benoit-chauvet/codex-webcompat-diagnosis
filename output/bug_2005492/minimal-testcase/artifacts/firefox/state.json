@@ -1,0 +1,114 @@
+{
+  "browserName": "firefox",
+  "browserVersion": "firefox/146.0",
+  "testcaseUrl": "file:///Users/bchauvet/codex-webcompat-diagnosis/output/bug_2005492/minimal-testcase/index.html",
+  "screenshot": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2005492/minimal-testcase/artifacts/firefox/screenshot.png",
+  "statePath": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2005492/minimal-testcase/artifacts/firefox/state.json",
+  "state": {
+    "url": "file:///Users/bchauvet/codex-webcompat-diagnosis/output/bug_2005492/minimal-testcase/index.html",
+    "title": "Bug 2005492 minimal testcase",
+    "viewport": {
+      "innerWidth": 1280,
+      "innerHeight": 900,
+      "devicePixelRatio": 1
+    },
+    "headline": {
+      "rect": {
+        "x": 8,
+        "y": 8,
+        "width": 229.7,
+        "height": 96,
+        "top": 8,
+        "right": 237.7,
+        "bottom": 104,
+        "left": 8
+      },
+      "computed": {
+        "display": "block",
+        "font": "700 16px serif",
+        "fontFamily": "serif",
+        "fontSize": "16px",
+        "fontWeight": "700",
+        "lineHeight": "normal"
+      }
+    },
+    "decorator": {
+      "computed": {
+        "display": "contents",
+        "font": "500 24.8833px / 28.6167px Arial, sans-serif",
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": "24.8833px",
+        "fontWeight": "500",
+        "lineHeight": "28.6167px"
+      }
+    },
+    "text": "Jack Dorsey on Intelligence, Velocity, and the Next Chapter for Block at J.P. Morgan",
+    "textLineRects": [
+      {
+        "x": 8,
+        "y": -1.4,
+        "width": 171.417,
+        "height": 29,
+        "top": -1.4,
+        "right": 179.417,
+        "bottom": 27.6,
+        "left": 8
+      },
+      {
+        "x": 8,
+        "y": 17.8,
+        "width": 132.783,
+        "height": 29,
+        "top": 17.8,
+        "right": 140.783,
+        "bottom": 46.8,
+        "left": 8
+      },
+      {
+        "x": 8,
+        "y": 37,
+        "width": 180.733,
+        "height": 29,
+        "top": 37,
+        "right": 188.733,
+        "bottom": 66,
+        "left": 8
+      },
+      {
+        "x": 8,
+        "y": 56.2,
+        "width": 182.517,
+        "height": 29,
+        "top": 56.2,
+        "right": 190.517,
+        "bottom": 85.2,
+        "left": 8
+      },
+      {
+        "x": 8,
+        "y": 75.4,
+        "width": 226.333,
+        "height": 29,
+        "top": 75.4,
+        "right": 234.333,
+        "bottom": 104.4,
+        "left": 8
+      }
+    ],
+    "textLineCount": 5,
+    "textLineTopDeltas": [
+      19.2,
+      19.2,
+      19.2,
+      19.2
+    ],
+    "textLineTopDeltaMedian": 19.2
+  },
+  "summary": {
+    "childLineHeightPx": 28.617,
+    "headlineHeightPx": 96,
+    "textLineCount": 5,
+    "textLineTopDeltaMedianPx": 19.2,
+    "gapToChildLineHeightRatio": 0.671
+  }
+}
