@@ -5,6 +5,7 @@ This repository contains a Codex skill and helper script for diagnosing Mozilla 
 ## What It Does
 
 The `bugzilla-firefox-diagnose` skill fetches a Bugzilla bug, extracts the target site and Firefox version from the bug data, attempts to reproduce the issue in that Firefox version, and writes a Markdown diagnosis report.
+When a Firefox-only reproduction is confirmed, the completed diagnosis also includes a reduced test case that validates the cause analysis.
 
 The bundled script:
 
@@ -15,6 +16,7 @@ The bundled script:
 - On macOS, can download a matching archived Firefox release with `--download-firefox`.
 - Captures headless Firefox screenshots and page state with Puppeteer at desktop and mobile-ish viewport sizes.
 - Writes a diagnosis report and supporting artifacts under `output/`.
+- Requires reproduced diagnoses to include a focused cause-validation test case under `output/bug_<id>/testcase/`.
 
 ## Main Files
 
@@ -24,6 +26,7 @@ The bundled script:
 - `output/bug_<id>/diagnosis.md`: generated diagnosis report.
 - `output/bug_<id>/firefox/`: Bugzilla payload and Firefox screenshot artifacts.
 - `output/bug_<id>/chrome/`: Chrome comparison artifacts when collected.
+- `output/bug_<id>/testcase/`: reduced test case and artifacts validating the cause analysis for reproduced issues.
 - `summary.md`: Summary of the diagnosed bugs
 
 The installed skill copy lives at:
@@ -76,7 +79,7 @@ output/bug_1905304/firefox/screenshot_firefox_1440x1000.png
 output/bug_1905304/firefox/screenshot_firefox_390x844.png
 ```
 
-The report includes bug metadata, Bugzilla evidence, Firefox version selection, browser capture results, diagnosis, confidence, next steps, and artifact paths.
+The report includes bug metadata, Bugzilla evidence, Firefox version selection, browser capture results, diagnosis, cause analysis, cause-validation test case details when reproduced, confidence, next steps, and artifact paths.
 
 ## Validation
 

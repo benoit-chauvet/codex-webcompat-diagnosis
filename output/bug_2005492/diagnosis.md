@@ -82,9 +82,26 @@ h3.headline.svelte-12tp18c > .svelte-1c1tzhq { display: block !important; }
 
 changes the first Firefox title from 96px high to 143.08px high, matching Chrome's 143.13px for the same 5-line title. This confirms that the card grid and wrapping are not the primary problem; the `display: contents` typography wrapper is.
 
+## Cause-Validation Test Case
+
+Created a reduced static testcase at `/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2005492/testcase/index.html`. It isolates the suspected cause with three cases using the same headline text and 229.7px text width:
+
+- Failing path: `h3 > .decorator` where `.decorator` supplies `font-size: 24.8833px`, `line-height: 28.6167px`, and `display: contents`.
+- Control 1: the same `.decorator` typography with `display: block`.
+- Control 2: the same typography moved directly onto the `h3`.
+
+`testcase_probe.mjs` ran the testcase in Firefox 146 and Chrome 148. The validation passed:
+
+- Firefox 146, failing `display: contents` path: 96px headline height, 19.2px median text-line top delta, only 0.671 of the child computed line-height.
+- Firefox 146, `display: block` control: 143.083px headline height, 28.617px median text-line top delta, matching the child computed line-height.
+- Firefox 146, parent-typography control: 143.083px headline height, 28.617px median text-line top delta.
+- Chrome 148, `display: contents` path: 143.047px headline height, 28.61px median text-line top delta, matching the child computed line-height.
+
+This validates the cause analysis: the Firefox squeeze appears only when the typography is supplied by a `display: contents` descendant inside the heading. Making the descendant a real box, or moving the typography to the `h3`, removes the squeeze without changing text, width, or wrapping.
+
 ## Confidence
 
-High. The behavior reproduces under controlled Firefox 146 versus Chrome 148 automation, matches the reporter's Firefox-only visual complaint, and the CSS workaround changes Firefox's title metrics to Chrome-equivalent values.
+High. The behavior reproduces under controlled Firefox 146 versus Chrome 148 automation, matches the reporter's Firefox-only visual complaint, the live-site CSS workaround changes Firefox's title metrics to Chrome-equivalent values, and the reduced testcase independently validates the `display: contents` line-box cause.
 
 ## Suggested Next Steps
 
@@ -101,3 +118,5 @@ High. The behavior reproduces under controlled Firefox 146 versus Chrome 148 aut
 - Live CSS assets: `/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2005492/css_assets/`
 - Style probe: `/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2005492/style_tags_probe.json`
 - Workaround probe: `/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2005492/fix_probe.json`
+- Cause-validation testcase: `/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2005492/testcase/`
+- Cause-validation testcase summary: `/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2005492/testcase/artifacts/summary.json`

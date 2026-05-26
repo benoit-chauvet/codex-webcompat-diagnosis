@@ -1,0 +1,63 @@
+{
+  "generatedAt": "2026-05-26T19:55:00.034Z",
+  "testcaseUrl": "file:///Users/bchauvet/codex-webcompat-diagnosis/output/bug_2005492/testcase/index.html",
+  "results": [
+    {
+      "browserName": "firefox",
+      "browserVersion": "firefox/146.0",
+      "screenshot": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2005492/testcase/artifacts/firefox/screenshot.png",
+      "statePath": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2005492/testcase/artifacts/firefox/state.json",
+      "summary": {
+        "childLineHeightPx": 28.617,
+        "displayContents": {
+          "headlineHeightPx": 96,
+          "textLineTopDeltaMedianPx": 19.2,
+          "gapToChildLineHeightRatio": 0.671
+        },
+        "displayBlock": {
+          "headlineHeightPx": 143.083,
+          "textLineTopDeltaMedianPx": 28.617,
+          "gapToChildLineHeightRatio": 1
+        },
+        "parentTypography": {
+          "headlineHeightPx": 143.083,
+          "textLineTopDeltaMedianPx": 28.617,
+          "gapToChildLineHeightRatio": 1
+        }
+      }
+    },
+    {
+      "browserName": "chrome",
+      "browserVersion": "Chrome/148.0.7778.179",
+      "screenshot": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2005492/testcase/artifacts/chrome/screenshot.png",
+      "statePath": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2005492/testcase/artifacts/chrome/state.json",
+      "summary": {
+        "childLineHeightPx": 28.617,
+        "displayContents": {
+          "headlineHeightPx": 143.047,
+          "textLineTopDeltaMedianPx": 28.61,
+          "gapToChildLineHeightRatio": 1
+        },
+        "displayBlock": {
+          "headlineHeightPx": 143.047,
+          "textLineTopDeltaMedianPx": 28.61,
+          "gapToChildLineHeightRatio": 1
+        },
+        "parentTypography": {
+          "headlineHeightPx": 143.047,
+          "textLineTopDeltaMedianPx": 28.61,
+          "gapToChildLineHeightRatio": 1
+        }
+      }
+    }
+  ],
+  "validation": {
+    "passed": true,
+    "criteria": {
+      "firefoxDisplayContentsSqueezed": true,
+      "firefoxDisplayBlockUnsqueezed": true,
+      "chromeDisplayContentsUnsqueezed": true
+    },
+    "explanation": "The cause is validated when Firefox squeezes only the display: contents path while Firefox's display:block control and Chrome's display:contents path both use the child line-height."
+  }
+}

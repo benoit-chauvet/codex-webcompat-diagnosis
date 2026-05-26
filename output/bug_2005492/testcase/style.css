@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f5f5f2;
+  color: #111;
+  font: 16px/1.2 serif;
+}
+
+.page {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+h1 {
+  margin: 0 0 12px;
+  font: 700 24px/1.2 Arial, sans-serif;
+}
+
+.intro {
+  max-width: 760px;
+  margin: 0 0 28px;
+  font: 16px/1.45 Arial, sans-serif;
+}
+
+.cards {
+  display: flex;
+  align-items: flex-start;
+  gap: 28px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 294px;
+  min-height: 245px;
+  padding: 32px;
+  background: #fff;
+  border: 1px solid #c9c9c2;
+}
+
+.label {
+  min-height: 40px;
+  margin: 0 0 24px;
+  color: #5d5d58;
+  font: 13px/1.35 Arial, sans-serif;
+}
+
+.headline {
+  width: 229.7px;
+  margin: 0;
+  font-family: serif;
+  font-size: inherit;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.decorator {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24.8833px;
+  font-weight: 500;
+  line-height: 28.6167px;
+}
+
+.case-display-contents .decorator {
+  display: contents;
+}
+
+.case-display-block .decorator {
+  display: block;
+}
+
+.case-parent-typography .headline {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24.8833px;
+  font-weight: 500;
+  line-height: 28.6167px;
+}
+
+.case-parent-typography .decorator {
+  display: contents;
+  font: inherit;
+}

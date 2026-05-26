@@ -1,0 +1,363 @@
+{
+  "browserName": "chrome",
+  "browserVersion": "Chrome/148.0.7778.179",
+  "testcaseUrl": "file:///Users/bchauvet/codex-webcompat-diagnosis/output/bug_2005492/testcase/index.html",
+  "screenshot": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2005492/testcase/artifacts/chrome/screenshot.png",
+  "statePath": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2005492/testcase/artifacts/chrome/state.json",
+  "state": {
+    "url": "file:///Users/bchauvet/codex-webcompat-diagnosis/output/bug_2005492/testcase/index.html",
+    "title": "Bug 2005492 display: contents heading line-height testcase",
+    "viewport": {
+      "innerWidth": 1280,
+      "innerHeight": 900,
+      "devicePixelRatio": 1
+    },
+    "cases": [
+      {
+        "caseId": "display-contents",
+        "label": "Failing path: typography on display: contents child",
+        "text": "Jack Dorsey on Intelligence, Velocity, and the Next Chapter for Block at J.P. Morgan",
+        "headline": {
+          "rect": {
+            "x": 193,
+            "y": 275.359,
+            "width": 229.688,
+            "height": 143.047,
+            "top": 275.359,
+            "right": 422.688,
+            "bottom": 418.406,
+            "left": 193
+          },
+          "computed": {
+            "display": "block",
+            "font": "700 16px serif",
+            "fontFamily": "serif",
+            "fontSize": "16px",
+            "fontWeight": "700",
+            "lineHeight": "normal",
+            "marginTop": "0px",
+            "marginBottom": "0px"
+          }
+        },
+        "child": {
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "computed": {
+            "display": "contents",
+            "font": "500 24.8833px / 28.6167px Arial, Helvetica, sans-serif",
+            "fontFamily": "Arial, Helvetica, sans-serif",
+            "fontSize": "24.8833px",
+            "fontWeight": "500",
+            "lineHeight": "28.6167px",
+            "marginTop": "0px",
+            "marginBottom": "0px"
+          }
+        },
+        "textLineRects": [
+          {
+            "x": 193,
+            "y": 275.359,
+            "width": 171.469,
+            "height": 28,
+            "top": 275.359,
+            "right": 364.469,
+            "bottom": 303.359,
+            "left": 193
+          },
+          {
+            "x": 193,
+            "y": 303.969,
+            "width": 132.797,
+            "height": 28,
+            "top": 303.969,
+            "right": 325.797,
+            "bottom": 331.969,
+            "left": 193
+          },
+          {
+            "x": 193,
+            "y": 332.578,
+            "width": 180.734,
+            "height": 28,
+            "top": 332.578,
+            "right": 373.734,
+            "bottom": 360.578,
+            "left": 193
+          },
+          {
+            "x": 193,
+            "y": 361.188,
+            "width": 182.531,
+            "height": 28,
+            "top": 361.188,
+            "right": 375.531,
+            "bottom": 389.188,
+            "left": 193
+          },
+          {
+            "x": 193,
+            "y": 389.797,
+            "width": 226.344,
+            "height": 28,
+            "top": 389.797,
+            "right": 419.344,
+            "bottom": 417.797,
+            "left": 193
+          }
+        ],
+        "textLineCount": 5,
+        "textLineTopDeltas": [
+          28.61,
+          28.609,
+          28.61,
+          28.609
+        ],
+        "textLineTopDeltaMedian": 28.6095
+      },
+      {
+        "caseId": "display-block",
+        "label": "Control: same child is display: block",
+        "text": "Jack Dorsey on Intelligence, Velocity, and the Next Chapter for Block at J.P. Morgan",
+        "headline": {
+          "rect": {
+            "x": 515,
+            "y": 275.359,
+            "width": 229.688,
+            "height": 143.047,
+            "top": 275.359,
+            "right": 744.688,
+            "bottom": 418.406,
+            "left": 515
+          },
+          "computed": {
+            "display": "block",
+            "font": "700 16px serif",
+            "fontFamily": "serif",
+            "fontSize": "16px",
+            "fontWeight": "700",
+            "lineHeight": "normal",
+            "marginTop": "0px",
+            "marginBottom": "0px"
+          }
+        },
+        "child": {
+          "rect": {
+            "x": 515,
+            "y": 275.359,
+            "width": 229.688,
+            "height": 143.047,
+            "top": 275.359,
+            "right": 744.688,
+            "bottom": 418.406,
+            "left": 515
+          },
+          "computed": {
+            "display": "block",
+            "font": "500 24.8833px / 28.6167px Arial, Helvetica, sans-serif",
+            "fontFamily": "Arial, Helvetica, sans-serif",
+            "fontSize": "24.8833px",
+            "fontWeight": "500",
+            "lineHeight": "28.6167px",
+            "marginTop": "0px",
+            "marginBottom": "0px"
+          }
+        },
+        "textLineRects": [
+          {
+            "x": 515,
+            "y": 275.359,
+            "width": 171.469,
+            "height": 28,
+            "top": 275.359,
+            "right": 686.469,
+            "bottom": 303.359,
+            "left": 515
+          },
+          {
+            "x": 515,
+            "y": 303.969,
+            "width": 132.797,
+            "height": 28,
+            "top": 303.969,
+            "right": 647.797,
+            "bottom": 331.969,
+            "left": 515
+          },
+          {
+            "x": 515,
+            "y": 332.578,
+            "width": 180.734,
+            "height": 28,
+            "top": 332.578,
+            "right": 695.734,
+            "bottom": 360.578,
+            "left": 515
+          },
+          {
+            "x": 515,
+            "y": 361.188,
+            "width": 182.531,
+            "height": 28,
+            "top": 361.188,
+            "right": 697.531,
+            "bottom": 389.188,
+            "left": 515
+          },
+          {
+            "x": 515,
+            "y": 389.797,
+            "width": 226.344,
+            "height": 28,
+            "top": 389.797,
+            "right": 741.344,
+            "bottom": 417.797,
+            "left": 515
+          }
+        ],
+        "textLineCount": 5,
+        "textLineTopDeltas": [
+          28.61,
+          28.609,
+          28.61,
+          28.609
+        ],
+        "textLineTopDeltaMedian": 28.6095
+      },
+      {
+        "caseId": "parent-typography",
+        "label": "Control: typography moved onto the h3",
+        "text": "Jack Dorsey on Intelligence, Velocity, and the Next Chapter for Block at J.P. Morgan",
+        "headline": {
+          "rect": {
+            "x": 837,
+            "y": 275.359,
+            "width": 229.688,
+            "height": 143.047,
+            "top": 275.359,
+            "right": 1066.688,
+            "bottom": 418.406,
+            "left": 837
+          },
+          "computed": {
+            "display": "block",
+            "font": "500 24.8833px / 28.6167px Arial, Helvetica, sans-serif",
+            "fontFamily": "Arial, Helvetica, sans-serif",
+            "fontSize": "24.8833px",
+            "fontWeight": "500",
+            "lineHeight": "28.6167px",
+            "marginTop": "0px",
+            "marginBottom": "0px"
+          }
+        },
+        "child": {
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "computed": {
+            "display": "contents",
+            "font": "500 24.8833px / 28.6167px Arial, Helvetica, sans-serif",
+            "fontFamily": "Arial, Helvetica, sans-serif",
+            "fontSize": "24.8833px",
+            "fontWeight": "500",
+            "lineHeight": "28.6167px",
+            "marginTop": "0px",
+            "marginBottom": "0px"
+          }
+        },
+        "textLineRects": [
+          {
+            "x": 837,
+            "y": 275.359,
+            "width": 171.469,
+            "height": 28,
+            "top": 275.359,
+            "right": 1008.469,
+            "bottom": 303.359,
+            "left": 837
+          },
+          {
+            "x": 837,
+            "y": 303.969,
+            "width": 132.797,
+            "height": 28,
+            "top": 303.969,
+            "right": 969.797,
+            "bottom": 331.969,
+            "left": 837
+          },
+          {
+            "x": 837,
+            "y": 332.578,
+            "width": 180.734,
+            "height": 28,
+            "top": 332.578,
+            "right": 1017.734,
+            "bottom": 360.578,
+            "left": 837
+          },
+          {
+            "x": 837,
+            "y": 361.188,
+            "width": 182.531,
+            "height": 28,
+            "top": 361.188,
+            "right": 1019.531,
+            "bottom": 389.188,
+            "left": 837
+          },
+          {
+            "x": 837,
+            "y": 389.797,
+            "width": 226.344,
+            "height": 28,
+            "top": 389.797,
+            "right": 1063.344,
+            "bottom": 417.797,
+            "left": 837
+          }
+        ],
+        "textLineCount": 5,
+        "textLineTopDeltas": [
+          28.61,
+          28.609,
+          28.61,
+          28.609
+        ],
+        "textLineTopDeltaMedian": 28.6095
+      }
+    ]
+  },
+  "summary": {
+    "childLineHeightPx": 28.617,
+    "displayContents": {
+      "headlineHeightPx": 143.047,
+      "textLineTopDeltaMedianPx": 28.61,
+      "gapToChildLineHeightRatio": 1
+    },
+    "displayBlock": {
+      "headlineHeightPx": 143.047,
+      "textLineTopDeltaMedianPx": 28.61,
+      "gapToChildLineHeightRatio": 1
+    },
+    "parentTypography": {
+      "headlineHeightPx": 143.047,
+      "textLineTopDeltaMedianPx": 28.61,
+      "gapToChildLineHeightRatio": 1
+    }
+  }
+}

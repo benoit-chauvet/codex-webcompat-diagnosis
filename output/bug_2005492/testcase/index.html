@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bug 2005492 display: contents heading line-height testcase</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main class="page">
+    <h1>Bug 2005492 reduced testcase</h1>
+    <p class="intro">
+      The first card matches the problematic structure from block.xyz: a heading whose real
+      font-size and line-height come from a child styled with <code>display: contents</code>.
+      The next cards are controls that keep the same typography on a real box or on the heading.
+    </p>
+
+    <section class="cards" aria-label="Heading line-height cases">
+      <article class="card testcase case-display-contents" data-case="display-contents">
+        <p class="label">Failing path: typography on display: contents child</p>
+        <h3 class="headline">
+          <div class="decorator">
+            Jack Dorsey on Intelligence, Velocity, and the Next Chapter for Block at J.P. Morgan
+          </div>
+        </h3>
+      </article>
+
+      <article class="card testcase case-display-block" data-case="display-block">
+        <p class="label">Control: same child is display: block</p>
+        <h3 class="headline">
+          <div class="decorator">
+            Jack Dorsey on Intelligence, Velocity, and the Next Chapter for Block at J.P. Morgan
+          </div>
+        </h3>
+      </article>
+
+      <article class="card testcase case-parent-typography" data-case="parent-typography">
+        <p class="label">Control: typography moved onto the h3</p>
+        <h3 class="headline">
+          <div class="decorator">
+            Jack Dorsey on Intelligence, Velocity, and the Next Chapter for Block at J.P. Morgan
+          </div>
+        </h3>
+      </article>
+    </section>
+  </main>
+</body>
+</html>
