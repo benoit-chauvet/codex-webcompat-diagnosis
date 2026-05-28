@@ -1,0 +1,275 @@
+{
+  "bug_id": "2042375",
+  "endpoints": {
+    "attachments": "https://bugzilla.mozilla.org/rest/bug/2042375/attachment?exclude_fields=data",
+    "bug": "https://bugzilla.mozilla.org/rest/bug/2042375",
+    "comments": "https://bugzilla.mozilla.org/rest/bug/2042375/comment",
+    "history": "https://bugzilla.mozilla.org/rest/bug/2042375/history"
+  },
+  "fetched_at": "2026-05-28T07:54:24+00:00",
+  "responses": {
+    "attachments": {
+      "attachments": {},
+      "bugs": {
+        "2042375": []
+      }
+    },
+    "bug": {
+      "bugs": [
+        {
+          "alias": null,
+          "assigned_to": "nobody@mozilla.org",
+          "assigned_to_detail": {
+            "email": "nobody@mozilla.org",
+            "id": 1,
+            "name": "nobody@mozilla.org",
+            "nick": "nobody",
+            "real_name": "Nobody; OK to take it and work on it"
+          },
+          "blocks": [],
+          "cc": [
+            "kberezina@mozilla.com",
+            "numaanzaheerahmed@yahoo.com"
+          ],
+          "cc_detail": [
+            {
+              "email": "kberezina@mozilla.com",
+              "id": 638886,
+              "name": "kberezina@mozilla.com",
+              "nick": "ksenia",
+              "real_name": "Ksenia Berezina [:ksenia]"
+            },
+            {
+              "email": "numaanzaheerahmed@yahoo.com",
+              "id": 656720,
+              "name": "numaanzaheerahmed@yahoo.com",
+              "nick": "anutrix",
+              "real_name": "[:anutrix]"
+            }
+          ],
+          "cf_a11y_review_project_flag": "---",
+          "cf_accessibility_severity": "---",
+          "cf_cab_review": "---",
+          "cf_fx_iteration": "---",
+          "cf_fx_points": "---",
+          "cf_last_resolved": null,
+          "cf_performance_impact": "---",
+          "cf_qa_whiteboard": "",
+          "cf_status_firefox151": "---",
+          "cf_status_firefox152": "---",
+          "cf_status_firefox153": "---",
+          "cf_status_firefox_esr115": "---",
+          "cf_status_firefox_esr140": "---",
+          "cf_tracking_firefox151": "---",
+          "cf_tracking_firefox152": "---",
+          "cf_tracking_firefox153": "---",
+          "cf_tracking_firefox_esr115": "---",
+          "cf_tracking_firefox_esr140": "---",
+          "cf_tracking_firefox_relnote": "---",
+          "cf_user_story": "user-impact-score:180\r\nplatform:android\r\nimpact:workflow-broken\r\nconfiguration:general\r\naffects:some\r\nbranch:release\r\ndiagnosis-team:dom",
+          "cf_webcompat_priority": "P2",
+          "cf_webcompat_score": "5",
+          "classification": "Client Software",
+          "comment_count": 3,
+          "component": "Site Reports",
+          "creation_time": "2026-05-26T12:26:53Z",
+          "creator": "rbucata@mozilla.com",
+          "creator_detail": {
+            "email": "rbucata@mozilla.com",
+            "id": 675083,
+            "name": "rbucata@mozilla.com",
+            "nick": "rbucata",
+            "real_name": "Raul Bucata"
+          },
+          "depends_on": [],
+          "dupe_of": null,
+          "duplicates": [],
+          "flags": [],
+          "groups": [],
+          "id": 2042375,
+          "is_cc_accessible": true,
+          "is_confirmed": true,
+          "is_creator_accessible": true,
+          "is_open": true,
+          "keywords": [
+            "webcompat:needs-diagnosis",
+            "webcompat:site-report"
+          ],
+          "last_change_time": "2026-05-27T14:45:34Z",
+          "mentors": [],
+          "mentors_detail": [],
+          "op_sys": "Android",
+          "platform": "ARM",
+          "priority": "P2",
+          "product": "Web Compatibility",
+          "qa_contact": "",
+          "regressed_by": [],
+          "regressions": [],
+          "resolution": "",
+          "see_also": [
+            "https://github.com/webcompat/web-bugs/issues/222319"
+          ],
+          "severity": "S4",
+          "status": "NEW",
+          "summary": "gitlab.com - 2FA auth for login fails with Yubikey Security Key on Firefox for Android",
+          "target_milestone": "---",
+          "type": "defect",
+          "url": "https://gitlab.com/users/sign_in",
+          "version": "unspecified",
+          "votes": 0,
+          "whiteboard": "[webcompat-source:web-bugs][webcompat:sightline][webcompat:core]"
+        }
+      ],
+      "faults": []
+    },
+    "comments": {
+      "bugs": {
+        "2042375": {
+          "comments": [
+            {
+              "attachment_id": null,
+              "author": "rbucata@mozilla.com",
+              "bug_id": 2042375,
+              "count": 0,
+              "creation_time": "2026-05-26T12:26:53Z",
+              "creator": "rbucata@mozilla.com",
+              "id": 18104329,
+              "is_private": false,
+              "raw_text": "**Environment:**\nOperating system: Android 15\nFirefox version: Firefox Mobile 151.0\n\n**Steps to reproduce:**\n2FA auth for login fails with Yubikey Security Key on Firefox for Android. It asks PIN when using USB Yubikey. NOT as passkeys. 2FA via security key so there is no security PIN.\nIt says unknown error when using NFC.\n\nWorks fine on other browser and desktop.\n\n**Expected Behavior:**\nUses Passkeys\n\n**Actual Behavior:**\nIt asks PIN when using USB Yubikey\n\n**Notes:**\n- The issue is believed to be valid, but was not reproduced as the QA does does not have the required set-up (USB Yubikey)\n\nCreated from https://github.com/webcompat/web-bugs/issues/222319",
+              "reactions": {},
+              "tags": [],
+              "text": "**Environment:**\nOperating system: Android 15\nFirefox version: Firefox Mobile 151.0\n\n**Steps to reproduce:**\n2FA auth for login fails with Yubikey Security Key on Firefox for Android. It asks PIN when using USB Yubikey. NOT as passkeys. 2FA via security key so there is no security PIN.\nIt says unknown error when using NFC.\n\nWorks fine on other browser and desktop.\n\n**Expected Behavior:**\nUses Passkeys\n\n**Actual Behavior:**\nIt asks PIN when using USB Yubikey\n\n**Notes:**\n- The issue is believed to be valid, but was not reproduced as the QA does does not have the required set-up (USB Yubikey)\n\nCreated from https://github.com/webcompat/web-bugs/issues/222319",
+              "time": "2026-05-26T12:26:53Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "numaanzaheerahmed@yahoo.com",
+              "bug_id": 2042375,
+              "count": 1,
+              "creation_time": "2026-05-26T15:16:05Z",
+              "creator": "numaanzaheerahmed@yahoo.com",
+              "id": 18104683,
+              "is_private": false,
+              "raw_text": "Expected Behavior is NOT using passkeys. It is likely actual behavior. Passkeys/discoverable credentials need PIN.\nI am looking for undiscoverable credential support.\n\nSee: https://developers.yubico.com/Passkeys/Passkey_concepts/Discoverable_vs_non-discoverable_credentials.html",
+              "reactions": {},
+              "tags": [],
+              "text": "Expected Behavior is NOT using passkeys. It is likely actual behavior. Passkeys/discoverable credentials need PIN.\nI am looking for undiscoverable credential support.\n\nSee: https://developers.yubico.com/Passkeys/Passkey_concepts/Discoverable_vs_non-discoverable_credentials.html",
+              "time": "2026-05-26T15:16:05Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "numaanzaheerahmed@yahoo.com",
+              "bug_id": 2042375,
+              "count": 2,
+              "creation_time": "2026-05-26T15:16:48Z",
+              "creator": "numaanzaheerahmed@yahoo.com",
+              "id": 18104685,
+              "is_private": false,
+              "raw_text": "Expected Behavior is NOT \"using passkeys\".",
+              "reactions": {},
+              "tags": [],
+              "text": "Expected Behavior is NOT \"using passkeys\".",
+              "time": "2026-05-26T15:16:48Z"
+            }
+          ]
+        }
+      },
+      "comments": {}
+    },
+    "history": {
+      "bugs": [
+        {
+          "alias": null,
+          "history": [
+            {
+              "changes": [
+                {
+                  "added": "[webcompat-source:web-bugs][webcompat:sightline][webcompat:core]",
+                  "field_name": "whiteboard",
+                  "removed": "[webcompat-source:web-bugs]"
+                }
+              ],
+              "when": "2026-05-26T12:43:28Z",
+              "who": "release-mgmt-account-bot@mozilla.tld"
+            },
+            {
+              "changes": [
+                {
+                  "added": "numaanzaheerahmed@yahoo.com",
+                  "field_name": "cc",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-05-26T15:16:05Z",
+              "who": "numaanzaheerahmed@yahoo.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "@@ -1 +1 @@\n-\n+user-impact-score:0\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                },
+                {
+                  "added": "P3",
+                  "field_name": "cf_webcompat_priority",
+                  "removed": "---"
+                },
+                {
+                  "added": "1",
+                  "field_name": "cf_webcompat_score",
+                  "removed": "---"
+                }
+              ],
+              "when": "2026-05-27T08:07:26Z",
+              "who": "release-mgmt-account-bot@mozilla.tld"
+            },
+            {
+              "changes": [
+                {
+                  "added": "P2",
+                  "field_name": "priority",
+                  "removed": "--"
+                },
+                {
+                  "added": "S4",
+                  "field_name": "severity",
+                  "removed": "--"
+                },
+                {
+                  "added": "webcompat:needs-diagnosis",
+                  "field_name": "keywords",
+                  "removed": ""
+                },
+                {
+                  "added": "kberezina@mozilla.com",
+                  "field_name": "cc",
+                  "removed": ""
+                },
+                {
+                  "added": "@@ -1 +1,7 @@\n-user-impact-score:0\n+user-impact-score:180\r\n+platform:android\r\n+impact:workflow-broken\r\n+configuration:general\r\n+affects:some\r\n+branch:release\r\n+diagnosis-team:dom\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                },
+                {
+                  "added": "P2",
+                  "field_name": "cf_webcompat_priority",
+                  "removed": "P3"
+                },
+                {
+                  "added": "5",
+                  "field_name": "cf_webcompat_score",
+                  "removed": "1"
+                }
+              ],
+              "when": "2026-05-27T14:45:34Z",
+              "who": "kberezina@mozilla.com"
+            }
+          ],
+          "id": 2042375
+        }
+      ]
+    }
+  },
+  "show_bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=2042375"
+}

@@ -1,0 +1,65 @@
+{
+  "ok": true,
+  "browser": "firefox",
+  "executable": "/Applications/Firefox.app/Contents/MacOS/firefox",
+  "puppeteerPackage": "puppeteer-core",
+  "requestedUrl": "https://docs.google.com/",
+  "finalUrl": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fdocs.google.com%2F&dsh=S454756679%3A1779954896167655&emr=1&followup=https%3A%2F%2Fdocs.google.com%2F&osid=1&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AWa2PavpehXy1JUkg9IATl3uLzdD0qaprbVa_8YZXLoUXc8FGmJFWjwNg-Nfv7HGEN9LQlqRK4Uy",
+  "httpStatus": 200,
+  "viewport": {
+    "width": 1440,
+    "height": 1000,
+    "deviceScaleFactor": 1
+  },
+  "screenshot": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2041371/firefox/screenshot_firefox_1440x1000.png",
+  "navigationError": null,
+  "networkIdleError": null,
+  "events": {
+    "console": [
+      {
+        "type": "log",
+        "text": "WARNING!"
+      },
+      {
+        "type": "log",
+        "text": "Using this console may allow attackers to impersonate you and steal your information using an attack called Self-XSS.\nDo not enter or paste code that you do not understand."
+      }
+    ],
+    "pageErrors": [],
+    "requestFailures": [
+      {
+        "url": "https://play.google.com/log?hasfast=true&authuser=0&format=json",
+        "method": "POST",
+        "resourceType": null,
+        "failure": {
+          "errorText": "NS_ERROR_FAILURE"
+        }
+      },
+      {
+        "url": "https://play.google.com/log?hasfast=true&authuser=0&format=json",
+        "method": "POST",
+        "resourceType": null,
+        "failure": {
+          "errorText": "NS_ERROR_FAILURE"
+        }
+      }
+    ]
+  },
+  "documentState": {
+    "url": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fdocs.google.com%2F&dsh=S454756679%3A1779954896167655&emr=1&followup=https%3A%2F%2Fdocs.google.com%2F&osid=1&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AWa2PavpehXy1JUkg9IATl3uLzdD0qaprbVa_8YZXLoUXc8FGmJFWjwNg-Nfv7HGEN9LQlqRK4Uy",
+    "title": "Sign in - Google Accounts",
+    "readyState": "complete",
+    "viewport": {
+      "innerWidth": 1440,
+      "innerHeight": 1000,
+      "devicePixelRatio": 1
+    },
+    "documentElement": {
+      "clientWidth": 1440,
+      "clientHeight": 1000,
+      "scrollWidth": 1440,
+      "scrollHeight": 1000
+    },
+    "bodyTextSample": "Sign in\nUse your Google Account\nEmail or phone\nForgot email?\nNot your computer? Use a Private Window to sign in. Learn more about using Guest mode\nNext\nCreate account\nEnglish (United States)\nHelp\nPrivacy\nTerms"
+  }
+}

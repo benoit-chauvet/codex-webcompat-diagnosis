@@ -1,0 +1,206 @@
+{
+  "bug_id": "2042167",
+  "endpoints": {
+    "attachments": "https://bugzilla.mozilla.org/rest/bug/2042167/attachment?exclude_fields=data",
+    "bug": "https://bugzilla.mozilla.org/rest/bug/2042167",
+    "comments": "https://bugzilla.mozilla.org/rest/bug/2042167/comment",
+    "history": "https://bugzilla.mozilla.org/rest/bug/2042167/history"
+  },
+  "fetched_at": "2026-05-28T07:53:22+00:00",
+  "responses": {
+    "attachments": {
+      "attachments": {},
+      "bugs": {
+        "2042167": []
+      }
+    },
+    "bug": {
+      "bugs": [
+        {
+          "alias": null,
+          "assigned_to": "nobody@mozilla.org",
+          "assigned_to_detail": {
+            "email": "nobody@mozilla.org",
+            "id": 1,
+            "name": "nobody@mozilla.org",
+            "nick": "nobody",
+            "real_name": "Nobody; OK to take it and work on it"
+          },
+          "blocks": [],
+          "cc": [
+            "kberezina@mozilla.com"
+          ],
+          "cc_detail": [
+            {
+              "email": "kberezina@mozilla.com",
+              "id": 638886,
+              "name": "kberezina@mozilla.com",
+              "nick": "ksenia",
+              "real_name": "Ksenia Berezina [:ksenia]"
+            }
+          ],
+          "cf_a11y_review_project_flag": "---",
+          "cf_accessibility_severity": "---",
+          "cf_cab_review": "---",
+          "cf_fx_iteration": "---",
+          "cf_fx_points": "---",
+          "cf_last_resolved": null,
+          "cf_performance_impact": "---",
+          "cf_qa_whiteboard": "",
+          "cf_status_firefox151": "---",
+          "cf_status_firefox152": "---",
+          "cf_status_firefox153": "---",
+          "cf_status_firefox_esr115": "---",
+          "cf_status_firefox_esr140": "---",
+          "cf_tracking_firefox151": "---",
+          "cf_tracking_firefox152": "---",
+          "cf_tracking_firefox153": "---",
+          "cf_tracking_firefox_esr115": "---",
+          "cf_tracking_firefox_esr140": "---",
+          "cf_tracking_firefox_relnote": "---",
+          "cf_user_story": "platform:windows,mac,linux,android\r\nimpact:significant-visual\r\nconfiguration:general\r\naffects:all\r\nbranch:release\r\ndiagnosis-team:layout\r\nuser-impact-score:600",
+          "cf_webcompat_priority": "P2",
+          "cf_webcompat_score": "7",
+          "classification": "Client Software",
+          "comment_count": 1,
+          "component": "Site Reports",
+          "creation_time": "2026-05-25T14:44:06Z",
+          "creator": "rbucata@mozilla.com",
+          "creator_detail": {
+            "email": "rbucata@mozilla.com",
+            "id": 675083,
+            "name": "rbucata@mozilla.com",
+            "nick": "rbucata",
+            "real_name": "Raul Bucata"
+          },
+          "depends_on": [],
+          "dupe_of": null,
+          "duplicates": [],
+          "flags": [],
+          "groups": [],
+          "id": 2042167,
+          "is_cc_accessible": true,
+          "is_confirmed": true,
+          "is_creator_accessible": true,
+          "is_open": true,
+          "keywords": [
+            "webcompat:needs-diagnosis",
+            "webcompat:needs-login",
+            "webcompat:site-report"
+          ],
+          "last_change_time": "2026-05-25T15:43:47Z",
+          "mentors": [],
+          "mentors_detail": [],
+          "op_sys": "Windows",
+          "platform": "Desktop",
+          "priority": "P2",
+          "product": "Web Compatibility",
+          "qa_contact": "",
+          "regressed_by": [],
+          "regressions": [],
+          "resolution": "",
+          "see_also": [
+            "https://github.com/webcompat/web-bugs/issues/221931"
+          ],
+          "severity": "S3",
+          "status": "NEW",
+          "summary": "microsoft.com/sharepoint.com - Sharepoint article mail header broken",
+          "target_milestone": "---",
+          "type": "defect",
+          "url": "https://www.microsoft.com/ro-ro/microsoft-365/sharepoint/collaboration?utm_source=chatgpt.com&market=ro",
+          "version": "unspecified",
+          "votes": 0,
+          "whiteboard": "[webcompat-source:web-bugs][webcompat:sightline][webcompat:core]"
+        }
+      ],
+      "faults": []
+    },
+    "comments": {
+      "bugs": {
+        "2042167": {
+          "comments": [
+            {
+              "attachment_id": null,
+              "author": "rbucata@mozilla.com",
+              "bug_id": 2042167,
+              "count": 0,
+              "creation_time": "2026-05-25T14:44:06Z",
+              "creator": "rbucata@mozilla.com",
+              "id": 18102956,
+              "is_private": false,
+              "raw_text": "**Environment:**\nOperating system: Windows\nFirefox version: 151\n\n**Preconditions:**\nAdmin permissions to create a sharepoint site\n\n**Steps to reproduce:**\nPublish a SharePoint news article (not a file) and share it via Mail.\n\n**Expected Behavior:**\nIt should be displayed as in the article itself.\n\n**Actual Behavior:**\nHeader is messed up in the preview and in the mail.\n\n**Notes:**\n- The issue is believed to be valid, but was not reproduced as QA does not have permissions on the test account to create a sharepoint website\n\nCreated from https://github.com/webcompat/web-bugs/issues/221931",
+              "reactions": {},
+              "tags": [],
+              "text": "**Environment:**\nOperating system: Windows\nFirefox version: 151\n\n**Preconditions:**\nAdmin permissions to create a sharepoint site\n\n**Steps to reproduce:**\nPublish a SharePoint news article (not a file) and share it via Mail.\n\n**Expected Behavior:**\nIt should be displayed as in the article itself.\n\n**Actual Behavior:**\nHeader is messed up in the preview and in the mail.\n\n**Notes:**\n- The issue is believed to be valid, but was not reproduced as QA does not have permissions on the test account to create a sharepoint website\n\nCreated from https://github.com/webcompat/web-bugs/issues/221931",
+              "time": "2026-05-25T14:44:06Z"
+            }
+          ]
+        }
+      },
+      "comments": {}
+    },
+    "history": {
+      "bugs": [
+        {
+          "alias": null,
+          "history": [
+            {
+              "changes": [
+                {
+                  "added": "kberezina@mozilla.com",
+                  "field_name": "cc",
+                  "removed": ""
+                },
+                {
+                  "added": "@@ -1 +1,7 @@\n-\n+platform:windows,mac,linux,android\r\n+impact:significant-visual\r\n+configuration:general\r\n+affects:all\r\n+branch:release\r\n+diagnosis-team:layout\r\n+user-impact-score:600\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                },
+                {
+                  "added": "S3",
+                  "field_name": "severity",
+                  "removed": "--"
+                },
+                {
+                  "added": "webcompat:needs-diagnosis, webcompat:needs-login",
+                  "field_name": "keywords",
+                  "removed": ""
+                },
+                {
+                  "added": "P2",
+                  "field_name": "priority",
+                  "removed": "--"
+                },
+                {
+                  "added": "P2",
+                  "field_name": "cf_webcompat_priority",
+                  "removed": "---"
+                },
+                {
+                  "added": "7",
+                  "field_name": "cf_webcompat_score",
+                  "removed": "---"
+                }
+              ],
+              "when": "2026-05-25T15:11:14Z",
+              "who": "kberezina@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "[webcompat-source:web-bugs][webcompat:sightline][webcompat:core]",
+                  "field_name": "whiteboard",
+                  "removed": "[webcompat-source:web-bugs]"
+                }
+              ],
+              "when": "2026-05-25T15:43:47Z",
+              "who": "release-mgmt-account-bot@mozilla.tld"
+            }
+          ],
+          "id": 2042167
+        }
+      ]
+    }
+  },
+  "show_bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=2042167"
+}

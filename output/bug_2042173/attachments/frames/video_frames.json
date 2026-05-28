@@ -1,0 +1,25 @@
+{
+  "videoPath": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042173/attachments/amazon-gallery.mp4",
+  "metadata": {
+    "duration": 23.965389,
+    "videoWidth": 1280,
+    "videoHeight": 674
+  },
+  "captured": [
+    {
+      "requestedTime": 0,
+      "targetTime": 0,
+      "screenshot": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042173/attachments/frames/frame_0s.png"
+    },
+    {
+      "requestedTime": 3,
+      "targetTime": 3,
+      "screenshot": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042173/attachments/frames/frame_3s.png"
+    },
+    {
+      "requestedTime": 6,
+      "targetTime": 6,
+      "screenshot": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042173/attachments/frames/frame_6s.png"
+    }
+  ]
+}

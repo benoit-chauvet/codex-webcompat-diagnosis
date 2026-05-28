@@ -1,0 +1,224 @@
+{
+  "bug_id": "2042173",
+  "endpoints": {
+    "attachments": "https://bugzilla.mozilla.org/rest/bug/2042173/attachment?exclude_fields=data",
+    "bug": "https://bugzilla.mozilla.org/rest/bug/2042173",
+    "comments": "https://bugzilla.mozilla.org/rest/bug/2042173/comment",
+    "history": "https://bugzilla.mozilla.org/rest/bug/2042173/history"
+  },
+  "fetched_at": "2026-05-28T07:53:51+00:00",
+  "responses": {
+    "attachments": {
+      "attachments": {},
+      "bugs": {
+        "2042173": [
+          {
+            "attacher": "ctanase@mozilla.com",
+            "bug_id": 2042173,
+            "content_type": "video/mp4",
+            "creation_time": "2026-05-25T15:04:00Z",
+            "creator": "ctanase@mozilla.com",
+            "creator_detail": {
+              "email": "ctanase@mozilla.com",
+              "id": 707939,
+              "name": "ctanase@mozilla.com",
+              "nick": "ctanase",
+              "real_name": "Calin Tanase"
+            },
+            "description": "Release vs Nightly.mp4",
+            "file_name": "Release-vs-Nightly.mp4",
+            "flags": [],
+            "id": 9589431,
+            "is_obsolete": 0,
+            "is_patch": 0,
+            "is_private": 0,
+            "last_change_time": "2026-05-25T15:04:00Z",
+            "size": 2538265,
+            "summary": "Release vs Nightly.mp4"
+          }
+        ]
+      }
+    },
+    "bug": {
+      "bugs": [
+        {
+          "alias": null,
+          "assigned_to": "nobody@mozilla.org",
+          "assigned_to_detail": {
+            "email": "nobody@mozilla.org",
+            "id": 1,
+            "name": "nobody@mozilla.org",
+            "nick": "nobody",
+            "real_name": "Nobody; OK to take it and work on it"
+          },
+          "blocks": [],
+          "cc": [],
+          "cc_detail": [],
+          "cf_a11y_review_project_flag": "---",
+          "cf_accessibility_severity": "---",
+          "cf_cab_review": "---",
+          "cf_fx_iteration": "---",
+          "cf_fx_points": "---",
+          "cf_last_resolved": null,
+          "cf_performance_impact": "---",
+          "cf_qa_whiteboard": "",
+          "cf_status_firefox151": "affected",
+          "cf_status_firefox152": "unaffected",
+          "cf_status_firefox153": "unaffected",
+          "cf_status_firefox_esr115": "---",
+          "cf_status_firefox_esr140": "---",
+          "cf_tracking_firefox151": "---",
+          "cf_tracking_firefox152": "---",
+          "cf_tracking_firefox153": "---",
+          "cf_tracking_firefox_esr115": "---",
+          "cf_tracking_firefox_esr140": "---",
+          "cf_tracking_firefox_relnote": "---",
+          "cf_user_story": "platform:windows,mac,linux\nimpact:content-missing\nconfiguration:general\naffects:all\nbranch:release\ndiagnosis-team:dom\nuser-impact-score:450",
+          "cf_webcompat_priority": "P2",
+          "cf_webcompat_score": "6",
+          "classification": "Client Software",
+          "comment_count": 1,
+          "component": "Site Reports",
+          "creation_time": "2026-05-25T15:04:00Z",
+          "creator": "ctanase@mozilla.com",
+          "creator_detail": {
+            "email": "ctanase@mozilla.com",
+            "id": 707939,
+            "name": "ctanase@mozilla.com",
+            "nick": "ctanase",
+            "real_name": "Calin Tanase"
+          },
+          "depends_on": [],
+          "dupe_of": null,
+          "duplicates": [],
+          "flags": [],
+          "groups": [],
+          "id": 2042173,
+          "is_cc_accessible": true,
+          "is_confirmed": true,
+          "is_creator_accessible": true,
+          "is_open": true,
+          "keywords": [
+            "webcompat:needs-diagnosis",
+            "webcompat:site-report"
+          ],
+          "last_change_time": "2026-05-26T08:07:45Z",
+          "mentors": [],
+          "mentors_detail": [],
+          "op_sys": "Windows",
+          "platform": "Desktop",
+          "priority": "P2",
+          "product": "Web Compatibility",
+          "qa_contact": "",
+          "regressed_by": [],
+          "regressions": [],
+          "resolution": "",
+          "see_also": [],
+          "severity": "S3",
+          "status": "NEW",
+          "summary": "www.amazon.com - Previews only one image from the gallery when there are multiple images on a review",
+          "target_milestone": "---",
+          "type": "defect",
+          "url": "https://www.amazon.com/dp/B0FD9Z9FSF/?coliid=I3MQ3BARFOSOEE&colid=105SCGC0NK0ET&th=1&psc=1",
+          "version": "Firefox 151",
+          "votes": 0,
+          "whiteboard": "[webcompat-source:product][webcompat:sightline][webcompat:core]"
+        }
+      ],
+      "faults": []
+    },
+    "comments": {
+      "bugs": {
+        "2042173": {
+          "comments": [
+            {
+              "attachment_id": 9589431,
+              "author": "ctanase@mozilla.com",
+              "bug_id": 2042173,
+              "count": 0,
+              "creation_time": "2026-05-25T15:04:00Z",
+              "creator": "ctanase@mozilla.com",
+              "id": 18102981,
+              "is_private": false,
+              "raw_text": "**Environment:**\nOperating system: Windows\nFirefox version: Firefox 151.0 (release)\n\n**Preconditions:**\n- Clean profile\n\n**Steps to reproduce:**\n1. Navigate to: https://www.amazon.com/dp/B0FD9Z9FSF/?coliid=I3MQ3BARFOSOEE&colid=105SCGC0NK0ET&th=1&psc=1\n2. Scroll down to \"Reviews with images\".\n3. Click on an image.\n4. Hit on the next arrow until a review with multiple images gets displayed.\n5. Observe the preview pane when switching between images.\n\n**Expected Behavior:**\nShows all the images when switched.\n\n**Actual Behavior:**\nShows only one image from the gallery.\n\n**Notes:**\n- Moved the issue for possible uplift since its a top website\n- Reproducible on the latest Firefox Release\n- Not reproducible on Firefox Beta and Nightly\n- Reproducible regardless of the ETP setting\n- Works as expected using Chrome\n\n---\n\nCreated from webcompat-user-report:582a5956-c511-4ac8-ae63-5704f754964e",
+              "reactions": {},
+              "tags": [],
+              "text": "Created attachment 9589431\nRelease vs Nightly.mp4\n\n**Environment:**\nOperating system: Windows\nFirefox version: Firefox 151.0 (release)\n\n**Preconditions:**\n- Clean profile\n\n**Steps to reproduce:**\n1. Navigate to: https://www.amazon.com/dp/B0FD9Z9FSF/?coliid=I3MQ3BARFOSOEE&colid=105SCGC0NK0ET&th=1&psc=1\n2. Scroll down to \"Reviews with images\".\n3. Click on an image.\n4. Hit on the next arrow until a review with multiple images gets displayed.\n5. Observe the preview pane when switching between images.\n\n**Expected Behavior:**\nShows all the images when switched.\n\n**Actual Behavior:**\nShows only one image from the gallery.\n\n**Notes:**\n- Moved the issue for possible uplift since its a top website\n- Reproducible on the latest Firefox Release\n- Not reproducible on Firefox Beta and Nightly\n- Reproducible regardless of the ETP setting\n- Works as expected using Chrome\n\n---\n\nCreated from webcompat-user-report:582a5956-c511-4ac8-ae63-5704f754964e",
+              "time": "2026-05-25T15:04:00Z"
+            }
+          ]
+        }
+      },
+      "comments": {}
+    },
+    "history": {
+      "bugs": [
+        {
+          "alias": null,
+          "history": [
+            {
+              "changes": [
+                {
+                  "added": "P2",
+                  "field_name": "priority",
+                  "removed": "--"
+                },
+                {
+                  "added": "@@ -1 +1,7 @@\n-\n+platform:windows,mac,linux\r\n+impact:content-missing\r\n+configuration:general\r\n+affects:all\r\n+branch:release\r\n+diagnosis-team:dom\r\n+user-impact-score:225\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                },
+                {
+                  "added": "webcompat:needs-diagnosis",
+                  "field_name": "keywords",
+                  "removed": ""
+                },
+                {
+                  "added": "S3",
+                  "field_name": "severity",
+                  "removed": "--"
+                },
+                {
+                  "added": "P2",
+                  "field_name": "cf_webcompat_priority",
+                  "removed": "---"
+                },
+                {
+                  "added": "6",
+                  "field_name": "cf_webcompat_score",
+                  "removed": "---"
+                }
+              ],
+              "when": "2026-05-25T15:16:06Z",
+              "who": "kberezina@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "[webcompat-source:product][webcompat:sightline][webcompat:core]",
+                  "field_name": "whiteboard",
+                  "removed": "[webcompat-source:product]"
+                }
+              ],
+              "when": "2026-05-25T15:43:48Z",
+              "who": "release-mgmt-account-bot@mozilla.tld"
+            },
+            {
+              "changes": [
+                {
+                  "added": "@@ -1,7 +1,7 @@\n-platform:windows,mac,linux\r\n+platform:windows,mac,linux\n-impact:content-missing\r\n+impact:content-missing\n-configuration:general\r\n+configuration:general\n-affects:all\r\n+affects:all\n-branch:release\r\n+branch:release\n-diagnosis-team:dom\r\n+diagnosis-team:dom\n-user-impact-score:225\n+user-impact-score:450\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-05-26T08:07:45Z",
+              "who": "release-mgmt-account-bot@mozilla.tld"
+            }
+          ],
+          "id": 2042173
+        }
+      ]
+    }
+  },
+  "show_bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=2042173"
+}

@@ -1,0 +1,165 @@
+{
+  "ok": true,
+  "browser": "chrome",
+  "executable": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+  "puppeteerPackage": "puppeteer-core",
+  "requestedUrl": "https://www.gsmarena.com/google_android_17_continue_on-news-72910.php",
+  "finalUrl": "https://www.gsmarena.com/google_android_17_continue_on-news-72910.php",
+  "httpStatus": 200,
+  "viewport": {
+    "width": 1280,
+    "height": 900,
+    "deviceScaleFactor": 1
+  },
+  "screenshot": "output/bug_2042795/chrome/screenshot_chrome_1280x900.png",
+  "navigationError": null,
+  "networkIdleError": null,
+  "events": {
+    "console": [
+      {
+        "type": "log",
+        "text": "CLVR: v2.67.2"
+      },
+      {
+        "type": "log",
+        "text": "CLVR: 73756"
+      },
+      {
+        "type": "log",
+        "text": "CLVR: 2026-05-26 14:25:06"
+      },
+      {
+        "type": "log",
+        "text": "CLVR: UI Loaded"
+      },
+      {
+        "type": "log",
+        "text": "CLVR: Format TopScroll found"
+      },
+      {
+        "type": "warn",
+        "text": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message#170"
+      },
+      {
+        "type": "startGroupCollapsed",
+        "text": "[BTAG] Attribution"
+      },
+      {
+        "type": "log",
+        "text": "[BTAG] Session cookie set: registration-source-tag → a_50015b_1748c_CABABDCAFCDAAFR"
+      },
+      {
+        "type": "endGroup",
+        "text": "console.groupEnd"
+      },
+      {
+        "type": "warn",
+        "text": "CobrowseIO: Not starting Cobrowse in a headless browser"
+      }
+    ],
+    "pageErrors": [],
+    "requestFailures": [
+      {
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-WECNNBCHQE&gtm=45je65q2v9125606714za200zd9125606714&_p=1779956202309&gcd=13l3lPl2l1l1&npa=1&dma_cps=a&dma=1&_eu=AAAAAAAC&are=1&cid=1585997112.1779956202&frm=0&pscdl=noapi&rcb=10&sr=800x600&uaa=arm&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=macOS&uapv=26.5.0&uaw=0&ul=en-gb&_s=1&tag_exp=0~115938466~115938468~118228214~118689382&sid=1779956202&sct=1&seg=0&dl=https%3A%2F%2Fwww.gsmarena.com%2Fgoogle_android_17_continue_on-news-72910.php&dt=Android%2017%27s%20%27Continue%20On%27%20feature%20will%20let%20you%20move%20tasks%20between%20devices%20-%20GSMArena.com%20news&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=302",
+        "method": "POST",
+        "resourceType": "fetch",
+        "failure": {
+          "errorText": "net::ERR_ABORTED"
+        }
+      },
+      {
+        "url": "https://fdn.gsmarena.com/imgroot/news/26/05/google-android-17-continue-on/gsmarena_001.mp4",
+        "method": "GET",
+        "resourceType": "media",
+        "failure": {
+          "errorText": "net::ERR_ABORTED"
+        }
+      },
+      {
+        "url": "https://fdn.gsmarena.com/imgroot/news/26/05/google-android-17-continue-on/gsmarena_002.mp4",
+        "method": "GET",
+        "resourceType": "media",
+        "failure": {
+          "errorText": "net::ERR_ABORTED"
+        }
+      },
+      {
+        "url": "https://www.olybet.fr/r1g6/gs/ccm/collect?rcb=10&frm=2&ae=g&en=page_view&dr=c.clvrads.com&dl=https%3A%2F%2Fwww.olybet.fr%2Fregister&top=https%3A%2F%2Fwww.gsmarena.com&scrsrc=www.olybet.fr&rnd=1695901879.1779956204&navt=n&npa=1&ep.ads_data_redaction=1&gdid=dYzg1YT.dMWZhNz.dNzQzZD&_tu=CA&gtm=45E92e65q2v857067514za204zd857067514xea&gcs=G100&gcd=13p3p3p2p5l1&dma_cps=-&dma=1&tcfd=10001&tag_exp=0~115938466~115938468&apve=1&apvf=f&gap.gtb=1&apvc=1&tft=1779956203884&tfd=513",
+        "method": "POST",
+        "resourceType": "fetch",
+        "failure": {
+          "errorText": "net::ERR_ABORTED"
+        }
+      },
+      {
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-18J4CZBKZD&gtm=45g92e65q2v890458299z8857067514za20kzb857067514zd857067514&_p=1779956203788&gcs=G100&gcd=13p3pPp2p5l1&npa=1&dma_cps=-&dma=1&tcfd=10001&gdid=dYzg1YT.dMWZhNz&ecid=1749249878&_eu=AAAAAGAC&_uip=%3A%3A&are=1&cid=382321729.1779956204&ec_mode=a&frm=2&pscdl=denied&rcb=14&sr=800x600&uaa=arm&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=macOS&uapv=26.5.0&uaw=0&ul=en-gb&ur=FR-IDF&gaf=2&_s=1&tag_exp=0~115616986~115938466~115938469~118228214&sid=1779956204&sct=1&seg=0&dl=https%3A%2F%2Fwww.olybet.fr%2Fregister%3Fbtag%3Da_50015b_1748c_CABABDCAFCDAAFR%26affiliate%3D51039&dr=https%3A%2F%2Fc.clvrads.com%2F&dt=OlyBet.fr%20-%20Bookmaker&_tu=CA&en=page_view&_fv=1&_nsi=1&_ss=1&gap.gtb=2&tfd=653",
+        "method": "POST",
+        "resourceType": "fetch",
+        "failure": {
+          "errorText": "net::ERR_ABORTED"
+        }
+      },
+      {
+        "url": "https://www.olybet.fr/r1g6/gs/ccm/collect?rcb=14&frm=2&en=page_view&dr=c.clvrads.com&dl=https%3A%2F%2Fwww.olybet.fr%2Fregister&top=https%3A%2F%2Fwww.gsmarena.com&scrsrc=www.olybet.fr&rnd=1695901879.1779956204&navt=n&npa=1&us_privacy=1YYY&did=dYzg1YT%2CdMWZhNz&gdid=dYzg1YT.dMWZhNz&_tu=CA&gtm=45g92e65q2v890458299z8857067514za20kzb857067514zd857067514xec&gcs=G100&gcd=13p3pPp2p5l1&dma_cps=-&dma=1&tcfd=10001&tag_exp=0~115616986~115938466~115938469~118228214&apve=1&apvf=f&gap.gtb=2&apvc=0&tids=AW-725264556&tid=AW-725264556&tft=1779956204027&tfd=656",
+        "method": "POST",
+        "resourceType": "fetch",
+        "failure": {
+          "errorText": "net::ERR_ABORTED"
+        }
+      },
+      {
+        "url": "https://zz.connextra.com/dcs/tagController/tag/a300d66eb9e0/cookie_exclusion",
+        "method": "GET",
+        "resourceType": "script",
+        "failure": null
+      },
+      {
+        "url": "https://edge.fullstory.com/s/fs.js",
+        "method": "GET",
+        "resourceType": "script",
+        "failure": null
+      },
+      {
+        "url": "https://www.olybet.fr/iojs/5.0.0/dyn_wdp.js?loaderVer=5.0.0&compat=false&tp=true&tp_split=false&tp_host=https%3A%2F%2Fci-mpsnare.iovation.com&fp_static=true&fp_dyn=true&flash=true",
+        "method": "GET",
+        "resourceType": "script",
+        "failure": {
+          "errorText": "net::ERR_ABORTED"
+        }
+      },
+      {
+        "url": "https://olybetfrance.zendesk.com/frontendevents/pv?client=1B752747-577B-429A-A0E0-83861AF69088",
+        "method": "POST",
+        "resourceType": "fetch",
+        "failure": {
+          "errorText": "net::ERR_ABORTED"
+        }
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/pagead/ping?e=1",
+        "method": "POST",
+        "resourceType": "fetch",
+        "failure": {
+          "errorText": "net::ERR_ABORTED"
+        }
+      }
+    ]
+  },
+  "documentState": {
+    "url": "https://www.gsmarena.com/google_android_17_continue_on-news-72910.php",
+    "title": "Android 17's 'Continue On' feature will let you move tasks between devices - GSMArena.com news",
+    "readyState": "complete",
+    "viewport": {
+      "innerWidth": 1280,
+      "innerHeight": 900,
+      "devicePixelRatio": 1
+    },
+    "documentElement": {
+      "clientWidth": 1280,
+      "clientHeight": 900,
+      "scrollWidth": 1280,
+      "scrollHeight": 4323
+    },
+    "bodyTextSample": "\n\nTIP US\n\n\n2.1M\n160K\n\n\nRSS\n\n\nEV\n\n\nMERCH\n\n\nLOG IN\nSIGN UP\nHOME NEWS REVIEWS VIDEOS FEATURED PHONE FINDER DEALS MERCH COVERAGE CONTACT\nADVERTISEMENT\nAndroid 17's 'Continue On' feature will let you move tasks between devices\nPOST YOUR COMMENT\nCOMMENTS (10)\n\n\n\nSagar 20 May 2026\n\nGoogle Android Announcement\n\nGoogle made quite a few announcements on the first day of Google I/O 2026, and one of them is \"Continue On,\" which is an Android 17 feature that app developers can implement to provide cross-device continuity for their users.\n\nIn Google's own words, \"Continue On enables users to start an Android app on one Android device and then transition to another device in their Android ecosystem, continuing the user journey they started.\"\n\nIn simpler words, if you are working on a document in the Google Docs app on your Android smartphone, with Continue On, you continue the same work on an Android tablet in the Google Docs app, provided both devices are connected to the same account. The handoff s"
+  }
+}

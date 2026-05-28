@@ -1,0 +1,254 @@
+{
+  "ok": true,
+  "browser": "firefox",
+  "executable": "/Applications/Firefox Nightly.app/Contents/MacOS/firefox",
+  "puppeteerPackage": "puppeteer-core",
+  "requestedUrl": "https://www.tiktok.com/de-DE/",
+  "finalUrl": "https://www.tiktok.com/de-DE/",
+  "httpStatus": 200,
+  "viewport": {
+    "width": 390,
+    "height": 844,
+    "deviceScaleFactor": 1
+  },
+  "screenshot": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042322/firefox/screenshot_firefox_390x844.png",
+  "navigationError": null,
+  "networkIdleError": null,
+  "events": {
+    "console": [
+      {
+        "type": "info",
+        "text": "PluginArray is being altered for compatibility reasons. See https://bugzil.la/1769762 for details."
+      },
+      {
+        "type": "warn",
+        "text": "Reflect is already polyfilled."
+      },
+      {
+        "type": "warn",
+        "text": "AppContext will be overwritten"
+      },
+      {
+        "type": "warn",
+        "text": "AppContext will be overwritten"
+      },
+      {
+        "type": "warn",
+        "text": "AppContext will be overwritten"
+      },
+      {
+        "type": "warn",
+        "text": "AppContext will be overwritten"
+      },
+      {
+        "type": "warn",
+        "text": "AppContext will be overwritten"
+      },
+      {
+        "type": "warn",
+        "text": "AppContext will be overwritten"
+      },
+      {
+        "type": "warn",
+        "text": "AppContext will be overwritten"
+      },
+      {
+        "type": "warn",
+        "text": "AppContext will be overwritten"
+      },
+      {
+        "type": "warn",
+        "text": "AppContext will be overwritten"
+      },
+      {
+        "type": "warn",
+        "text": "AppContext will be overwritten"
+      },
+      {
+        "type": "warn",
+        "text": "AppContext will be overwritten"
+      },
+      {
+        "type": "warn",
+        "text": "loadable: `loadableReady()` requires state, please use `getScriptTags` or `getScriptElements` server-side"
+      },
+      {
+        "type": "info",
+        "text": "."
+      },
+      {
+        "type": "debug",
+        "text": "set global cache JSHandle@object"
+      },
+      {
+        "type": "debug",
+        "text": "JSHandle@error"
+      },
+      {
+        "type": "debug",
+        "text": "JSHandle@error"
+      },
+      {
+        "type": "info",
+        "text": ""
+      },
+      {
+        "type": "debug",
+        "text": "[useFYPRecommendListFirstPull] originParams JSHandle@object expParams JSHandle@object false"
+      },
+      {
+        "type": "debug",
+        "text": "[getRecommendList] originParams JSHandle@object expParams JSHandle@object false"
+      },
+      {
+        "type": "debug",
+        "text": "JSHandle@error"
+      },
+      {
+        "type": "debug",
+        "text": "JSHandle@error"
+      },
+      {
+        "type": "debug",
+        "text": "[PlayerStart] autoPlay effect 923 JSHandle@object"
+      },
+      {
+        "type": "debug",
+        "text": "[PlayerStart] tryPlay 924 JSHandle@object"
+      },
+      {
+        "type": "warn",
+        "text": "[00:00.928][warn][controller](1) JSHandle@error"
+      },
+      {
+        "type": "warn",
+        "text": "[00:00.940][warn][controller](1) JSHandle@error"
+      },
+      {
+        "type": "debug",
+        "text": "[PlayerStart] onplay 941 JSHandle@object"
+      },
+      {
+        "type": "warn",
+        "text": "[TikTok desktop app SDK Monitor]:   WARN:[printFirstFeedShow]The current environment is not inside the client."
+      },
+      {
+        "type": "debug",
+        "text": "[PlayerStart] canplay->play 1056 JSHandle@object"
+      },
+      {
+        "type": "debug",
+        "text": "[PlayerStart] onplaying prefetch-compare 1057 JSHandle@object"
+      },
+      {
+        "type": "debug",
+        "text": "[PlayerStart] autoPlay effect 1062 JSHandle@object"
+      },
+      {
+        "type": "debug",
+        "text": "[PlayerStart] tryPlay 1062 JSHandle@object"
+      },
+      {
+        "type": "log",
+        "text": "ws.opened"
+      },
+      {
+        "type": "warn",
+        "text": "[SDK] 1779954933871        0 already inited"
+      },
+      {
+        "type": "debug",
+        "text": "fmp 1326 JSHandle@node"
+      },
+      {
+        "type": "warn",
+        "text": "Reflect is already polyfilled."
+      },
+      {
+        "type": "debug",
+        "text": "ttap_vmok_load @webapp-shared/login-vmok JSHandle@object"
+      },
+      {
+        "type": "warn",
+        "text": "JSHandle@error"
+      },
+      {
+        "type": "debug",
+        "text": "JSHandle@error"
+      },
+      {
+        "type": "debug",
+        "text": "JSHandle@error"
+      },
+      {
+        "type": "debug",
+        "text": "[PlayerStart] onplay 8395 JSHandle@object"
+      },
+      {
+        "type": "debug",
+        "text": "[PlayerStart] canplay->play 8408 JSHandle@object"
+      },
+      {
+        "type": "debug",
+        "text": "[PlayerStart] canplay->play 8408 JSHandle@object"
+      },
+      {
+        "type": "debug",
+        "text": "[PlayerStart] onplaying prefetch-compare 8408 JSHandle@object"
+      }
+    ],
+    "pageErrors": [
+      {
+        "name": "Error",
+        "message": "TypeError: can't access property \"includes\", e.host is undefined"
+      },
+      {
+        "name": "Error",
+        "message": "TypeError: can't access property \"includes\", e.host is undefined"
+      },
+      {
+        "name": "Error",
+        "message": "TypeError: can't access property \"includes\", e.host is undefined"
+      },
+      {
+        "name": "Error",
+        "message": "TypeError: can't access property \"includes\", e.host is undefined"
+      }
+    ],
+    "requestFailures": [
+      {
+        "url": "https://libraweb-ttp2.tiktokw.eu/service/2/abtest_config/",
+        "method": "OPTIONS",
+        "resourceType": null,
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://libraweb-ttp2.tiktokw.eu/service/2/abtest_config/",
+        "method": "POST",
+        "resourceType": null,
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      }
+    ]
+  },
+  "documentState": {
+    "url": "https://www.tiktok.com/de-DE/",
+    "title": "TikTok - Make Your Day",
+    "readyState": "complete",
+    "viewport": {
+      "innerWidth": 390,
+      "innerHeight": 844,
+      "devicePixelRatio": 1
+    },
+    "documentElement": {
+      "clientWidth": 375,
+      "clientHeight": 829,
+      "scrollWidth": 492,
+      "scrollHeight": 844
+    },
+    "bodyTextSample": "TikTok\n\nCapCut · Bearbeitung leicht gemacht\n\nbrk_tu_c_deja91\n\n#pourtoi\n\n#viral\n\nson doigt il va loin 😭\n\nÜbersetzung anzeigen\n\n00:01 / 00:07\n\n456.4K\n6366\n42.8K\n154.6K\n\nkiproccoo\n\n00:00 / 00:00\n\n244.9K\n1414\n20.2K\n13.4K\nFernzugriff \"Übermittlung von EWR-Nutzerdaten nach China\": Aktualisierung zur Entscheidung der irischen Datenschutzbehörde\n\nIm April 2025 stellte die irische Datenschutzkommission (DPC) fest, dass TikTok die Anforderungen der Datenschutzgrundverordnung (DSGVO) in Bezug auf die Übermittlung bestimmter „EWR-Nutzerdaten nach China mittels Fernzugriff“ nicht eingehalten habe. TikTok wurde von der DPC aufgefordert, den Fernzugriff innerhalb von sechs Monaten mit der DSGVO in Einklang zu bringen, andernfalls müsse er ausgesetzt werden. TikTok ist mit der Entscheidung der DPC nicht einverstanden und hat bei den irischen Gerichten Berufung eingelegt. Der High Court of Ireland hat die Entscheidung bis dahin ausgesetzt, so dass die Übermittlung vorerst fortgesetzt werden kann. Weit"
+  }
+}

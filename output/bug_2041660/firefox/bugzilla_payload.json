@@ -1,0 +1,222 @@
+{
+  "bug_id": "2041660",
+  "endpoints": {
+    "attachments": "https://bugzilla.mozilla.org/rest/bug/2041660/attachment?exclude_fields=data",
+    "bug": "https://bugzilla.mozilla.org/rest/bug/2041660",
+    "comments": "https://bugzilla.mozilla.org/rest/bug/2041660/comment",
+    "history": "https://bugzilla.mozilla.org/rest/bug/2041660/history"
+  },
+  "fetched_at": "2026-05-28T07:55:43+00:00",
+  "responses": {
+    "attachments": {
+      "attachments": {},
+      "bugs": {
+        "2041660": []
+      }
+    },
+    "bug": {
+      "bugs": [
+        {
+          "alias": null,
+          "assigned_to": "nobody@mozilla.org",
+          "assigned_to_detail": {
+            "email": "nobody@mozilla.org",
+            "id": 1,
+            "name": "nobody@mozilla.org",
+            "nick": "nobody",
+            "real_name": "Nobody; OK to take it and work on it"
+          },
+          "blocks": [],
+          "cc": [],
+          "cc_detail": [],
+          "cf_a11y_review_project_flag": "---",
+          "cf_accessibility_severity": "---",
+          "cf_cab_review": "---",
+          "cf_fx_iteration": "---",
+          "cf_fx_points": "---",
+          "cf_last_resolved": null,
+          "cf_performance_impact": "---",
+          "cf_qa_whiteboard": "",
+          "cf_status_firefox151": "---",
+          "cf_status_firefox152": "---",
+          "cf_status_firefox153": "---",
+          "cf_status_firefox_esr115": "---",
+          "cf_status_firefox_esr140": "---",
+          "cf_tracking_firefox151": "---",
+          "cf_tracking_firefox152": "---",
+          "cf_tracking_firefox153": "---",
+          "cf_tracking_firefox_esr115": "---",
+          "cf_tracking_firefox_esr140": "---",
+          "cf_tracking_firefox_relnote": "---",
+          "cf_user_story": "user-impact-score:150\nplatform:linux\nimpact:site-broken\nconfiguration:general\naffects:all\nbranch:release\ndiagnosis-team:video-conferencing",
+          "cf_webcompat_priority": "P2",
+          "cf_webcompat_score": "5",
+          "classification": "Client Software",
+          "comment_count": 1,
+          "component": "Site Reports",
+          "creation_time": "2026-05-22T11:04:37Z",
+          "creator": "rbucata@mozilla.com",
+          "creator_detail": {
+            "email": "rbucata@mozilla.com",
+            "id": 675083,
+            "name": "rbucata@mozilla.com",
+            "nick": "rbucata",
+            "real_name": "Raul Bucata"
+          },
+          "depends_on": [],
+          "dupe_of": null,
+          "duplicates": [],
+          "flags": [],
+          "groups": [],
+          "id": 2041660,
+          "is_cc_accessible": true,
+          "is_confirmed": true,
+          "is_creator_accessible": true,
+          "is_open": true,
+          "keywords": [
+            "webcompat:needs-diagnosis",
+            "webcompat:site-report"
+          ],
+          "last_change_time": "2026-05-26T08:07:41Z",
+          "mentors": [],
+          "mentors_detail": [],
+          "op_sys": "Linux",
+          "platform": "Desktop",
+          "priority": "P3",
+          "product": "Web Compatibility",
+          "qa_contact": "",
+          "regressed_by": [],
+          "regressions": [],
+          "resolution": "",
+          "see_also": [
+            "https://github.com/webcompat/web-bugs/issues/220995"
+          ],
+          "severity": "S4",
+          "status": "NEW",
+          "summary": "meet.google.com - Performance issue with a limited bandwith",
+          "target_milestone": "---",
+          "type": "defect",
+          "url": "https://meet.google.com/",
+          "version": "unspecified",
+          "votes": 0,
+          "whiteboard": "[webcompat-source:web-bugs][webcompat:sightline][webcompat:core]"
+        }
+      ],
+      "faults": []
+    },
+    "comments": {
+      "bugs": {
+        "2041660": {
+          "comments": [
+            {
+              "attachment_id": null,
+              "author": "rbucata@mozilla.com",
+              "bug_id": 2041660,
+              "count": 0,
+              "creation_time": "2026-05-22T11:04:37Z",
+              "creator": "rbucata@mozilla.com",
+              "id": 18098296,
+              "is_private": false,
+              "raw_text": "**Environment:**\nOperating system: Linux\nFirefox version: Firefox 150.0\n\n**Steps to reproduce:**\nWhat happened:\n\n    When using Google Meet on Firefox (Linux), I experience severe performance degradation. Audio and video are extremely choppy, and I frequently receive \"Your connection is lost\" notifications. Screen sharing often causes the entire session to become unusable or drop entirely.\n\nExpected behavior:\n\n    The meeting should run smoothly without artificial bandwidth throttling, similar to the experience on Chromium-based browsers.\n\nAdditional Context:\n\n        This is NOT a network issue. On the same machine, network, and at the same time, Chromium-based browsers work perfectly with no lag or interruptions, even during screen sharing.\n\n        System: Debian Sid, KDE Plasma 6.\n\n        Hardware: AMD Ryzen 7 5700U (Dell Vostro 3525).\n\n        It seems to be a WebRTC congestion control or hardware acceleration handling issue specific to the Gecko engine when interacting with Meet.\n\n**Actual Behavior:**\nPerformance issues with a limited bandwith\n\n**Notes:**\n- The issue is believed to be valid, but was not reproduced\n\nCreated from https://github.com/webcompat/web-bugs/issues/220995",
+              "reactions": {},
+              "tags": [],
+              "text": "**Environment:**\nOperating system: Linux\nFirefox version: Firefox 150.0\n\n**Steps to reproduce:**\nWhat happened:\n\n    When using Google Meet on Firefox (Linux), I experience severe performance degradation. Audio and video are extremely choppy, and I frequently receive \"Your connection is lost\" notifications. Screen sharing often causes the entire session to become unusable or drop entirely.\n\nExpected behavior:\n\n    The meeting should run smoothly without artificial bandwidth throttling, similar to the experience on Chromium-based browsers.\n\nAdditional Context:\n\n        This is NOT a network issue. On the same machine, network, and at the same time, Chromium-based browsers work perfectly with no lag or interruptions, even during screen sharing.\n\n        System: Debian Sid, KDE Plasma 6.\n\n        Hardware: AMD Ryzen 7 5700U (Dell Vostro 3525).\n\n        It seems to be a WebRTC congestion control or hardware acceleration handling issue specific to the Gecko engine when interacting with Meet.\n\n**Actual Behavior:**\nPerformance issues with a limited bandwith\n\n**Notes:**\n- The issue is believed to be valid, but was not reproduced\n\nCreated from https://github.com/webcompat/web-bugs/issues/220995",
+              "time": "2026-05-22T11:04:37Z"
+            }
+          ]
+        }
+      },
+      "comments": {}
+    },
+    "history": {
+      "bugs": [
+        {
+          "alias": null,
+          "history": [
+            {
+              "changes": [
+                {
+                  "added": "[webcompat-source:web-bugs][webcompat:sightline][webcompat:core]",
+                  "field_name": "whiteboard",
+                  "removed": "[webcompat-source:web-bugs]"
+                }
+              ],
+              "when": "2026-05-22T11:47:13Z",
+              "who": "release-mgmt-account-bot@mozilla.tld"
+            },
+            {
+              "changes": [
+                {
+                  "added": "@@ -1 +1 @@\n-\n+user-impact-score:0\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                },
+                {
+                  "added": "P3",
+                  "field_name": "cf_webcompat_priority",
+                  "removed": "---"
+                },
+                {
+                  "added": "1",
+                  "field_name": "cf_webcompat_score",
+                  "removed": "---"
+                }
+              ],
+              "when": "2026-05-23T08:07:01Z",
+              "who": "release-mgmt-account-bot@mozilla.tld"
+            },
+            {
+              "changes": [
+                {
+                  "added": "S4",
+                  "field_name": "severity",
+                  "removed": "--"
+                },
+                {
+                  "added": "@@ -1 +1,7 @@\n-user-impact-score:0\n+user-impact-score:100\r\n+platform:linux\r\n+impact:site-broken\r\n+configuration:general\r\n+affects:all\r\n+branch:release\r\n+diagnosis-team:video-conferencing\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                },
+                {
+                  "added": "webcompat:needs-diagnosis",
+                  "field_name": "keywords",
+                  "removed": ""
+                },
+                {
+                  "added": "P3",
+                  "field_name": "priority",
+                  "removed": "--"
+                },
+                {
+                  "added": "5",
+                  "field_name": "cf_webcompat_score",
+                  "removed": "1"
+                }
+              ],
+              "when": "2026-05-25T15:38:24Z",
+              "who": "kberezina@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "@@ -1,7 +1,7 @@\n-user-impact-score:100\r\n-platform:linux\r\n-impact:site-broken\r\n-configuration:general\r\n-affects:all\r\n-branch:release\r\n+user-impact-score:150\n+platform:linux\n+impact:site-broken\n+configuration:general\n+affects:all\n+branch:release\n diagnosis-team:video-conferencing\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                },
+                {
+                  "added": "P2",
+                  "field_name": "cf_webcompat_priority",
+                  "removed": "P3"
+                }
+              ],
+              "when": "2026-05-26T08:07:41Z",
+              "who": "release-mgmt-account-bot@mozilla.tld"
+            }
+          ],
+          "id": 2041660
+        }
+      ]
+    }
+  },
+  "show_bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=2041660"
+}

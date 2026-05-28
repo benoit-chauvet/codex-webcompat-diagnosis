@@ -1,0 +1,285 @@
+{
+  "bug_id": "2042795",
+  "endpoints": {
+    "attachments": "https://bugzilla.mozilla.org/rest/bug/2042795/attachment?exclude_fields=data",
+    "bug": "https://bugzilla.mozilla.org/rest/bug/2042795",
+    "comments": "https://bugzilla.mozilla.org/rest/bug/2042795/comment",
+    "history": "https://bugzilla.mozilla.org/rest/bug/2042795/history"
+  },
+  "fetched_at": "2026-05-28T07:50:56+00:00",
+  "responses": {
+    "attachments": {
+      "attachments": {},
+      "bugs": {
+        "2042795": [
+          {
+            "attacher": "bfarkas@mozilla.com",
+            "bug_id": 2042795,
+            "content_type": "video/mp4",
+            "creation_time": "2026-05-27T13:13:38Z",
+            "creator": "bfarkas@mozilla.com",
+            "creator_detail": {
+              "email": "bfarkas@mozilla.com",
+              "id": 779692,
+              "name": "bfarkas@mozilla.com",
+              "nick": "bfarkas",
+              "real_name": "Bernadett Farkas"
+            },
+            "description": "Unsupported video format Nightly vs Chrome",
+            "file_name": "gsmarena-mime.mp4",
+            "flags": [],
+            "id": 9590355,
+            "is_obsolete": 0,
+            "is_patch": 0,
+            "is_private": 0,
+            "last_change_time": "2026-05-27T13:13:38Z",
+            "size": 509341,
+            "summary": "Unsupported video format Nightly vs Chrome"
+          }
+        ]
+      }
+    },
+    "bug": {
+      "bugs": [
+        {
+          "alias": null,
+          "assigned_to": "nobody@mozilla.org",
+          "assigned_to_detail": {
+            "email": "nobody@mozilla.org",
+            "id": 1,
+            "name": "nobody@mozilla.org",
+            "nick": "nobody",
+            "real_name": "Nobody; OK to take it and work on it"
+          },
+          "blocks": [],
+          "cc": [
+            "kberezina@mozilla.com"
+          ],
+          "cc_detail": [
+            {
+              "email": "kberezina@mozilla.com",
+              "id": 638886,
+              "name": "kberezina@mozilla.com",
+              "nick": "ksenia",
+              "real_name": "Ksenia Berezina [:ksenia]"
+            }
+          ],
+          "cf_a11y_review_project_flag": "---",
+          "cf_accessibility_severity": "---",
+          "cf_cab_review": "---",
+          "cf_fx_iteration": "---",
+          "cf_fx_points": "---",
+          "cf_last_resolved": null,
+          "cf_performance_impact": "---",
+          "cf_qa_whiteboard": "",
+          "cf_status_firefox151": "affected",
+          "cf_status_firefox152": "affected",
+          "cf_status_firefox153": "affected",
+          "cf_status_firefox_esr115": "---",
+          "cf_status_firefox_esr140": "---",
+          "cf_tracking_firefox151": "---",
+          "cf_tracking_firefox152": "---",
+          "cf_tracking_firefox153": "---",
+          "cf_tracking_firefox_esr115": "---",
+          "cf_tracking_firefox_esr140": "---",
+          "cf_tracking_firefox_relnote": "---",
+          "cf_user_story": "platform:windows,mac,linux,android\r\nimpact:content-missing\r\nconfiguration:general\r\naffects:all\r\nbranch:release\r\ndiagnosis-team:media\r\nuser-impact-score:450",
+          "cf_webcompat_priority": "P2",
+          "cf_webcompat_score": "6",
+          "classification": "Client Software",
+          "comment_count": 3,
+          "component": "Site Reports",
+          "creation_time": "2026-05-27T13:13:38Z",
+          "creator": "bfarkas@mozilla.com",
+          "creator_detail": {
+            "email": "bfarkas@mozilla.com",
+            "id": 779692,
+            "name": "bfarkas@mozilla.com",
+            "nick": "bfarkas",
+            "real_name": "Bernadett Farkas"
+          },
+          "depends_on": [],
+          "dupe_of": null,
+          "duplicates": [],
+          "flags": [],
+          "groups": [],
+          "id": 2042795,
+          "is_cc_accessible": true,
+          "is_confirmed": true,
+          "is_creator_accessible": true,
+          "is_open": true,
+          "keywords": [
+            "webcompat:needs-diagnosis",
+            "webcompat:site-report"
+          ],
+          "last_change_time": "2026-05-27T14:10:17Z",
+          "mentors": [],
+          "mentors_detail": [],
+          "op_sys": "Windows",
+          "platform": "Desktop",
+          "priority": "P2",
+          "product": "Web Compatibility",
+          "qa_contact": "",
+          "regressed_by": [],
+          "regressions": [],
+          "resolution": "",
+          "see_also": [],
+          "severity": "S2",
+          "status": "NEW",
+          "summary": "www.gsmarena.com -  The embedded videos fail to load due to \"No video with supported format and MIME type found\" error",
+          "target_milestone": "---",
+          "type": "defect",
+          "url": "https://www.gsmarena.com/google_android_17_continue_on-news-72910.php",
+          "version": "Firefox 153",
+          "votes": 0,
+          "whiteboard": "[webcompat-source:product][webcompat:sightline][webcompat:core]"
+        }
+      ],
+      "faults": []
+    },
+    "comments": {
+      "bugs": {
+        "2042795": {
+          "comments": [
+            {
+              "attachment_id": 9590355,
+              "author": "bfarkas@mozilla.com",
+              "bug_id": 2042795,
+              "count": 0,
+              "creation_time": "2026-05-27T13:13:38Z",
+              "creator": "bfarkas@mozilla.com",
+              "id": 18107121,
+              "is_private": false,
+              "raw_text": "**Environment:**\nOperating system: Windows\nFirefox version: Firefox 151.0 (release) /  Firefox Nightly 153.0a1 (2026-05-26)\n\n**Preconditions:**\n- Clean profile\n\n**Steps to reproduce:**\n1. Navigate to: https://www.gsmarena.com/google_android_17_continue_on-news-72910.php\n2. Scroll down the page until the embedded videos\n3. Observe the page\n\n**Expected Behavior:**\nThe embedded videos can be played accordingly\n\n**Actual Behavior:**\n \"No video with supported format and MIME type found\" error is displayed and the embedded videos cannot be played\n\n**Notes:**\n- Reproducible on the latest Firefox Release and Nightly\n- Reproducible regardless of the ETP setting\n- Works as expected using Chrome\n\n---\n\nCreated from webcompat-user-report:c0b7fb37-36d7-4055-95ab-00ed85621cde",
+              "reactions": {},
+              "tags": [],
+              "text": "Created attachment 9590355\nUnsupported video format Nightly vs Chrome\n\n**Environment:**\nOperating system: Windows\nFirefox version: Firefox 151.0 (release) /  Firefox Nightly 153.0a1 (2026-05-26)\n\n**Preconditions:**\n- Clean profile\n\n**Steps to reproduce:**\n1. Navigate to: https://www.gsmarena.com/google_android_17_continue_on-news-72910.php\n2. Scroll down the page until the embedded videos\n3. Observe the page\n\n**Expected Behavior:**\nThe embedded videos can be played accordingly\n\n**Actual Behavior:**\n \"No video with supported format and MIME type found\" error is displayed and the embedded videos cannot be played\n\n**Notes:**\n- Reproducible on the latest Firefox Release and Nightly\n- Reproducible regardless of the ETP setting\n- Works as expected using Chrome\n\n---\n\nCreated from webcompat-user-report:c0b7fb37-36d7-4055-95ab-00ed85621cde",
+              "time": "2026-05-27T13:13:38Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "release-mgmt-account-bot@mozilla.tld",
+              "bug_id": 2042795,
+              "count": 1,
+              "creation_time": "2026-05-27T13:41:18Z",
+              "creator": "release-mgmt-account-bot@mozilla.tld",
+              "id": 18107193,
+              "is_private": false,
+              "raw_text": "Since nightly and release are affected, beta will likely be affected too.\nFor more information, please visit [BugBot documentation](https://wiki.mozilla.org/BugBot#missing_beta_status.py).",
+              "reactions": {},
+              "tags": [],
+              "text": "Since nightly and release are affected, beta will likely be affected too.\nFor more information, please visit [BugBot documentation](https://wiki.mozilla.org/BugBot#missing_beta_status.py).",
+              "time": "2026-05-27T13:41:18Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "sky@mozilla.com",
+              "bug_id": 2042795,
+              "count": 2,
+              "creation_time": "2026-05-27T14:10:17Z",
+              "creator": "sky@mozilla.com",
+              "id": 18107241,
+              "is_private": false,
+              "raw_text": "Firefox says\n\n> Media resource https://fdn.gsmarena.com/imgroot/news/26/05/google-android-17-continue-on/gsmarena_002.mp4 could not be decoded, error: Error Code: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005)\nDetails: auto mozilla::SupportChecker::AddMediaFormatChecker(const TrackInfo &)::(anonymous class)::operator()() const: Decoder may not have the capability to handle the requested video format with YUV444 chroma subsampling.",
+              "reactions": {},
+              "tags": [],
+              "text": "Firefox says\n\n> Media resource https://fdn.gsmarena.com/imgroot/news/26/05/google-android-17-continue-on/gsmarena_002.mp4 could not be decoded, error: Error Code: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005)\nDetails: auto mozilla::SupportChecker::AddMediaFormatChecker(const TrackInfo &)::(anonymous class)::operator()() const: Decoder may not have the capability to handle the requested video format with YUV444 chroma subsampling.",
+              "time": "2026-05-27T14:10:17Z"
+            }
+          ]
+        }
+      },
+      "comments": {}
+    },
+    "history": {
+      "bugs": [
+        {
+          "alias": null,
+          "history": [
+            {
+              "changes": [
+                {
+                  "added": "affected",
+                  "field_name": "cf_status_firefox151",
+                  "removed": "---"
+                },
+                {
+                  "added": "affected",
+                  "field_name": "cf_status_firefox153",
+                  "removed": "---"
+                }
+              ],
+              "when": "2026-05-27T13:13:48Z",
+              "who": "bfarkas@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "affected",
+                  "field_name": "cf_status_firefox152",
+                  "removed": "---"
+                }
+              ],
+              "when": "2026-05-27T13:41:18Z",
+              "who": "release-mgmt-account-bot@mozilla.tld"
+            },
+            {
+              "changes": [
+                {
+                  "added": "[webcompat-source:product][webcompat:sightline][webcompat:core]",
+                  "field_name": "whiteboard",
+                  "removed": "[webcompat-source:product]"
+                }
+              ],
+              "when": "2026-05-27T13:44:46Z",
+              "who": "release-mgmt-account-bot@mozilla.tld"
+            },
+            {
+              "changes": [
+                {
+                  "added": "webcompat:needs-diagnosis",
+                  "field_name": "keywords",
+                  "removed": ""
+                },
+                {
+                  "added": "S2",
+                  "field_name": "severity",
+                  "removed": "--"
+                },
+                {
+                  "added": "kberezina@mozilla.com",
+                  "field_name": "cc",
+                  "removed": ""
+                },
+                {
+                  "added": "P2",
+                  "field_name": "priority",
+                  "removed": "--"
+                },
+                {
+                  "added": "@@ -1 +1,7 @@\n-\n+platform:windows,mac,linux,android\r\n+impact:content-missing\r\n+configuration:general\r\n+affects:all\r\n+branch:release\r\n+diagnosis-team:media\r\n+user-impact-score:450\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                },
+                {
+                  "added": "P2",
+                  "field_name": "cf_webcompat_priority",
+                  "removed": "---"
+                },
+                {
+                  "added": "6",
+                  "field_name": "cf_webcompat_score",
+                  "removed": "---"
+                }
+              ],
+              "when": "2026-05-27T14:09:24Z",
+              "who": "kberezina@mozilla.com"
+            }
+          ],
+          "id": 2042795
+        }
+      ]
+    }
+  },
+  "show_bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=2042795"
+}

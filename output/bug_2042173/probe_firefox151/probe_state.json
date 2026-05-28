@@ -1,0 +1,324 @@
+{
+  "task": "amazon",
+  "browser": "firefox",
+  "executablePath": "/Applications/Firefox.app/Contents/MacOS/firefox",
+  "requestedUrl": "https://www.amazon.com/dp/B0FD9Z9FSF/?coliid=I3MQ3BARFOSOEE&colid=105SCGC0NK0ET&th=1&psc=1",
+  "finalUrl": "https://www.amazon.com/dp/B0FD9Z9FSF/?coliid=I3MQ3BARFOSOEE&colid=105SCGC0NK0ET&th=1&psc=1",
+  "httpStatus": 200,
+  "navigationError": null,
+  "viewport": {
+    "width": 1280,
+    "height": 900
+  },
+  "events": {
+    "console": [
+      {
+        "type": "debug",
+        "text": "Error during native obstruction fetch JSHandle@error"
+      },
+      {
+        "type": "debug",
+        "text": "Error during native obstruction fetch JSHandle@error"
+      },
+      {
+        "type": "warn",
+        "text": "VIDEOJS: WARN: Using hls options is deprecated. Use vhs instead."
+      },
+      {
+        "type": "debug",
+        "text": "Error during native obstruction fetch JSHandle@error"
+      }
+    ],
+    "pageErrors": [
+      {
+        "name": "Error",
+        "message": "The Components object is deprecated. It will soon be removed."
+      }
+    ],
+    "requestFailures": [
+      {
+        "url": "https://unagi.amazon.com/1/events/com.amazon.csm.csa.prod",
+        "method": "POST",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_ERROR_FAILURE"
+        }
+      },
+      {
+        "url": "https://unagi.amazon.com/1/events/com.amazon.csm.nexusclient.prod",
+        "method": "POST",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_ERROR_FAILURE"
+        }
+      },
+      {
+        "url": "https://ib.adnxs.com/setuid/a9?entity=188&code=OwmxsW8-RH6oX5ABOImRng&redir=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3DxandrHMT%26id%3D%24UID&gdpr_consent=&gdpr=0",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://ib.adnxs.com/getuid?https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fid=%24UID&ex=appnexus.com&gdpr_consent=&gdpr=0",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://us-u.openx.net/w/1.0/sd?id=537072986&val=9O1dkPOWQiunV62Ftmi1cw&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3DopenxHMT%26id%3D%7BOPENX_RTB_USERID%7D&gdpr_consent=&gdpr=0",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://ib.adnxs.com/getuid?https://cookie-matching.mediarithmics.com/input?key=APX&apx_uid=$UID&opid=apx&ops=&utidl=tech:goo:CAESEIUQD3Oe-PkY5PYh3Tb2qdY&gdpr_consent=&gdpr=0&action=GET_ID&etid=&domid=1109",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://us-east-sync.richaudience.com/2815b6ef352b486227f27969993f46e5/?uid=1MNdUxeFRMGhs590o9qWZw&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3DexteHMT&id=&gdpr_consent=&gdpr=0",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_ERROR_FAILURE"
+        }
+      },
+      {
+        "url": "https://unagi-na.amazon.com/1/events/com.amazon.BotCXPolicy.na.prod.bd",
+        "method": "POST",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_ERROR_FAILURE"
+        }
+      },
+      {
+        "url": "https://unagi.amazon.com/1/events/com.amazon.csm.csa.prod",
+        "method": "POST",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_ERROR_FAILURE"
+        }
+      },
+      {
+        "url": "https://unagi.amazon.com/1/events/com.amazon.csm.csa.prod",
+        "method": "POST",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_ERROR_FAILURE"
+        }
+      },
+      {
+        "url": "https://unagi.amazon.com/1/events/com.amazon.csm.csa.prod",
+        "method": "POST",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_ERROR_FAILURE"
+        }
+      },
+      {
+        "url": "https://unagi.amazon.com/1/events/com.amazon.csm.nexusclient.prod",
+        "method": "POST",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_ERROR_FAILURE"
+        }
+      },
+      {
+        "url": "https://unagi.amazon.com/1/events/com.amazon.csm.nexusclient.prod",
+        "method": "POST",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_ERROR_FAILURE"
+        }
+      },
+      {
+        "url": "https://unagi.amazon.com/1/events/com.amazon.csm.customsg.prod",
+        "method": "POST",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_ERROR_FAILURE"
+        }
+      },
+      {
+        "url": "https://unagi.amazon.com/1/events/com.amazon.csm.csa.prod",
+        "method": "POST",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_ERROR_FAILURE"
+        }
+      },
+      {
+        "url": "https://unagi.amazon.com/1/events/com.amazon.csm.csa.prod",
+        "method": "POST",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_ERROR_FAILURE"
+        }
+      }
+    ]
+  },
+  "page": {
+    "url": "https://www.amazon.com/dp/B0FD9Z9FSF/?coliid=I3MQ3BARFOSOEE&colid=105SCGC0NK0ET&th=1&psc=1",
+    "title": "BABEYOND Kimono Robe Cover up with Box Long Floral Satin Sleepwear Silky Bathrobe Bachelorette Robe at Amazon Women’s Clothing store",
+    "readyState": "complete",
+    "scrollX": 0,
+    "scrollY": 4880.86669921875,
+    "viewport": {
+      "innerWidth": 1280,
+      "innerHeight": 900,
+      "devicePixelRatio": 1
+    },
+    "documentElement": {
+      "clientWidth": 1265,
+      "clientHeight": 885,
+      "scrollWidth": 1273,
+      "scrollHeight": 10587
+    },
+    "bodyTextSample": "Skip to\nMain content\nAbout this item\nBuying options\nVideos\nReviews\nKeyboard shortcuts\nSearch\nopt\n+\n/\nCart\nshift\n+\nopt\n+\nC\nHome\nshift\n+\nopt\n+\nH\nOrders\nshift\n+\nopt\n+\nO\nAdd to cart\nshift\n+\nopt\n+\nK\nProduct summary\nshift\n+\nopt\n+\nD\nShow/Hide shortcuts\nshift\n+\nopt\n+\nZ\nTo move between items, use your keyboard's up or down arrows.\nDeliver to\nFrance\nAll\nEN\nHello, sign in\nAccount & Lists\nReturns\n& Orders\n0\nCart\nWe're showing you items that ship to France. To see items that ship to a different country, change your delivery address.\nDismiss\n \nChange Address\nAll\nToday's Deals\nGift Cards\nSell\nRegistry\nPrime Video\nCustomer Service\nDisability Customer Support\nProduct summary presents key product information \nKeyboard shortcut  shift + opt + D\nSponsored \nClothing, Shoes & Jewelry\n›\nWomen\n›\nClothing\n›\nLingerie, Sleep & Lounge\n›\nSleep & Lounge\n›\nRobes\nVisit the BABEYOND Store\nBABEYOND Kimono Robe Cover up with Box Long Floral Satin Sleepwear Silky Bathrobe Bachelorette Robe\n4.6 \n4.6 out of 5 stars\n   (3,987)\n50+ bought in past month\nEUR 34.35\nEUR34\n.\n35 \nNo Import Charges & EUR 10.57 Shipping to France Details \n\nColor: Light Blue\nEUR 34.35\nEUR34.35\nEUR 34.35\nEUR34.35\nEUR 34.35\nEUR34.35\nEUR 34.35\nEUR34.35\nEUR 34.35\nEUR34.35\nEUR 34.35\nEUR34.35\nEUR 34.35\nEUR34.35\nEUR 34.35\nEUR34.35\nEUR 34.35\nEUR34.35\nEUR 34.35\nEUR34.35\nEUR 34.35\nEUR34.35\nSize: One Size\nOne Size\nOne Size Plus\nSize Chart \n\nCustomers usually keep this item.\n\nProduct details\nTop highlights\nFabric type\nPolyester\nCare instructions\nHand Wash Only\nOrigin\nImported\nAbout this item\nMaterial: Polyester, comfortable and lightweight\nOne Size: "
+  },
+  "taskResult": {
+    "scrollResult": {
+      "foundHeading": true,
+      "headingText": "Skip to\nMain content\nAbout this item\nBuying options\nVideos\nReviews\nKeyboard shortcuts\nSearch\nopt\n+\n/\nCart\nshift\n+\nopt\n+\nC\nHome\nshift\n+\nopt\n+\nH\nOrders\nshift\n+\nopt\n+\nO\nAdd to cart\nshift\n+\nopt\n+\nK\nProduct summary\nshift\n+\nopt\n+\nD\nShow/Hide shortcuts\nshift\n+\nopt\n+\nZ\nTo move between items, use your keyboard's up or down arrows.\nDeliver to\nFrance\nAll\nEN\nHello, sign in\nAccount & Lists\nReturns\n& Orders\n0\nCart\nWe're showing you items that ship to France. To see items that ship to a different country, change your delivery address.\nDismiss\n \nChange Address\nAll\nToday's Deals\nGift Cards\nSell\nRegistry\nPrime Video\nCustomer Service\nDisability Customer Support\nProduct summary presents key product information \nKeyboard shortcut  shift + opt + D\nSponsored \nClothing, Shoes & Jewelry\n›\nWomen\n›\nClothing\n›\nLingerie, Sleep & Lounge\n›\nSleep & Lounge\n›\nRobes\nVisit the BABEYOND Store\nBABEYOND Kimono Robe Cover up with Box Long Floral Satin Sleepwear Silky Bathrobe Bachelorette Robe\n4.6 \n4.6 out of 5 stars\n   (3,987)\n50+ bought in past month\nEUR 34.35\nEUR34\n.\n35 \nNo Import Charges & EUR 10.57 Shipping to France Details \n\nColor: Light Blue\nEUR 34.35\nEUR34.35\nEUR 34.35\nEUR34.35\nEUR 34.35\nEUR34.35\nEUR 34.35\nEUR34.35\nEUR 34.35\nEUR34.35\nEUR 34.35\nEUR34.35\nEUR 34.35\nEUR34.35\nEUR 34.35\nEUR34.35\nEUR 34.35\nEUR34.35\nEUR 34.35\nEUR34.35\nEUR 34.35\nEUR34.35\nSize: One Size\nOne Size\nOne Size Plus\nSize Chart \n\nCustomers usually keep this item.\n\nProduct details\nTop highlights\nFabric type\nPolyester\nCare instructions\nHand Wash Only\nOrigin\nImported\nAbout this item\nMaterial: Polyester, comfortable and lightweight\nOne Size: Bust-51\" . Hip-51\" . Robe length-53\" . Sleeve length-22\" . One Size Plus: Bust-66\" . Hip-63\" . Robe length-53\" . Sleeve length-22\". (±0.7” deviation is allowed due to manual measurement)\nDesign: Long style kimono robe for women, continuous printed sleeves, ankle length, sash tie closure, pockets, belt loops and inside ties\nWash Instruction: Hand wash in warm or cold water\nOccasion: A widely use floral kimono robe, suitable for daily wear and kinds of special occasions, such as cosplay, family party, bridal shower, Valentine's Day, Mother's Day, bridesmaid, bachelorette party, hen party\nStyle\nItem details\nSee all product specifications\nReport an issue with this product or seller\nSponsored \nEUR34.35\nEUR34\n.\n35\nNo Import Charges & EUR 10.57 Shipping to France Details \n\nEUR 10.57 delivery June 8 - 11\nOr fastest delivery Monday, June 8\nDeliver to France\nAdd to cart\nBuy Now\nShips from\nAmazon\nSold by\nProdesign Lounge\nReturns\n30-day refund / replacement\nPackaging\nShips in product packaging\nSee more\nAdd to List\nSponsored \nBABEYOND products customers bought together\n\n\nThis item: BABEYOND Kimono Robe Cover up with Box Long Floral Satin Sleepwear Silky Bathrobe Bachelorette Robe\n4.6\n4.6 out of 5 stars\n 3,987\nEUR34.35\nEUR34\n.\n35\n+\nSponsored\nBABEYOND Kimono Robe Cover up Short Satin Floral Silky Kimono Blouse Loose Bachelorette Party Robe\n4.6\n4.6 out of 5 stars\n 835\nEUR30.05\nEUR30\n.\n05\n+\nSponsored\nBABEYOND Women's Kimono Robe Long Satin Robes with Peacock and Blossoms Printed Kimono Nightgown\n4.5\n4.5 out of 5 stars\n 10,910\nEUR21.46\nEUR21\n.\n46\nTotal price:EUR 85.86\nAdd all 3 to Cart\nSome of these items ship sooner than the others.\nShow details\nCustomers who viewed this item also viewed\nBABEYOND Women's Kimono Robe Long Satin Silky Floral Lightweight Bridesmaid Wedding Bachelorette Party Robe\n4.5 out of 5 stars\n 4,734\nEUR23.18\nEUR23.18\nGet it as soon as Wednesday, Jun 10\nEUR 10.52 shipping\nAensso Long Floral Kimono Robe for Women – Lightweight Silky Luxury Lounge Robe\n4.6 out of 5 stars\n 3,453\n1 offer from EUR 41.22\nKihnop Women's Floral Long Kimono Robe Long Satin Robe Long Silk Robe Ladies Kimonos Silky Bathrobe Cover Up, One Size\n4.4 out of 5 stars\n 783\nAmazon's Choice\nEUR29.19\nEUR29.19\nGet it as soon as Wednesday, Jun 10\nEUR 9.88 shipping\nBABEYOND Women's Kimono Robe Long Satin Robes with Peacock and Blossoms Printed Kimono Nightgown\n4.5 out of 5 stars\n 10,910\nEUR21.46\nEUR21.46\nGet it as soon as Wednesday, Jun 10\nEUR 11.78 shipping\nPRODESIGN Kimono Robe for Women - Long Satin Sleepwear Silky Kimono Cover-Up Nightgown Japanese Bathrobe Loungewear Blouse\n4.5 out of 5 stars\n 2,214\nEUR17.17\nEUR17.17\nWomen's Floral/Patterned Silky Kimono Robes Long Satin Bathrobes Sleepwear Loungewear\n4.5 out of 5 stars\n 4,949\nEUR17.17\nEUR17.17\nProduct details\nDepartment  : womens\nDate First Available  : May 18, 2020\nASIN  : B088QSNRXN\nBest Sellers Rank: #31,756 in Clothing, Shoes & Jewelry (See Top 100 in Clothing, Shoes & Jewelry)\n#62 in Women's Robes\nCustomer Reviews: 4.6 \n4.6 out of 5 stars\n   (3,987)\nProduct Videos\n-0:00\nMa'ya Jackson\nEarns commissions\nRobes for Women\nProducts related to this item \nSponsored  \nBABEYOND Women's Kimono Robe Long Satin Robes with Peacock and Blossoms Printed Kim...\n 10,910\nEUR 21.89\nEUR21\n.\n89\n \nBABEYOND Women's Kimono Robe Long Satin Silky Floral Lightweight Bridesmaid Wedding...\n 4,734\nEUR 25.40\nEUR25\n.\n40\n \nBABEYOND Kimono Robe Cover up Short Satin Floral Silky Kimono Blouse Loose Bachelor...\n 835\nEUR 28.90\nEUR28\n.\n90\n \n[倭物や Kaya] Kimono One-Piece Dress Winter Peony/Japanese Classical Casual Dress…\nEUR 67.45\nEUR67\n.\n45\n \nPRODESIGN Long Kimono Robe Satin Sleepwear Blouse Bathrobe Nightgown…\n 830\nEUR 19.26\nEUR19\n.\n26\n \nBABEYOND Satin Kimono Robe Silky Long Bridesmaid Wedding Lightweight Bath Robe…\n 3,889\nAmazon's Choice\nEUR 26.27\nEUR26\n.\n27\n \nPRODESIGN Kimono Robe for Women - Long Satin Sleepwear Silky Kimono Cover-Up…\n 2,214\nEUR 26.27\nEUR26\n.\n27\nTop\nSimilar\nReviews\nBABEYOND Kimono Robe Cover up with Box Long Floral Satin Sleepwear Silky Bathrobe Bachelorette Robe\nSimilar brands on Amazon\nSponsored\nWomen's Kimono Swimsuit Coverups Summer Beach Casual Loose Cardigans for Swimwear 2026\n4.4\n4.4 out of 5 stars\n5,619\n15% off\nLimited time deal\nEUR10.94\nEUR10.94 Typical:\nEUR12.87\nEUR12.87\nKIM+ONO Luxury Kimono Robe for Women | Long Floral Robe | Original Design | Removable Waist Tie Closure\n4.3\n4.3 out of 5 stars\n417\nAW BRIDAL Silk Robes for Women, Short Bridesmaid Robes for Bridal Wedding Party, Bride Satin Bathrobe with Long Sleeve\n4.5\n4.5 out of 5 stars\n2,523\nEUR15.45\nEUR15.45\nCoume 2 Pcs Women Bridal Robe for Mother of the Bride Groom Satin Robes for Wedding Party Getting Ready Sleepwear Kimono\n4.6\n4.6 out of 5 stars\n249\nEUR23.18\nEUR23.18\nSWOMOG Men's Satin Robe Silky Kimono Bathrobe with Shorts Set Lightweight Soft Loungewear Nightwear\n4.5\n4.5 out of 5 stars\n780\nEUR28.33\nEUR28.33\nCustomer reviews\n4.6 out of 5 stars\n4.6 out of 5\n3,987 global ratings\n5 star\n77%\n4 star\n12%\n3 star\n6%\n2 star\n3%\n1 star\n2%\nHow customer reviews and ratings work\nCustomers say\nCustomers love the robe's appearance, describing it as gorgeous and expensive-looking, while appreciating its silky softness and luxurious feel. The fabric receives positive feedback, with one customer noting it feels like silk organza, and customers like the color options, with one highlighting the pale pink florals. Customers find the robe comfortable and cozy against the skin, though opinions about sizing are mixed - while some find it fits beautifully, others report it runs too small.\nAI Generated from the text of customer reviews\nGenerated from the text of customer reviews\nSelect to learn more\nAppearance(255)\nSoftness(161)\nQuality(135)\nFabric(81)\nColor(75)\nComfort(67)\nFit(89)\nSizing(61)\nReviews with images\nSee all photos\nTop reviews from the United States\nJosie recomienda\n5 out of 5 stars\nElegant, Comfortable, and Perfect for Home\nReviewed in the United States on April 15, 2026\nSize: One SizeColor: Dark Green\nVerified Purchase\n\nI absolutely love this kimono. It’s super comfortable, lightweight, and breathable—perfect for relaxing at home while still looking stylish. The fabric feels soft and high-quality, and the design is very elegant. It drapes beautifully and is very flattering. Great for lounging or even when you have guests over. I definitely recommend it if you want something practical with a sophisticated touch.\n\n7 people found this helpful\nHelpful\nReport\nCáit\n5 out of 5 stars\n🌸🖤the robe that accidentally turned me into a languid heiress🖤🌸\nReviewed in the United States on May 23, 2026\nSize: One SizeColor: Black\nVerified Purchase\n\nthis has genuinely become one of those items that lives in constant rotation to the point where i briefly panic if it’s in the wash. i throw it on after showers, over pyjamas, while making coffee, while doing skincare, while standing dramatically by the window pretending i’m processing Very Important Emotional News from the year 1897. incredibly versatile emotional support garment.\n\nthe fabric has that lightweight silky feel without entering the terrifying territory of “one wrong movement and the seam dissolves into dust.” it drapes really nicely and moves in that floaty expensive-looking way where suddenly even carrying a laundry basket feels cinematic. the floral print is gorgeous in person too. soft romantic magnolia energy instead of loud chaotic hotel curtain energy, which i appreciated deeply.\n\nalso: pockets. actual usable pockets. not decorative little lies stitched onto the sides as a social experiment. i regularly carry my phone around in these pockets while wandering through the flat like a woman who owns inherited land and several emotionally distant horses.\n\nthe length is lovely too. i’m 5’3” and this still somehow manages to look elegant and floaty instead of like i escaped from a very glamorous choir rehearsal. the sleeves sit nicely as well and don’t immediately fall into your sink water every time you attempt to function as a human being for five consecutive minutes.\n\nat this stage i own multiple colours because apparently my final form is “woman permanently swanning around in satin robes.” i wear them around the house, by the pool, while doing my makeup, during my unnecessarily elaborate iced chai rituals, all of it. romanticising your life sounds fake until you realise half the battle is simply refusing to wear spiritually depressing loungewear.\n\nfor $39.99 honestly this feels very fair within the current chaiconomy because one mediocre iced chai in manhattan now costs roughly the GDP of a minor kingdom. meanwhile this robe has survived endless lounging, skincare residue, existential pacing and several deeply unserious attempts at becoming the kind of person who journals at sunrise.\n\nmy only warning is that once you start wearing robes like this regularly, normal clothing begins to feel a bit hostile. suddenly you’re tying a satin sash at 2pm on a tuesday just to answer emails. i caught my reflection wearing this while holding a cucumber and fully understood how people end up moving to villas and speaking exclusively in cryptic wellness statements.\n\n✨tl;dr✨ silky, lightweight, romantic and weirdly life-enhancing. excellent drape, pretty print, real pockets and extremely effective at convincing you your ordinary domestic activities are part of an arthouse film.\n\nRead more\n4 people found this helpful\nHelpful\nReport\nstarmarie Garcia\n5 out of 5 stars\nSilky and very comfortable I will be purchasing again\nReviewed in the United States on October 26, 2023\nSize: One SizeColor: Gray\nVerified Purchase\n\nI am really in an old Hollywood glamour phase, and I am obsessed with flowy dressing gowns. I bought this one so that I could have a second when my other one is in the wash, but honestly this one is even better. It is very silky and soft. The fabric has a very nice drape - it hangs in that languid sort of way that makes you feel like you should be wearing feather slippers and have a cigarette holder in one hand. The stitching is good quality and the pockets are a nice little touch. I will say that the cut is a teensy bit large for me. The height is perfect (I'm 5'7\"), and the sleeve length is also great (just over 3/4\" and I have relatively long arms), but the width is a little large (I'm about a size 10-12 in dresses). It's not very noticeable, just not as fitted as I might have liked; when I tie the inner ties all the way together the drape is a little lopsided and there is still room to spare. That being said, it fits my needs perfectly. I love it and am considering getting another one.So beautiful I would love to get this in multiple colors\n\n14 people found this helpful\nHelpful\nReport\nAdele Casden\n4 out of 5 stars\nGorgeous Silk Fabric!! Very Long! Has 2 pockets!!\nReviewed in the United States on September 2, 2025\nSize: One SizeColor: Dark Green\nVerified Purchase\n\nThe Fabric is gorgeous & design lovely. I'm only 5ft 2\" & this robe is way too long for me. It feels luxurious & amazing on your skin. Also important to me it has 2 big pockets. One size fits all can be difficult, but since it wraps around you, it's not essencial to have an exact size. These are made in China & I paid less for the exact same robe & fabric, than one without pockets. This is a great gift\n\nFor a friend or for yourself. I love the silky feel of the fabric. It's not real silk. I haven't washed it yet.\n\n5 people found this helpful\nHelpful\nReport\nAngela\n5 out of 5 stars\nWill buy more! Love it!\nReviewed in the United States on May 13, 2026\nSize: One SizeColor: Olive\nVerified Purchase\n\nBeautiful and very good quality!\n\nHelpful\nReport\nBarbara\n5 out of 5 stars\nBeautiful robe\nReviewed in the United States on March 27, 2026\nSize: One SizeColor: Olive\nVerified Purchase\n\nNice quality and loved the box it came in. The color was exactly what I wanted. Beautiful piece.\n\nOne person found this helpful\nHelpful\nReport\nLaraLee\n5 out of 5 stars\nFeels luxurious.\nReviewed in the United States on April 27, 2026\nSize: One Size PlusColor: Olive\nVerified Purchase\n\nThis robe feels beautiful on. The one I ordered is a gorgeous olive green color. Nice price for what seems like a splurge.\n\nHelpful\nReport\nAmazon Customer\n3 out of 5 stars\nBeautiful but slippery and doesnt stay closed\nReviewed in the United States on April 22, 2026\nSize: One SizeColor: Olive\nVerified Purchase\n\nBeahtiful but slippery and basically impossible to wear sitting down. The slippery-ness makes it hard to tie together, the design is such that no matter how you sit the robe opens up in the front.\n\n2 people found this helpful\nHelpful\nReport\nSee more reviews\nTop reviews from other countries\nGayle Machuca\n5 out of 5 stars\nKimono\nReviewed in Australia on November 1, 2021\nSize: One SizeColor: Dark Green\nVerified Purchase\n\nLovely fabric\n\nReport\nJessie Mitchell\n2 out of 5 stars\nDefinitely not worth the money ($130).\nReviewed in Canada on December 21, 2021\nSize: One SizeColor: Dark Green\nVerified Purchase\n\nI was expecting a bit higher quality for this than the similarly looking $60 robes which are also made of charmeuse satin. It wasn’t. It’s a little\n\ntoo light weight and the inside is pretty rough looking because it shows all the stitching (there is not lining). For $130+ It should be lined, otherwise I’ll just go with the cheaper priced one because it’s the same. Tho was supposed to be a Santa gift for my daughter, but now I gotta find something else. Just not quality enough so don’t waste your money\n\nReport\nKerry Outch\n3 out of 5 stars\nFabric\nReviewed in Australia on December 29, 2025\nSize: One SizeColor: Black\nVerified Purchase\n\nA bit disappointed with the fabric\n\nReport\nCheryl Rallison\n5 out of 5 stars\nBeautiful and flowy\nReviewed in Canada on January 25, 2026\nVerified Purchase\n\nSoft and flowy\n\nReport\nYKfa\n5 out of 5 stars\nSo beautiful and actually fits!\nReviewed in Canada on January 13, 2023\nSize: One Size PlusColor: Dark Green\nVerified Purchase\n\nOk I’m so happy with this robe! The colour is so gorgeous, it’s soft but not too soft and delicate that you’re afraid to wear it. It just arrived so I haven’t washed it yet, hopefully it holds up. What I’m most happy about it that it actually fits! Was looking for a long beautiful satin robe for a plus size woman. I’m about 5’4” and around 250lbs. Large chest, stomach, butt and thighs. And it fits, fully closes and have extra room. Comes with a nice long belt too. Well done Babeyond!\n\nReport\nSee more reviews\nBack to top\nGet to Know Us\nCareers\nBlog\nAbout Amazon\nInvestor Relations\nAmazon Devices\nAmazon Science\n\t\t\nMake Money with Us\nSell products on Amazon\nSell on Amazon Business\nSell apps on Amazon\nBecome an Affiliate\nAdvertise Your Products\nSelf-Publish with Us\nHost an Amazon Hub\n›See More Make Money with Us\n\t\t\nAmazon Payment Products\nAmazon Business Card\nShop with Points\nReload Your Balance\nAmazon Currency Converter\n\t\t\nLet Us Help You\nAmazon and COVID-19\nYour Account\nYour Orders\nShipping Rates & Policies\nReturns & Replacements\nManage Your Content and Devices\nHelp\n \nEnglish  €EUR - Euro United States\nAmazon Music\nStream millions\nof songs\nAmazon Ads\nReach customers\nwherever they\nspend their time\n6pm\nScore deals\non fashion brands\nAbeBooks\nBooks, art\n& collectibles\nACX\nAudiobook Publishing\nMade Easy\nSell on Amazon\nStart a Selling Account\nVeeqo\nShipping Software\nInventory Management\nAmazon Business\nEverything For\nYour Business\nAmazonGlobal\nShip Orders\nInternationally\nAmazon Web Services\nScalable Cloud\nComputing Services\nAudible\nListen to Books & Original\nAudio Performances\nBox Office Mojo\nFind Movie\nBox Office Data\nGoodreads\nBook reviews\n& recommendations\nIMDb\nMovies, TV\n& Celebrities\nIMDbPro\nGet Info Entertainment\nProfessionals Need\nKindle Direct Publishing\nIndie Digital & Print Publishing\nMade Easy\nPrime Video Direct\nVideo Distribution\nMade Easy\nShopbop\nDesigner\nFashion Brands\nWoot!\nDeals and\nShenanigans\nZappos\nShoes &\nClothing\nRing\nSmart Home\nSecurity Systems\n \neero WiFi\nStream 4K Video\nin Every Room\nBlink\nSmart Security\nfor Every Home\nNeighbors App\nReal-Time Crime\n& Safety Alerts\nPillPack\nPharmacy Simplified\n \n \nConditions of Use\nPrivacy Notice\nConsumer Health Data Privacy Disclosure\nYour Ads Privacy Choices\n© 1996-2026, Amazon.com, Inc. or its affiliates",
+      "headingRect": {
+        "x": 0,
+        "y": -4880.86669921875,
+        "width": 1265,
+        "height": 10646.716796875,
+        "top": -4880.86669921875,
+        "right": 1265,
+        "bottom": 5765.85009765625,
+        "left": 0
+      }
+    },
+    "clickResult": {
+      "clicked": true,
+      "imageSrc": "https://m.media-amazon.com/images/I/71bjfhV9EjL._AC_SY500_.jpg"
+    },
+    "screenshots": {
+      "reviews": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042173/probe_firefox151/amazon_reviews_with_images.png",
+      "modalInitial": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042173/probe_firefox151/amazon_modal_initial.png"
+    },
+    "afterClicks": [
+      {
+        "clicked": true,
+        "label": "nav-right",
+        "screenshot": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042173/probe_firefox151/amazon_after_next_1.png"
+      },
+      {
+        "clicked": true,
+        "label": "nav-right",
+        "screenshot": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042173/probe_firefox151/amazon_after_next_2.png"
+      },
+      {
+        "clicked": true,
+        "label": "nav-right",
+        "screenshot": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042173/probe_firefox151/amazon_after_next_3.png"
+      },
+      {
+        "clicked": true,
+        "label": "nav-right",
+        "screenshot": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042173/probe_firefox151/amazon_after_next_4.png"
+      }
+    ],
+    "state": {
+      "visibleImages": [
+        {
+          "index": 105,
+          "src": "https://m.media-amazon.com/images/S/amazon-avatars-global/91f7deaa-784e-449e-be37-27e82bd78eb2._CR0%2C0%2C500%2C500_SX460_SX48_.jpeg",
+          "alt": "",
+          "rect": {
+            "x": 433.25,
+            "y": 16.716659545898438,
+            "width": 34,
+            "height": 34
+          },
+          "visible": true
+        },
+        {
+          "index": 106,
+          "src": "https://m.media-amazon.com/images/I/81ocQrQeihL._SY500_.jpg",
+          "alt": "Elegant, Comfortable, and Perfect for Home",
+          "rect": {
+            "x": 440.25,
+            "y": 387.6499938964844,
+            "width": 66,
+            "height": 88
+          },
+          "visible": true
+        },
+        {
+          "index": 112,
+          "src": "https://m.media-amazon.com/images/S/amazon-avatars-global/bf2ddd1e-a15d-4a28-8344-510bbcaa869a._CR0%2C0%2C500%2C500_SX460_SX48_.jpeg",
+          "alt": "",
+          "rect": {
+            "x": 433.25,
+            "y": 572.6500244140625,
+            "width": 34,
+            "height": 34
+          },
+          "visible": true
+        }
+      ],
+      "modalText": "Sign inNew customer? Start here.Your ListsCreate a ListFind a List or RegistryYour AccountAccountOrdersRecommendationsBrowsing HistoryYour Shopping preferencesWatchlistVideo Purchases & RentalsKindle UnlimitedContent & DevicesSubscribe & Save ItemsMemberships & SubscriptionsMusic Library\n        \n    \n                     \n                   Product specifications          Style        Item details        Materials & Care        Measurements        Additional details             Style                  Color    Light Blue                Pattern    Floral                Occasion Type    Bachelorette Party, Bridal Shower, Mother's Day, Valentine's Day                Neck Style    V-Neck                Collar Style    Mandarin Collar                Fit Type    Loose                Robe Form    Housecoat                Style    Kimono Robe               Item details                  Brand Name    BABEYOND                Age Range Description    Adult                Style Number    kimono-1                Number of Items    1                Manufacturer    PRODESIGN                 Best Sellers Rank      #31,756 in Clothing, Shoes & Jewelry (See Top 100 in Clothing, Shoes & Jewelry)  #62 in Women's Robes                      ASIN    B0FD9Z9FSF                   Customer Reviews                                \n                                               \n             4.6               4.6 out of 5 stars         \n\n                           (3,987)      \n                 \n\n           \n       4.6 out of 5 stars                  Materials & Care                  Material    Polyester                Product Care Instructions    Hand Wash Only                Fabric Type    Polyester                Apparel Fabric Stretch    Low Stretch                Apparel Fabric Weight Class    Lightweight               Measurements                  Item Length Description    Ankle Length                Fit to Size Sentiment    Positive               Additional details                  Clo",
+      "bodyTextSample": "Skip to\nMain content\nAbout this item\nBuying options\nVideos\nReviews\nKeyboard shortcuts\nSearch\nopt\n+\n/\nCart\nshift\n+\nopt\n+\nC\nHome\nshift\n+\nopt\n+\nH\nOrders\nshift\n+\nopt\n+\nO\nAdd to cart\nshift\n+\nopt\n+\nK\nProduct summary\nshift\n+\nopt\n+\nD\nShow/Hide shortcuts\nshift\n+\nopt\n+\nZ\nTo move between items, use your keyboard's up or down arrows.\nDeliver to\nFrance\nAll\nEN\nHello, sign in\nAccount & Lists\nReturns\n& Orders\n0\nCart\nWe're showing you items that ship to France. To see items that ship to a different country, change your delivery address.\nDismiss\n \nChange Address\nAll\nToday's Deals\nGift Cards\nSell\nRegistry\nPrime Video\nCustomer Service\nDisability Customer Support\nProduct summary presents key product information \nKeyboard shortcut  shift + opt + D\nSponsored \nClothing, Shoes & Jewelry\n›\nWomen\n›\nClothing\n›\nLingerie, Sleep & Lounge\n›\nSleep & Lounge\n›\nRobes\nVisit the BABEYOND Store\nBABEYOND Kimono Robe Cover up with Box Long Floral Satin Sleepwear Silky Bathrobe Bachelorette Robe\n4.6 \n4.6 out of 5 stars\n   (3,987)\n50+ bought in past month\nEUR 34.35\nEUR34\n.\n35 \nNo Import Charges & EUR 10.57 Shipping to France Details \n\nColor: Light Blue\nEUR 34.35\nEUR34.35\nEUR 34.35\nEUR34.35\nEUR 34.35\nEUR34.35\nEUR 34.35\nEUR34.35\nEUR 34.35\nEUR34.35\nEUR 34.35\nEUR34.35\nEUR 34.35\nEUR34.35\nEUR 34.35\nEUR34.35\nEUR 34.35\nEUR34.35\nEUR 34.35\nEUR34.35\nEUR 34.35\nEUR34.35\nSize: One Size\nOne Size\nOne Size Plus\nSize Chart \n\nCustomers usually keep this item.\n\nProduct details\nTop highlights\nFabric type\nPolyester\nCare instructions\nHand Wash Only\nOrigin\nImported\nAbout this item\nMaterial: Polyester, comfortable and lightweight\nOne Size: Bust-51\" . Hip-51\" . Robe length-53\" . Sleeve length-22\" . One Size Plus: Bust-66\" . Hip-63\" . Robe length-53\" . Sleeve length-22\". (±0.7” deviation is allowed due to manual measurement)\nDesign: Long style kimono robe for women, continuous printed sleeves, ankle length, sash tie closure, pockets, belt loops and inside ties\nWash Instruction: Hand wash in warm or cold water\nOccasion: A widely use fl"
+    }
+  }
+}

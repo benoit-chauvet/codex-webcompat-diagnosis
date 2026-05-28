@@ -1,0 +1,25 @@
+{
+  "videoPath": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042795/attachments/gsmarena-mime.mp4",
+  "metadata": {
+    "duration": 9.3932,
+    "videoWidth": 1280,
+    "videoHeight": 726
+  },
+  "captured": [
+    {
+      "requestedTime": 0,
+      "targetTime": 0,
+      "screenshot": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042795/attachments/frames/frame_0s.png"
+    },
+    {
+      "requestedTime": 2,
+      "targetTime": 2,
+      "screenshot": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042795/attachments/frames/frame_2s.png"
+    },
+    {
+      "requestedTime": 4,
+      "targetTime": 4,
+      "screenshot": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042795/attachments/frames/frame_4s.png"
+    }
+  ]
+}

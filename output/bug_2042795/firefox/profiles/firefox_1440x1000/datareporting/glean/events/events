@@ -1,0 +1,26 @@
+{"timestamp":2747896,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"path_key":"clean","can_load":"false","glean_timestamp":"1779954677216","loadfail_reason":"File doesn't exist."}}
+{"timestamp":2747897,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"path_key":"recovery","loadfail_reason":"File doesn't exist.","can_load":"false","glean_timestamp":"1779954677217"}}
+{"timestamp":2747899,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"loadfail_reason":"File doesn't exist.","path_key":"recoveryBackup","can_load":"false","glean_timestamp":"1779954677219"}}
+{"timestamp":2747900,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"can_load":"false","loadfail_reason":"File doesn't exist.","path_key":"cleanBackup","glean_timestamp":"1779954677220"}}
+{"timestamp":2747901,"category":"zero_byte_load","name":"load_png","extra":{"cancel_reason":"","glean_timestamp":"1779954677221","status":"NS_ERROR_FILE_NOT_FOUND","file_name":"omni.ja!/chrome/toolkit/content/mozapps/extensions/default-theme/preview.png","cancelled":"false","sync":"false"}}
+{"timestamp":2747957,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"can_load":"false","loadfail_reason":"File doesn't exist.","path_key":"clean","glean_timestamp":"1779954677276"}}
+{"timestamp":2747975,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"glean_timestamp":"1779954677294","path_key":"recovery","can_load":"false","loadfail_reason":"File doesn't exist."}}
+{"timestamp":2747977,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"loadfail_reason":"File doesn't exist.","path_key":"recoveryBackup","glean_timestamp":"1779954677297","can_load":"false"}}
+{"timestamp":2747986,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"glean_timestamp":"1779954677306","loadfail_reason":"File doesn't exist.","path_key":"cleanBackup","can_load":"false"}}
+{"timestamp":2748240,"category":"jsonfile","name":"load_logins","extra":{"value":"error_notfounderror","glean_timestamp":"1779954677560"}}
+{"timestamp":2748245,"category":"nimbus_events","name":"migration","extra":{"glean_timestamp":"1779954677565","migration_id":"multi-phase-migrations","success":"true"}}
+{"timestamp":2748245,"category":"nimbus_events","name":"migration","extra":{"migration_id":"separate-rollout-opt-out","glean_timestamp":"1779954677565","success":"true"}}
+{"timestamp":2748278,"category":"containers","name":"container_profile_loaded","extra":{"containers":"4","glean_timestamp":"1779954677597"}}
+{"timestamp":2748296,"category":"nimbus_events","name":"migration","extra":{"migration_id":"noop","success":"true","glean_timestamp":"1779954677615"}}
+{"timestamp":2748296,"category":"nimbus_events","name":"migration","extra":{"glean_timestamp":"1779954677615","success":"true","migration_id":"noop"}}
+{"timestamp":2748296,"category":"nimbus_events","name":"migration","extra":{"glean_timestamp":"1779954677615","success":"true","migration_id":"import-enrollments-to-sql"}}
+{"timestamp":2748296,"category":"nimbus_events","name":"migration","extra":{"glean_timestamp":"1779954677615","success":"true","migration_id":"graduate-firefox-labs-auto-pip"}}
+{"timestamp":2748296,"category":"nimbus_events","name":"migration","extra":{"glean_timestamp":"1779954677615","success":"true","migration_id":"graduate-firefox-labs-jpeg-xl"}}
+{"timestamp":2748305,"category":"jsonfile","name":"load_autofillprofiles","extra":{"value":"error_notfounderror","glean_timestamp":"1779954677624"}}
+{"timestamp":2748330,"category":"zero_byte_load","name":"load_png","extra":{"sync":"false","status":"NS_ERROR_FILE_NOT_FOUND","file_name":"omni.ja!/chrome/browser/content/builtin-themes/light/preview.png","cancel_reason":"","glean_timestamp":"1779954677649","cancelled":"false"}}
+{"timestamp":2748330,"category":"zero_byte_load","name":"load_png","extra":{"cancel_reason":"","cancelled":"false","sync":"false","file_name":"omni.ja!/chrome/browser/content/builtin-themes/dark/preview.png","status":"NS_ERROR_FILE_NOT_FOUND","glean_timestamp":"1779954677650"}}
+{"timestamp":2748330,"category":"zero_byte_load","name":"load_png","extra":{"cancelled":"false","cancel_reason":"","status":"NS_ERROR_FILE_NOT_FOUND","file_name":"omni.ja!/chrome/browser/content/builtin-themes/alpenglow/preview.png","sync":"false","glean_timestamp":"1779954677650"}}
+{"timestamp":2748330,"category":"nimbus_events","name":"remote_settings_sync_error","extra":{"force_sync":"false","reason":"get-exception","trigger":"enabled","collection":"nimbus-desktop-experiments","glean_timestamp":"1779954677650"}}
+{"timestamp":2748331,"category":"nimbus_events","name":"is_ready","extra":{"glean_timestamp":"1779954677650"}}
+{"timestamp":2748331,"category":"nimbus_events","name":"migration","extra":{"success":"true","glean_timestamp":"1779954677651","migration_id":"firefox-labs-enrollments"}}
+{"timestamp":2748345,"category":"upgrade_dialog","name":"trigger_reason","extra":{"value":"not-major","glean_timestamp":"1779954677665"}}

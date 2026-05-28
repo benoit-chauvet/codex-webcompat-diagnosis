@@ -1,0 +1,175 @@
+{
+  "ok": true,
+  "browser": "chrome",
+  "executable": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+  "puppeteerPackage": "puppeteer-core",
+  "requestedUrl": "https://gitlab.com/users/sign_in",
+  "finalUrl": "https://gitlab.com/users/sign_in",
+  "httpStatus": 403,
+  "viewport": {
+    "width": 1280,
+    "height": 900,
+    "deviceScaleFactor": 1
+  },
+  "screenshot": "output/bug_2042375/chrome/screenshot_chrome_1280x900.png",
+  "navigationError": null,
+  "networkIdleError": {
+    "name": "TimeoutError",
+    "message": "Timed out after waiting 10000ms"
+  },
+  "events": {
+    "console": [
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 403 ()"
+      },
+      {
+        "type": "startGroupCollapsed",
+        "text": "Request for the Private Access Token challenge."
+      },
+      {
+        "type": "log",
+        "text": "The next request for the Private Access Token challenge may return a 401 and show a warning in console."
+      },
+      {
+        "type": "endGroup",
+        "text": "console.groupEnd"
+      },
+      {
+        "type": "startGroupCollapsed",
+        "text": ""
+      },
+      {
+        "type": "debug",
+        "text": "Error"
+      },
+      {
+        "type": "log",
+        "text": "[regexp RegExp]"
+      },
+      {
+        "type": "log",
+        "text": "[regexp RegExp]"
+      },
+      {
+        "type": "log",
+        "text": "[function Function]"
+      },
+      {
+        "type": "log",
+        "text": "[function Function]"
+      },
+      {
+        "type": "log",
+        "text": "[node HTMLAnchorElement]"
+      },
+      {
+        "type": "log",
+        "text": "[node HTMLAnchorElement]"
+      },
+      {
+        "type": "count",
+        "text": "\u0000: 1"
+      },
+      {
+        "type": "count",
+        "text": "\u0000: 1"
+      },
+      {
+        "type": "debug",
+        "text": "%c%d font-size:0;color:transparent NaN"
+      },
+      {
+        "type": "debug",
+        "text": "%c%d font-size:0;color:transparent NaN"
+      },
+      {
+        "type": "dir",
+        "text": " Error"
+      },
+      {
+        "type": "dir",
+        "text": " Error"
+      },
+      {
+        "type": "dirxml",
+        "text": "%c%d font-size:0;color:transparent Error"
+      },
+      {
+        "type": "dirxml",
+        "text": "%c%d font-size:0;color:transparent Error"
+      },
+      {
+        "type": "error",
+        "text": "%c%d font-size:0;color:transparent NaN"
+      },
+      {
+        "type": "error",
+        "text": "%c%d font-size:0;color:transparent NaN"
+      },
+      {
+        "type": "info",
+        "text": "%c%d font-size:0;color:transparent NaN"
+      },
+      {
+        "type": "info",
+        "text": "%c%d font-size:0;color:transparent NaN"
+      },
+      {
+        "type": "log",
+        "text": "%c%d font-size:0;color:transparent NaN"
+      },
+      {
+        "type": "log",
+        "text": "%c%d font-size:0;color:transparent NaN"
+      },
+      {
+        "type": "table",
+        "text": "%c%d font-size:0;color:transparent Error"
+      },
+      {
+        "type": "table",
+        "text": "%c%d font-size:0;color:transparent Error"
+      },
+      {
+        "type": "trace",
+        "text": "%c%d font-size:0;color:transparent NaN"
+      },
+      {
+        "type": "trace",
+        "text": "%c%d font-size:0;color:transparent NaN"
+      },
+      {
+        "type": "warn",
+        "text": "%c%d font-size:0;color:transparent NaN"
+      },
+      {
+        "type": "warn",
+        "text": "%c%d font-size:0;color:transparent NaN"
+      },
+      {
+        "type": "endGroup",
+        "text": "console.groupEnd"
+      }
+    ],
+    "pageErrors": [],
+    "requestFailures": []
+  },
+  "documentState": {
+    "url": "https://gitlab.com/users/sign_in",
+    "title": "Just a moment...",
+    "readyState": "complete",
+    "viewport": {
+      "innerWidth": 1280,
+      "innerHeight": 900,
+      "devicePixelRatio": 1
+    },
+    "documentElement": {
+      "clientWidth": 1280,
+      "clientHeight": 900,
+      "scrollWidth": 1280,
+      "scrollHeight": 900
+    },
+    "bodyTextSample": "gitlab.com\nPerforming security verification\n\nThis website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\n\nRay ID: a02bd306bbe67240\nPerformance and Security by Cloudflare\nPrivacy"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "ok": true,
+  "browser": "firefox",
+  "executable": "/private/var/folders/ms/_ys5hmhs7zzfhpwwzzs_h78m0000gn/T/bugzilla-firefox-diagnose-cache/150.0/app/Firefox.app/Contents/MacOS/firefox",
+  "puppeteerPackage": "puppeteer-core",
+  "requestedUrl": "https://meet.google.com/",
+  "finalUrl": "https://workspace.google.com/products/meet/",
+  "httpStatus": 200,
+  "viewport": {
+    "width": 390,
+    "height": 844,
+    "deviceScaleFactor": 1
+  },
+  "screenshot": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2041660/firefox/screenshot_firefox_390x844.png",
+  "navigationError": null,
+  "networkIdleError": {
+    "name": "TimeoutError",
+    "message": "Timed out after waiting 10000ms"
+  },
+  "events": {
+    "console": [],
+    "pageErrors": [],
+    "requestFailures": []
+  },
+  "documentState": {
+    "url": "https://workspace.google.com/products/meet/",
+    "title": "Google Meet : conférences téléphoniques sur le Web et visioconférences en ligne | Google Workspace",
+    "readyState": "complete",
+    "viewport": {
+      "innerWidth": 390,
+      "innerHeight": 844,
+      "devicePixelRatio": 1
+    },
+    "documentElement": {
+      "clientWidth": 375,
+      "clientHeight": 844,
+      "scrollWidth": 375,
+      "scrollHeight": 11025
+    },
+    "bodyTextSample": "workspace.google.com utilise des cookies Google afin de fournir ses services, d'en améliorer la qualité et d'analyser le trafic. En savoir plus\n\nJ'ai compris\nAccéder à l'appli\nEssayer Meet au travail\nAppels vidéo améliorés par l'IA\n\nFacilitez les échanges grâce à des appels vidéo optimisés par l'IA qui favorisent la collaboration et l'expression.\n\nAccéder à l'appli\nEssayer Meet au travail\nPrenez des décisions et restez productif grâce aux réunions améliorées par l'IA\n\nTransformez instantanément vos discussions en étapes concrètes. Gemini dans Google Meet automatise la prise de notes, traduit vos conversations et extrait des informations clés pour que votre équipe puisse se concentrer pleinement sur les décisions à prendre et sur son efficacité. Activez Gemini dans Google Meet.\n\nUtilisez Meet sur n'importe quel appareil\n\nParticipez à des réunions depuis votre téléphone mobile ou votre tablette via l'application Google Meet, disponible sur l'App Store et le Play Store. Vous pouvez égalem"
+  }
+}

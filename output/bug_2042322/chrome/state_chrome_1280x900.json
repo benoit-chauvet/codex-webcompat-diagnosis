@@ -1,0 +1,386 @@
+{
+  "ok": true,
+  "browser": "chrome",
+  "executable": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+  "puppeteerPackage": "puppeteer-core",
+  "requestedUrl": "https://www.tiktok.com/de-DE/",
+  "finalUrl": "https://www.tiktok.com/de-DE/",
+  "httpStatus": 200,
+  "viewport": {
+    "width": 1280,
+    "height": 900,
+    "deviceScaleFactor": 1
+  },
+  "screenshot": "output/bug_2042322/chrome/screenshot_chrome_1280x900.png",
+  "navigationError": null,
+  "networkIdleError": null,
+  "events": {
+    "console": [
+      {
+        "type": "warn",
+        "text": "Reflect is already polyfilled."
+      },
+      {
+        "type": "warn",
+        "text": "AppContext will be overwritten"
+      },
+      {
+        "type": "warn",
+        "text": "AppContext will be overwritten"
+      },
+      {
+        "type": "warn",
+        "text": "AppContext will be overwritten"
+      },
+      {
+        "type": "warn",
+        "text": "AppContext will be overwritten"
+      },
+      {
+        "type": "warn",
+        "text": "AppContext will be overwritten"
+      },
+      {
+        "type": "warn",
+        "text": "AppContext will be overwritten"
+      },
+      {
+        "type": "warn",
+        "text": "AppContext will be overwritten"
+      },
+      {
+        "type": "warn",
+        "text": "AppContext will be overwritten"
+      },
+      {
+        "type": "warn",
+        "text": "AppContext will be overwritten"
+      },
+      {
+        "type": "warn",
+        "text": "AppContext will be overwritten"
+      },
+      {
+        "type": "warn",
+        "text": "AppContext will be overwritten"
+      },
+      {
+        "type": "warn",
+        "text": "loadable: `loadableReady()` requires state, please use `getScriptTags` or `getScriptElements` server-side"
+      },
+      {
+        "type": "debug",
+        "text": "[useFYPRecommendListFirstPull] originParams [object Object] expParams [object Object] false"
+      },
+      {
+        "type": "info",
+        "text": "."
+      },
+      {
+        "type": "debug",
+        "text": "set global cache [object Object]"
+      },
+      {
+        "type": "debug",
+        "text": "Error"
+      },
+      {
+        "type": "debug",
+        "text": "Error"
+      },
+      {
+        "type": "debug",
+        "text": "[getRecommendList] originParams [object Object] expParams [object Object] false"
+      },
+      {
+        "type": "debug",
+        "text": "Error"
+      },
+      {
+        "type": "debug",
+        "text": "Error"
+      },
+      {
+        "type": "log",
+        "text": "ws.opened"
+      },
+      {
+        "type": "warn",
+        "text": "[SDK] 1779956283551        0 already inited"
+      },
+      {
+        "type": "debug",
+        "text": "Error"
+      },
+      {
+        "type": "debug",
+        "text": "Error"
+      },
+      {
+        "type": "warn",
+        "text": "[00:02.313][warn][controller](1) NotAllowedError: play() failed because the user didn't interact with the document first. https://goo.gl/xX8pDD"
+      },
+      {
+        "type": "warn",
+        "text": "Unmuting failed and the element was paused instead because the user didn't interact with the document before. https://goo.gl/xX8pDD"
+      },
+      {
+        "type": "debug",
+        "text": "[PlayerStart] autoPlay effect 2322 [object Object]"
+      },
+      {
+        "type": "debug",
+        "text": "[PlayerStart] tryPlay 2322.100000000559 [object Object]"
+      },
+      {
+        "type": "debug",
+        "text": "[PlayerStart] onplay 2324.2000000001863 [object Object]"
+      },
+      {
+        "type": "warn",
+        "text": "[00:02.327][warn][controller](1) AbortError: The play() request was interrupted by a call to pause(). https://goo.gl/LdLk22"
+      },
+      {
+        "type": "warn",
+        "text": "[00:02.327][warn][controller](1) AbortError: The play() request was interrupted by a call to pause(). https://goo.gl/LdLk22"
+      },
+      {
+        "type": "debug",
+        "text": "fmp 2376.600000000559 [node HTMLImageElement]"
+      },
+      {
+        "type": "warn",
+        "text": "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://developer.chrome.com/blog/autoplay/#web_audio"
+      },
+      {
+        "type": "warn",
+        "text": "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://developer.chrome.com/blog/autoplay/#web_audio"
+      },
+      {
+        "type": "warn",
+        "text": "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://developer.chrome.com/blog/autoplay/#web_audio"
+      },
+      {
+        "type": "warn",
+        "text": "[TikTok desktop app SDK Monitor]:   WARN:[printFirstFeedShow]The current environment is not inside the client."
+      },
+      {
+        "type": "warn",
+        "text": "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://developer.chrome.com/blog/autoplay/#web_audio"
+      },
+      {
+        "type": "debug",
+        "text": "[PlayerStart] canplay->play 2581.5 [object Object]"
+      },
+      {
+        "type": "warn",
+        "text": "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://developer.chrome.com/blog/autoplay/#web_audio"
+      },
+      {
+        "type": "warn",
+        "text": "[00:02.582][warn][controller](1) NotAllowedError: play() failed because the user didn't interact with the document first. https://goo.gl/xX8pDD"
+      },
+      {
+        "type": "warn",
+        "text": "[00:02.582][warn][controller](1) NotAllowedError: play() failed because the user didn't interact with the document first. https://goo.gl/xX8pDD"
+      },
+      {
+        "type": "debug",
+        "text": "[PlayerStart] autoPlay effect 2584.600000000559 [object Object]"
+      },
+      {
+        "type": "debug",
+        "text": "[PlayerStart] tryPlay 2584.7000000001863 [object Object]"
+      },
+      {
+        "type": "warn",
+        "text": "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://developer.chrome.com/blog/autoplay/#web_audio"
+      },
+      {
+        "type": "debug",
+        "text": "[PlayerStart] onplay 2586.7000000001863 [object Object]"
+      },
+      {
+        "type": "warn",
+        "text": "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://developer.chrome.com/blog/autoplay/#web_audio"
+      },
+      {
+        "type": "debug",
+        "text": "[PlayerStart] onplaying prefetch-compare 2589.4000000003725 [object Object]"
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 400 ()"
+      },
+      {
+        "type": "warn",
+        "text": "InvalidCharacterError: Failed to execute 'atob' on 'Window': The string to be decoded is not correctly encoded."
+      },
+      {
+        "type": "warn",
+        "text": "[i18n] missing key [array Array] WebApp_Login webapp_login_removeAccount_title Remove saved login information?"
+      },
+      {
+        "type": "warn",
+        "text": "[i18n] missing key [array Array] WebApp_Login webapp_login_removeAccount_desc You'll need to enter your username and password the next time you log in."
+      },
+      {
+        "type": "warn",
+        "text": "[i18n] missing key [array Array] WebApp_Login webapp_login_removeAccount_btn2 Cancel"
+      },
+      {
+        "type": "warn",
+        "text": "[i18n] missing key [array Array] WebApp_Login webapp_login_removeAccount_btn1 Remove"
+      }
+    ],
+    "pageErrors": [
+      {
+        "name": "Error",
+        "message": "Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'includes')"
+      },
+      {
+        "name": "Error",
+        "message": "Uncaught TypeError: Cannot read properties of undefined (reading 'includes')"
+      },
+      {
+        "name": "Error",
+        "message": "Uncaught TypeError: Cannot read properties of undefined (reading 'includes')"
+      },
+      {
+        "name": "Error",
+        "message": "Uncaught TypeError: Cannot read properties of undefined (reading 'includes')"
+      },
+      {
+        "name": "Error",
+        "message": "Uncaught TypeError: Cannot read properties of undefined (reading 'includes')"
+      },
+      {
+        "name": "Error",
+        "message": "Uncaught TypeError: Cannot read properties of undefined (reading 'includes')"
+      },
+      {
+        "name": "Error",
+        "message": "Uncaught TypeError: Cannot read properties of undefined (reading 'includes')"
+      },
+      {
+        "name": "Error",
+        "message": "Uncaught TypeError: Cannot read properties of undefined (reading 'includes')"
+      },
+      {
+        "name": "Error",
+        "message": "Uncaught TypeError: Cannot read properties of undefined (reading 'includes')"
+      },
+      {
+        "name": "Error",
+        "message": "Uncaught TypeError: Cannot read properties of undefined (reading 'includes')"
+      },
+      {
+        "name": "Error",
+        "message": "Uncaught TypeError: Cannot read properties of undefined (reading 'includes')"
+      },
+      {
+        "name": "Error",
+        "message": "Uncaught TypeError: Cannot read properties of undefined (reading 'includes')"
+      },
+      {
+        "name": "Error",
+        "message": "Uncaught TypeError: Cannot read properties of undefined (reading 'includes')"
+      },
+      {
+        "name": "Error",
+        "message": "Uncaught TypeError: Cannot read properties of undefined (reading 'includes')"
+      },
+      {
+        "name": "Error",
+        "message": "Uncaught TypeError: Cannot read properties of undefined (reading 'includes')"
+      },
+      {
+        "name": "Error",
+        "message": "Uncaught TypeError: Cannot read properties of undefined (reading 'includes')"
+      },
+      {
+        "name": "Error",
+        "message": "Uncaught TypeError: Cannot read properties of undefined (reading 'includes')"
+      },
+      {
+        "name": "Error",
+        "message": "Uncaught TypeError: Cannot read properties of undefined (reading 'includes')"
+      }
+    ],
+    "requestFailures": [
+      {
+        "url": "https://v16-webapp-prime.tiktok.com/video/tos/alisg/tos-alisg-pve-0037c001/okAe8DdI2KF0BlyfEg4zZUpLSXRu8Au9EEbBQw/?a=1988&bti=ODszNWYuMDE6&&bt=1382&ft=-Csk_m.MPD12N3zppn-Ux-15hY3W3wv25DcAp&mime_type=video_mp4&rc=ZGhkNDk3ZjpoOTRpOmk7N0BpMzNoOXY5cnZuOjMzODczNEBfYzMwYjUxXzIxNTM0YDEzYSNvcF9jMmRrYm1hLS1kMTFzcw%3D%3D&expire=1780129148&l=202605280818031802B0D4183C6A222EBD&ply_type=2&policy=2&signature=d7f8d1eac7759665a67e18383aa16a55&tk=tt_chain_token&btag=e00090000",
+        "method": "GET",
+        "resourceType": "fetch",
+        "failure": {
+          "errorText": "net::ERR_ABORTED"
+        }
+      },
+      {
+        "url": "https://v16-webapp-prime.tiktok.com/video/tos/no1a/tos-no1a-ve-0068c001-no/oE0BUHwAfAIKgFsHQBI19EAdBiCyiCqxIIBEy2/?a=1988&bti=ODszNWYuMDE6&&bt=842&ft=-Csk_m.MPD12N3zppn-Ux-15hY3W3wv25DcAp&mime_type=video_mp4&rc=cnF8b2hsc2d3SkBwaHIxaDFybndmaDs1PDpnZWU7NjY7M2ZnNkBpajptaXA5cmRqOzMzbzczNUBjRl5Nc3FePmJKYSNvYF90aHFmOiNjYzRfNjFhXi0xLWIxNWE1YSNiL2IxMmRjMi1hLS1kMTFzcw%3D%3D&expire=1780129100&l=202605280818031802B0D4183C6A222EBD&ply_type=2&policy=2&signature=95b0e19b99ba4b31cc2ad214a740d117&tk=tt_chain_token&btag=e000b8000",
+        "method": "GET",
+        "resourceType": "fetch",
+        "failure": {
+          "errorText": "net::ERR_ABORTED"
+        }
+      },
+      {
+        "url": "https://v16-webapp-prime.tiktok.com/video/tos/alisg/tos-alisg-pve-0037c001/o0lwpGGngLAiRZCqsAI42fIRDGvZejyqTOweAO/?a=1988&bti=ODszNWYuMDE6&&bt=677&ft=-Csk_m.MPD12N3zppn-Ux-15hY3W3wv25DcAp&mime_type=video_mp4&rc=ZzlpPDxoM2ZlOzY5ZWY4OUBpajZsbms5cm5xOjMzODczNEAwNi4wYl8wXy8xMmAzMV5jYSNpbHFoMmRzbF5hLS1kMWBzcw%3D%3D&expire=1780129138&l=202605280818031802B0D4183C6A222EBD&ply_type=2&policy=2&signature=0a59b7636265c567f4659390f7b6f0a4&tk=tt_chain_token&btag=e00088000",
+        "method": "GET",
+        "resourceType": "fetch",
+        "failure": {
+          "errorText": "net::ERR_ABORTED"
+        }
+      },
+      {
+        "url": "https://v16-webapp-prime.tiktok.com/video/tos/no1a/tos-no1a-ve-0068-no/oM6wBBabZYAC4inQdiqyiahIyE2BvBb0nBbGE/?a=1988&bti=ODszNWYuMDE6&&bt=1084&ft=-Csk_m.MPD12N3zppn-Ux-15hY3W3wv25DcAp&mime_type=video_mp4&rc=aDM3OTw2OGc8OTszNjQ4NkBpamxwOWw5cjVoOTMzbzczNUA1YF4uLzEyNl4xY181LTFhYSNnMG9uMmRraG9hLS1kMTFzcw%3D%3D&expire=1780129097&l=202605280818031802B0D4183C6A222EBD&ply_type=2&policy=2&signature=1188f1b56f7ad8b9f3036e72376bfb23&tk=tt_chain_token&btag=e000b8000",
+        "method": "GET",
+        "resourceType": "fetch",
+        "failure": {
+          "errorText": "net::ERR_ABORTED"
+        }
+      },
+      {
+        "url": "https://v16-webapp-prime.tiktok.com/video/tos/useast8/tos-useast8-v-0068-tx2/oQmAYIDBPAIRkFyTAa8AZE6VVAWMiidcgyBwp/media-audio-und-mp4a/?a=1988&bti=ODszNWYuMDE6&&bt=94&ft=-Csk_m.MPD12N3zppn-Ux-15hY3W3wv25DcAp&mime_type=video_mp4&rc=NzQ7Zzg7OGQ7OTMzNmZnOUBpMzhxN2w5cnMzOjMzaTczNEBiNV4yNmMuYzMtNmBiYzFhYSNmMW5xMmQ0bF9hLS1kMTJzcw%3D%3D&expire=1780129594&l=202605280818031802B0D4183C6A222EBD&ply_type=2&policy=2&signature=5dd10cdf793a1bcc4525815ec02cd7da&tk=tt_chain_token&btag=e000a0000",
+        "method": "GET",
+        "resourceType": "fetch",
+        "failure": {
+          "errorText": "net::ERR_ABORTED"
+        }
+      },
+      {
+        "url": "https://v16-webapp-prime.tiktok.com/video/tos/useast8/tos-useast8-v-0068-tx2/oIAXDB6FWdTVyM6aIAgV6AiHYPREIAZykiAiB/media-video-hvc1/?a=1988&bti=ODszNWYuMDE6&&bt=1022&ft=-Csk_m.MPD12N3zppn-Ux-15hY3W3wv25DcAp&mime_type=video_mp4&rc=MztnOGlnNGY4ZDo5M2U3OkBpMzhxN2w5cnMzOjMzaTczNEAxYzYwNV81XjAxMi40YC8tYSNmMW5xMmQ0bF9hLS1kMTJzcw%3D%3D&expire=1780129594&l=202605280818031802B0D4183C6A222EBD&ply_type=2&policy=2&signature=24e74c1449e683a9c2e4cdffe17c77d1&tk=tt_chain_token&btag=e000a0000",
+        "method": "GET",
+        "resourceType": "fetch",
+        "failure": {
+          "errorText": "net::ERR_ABORTED"
+        }
+      },
+      {
+        "url": "https://mon16-normal-no1a.tiktokv.eu/monitor_browser/collect/batch/?bid=tiktok_pns_web_runtime",
+        "method": "POST",
+        "resourceType": "fetch",
+        "failure": {
+          "errorText": "net::ERR_ABORTED"
+        }
+      }
+    ]
+  },
+  "documentState": {
+    "url": "https://www.tiktok.com/de-DE/",
+    "title": "TikTok - Make Your Day",
+    "readyState": "complete",
+    "viewport": {
+      "innerWidth": 1280,
+      "innerHeight": 900,
+      "devicePixelRatio": 1
+    },
+    "documentElement": {
+      "clientWidth": 1280,
+      "clientHeight": 900,
+      "scrollWidth": 1280,
+      "scrollHeight": 900
+    },
+    "bodyTextSample": "TikTok\nSuchen\nFür dich\nErkunden\nGefolgt\nLIVE\nHochladen\nProfil\nMehr\nAnmelden\nUnternehmen\nProgramm\nBedingungen und Richtlinien\n© 2026 TikTok\n\ncelinedept\n\nWho can stay silent longer? 🤣\n\nÜbersetzung anzeigen\n\n00:09 / 00:36\n\n798.2K\n6666\n55.4K\n26.9K\n\nCapCut · Bearbeitung leicht gemacht\n\nsaito09\n\nVon Creator*in als KI-generiert gekennzeichnet\n\n00:00 / 00:00\n\n4.1M\n49.9K\n253.1K\n133.6K\nMünzen holen\nApp holen\nAnmelden\nFernzugriff \"Übermittlung von EWR-Nutzerdaten nach China\": Aktualisierung zur Entscheidung der irischen Datenschutzbehörde\n\nIm April 2025 stellte die irische Datenschutzkommission (DPC) fest, dass TikTok die Anforderungen der Datenschutzgrundverordnung (DSGVO) in Bezug auf die Übermittlung bestimmter „EWR-Nutzerdaten nach China mittels Fernzugriff“ nicht eingehalten habe. TikTok wurde von der DPC aufgefordert, den Fernzugriff innerhalb von sechs Monaten mit der DSGVO in Einklang zu bringen, andernfalls müsse er ausgesetzt werden. TikTok ist mit der Entscheidung der DPC nicht einver"
+  }
+}

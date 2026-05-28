@@ -1,0 +1,168 @@
+{
+  "ok": true,
+  "browser": "firefox",
+  "executable": "/Applications/Firefox.app/Contents/MacOS/firefox",
+  "puppeteerPackage": "puppeteer-core",
+  "requestedUrl": "https://gitlab.com/users/sign_in",
+  "finalUrl": "https://gitlab.com/users/sign_in",
+  "httpStatus": 403,
+  "viewport": {
+    "width": 1440,
+    "height": 1000,
+    "deviceScaleFactor": 1
+  },
+  "screenshot": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042375/firefox/screenshot_firefox_1440x1000.png",
+  "navigationError": null,
+  "networkIdleError": null,
+  "events": {
+    "console": [
+      {
+        "type": "startGroupCollapsed",
+        "text": ""
+      },
+      {
+        "type": "debug",
+        "text": "JSHandle@error"
+      },
+      {
+        "type": "log",
+        "text": "JSHandle@regexp"
+      },
+      {
+        "type": "log",
+        "text": "JSHandle@regexp"
+      },
+      {
+        "type": "log",
+        "text": "JSHandle@object"
+      },
+      {
+        "type": "log",
+        "text": "JSHandle@object"
+      },
+      {
+        "type": "log",
+        "text": "JSHandle@node"
+      },
+      {
+        "type": "log",
+        "text": "JSHandle@node"
+      },
+      {
+        "type": "count",
+        "text": "\u0000"
+      },
+      {
+        "type": "count",
+        "text": "\u0000"
+      },
+      {
+        "type": "countReset",
+        "text": "\u0000"
+      },
+      {
+        "type": "countReset",
+        "text": "\u0000"
+      },
+      {
+        "type": "debug",
+        "text": "0"
+      },
+      {
+        "type": "debug",
+        "text": "0"
+      },
+      {
+        "type": "dir",
+        "text": " JSHandle@error"
+      },
+      {
+        "type": "dir",
+        "text": " JSHandle@error"
+      },
+      {
+        "type": "dirxml",
+        "text": "%c%d font-size:0;color:transparent JSHandle@error"
+      },
+      {
+        "type": "dirxml",
+        "text": "%c%d font-size:0;color:transparent JSHandle@error"
+      },
+      {
+        "type": "error",
+        "text": "0"
+      },
+      {
+        "type": "error",
+        "text": "0"
+      },
+      {
+        "type": "info",
+        "text": "0"
+      },
+      {
+        "type": "info",
+        "text": "0"
+      },
+      {
+        "type": "log",
+        "text": "0"
+      },
+      {
+        "type": "log",
+        "text": "0"
+      },
+      {
+        "type": "table",
+        "text": "%c%d font-size:0;color:transparent JSHandle@error"
+      },
+      {
+        "type": "table",
+        "text": "%c%d font-size:0;color:transparent JSHandle@error"
+      },
+      {
+        "type": "trace",
+        "text": "0"
+      },
+      {
+        "type": "trace",
+        "text": "0"
+      },
+      {
+        "type": "warn",
+        "text": "0"
+      },
+      {
+        "type": "warn",
+        "text": "0"
+      },
+      {
+        "type": "startGroupCollapsed",
+        "text": "Request for the Private Access Token challenge."
+      },
+      {
+        "type": "log",
+        "text": "The next request for the Private Access Token challenge may return a 401 and show a warning in console."
+      }
+    ],
+    "pageErrors": [],
+    "requestFailures": []
+  },
+  "documentState": {
+    "url": "https://gitlab.com/users/sign_in",
+    "title": "Just a moment...",
+    "readyState": "complete",
+    "viewport": {
+      "innerWidth": 1440,
+      "innerHeight": 1000,
+      "devicePixelRatio": 1
+    },
+    "documentElement": {
+      "clientWidth": 1440,
+      "clientHeight": 1000,
+      "scrollWidth": 1440,
+      "scrollHeight": 1000
+    },
+    "bodyTextSample": "gitlab.com\nPerforming security verification\n\nThis website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\n\nRay ID: a02bb12c297b6f4c\nPerformance and Security by Cloudflare\nPrivacy"
+  }
+}

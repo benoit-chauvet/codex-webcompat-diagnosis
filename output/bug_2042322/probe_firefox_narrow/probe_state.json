@@ -1,0 +1,1145 @@
+{
+  "task": "tiktok",
+  "browser": "firefox",
+  "executablePath": "/Applications/Firefox Nightly.app/Contents/MacOS/firefox",
+  "requestedUrl": "https://www.tiktok.com/de-DE/",
+  "finalUrl": "https://www.tiktok.com/de-DE/",
+  "httpStatus": 200,
+  "navigationError": null,
+  "viewport": {
+    "width": 620,
+    "height": 900
+  },
+  "events": {
+    "console": [
+      {
+        "type": "info",
+        "text": "PluginArray is being altered for compatibility reasons. See https://bugzil.la/1769762 for details."
+      },
+      {
+        "type": "warn",
+        "text": "Reflect is already polyfilled."
+      },
+      {
+        "type": "warn",
+        "text": "AppContext will be overwritten"
+      },
+      {
+        "type": "warn",
+        "text": "AppContext will be overwritten"
+      },
+      {
+        "type": "warn",
+        "text": "AppContext will be overwritten"
+      },
+      {
+        "type": "warn",
+        "text": "AppContext will be overwritten"
+      },
+      {
+        "type": "warn",
+        "text": "AppContext will be overwritten"
+      },
+      {
+        "type": "warn",
+        "text": "AppContext will be overwritten"
+      },
+      {
+        "type": "warn",
+        "text": "AppContext will be overwritten"
+      },
+      {
+        "type": "warn",
+        "text": "AppContext will be overwritten"
+      },
+      {
+        "type": "warn",
+        "text": "AppContext will be overwritten"
+      },
+      {
+        "type": "warn",
+        "text": "AppContext will be overwritten"
+      },
+      {
+        "type": "warn",
+        "text": "AppContext will be overwritten"
+      },
+      {
+        "type": "warn",
+        "text": "loadable: `loadableReady()` requires state, please use `getScriptTags` or `getScriptElements` server-side"
+      },
+      {
+        "type": "info",
+        "text": "."
+      },
+      {
+        "type": "debug",
+        "text": "set global cache JSHandle@object"
+      },
+      {
+        "type": "debug",
+        "text": "JSHandle@error"
+      },
+      {
+        "type": "debug",
+        "text": "JSHandle@error"
+      },
+      {
+        "type": "info",
+        "text": ""
+      },
+      {
+        "type": "debug",
+        "text": "[useFYPRecommendListFirstPull] originParams JSHandle@object expParams JSHandle@object false"
+      },
+      {
+        "type": "debug",
+        "text": "[getRecommendList] originParams JSHandle@object expParams JSHandle@object false"
+      },
+      {
+        "type": "debug",
+        "text": "JSHandle@error"
+      },
+      {
+        "type": "debug",
+        "text": "JSHandle@error"
+      },
+      {
+        "type": "log",
+        "text": "ws.opened"
+      },
+      {
+        "type": "warn",
+        "text": "[SDK] 1779958385498        0 already inited"
+      },
+      {
+        "type": "debug",
+        "text": "[PlayerStart] autoPlay effect 1870 JSHandle@object"
+      },
+      {
+        "type": "debug",
+        "text": "[PlayerStart] tryPlay 1870 JSHandle@object"
+      },
+      {
+        "type": "debug",
+        "text": "fmp 1973 JSHandle@node"
+      },
+      {
+        "type": "debug",
+        "text": "JSHandle@error"
+      },
+      {
+        "type": "warn",
+        "text": "[TikTok desktop app SDK Monitor]:   WARN:[printFirstFeedShow]The current environment is not inside the client."
+      },
+      {
+        "type": "debug",
+        "text": "[PlayerStart] canplay->play 2011 JSHandle@object"
+      },
+      {
+        "type": "debug",
+        "text": "[PlayerStart] onplay 2012 JSHandle@object"
+      },
+      {
+        "type": "debug",
+        "text": "[PlayerStart] onplaying prefetch-compare 2012 JSHandle@object"
+      },
+      {
+        "type": "debug",
+        "text": "[PlayerStart] autoPlay effect 2016 JSHandle@object"
+      },
+      {
+        "type": "debug",
+        "text": "[PlayerStart] tryPlay 2016 JSHandle@object"
+      },
+      {
+        "type": "debug",
+        "text": "JSHandle@error"
+      },
+      {
+        "type": "warn",
+        "text": "JSHandle@error"
+      },
+      {
+        "type": "warn",
+        "text": "[i18n] missing key JSHandle@array WebApp_Login webapp_login_removeAccount_title Remove saved login information?"
+      },
+      {
+        "type": "warn",
+        "text": "[i18n] missing key JSHandle@array WebApp_Login webapp_login_removeAccount_desc You'll need to enter your username and password the next time you log in."
+      },
+      {
+        "type": "warn",
+        "text": "[i18n] missing key JSHandle@array WebApp_Login webapp_login_removeAccount_btn2 Cancel"
+      },
+      {
+        "type": "warn",
+        "text": "[i18n] missing key JSHandle@array WebApp_Login webapp_login_removeAccount_btn1 Remove"
+      },
+      {
+        "type": "debug",
+        "text": "[PlayerStart] onplay 11783 JSHandle@object"
+      },
+      {
+        "type": "debug",
+        "text": "[PlayerStart] canplay->play 11796 JSHandle@object"
+      },
+      {
+        "type": "debug",
+        "text": "[PlayerStart] canplay->play 11796 JSHandle@object"
+      },
+      {
+        "type": "debug",
+        "text": "[PlayerStart] onplaying prefetch-compare 11796 JSHandle@object"
+      },
+      {
+        "type": "debug",
+        "text": "[PlayerStart] onplay 13981 JSHandle@object"
+      },
+      {
+        "type": "debug",
+        "text": "[PlayerStart] onplaying prefetch-compare 13984 JSHandle@object"
+      },
+      {
+        "type": "debug",
+        "text": "[PlayerStart] canplay->play 14006 JSHandle@object"
+      },
+      {
+        "type": "debug",
+        "text": "[PlayerStart] canplay->play 14006 JSHandle@object"
+      },
+      {
+        "type": "debug",
+        "text": "[PlayerStart] onplay 15403 JSHandle@object"
+      },
+      {
+        "type": "debug",
+        "text": "[PlayerStart] onplaying prefetch-compare 15414 JSHandle@object"
+      },
+      {
+        "type": "debug",
+        "text": "[PlayerStart] onplay 16843 JSHandle@object"
+      },
+      {
+        "type": "debug",
+        "text": "[PlayerStart] onplaying prefetch-compare 16846 JSHandle@object"
+      },
+      {
+        "type": "debug",
+        "text": "[PlayerStart] canplay->play 16871 JSHandle@object"
+      },
+      {
+        "type": "debug",
+        "text": "[PlayerStart] canplay->play 16871 JSHandle@object"
+      },
+      {
+        "type": "debug",
+        "text": "[PlayerStart] onplay 18252 JSHandle@object"
+      },
+      {
+        "type": "debug",
+        "text": "[PlayerStart] onplaying prefetch-compare 18254 JSHandle@object"
+      },
+      {
+        "type": "debug",
+        "text": "[getRecommendList] originParams JSHandle@object expParams JSHandle@object false"
+      }
+    ],
+    "pageErrors": [
+      {
+        "name": "Error",
+        "message": "TypeError: can't access property \"includes\", e.host is undefined"
+      },
+      {
+        "name": "Error",
+        "message": "TypeError: can't access property \"includes\", e.host is undefined"
+      },
+      {
+        "name": "Error",
+        "message": "TypeError: can't access property \"includes\", e.host is undefined"
+      },
+      {
+        "name": "Error",
+        "message": "TypeError: can't access property \"includes\", e.host is undefined"
+      }
+    ],
+    "requestFailures": [
+      {
+        "url": "https://v19-webapp-prime.tiktok.com/video/tos/no1a/tos-no1a-ve-0068c001-no/oIQRGeEpIInIRflEIATALDwGgdjpA1HUVLUe4Q/?a=1988&bti=ODszNWYuMDE6&&bt=372&ft=-Csk_m.MPD12NaSf~n-UxW.5hY3W3wv25NcAp&mime_type=video_mp4&rc=PGY5NTc6NzlmZmg4NTVkPEBpamtyNms5cjhuOTMzbzczNUBgXy0vLzZiXmAxNmI1YV9iYSMvMC4uMmQ0aGVhLS1kMTFzcw%3D%3D&expire=1780131525&l=202605280853046114C38DC54971249BA5&ply_type=2&policy=2&signature=0e6367fe2445e87ec3a41d317264790d&tk=tt_chain_token&btag=e000a0000",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://v19-webapp-prime.tiktok.com/video/tos/no1a/tos-no1a-ve-0068-no/ogYZPkzEB6qiyuPwE7KUbbaHiJ8AzlAdBIaQB/?a=1988&bti=ODszNWYuMDE6&&bt=1261&ft=-Csk_m.MPD12NaSf~n-UxW.5hY3W3wv25NcAp&mime_type=video_mp4&rc=NmZpOmU6ZDpoaWVmOWU6PEBpajc7c2o5cm54OTMzbzczNUAxYzExMzY2X2ExNmMwMl5hYSMwLl9tMmQ0cG1hLS1kMTFzcw%3D%3D&expire=1780131247&l=202605280853046114C38DC54971249BA5&ply_type=2&policy=2&signature=6c9c5cfe3683599e693b3e787ae8d8e3&tk=tt_chain_token&btag=e00090000",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://v19-webapp-prime.tiktok.com/video/tos/maliva/tos-maliva-ve-0068c799-us/oIfAECEqppDKjQAV3bEJFzeIfsqgPTIIrEQx2B/?a=1988&bti=ODszNWYuMDE6&&bt=515&ft=-Csk_m.MPD12NaSf~n-UxW.5hY3W3wv25NcAp&mime_type=video_mp4&rc=NWU0O2lmODMzZjc0PDw4NkBpM2Q7eHA5cnZkOjMzaTczNEAtXzQzYjMvXl4xYzViLy0uYSNlNmwzMmRjb3NhLS1kMTJzcw%3D%3D&expire=1780131266&l=202605280853046114C38DC54971249BA5&ply_type=2&policy=2&signature=4f9db5334306872868c11dd38feac596&tk=tt_chain_token&btag=e00090000",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://v19-webapp-prime.tiktok.com/video/tos/no1a/tos-no1a-ve-0068c001-no/ogC2S5jTBEbiau0JAXiQyKIgYAvS0UCIi5wDCe/?a=1988&bti=ODszNWYuMDE6&&bt=1421&ft=-Csk_m.MPD12NaSf~n-UxW.5hY3W3wv25NcAp&mime_type=video_mp4&rc=Nzs5ZjllZjM3ZDxnZDg7ZUBpM3Jzam45cjM3OjMzbzczNUBeLmA2L2AuNjIxYi1fMV4wYSNhYnI2MmRrZ2thLS1kMTFzcw%3D%3D&expire=1780131301&l=202605280853046114C38DC54971249BA5&ply_type=2&policy=2&signature=c8d83cff665e0fa263640d3093584bb8&tk=tt_chain_token&btag=e00090000",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://v19-webapp-prime.tiktok.com/video/tos/no1a/tos-no1a-ve-0068-no/ogYZPkzEB6qiyuPwE7KUbbaHiJ8AzlAdBIaQB/?a=1988&bti=ODszNWYuMDE6&&bt=1261&ft=-Csk_m.MPD12NaSf~n-UxW.5hY3W3wv25NcAp&mime_type=video_mp4&rc=NmZpOmU6ZDpoaWVmOWU6PEBpajc7c2o5cm54OTMzbzczNUAxYzExMzY2X2ExNmMwMl5hYSMwLl9tMmQ0cG1hLS1kMTFzcw%3D%3D&expire=1780131247&l=202605280853046114C38DC54971249BA5&ply_type=2&policy=2&signature=6c9c5cfe3683599e693b3e787ae8d8e3&tk=tt_chain_token&btag=e00090000",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://v19-webapp-prime.tiktok.com/video/tos/maliva/tos-maliva-ve-0068c799-us/oIfAECEqppDKjQAV3bEJFzeIfsqgPTIIrEQx2B/?a=1988&bti=ODszNWYuMDE6&&bt=515&ft=-Csk_m.MPD12NaSf~n-UxW.5hY3W3wv25NcAp&mime_type=video_mp4&rc=NWU0O2lmODMzZjc0PDw4NkBpM2Q7eHA5cnZkOjMzaTczNEAtXzQzYjMvXl4xYzViLy0uYSNlNmwzMmRjb3NhLS1kMTJzcw%3D%3D&expire=1780131266&l=202605280853046114C38DC54971249BA5&ply_type=2&policy=2&signature=4f9db5334306872868c11dd38feac596&tk=tt_chain_token&btag=e00090000",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://v19-webapp-prime.tiktok.com/video/tos/no1a/tos-no1a-ve-0068c001-no/ogC2S5jTBEbiau0JAXiQyKIgYAvS0UCIi5wDCe/?a=1988&bti=ODszNWYuMDE6&&bt=1421&ft=-Csk_m.MPD12NaSf~n-UxW.5hY3W3wv25NcAp&mime_type=video_mp4&rc=Nzs5ZjllZjM3ZDxnZDg7ZUBpM3Jzam45cjM3OjMzbzczNUBeLmA2L2AuNjIxYi1fMV4wYSNhYnI2MmRrZ2thLS1kMTFzcw%3D%3D&expire=1780131301&l=202605280853046114C38DC54971249BA5&ply_type=2&policy=2&signature=c8d83cff665e0fa263640d3093584bb8&tk=tt_chain_token&btag=e00090000",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      }
+    ]
+  },
+  "page": {
+    "url": "https://www.tiktok.com/de-DE/",
+    "title": "TikTok - Make Your Day",
+    "readyState": "complete",
+    "scrollX": 0,
+    "scrollY": 0,
+    "viewport": {
+      "innerWidth": 620,
+      "innerHeight": 900,
+      "devicePixelRatio": 1
+    },
+    "documentElement": {
+      "clientWidth": 620,
+      "clientHeight": 900,
+      "scrollWidth": 620,
+      "scrollHeight": 900
+    },
+    "bodyTextSample": "TikTok\n\nrehan.edits230\n\nbest scene 1 ❤️\n\n#viralscene\n\n#viralshorts\n\n \n\n#pakdrama\n\n#bestscene\n\n \n\n#unfeezmyaccount\n\n \nmehr\n\nÜbersetzung anzeigen\n\n00:00 / 00:00\n\n5656\n114\n361\n117\n\nfreddycule\n\njugadores del Barcelona llegando al entrenamiento \n\n#fcbarcelona\n\n \n\n#barça\n\n \n\n#barcelona\n\n \n\n#DeportesEnTikTok\n\n \n\n#futbol\n\n \nmehr\n\nÜbersetzung anzeigen\n\n00:01 / 01:55\n\n108K\n567\n9978\n1803\n\nsammaggioo\n\nthanks for the puck😊\n\n#willsmithhockey\n\n \n\n#wsh\n\n \n\n#sanjosesharks\n\n \n\n#fyp\n\n \nmehr\n\nÜbersetzung anzeigen\n\n00:00 / 00:00\n\n1.2M\n2090\n40.3K\n45.1K\nFernzugriff \"Übermittlung von EWR-Nutzerdaten nach China\": Aktualisierung zur Entscheidung der irischen Datenschutzbehörde\n\nIm April 2025 stellte die irische Datenschutzkommission (DPC) fest, dass TikTok die Anforderungen der Datenschutzgrundverordnung (DSGVO) in Bezug auf die Übermittlung bestimmter „EWR-Nutzerdaten nach China mittels Fernzugriff“ nicht eingehalten habe. TikTok wurde von der DPC aufgefordert, den Fernzugriff innerhalb von sechs Monaten mit der DSGVO in Einklang zu bringen, andernfalls müsse er ausgesetzt werden. TikTok ist mit der Entscheidung der DPC nicht einverstanden und hat bei den irischen Gerichten Berufung eingelegt. Der High Court of Ireland hat die Entscheidung bis dahin ausgesetzt, so dass die Übermittlung vorerst fortgesetzt werden kann. Weitere Informationen dazu finden Sie hier.\n\n...\nMehr anzeigen\nVerstanden"
+  },
+  "taskResult": {
+    "screenshots": {
+      "before": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042322/probe_firefox_narrow/tiktok_before_wheel.png",
+      "after": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042322/probe_firefox_narrow/tiktok_after_wheel.png"
+    },
+    "before": {
+      "url": "https://www.tiktok.com/de-DE/",
+      "scrollY": 0,
+      "bodyTextSample": "TikTok\n\nnick.marchand5\n\nshe looks so sad :( \n\n#nataliereynolds\n\n \n\n#fyp\n\n \n\nÜbersetzung anzeigen\n\nPool - Stripped - Samia\n\n00:01 / 00:09\n\n1.4M\n20K\n90.8K\n14.1K\n\nelmohamedgampene\n\n#creatorsearchinsights\n\n Création de contenu :Avant de créer ton compte TikTok Content creation Content creator Creation de contenu\nmehr\n\nÜbersetzung anzeigen\n\n00:00 / 00:00\n\n42.2K\n4103\n15.9K\n4185\nFernzugriff \"Übermittlung von EWR-Nutzerdaten nach China\": Aktualisierung zur Entscheidung der irischen Datenschutzbehörde\n\nIm April 2025 stellte die irische Datenschutzkommission (DPC) fest, dass TikTok die Anforderungen der Datenschutzgrundverordnung (DSGVO) in Bezug auf die Übermittlung bestimmter „EWR-Nutzerdaten nach China mittels Fernzugriff“ nicht eingehalten habe. TikTok wurde von der DPC aufgefordert, den Fernzugriff innerhalb von sechs Monaten mit der DSGVO in Einklang zu bringen, andernfalls müsse er ausgesetzt werden. TikTok ist mit der Entscheidung der DPC nicht einverstanden und hat bei den irischen Gerichten Berufung eingelegt. Der High Court of Ireland hat die Entscheidung bis dahin ausgesetzt, so dass die Übermittlung vorerst fortgesetzt werden kann. Weitere Informationen dazu finden Sie hier.\n\n...\nMehr anzeigen\nVerstanden",
+      "visibleVideos": [
+        {
+          "index": 0,
+          "currentSrc": "blob:https://www.tiktok.com/7473f9e9-d977-45d8-af02-27b61bca66ae",
+          "paused": false,
+          "currentTime": 2.050667,
+          "duration": 9.586984,
+          "rect": {
+            "x": 88,
+            "y": 79.46665954589844,
+            "width": 416.8500061035156,
+            "height": 741.066650390625
+          },
+          "visible": true
+        }
+      ],
+      "buttons": [
+        {
+          "index": 5,
+          "label": "Zum Feed „Für dich“ bei TikTok gehen TikTok css-1g8z8e3-7937d88b--StyledLinkLogo esyfx990 link-a11y-focus",
+          "rect": {
+            "x": 22.5,
+            "y": 20,
+            "width": 26,
+            "height": 28
+          },
+          "visible": true
+        },
+        {
+          "index": 6,
+          "label": "Suchen TUXButton TUXButton--capsule TUXButton--medium TUXButton--secondary css-15kigdg-7937d88b--StyledTUXSearchButton e1vp56d86",
+          "rect": {
+            "x": 16,
+            "y": 64,
+            "width": 39,
+            "height": 40
+          },
+          "visible": true
+        },
+        {
+          "index": 7,
+          "label": "link-a11y-focus",
+          "rect": {
+            "x": 15.5,
+            "y": 132,
+            "width": 40,
+            "height": 25
+          },
+          "visible": true
+        },
+        {
+          "index": 8,
+          "label": "Für dich TUXButton TUXButton--default TUXButton--medium TUXButton--secondary css-8t637r-7937d88b--StyledTUXNavButton e1vp56d80",
+          "rect": {
+            "x": 15.5,
+            "y": 116,
+            "width": 40,
+            "height": 40
+          },
+          "visible": true
+        },
+        {
+          "index": 9,
+          "label": "link-a11y-focus",
+          "rect": {
+            "x": 15.5,
+            "y": 176,
+            "width": 40,
+            "height": 25
+          },
+          "visible": true
+        },
+        {
+          "index": 10,
+          "label": "Erkunden TUXButton TUXButton--default TUXButton--medium TUXButton--secondary css-1t1gyuu-7937d88b--StyledTUXNavButton e1vp56d80",
+          "rect": {
+            "x": 15.5,
+            "y": 160,
+            "width": 40,
+            "height": 40
+          },
+          "visible": true
+        },
+        {
+          "index": 11,
+          "label": "link-a11y-focus",
+          "rect": {
+            "x": 15.5,
+            "y": 214.75,
+            "width": 40,
+            "height": 25
+          },
+          "visible": true
+        },
+        {
+          "index": 12,
+          "label": "Gefolgt TUXButton TUXButton--default TUXButton--medium TUXButton--secondary css-1t1gyuu-7937d88b--StyledTUXNavButton e1vp56d80",
+          "rect": {
+            "x": 15.5,
+            "y": 204,
+            "width": 40,
+            "height": 40
+          },
+          "visible": true
+        },
+        {
+          "index": 13,
+          "label": "link-a11y-focus",
+          "rect": {
+            "x": 15.5,
+            "y": 248,
+            "width": 40,
+            "height": 44.25
+          },
+          "visible": true
+        },
+        {
+          "index": 14,
+          "label": "LIVE TUXButton TUXButton--default TUXButton--medium TUXButton--secondary css-1t1gyuu-7937d88b--StyledTUXNavButton e1vp56d80",
+          "rect": {
+            "x": 15.5,
+            "y": 248,
+            "width": 40,
+            "height": 40
+          },
+          "visible": true
+        },
+        {
+          "index": 15,
+          "label": "link-a11y-focus",
+          "rect": {
+            "x": 15.5,
+            "y": 311,
+            "width": 40,
+            "height": 16
+          },
+          "visible": true
+        },
+        {
+          "index": 16,
+          "label": "Hochladen TUXButton TUXButton--default TUXButton--medium TUXButton--secondary css-1t1gyuu-7937d88b--StyledTUXNavButton e1vp56d80",
+          "rect": {
+            "x": 15.5,
+            "y": 292,
+            "width": 40,
+            "height": 40
+          },
+          "visible": true
+        },
+        {
+          "index": 17,
+          "label": "link-a11y-focus",
+          "rect": {
+            "x": 15.5,
+            "y": 348,
+            "width": 40,
+            "height": 25
+          },
+          "visible": true
+        },
+        {
+          "index": 18,
+          "label": "Profil TUXButton TUXButton--default TUXButton--medium TUXButton--secondary css-1t1gyuu-7937d88b--StyledTUXNavButton e1vp56d80",
+          "rect": {
+            "x": 15.5,
+            "y": 336,
+            "width": 40,
+            "height": 40
+          },
+          "visible": true
+        },
+        {
+          "index": 19,
+          "label": "Mehr TUXButton TUXButton--default TUXButton--medium TUXButton--secondary css-1t1gyuu-7937d88b--StyledTUXNavButton e1vp56d80",
+          "rect": {
+            "x": 15.5,
+            "y": 380,
+            "width": 40,
+            "height": 40
+          },
+          "visible": true
+        },
+        {
+          "index": 20,
+          "label": "Anmelden css-hfwfrk-7937d88b--SquareTUXButton e4emies0",
+          "rect": {
+            "x": 15.5,
+            "y": 436,
+            "width": 40,
+            "height": 40
+          },
+          "visible": true
+        },
+        {
+          "index": 21,
+          "label": "Lautstärke TUXButton TUXButton--capsule TUXButton--medium TUXButton--secondary action-item css-mwfgui",
+          "rect": {
+            "x": 104,
+            "y": 95.46665954589844,
+            "width": 32,
+            "height": 32
+          },
+          "visible": true
+        },
+        {
+          "index": 22,
+          "label": "TUXButton TUXButton--capsule TUXButton--medium TUXButton--secondary eco3q8z0 action-item css-miojge-7937d88b--StyledMoreMenuActionItem",
+          "rect": {
+            "x": 464.8500061035156,
+            "y": 95.46665954589844,
+            "width": 32,
+            "height": 32
+          },
+          "visible": true
+        },
+        {
+          "index": 23,
+          "label": "nick.marchand5 link-a11y-focus",
+          "rect": {
+            "x": 100,
+            "y": 694.63330078125,
+            "width": 127.66667175292969,
+            "height": 22.100006103515625
+          },
+          "visible": true
+        },
+        {
+          "index": 24,
+          "label": "Watch more videos of the nataliereynolds category #nataliereynolds link-a11y-focus",
+          "rect": {
+            "x": 225.1999969482422,
+            "y": 729.8333129882812,
+            "width": 112.18333435058594,
+            "height": 16
+          },
+          "visible": true
+        },
+        {
+          "index": 25,
+          "label": "Watch more videos of the fyp category #fyp link-a11y-focus",
+          "rect": {
+            "x": 341.20001220703125,
+            "y": 729.8333129882812,
+            "width": 31.73333740234375,
+            "height": 16
+          },
+          "visible": true
+        },
+        {
+          "index": 26,
+          "label": "Watch more videos with music Pool - Stripped - Samia Pool - Stripped - Samia link-a11y-focus",
+          "rect": {
+            "x": 100,
+            "y": 786.3333129882812,
+            "width": 174.76666259765625,
+            "height": 18.20001220703125
+          },
+          "visible": true
+        },
+        {
+          "index": 27,
+          "label": "css-1a9n8e3-7937d88b--AvatarLink e1einqnb3 link-a11y-focus",
+          "rect": {
+            "x": 522.4166870117188,
+            "y": 520.5333251953125,
+            "width": 32,
+            "height": 32
+          },
+          "visible": true
+        },
+        {
+          "index": 28,
+          "label": "efqn7qw1 css-18cv3c4-7937d88b--Button-7937d88b--StyledAvatarFollowButton e11yjflg0",
+          "rect": {
+            "x": 530.4166870117188,
+            "y": 544.5333251953125,
+            "width": 16,
+            "height": 16
+          },
+          "visible": true
+        },
+        {
+          "index": 29,
+          "label": "Video einen Like geben\n1.4M Likes 1.4M css-1pte5k5-7937d88b--ButtonActionItem efpxn6t0",
+          "rect": {
+            "x": 522.4166870117188,
+            "y": 572.5333251953125,
+            "width": 32,
+            "height": 62
+          },
+          "visible": true
+        },
+        {
+          "index": 30,
+          "label": "Kommentare lesen oder hinzufügen\n20K Kommentare 20K css-1pte5k5-7937d88b--ButtonActionItem efpxn6t0",
+          "rect": {
+            "x": 522.4166870117188,
+            "y": 634.5333251953125,
+            "width": 32,
+            "height": 62
+          },
+          "visible": true
+        },
+        {
+          "index": 31,
+          "label": "Zu „Favoriten“ hinzufügen. 90.8K zu „Favoriten“ hinzugefügt 90.8K css-1pte5k5-7937d88b--ButtonActionItem efpxn6t0",
+          "rect": {
+            "x": 520.8499755859375,
+            "y": 696.5333251953125,
+            "width": 35.149993896484375,
+            "height": 62
+          },
+          "visible": true
+        },
+        {
+          "index": 32,
+          "label": "Video teilen\n14.1K Mal geteilt 14.1K css-1pte5k5-7937d88b--ButtonActionItem efpxn6t0",
+          "rect": {
+            "x": 522.4166870117188,
+            "y": 758.5333251953125,
+            "width": 32,
+            "height": 62
+          },
+          "visible": true
+        },
+        {
+          "index": 51,
+          "label": "hier TUXLink",
+          "rect": {
+            "x": 242.85000610351562,
+            "y": 255,
+            "width": 21.599990844726562,
+            "height": 14
+          },
+          "visible": true
+        },
+        {
+          "index": 52,
+          "label": "Mehr anzeigen TUXLink",
+          "rect": {
+            "x": 331.75,
+            "y": 82.60000610351562,
+            "width": 83.60000610351562,
+            "height": 15.599990844726562
+          },
+          "visible": true
+        },
+        {
+          "index": 53,
+          "label": "Verstanden TUXButton TUXButton--borderless TUXButton--medium TUXButton--primary",
+          "rect": {
+            "x": 463.3500061035156,
+            "y": 35.600006103515625,
+            "width": 82.25,
+            "height": 40
+          },
+          "visible": true
+        }
+      ]
+    },
+    "after": {
+      "url": "https://www.tiktok.com/de-DE/",
+      "scrollY": 0,
+      "bodyTextSample": "TikTok\n\nrehan.edits230\n\nbest scene 1 ❤️\n\n#viralscene\n\n#viralshorts\n\n \n\n#pakdrama\n\n#bestscene\n\n \n\n#unfeezmyaccount\n\n \nmehr\n\nÜbersetzung anzeigen\n\n00:00 / 00:00\n\n5656\n114\n361\n117\n\nfreddycule\n\njugadores del Barcelona llegando al entrenamiento \n\n#fcbarcelona\n\n \n\n#barça\n\n \n\n#barcelona\n\n \n\n#DeportesEnTikTok\n\n \n\n#futbol\n\n \nmehr\n\nÜbersetzung anzeigen\n\n00:01 / 01:55\n\n108K\n567\n9978\n1803\n\nsammaggioo\n\nthanks for the puck😊\n\n#willsmithhockey\n\n \n\n#wsh\n\n \n\n#sanjosesharks\n\n \n\n#fyp\n\n \nmehr\n\nÜbersetzung anzeigen\n\n00:00 / 00:00\n\n1.2M\n2090\n40.3K\n45.1K\nFernzugriff \"Übermittlung von EWR-Nutzerdaten nach China\": Aktualisierung zur Entscheidung der irischen Datenschutzbehörde\n\nIm April 2025 stellte die irische Datenschutzkommission (DPC) fest, dass TikTok die Anforderungen der Datenschutzgrundverordnung (DSGVO) in Bezug auf die Übermittlung bestimmter „EWR-Nutzerdaten nach China mittels Fernzugriff“ nicht eingehalten habe. TikTok wurde von der DPC aufgefordert, den Fernzugriff innerhalb von sechs Monaten mit der DSGVO in Einklang zu bringen, andernfalls müsse er ausgesetzt werden. TikTok ist mit der Entscheidung der DPC nicht einverstanden und hat bei den irischen Gerichten Berufung eingelegt. Der High Court of Ireland hat die Entscheidung bis dahin ausgesetzt, so dass die Übermittlung vorerst fortgesetzt werden kann. Weitere Informationen dazu finden Sie hier.\n\n...\nMehr anzeigen\nVerstanden",
+      "visibleVideos": [
+        {
+          "index": 0,
+          "currentSrc": "blob:https://www.tiktok.com/5eae04d5-2119-47fe-b472-e76ba9a3454b",
+          "paused": false,
+          "currentTime": 1.378666,
+          "duration": 115.63396825396825,
+          "rect": {
+            "x": 88,
+            "y": 76.66667175292969,
+            "width": 420,
+            "height": 746.6666259765625
+          },
+          "visible": true
+        }
+      ],
+      "buttons": [
+        {
+          "index": 5,
+          "label": "Zum Feed „Für dich“ bei TikTok gehen TikTok css-1g8z8e3-7937d88b--StyledLinkLogo esyfx990 link-a11y-focus",
+          "rect": {
+            "x": 22.5,
+            "y": 20,
+            "width": 26,
+            "height": 28
+          },
+          "visible": true
+        },
+        {
+          "index": 6,
+          "label": "Suchen TUXButton TUXButton--capsule TUXButton--medium TUXButton--secondary css-15kigdg-7937d88b--StyledTUXSearchButton e1vp56d86",
+          "rect": {
+            "x": 16,
+            "y": 64,
+            "width": 39,
+            "height": 40
+          },
+          "visible": true
+        },
+        {
+          "index": 7,
+          "label": "link-a11y-focus",
+          "rect": {
+            "x": 15.5,
+            "y": 132,
+            "width": 40,
+            "height": 25
+          },
+          "visible": true
+        },
+        {
+          "index": 8,
+          "label": "Für dich TUXButton TUXButton--default TUXButton--medium TUXButton--secondary css-8t637r-7937d88b--StyledTUXNavButton e1vp56d80",
+          "rect": {
+            "x": 15.5,
+            "y": 116,
+            "width": 40,
+            "height": 40
+          },
+          "visible": true
+        },
+        {
+          "index": 9,
+          "label": "link-a11y-focus",
+          "rect": {
+            "x": 15.5,
+            "y": 176,
+            "width": 40,
+            "height": 25
+          },
+          "visible": true
+        },
+        {
+          "index": 10,
+          "label": "Erkunden TUXButton TUXButton--default TUXButton--medium TUXButton--secondary css-1t1gyuu-7937d88b--StyledTUXNavButton e1vp56d80",
+          "rect": {
+            "x": 15.5,
+            "y": 160,
+            "width": 40,
+            "height": 40
+          },
+          "visible": true
+        },
+        {
+          "index": 11,
+          "label": "link-a11y-focus",
+          "rect": {
+            "x": 15.5,
+            "y": 214.75,
+            "width": 40,
+            "height": 25
+          },
+          "visible": true
+        },
+        {
+          "index": 12,
+          "label": "Gefolgt TUXButton TUXButton--default TUXButton--medium TUXButton--secondary css-1t1gyuu-7937d88b--StyledTUXNavButton e1vp56d80",
+          "rect": {
+            "x": 15.5,
+            "y": 204,
+            "width": 40,
+            "height": 40
+          },
+          "visible": true
+        },
+        {
+          "index": 13,
+          "label": "link-a11y-focus",
+          "rect": {
+            "x": 15.5,
+            "y": 248,
+            "width": 40,
+            "height": 44.25
+          },
+          "visible": true
+        },
+        {
+          "index": 14,
+          "label": "LIVE TUXButton TUXButton--default TUXButton--medium TUXButton--secondary css-1t1gyuu-7937d88b--StyledTUXNavButton e1vp56d80",
+          "rect": {
+            "x": 15.5,
+            "y": 248,
+            "width": 40,
+            "height": 40
+          },
+          "visible": true
+        },
+        {
+          "index": 15,
+          "label": "link-a11y-focus",
+          "rect": {
+            "x": 15.5,
+            "y": 311,
+            "width": 40,
+            "height": 16
+          },
+          "visible": true
+        },
+        {
+          "index": 16,
+          "label": "Hochladen TUXButton TUXButton--default TUXButton--medium TUXButton--secondary css-1t1gyuu-7937d88b--StyledTUXNavButton e1vp56d80",
+          "rect": {
+            "x": 15.5,
+            "y": 292,
+            "width": 40,
+            "height": 40
+          },
+          "visible": true
+        },
+        {
+          "index": 17,
+          "label": "link-a11y-focus",
+          "rect": {
+            "x": 15.5,
+            "y": 348,
+            "width": 40,
+            "height": 25
+          },
+          "visible": true
+        },
+        {
+          "index": 18,
+          "label": "Profil TUXButton TUXButton--default TUXButton--medium TUXButton--secondary css-1t1gyuu-7937d88b--StyledTUXNavButton e1vp56d80",
+          "rect": {
+            "x": 15.5,
+            "y": 336,
+            "width": 40,
+            "height": 40
+          },
+          "visible": true
+        },
+        {
+          "index": 19,
+          "label": "Mehr TUXButton TUXButton--default TUXButton--medium TUXButton--secondary css-1t1gyuu-7937d88b--StyledTUXNavButton e1vp56d80",
+          "rect": {
+            "x": 15.5,
+            "y": 380,
+            "width": 40,
+            "height": 40
+          },
+          "visible": true
+        },
+        {
+          "index": 20,
+          "label": "Anmelden css-hfwfrk-7937d88b--SquareTUXButton e4emies0",
+          "rect": {
+            "x": 15.5,
+            "y": 436,
+            "width": 40,
+            "height": 40
+          },
+          "visible": true
+        },
+        {
+          "index": 37,
+          "label": "Lautstärke TUXButton TUXButton--capsule TUXButton--medium TUXButton--secondary action-item css-mwfgui",
+          "rect": {
+            "x": 104,
+            "y": 92.66667175292969,
+            "width": 32,
+            "height": 32
+          },
+          "visible": true
+        },
+        {
+          "index": 38,
+          "label": "TUXButton TUXButton--capsule TUXButton--medium TUXButton--secondary eco3q8z0 action-item css-miojge-7937d88b--StyledMoreMenuActionItem",
+          "rect": {
+            "x": 468,
+            "y": 92.66667175292969,
+            "width": 32,
+            "height": 32
+          },
+          "visible": true
+        },
+        {
+          "index": 39,
+          "label": "freddycule link-a11y-focus",
+          "rect": {
+            "x": 100,
+            "y": 727.63330078125,
+            "width": 85.51666259765625,
+            "height": 22.100006103515625
+          },
+          "visible": true
+        },
+        {
+          "index": 40,
+          "label": "Watch more videos of the fcbarcelona category #fcbarcelona link-a11y-focus",
+          "rect": {
+            "x": 100,
+            "y": 781.0333251953125,
+            "width": 88.43333435058594,
+            "height": 16
+          },
+          "visible": true
+        },
+        {
+          "index": 41,
+          "label": "Watch more videos of the barça category #barça link-a11y-focus",
+          "rect": {
+            "x": 192.25,
+            "y": 781.0333251953125,
+            "width": 46.850006103515625,
+            "height": 16
+          },
+          "visible": true
+        },
+        {
+          "index": 42,
+          "label": "Watch more videos of the barcelona category #barcelona link-a11y-focus",
+          "rect": {
+            "x": 242.9166717529297,
+            "y": 781.0333251953125,
+            "width": 75.73332214355469,
+            "height": 16
+          },
+          "visible": true
+        },
+        {
+          "index": 43,
+          "label": "Watch more videos of the DeportesEnTikTok category #DeportesEnTikTok link-a11y-focus",
+          "rect": {
+            "x": 322.4666748046875,
+            "y": 781.0333251953125,
+            "width": 129.1333465576172,
+            "height": 16
+          },
+          "visible": true
+        },
+        {
+          "index": 44,
+          "label": "Watch more videos of the futbol category #futbol link-a11y-focus",
+          "rect": {
+            "x": 103.81666564941406,
+            "y": 799.2333374023438,
+            "width": 49.69999694824219,
+            "height": 16
+          },
+          "visible": true
+        },
+        {
+          "index": 45,
+          "label": "mehr css-1v8o1b4-7937d88b--ButtonExpand-7937d88b--StyledButtonBottom e1ck0jpc3",
+          "rect": {
+            "x": 454.183349609375,
+            "y": 761.7333374023438,
+            "width": 41.81666564941406,
+            "height": 18
+          },
+          "visible": true
+        },
+        {
+          "index": 46,
+          "label": "css-1a9n8e3-7937d88b--AvatarLink e1einqnb3 link-a11y-focus",
+          "rect": {
+            "x": 524,
+            "y": 483.33331298828125,
+            "width": 32,
+            "height": 32
+          },
+          "visible": true
+        },
+        {
+          "index": 47,
+          "label": "efqn7qw1 css-18cv3c4-7937d88b--Button-7937d88b--StyledAvatarFollowButton e11yjflg0",
+          "rect": {
+            "x": 532,
+            "y": 507.33331298828125,
+            "width": 16,
+            "height": 16
+          },
+          "visible": true
+        },
+        {
+          "index": 48,
+          "label": "Video einen Like geben\n108K Likes 108K css-1pte5k5-7937d88b--ButtonActionItem efpxn6t0",
+          "rect": {
+            "x": 524,
+            "y": 535.3333129882812,
+            "width": 32,
+            "height": 62
+          },
+          "visible": true
+        },
+        {
+          "index": 49,
+          "label": "Kommentare lesen oder hinzufügen\n567 Kommentare 567 css-1pte5k5-7937d88b--ButtonActionItem efpxn6t0",
+          "rect": {
+            "x": 524,
+            "y": 597.3333129882812,
+            "width": 32,
+            "height": 62
+          },
+          "visible": true
+        },
+        {
+          "index": 50,
+          "label": "Zu „Favoriten“ hinzufügen. 9978 zu „Favoriten“ hinzugefügt 9978 css-1pte5k5-7937d88b--ButtonActionItem efpxn6t0",
+          "rect": {
+            "x": 524,
+            "y": 659.3333129882812,
+            "width": 32,
+            "height": 62
+          },
+          "visible": true
+        },
+        {
+          "index": 51,
+          "label": "Video teilen\n1803 Mal geteilt 1803 css-1pte5k5-7937d88b--ButtonActionItem efpxn6t0",
+          "rect": {
+            "x": 524,
+            "y": 721.3333129882812,
+            "width": 32,
+            "height": 62
+          },
+          "visible": true
+        },
+        {
+          "index": 52,
+          "label": "Watch more videos with music som original - Psychological Insight 囧 link-a11y-focus",
+          "rect": {
+            "x": 524,
+            "y": 783.3333129882812,
+            "width": 32,
+            "height": 40
+          },
+          "visible": true
+        },
+        {
+          "index": 74,
+          "label": "hier TUXLink",
+          "rect": {
+            "x": 242.85000610351562,
+            "y": 255,
+            "width": 21.599990844726562,
+            "height": 14
+          },
+          "visible": true
+        },
+        {
+          "index": 75,
+          "label": "Mehr anzeigen TUXLink",
+          "rect": {
+            "x": 331.75,
+            "y": 82.60000610351562,
+            "width": 83.60000610351562,
+            "height": 15.599990844726562
+          },
+          "visible": true
+        },
+        {
+          "index": 76,
+          "label": "Verstanden TUXButton TUXButton--borderless TUXButton--medium TUXButton--primary",
+          "rect": {
+            "x": 463.3500061035156,
+            "y": 35.600006103515625,
+            "width": 82.25,
+            "height": 40
+          },
+          "visible": true
+        }
+      ]
+    },
+    "changedVideo": true,
+    "changedScroll": false
+  }
+}

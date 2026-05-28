@@ -1,0 +1,186 @@
+{
+  "ok": true,
+  "browser": "firefox",
+  "executable": "/Applications/Firefox.app/Contents/MacOS/firefox",
+  "puppeteerPackage": "puppeteer-core",
+  "requestedUrl": "https://www.microsoft.com/ro-ro/microsoft-365/sharepoint/collaboration?utm_source=chatgpt.com&market=ro",
+  "finalUrl": "https://www.microsoft.com/ro-ro/microsoft-365/sharepoint/collaboration?utm_source=chatgpt.com&market=ro",
+  "httpStatus": 200,
+  "viewport": {
+    "width": 390,
+    "height": 844,
+    "deviceScaleFactor": 1
+  },
+  "screenshot": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042167/firefox/screenshot_firefox_390x844.png",
+  "navigationError": null,
+  "networkIdleError": null,
+  "events": {
+    "console": [
+      {
+        "type": "warn",
+        "text": "Firefox calls the Storage Access API on behalf of the site. See https://bugzilla.mozilla.org/show_bug.cgi?id=1728111 for details."
+      },
+      {
+        "type": "info",
+        "text": "A simulated click is issued on search suggestions when enter is pressed on them for compatibility reasons. See https://bugzilla.mozilla.org/show_bug.cgi?id=1846742 for details."
+      },
+      {
+        "type": "warn",
+        "text": "[OneCloud-SSC] Inline JSON script #oc-cookie-consent-config not found; using defaults."
+      },
+      {
+        "type": "log",
+        "text": "1DS Initialized.."
+      },
+      {
+        "type": "debug",
+        "text": "EmeEncryptionSchemePolyfill: Waiting to detect encryptionScheme support."
+      },
+      {
+        "type": "debug",
+        "text": "McEncryptionSchemePolyfill: Waiting to detect encryptionScheme support."
+      },
+      {
+        "type": "info",
+        "text": "[WC Visibility Fix] None of the target tags were found in the DOM."
+      },
+      {
+        "type": "log",
+        "text": "MWF v2.8.1"
+      },
+      {
+        "type": "log",
+        "text": "gpc opt-in"
+      },
+      {
+        "type": "log",
+        "text": "Clarity consent conditions not met"
+      },
+      {
+        "type": "info",
+        "text": "Download the React DevTools for a better development experience: https://reactjs.org/link/react-devtools"
+      },
+      {
+        "type": "debug",
+        "text": "[MeControl] TypeScript module loading..."
+      },
+      {
+        "type": "debug",
+        "text": "[MeControl] Found meControl-configInfo elements: 1"
+      },
+      {
+        "type": "debug",
+        "text": "[MeControl] MeControl config loaded: JSHandle@object"
+      },
+      {
+        "type": "debug",
+        "text": "[MeControl] CascadeAuthSDK not available"
+      },
+      {
+        "type": "log",
+        "text": "Clarity not loaded due to lack of user consent"
+      },
+      {
+        "type": "log",
+        "text": "Clarity opt-out set"
+      },
+      {
+        "type": "log",
+        "text": "message received from parent page"
+      },
+      {
+        "type": "log",
+        "text": "message received from parent page"
+      }
+    ],
+    "pageErrors": [
+      {
+        "name": "Error",
+        "message": "SyntaxError: redeclaration of let OneCloudUtil"
+      },
+      {
+        "name": "Error",
+        "message": "SyntaxError: redeclaration of let LocalStorageUtil"
+      },
+      {
+        "name": "Error",
+        "message": "SyntaxError: redeclaration of let OneCloudUtil"
+      },
+      {
+        "name": "Error",
+        "message": "SyntaxError: redeclaration of let LocalStorageUtil"
+      },
+      {
+        "name": "Error",
+        "message": "SyntaxError: redeclaration of let OneCloudUtil"
+      },
+      {
+        "name": "Error",
+        "message": "SyntaxError: redeclaration of let LocalStorageUtil"
+      },
+      {
+        "name": "Error",
+        "message": "SyntaxError: redeclaration of let OneCloudUtil"
+      },
+      {
+        "name": "Error",
+        "message": "SyntaxError: redeclaration of let LocalStorageUtil"
+      },
+      {
+        "name": "Error",
+        "message": "uncaught exception: Object"
+      }
+    ],
+    "requestFailures": [
+      {
+        "url": "https://c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff2",
+        "method": "GET",
+        "resourceType": null,
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://www.microsoft.com/golf/etc.clientlibs/onecloud/clientlibs/clientlib-reimagine/resources/fonts/segoe-sans/west-european/latest.woff2",
+        "method": "GET",
+        "resourceType": null,
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://c.s-microsoft.com/static/fonts/segoe-ui/west-european/semibold/latest.woff2",
+        "method": "GET",
+        "resourceType": null,
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://www.microsoft.com/golf/etc.clientlibs/onecloud/clientlibs/clientlib-reimagine/resources/fonts/segoe-sans/west-european/latest.woff2",
+        "method": "GET",
+        "resourceType": null,
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      }
+    ]
+  },
+  "documentState": {
+    "url": "https://www.microsoft.com/ro-ro/microsoft-365/sharepoint/collaboration?utm_source=chatgpt.com&market=ro",
+    "title": "Gestionare de conținut în colaborare și partajare securizată a fișierelor | Microsoft SharePoint",
+    "readyState": "complete",
+    "viewport": {
+      "innerWidth": 390,
+      "innerHeight": 844,
+      "devicePixelRatio": 1
+    },
+    "documentElement": {
+      "clientWidth": 375,
+      "clientHeight": 844,
+      "scrollWidth": 375,
+      "scrollHeight": 16321
+    },
+    "bodyTextSample": "Salt la conținutul principal\n\t\n\nUtilizăm module cookie opționale pentru a vă îmbunătăți experiența pe site-urile noastre web, cum ar fi prin conexiuni pe rețelele de socializare, și pentru a afișa publicitate personalizată pe baza activității dumneavoastră online. Dacă respingeți modulele cookie opționale, vor fi utilizate numai modulele cookie necesare pentru a vă furniza serviciile. Puteți modifica selecția făcând clic pe „Gestionare module cookie” din partea de jos a paginii.Angajament de respectare a confidențialității Module cookie terțe\n\nAcceptareRespingereGestionare module cookie\nME\nMicrosoft 365\nChoose your billing country/region:\n\n25 de ani de SharePoint. Un moment important.\n\nAflați mai multe\nMicrosoft SharePoint\nPlatforma de cunoștințe pentru Copilot și agenți.\nConectare\nCentru de administrare\nConsultați planurile și prețurile\nPrezentare generală\nPREZENTARE GENERALĂ\nColaborați, sincronizați și partajați conținutul în siguranță\nÎntrebați și descoperiți\nOrganizați și automatiz"
+  }
+}

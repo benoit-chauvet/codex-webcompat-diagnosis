@@ -1,0 +1,77 @@
+{
+  "browser": "chrome",
+  "executablePath": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+  "pagePath": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042795/testcase/index.html",
+  "screenshot": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042795/testcase/artifacts/chrome/chrome.png",
+  "events": {
+    "console": [],
+    "pageErrors": []
+  },
+  "state": {
+    "url": "file:///Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042795/testcase/index.html",
+    "title": "H.264 High 4:4:4 Predictive MP4 playback comparison",
+    "testcaseResult": {
+      "failing": {
+        "codec": {
+          "profile": 244,
+          "compatibility": 0,
+          "level": 31,
+          "codec": "avc1.f4001f"
+        },
+        "currentSrc": "file:///Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042795/testcase/assets/gsmarena_002_high444.mp4",
+        "readyState": 4,
+        "networkState": 1,
+        "paused": false,
+        "currentTime": 1.501422,
+        "duration": 5.66,
+        "videoWidth": 948,
+        "videoHeight": 554,
+        "error": null
+      },
+      "control": {
+        "codec": {
+          "profile": 100,
+          "compatibility": 0,
+          "level": 31,
+          "codec": "avc1.64001f"
+        },
+        "currentSrc": "file:///Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042795/testcase/assets/control_h264_high.mp4",
+        "readyState": 4,
+        "networkState": 1,
+        "paused": false,
+        "currentTime": 1.459819,
+        "duration": 5.055,
+        "videoWidth": 960,
+        "videoHeight": 540,
+        "error": null
+      }
+    },
+    "videos": [
+      {
+        "index": 0,
+        "currentSrc": "file:///Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042795/testcase/assets/gsmarena_002_high444.mp4",
+        "readyState": 4,
+        "networkState": 1,
+        "paused": false,
+        "currentTime": 3.693425,
+        "duration": 5.66,
+        "videoWidth": 948,
+        "videoHeight": 554,
+        "error": null
+      },
+      {
+        "index": 1,
+        "currentSrc": "file:///Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042795/testcase/assets/control_h264_high.mp4",
+        "readyState": 4,
+        "networkState": 1,
+        "paused": false,
+        "currentTime": 3.462568,
+        "duration": 5.055,
+        "videoWidth": 960,
+        "videoHeight": 540,
+        "error": null
+      }
+    ],
+    "bodyText": "H.264 profile playback comparison\n\nThe GSMArena sample advertises AVC profile 0xf4, while the control sample advertises profile 0x64.\n\nFailing sample: avc1.f4001f\n{\n  \"codec\": {\n    \"profile\": 244,\n    \"compatibility\": 0,\n    \"level\": 31,\n    \"codec\": \"avc1.f4001f\"\n  },\n  \"currentSrc\": \"file:///Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042795/testcase/assets/gsmarena_002_high444.mp4\",\n  \"readyState\": 4,\n  \"networkState\": 1,\n  \"paused\": false,\n  \"currentTime\": 1.501422,\n  \"duration\": 5.66,\n  \"videoWidth\": 948,\n  \"videoHeight\": 554,\n  \"error\": null\n}\nControl sample: avc1.64001f\n{\n  \"codec\": {\n    \"profile\": 100,\n    \"compatibility\": 0,\n    \"level\": 31,\n    \"codec\": \"avc1.64001f\"\n  },\n  \"currentSrc\": \"file:///Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042795/testcase/assets/control_h264_high.mp4\",\n  \"readyState\": 4,\n  \"networkState\": 1,\n  \"paused\": false,\n  \"currentTime\": 1.459819,\n  \"duration\": 5.055,\n  \"videoWidth\": 960,\n  \"videoHeight\": 540,\n  \"error\": null\n}"
+  }
+}

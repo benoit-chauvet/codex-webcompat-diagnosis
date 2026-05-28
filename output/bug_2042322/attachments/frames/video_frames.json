@@ -1,0 +1,25 @@
+{
+  "videoPath": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042322/attachments/tiktok-scroll.mp4",
+  "metadata": {
+    "duration": 33.489456,
+    "videoWidth": 1244,
+    "videoHeight": 800
+  },
+  "captured": [
+    {
+      "requestedTime": 0,
+      "targetTime": 0,
+      "screenshot": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042322/attachments/frames/frame_0s.png"
+    },
+    {
+      "requestedTime": 4,
+      "targetTime": 4,
+      "screenshot": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042322/attachments/frames/frame_4s.png"
+    },
+    {
+      "requestedTime": 8,
+      "targetTime": 8,
+      "screenshot": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042322/attachments/frames/frame_8s.png"
+    }
+  ]
+}

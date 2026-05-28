@@ -1,0 +1,441 @@
+{
+  "ok": true,
+  "browser": "firefox",
+  "executable": "/Applications/Firefox Nightly.app/Contents/MacOS/firefox",
+  "puppeteerPackage": "puppeteer-core",
+  "requestedUrl": "https://www.tiktok.com/de-DE/",
+  "finalUrl": "https://www.tiktok.com/de-DE/",
+  "httpStatus": 200,
+  "viewport": {
+    "width": 1440,
+    "height": 1000,
+    "deviceScaleFactor": 1
+  },
+  "screenshot": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042322/firefox/screenshot_firefox_1440x1000.png",
+  "navigationError": null,
+  "networkIdleError": null,
+  "events": {
+    "console": [
+      {
+        "type": "info",
+        "text": "PluginArray is being altered for compatibility reasons. See https://bugzil.la/1769762 for details."
+      },
+      {
+        "type": "warn",
+        "text": "Reflect is already polyfilled."
+      },
+      {
+        "type": "warn",
+        "text": "AppContext will be overwritten"
+      },
+      {
+        "type": "warn",
+        "text": "AppContext will be overwritten"
+      },
+      {
+        "type": "warn",
+        "text": "AppContext will be overwritten"
+      },
+      {
+        "type": "warn",
+        "text": "AppContext will be overwritten"
+      },
+      {
+        "type": "warn",
+        "text": "AppContext will be overwritten"
+      },
+      {
+        "type": "warn",
+        "text": "AppContext will be overwritten"
+      },
+      {
+        "type": "warn",
+        "text": "AppContext will be overwritten"
+      },
+      {
+        "type": "warn",
+        "text": "AppContext will be overwritten"
+      },
+      {
+        "type": "warn",
+        "text": "AppContext will be overwritten"
+      },
+      {
+        "type": "warn",
+        "text": "AppContext will be overwritten"
+      },
+      {
+        "type": "warn",
+        "text": "AppContext will be overwritten"
+      },
+      {
+        "type": "warn",
+        "text": "loadable: `loadableReady()` requires state, please use `getScriptTags` or `getScriptElements` server-side"
+      },
+      {
+        "type": "info",
+        "text": "."
+      },
+      {
+        "type": "debug",
+        "text": "set global cache JSHandle@object"
+      },
+      {
+        "type": "debug",
+        "text": "JSHandle@error"
+      },
+      {
+        "type": "debug",
+        "text": "JSHandle@error"
+      },
+      {
+        "type": "info",
+        "text": ""
+      },
+      {
+        "type": "debug",
+        "text": "JSHandle@error"
+      },
+      {
+        "type": "debug",
+        "text": "JSHandle@error"
+      },
+      {
+        "type": "info",
+        "text": ""
+      },
+      {
+        "type": "debug",
+        "text": "[useFYPRecommendListFirstPull] originParams JSHandle@object expParams JSHandle@object false"
+      },
+      {
+        "type": "debug",
+        "text": "[getRecommendList] originParams JSHandle@object expParams JSHandle@object false"
+      },
+      {
+        "type": "debug",
+        "text": "JSHandle@error"
+      },
+      {
+        "type": "debug",
+        "text": "JSHandle@error"
+      },
+      {
+        "type": "warn",
+        "text": "[00:01.019][warn][controller](1) JSHandle@error"
+      },
+      {
+        "type": "debug",
+        "text": "[PlayerStart] autoPlay effect 1021 JSHandle@object"
+      },
+      {
+        "type": "debug",
+        "text": "[PlayerStart] tryPlay 1021 JSHandle@object"
+      },
+      {
+        "type": "debug",
+        "text": "[PlayerStart] onplay 1023 JSHandle@object"
+      },
+      {
+        "type": "warn",
+        "text": "[00:01.028][warn][controller](1) JSHandle@error"
+      },
+      {
+        "type": "warn",
+        "text": "[TikTok desktop app SDK Monitor]:   WARN:[printFirstFeedShow]The current environment is not inside the client."
+      },
+      {
+        "type": "debug",
+        "text": "[PlayerStart] canplay->play 1137 JSHandle@object"
+      },
+      {
+        "type": "debug",
+        "text": "[PlayerStart] autoPlay effect 1139 JSHandle@object"
+      },
+      {
+        "type": "debug",
+        "text": "[PlayerStart] tryPlay 1139 JSHandle@object"
+      },
+      {
+        "type": "warn",
+        "text": "[00:01.139][warn][controller](1) JSHandle@error"
+      },
+      {
+        "type": "warn",
+        "text": "[00:01.140][warn][controller](1) JSHandle@error"
+      },
+      {
+        "type": "debug",
+        "text": "[PlayerStart] onplay 1140 JSHandle@object"
+      },
+      {
+        "type": "debug",
+        "text": "[PlayerStart] onplaying prefetch-compare 1143 JSHandle@object"
+      },
+      {
+        "type": "log",
+        "text": "ws.opened"
+      },
+      {
+        "type": "warn",
+        "text": "[SDK] 1779954923500        0 already inited"
+      },
+      {
+        "type": "debug",
+        "text": "JSHandle@error"
+      },
+      {
+        "type": "debug",
+        "text": "JSHandle@error"
+      },
+      {
+        "type": "info",
+        "text": ""
+      },
+      {
+        "type": "debug",
+        "text": "JSHandle@error"
+      },
+      {
+        "type": "debug",
+        "text": "JSHandle@error"
+      },
+      {
+        "type": "info",
+        "text": ""
+      },
+      {
+        "type": "debug",
+        "text": "JSHandle@error"
+      },
+      {
+        "type": "debug",
+        "text": "JSHandle@error"
+      },
+      {
+        "type": "info",
+        "text": ""
+      },
+      {
+        "type": "debug",
+        "text": "JSHandle@error"
+      },
+      {
+        "type": "debug",
+        "text": "JSHandle@error"
+      },
+      {
+        "type": "info",
+        "text": ""
+      },
+      {
+        "type": "debug",
+        "text": "JSHandle@error"
+      },
+      {
+        "type": "debug",
+        "text": "JSHandle@error"
+      },
+      {
+        "type": "info",
+        "text": ""
+      },
+      {
+        "type": "debug",
+        "text": "JSHandle@error"
+      },
+      {
+        "type": "debug",
+        "text": "JSHandle@error"
+      },
+      {
+        "type": "info",
+        "text": ""
+      },
+      {
+        "type": "debug",
+        "text": "fmp 1435 JSHandle@node"
+      },
+      {
+        "type": "debug",
+        "text": "JSHandle@error"
+      },
+      {
+        "type": "debug",
+        "text": "JSHandle@error"
+      },
+      {
+        "type": "info",
+        "text": ""
+      },
+      {
+        "type": "debug",
+        "text": "JSHandle@error"
+      },
+      {
+        "type": "debug",
+        "text": "JSHandle@error"
+      },
+      {
+        "type": "info",
+        "text": ""
+      },
+      {
+        "type": "warn",
+        "text": "JSHandle@error"
+      },
+      {
+        "type": "debug",
+        "text": "JSHandle@error"
+      },
+      {
+        "type": "debug",
+        "text": "JSHandle@error"
+      },
+      {
+        "type": "info",
+        "text": ""
+      },
+      {
+        "type": "debug",
+        "text": "JSHandle@error"
+      },
+      {
+        "type": "debug",
+        "text": "JSHandle@error"
+      },
+      {
+        "type": "info",
+        "text": ""
+      },
+      {
+        "type": "debug",
+        "text": "JSHandle@error"
+      },
+      {
+        "type": "debug",
+        "text": "JSHandle@error"
+      },
+      {
+        "type": "debug",
+        "text": "JSHandle@error"
+      },
+      {
+        "type": "debug",
+        "text": "JSHandle@error"
+      },
+      {
+        "type": "info",
+        "text": ""
+      },
+      {
+        "type": "debug",
+        "text": "JSHandle@error"
+      },
+      {
+        "type": "debug",
+        "text": "JSHandle@error"
+      },
+      {
+        "type": "info",
+        "text": ""
+      },
+      {
+        "type": "debug",
+        "text": "JSHandle@error"
+      },
+      {
+        "type": "debug",
+        "text": "JSHandle@error"
+      },
+      {
+        "type": "info",
+        "text": ""
+      },
+      {
+        "type": "debug",
+        "text": "JSHandle@error"
+      },
+      {
+        "type": "debug",
+        "text": "JSHandle@error"
+      },
+      {
+        "type": "info",
+        "text": ""
+      },
+      {
+        "type": "debug",
+        "text": "JSHandle@error"
+      },
+      {
+        "type": "debug",
+        "text": "JSHandle@error"
+      },
+      {
+        "type": "info",
+        "text": ""
+      },
+      {
+        "type": "debug",
+        "text": "JSHandle@error"
+      },
+      {
+        "type": "debug",
+        "text": "JSHandle@error"
+      },
+      {
+        "type": "info",
+        "text": ""
+      },
+      {
+        "type": "debug",
+        "text": "[PlayerStart] onplay 8495 JSHandle@object"
+      },
+      {
+        "type": "debug",
+        "text": "[PlayerStart] canplay->play 8508 JSHandle@object"
+      },
+      {
+        "type": "debug",
+        "text": "[PlayerStart] canplay->play 8508 JSHandle@object"
+      },
+      {
+        "type": "debug",
+        "text": "[PlayerStart] onplaying prefetch-compare 8508 JSHandle@object"
+      }
+    ],
+    "pageErrors": [
+      {
+        "name": "Error",
+        "message": "TypeError: can't access property \"includes\", e.host is undefined"
+      },
+      {
+        "name": "Error",
+        "message": "TypeError: can't access property \"includes\", e.host is undefined"
+      },
+      {
+        "name": "Error",
+        "message": "TypeError: can't access property \"includes\", e.host is undefined"
+      }
+    ],
+    "requestFailures": []
+  },
+  "documentState": {
+    "url": "https://www.tiktok.com/de-DE/",
+    "title": "TikTok - Make Your Day",
+    "readyState": "complete",
+    "viewport": {
+      "innerWidth": 1440,
+      "innerHeight": 1000,
+      "devicePixelRatio": 1
+    },
+    "documentElement": {
+      "clientWidth": 1440,
+      "clientHeight": 1000,
+      "scrollWidth": 1440,
+      "scrollHeight": 1000
+    },
+    "bodyTextSample": "TikTok\nSuchen\nFür dich\nErkunden\nGefolgt\nLIVE\nHochladen\nProfil\nMehr\nAnmelden\nUnternehmen\nProgramm\nBedingungen und Richtlinien\n© 2026 TikTok\n\nCapCut · Bearbeitung leicht gemacht\n\nbrk_tu_c_deja91\n\n#pourtoi\n\n \n\n#viral\n\n son doigt il  va loin 😭\n\nÜbersetzung anzeigen\n\n00:00 / 00:07\n\n456.4K\n6366\n42.8K\n154.6K\n\nkiproccoo\n\n00:00 / 00:00\n\n244.9K\n1414\n20.2K\n13.4K\nMünzen holen\nApp holen\nAnmelden\nFernzugriff \"Übermittlung von EWR-Nutzerdaten nach China\": Aktualisierung zur Entscheidung der irischen Datenschutzbehörde\n\nIm April 2025 stellte die irische Datenschutzkommission (DPC) fest, dass TikTok die Anforderungen der Datenschutzgrundverordnung (DSGVO) in Bezug auf die Übermittlung bestimmter „EWR-Nutzerdaten nach China mittels Fernzugriff“ nicht eingehalten habe. TikTok wurde von der DPC aufgefordert, den Fernzugriff innerhalb von sechs Monaten mit der DSGVO in Einklang zu bringen, andernfalls müsse er ausgesetzt werden. TikTok ist mit der Entscheidung der DPC nicht einverstanden und hat bei den i"
+  }
+}

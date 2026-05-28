@@ -1,0 +1,92 @@
+{
+  "ok": true,
+  "browser": "firefox",
+  "executable": "/Applications/Firefox Nightly.app/Contents/MacOS/firefox",
+  "puppeteerPackage": "puppeteer-core",
+  "requestedUrl": "https://www.gsmarena.com/google_android_17_continue_on-news-72910.php",
+  "finalUrl": "https://www.gsmarena.com/google_android_17_continue_on-news-72910.php",
+  "httpStatus": 200,
+  "viewport": {
+    "width": 1440,
+    "height": 1000,
+    "deviceScaleFactor": 1
+  },
+  "screenshot": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042795/firefox/screenshot_firefox_1440x1000.png",
+  "navigationError": null,
+  "networkIdleError": {
+    "name": "TimeoutError",
+    "message": "Timed out after waiting 10000ms"
+  },
+  "events": {
+    "console": [
+      {
+        "type": "log",
+        "text": "CLVR: v2.67.2"
+      },
+      {
+        "type": "log",
+        "text": "CLVR: 73756"
+      },
+      {
+        "type": "log",
+        "text": "CLVR: 2026-05-26 14:25:06"
+      },
+      {
+        "type": "log",
+        "text": "CLVR: UI Loaded"
+      },
+      {
+        "type": "log",
+        "text": "CLVR: Format TopScroll found"
+      },
+      {
+        "type": "warn",
+        "text": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message#170"
+      },
+      {
+        "type": "startGroupCollapsed",
+        "text": "[BTAG] Attribution"
+      },
+      {
+        "type": "log",
+        "text": "[BTAG] Session cookie set: registration-source-tag → a_50015b_1748c_CABABDCAFCDAAFR"
+      }
+    ],
+    "pageErrors": [
+      {
+        "name": "Error",
+        "message": "Cookie “registration-source-tag” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "SecurityError: Permission denied to access property \"pathname\" on cross-origin object"
+      },
+      {
+        "name": "Error",
+        "message": "Content-Security-Policy: The page’s settings blocked a script (script-src-elem) at https://zz.connextra.com/dcs/tagController/tag/a300d66eb9e0/cookie_exclusion from being executed because it violates the following directive: “script-src 'self' 'unsafe-inline' 'unsafe-eval' https://x.bidswitch.net https://recaptcha.net https://code.jquery.com https://www.googletagmanager.com https://*.adform.net https://connect.facebook.net https://*.sportradar.com https://*.sportradarserving.com https://*.zdassets.com https://*.doubleclick.net https://www.gstatic.com https://*.cheqzone.com https://www.google-analytics.com https://obs.cheqzone.com https://ci-mpsnare.iovation.com https://*.youtube.com https://host.olybet.com blob: https://*.cobrowse.io https://*.cloudflare.com https://*.onesignal.com https://onesignal.com https://*.cookiebot.com https://vatson.ee https://*.vatson.ee https://bing.com https://*.bing.com https://hotjar.com https://*.hotjar.com https://script.crazyegg.com https://client.britepaymentgroup.com https://*.google.com https://*.orakulas.lt https://*.olybet.dev https://*.checkout.com https://applepay.cdn-apple.com https://*.googleapis.com https://widget.surveymonkey.com https://*.sbifm.online https://unpkg.com/@img-arena/front-row-seat https://adscool.net/resources/content/olybet.js https://scripts.mediamathrdrt.com/scripts/v_olybet.js https://static.imgarena.com/event-centre-configs/olybet.json https://*.zendesk.com https://*.clarity.ms https://adscool.net/pageview/olybet https://pixel.mediamathrdrt.com/rtg/sync/olybet.gif https://*.betgames.tv https://*.game-flex.eu https://*.relaxg.com https://*.api.relaxg.com https://*.betsy.software https://*.tomhorngaming.eu https://*.mediamathrdrt.com https://mediamathrdrt.com https://*.turbostars.gg https://sdk.optimove.net https://optimove-sdk-web.optimove.net https://*.sportbook.work https://sports.olylive.fr https://sports.olybet.fr https://cdn.flows.world https://pubads.g.doubleclick.uk.net https://www.paypal.com https://casino-api.orakulas.lt https://*.newrelic.com https://*.eskimi.com https://trackadshub.com https://*.cloudflareinsights.com https://*.mxapis.com”"
+      },
+      {
+        "name": "Error",
+        "message": "Content-Security-Policy: The page’s settings blocked a script (script-src-elem) at https://edge.fullstory.com/s/fs.js from being executed because it violates the following directive: “script-src 'self' 'unsafe-inline' 'unsafe-eval' https://x.bidswitch.net https://recaptcha.net https://code.jquery.com https://www.googletagmanager.com https://*.adform.net https://connect.facebook.net https://*.sportradar.com https://*.sportradarserving.com https://*.zdassets.com https://*.doubleclick.net https://www.gstatic.com https://*.cheqzone.com https://www.google-analytics.com https://obs.cheqzone.com https://ci-mpsnare.iovation.com https://*.youtube.com https://host.olybet.com blob: https://*.cobrowse.io https://*.cloudflare.com https://*.onesignal.com https://onesignal.com https://*.cookiebot.com https://vatson.ee https://*.vatson.ee https://bing.com https://*.bing.com https://hotjar.com https://*.hotjar.com https://script.crazyegg.com https://client.britepaymentgroup.com https://*.google.com https://*.orakulas.lt https://*.olybet.dev https://*.checkout.com https://applepay.cdn-apple.com https://*.googleapis.com https://widget.surveymonkey.com https://*.sbifm.online https://unpkg.com/@img-arena/front-row-seat https://adscool.net/resources/content/olybet.js https://scripts.mediamathrdrt.com/scripts/v_olybet.js https://static.imgarena.com/event-centre-configs/olybet.json https://*.zendesk.com https://*.clarity.ms https://adscool.net/pageview/olybet https://pixel.mediamathrdrt.com/rtg/sync/olybet.gif https://*.betgames.tv https://*.game-flex.eu https://*.relaxg.com https://*.api.relaxg.com https://*.betsy.software https://*.tomhorngaming.eu https://*.mediamathrdrt.com https://mediamathrdrt.com https://*.turbostars.gg https://sdk.optimove.net https://optimove-sdk-web.optimove.net https://*.sportbook.work https://sports.olylive.fr https://sports.olybet.fr https://cdn.flows.world https://pubads.g.doubleclick.uk.net https://www.paypal.com https://casino-api.orakulas.lt https://*.newrelic.com https://*.eskimi.com https://trackadshub.com https://*.cloudflareinsights.com https://*.mxapis.com”"
+      }
+    ],
+    "requestFailures": []
+  },
+  "documentState": {
+    "url": "https://www.gsmarena.com/google_android_17_continue_on-news-72910.php",
+    "title": "Android 17's 'Continue On' feature will let you move tasks between devices - GSMArena.com news",
+    "readyState": "complete",
+    "viewport": {
+      "innerWidth": 1440,
+      "innerHeight": 1000,
+      "devicePixelRatio": 1
+    },
+    "documentElement": {
+      "clientWidth": 1440,
+      "clientHeight": 1000,
+      "scrollWidth": 1440,
+      "scrollHeight": 4372
+    },
+    "bodyTextSample": "\n\nTIP US\n\n\n2.1M\n160K\n\n\nRSS\n\n\nEV\n\n\nMERCH\n\n\nLOG IN\nSIGN UP\nHOME NEWS REVIEWS VIDEOS FEATURED PHONE FINDER DEALS MERCH COVERAGE CONTACT\nADVERTISEMENT\nAndroid 17's 'Continue On' feature will let you move tasks between devices\nPOST YOUR COMMENT\nCOMMENTS (10)\n\n\n\nSagar 20 May 2026\n\nGoogle Android Announcement\n\nGoogle made quite a few announcements on the first day of Google I/O 2026, and one of them is \"Continue On,\" which is an Android 17 feature that app developers can implement to provide cross-device continuity for their users.\n\nIn Google's own words, \"Continue On enables users to start an Android app on one Android device and then transition to another device in their Android ecosystem, continuing the user journey they started.\"\n\nIn simpler words, if you are working on a document in the Google Docs app on your Android smartphone, with Continue On, you continue the same work on an Android tablet in the Google Docs app, provided both devices are connected to the same account. The handoff s"
+  }
+}

@@ -1,0 +1,24 @@
+1779957313873	SessionStore	DEBUG	Can't read session file which doesn't exist: clean
+1779957313874	SessionStore	DEBUG	Can't read session file which doesn't exist: recovery
+1779957313875	SessionStore	DEBUG	Can't read session file which doesn't exist: recoveryBackup
+1779957313877	SessionStore	DEBUG	Can't read session file which doesn't exist: cleanBackup
+1779957313934	SessionStore	DEBUG	Can't read session file which doesn't exist: clean
+1779957313951	SessionStore	DEBUG	Can't read session file which doesn't exist: recovery
+1779957313954	SessionStore	DEBUG	Can't read session file which doesn't exist: recoveryBackup
+1779957313960	SessionStore	DEBUG	Can't read session file which doesn't exist: cleanBackup
+1779957313960	SessionStore	WARN	No readable session files found to restore, starting with empty session
+1779957313960	SessionStore	DEBUG	Completed SessionFile.read() with result.origin: empty
+1779957313960	SessionStore	DEBUG	No valid session found
+1779957314198	SessionStore	DEBUG	initSession willRestore: false, SessionStartup.sessionType: 0
+1779957314254	SessionStore.LogManager	DEBUG	Flushing file log
+1779957314257	SessionStore.LogManager	DEBUG	Log cleanup threshold time: 1779093314257
+1779957314257	SessionStore.LogManager	DEBUG	Done deleting files.
+1779957316511	SessionStore	DEBUG	SessionWriter.write wrote 1690 bytes in 1ms
+1779957331553	SessionStore	DEBUG	SessionWriter.write wrote 3471 bytes in 1ms
+1779957421139	SessionStore	DEBUG	onQuitApplicationGranted, shutdown of 0 windows will be sync? false
+1779957421139	SessionStore	DEBUG	Last session save attempt: 89586ms ago
+1779957421279	SessionStore	DEBUG	SessionSave run called during shutdown
+1779957421279	SessionStore	DEBUG	SessionSaver writing state during shutdown
+1779957421284	SessionStore	DEBUG	SessionSaver scheduling a state save during shutdown
+1779957421290	SessionStore	DEBUG	SessionWriter.write wrote 3475 bytes in 10ms
+1779957421292	SessionStore	DEBUG	SessionSaver sessionstore-state-write-complete during shutdown

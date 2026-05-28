@@ -1,0 +1,64 @@
+{
+  "ok": true,
+  "browser": "firefox",
+  "executable": "/private/var/folders/ms/_ys5hmhs7zzfhpwwzzs_h78m0000gn/T/bugzilla-firefox-diagnose-cache/150.0/app/Firefox.app/Contents/MacOS/firefox",
+  "puppeteerPackage": "puppeteer-core",
+  "requestedUrl": "https://www.bahn.de/",
+  "finalUrl": "https://www.bahn.de/",
+  "httpStatus": 200,
+  "viewport": {
+    "width": 1280,
+    "height": 900,
+    "deviceScaleFactor": 1
+  },
+  "screenshot": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042169/firefox/screenshot_firefox_1280x900.png",
+  "navigationError": null,
+  "networkIdleError": null,
+  "events": {
+    "console": [
+      {
+        "type": "log",
+        "text": "Checking to see if there is an authorization response to be delivered."
+      },
+      {
+        "type": "log",
+        "text": "Notifier is not present on AuthorizationRequest handler.\n          No delivery of result will be possible"
+      },
+      {
+        "type": "log",
+        "text": "No result is available yet."
+      },
+      {
+        "type": "log",
+        "text": "Checking to see if there is an authorization response to be delivered."
+      },
+      {
+        "type": "log",
+        "text": "No result is available yet."
+      },
+      {
+        "type": "log",
+        "text": "Re-registering service worker"
+      }
+    ],
+    "pageErrors": [],
+    "requestFailures": []
+  },
+  "documentState": {
+    "url": "https://www.bahn.de/",
+    "title": "DB Fahrplan, Auskunft, Tickets, informieren und buchen - Deutsche Bahn",
+    "readyState": "complete",
+    "viewport": {
+      "innerWidth": 1280,
+      "innerHeight": 900,
+      "devicePixelRatio": 1
+    },
+    "documentElement": {
+      "clientWidth": 1265,
+      "clientHeight": 900,
+      "scrollWidth": 1265,
+      "scrollHeight": 3427
+    },
+    "bodyTextSample": "Zur Verbindungssuche springen\nZu den Hauptinhalten springen\nPrivatreisen\nGeschäftsreisen\nHilfe & Kontakt\nHilfe und Kontakt\nVerkehrsmeldungen\nAktuelle Verkehrsmeldungen\nBaustellen\nAktuelle Meldungen zu Baustellen\nDeutsch\nHauptnavigation\nTickets & Angebote\nInfo & Services\nMeine Reisen\nAnmelden\nBahn Tickets & Services\nTop Angebot\nNur bis 31. Juli 2026\nWir drücken den Preis. Sie Ihre Liebsten!\n\nNur bis 31. Juli: BahnCard 50 zum Aktionspreis ab 199 €.\n\nZur Aktion\nZur BahnCard Aktion\nVerbindung suchen\nKarte anzeigen\nStart\nStart- und Zielbahnhof tauschen \nZiel\nSuchen\nHeute, ab 09:56\nHinfahrt ändern\n\nRückfahrt\nHinzufügen\n\nReisende, Fahrräder, Ermäßigungen\n1 Person (27-64 Jahre), keine Ermäßigung\n\n1. Klasse\n2. Klasse\nTop Angebote\nInterrail\n\nEin Ticket – endlos viele Erlebnisse. Durch 33 Länder in Europa ab 212 Euro.\n\nMehr Informationen\nInterrail Pass wählen\nLast Minute Sparpreise\n\nDieses Wochenende buchen. Nächste Woche fahren. Ab 6,99 Euro.\n\nWeitere Informationen\nGünstigen Preis finden\nSeniore"
+  }
+}

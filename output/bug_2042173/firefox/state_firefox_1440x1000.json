@@ -1,0 +1,166 @@
+{
+  "ok": true,
+  "browser": "firefox",
+  "executable": "/Applications/Firefox.app/Contents/MacOS/firefox",
+  "puppeteerPackage": "puppeteer-core",
+  "requestedUrl": "https://www.amazon.com/dp/B0FD9Z9FSF/?coliid=I3MQ3BARFOSOEE&colid=105SCGC0NK0ET&th=1&psc=1",
+  "finalUrl": "https://www.amazon.com/dp/B0FD9Z9FSF/?coliid=I3MQ3BARFOSOEE&colid=105SCGC0NK0ET&th=1&psc=1",
+  "httpStatus": 200,
+  "viewport": {
+    "width": 1440,
+    "height": 1000,
+    "deviceScaleFactor": 1
+  },
+  "screenshot": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042173/firefox/screenshot_firefox_1440x1000.png",
+  "navigationError": null,
+  "networkIdleError": null,
+  "events": {
+    "console": [
+      {
+        "type": "debug",
+        "text": "Error during native obstruction fetch JSHandle@error"
+      },
+      {
+        "type": "warn",
+        "text": "VIDEOJS: WARN: Using hls options is deprecated. Use vhs instead."
+      },
+      {
+        "type": "debug",
+        "text": "Error during native obstruction fetch JSHandle@error"
+      },
+      {
+        "type": "debug",
+        "text": "Error during native obstruction fetch JSHandle@error"
+      },
+      {
+        "type": "debug",
+        "text": "Error during native obstruction fetch JSHandle@error"
+      },
+      {
+        "type": "debug",
+        "text": "Error during native obstruction fetch JSHandle@error"
+      }
+    ],
+    "pageErrors": [
+      {
+        "name": "Error",
+        "message": "The Components object is deprecated. It will soon be removed."
+      }
+    ],
+    "requestFailures": [
+      {
+        "url": "https://unagi.amazon.com/1/events/com.amazon.csm.csa.prod",
+        "method": "POST",
+        "resourceType": null,
+        "failure": {
+          "errorText": "NS_ERROR_FAILURE"
+        }
+      },
+      {
+        "url": "https://us-u.openx.net/w/1.0/sd?id=537072986&val=2BDHx8PkQUa-tcuzof-KVg&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3DopenxHMT%26id%3D%7BOPENX_RTB_USERID%7D&gdpr_consent=&gdpr=0",
+        "method": "GET",
+        "resourceType": null,
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://ib.adnxs.com/setuid/a9?entity=188&code=DzPYn9_5Tv-W2SAoM1bNsw&redir=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3DxandrHMT%26id%3D%24UID&gdpr_consent=&gdpr=0",
+        "method": "GET",
+        "resourceType": null,
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://unagi.amazon.com/1/events/com.amazon.csm.nexusclient.prod",
+        "method": "POST",
+        "resourceType": null,
+        "failure": {
+          "errorText": "NS_ERROR_FAILURE"
+        }
+      },
+      {
+        "url": "https://ib.adnxs.com/getuid?https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fid=%24UID&ex=appnexus.com&gdpr_consent=&gdpr=0",
+        "method": "GET",
+        "resourceType": null,
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://ib.adnxs.com/getuid?https://cookie-matching.mediarithmics.com/input?key=APX&apx_uid=$UID&opid=apx&ops=&utidl=tech:goo:CAESENJAog6KGOAbEc9Np38Bleg&gdpr_consent=&gdpr=0&action=GET_ID&etid=&domid=1109",
+        "method": "GET",
+        "resourceType": null,
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://us-east-sync.richaudience.com/2815b6ef352b486227f27969993f46e5/?uid=zbuyO6ezQJyKmqFtTOh4IQ&r=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3DexteHMT&id=&gdpr_consent=&gdpr=0",
+        "method": "GET",
+        "resourceType": null,
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://unagi-na.amazon.com/1/events/com.amazon.BotCXPolicy.na.prod.bd",
+        "method": "POST",
+        "resourceType": null,
+        "failure": {
+          "errorText": "NS_ERROR_FAILURE"
+        }
+      },
+      {
+        "url": "https://unagi.amazon.com/1/events/com.amazon.csm.csa.prod",
+        "method": "POST",
+        "resourceType": null,
+        "failure": {
+          "errorText": "NS_ERROR_FAILURE"
+        }
+      },
+      {
+        "url": "https://unagi.amazon.com/1/events/com.amazon.csm.csa.prod",
+        "method": "POST",
+        "resourceType": null,
+        "failure": {
+          "errorText": "NS_ERROR_FAILURE"
+        }
+      },
+      {
+        "url": "https://unagi.amazon.com/1/events/com.amazon.csm.csa.prod",
+        "method": "POST",
+        "resourceType": null,
+        "failure": {
+          "errorText": "NS_ERROR_FAILURE"
+        }
+      },
+      {
+        "url": "https://unagi.amazon.com/1/events/com.amazon.csm.nexusclient.prod",
+        "method": "POST",
+        "resourceType": null,
+        "failure": {
+          "errorText": "NS_ERROR_FAILURE"
+        }
+      }
+    ]
+  },
+  "documentState": {
+    "url": "https://www.amazon.com/dp/B0FD9Z9FSF/?coliid=I3MQ3BARFOSOEE&colid=105SCGC0NK0ET&th=1&psc=1",
+    "title": "BABEYOND Kimono Robe Cover up with Box Long Floral Satin Sleepwear Silky Bathrobe Bachelorette Robe at Amazon Women’s Clothing store",
+    "readyState": "complete",
+    "viewport": {
+      "innerWidth": 1440,
+      "innerHeight": 1000,
+      "devicePixelRatio": 1
+    },
+    "documentElement": {
+      "clientWidth": 1425,
+      "clientHeight": 985,
+      "scrollWidth": 1433,
+      "scrollHeight": 10725
+    },
+    "bodyTextSample": "Skip to\nMain content\nAbout this item\nBuying options\nVideos\nReviews\nKeyboard shortcuts\nSearch\nopt\n+\n/\nCart\nshift\n+\nopt\n+\nC\nHome\nshift\n+\nopt\n+\nH\nOrders\nshift\n+\nopt\n+\nO\nAdd to cart\nshift\n+\nopt\n+\nK\nProduct summary\nshift\n+\nopt\n+\nD\nShow/Hide shortcuts\nshift\n+\nopt\n+\nZ\nTo move between items, use your keyboard's up or down arrows.\nDeliver to\nFrance\nAll\nEN\nHello, sign in\nAccount & Lists\nReturns\n& Orders\n0\nCart\nWe're showing you items that ship to France. To see items that ship to a different country, change your delivery address.\nDismiss\n \nChange Address\nAll\nToday's Deals\nGift Cards\nSell\nRegistry\nPrime Video\nCustomer Service\nDisability Customer Support\nProduct summary presents key product information \nKeyboard shortcut  shift + opt + D\nSponsored \nClothing, Shoes & Jewelry\n›\nWomen\n›\nClothing\n›\nLingerie, Sleep & Lounge\n›\nSleep & Lounge\n›\nRobes\nVisit the BABEYOND Store\nBABEYOND Kimono Robe Cover up with Box Long Floral Satin Sleepwear Silky Bathrobe Bachelorette Robe\n4.6 \n4.6 out of 5 stars\n   (3,9"
+  }
+}

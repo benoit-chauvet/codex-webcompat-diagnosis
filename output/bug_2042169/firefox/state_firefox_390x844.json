@@ -1,0 +1,73 @@
+{
+  "ok": true,
+  "browser": "firefox",
+  "executable": "/private/var/folders/ms/_ys5hmhs7zzfhpwwzzs_h78m0000gn/T/bugzilla-firefox-diagnose-cache/150.0/app/Firefox.app/Contents/MacOS/firefox",
+  "puppeteerPackage": "puppeteer-core",
+  "requestedUrl": "https://www.bahn.de/",
+  "finalUrl": "https://www.bahn.de/",
+  "httpStatus": 200,
+  "viewport": {
+    "width": 390,
+    "height": 844,
+    "deviceScaleFactor": 1
+  },
+  "screenshot": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042169/firefox/screenshot_firefox_390x844.png",
+  "navigationError": null,
+  "networkIdleError": null,
+  "events": {
+    "console": [
+      {
+        "type": "log",
+        "text": "Checking to see if there is an authorization response to be delivered."
+      },
+      {
+        "type": "log",
+        "text": "Notifier is not present on AuthorizationRequest handler.\n          No delivery of result will be possible"
+      },
+      {
+        "type": "log",
+        "text": "No result is available yet."
+      },
+      {
+        "type": "log",
+        "text": "Checking to see if there is an authorization response to be delivered."
+      },
+      {
+        "type": "log",
+        "text": "No result is available yet."
+      },
+      {
+        "type": "log",
+        "text": "Re-registering service worker"
+      }
+    ],
+    "pageErrors": [
+      {
+        "name": "Error",
+        "message": "Content-Security-Policy: The page’s settings blocked a script (script-src-elem) at blob:https://www.bahn.de/f1c85d9c-7847-4857-81b8-8dab74eab628 from being executed because it violates the following directive: “script-src 'self' 'unsafe-inline' 'unsafe-eval'”"
+      },
+      {
+        "name": "Error",
+        "message": "NetworkError: A network error occurred."
+      }
+    ],
+    "requestFailures": []
+  },
+  "documentState": {
+    "url": "https://www.bahn.de/",
+    "title": "DB Fahrplan, Auskunft, Tickets, informieren und buchen - Deutsche Bahn",
+    "readyState": "complete",
+    "viewport": {
+      "innerWidth": 390,
+      "innerHeight": 844,
+      "devicePixelRatio": 1
+    },
+    "documentElement": {
+      "clientWidth": 375,
+      "clientHeight": 844,
+      "scrollWidth": 375,
+      "scrollHeight": 4425
+    },
+    "bodyTextSample": "Zur Verbindungssuche springen\nZu den Hauptinhalten springen\nHauptnavigation\nBahn Tickets & Services\nTop Angebot\nNur bis 31. Juli 2026\nWir drücken den Preis. Sie Ihre Liebsten!\n\nNur bis 31. Juli: BahnCard 50 zum Aktionspreis ab 199 €.\n\nZur Aktion\nZur BahnCard Aktion\nVerbindung suchen\nKarte\nStart\nZiel\nStart- und Zielbahnhof tauschen \nHeute, ab 09:57\nHinfahrt ändern\n\nRückfahrt\nHinzufügen\n\nReisende, Fahrräder, Ermäßigungen\n1 Person (27-64 Jahre), keine Ermäßigung\n\n1. Klasse\n2. Klasse\nSuchen\nTop Angebote\nInterrail\n\nEin Ticket – endlos viele Erlebnisse. Durch 33 Länder in Europa ab 212 Euro.\n\nMehr Informationen\nInterrail Pass wählen\nLast Minute Sparpreise\n\nDieses Wochenende buchen. Nächste Woche fahren. Ab 6,99 Euro.\n\nWeitere Informationen\nGünstigen Preis finden\nSenioren BahnCard Plus\n\nNur bis 31. Mai: Mit der Senioren BahnCard Plus erhalten Sie den BahnBonus Statuslevel Silber, Loungezugang, Freigetränke uvm.\n\nZur Aktion\nFlexpreis Young\n\n20 % Rabatt auf den regulären Flexpreis bis zum 31. J"
+  }
+}

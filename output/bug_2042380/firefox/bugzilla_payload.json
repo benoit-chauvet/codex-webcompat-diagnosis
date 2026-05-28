@@ -1,0 +1,285 @@
+{
+  "bug_id": "2042380",
+  "endpoints": {
+    "attachments": "https://bugzilla.mozilla.org/rest/bug/2042380/attachment?exclude_fields=data",
+    "bug": "https://bugzilla.mozilla.org/rest/bug/2042380",
+    "comments": "https://bugzilla.mozilla.org/rest/bug/2042380/comment",
+    "history": "https://bugzilla.mozilla.org/rest/bug/2042380/history"
+  },
+  "fetched_at": "2026-05-28T07:52:30+00:00",
+  "responses": {
+    "attachments": {
+      "attachments": {},
+      "bugs": {
+        "2042380": [
+          {
+            "attacher": "rbucata@mozilla.com",
+            "bug_id": 2042380,
+            "content_type": "video/mp4",
+            "creation_time": "2026-05-26T12:38:08Z",
+            "creator": "rbucata@mozilla.com",
+            "creator_detail": {
+              "email": "rbucata@mozilla.com",
+              "id": 675083,
+              "name": "rbucata@mozilla.com",
+              "nick": "rbucata",
+              "real_name": "Raul Bucata"
+            },
+            "description": "Chr vs ff android",
+            "file_name": "26.05.2026_15.35.29_REC.mp4",
+            "flags": [],
+            "id": 9589722,
+            "is_obsolete": 0,
+            "is_patch": 0,
+            "is_private": 0,
+            "last_change_time": "2026-05-26T12:38:08Z",
+            "size": 1724026,
+            "summary": "Chr vs ff android"
+          }
+        ]
+      }
+    },
+    "bug": {
+      "bugs": [
+        {
+          "alias": null,
+          "assigned_to": "nobody@mozilla.org",
+          "assigned_to_detail": {
+            "email": "nobody@mozilla.org",
+            "id": 1,
+            "name": "nobody@mozilla.org",
+            "nick": "nobody",
+            "real_name": "Nobody; OK to take it and work on it"
+          },
+          "blocks": [],
+          "cc": [
+            "alice0775@gmail.com",
+            "kberezina@mozilla.com"
+          ],
+          "cc_detail": [
+            {
+              "email": "alice0775@gmail.com",
+              "id": 293623,
+              "name": "alice0775@gmail.com",
+              "nick": "alice0775",
+              "real_name": "Alice0775 White"
+            },
+            {
+              "email": "kberezina@mozilla.com",
+              "id": 638886,
+              "name": "kberezina@mozilla.com",
+              "nick": "ksenia",
+              "real_name": "Ksenia Berezina [:ksenia]"
+            }
+          ],
+          "cf_a11y_review_project_flag": "---",
+          "cf_accessibility_severity": "---",
+          "cf_cab_review": "---",
+          "cf_fx_iteration": "---",
+          "cf_fx_points": "---",
+          "cf_last_resolved": null,
+          "cf_performance_impact": "---",
+          "cf_qa_whiteboard": "",
+          "cf_status_firefox151": "---",
+          "cf_status_firefox152": "---",
+          "cf_status_firefox153": "---",
+          "cf_status_firefox_esr115": "---",
+          "cf_status_firefox_esr140": "---",
+          "cf_tracking_firefox151": "---",
+          "cf_tracking_firefox152": "---",
+          "cf_tracking_firefox153": "---",
+          "cf_tracking_firefox_esr115": "---",
+          "cf_tracking_firefox_esr140": "---",
+          "cf_tracking_firefox_relnote": "---",
+          "cf_user_story": "user-impact-score:600\r\nplatform:windows,mac,linux,android\r\nimpact:content-missing\r\nconfiguration:general\r\naffects:all\r\nbranch:release\r\ndiagnosis-team:media",
+          "cf_webcompat_priority": "P2",
+          "cf_webcompat_score": "7",
+          "classification": "Client Software",
+          "comment_count": 2,
+          "component": "Site Reports",
+          "creation_time": "2026-05-26T12:37:44Z",
+          "creator": "rbucata@mozilla.com",
+          "creator_detail": {
+            "email": "rbucata@mozilla.com",
+            "id": 675083,
+            "name": "rbucata@mozilla.com",
+            "nick": "rbucata",
+            "real_name": "Raul Bucata"
+          },
+          "depends_on": [],
+          "dupe_of": null,
+          "duplicates": [],
+          "flags": [],
+          "groups": [],
+          "id": 2042380,
+          "is_cc_accessible": true,
+          "is_confirmed": true,
+          "is_creator_accessible": true,
+          "is_open": true,
+          "keywords": [
+            "webcompat:needs-diagnosis",
+            "webcompat:site-report"
+          ],
+          "last_change_time": "2026-05-27T14:35:12Z",
+          "mentors": [],
+          "mentors_detail": [],
+          "op_sys": "Windows 10",
+          "platform": "Desktop",
+          "priority": "P2",
+          "product": "Web Compatibility",
+          "qa_contact": "",
+          "regressed_by": [],
+          "regressions": [],
+          "resolution": "",
+          "see_also": [
+            "https://github.com/webcompat/web-bugs/issues/222407"
+          ],
+          "severity": "S2",
+          "status": "NEW",
+          "summary": "www.bilibili.com - The first 5 seconds of the video are skipped",
+          "target_milestone": "---",
+          "type": "defect",
+          "url": "https://www.bilibili.com/video/BV14j2TBmE9w/",
+          "version": "unspecified",
+          "votes": 0,
+          "whiteboard": "[webcompat-source:web-bugs][webcompat:sightline][webcompat:japan][webcompat:core]"
+        }
+      ],
+      "faults": []
+    },
+    "comments": {
+      "bugs": {
+        "2042380": {
+          "comments": [
+            {
+              "attachment_id": null,
+              "author": "rbucata@mozilla.com",
+              "bug_id": 2042380,
+              "count": 0,
+              "creation_time": "2026-05-26T12:37:44Z",
+              "creator": "rbucata@mozilla.com",
+              "id": 18104348,
+              "is_private": false,
+              "raw_text": "**Environment:**\nOperating system: Windows 10\nFirefox version: Firefox 151.0\n\n**Steps to reproduce:**\n1. Navigate to: https://www.bilibili.com/video/BV14j2TBmE9w/\n2. Hover the video so that the video controls are triggered\n3. Observe the timeline bar\n\n**Expected Behavior:**\nVideo starts from 00:00 or 00:01\n\n**Actual Behavior:**\nVideo skips the first 5-6 seconds\n\n**Notes:**\n- Reproduces regardless of the status of ETP\n- Reproduces in firefox-nightly, and firefox-release\n- Does not reproduce in chrome\n\nCreated from https://github.com/webcompat/web-bugs/issues/222407",
+              "reactions": {},
+              "tags": [],
+              "text": "**Environment:**\nOperating system: Windows 10\nFirefox version: Firefox 151.0\n\n**Steps to reproduce:**\n1. Navigate to: https://www.bilibili.com/video/BV14j2TBmE9w/\n2. Hover the video so that the video controls are triggered\n3. Observe the timeline bar\n\n**Expected Behavior:**\nVideo starts from 00:00 or 00:01\n\n**Actual Behavior:**\nVideo skips the first 5-6 seconds\n\n**Notes:**\n- Reproduces regardless of the status of ETP\n- Reproduces in firefox-nightly, and firefox-release\n- Does not reproduce in chrome\n\nCreated from https://github.com/webcompat/web-bugs/issues/222407",
+              "time": "2026-05-26T12:37:44Z"
+            },
+            {
+              "attachment_id": 9589722,
+              "author": "rbucata@mozilla.com",
+              "bug_id": 2042380,
+              "count": 1,
+              "creation_time": "2026-05-26T12:38:08Z",
+              "creator": "rbucata@mozilla.com",
+              "id": 18104350,
+              "is_private": false,
+              "raw_text": "",
+              "reactions": {},
+              "tags": [],
+              "text": "Created attachment 9589722\nChr vs ff android",
+              "time": "2026-05-26T12:38:08Z"
+            }
+          ]
+        }
+      },
+      "comments": {}
+    },
+    "history": {
+      "bugs": [
+        {
+          "alias": null,
+          "history": [
+            {
+              "changes": [
+                {
+                  "added": "[webcompat-source:web-bugs][webcompat:sightline][webcompat:japan][webcompat:core]",
+                  "field_name": "whiteboard",
+                  "removed": "[webcompat-source:web-bugs]"
+                }
+              ],
+              "when": "2026-05-26T13:44:44Z",
+              "who": "release-mgmt-account-bot@mozilla.tld"
+            },
+            {
+              "changes": [
+                {
+                  "added": "alice0775@gmail.com",
+                  "field_name": "cc",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-05-26T15:14:50Z",
+              "who": "alice0775@gmail.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "@@ -1 +1 @@\n-\n+user-impact-score:0\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                },
+                {
+                  "added": "P3",
+                  "field_name": "cf_webcompat_priority",
+                  "removed": "---"
+                },
+                {
+                  "added": "1",
+                  "field_name": "cf_webcompat_score",
+                  "removed": "---"
+                }
+              ],
+              "when": "2026-05-27T08:07:40Z",
+              "who": "release-mgmt-account-bot@mozilla.tld"
+            },
+            {
+              "changes": [
+                {
+                  "added": "@@ -1 +1,7 @@\n-user-impact-score:0\n+user-impact-score:600\r\n+platform:windows,mac,linux,android\r\n+impact:content-missing\r\n+configuration:general\r\n+affects:all\r\n+branch:release\r\n+diagnosis-team:media\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                },
+                {
+                  "added": "S2",
+                  "field_name": "severity",
+                  "removed": "--"
+                },
+                {
+                  "added": "kberezina@mozilla.com",
+                  "field_name": "cc",
+                  "removed": ""
+                },
+                {
+                  "added": "webcompat:needs-diagnosis",
+                  "field_name": "keywords",
+                  "removed": ""
+                },
+                {
+                  "added": "P2",
+                  "field_name": "priority",
+                  "removed": "--"
+                },
+                {
+                  "added": "P2",
+                  "field_name": "cf_webcompat_priority",
+                  "removed": "P3"
+                },
+                {
+                  "added": "7",
+                  "field_name": "cf_webcompat_score",
+                  "removed": "1"
+                }
+              ],
+              "when": "2026-05-27T14:35:12Z",
+              "who": "kberezina@mozilla.com"
+            }
+          ],
+          "id": 2042380
+        }
+      ]
+    }
+  },
+  "show_bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=2042380"
+}

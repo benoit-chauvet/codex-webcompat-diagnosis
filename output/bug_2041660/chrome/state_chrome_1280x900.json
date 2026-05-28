@@ -1,0 +1,48 @@
+{
+  "ok": true,
+  "browser": "chrome",
+  "executable": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+  "puppeteerPackage": "puppeteer-core",
+  "requestedUrl": "https://meet.google.com/",
+  "finalUrl": "https://workspace.google.com/products/meet/",
+  "httpStatus": 200,
+  "viewport": {
+    "width": 1280,
+    "height": 900,
+    "deviceScaleFactor": 1
+  },
+  "screenshot": "output/bug_2041660/chrome/screenshot_chrome_1280x900.png",
+  "navigationError": null,
+  "networkIdleError": null,
+  "events": {
+    "console": [],
+    "pageErrors": [],
+    "requestFailures": [
+      {
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-FWCBRW1RY8&gtm=45je65q2v886057375z8595350za20gzb595350zd595350&_p=1779956296026&gcs=G101&gcd=13q3rPl2q5l1&npa=1&dma_cps=-&dma=1&_eu=EAAAAGA&_ng=1&are=1&cid=1692063120.1779956296&frm=0&ir=1&pscdl=denied&rcb=11&sr=800x600&uaa=arm&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=macOS&uapv=26.5.0&uaw=0&ul=en&gaf=2&_s=1&tag_exp=0~115938466~115938469~118689382~119169248&dl=https%3A%2F%2Fworkspacegoogle.com%2Fus%3A%2Fproducts%2Fmeet%2F&dp=us%3A%2Fproducts%2Fmeet%2F&sid=1779956296&sct=1&seg=0&dt=Google%20Meet%3A%20Online%20Web%20and%20Video%20Conferencing%20Calls%20%7C%20Google%20Workspace&en=page_view&_fv=1&_nsi=1&_ss=1&_c=1&ep.region=noram&ep.original_url=workspace.google.com%2Fproducts%2Fmeet%2F&ep.cs_employee_count=&ep.concatenated_exids=(not%20set)&ep.apps_marketing_signals_cookie=(not%20set)&ep.cs_industry=&ep.cs_formid=33&ep.locale=en_us&ep.resolution=800x600&ep.is_rivendell=true&ep.is_eea=true&ep.user_agent=Mozilla%2F5.0%20(Macintosh%3B%20Intel%20Mac%20OS%20X%2010_15_7)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20HeadlessChrome%2F148.0.0.0%20Safari%2F537.36&ep.experiment_ids_list=&tfd=710",
+        "method": "POST",
+        "resourceType": "fetch",
+        "failure": {
+          "errorText": "net::ERR_ABORTED"
+        }
+      }
+    ]
+  },
+  "documentState": {
+    "url": "https://workspace.google.com/products/meet/",
+    "title": "Google Meet: Online Web and Video Conferencing Calls | Google Workspace",
+    "readyState": "complete",
+    "viewport": {
+      "innerWidth": 1280,
+      "innerHeight": 900,
+      "devicePixelRatio": 1
+    },
+    "documentElement": {
+      "clientWidth": 1280,
+      "clientHeight": 900,
+      "scrollWidth": 1280,
+      "scrollHeight": 8712
+    },
+    "bodyTextSample": "workspace.google.com uses cookies from Google to deliver and enhance the quality of its services and to analyze traffic. Learn more\n\nUnderstood\nSkip to main content\nSolutions\nProducts\nIndustries\nAI\nPricing\nResources\nTry Meet for work\nSign in\nVideo calls, enhanced with AI\n\nMake connecting easy with AI-powered video calls that enable collaboration and expression.\n\nSign in\nTry Meet for work\nJoin a meeting now\nGemini in Meet\nFlexible\nEnhance\nCollaborate\nSecure\nPremium\nCustomers\nFAQs\nDrive decisions and action with AI-enhanced meetings\n\nTurn discussions into next steps instantly. With Gemini in Google Meet automating your notes, translating conversations, and surfacing key insights, your team can focus entirely on making choices and moving work forward. Unlock Gemini in Google Meet.\n\nMeet on any device\n\nJoin on your mobile phone or tablet via the Google Meet app, available on the App Store and Play Store. Or connect from your computer browser – no software install needed.\n\nBuilt for better "
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "videoPath": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042380/attachments/bilibili-skip.mp4",
+  "metadata": {
+    "duration": 20.222811,
+    "videoWidth": 1280,
+    "videoHeight": 686
+  },
+  "captured": [
+    {
+      "requestedTime": 0,
+      "targetTime": 0,
+      "screenshot": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042380/attachments/frames/frame_0s.png"
+    },
+    {
+      "requestedTime": 2,
+      "targetTime": 2,
+      "screenshot": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042380/attachments/frames/frame_2s.png"
+    },
+    {
+      "requestedTime": 5,
+      "targetTime": 5,
+      "screenshot": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042380/attachments/frames/frame_5s.png"
+    }
+  ]
+}

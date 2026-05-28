@@ -1,0 +1,265 @@
+{
+  "bug_id": "2042322",
+  "endpoints": {
+    "attachments": "https://bugzilla.mozilla.org/rest/bug/2042322/attachment?exclude_fields=data",
+    "bug": "https://bugzilla.mozilla.org/rest/bug/2042322",
+    "comments": "https://bugzilla.mozilla.org/rest/bug/2042322/comment",
+    "history": "https://bugzilla.mozilla.org/rest/bug/2042322/history"
+  },
+  "fetched_at": "2026-05-28T07:55:07+00:00",
+  "responses": {
+    "attachments": {
+      "attachments": {},
+      "bugs": {
+        "2042322": [
+          {
+            "attacher": "bfarkas@mozilla.com",
+            "bug_id": 2042322,
+            "content_type": "video/mp4",
+            "creation_time": "2026-05-26T08:53:48Z",
+            "creator": "bfarkas@mozilla.com",
+            "creator_detail": {
+              "email": "bfarkas@mozilla.com",
+              "id": 779692,
+              "name": "bfarkas@mozilla.com",
+              "nick": "bfarkas",
+              "real_name": "Bernadett Farkas"
+            },
+            "description": "Unresponsive scroll Nightly vs Chrome",
+            "file_name": "tiktok-scroll.mp4",
+            "flags": [],
+            "id": 9589656,
+            "is_obsolete": 0,
+            "is_patch": 0,
+            "is_private": 0,
+            "last_change_time": "2026-05-26T08:53:48Z",
+            "size": 9570546,
+            "summary": "Unresponsive scroll Nightly vs Chrome"
+          }
+        ]
+      }
+    },
+    "bug": {
+      "bugs": [
+        {
+          "alias": null,
+          "assigned_to": "nobody@mozilla.org",
+          "assigned_to_detail": {
+            "email": "nobody@mozilla.org",
+            "id": 1,
+            "name": "nobody@mozilla.org",
+            "nick": "nobody",
+            "real_name": "Nobody; OK to take it and work on it"
+          },
+          "blocks": [],
+          "cc": [
+            "kberezina@mozilla.com"
+          ],
+          "cc_detail": [
+            {
+              "email": "kberezina@mozilla.com",
+              "id": 638886,
+              "name": "kberezina@mozilla.com",
+              "nick": "ksenia",
+              "real_name": "Ksenia Berezina [:ksenia]"
+            }
+          ],
+          "cf_a11y_review_project_flag": "---",
+          "cf_accessibility_severity": "---",
+          "cf_cab_review": "---",
+          "cf_fx_iteration": "---",
+          "cf_fx_points": "---",
+          "cf_last_resolved": null,
+          "cf_performance_impact": "---",
+          "cf_qa_whiteboard": "",
+          "cf_status_firefox151": "---",
+          "cf_status_firefox152": "---",
+          "cf_status_firefox153": "affected",
+          "cf_status_firefox_esr115": "---",
+          "cf_status_firefox_esr140": "affected",
+          "cf_tracking_firefox151": "---",
+          "cf_tracking_firefox152": "---",
+          "cf_tracking_firefox153": "---",
+          "cf_tracking_firefox_esr115": "---",
+          "cf_tracking_firefox_esr140": "---",
+          "cf_tracking_firefox_relnote": "---",
+          "cf_user_story": "user-impact-score:170\r\nplatform:windows\r\nimpact:workflow-broken\r\nconfiguration:general\r\naffects:some\r\nbranch:release\r\ndiagnosis-team:dom",
+          "cf_webcompat_priority": "P2",
+          "cf_webcompat_score": "5",
+          "classification": "Client Software",
+          "comment_count": 1,
+          "component": "Site Reports",
+          "creation_time": "2026-05-26T08:53:48Z",
+          "creator": "bfarkas@mozilla.com",
+          "creator_detail": {
+            "email": "bfarkas@mozilla.com",
+            "id": 779692,
+            "name": "bfarkas@mozilla.com",
+            "nick": "bfarkas",
+            "real_name": "Bernadett Farkas"
+          },
+          "depends_on": [],
+          "dupe_of": null,
+          "duplicates": [],
+          "flags": [],
+          "groups": [],
+          "id": 2042322,
+          "is_cc_accessible": true,
+          "is_confirmed": true,
+          "is_creator_accessible": true,
+          "is_open": true,
+          "keywords": [
+            "webcompat:needs-diagnosis",
+            "webcompat:site-report"
+          ],
+          "last_change_time": "2026-05-27T14:37:42Z",
+          "mentors": [],
+          "mentors_detail": [],
+          "op_sys": "Windows",
+          "platform": "Desktop",
+          "priority": "P2",
+          "product": "Web Compatibility",
+          "qa_contact": "",
+          "regressed_by": [],
+          "regressions": [],
+          "resolution": "",
+          "see_also": [],
+          "severity": "S4",
+          "status": "NEW",
+          "summary": "www.tiktok.com - Mouse scrolling is unresponsive if up/down navigation arrows are not displayed on the page",
+          "target_milestone": "---",
+          "type": "defect",
+          "url": "https://www.tiktok.com/de-DE/",
+          "version": "Firefox 153",
+          "votes": 0,
+          "whiteboard": "[webcompat-source:product][webcompat:sightline][webcompat:japan][webcompat:core]"
+        }
+      ],
+      "faults": []
+    },
+    "comments": {
+      "bugs": {
+        "2042322": {
+          "comments": [
+            {
+              "attachment_id": 9589656,
+              "author": "bfarkas@mozilla.com",
+              "bug_id": 2042322,
+              "count": 0,
+              "creation_time": "2026-05-26T08:53:48Z",
+              "creator": "bfarkas@mozilla.com",
+              "id": 18103881,
+              "is_private": false,
+              "raw_text": "**Environment:**\nOperating system: Windows 10\nFirefox version: Firefox 140.10.1esr (esr) / Firefox Nightly 153.0a1 (2026-05-25)\n\n**Preconditions:**\n- Clean profile\n\n**Steps to reproduce:**\n1. Navigate to: https://www.tiktok.com/de-DE/\n2. Resize the browser window to a smaller width or change the zoom level until the up/down navigation arrows disappear \n3. Attempt to scroll up or down using the mouse wheel\n4. Observe the page\n\n**Expected Behavior:**\nThe scroll functionality works accordingly\n\n**Actual Behavior:**\nMouse scrolling is unresponsive\n\n**Notes:**\n- Reproducible on the latest Firefox Release and Nightly\n- Reproducible regardless of the ETP setting\n- Works as expected using Chrome\n\n---\n\nCreated from webcompat-user-report:2731c8e7-4f8b-4be2-8e12-696e5f7204b5",
+              "reactions": {},
+              "tags": [],
+              "text": "Created attachment 9589656\nUnresponsive scroll Nightly vs Chrome\n\n**Environment:**\nOperating system: Windows 10\nFirefox version: Firefox 140.10.1esr (esr) / Firefox Nightly 153.0a1 (2026-05-25)\n\n**Preconditions:**\n- Clean profile\n\n**Steps to reproduce:**\n1. Navigate to: https://www.tiktok.com/de-DE/\n2. Resize the browser window to a smaller width or change the zoom level until the up/down navigation arrows disappear \n3. Attempt to scroll up or down using the mouse wheel\n4. Observe the page\n\n**Expected Behavior:**\nThe scroll functionality works accordingly\n\n**Actual Behavior:**\nMouse scrolling is unresponsive\n\n**Notes:**\n- Reproducible on the latest Firefox Release and Nightly\n- Reproducible regardless of the ETP setting\n- Works as expected using Chrome\n\n---\n\nCreated from webcompat-user-report:2731c8e7-4f8b-4be2-8e12-696e5f7204b5",
+              "time": "2026-05-26T08:53:48Z"
+            }
+          ]
+        }
+      },
+      "comments": {}
+    },
+    "history": {
+      "bugs": [
+        {
+          "alias": null,
+          "history": [
+            {
+              "changes": [
+                {
+                  "added": "affected",
+                  "field_name": "cf_status_firefox_esr140",
+                  "removed": "---"
+                },
+                {
+                  "added": "affected",
+                  "field_name": "cf_status_firefox153",
+                  "removed": "---"
+                }
+              ],
+              "when": "2026-05-26T08:53:58Z",
+              "who": "bfarkas@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "[webcompat-source:product][webcompat:sightline][webcompat:japan][webcompat:core]",
+                  "field_name": "whiteboard",
+                  "removed": "[webcompat-source:product]"
+                }
+              ],
+              "when": "2026-05-26T09:43:52Z",
+              "who": "release-mgmt-account-bot@mozilla.tld"
+            },
+            {
+              "changes": [
+                {
+                  "added": "@@ -1 +1 @@\n-\n+user-impact-score:0\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                },
+                {
+                  "added": "P3",
+                  "field_name": "cf_webcompat_priority",
+                  "removed": "---"
+                },
+                {
+                  "added": "1",
+                  "field_name": "cf_webcompat_score",
+                  "removed": "---"
+                }
+              ],
+              "when": "2026-05-27T08:07:37Z",
+              "who": "release-mgmt-account-bot@mozilla.tld"
+            },
+            {
+              "changes": [
+                {
+                  "added": "P2",
+                  "field_name": "priority",
+                  "removed": "--"
+                },
+                {
+                  "added": "@@ -1 +1,7 @@\n-user-impact-score:0\n+user-impact-score:170\r\n+platform:windows\r\n+impact:workflow-broken\r\n+configuration:general\r\n+affects:some\r\n+branch:release\r\n+diagnosis-team:dom\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                },
+                {
+                  "added": "kberezina@mozilla.com",
+                  "field_name": "cc",
+                  "removed": ""
+                },
+                {
+                  "added": "webcompat:needs-diagnosis",
+                  "field_name": "keywords",
+                  "removed": ""
+                },
+                {
+                  "added": "S4",
+                  "field_name": "severity",
+                  "removed": "--"
+                },
+                {
+                  "added": "P2",
+                  "field_name": "cf_webcompat_priority",
+                  "removed": "P3"
+                },
+                {
+                  "added": "5",
+                  "field_name": "cf_webcompat_score",
+                  "removed": "1"
+                }
+              ],
+              "when": "2026-05-27T14:37:42Z",
+              "who": "kberezina@mozilla.com"
+            }
+          ],
+          "id": 2042322
+        }
+      ]
+    }
+  },
+  "show_bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=2042322"
+}

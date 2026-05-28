@@ -1,0 +1,101 @@
+{
+  "ok": true,
+  "browser": "chrome",
+  "executable": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+  "puppeteerPackage": "puppeteer-core",
+  "requestedUrl": "https://www.amazon.com/dp/B0FD9Z9FSF/?coliid=I3MQ3BARFOSOEE&colid=105SCGC0NK0ET&th=1&psc=1",
+  "finalUrl": "https://www.amazon.com/dp/B0FD9Z9FSF/?coliid=I3MQ3BARFOSOEE&colid=105SCGC0NK0ET&th=1&psc=1",
+  "httpStatus": 200,
+  "viewport": {
+    "width": 1280,
+    "height": 900,
+    "deviceScaleFactor": 1
+  },
+  "screenshot": "output/bug_2042173/chrome/screenshot_chrome_1280x900.png",
+  "navigationError": null,
+  "networkIdleError": null,
+  "events": {
+    "console": [
+      {
+        "type": "error",
+        "text": "Failed to load resource: net::ERR_TRUST_TOKEN_OPERATION_FAILED"
+      },
+      {
+        "type": "warn",
+        "text": "VIDEOJS: WARN: Using hls options is deprecated. Use vhs instead."
+      },
+      {
+        "type": "error",
+        "text": "Error logged with the Track&Report JS errors API(http://tiny/1covqr6l8/wamazindeClieUserJava): {\"m\":\"ARA:RegisterTriggerResponseError:DPV. Error receiving response from ARAServiceFailed to execute 'json' on 'Response': Unexpected end of JSON input\",\"name\":\"SyntaxError\",\"csm\":\"v5 ueLogError stack\",\"logLevel\":\"ERROR\",\"attribution\":\"ARARegisterTrigger\",\"pageURL\":\"https://www.amazon.com/dp/B0FD9Z9FSF/?coliid=I3MQ3BARFOSOEE&colid=105SCGC0NK0ET&th=1&psc=1\",\"f\":\"https://m.media-amazon.com/images/I/21vARlfe4pL._RC%7C11WTF6kPMoL.js_.js?AUIClients/ARARegisterTriggerSubAssets-dpv\",\"l\":\"7\",\"s\":[\"SyntaxError: Unexpected end of JSON input\",\"at https://m.media-amazon.com/images/I/21vARlfe4pL._RC%7C11WTF6kPMoL.js_.js?AUIClients/ARARegisterTriggerSubAssets-dpv:7:384\"],\"t\":3119} [object Object]"
+      }
+    ],
+    "pageErrors": [],
+    "requestFailures": [
+      {
+        "url": "https://www.amazon.com/tt/i",
+        "method": "GET",
+        "resourceType": "fetch",
+        "failure": {
+          "errorText": "net::ERR_TRUST_TOKEN_OPERATION_FAILED"
+        }
+      },
+      {
+        "url": "https://ib.adnxs.com/setuid/a9?entity=188&code=CXVVm8iET96rofKqV_eJnw&redir=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3DxandrHMT%26id%3D%24UID&gdpr_consent=&gdpr=0",
+        "method": "GET",
+        "resourceType": "image",
+        "failure": {
+          "errorText": "net::ERR_BLOCKED_BY_ORB"
+        }
+      },
+      {
+        "url": "https://pbs.yahoo.com/setuid?bidder=amazon&uid=3iGSRqt0QGCTdKndZqTPWg&gdpr_consent=&gdpr=0",
+        "method": "GET",
+        "resourceType": "image",
+        "failure": {
+          "errorText": "net::ERR_BLOCKED_BY_ORB"
+        }
+      },
+      {
+        "url": "https://ads.samba.tv/cookie_sync?https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Dsamba.tv%26id%3D",
+        "method": "GET",
+        "resourceType": "image",
+        "failure": {
+          "errorText": "net::ERR_BLOCKED_BY_ORB"
+        }
+      },
+      {
+        "url": "https://ib.adnxs.com/getuid?https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fid=%24UID&ex=appnexus.com&gdpr_consent=&gdpr=0",
+        "method": "GET",
+        "resourceType": "image",
+        "failure": {
+          "errorText": "net::ERR_BLOCKED_BY_ORB"
+        }
+      },
+      {
+        "url": "https://ib.adnxs.com/getuid?https://cookie-matching.mediarithmics.com/input?key=APX&apx_uid=$UID&opid=apx&ops=&utidl=tech:goo:CAESEJw510ZohfFh9hp9VtpZXcA&gdpr_consent=&gdpr=0&action=GET_ID&etid=&domid=1109",
+        "method": "GET",
+        "resourceType": "image",
+        "failure": {
+          "errorText": "net::ERR_BLOCKED_BY_ORB"
+        }
+      }
+    ]
+  },
+  "documentState": {
+    "url": "https://www.amazon.com/dp/B0FD9Z9FSF/?coliid=I3MQ3BARFOSOEE&colid=105SCGC0NK0ET&th=1&psc=1",
+    "title": "BABEYOND Kimono Robe Cover up with Box Long Floral Satin Sleepwear Silky Bathrobe Bachelorette Robe at Amazon Women’s Clothing store",
+    "readyState": "complete",
+    "viewport": {
+      "innerWidth": 1280,
+      "innerHeight": 900,
+      "devicePixelRatio": 1
+    },
+    "documentElement": {
+      "clientWidth": 1280,
+      "clientHeight": 900,
+      "scrollWidth": 1280,
+      "scrollHeight": 9226
+    },
+    "bodyTextSample": "Skip to\nMain content\nAbout this item\nBuying options\nVideos\nReviews\nKeyboard shortcuts\nSearch\nopt\n+\n/\nCart\nshift\n+\nopt\n+\nC\nHome\nshift\n+\nopt\n+\nH\nOrders\nshift\n+\nopt\n+\nO\nAdd to cart\nshift\n+\nopt\n+\nK\nProduct summary\nshift\n+\nopt\n+\nD\nShow/Hide shortcuts\nshift\n+\nopt\n+\nZ\nTo move between items, use your keyboard's up or down arrows.\nDeliver to\nFrance\nAll\nAll Departments\nArts & Crafts\nAutomotive\nBaby\nBeauty & Personal Care\nBooks\nBoys' Fashion\nComputers\nDeals\nDigital Music\nElectronics\nGirls' Fashion\nHealth & Household\nHome & Kitchen\nIndustrial & Scientific\nKindle Store\nLuggage\nMen's Fashion\nMovies & TV\nMusic, CDs & Vinyl\nPet Supplies\nPrime Video\nSoftware\nSports & Outdoors\nTools & Home Improvement\nToys & Games\nVideo Games\nWomen's Fashion\nEN\nHello, sign in\nAccount & Lists\nReturns\n& Orders\n0\nCart\nWe're showing you items that ship to France. To see items that ship to a different country, change your delivery address.\nDismiss\n \nChange Address\nAll\nToday's Deals\nGift Cards\nSell\nRegistry\nPrime Video\nCustom"
+  }
+}

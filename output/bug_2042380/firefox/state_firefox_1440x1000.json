@@ -1,0 +1,64 @@
+{
+  "ok": true,
+  "browser": "firefox",
+  "executable": "/Applications/Firefox.app/Contents/MacOS/firefox",
+  "puppeteerPackage": "puppeteer-core",
+  "requestedUrl": "https://www.bilibili.com/video/BV14j2TBmE9w/",
+  "finalUrl": "https://www.bilibili.com/?spm_id_from=333.788.selfDef.errorpage",
+  "httpStatus": 200,
+  "viewport": {
+    "width": 1440,
+    "height": 1000,
+    "deviceScaleFactor": 1
+  },
+  "screenshot": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042380/firefox/screenshot_firefox_1440x1000.png",
+  "navigationError": null,
+  "networkIdleError": null,
+  "events": {
+    "console": [
+      {
+        "type": "info",
+        "text": "bili-fe-fp: 1.1.4"
+      },
+      {
+        "type": "log",
+        "text": "\n                     //\n         \\\\         //\n          \\\\       //\n    ##DDDDDDDDDDDDDDDDDDDDDD##\n    ## DDDDDDDDDDDDDDDDDDDD ##   ________   ___   ___        ___   ________   ___   ___        ___\n    ## hh                hh ##   |\\   __  \\ |\\  \\ |\\  \\      |\\  \\ |\\   __  \\ |\\  \\ |\\  \\      |\\  \\\n    ## hh    //    \\\\    hh ##   \\ \\  \\|\\ /_\\ \\  \\\\ \\  \\     \\ \\  \\\\ \\  \\|\\ /_\\ \\  \\\\ \\  \\     \\ \\  \\\n    ## hh   //      \\\\   hh ##    \\ \\   __  \\\\ \\  \\\\ \\  \\     \\ \\  \\\\ \\   __  \\\\ \\  \\\\ \\  \\     \\ \\  \\\n    ## hh                hh ##     \\ \\  \\|\\  \\\\ \\  \\\\ \\  \\____ \\ \\  \\\\ \\  \\|\\  \\\\ \\  \\\\ \\  \\____ \\ \\  \\\n    ## hh      wwww      hh ##      \\ \\_______\\\\ \\__\\\\ \\_______\\\\ \\__\\\\ \\_______\\\\ \\__\\\\ \\_______\\\\ \\__\\\n    ## hh                hh ##       \\|_______| \\|__| \\|_______| \\|__| \\|_______| \\|__| \\|_______| \\|__|\n    ## MMMMMMMMMMMMMMMMMMMM ##\n    ##MMMMMMMMMMMMMMMMMMMMMM##                                          Release undefined@no release yet\n         \\/            \\/                                       Powered by @bilibili/jinkela-core@2.8.14"
+      },
+      {
+        "type": "info",
+        "text": " bili-fe-mirror   v2.1.0 "
+      },
+      {
+        "type": "log",
+        "text": "白屏检测是否正常 JSHandle@object"
+      },
+      {
+        "type": "info",
+        "text": " bili-fe-mirror   v2.1.0 "
+      },
+      {
+        "type": "log",
+        "text": "白屏检测是否正常 JSHandle@object"
+      }
+    ],
+    "pageErrors": [],
+    "requestFailures": []
+  },
+  "documentState": {
+    "url": "https://www.bilibili.com/?spm_id_from=333.788.selfDef.errorpage",
+    "title": "哔哩哔哩 (゜-゜)つロ 干杯~-bilibili",
+    "readyState": "complete",
+    "viewport": {
+      "innerWidth": 1440,
+      "innerHeight": 1000,
+      "devicePixelRatio": 1
+    },
+    "documentElement": {
+      "clientWidth": 1425,
+      "clientHeight": 1000,
+      "scrollWidth": 1425,
+      "scrollHeight": 1877
+    },
+    "bodyTextSample": "首页\n番剧\n直播\n游戏中心\n会员购\n漫画\n赛事\n\nBDF\n\nBDF\n\n下载客户端\n登录\n\n登录后你可以：\n\n免费看高清视频\n多端同步播放记录\n发表弹幕/评论\n热门番剧影视看不停\n立即登录\n首次使用？ 点我注册\n大会员\n消息\n动态\n收藏\n历史\n创作中心\n投稿\n动态\n热门\n番剧\n电影\n国创\n电视剧\n综艺\n纪录片\n动画\n游戏\n鬼畜\n音乐\n舞蹈\n影视\n娱乐\n知识\n科技数码\n资讯\n美食\n小剧场\n汽车\n时尚美妆\n体育运动\n更多\n专栏\n直播\n活动\n课堂\n社区中心\n新歌热榜\n9周年全新换装限时上线！\n82.6万\n2079\n05:35\n喜马拉雅山的恩情还不完！印度高温破纪录！全球最热的城市排名只有两个不在印度！印度人快要热死了！\n3万点赞\n文同学文案\n· 21小时前\n118.8万\n2057\n43:13\n夯爆了！这才是复仇爽剧该有的样子，看完直呼过瘾！\n噔噔悬疑社\n· 05-26\n266.2万\n8071\n32:35\n被3000名网友操控的河南之行，我竟然吃到昏厥？【超级特派员02】\n盗月社食遇记\n· 05-23\n广告\n这Ai玩的比我还逆天！\n7万人感兴趣\n50.5万\n2896\n26:44\n不办婚礼去旅行结婚，我们后悔了吗？\n小鹿Lawrence\n· 05-26\n19.1万\n595\n15:26\n《主角》用品质击败营销，凭实力出圈！登顶年度剧王！\nlow君热剧\n· 19小时前\n314.6万\n5744\n10:55\n我假扮精神小妹，卧底崩老头群组30天，发现了5条惊人内幕！\n7万点赞\n王小七Fire\n· 05-22\n9316\n34\n爱玛酱的I Can't Wait心动时刻\n爱玛电动车官方账号\n· 05-11\n16.3万\n1059\n11:12\n压力有点大！和水均益、牛新春老师吃个兰州牛肉面\n食贫道\n· 4小时前\n118.7万\n827\n01:06\n☀️ 水手妹，四选一！ ☀️\n伢伢gagako\n· 05-24\n直播\n420\n交友\n\n直播中\n进来喊老婆关进小黑屋！\n\n少女时代-日结招主持\n\n换一换"
+  }
+}
