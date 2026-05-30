@@ -1,0 +1,29 @@
+[
+  {
+    "browser": "firefox",
+    "state": {
+      "canPlayProfile244": "",
+      "readyState": 1,
+      "networkState": 1,
+      "duration": 13.32,
+      "videoWidth": 622,
+      "videoHeight": 364,
+      "error": {
+        "code": 3,
+        "message": "auto mozilla::SupportChecker::AddMediaFormatChecker(const TrackInfo &)::(anonymous class)::operator()() const: Decoder may not have the capability to handle the requested video format with YUV444 chroma subsampling."
+      }
+    }
+  },
+  {
+    "browser": "chrome",
+    "state": {
+      "canPlayProfile244": "maybe",
+      "readyState": 4,
+      "networkState": 1,
+      "duration": 13.32,
+      "videoWidth": 622,
+      "videoHeight": 364,
+      "error": null
+    }
+  }
+]

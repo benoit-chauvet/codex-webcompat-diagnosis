@@ -1,0 +1,38 @@
+{
+  "videoPath": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2030614/attachments/9568137_09.04.2026_11.37.10_REC.mp4",
+  "metadata": {
+    "duration": 13.966089,
+    "videoWidth": 1280,
+    "videoHeight": 688,
+    "error": null
+  },
+  "frames": [
+    {
+      "requestedTime": 0,
+      "screenshot": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2030614/attachments/frames/frame_0s.png",
+      "seekResult": {
+        "currentTime": 0,
+        "readyState": 4,
+        "error": null
+      }
+    },
+    {
+      "requestedTime": 2,
+      "screenshot": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2030614/attachments/frames/frame_2s.png",
+      "seekResult": {
+        "currentTime": 2,
+        "readyState": 4,
+        "error": null
+      }
+    },
+    {
+      "requestedTime": 5,
+      "screenshot": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2030614/attachments/frames/frame_5s.png",
+      "seekResult": {
+        "currentTime": 5,
+        "readyState": 4,
+        "error": null
+      }
+    }
+  ]
+}

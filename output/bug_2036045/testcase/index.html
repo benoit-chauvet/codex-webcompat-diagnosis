@@ -1,0 +1,42 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>AOL Video Thumbnail Wafer Lazyload Mock</title>
+<style>
+  body { font-family: Arial, sans-serif; margin: 24px; }
+  .grid { display: grid; grid-template-columns: repeat(3, 220px); gap: 18px; }
+  article { border: 1px solid #d7dee8; padding: 10px; }
+  img { width: 220px; height: 124px; object-fit: cover; background: #111; display: block; }
+  h2 { font-size: 16px; }
+</style>
+<h1>AOL Video Thumbnail Wafer Lazyload Mock</h1>
+<p>Broken mode leaves thumbnails on the AOL blank.gif placeholder when the Wafer lazyload bootstrap throws.</p>
+<div class="grid">
+  <article><img data-src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='124'%3E%3Crect width='220' height='124' fill='%23006fe6'/%3E%3Ctext x='18' y='68' font-size='24' fill='white'%3Ethumb 1%3C/text%3E%3C/svg%3E" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" alt=""><h2>Video headline one</h2></article>
+  <article><img data-src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='124'%3E%3Crect width='220' height='124' fill='%239735d8'/%3E%3Ctext x='18' y='68' font-size='24' fill='white'%3Ethumb 2%3C/text%3E%3C/svg%3E" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" alt=""><h2>Video headline two</h2></article>
+  <article><img data-src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='124'%3E%3Crect width='220' height='124' fill='%230f8b4c'/%3E%3Ctext x='18' y='68' font-size='24' fill='white'%3Ethumb 3%3C/text%3E%3C/svg%3E" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" alt=""><h2>Video headline three</h2></article>
+</div>
+<pre id="state"></pre>
+<script>
+  const mode = new URLSearchParams(location.search).get("mode") || "broken";
+  if (mode === "fixed") {
+    window.wafer = { ready(callback) { callback(); } };
+  }
+  function collect(error = null) {
+    const images = [...document.images].map(img => ({
+      src: img.getAttribute("src"),
+      naturalWidth: img.naturalWidth,
+      complete: img.complete,
+    }));
+    document.getElementById("state").textContent = JSON.stringify({ mode, error, images }, null, 2);
+  }
+  try {
+    window.wafer.ready(() => {
+      for (const img of document.querySelectorAll("img[data-src]")) {
+        img.src = img.dataset.src;
+      }
+    });
+    setTimeout(() => collect(), 800);
+  } catch (error) {
+    collect(error.message);
+  }
+</script>

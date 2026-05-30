@@ -1,0 +1,192 @@
+{
+  "task": "vimeoMobile",
+  "browser": "chrome",
+  "executablePath": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+  "requestedUrl": "https://vimeo.com/598881804",
+  "finalUrl": "https://vimeo.com/598881804",
+  "httpStatus": 200,
+  "navigationError": null,
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "events": {
+    "console": [
+      {
+        "type": "warn",
+        "text": "[zustand devtools middleware] Please install/enable Redux devtools extension"
+      },
+      {
+        "type": "warn",
+        "text": "The resource https://f.vimeocdn.com/js_opt/app/vimeo-next/_next/static/media/ABCRepro-Bold.815748f4.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally."
+      },
+      {
+        "type": "warn",
+        "text": "The resource https://f.vimeocdn.com/js_opt/app/vimeo-next/_next/static/media/ABCRepro-Screen.2d0dd2ca.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally."
+      },
+      {
+        "type": "warn",
+        "text": "The resource https://f.vimeocdn.com/js_opt/app/vimeo-next/_next/static/media/ABCRepro-Medium.0a64b59a.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally."
+      }
+    ],
+    "pageErrors": [],
+    "requestFailures": []
+  },
+  "page": {
+    "url": "https://vimeo.com/598881804",
+    "title": "Video on Vimeo",
+    "readyState": "complete",
+    "scrollX": 0,
+    "scrollY": 0,
+    "viewport": {
+      "innerWidth": 390,
+      "innerHeight": 844,
+      "devicePixelRatio": 1
+    },
+    "documentElement": {
+      "clientWidth": 390,
+      "clientHeight": 844,
+      "scrollWidth": 390,
+      "scrollHeight": 1424
+    },
+    "bodyTextSample": "Log in\nJoin\nThis video contains mature content\nJoin vimeo to watch\n\nAlready have an account? Log in\n\nGet started for free\n\nPricing\nContact sales\nWatch demos\nJoin\n\n24/7 customer support\n\nOur customer support team is available to help 24/7. Enterprise members also receive dedicated account managers and a guaranteed uptime SLA.\n\nContact support\nProduct\nVideo\nResources\n\n© 2026 Vimeo.com, Inc. All rights reserved.\n\nTerms\nPrivacy\nYour Privacy Choices\nU.S State Privacy\nCopyright\nCookies"
+  },
+  "taskResult": {
+    "screenshots": {
+      "page": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_1852768/probe_chrome148_mobile/vimeo_mobile_player.png"
+    },
+    "state": {
+      "featureSupport": {
+        "pictureInPictureEnabled": true,
+        "requestPictureInPicture": true,
+        "disablePictureInPictureProp": true,
+        "userAgent": "Mozilla/5.0 (Linux; Android 16; Pixel 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Mobile Safari/537.36"
+      },
+      "videos": [],
+      "buttons": [
+        {
+          "index": 0,
+          "label": "Go to Vimeo home page chakra-link css-1cvjzvy",
+          "rect": {
+            "x": 12,
+            "y": 20,
+            "width": 24,
+            "height": 24
+          },
+          "visible": true
+        },
+        {
+          "index": 1,
+          "label": "help_button chakra-button css-1jpm4f",
+          "rect": {
+            "x": 173.40625,
+            "y": 16,
+            "width": 32,
+            "height": 32
+          },
+          "visible": true
+        },
+        {
+          "index": 2,
+          "label": "Log in chakra-button css-oodq46",
+          "rect": {
+            "x": 209.40625,
+            "y": 16,
+            "width": 65.234375,
+            "height": 32
+          },
+          "visible": true
+        },
+        {
+          "index": 3,
+          "label": "Join chakra-button css-2wxfvy",
+          "rect": {
+            "x": 278.640625,
+            "y": 16,
+            "width": 53.359375,
+            "height": 32
+          },
+          "visible": true
+        },
+        {
+          "index": 4,
+          "label": "chakra-button css-1y2b4wa",
+          "rect": {
+            "x": 336,
+            "y": 11,
+            "width": 42,
+            "height": 42
+          },
+          "visible": true
+        },
+        {
+          "index": 5,
+          "label": "Join vimeo to watch chakra-button css-8uyn3v",
+          "rect": {
+            "x": 110.75,
+            "y": 182.484375,
+            "width": 168.5,
+            "height": 40
+          },
+          "visible": true
+        },
+        {
+          "index": 6,
+          "label": "Log in css-1cqk9rs",
+          "rect": {
+            "x": 251.828125,
+            "y": 235.484375,
+            "width": 32.84375,
+            "height": 20
+          },
+          "visible": true
+        },
+        {
+          "index": 7,
+          "label": "Pricing chakra-link css-1abcb2h",
+          "rect": {
+            "x": 16,
+            "y": 710.5625,
+            "width": 52.890625,
+            "height": 24
+          },
+          "visible": true
+        },
+        {
+          "index": 8,
+          "label": "Contact sales chakra-link css-1abcb2h",
+          "rect": {
+            "x": 16,
+            "y": 742.5625,
+            "width": 106.265625,
+            "height": 24
+          },
+          "visible": true
+        },
+        {
+          "index": 9,
+          "label": "Watch demos chakra-link css-1abcb2h",
+          "rect": {
+            "x": 16,
+            "y": 774.5625,
+            "width": 104.78125,
+            "height": 24
+          },
+          "visible": true
+        },
+        {
+          "index": 10,
+          "label": "Join chakra-button css-1d8r1qo",
+          "rect": {
+            "x": 16,
+            "y": 814.5625,
+            "width": 105.546875,
+            "height": 48
+          },
+          "visible": true
+        }
+      ],
+      "bodyTextSample": "Log in\nJoin\nThis video contains mature content\nJoin vimeo to watch\n\nAlready have an account? Log in\n\nGet started for free\n\nPricing\nContact sales\nWatch demos\nJoin\n\n24/7 customer support\n\nOur customer support team is available to help 24/7. Enterprise members also receive dedicated account managers and a guaranteed uptime SLA.\n\nContact support\nProduct\nVideo\nResources\n\n© 2026 Vimeo.com, Inc. All rights reserved.\n\nTerms\nPrivacy\nYour Privacy Choices\nU.S State Privacy\nCopyright\nCookies"
+    }
+  }
+}

@@ -1,0 +1,597 @@
+{
+  "bug_id": "2036757",
+  "endpoints": {
+    "attachments": "https://bugzilla.mozilla.org/rest/bug/2036757/attachment?exclude_fields=data",
+    "bug": "https://bugzilla.mozilla.org/rest/bug/2036757",
+    "comments": "https://bugzilla.mozilla.org/rest/bug/2036757/comment",
+    "history": "https://bugzilla.mozilla.org/rest/bug/2036757/history"
+  },
+  "fetched_at": "2026-05-30T14:35:47+00:00",
+  "responses": {
+    "attachments": {
+      "attachments": {},
+      "bugs": {
+        "2036757": [
+          {
+            "attacher": "rbucata@mozilla.com",
+            "bug_id": 2036757,
+            "content_type": "video/mp4",
+            "creation_time": "2026-05-04T13:01:10Z",
+            "creator": "rbucata@mozilla.com",
+            "creator_detail": {
+              "email": "rbucata@mozilla.com",
+              "id": 675083,
+              "name": "rbucata@mozilla.com",
+              "nick": "rbucata",
+              "real_name": "Raul Bucata"
+            },
+            "description": "Chr vs ff",
+            "file_name": "04.05.2026_15.58.06_REC.mp4",
+            "flags": [],
+            "id": 9582374,
+            "is_obsolete": 0,
+            "is_patch": 0,
+            "is_private": 0,
+            "last_change_time": "2026-05-04T13:01:10Z",
+            "size": 380306,
+            "summary": "Chr vs ff"
+          }
+        ]
+      }
+    },
+    "bug": {
+      "bugs": [
+        {
+          "alias": null,
+          "assigned_to": "nobody@mozilla.org",
+          "assigned_to_detail": {
+            "email": "nobody@mozilla.org",
+            "id": 1,
+            "name": "nobody@mozilla.org",
+            "nick": "nobody",
+            "real_name": "Nobody; OK to take it and work on it"
+          },
+          "blocks": [],
+          "cc": [
+            "alice0775@gmail.com",
+            "dholbert@mozilla.com",
+            "docfaraday@gmail.com",
+            "jib@mozilla.com",
+            "kberezina@mozilla.com"
+          ],
+          "cc_detail": [
+            {
+              "email": "alice0775@gmail.com",
+              "id": 293623,
+              "name": "alice0775@gmail.com",
+              "nick": "alice0775",
+              "real_name": "Alice0775 White"
+            },
+            {
+              "email": "dholbert@mozilla.com",
+              "id": 278074,
+              "name": "dholbert@mozilla.com",
+              "nick": "dholbert",
+              "real_name": "Daniel Holbert [:dholbert]"
+            },
+            {
+              "email": "docfaraday@gmail.com",
+              "id": 478411,
+              "name": "docfaraday@gmail.com",
+              "nick": "bwc",
+              "real_name": "Byron Campen [:bwc]"
+            },
+            {
+              "email": "jib@mozilla.com",
+              "id": 456498,
+              "name": "jib@mozilla.com",
+              "nick": "jib",
+              "real_name": "Jan-Ivar Bruaroey [:jib] (needinfo? me)"
+            },
+            {
+              "email": "kberezina@mozilla.com",
+              "id": 638886,
+              "name": "kberezina@mozilla.com",
+              "nick": "ksenia",
+              "real_name": "Ksenia Berezina [:ksenia]"
+            }
+          ],
+          "cf_a11y_review_project_flag": "---",
+          "cf_accessibility_severity": "---",
+          "cf_cab_review": "---",
+          "cf_fx_iteration": "---",
+          "cf_fx_points": "---",
+          "cf_last_resolved": null,
+          "cf_performance_impact": "---",
+          "cf_qa_whiteboard": "",
+          "cf_status_firefox150": "affected",
+          "cf_status_firefox151": "affected",
+          "cf_status_firefox152": "affected",
+          "cf_status_firefox153": "---",
+          "cf_status_firefox_esr115": "---",
+          "cf_status_firefox_esr140": "---",
+          "cf_tracking_firefox151": "---",
+          "cf_tracking_firefox152": "---",
+          "cf_tracking_firefox153": "---",
+          "cf_tracking_firefox_esr115": "---",
+          "cf_tracking_firefox_esr140": "---",
+          "cf_tracking_firefox_relnote": "---",
+          "cf_user_story": "platform:windows,mac,linux\r\nimpact:workflow-broken\r\nconfiguration:general\r\naffects:all\r\nbranch:release\r\ndiagnosis-team:video-conferencing\r\nuser-impact-score:1200",
+          "cf_webcompat_priority": "P1",
+          "cf_webcompat_score": "9",
+          "classification": "Client Software",
+          "comment_count": 13,
+          "component": "Site Reports",
+          "creation_time": "2026-05-04T12:59:50Z",
+          "creator": "rbucata@mozilla.com",
+          "creator_detail": {
+            "email": "rbucata@mozilla.com",
+            "id": 675083,
+            "name": "rbucata@mozilla.com",
+            "nick": "rbucata",
+            "real_name": "Raul Bucata"
+          },
+          "depends_on": [],
+          "dupe_of": null,
+          "duplicates": [],
+          "flags": [],
+          "groups": [],
+          "id": 2036757,
+          "is_cc_accessible": true,
+          "is_confirmed": true,
+          "is_creator_accessible": true,
+          "is_open": true,
+          "keywords": [
+            "webcompat:contact-in-progress",
+            "webcompat:needs-diagnosis",
+            "webcompat:site-report"
+          ],
+          "last_change_time": "2026-05-15T16:41:11Z",
+          "mentors": [],
+          "mentors_detail": [],
+          "op_sys": "Windows 10",
+          "platform": "Desktop",
+          "priority": "P1",
+          "product": "Web Compatibility",
+          "qa_contact": "",
+          "regressed_by": [],
+          "regressions": [],
+          "resolution": "",
+          "see_also": [
+            "https://github.com/webcompat/web-bugs/issues/218981",
+            "https://bugzilla.mozilla.org/show_bug.cgi?id=2037009"
+          ],
+          "severity": "S2",
+          "status": "NEW",
+          "summary": "chatgpt.com - \"Use voice\" feature shows spinner stuck in a loading state, even though it's working",
+          "target_milestone": "---",
+          "type": "defect",
+          "url": "https://chatgpt.com/",
+          "version": "unspecified",
+          "votes": 0,
+          "whiteboard": "[webcompat-source:web-bugs][webcompat:sightline][webcompat:japan][webcompat:core]"
+        }
+      ],
+      "faults": []
+    },
+    "comments": {
+      "bugs": {
+        "2036757": {
+          "comments": [
+            {
+              "attachment_id": null,
+              "author": "rbucata@mozilla.com",
+              "bug_id": 2036757,
+              "count": 0,
+              "creation_time": "2026-05-04T12:59:50Z",
+              "creator": "rbucata@mozilla.com",
+              "id": 18062026,
+              "is_private": false,
+              "raw_text": "**Environment:**\nOperating system: Windows 10\nFirefox version: Firefox 150.0\n\n**Preconditions**\n* Microphone permission granted\n\n**Steps to reproduce:**\n1. Navigate to:https://chatgpt.com/\n2. Perform account login\n3. From the input field area, click on the \"Use voice\" icon and observe\n\n**Expected Behavior:**\nVoice mode is activated and functional\n\n**Actual Behavior:**\nVoice mode is stuck in a loading state\n\n**Notes:**\n- Reproduces regardless of the status of ETP\n- Reproduces in firefox-nightly, and firefox-release\n- Does not reproduce in chrome\n\nCreated from https://github.com/webcompat/web-bugs/issues/218981",
+              "reactions": {},
+              "tags": [],
+              "text": "**Environment:**\nOperating system: Windows 10\nFirefox version: Firefox 150.0\n\n**Preconditions**\n* Microphone permission granted\n\n**Steps to reproduce:**\n1. Navigate to:https://chatgpt.com/\n2. Perform account login\n3. From the input field area, click on the \"Use voice\" icon and observe\n\n**Expected Behavior:**\nVoice mode is activated and functional\n\n**Actual Behavior:**\nVoice mode is stuck in a loading state\n\n**Notes:**\n- Reproduces regardless of the status of ETP\n- Reproduces in firefox-nightly, and firefox-release\n- Does not reproduce in chrome\n\nCreated from https://github.com/webcompat/web-bugs/issues/218981",
+              "time": "2026-05-04T12:59:50Z"
+            },
+            {
+              "attachment_id": 9582374,
+              "author": "rbucata@mozilla.com",
+              "bug_id": 2036757,
+              "count": 1,
+              "creation_time": "2026-05-04T13:01:10Z",
+              "creator": "rbucata@mozilla.com",
+              "id": 18062035,
+              "is_private": false,
+              "raw_text": "",
+              "reactions": {},
+              "tags": [],
+              "text": "Created attachment 9582374\nChr vs ff",
+              "time": "2026-05-04T13:01:10Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "release-mgmt-account-bot@mozilla.tld",
+              "bug_id": 2036757,
+              "count": 2,
+              "creation_time": "2026-05-04T13:41:31Z",
+              "creator": "release-mgmt-account-bot@mozilla.tld",
+              "id": 18062308,
+              "is_private": false,
+              "raw_text": "Since nightly and release are affected, beta will likely be affected too.\nFor more information, please visit [BugBot documentation](https://wiki.mozilla.org/BugBot#missing_beta_status.py).",
+              "reactions": {},
+              "tags": [],
+              "text": "Since nightly and release are affected, beta will likely be affected too.\nFor more information, please visit [BugBot documentation](https://wiki.mozilla.org/BugBot#missing_beta_status.py).",
+              "time": "2026-05-04T13:41:31Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "dholbert@mozilla.com",
+              "bug_id": 2036757,
+              "count": 3,
+              "creation_time": "2026-05-04T22:10:46Z",
+              "creator": "dholbert@mozilla.com",
+              "id": 18063729,
+              "is_private": false,
+              "raw_text": "I can reproduce. Here's a performance profile, if it ends up being useful for diagnosis: https://share.firefox.dev/42evA2I\nI'm not seeing any obviously-relevant diagnostic output in Web Console (from pageload up until the issue happens)...",
+              "reactions": {},
+              "tags": [],
+              "text": "I can reproduce. Here's a performance profile, if it ends up being useful for diagnosis: https://share.firefox.dev/42evA2I\nI'm not seeing any obviously-relevant diagnostic output in Web Console (from pageload up until the issue happens)...",
+              "time": "2026-05-04T22:10:46Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "dholbert@mozilla.com",
+              "bug_id": 2036757,
+              "count": 4,
+              "creation_time": "2026-05-04T22:21:56Z",
+              "creator": "dholbert@mozilla.com",
+              "id": 18063742,
+              "is_private": false,
+              "raw_text": "Here's a perhaps-better[1] profile:  https://share.firefox.dev/48I0R1A\n\n[1] I included WebRTC logging (on a guess that WebRTC is involved in some way, because voice), and I kept the profiler running until ChatGPT explicitly showed a \"Lost connection. **Retry**\"\" notification.",
+              "reactions": {},
+              "tags": [],
+              "text": "Here's a perhaps-better[1] profile:  https://share.firefox.dev/48I0R1A\n\n[1] I included WebRTC logging (on a guess that WebRTC is involved in some way, because voice), and I kept the profiler running until ChatGPT explicitly showed a \"Lost connection. **Retry**\"\" notification.",
+              "time": "2026-05-04T22:21:56Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "dholbert@mozilla.com",
+              "bug_id": 2036757,
+              "count": 5,
+              "creation_time": "2026-05-04T22:25:03Z",
+              "creator": "dholbert@mozilla.com",
+              "id": 18063748,
+              "is_private": false,
+              "raw_text": "(moving to diagnosis-team:video-conferencing on my hunch that this is webrtc-adjacent  I also gave a heads-up to some contacts at OpenAI; maybe/hopefully they can give us some clues if there's something for us to fix here.)",
+              "reactions": {},
+              "tags": [],
+              "text": "(moving to diagnosis-team:video-conferencing on my hunch that this is webrtc-adjacent  I also gave a heads-up to some contacts at OpenAI; maybe/hopefully they can give us some clues if there's something for us to fix here.)",
+              "time": "2026-05-04T22:25:03Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "dholbert@mozilla.com",
+              "bug_id": 2036757,
+              "count": 6,
+              "creation_time": "2026-05-05T06:36:47Z",
+              "creator": "dholbert@mozilla.com",
+              "id": 18064066,
+              "is_private": false,
+              "raw_text": "(In reply to Daniel Holbert [:dholbert] from comment #5)\n> I also gave a heads-up to some contacts at OpenAI; maybe/hopefully they can give us some clues if there's something for us to fix here.\n\n--> Marking as webcompat:contact-in-progress",
+              "reactions": {},
+              "tags": [],
+              "text": "(In reply to Daniel Holbert [:dholbert] from comment #5)\n> I also gave a heads-up to some contacts at OpenAI; maybe/hopefully they can give us some clues if there's something for us to fix here.\n\n--> Marking as webcompat:contact-in-progress",
+              "time": "2026-05-05T06:36:47Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "docfaraday@gmail.com",
+              "bug_id": 2036757,
+              "count": 7,
+              "creation_time": "2026-05-11T16:19:51Z",
+              "creator": "docfaraday@gmail.com",
+              "id": 18077366,
+              "is_private": false,
+              "raw_text": "I've looked at this from an ICE perspective, and that does not appear to be the primary problem. ICE connects quickly, DTLS handshake seems to go fine, and we get bi-directional SRTP flow containing silence. Same thing happens on ESR 140, so not a regression. Eventually bug 2037009 also happens, but it was busted before then. Additionally, this bug does not happen in the STR for bug 2037009 (https://bugzilla.mozilla.org/show_bug.cgi?id=2037009#c5).",
+              "reactions": {},
+              "tags": [],
+              "text": "I've looked at this from an ICE perspective, and that does not appear to be the primary problem. ICE connects quickly, DTLS handshake seems to go fine, and we get bi-directional SRTP flow containing silence. Same thing happens on ESR 140, so not a regression. Eventually bug 2037009 also happens, but it was busted before then. Additionally, this bug does not happen in the STR for bug 2037009 (https://bugzilla.mozilla.org/show_bug.cgi?id=2037009#c5).",
+              "time": "2026-05-11T16:19:51Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "docfaraday@gmail.com",
+              "bug_id": 2036757,
+              "count": 8,
+              "creation_time": "2026-05-11T16:31:43Z",
+              "creator": "docfaraday@gmail.com",
+              "id": 18077392,
+              "is_private": false,
+              "raw_text": "I don't think this is the issue either, but one odd thing I notice: their SDP does *not* have any a=extmap for the audio m-section, which is the one that's being used. That means the SDES MID extension will not be working, which could cause problems because they're using BUNDLE. They *do* have an a=extmap for SDES MID in the unused *video* m-section for some reason, but that's not going to help things on the audio stream.",
+              "reactions": {},
+              "tags": [],
+              "text": "I don't think this is the issue either, but one odd thing I notice: their SDP does *not* have any a=extmap for the audio m-section, which is the one that's being used. That means the SDES MID extension will not be working, which could cause problems because they're using BUNDLE. They *do* have an a=extmap for SDES MID in the unused *video* m-section for some reason, but that's not going to help things on the audio stream.",
+              "time": "2026-05-11T16:31:43Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "docfaraday@gmail.com",
+              "bug_id": 2036757,
+              "count": 9,
+              "creation_time": "2026-05-11T16:51:54Z",
+              "creator": "docfaraday@gmail.com",
+              "id": 18077439,
+              "is_private": false,
+              "raw_text": "I don't see anything suspicious in the profile in comment 4. I've taken a profile myself, and I do see some bad jank (1.3s) right as ICE starts.\n\nI should mention, when I tried again just now I *did* get audio from OpenAI. Maybe this issue is intermittent?",
+              "reactions": {},
+              "tags": [],
+              "text": "I don't see anything suspicious in the profile in comment 4. I've taken a profile myself, and I do see some bad jank (1.3s) right as ICE starts.\n\nI should mention, when I tried again just now I *did* get audio from OpenAI. Maybe this issue is intermittent?",
+              "time": "2026-05-11T16:51:54Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "docfaraday@gmail.com",
+              "bug_id": 2036757,
+              "count": 10,
+              "creation_time": "2026-05-11T17:26:09Z",
+              "creator": "docfaraday@gmail.com",
+              "id": 18077528,
+              "is_private": false,
+              "raw_text": "Looking at the HTMLMediaElement logging, I'm seeing three consecutive calls to setSinkId on the same media element:\n\n```\n07.526949 [Child 12915: Main Thread]: I/HTMLMediaElement 10f515800, setSinkId(/JfIAZjAFjonCgt7Ytim3McqpA3ZJl/XGbpx4unoWzQ=)\n07.528793 console.error: \"error in gIndicatorWindow.updateIndicatorState(): gIndicatorWindow.updateIndicatorState is not a function\"\n07.529334 [Child 12915: Main Thread]: I/HTMLMediaElement 10f515800, setSinkId(/JfIAZjAFjonCgt7Ytim3McqpA3ZJl/XGbpx4unoWzQ=)\n07.529448 [Child 12915: Main Thread]: I/HTMLMediaElement 10f515800, setSinkId(/JfIAZjAFjonCgt7Ytim3McqpA3ZJl/XGbpx4unoWzQ=)\n```\n\nThat seems like a pretty odd usage pattern to me. Jan-Ivar, do you want to take this for a spin?",
+              "reactions": {},
+              "tags": [],
+              "text": "Looking at the HTMLMediaElement logging, I'm seeing three consecutive calls to setSinkId on the same media element:\n\n```\n07.526949 [Child 12915: Main Thread]: I/HTMLMediaElement 10f515800, setSinkId(/JfIAZjAFjonCgt7Ytim3McqpA3ZJl/XGbpx4unoWzQ=)\n07.528793 console.error: \"error in gIndicatorWindow.updateIndicatorState(): gIndicatorWindow.updateIndicatorState is not a function\"\n07.529334 [Child 12915: Main Thread]: I/HTMLMediaElement 10f515800, setSinkId(/JfIAZjAFjonCgt7Ytim3McqpA3ZJl/XGbpx4unoWzQ=)\n07.529448 [Child 12915: Main Thread]: I/HTMLMediaElement 10f515800, setSinkId(/JfIAZjAFjonCgt7Ytim3McqpA3ZJl/XGbpx4unoWzQ=)\n```\n\nThat seems like a pretty odd usage pattern to me. Jan-Ivar, do you want to take this for a spin?",
+              "time": "2026-05-11T17:26:09Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "jib@mozilla.com",
+              "bug_id": 2036757,
+              "count": 11,
+              "creation_time": "2026-05-15T00:35:59Z",
+              "creator": "jib@mozilla.com",
+              "id": 18084751,
+              "is_private": false,
+              "raw_text": "Comment 1 repros for me as well, with a twist: ChatGPT responds to my voice just fine. It's a stuck spinner. Hard to see this being a Firefox bug.\n\nThen about 30 seconds in it says \"Lost connection: Retry\", which is probably bug 2037009.",
+              "reactions": {},
+              "tags": [],
+              "text": "Comment 1 repros for me as well, with a twist: ChatGPT responds to my voice just fine. It's a stuck spinner. Hard to see this being a Firefox bug.\n\nThen about 30 seconds in it says \"Lost connection: Retry\", which is probably bug 2037009.",
+              "time": "2026-05-15T00:35:59Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "docfaraday@gmail.com",
+              "bug_id": 2036757,
+              "count": 12,
+              "creation_time": "2026-05-15T16:41:11Z",
+              "creator": "docfaraday@gmail.com",
+              "id": 18085857,
+              "is_private": false,
+              "raw_text": "So the initial greeting does not come through, but subsequent stuff does? Flubbing the setSinkId stuff seems like it could cause this, right?",
+              "reactions": {},
+              "tags": [],
+              "text": "So the initial greeting does not come through, but subsequent stuff does? Flubbing the setSinkId stuff seems like it could cause this, right?",
+              "time": "2026-05-15T16:41:11Z"
+            }
+          ]
+        }
+      },
+      "comments": {}
+    },
+    "history": {
+      "bugs": [
+        {
+          "alias": null,
+          "history": [
+            {
+              "changes": [
+                {
+                  "added": "affected",
+                  "field_name": "cf_status_firefox150",
+                  "removed": "---"
+                },
+                {
+                  "added": "affected",
+                  "field_name": "cf_status_firefox152",
+                  "removed": "---"
+                }
+              ],
+              "when": "2026-05-04T13:00:11Z",
+              "who": "rbucata@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "alice0775@gmail.com",
+                  "field_name": "cc",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-05-04T13:07:35Z",
+              "who": "alice0775@gmail.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "affected",
+                  "field_name": "cf_status_firefox151",
+                  "removed": "---"
+                }
+              ],
+              "when": "2026-05-04T13:41:31Z",
+              "who": "release-mgmt-account-bot@mozilla.tld"
+            },
+            {
+              "changes": [
+                {
+                  "added": "[webcompat-source:web-bugs][webcompat:sightline][webcompat:japan][webcompat:core]",
+                  "field_name": "whiteboard",
+                  "removed": "[webcompat-source:web-bugs]"
+                }
+              ],
+              "when": "2026-05-04T13:44:20Z",
+              "who": "release-mgmt-account-bot@mozilla.tld"
+            },
+            {
+              "changes": [
+                {
+                  "added": "webcompat:needs-diagnosis",
+                  "field_name": "keywords",
+                  "removed": ""
+                },
+                {
+                  "added": "kberezina@mozilla.com",
+                  "field_name": "cc",
+                  "removed": ""
+                },
+                {
+                  "added": "@@ -1 +1,7 @@\n-\n+platform:windows,mac,linux\r\n+impact:workflow-broken\r\n+configuration:general\r\n+affects:all\r\n+branch:release\r\n+diagnosis-team:webcompat\r\n+user-impact-score:800\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                },
+                {
+                  "added": "P1",
+                  "field_name": "priority",
+                  "removed": "--"
+                },
+                {
+                  "added": "S2",
+                  "field_name": "severity",
+                  "removed": "--"
+                },
+                {
+                  "added": "P1",
+                  "field_name": "cf_webcompat_priority",
+                  "removed": "---"
+                },
+                {
+                  "added": "8",
+                  "field_name": "cf_webcompat_score",
+                  "removed": "---"
+                }
+              ],
+              "when": "2026-05-04T15:08:33Z",
+              "who": "kberezina@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "dholbert@mozilla.com",
+                  "field_name": "cc",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-05-04T22:10:46Z",
+              "who": "dholbert@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "@@ -3,5 +3,5 @@\n configuration:general\r\n affects:all\r\n branch:release\r\n-diagnosis-team:webcompat\r\n+diagnosis-team:video-conferencing\r\n user-impact-score:800\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-05-04T22:25:03Z",
+              "who": "dholbert@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "webcompat:contact-in-progress",
+                  "field_name": "keywords",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-05-05T06:36:47Z",
+              "who": "dholbert@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "@@ -1,7 +1,7 @@\n-platform:windows,mac,linux\r\n+platform:windows,mac,linux\n-impact:workflow-broken\r\n+impact:workflow-broken\n-configuration:general\r\n+configuration:general\n-affects:all\r\n+affects:all\n-branch:release\r\n+branch:release\n-diagnosis-team:video-conferencing\r\n+diagnosis-team:video-conferencing\n-user-impact- score:800\n+user-impact-score:1200\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                },
+                {
+                  "added": "9",
+                  "field_name": "cf_webcompat_score",
+                  "removed": "8"
+                }
+              ],
+              "when": "2026-05-05T08:08:27Z",
+              "who": "release-mgmt-account-bot@mozilla.tld"
+            },
+            {
+              "changes": [
+                {
+                  "added": "https://bugzilla.mozilla.org/show_bug.cgi?id=2037009",
+                  "field_name": "see_also",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-05-11T15:24:56Z",
+              "who": "sky@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "@@ -1,7 +1,7 @@\n-platform:windows,mac,linux\n-impact:workflow-broken\n-configuration:general\n-affects:all\n-branch:release\n-diagnosis-team:video-conferencing\n+platform:windows,mac,linux\r\n+impact:workflow-broken\r\n+configuration:general\r\n+affects:all\r\n+branch:release\r\n+diagnosis-team:video-conferencing\r\n user-impact-score:1200\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                },
+                {
+                  "added": "docfaraday@gmail.com",
+                  "field_name": "cc",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-05-11T16:19:51Z",
+              "who": "docfaraday@gmail.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "jib@mozilla.com",
+                  "field_name": "cc",
+                  "removed": ""
+                },
+                {
+                  "added": "needinfo?(jib@mozilla.com)",
+                  "field_name": "flagtypes.name",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-05-11T17:26:09Z",
+              "who": "docfaraday@gmail.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "",
+                  "field_name": "flagtypes.name",
+                  "removed": "needinfo?(jib@mozilla.com)"
+                }
+              ],
+              "when": "2026-05-15T00:35:59Z",
+              "who": "jib@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "chatgpt.com - \"Use voice\" feature shows spinner stuck in a loading state, even though it's working",
+                  "field_name": "summary",
+                  "removed": "chatgpt.com - \"Use voice\" feature is stuck in a loading state when triggered"
+                }
+              ],
+              "when": "2026-05-15T13:14:23Z",
+              "who": "jib@mozilla.com"
+            }
+          ],
+          "id": 2036757
+        }
+      ]
+    }
+  },
+  "show_bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=2036757"
+}

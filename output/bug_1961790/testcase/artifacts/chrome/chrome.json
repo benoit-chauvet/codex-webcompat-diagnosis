@@ -1,0 +1,9 @@
+{
+  "SpeechRecognition": true,
+  "webkitSpeechRecognition": true,
+  "getUserMedia": true,
+  "clicked": true,
+  "started": false,
+  "error": "not-allowed",
+  "message": "start-called"
+}

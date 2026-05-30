@@ -1,0 +1,21 @@
+{
+  "mode": "broken",
+  "error": "can't access property \"ready\", window.wafer is undefined",
+  "images": [
+    {
+      "src": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==",
+      "naturalWidth": 0,
+      "complete": false
+    },
+    {
+      "src": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==",
+      "naturalWidth": 0,
+      "complete": false
+    },
+    {
+      "src": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==",
+      "naturalWidth": 0,
+      "complete": false
+    }
+  ]
+}

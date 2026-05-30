@@ -1,0 +1,845 @@
+{
+  "task": "featurePage",
+  "browser": "firefox",
+  "executablePath": "/Applications/Firefox.app/Contents/MacOS/firefox",
+  "requestedUrl": "https://claude.ai/design",
+  "finalUrl": "https://claude.ai/login?returnTo=%2Fdesign",
+  "httpStatus": 200,
+  "navigationError": null,
+  "viewport": {
+    "width": 1280,
+    "height": 900
+  },
+  "events": {
+    "console": [
+      {
+        "type": "info",
+        "text": "[O11Y] [DatadogRUM] Initialized JSHandle@object"
+      },
+      {
+        "type": "debug",
+        "text": "JSHandle@error"
+      }
+    ],
+    "pageErrors": [],
+    "requestFailures": []
+  },
+  "page": {
+    "url": "https://claude.ai/login?returnTo=%2Fdesign",
+    "title": "Sign in - Claude",
+    "readyState": "complete",
+    "scrollX": 0,
+    "scrollY": 0,
+    "viewport": {
+      "innerWidth": 1280,
+      "innerHeight": 900,
+      "devicePixelRatio": 1
+    },
+    "documentElement": {
+      "clientWidth": 1280,
+      "clientHeight": 900,
+      "scrollWidth": 1280,
+      "scrollHeight": 3571
+    },
+    "bodyTextSample": "Think fast,\nbuild faster\nBrainstorm in chat, build in Cowork\nContinue with Google\n\nOR\n\nContinue with email\nContinue with SSO\nBy continuing, you acknowledge Anthropic’s Privacy Policy\n(opens in a new tab)\n.\nDownload desktop app\nExplore plans\nIndividual\nTeam and Enterprise\nIndividual\nTeam and Enterprise\nFree\n\nTry Claude\n\n$0\nFree for everyone\n\n\nTry Claude\nChat on web, iOS, Android, and on your desktop\nGenerate code and visualize data\nWrite, edit, and create content\nAnalyze text and images\nAbility to search the web\nCreate files and execute code\nUnlock more from Claude with desktop extensions\nConnect Slack and Google Workspace services\nIntegrate any context or tool through connectors with remote MCP\nExtended thinking for complex work\nPro\n\nFor everyday productivity\n\n$17\nPer month with annual subscription discount ($200 billed up front). $20 if billed monthly.\nTry Claude\n\nNo commitment · Cancel anytime\n\nEverything in Free, plus:\nMore usage*\nClaude Code\nCowork\nUnlimited projects\nAccess to Research\nMemory across conversations\nMore Claude models\nClaude in Excel\nClaude in Chrome\nMax\n\n5–20x more usage than Pro\n\nFrom $100\nPer month billed monthly\n\n\nTry Claude\n\nNo commitment · Cancel anytime\n\nEverything in Pro, plus:\nChoose 5x or 20x more usage than Pro*\nRecommended for Claude Code & Cowork\nHigher output limits for all tasks\nEarly access to advanced Claude features\nPriority access at high traffic times\n*Usage limits apply. Prices shown don’t include applicable tax. Prices and plans are subject to change at Anthropic's discretion.\nFrequently asked questions\nWhat is Claude and how does it "
+  },
+  "taskResult": {
+    "screenshots": {
+      "page": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2035136/probe_firefox151/feature_page.png"
+    },
+    "featureSupport": {
+      "speechRecognition": false,
+      "webkitSpeechRecognition": false,
+      "showOpenFilePicker": false,
+      "launchQueue": false,
+      "serviceWorker": true,
+      "getUserMedia": true,
+      "credentials": true,
+      "clipboardRead": true,
+      "webkitSupportsFullscreen": false,
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:151.0) Gecko/20100101 Firefox/151.0"
+    },
+    "visible": [
+      {
+        "index": 0,
+        "tag": "div",
+        "label": "Think fast, build faster Brainstorm in chat, build in Cowork Continue with Google OR Continue with email Continue with SSO By continuing, you acknowledge Anthropic’s Privacy Policy (opens in a new tab) . Download desktop app Explore plans Individual Team and Enterprise Individual Team and Enterprise Free Try Claude $0 Free for everyone Try Claude Chat on web, iOS, Android, and on your desktop Gene",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 3570.833251953125
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 2,
+        "tag": "div",
+        "label": "Think fast, build faster Brainstorm in chat, build in Cowork Continue with Google OR Continue with email Continue with SSO By continuing, you acknowledge Anthropic’s Privacy Policy (opens in a new tab) . Download desktop app Explore plans Individual Team and Enterprise Individual Team and Enterprise Free Try Claude $0 Free for everyone Try Claude Chat on web, iOS, Android, and on your desktop Gene",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 3570.833251953125
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 3,
+        "tag": "div",
+        "label": "Think fast, build faster Brainstorm in chat, build in Cowork Continue with Google OR Continue with email Continue with SSO By continuing, you acknowledge Anthropic’s Privacy Policy (opens in a new tab) . Download desktop app Explore plans Individual Team and Enterprise Individual Team and Enterprise Free Try Claude $0 Free for everyone Try Claude Chat on web, iOS, Android, and on your desktop Gene",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 3570.833251953125
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 4,
+        "tag": "div",
+        "label": "Think fast, build faster Brainstorm in chat, build in Cowork Continue with Google OR Continue with email Continue with SSO By continuing, you acknowledge Anthropic’s Privacy Policy (opens in a new tab) . Download desktop app Explore plans Individual Team and Enterprise Individual Team and Enterprise Free Try Claude $0 Free for everyone Try Claude Chat on web, iOS, Android, and on your desktop Gene",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 2676
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 5,
+        "tag": "div",
+        "label": "Think fast, build faster Brainstorm in chat, build in Cowork Continue with Google OR Continue with email Continue with SSO By continuing, you acknowledge Anthropic’s Privacy Policy (opens in a new tab) . Download desktop app Explore plans Individual Team and Enterprise Individual Team and Enterprise Free Try Claude $0 Free for everyone Try Claude Chat on web, iOS, Android, and on your desktop Gene",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 2484
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 6,
+        "tag": "div",
+        "label": "pointer-events-none fixed inset-x-0 z-40 transition-opacity duration-300 ease-out opacity-100",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 84
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 7,
+        "tag": "div",
+        "label": "flex items-center max-w-[90rem] mx-auto",
+        "rect": {
+          "x": 59.48333740234375,
+          "y": 0,
+          "width": 1161.0333251953125,
+          "height": 84
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 8,
+        "tag": "a",
+        "label": "flex items-center h-[4.5rem] min-[1104px]:h-[5.25rem] pointer-events-auto",
+        "rect": {
+          "x": 59.48333740234375,
+          "y": 0,
+          "width": 120,
+          "height": 84
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 242,
+        "tag": "div",
+        "label": "h-[4.5rem] min-[1104px]:h-[5.25rem]",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 84
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 243,
+        "tag": "div",
+        "label": "Think fast, build faster Brainstorm in chat, build in Cowork Continue with Google OR Continue with email Continue with SSO By continuing, you acknowledge Anthropic’s Privacy Policy (opens in a new tab) . Download desktop app font-ui mx-auto flex w-full grow flex-col justify-center max-w-3xl min-[1000px]:max-w-[90rem]",
+        "rect": {
+          "x": 59.48333740234375,
+          "y": 84,
+          "width": 1161.0333251953125,
+          "height": 801
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 244,
+        "tag": "div",
+        "label": "Think fast, build faster Brainstorm in chat, build in Cowork Continue with Google OR Continue with email Continue with SSO By continuing, you acknowledge Anthropic’s Privacy Policy (opens in a new tab) . Download desktop app flex w-full py-6 min-h-[89vh] items-center",
+        "rect": {
+          "x": 59.48333740234375,
+          "y": 84,
+          "width": 572.5166625976562,
+          "height": 801
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 245,
+        "tag": "div",
+        "label": "Think fast, build faster Brainstorm in chat, build in Cowork Continue with Google OR Continue with email Continue with SSO By continuing, you acknowledge Anthropic’s Privacy Policy (opens in a new tab) . Download desktop app flex flex-col h-full w-full items-center justify-between",
+        "rect": {
+          "x": 59.48333740234375,
+          "y": 108,
+          "width": 572.5166625976562,
+          "height": 753
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 247,
+        "tag": "div",
+        "label": "Think fast, build faster Brainstorm in chat, build in Cowork Continue with Google OR Continue with email Continue with SSO By continuing, you acknowledge Anthropic’s Privacy Policy (opens in a new tab) . Download desktop app",
+        "rect": {
+          "x": 152.01666259765625,
+          "y": 156.0500030517578,
+          "width": 387.45001220703125,
+          "height": 600.9000244140625
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 248,
+        "tag": "h2",
+        "label": "Think fast, build faster text-center text-text-100 font-display mt-12 min-[500px]:text-[3.5rem] min-[350px]:text-[3.2rem] text-[1.75rem] [&_span]:[backface-visibility:hidden] select-none [font-feature-settings:'liga'_1]",
+        "rect": {
+          "x": 152.01666259765625,
+          "y": 204.0500030517578,
+          "width": 387.45001220703125,
+          "height": 134.39999389648438
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 249,
+        "tag": "h3",
+        "label": "Brainstorm in chat, build in Cowork flex flex-col gap-[0.3em] sm:gap-[0.15em] items-center text-center text-text-100 font-normal text-pretty font-claude-response mt-4 break-words leading-[1em] text-base md:text-lg [&_span]:[backface-visibility:hidden] leading-snug",
+        "rect": {
+          "x": 152.01666259765625,
+          "y": 354.45001220703125,
+          "width": 387.45001220703125,
+          "height": 28
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 250,
+        "tag": "div",
+        "label": "Continue with Google OR Continue with email Continue with SSO By continuing, you acknowledge Anthropic’s Privacy Policy (opens in a new tab) . mt-8 mx-4 sm:mx-auto p-7 max-w-md sm:min-w-xs text-center border-0.5 border-border-300 rounded-[2rem] flex flex-col [&_label]:hidden bg-bg-100 shadow-[0_4px_24px_0_hsl(var(--always-black)/1.57%),0_4px_32px_0_hsl(var(--always-black)/1.57%),0_2px_64px_0_hsl(v",
+        "rect": {
+          "x": 152.01666259765625,
+          "y": 414.45001220703125,
+          "width": 387.45001220703125,
+          "height": 274.5
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 251,
+        "tag": "div",
+        "label": "Continue with Google OR Continue with email Continue with SSO flex flex-col gap-5",
+        "rect": {
+          "x": 181.01666259765625,
+          "y": 443.45001220703125,
+          "width": 329.45001220703125,
+          "height": 189
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 252,
+        "tag": "div",
+        "label": "Continue with Google OR Continue with email Continue with SSO flex flex-col gap-3",
+        "rect": {
+          "x": 181.01666259765625,
+          "y": 443.45001220703125,
+          "width": 329.45001220703125,
+          "height": 189
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 253,
+        "tag": "button",
+        "label": "Continue with Google inline-flex items-center justify-center relative isolate shrink-0 can-focus select-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none disabled:drop-shadow-none font-base-bold border-0.5 overflow-hidden transition duration-100 backface-hidden h-11 rounded-[0.6rem] px-5 min-w-[6rem] whitespace-nowrap !text-base w-full gap-2 _fill_10ocf_9 _secondary_10ocf_",
+        "rect": {
+          "x": 181.01666259765625,
+          "y": 443.45001220703125,
+          "width": 329.45001220703125,
+          "height": 44
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 254,
+        "tag": "img",
+        "label": "Google logo",
+        "rect": {
+          "x": 251.03334045410156,
+          "y": 457.91668701171875,
+          "width": 16,
+          "height": 15.066665649414062
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 255,
+        "tag": "p",
+        "label": "OR text-text-300 pb-px text-center text-xs uppercase",
+        "rect": {
+          "x": 181.01666259765625,
+          "y": 499.45001220703125,
+          "width": 329.45001220703125,
+          "height": 17
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 257,
+        "tag": "div",
+        "label": "Continue with email Continue with SSO flex flex-col",
+        "rect": {
+          "x": 181.01666259765625,
+          "y": 588.4500122070312,
+          "width": 329.45001220703125,
+          "height": 44
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 258,
+        "tag": "button",
+        "label": "Continue with email inline-flex items-center justify-center relative isolate shrink-0 can-focus select-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none disabled:drop-shadow-none font-base-bold overflow-hidden transition-transform will-change-transform ease-[cubic-bezier(0.165,0.85,0.45,1)] duration-150 hover:scale-y-[1.015] hover:scale-x-[1.005] backface-hidden after:abso",
+        "rect": {
+          "x": 181.01666259765625,
+          "y": 588.4500122070312,
+          "width": 329.45001220703125,
+          "height": 44
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 260,
+        "tag": "button",
+        "label": "Continue with SSO inline-flex items-center justify-center relative isolate shrink-0 can-focus select-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none disabled:drop-shadow-none font-base-bold border-0.5 overflow-hidden transition duration-100 backface-hidden h-11 rounded-[0.6rem] px-5 min-w-[6rem] whitespace-nowrap !text-base w-full _fill_10ocf_9 _secondary_10ocf_72",
+        "rect": {
+          "x": 181.01666259765625,
+          "y": 632.4500122070312,
+          "width": 329.45001220703125,
+          "height": 44
+        },
+        "visible": true,
+        "display": "inline-flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 261,
+        "tag": "div",
+        "label": "By continuing, you acknowledge Anthropic’s Privacy Policy (opens in a new tab) .",
+        "rect": {
+          "x": 181.01666259765625,
+          "y": 640.4500122070312,
+          "width": 329.45001220703125,
+          "height": 19.5
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 262,
+        "tag": "div",
+        "label": "By continuing, you acknowledge Anthropic’s Privacy Policy (opens in a new tab) . text-xs text-text-400 leading-relaxed",
+        "rect": {
+          "x": 181.01666259765625,
+          "y": 640.4500122070312,
+          "width": 329.45001220703125,
+          "height": 19.5
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 263,
+        "tag": "a",
+        "label": "Privacy Policy (opens in a new tab) inline underline underline-offset-[3px] [&:not(:is(:hover,:focus))]:decoration-[color-mix(in_srgb,currentColor,transparent_60%)] cursor-pointer",
+        "rect": {
+          "x": 430.683349609375,
+          "y": 642.2000122070312,
+          "width": 76.94999694824219,
+          "height": 16
+        },
+        "visible": true,
+        "display": "inline",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 265,
+        "tag": "div",
+        "label": "Download desktop app mt-6 flex justify-center",
+        "rect": {
+          "x": 152.01666259765625,
+          "y": 712.9500122070312,
+          "width": 387.45001220703125,
+          "height": 44
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 266,
+        "tag": "button",
+        "label": "Download desktop app inline-flex items-center justify-center relative isolate shrink-0 can-focus select-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none disabled:drop-shadow-none font-base-bold border-0.5 overflow-hidden transition duration-100 backface-hidden h-11 rounded-[0.6rem] px-5 min-w-[6rem] whitespace-nowrap !text-base gap-2 _fill_10ocf_9 _secondary_10ocf_72",
+        "rect": {
+          "x": 219.28334045410156,
+          "y": 712.9500122070312,
+          "width": 252.91665649414062,
+          "height": 44
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 267,
+        "tag": "span",
+        "label": "mr-2 inline-flex h-5 w-5 transition-opacity duration-300 opacity-100",
+        "rect": {
+          "x": 240.28334045410156,
+          "y": 724.9500122070312,
+          "width": 20,
+          "height": 20
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 268,
+        "tag": "img",
+        "label": "h-5 w-5 dark:hidden",
+        "rect": {
+          "x": 240.28334045410156,
+          "y": 724.9500122070312,
+          "width": 20,
+          "height": 20
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 271,
+        "tag": "div",
+        "label": "hidden lg:flex justify-center items-center w-full",
+        "rect": {
+          "x": 648,
+          "y": 84,
+          "width": 572.5166625976562,
+          "height": 801
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 272,
+        "tag": "div",
+        "label": "flex rounded-2xl w-full max-w-xl aspect-[1080/1350] xl:max-w-none justify-center items-center mb-8",
+        "rect": {
+          "x": 648,
+          "y": 110.66667175292969,
+          "width": 572.5166625976562,
+          "height": 715.6500244140625
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 273,
+        "tag": "div",
+        "label": "relative w-full h-full flex items-center justify-center",
+        "rect": {
+          "x": 648,
+          "y": 110.66667175292969,
+          "width": 572.5166625976562,
+          "height": 715.6500244140625
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 274,
+        "tag": "div",
+        "label": "relative w-full h-full rounded-2xl bg-bg-200 shadow-[0_4px_20px_0_hsl(var(--always-black)/4%)] flex justify-center items-center",
+        "rect": {
+          "x": 648,
+          "y": 110.66667175292969,
+          "width": 572.5166625976562,
+          "height": 715.6500244140625
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 275,
+        "tag": "div",
+        "label": "w-full h-full overflow-hidden rounded-2xl border border-border-300 bg-bg-100",
+        "rect": {
+          "x": 648,
+          "y": 110.66667175292969,
+          "width": 572.5166625976562,
+          "height": 715.6500244140625
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 276,
+        "tag": "video",
+        "label": "w-full h-full object-cover",
+        "rect": {
+          "x": 649,
+          "y": 111.66667175292969,
+          "width": 570.5166625976562,
+          "height": 713.6500244140625
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 277,
+        "tag": "div",
+        "label": "Explore plans Individual Team and Enterprise Individual Team and Enterprise Free Try Claude $0 Free for everyone Try Claude Chat on web, iOS, Android, and on your desktop Generate code and visualize data Write, edit, and create content Analyze text and images Ability to search the web Create files and execute code Unlock more from Claude with desktop extensions Connect Slack and Google Workspace s",
+        "rect": {
+          "x": 59.48333740234375,
+          "y": 885,
+          "width": 1161.0333251953125,
+          "height": 1259
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 278,
+        "tag": "div",
+        "label": "h-24 md:h-36",
+        "rect": {
+          "x": 59.48333740234375,
+          "y": 885,
+          "width": 1161.0333251953125,
+          "height": 144
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 619,
+        "tag": "div",
+        "label": "Cookie settings We use cookies to deliver and improve our services, analyze site usage, and if you agree, to customize or personalize your experience and market our services to you. You can read our Cookie Policy here. Customize Cookie Settings Reject All Cookies Accept All Cookies fixed right-2 bottom-2 z-toast max-h-[calc(100vh-1rem)] max-w-[calc(100vw-1rem)] sm:max-w-md rounded-3xl font-ui bg-b",
+        "rect": {
+          "x": 824,
+          "y": 592,
+          "width": 448,
+          "height": 300
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 620,
+        "tag": "h3",
+        "label": "Cookie settings text-xl col-span-2 mb-2 sm:mb-4 text-text-000",
+        "rect": {
+          "x": 856,
+          "y": 624,
+          "width": 384,
+          "height": 28
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 621,
+        "tag": "p",
+        "label": "We use cookies to deliver and improve our services, analyze site usage, and if you agree, to customize or personalize your experience and market our services to you. You can read our Cookie Policy here. text-sm text-text-300 mb-4",
+        "rect": {
+          "x": 856,
+          "y": 668,
+          "width": 384,
+          "height": 80
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 622,
+        "tag": "a",
+        "label": "here underline",
+        "rect": {
+          "x": 1089.183349609375,
+          "y": 729,
+          "width": 29.800003051757812,
+          "height": 18
+        },
+        "visible": true,
+        "display": "inline",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 623,
+        "tag": "div",
+        "label": "Customize Cookie Settings Reject All Cookies Accept All Cookies flex grid-cols-3 grid-rows-1 justify-between gap-2 pb-1 sm:grid sm:grid-cols-2 sm:grid-rows-2 sm:pb-0",
+        "rect": {
+          "x": 856,
+          "y": 764,
+          "width": 384,
+          "height": 96
+        },
+        "visible": true,
+        "display": "grid",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 624,
+        "tag": "button",
+        "label": "Customize Cookie Settings inline-flex items-center justify-center relative isolate shrink-0 can-focus select-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none disabled:drop-shadow-none font-base-bold border-0.5 overflow-hidden transition duration-100 backface-hidden h-11 rounded-[0.6rem] px-5 min-w-[6rem] whitespace-nowrap !text-base col-span-1 grow sm:col-span-2 _fill_10o",
+        "rect": {
+          "x": 856,
+          "y": 764,
+          "width": 384,
+          "height": 44
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 625,
+        "tag": "span",
+        "label": "Customize Cookie Settings text-center",
+        "rect": {
+          "x": 946.11669921875,
+          "y": 774,
+          "width": 203.76666259765625,
+          "height": 24
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 627,
+        "tag": "span",
+        "label": "Customize Cookie Settings hidden sm:inline",
+        "rect": {
+          "x": 946.11669921875,
+          "y": 775.5,
+          "width": 203.76666259765625,
+          "height": 21
+        },
+        "visible": true,
+        "display": "inline",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 628,
+        "tag": "button",
+        "label": "Reject All Cookies inline-flex items-center justify-center relative isolate shrink-0 can-focus select-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none disabled:drop-shadow-none font-base-bold border-0.5 overflow-hidden transition duration-100 backface-hidden h-11 rounded-[0.6rem] px-5 min-w-[6rem] whitespace-nowrap !text-base col-span-1 grow sm:col-span-1 _fill_10ocf_9 _s",
+        "rect": {
+          "x": 856,
+          "y": 816,
+          "width": 188,
+          "height": 44
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 630,
+        "tag": "span",
+        "label": "Reject All Cookies hidden sm:inline",
+        "rect": {
+          "x": 881.1500244140625,
+          "y": 826,
+          "width": 137.68333435058594,
+          "height": 24
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 631,
+        "tag": "button",
+        "label": "Accept All Cookies inline-flex items-center justify-center relative isolate shrink-0 can-focus select-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none disabled:drop-shadow-none font-base-bold overflow-hidden transition-transform will-change-transform ease-[cubic-bezier(0.165,0.85,0.45,1)] duration-150 hover:scale-y-[1.015] hover:scale-x-[1.005] backface-hidden after:absol",
+        "rect": {
+          "x": 1052,
+          "y": 816,
+          "width": 188,
+          "height": 44
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 633,
+        "tag": "span",
+        "label": "Accept All Cookies hidden sm:inline",
+        "rect": {
+          "x": 1074.2833251953125,
+          "y": 826,
+          "width": 143.41665649414062,
+          "height": 24
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 634,
+        "tag": "div",
+        "label": "credential_picker_container",
+        "rect": {
+          "x": 869,
+          "y": 20,
+          "width": 391,
+          "height": 283
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      }
+    ]
+  }
+}

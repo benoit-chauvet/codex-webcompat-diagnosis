@@ -1,0 +1,20 @@
+[
+  {
+    "browser": "firefox",
+    "state": {
+      "state": {
+        "supported": false
+      },
+      "micDisabled": true
+    }
+  },
+  {
+    "browser": "chrome",
+    "state": {
+      "state": {
+        "supported": true
+      },
+      "micDisabled": false
+    }
+  }
+]

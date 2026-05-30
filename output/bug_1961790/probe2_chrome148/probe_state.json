@@ -1,0 +1,84 @@
+{
+  "task": "translateMic",
+  "browser": "chrome",
+  "executablePath": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+  "requestedUrl": "https://translate.google.com/?sl=en&tl=es&op=translate",
+  "finalUrl": "https://translate.google.com/?sl=en&tl=es&op=translate",
+  "httpStatus": 200,
+  "navigationError": null,
+  "viewport": {
+    "width": 1280,
+    "height": 900
+  },
+  "events": {
+    "console": [
+      {
+        "type": "log",
+        "text": "%c%s color: red; background: yellow; font-size: 24px; WARNING!"
+      },
+      {
+        "type": "log",
+        "text": "%c%s font-size: 18px; Using this console may allow attackers to impersonate you and steal your information using an attack called Self-XSS.\nDo not enter or paste code that you do not understand."
+      },
+      {
+        "type": "log",
+        "text": "%c%s color: red; background: yellow; font-size: 24px; WARNING!"
+      },
+      {
+        "type": "log",
+        "text": "%c%s font-size: 18px; Using this console may allow attackers to impersonate you and steal your information using an attack called Self-XSS.\nDo not enter or paste code that you do not understand."
+      }
+    ],
+    "pageErrors": [],
+    "requestFailures": []
+  },
+  "page": {
+    "url": "https://translate.google.com/?sl=en&tl=es&op=translate",
+    "title": "Google Translate",
+    "readyState": "complete",
+    "scrollX": 0,
+    "scrollY": 0,
+    "viewport": {
+      "innerWidth": 1280,
+      "innerHeight": 900,
+      "devicePixelRatio": 1
+    },
+    "documentElement": {
+      "clientWidth": 1280,
+      "clientHeight": 900,
+      "scrollWidth": 1280,
+      "scrollHeight": 900
+    },
+    "bodyTextSample": "Translate\n\t\nSign in\nTranslation types\nText\nImages\nDocuments\nWebsites\nText translation\nDetect language\nEnglish\nSpanish\nFrench\nSpanish\nEnglish\nArabic\nSource text\nTranslation results\nTranslation\nSend feedback\nSide panels\nHistory\nSaved\nStopped listening"
+  },
+  "taskResult": {
+    "screenshots": {
+      "before": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_1961790/probe2_chrome148/translate_before_mic.png",
+      "after": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_1961790/probe2_chrome148/translate_after_mic.png"
+    },
+    "support": {
+      "speechRecognition": true,
+      "webkitSpeechRecognition": true,
+      "mediaDevices": true,
+      "getUserMedia": true,
+      "permissions": true
+    },
+    "click": {
+      "clicked": true,
+      "targetLabel": "Translate by voice Busy... VfPpkd-Bz112c-LgbsSe VfPpkd-Bz112c-LgbsSe-OWXEXe-e5LLRc-SxQuSe yHy1rc eT1oJ mN1ivc ZihNHd NVubff",
+      "candidates": [
+        {
+          "index": 44,
+          "label": "Translate by voice Busy... VfPpkd-Bz112c-LgbsSe VfPpkd-Bz112c-LgbsSe-OWXEXe-e5LLRc-SxQuSe yHy1rc eT1oJ mN1ivc ZihNHd NVubff",
+          "rect": {}
+        }
+      ]
+    },
+    "after": {
+      "bodyTextSample": "Translate\n\t\nSign in\nTranslation types\nText\nImages\nDocuments\nWebsites\nText translation\nDetect language\nEnglish\nSpanish\nFrench\nSpanish\nEnglish\nArabic\nSource text\nTranslation results\nTranslation\nSend feedback\nSide panels\nHistory\nSaved\nStopped listening",
+      "dialogs": [
+        "Stopped listening"
+      ]
+    }
+  }
+}

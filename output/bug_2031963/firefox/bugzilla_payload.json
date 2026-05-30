@@ -1,0 +1,721 @@
+{
+  "bug_id": "2031963",
+  "endpoints": {
+    "attachments": "https://bugzilla.mozilla.org/rest/bug/2031963/attachment?exclude_fields=data",
+    "bug": "https://bugzilla.mozilla.org/rest/bug/2031963",
+    "comments": "https://bugzilla.mozilla.org/rest/bug/2031963/comment",
+    "history": "https://bugzilla.mozilla.org/rest/bug/2031963/history"
+  },
+  "fetched_at": "2026-05-30T14:35:45+00:00",
+  "responses": {
+    "attachments": {
+      "attachments": {},
+      "bugs": {
+        "2031963": [
+          {
+            "attacher": "ctanase@mozilla.com",
+            "bug_id": 2031963,
+            "content_type": "video/mp4",
+            "creation_time": "2026-04-15T08:49:11Z",
+            "creator": "ctanase@mozilla.com",
+            "creator_detail": {
+              "email": "ctanase@mozilla.com",
+              "id": 707939,
+              "name": "ctanase@mozilla.com",
+              "nick": "ctanase",
+              "real_name": "Calin Tanase"
+            },
+            "description": "FF vs Chrome.mp4",
+            "file_name": "FF-vs-Chrome.mp4",
+            "flags": [],
+            "id": 9570128,
+            "is_obsolete": 0,
+            "is_patch": 0,
+            "is_private": 0,
+            "last_change_time": "2026-04-15T08:49:11Z",
+            "size": 1557370,
+            "summary": "FF vs Chrome.mp4"
+          },
+          {
+            "attacher": "hikezoe.birchill@mozilla.com",
+            "bug_id": 2031963,
+            "content_type": "text/x-phabricator-request",
+            "creation_time": "2026-05-21T01:09:16Z",
+            "creator": "hikezoe.birchill@mozilla.com",
+            "creator_detail": {
+              "email": "hikezoe.birchill@mozilla.com",
+              "id": 131213,
+              "name": "hikezoe.birchill@mozilla.com",
+              "nick": "hiro",
+              "real_name": "Hiroyuki Ikezoe (:hiro)"
+            },
+            "description": "WIP: Bug 2031963 - Fast-path notify APZ on non-passive APZ-aware listener registration.",
+            "file_name": "phabricator-D301665-url.txt",
+            "flags": [],
+            "id": 9588270,
+            "is_obsolete": 1,
+            "is_patch": 0,
+            "is_private": 0,
+            "last_change_time": "2026-05-21T01:30:38Z",
+            "size": 48,
+            "summary": "WIP: Bug 2031963 - Fast-path notify APZ on non-passive APZ-aware listener registration."
+          }
+        ]
+      }
+    },
+    "bug": {
+      "bugs": [
+        {
+          "alias": null,
+          "assigned_to": "nobody@mozilla.org",
+          "assigned_to_detail": {
+            "email": "nobody@mozilla.org",
+            "id": 1,
+            "name": "nobody@mozilla.org",
+            "nick": "nobody",
+            "real_name": "Nobody; OK to take it and work on it"
+          },
+          "blocks": [],
+          "cc": [
+            "botond@mozilla.com",
+            "hikezoe.birchill@mozilla.com",
+            "jmuizelaar@mozilla.com",
+            "sky@mozilla.com"
+          ],
+          "cc_detail": [
+            {
+              "email": "botond@mozilla.com",
+              "id": 474533,
+              "name": "botond@mozilla.com",
+              "nick": "botond",
+              "real_name": "Botond Ballo [:botond]"
+            },
+            {
+              "email": "hikezoe.birchill@mozilla.com",
+              "id": 131213,
+              "name": "hikezoe.birchill@mozilla.com",
+              "nick": "hiro",
+              "real_name": "Hiroyuki Ikezoe (:hiro)"
+            },
+            {
+              "email": "jmuizelaar@mozilla.com",
+              "id": 309398,
+              "name": "jmuizelaar@mozilla.com",
+              "nick": "jrmuizel",
+              "real_name": "Jeff Muizelaar [:jrmuizel]"
+            },
+            {
+              "email": "sky@mozilla.com",
+              "id": 421268,
+              "name": "sky@mozilla.com",
+              "nick": "skyschub",
+              "real_name": "Sky Schubert [:skyschub]"
+            }
+          ],
+          "cf_a11y_review_project_flag": "---",
+          "cf_accessibility_severity": "---",
+          "cf_cab_review": "---",
+          "cf_fx_iteration": "---",
+          "cf_fx_points": "---",
+          "cf_last_resolved": null,
+          "cf_performance_impact": "---",
+          "cf_qa_whiteboard": "",
+          "cf_status_firefox151": "---",
+          "cf_status_firefox152": "---",
+          "cf_status_firefox153": "---",
+          "cf_status_firefox_esr115": "---",
+          "cf_status_firefox_esr140": "---",
+          "cf_tracking_firefox151": "---",
+          "cf_tracking_firefox152": "---",
+          "cf_tracking_firefox153": "---",
+          "cf_tracking_firefox_esr115": "---",
+          "cf_tracking_firefox_esr140": "---",
+          "cf_tracking_firefox_relnote": "---",
+          "cf_user_story": "platform:android\r\nimpact:site-broken\r\nconfiguration:general\r\naffects:all\r\nbranch:release\r\ndiagnosis-team:performance\r\nuser-impact-score:1500",
+          "cf_webcompat_priority": "P1",
+          "cf_webcompat_score": "9",
+          "classification": "Client Software",
+          "comment_count": 20,
+          "component": "Site Reports",
+          "creation_time": "2026-04-15T08:48:43Z",
+          "creator": "ctanase@mozilla.com",
+          "creator_detail": {
+            "email": "ctanase@mozilla.com",
+            "id": 707939,
+            "name": "ctanase@mozilla.com",
+            "nick": "ctanase",
+            "real_name": "Calin Tanase"
+          },
+          "depends_on": [
+            1839095,
+            2041154
+          ],
+          "dupe_of": null,
+          "duplicates": [],
+          "flags": [],
+          "groups": [],
+          "id": 2031963,
+          "is_cc_accessible": true,
+          "is_confirmed": true,
+          "is_creator_accessible": true,
+          "is_open": true,
+          "keywords": [
+            "webcompat:platform-bug",
+            "webcompat:site-report"
+          ],
+          "last_change_time": "2026-05-25T03:04:44Z",
+          "mentors": [],
+          "mentors_detail": [],
+          "op_sys": "Android",
+          "platform": "ARM",
+          "priority": "P1",
+          "product": "Web Compatibility",
+          "qa_contact": "",
+          "regressed_by": [],
+          "regressions": [],
+          "resolution": "",
+          "see_also": [
+            "https://github.com/webcompat/web-bugs/issues/215958",
+            "https://bugzilla.mozilla.org/show_bug.cgi?id=1839095",
+            "https://bugzilla.mozilla.org/show_bug.cgi?id=2041154"
+          ],
+          "severity": "S2",
+          "status": "NEW",
+          "summary": "www.temu.com - Scrolls the page when dragging the captcha elements",
+          "target_milestone": "---",
+          "type": "defect",
+          "url": "https://www.temu.com/pl/ul/kuiper/un3.html?_bg_fs=1",
+          "version": "unspecified",
+          "votes": 0,
+          "whiteboard": "[webcompat-source:web-bugs][webcompat:sightline][webcompat:japan][webcompat:core]"
+        }
+      ],
+      "faults": []
+    },
+    "comments": {
+      "bugs": {
+        "2031963": {
+          "comments": [
+            {
+              "attachment_id": null,
+              "author": "ctanase@mozilla.com",
+              "bug_id": 2031963,
+              "count": 0,
+              "creation_time": "2026-04-15T08:48:43Z",
+              "creator": "ctanase@mozilla.com",
+              "id": 18016864,
+              "is_private": false,
+              "raw_text": "**Environment:**\nOperating system: Android 16\nFirefox version: Firefox Mobile 149.0/151\n\n**Steps to reproduce:**\n1. Go to https://www.temu.com/pl/ul/kuiper/un3.html?_bg_fs=1\n2. Wait for the captcha to appear.\n3. Drag the elements on their corresponding places. (unless a different type of captcha gets displayed)\n\n**Expected Behavior:**\nThe page does not get scrolled.\n\n**Actual Behavior:**\nThe page gets scrolled in the background.\n\n**Notes:**\n- The experience is worse if \"Pull to refresh\" is enabled, it won't let you drag the elements in most cases\n- Reproduces regardless of the status of ETP\n- Reproduces in firefox-nightly, and firefox-release\n- Does not reproduce in chrome\n\nCreated from https://github.com/webcompat/web-bugs/issues/215958",
+              "reactions": {},
+              "tags": [],
+              "text": "**Environment:**\nOperating system: Android 16\nFirefox version: Firefox Mobile 149.0/151\n\n**Steps to reproduce:**\n1. Go to https://www.temu.com/pl/ul/kuiper/un3.html?_bg_fs=1\n2. Wait for the captcha to appear.\n3. Drag the elements on their corresponding places. (unless a different type of captcha gets displayed)\n\n**Expected Behavior:**\nThe page does not get scrolled.\n\n**Actual Behavior:**\nThe page gets scrolled in the background.\n\n**Notes:**\n- The experience is worse if \"Pull to refresh\" is enabled, it won't let you drag the elements in most cases\n- Reproduces regardless of the status of ETP\n- Reproduces in firefox-nightly, and firefox-release\n- Does not reproduce in chrome\n\nCreated from https://github.com/webcompat/web-bugs/issues/215958",
+              "time": "2026-04-15T08:48:43Z"
+            },
+            {
+              "attachment_id": 9570128,
+              "author": "ctanase@mozilla.com",
+              "bug_id": 2031963,
+              "count": 1,
+              "creation_time": "2026-04-15T08:49:11Z",
+              "creator": "ctanase@mozilla.com",
+              "id": 18016867,
+              "is_private": false,
+              "raw_text": "",
+              "reactions": {},
+              "tags": [],
+              "text": "Created attachment 9570128\nFF vs Chrome.mp4",
+              "time": "2026-04-15T08:49:11Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "hikezoe.birchill@mozilla.com",
+              "bug_id": 2031963,
+              "count": 2,
+              "creation_time": "2026-04-16T21:19:43Z",
+              "creator": "hikezoe.birchill@mozilla.com",
+              "id": 18020621,
+              "is_private": false,
+              "raw_text": "APZ team will diagnose this.",
+              "reactions": {},
+              "tags": [],
+              "text": "APZ team will diagnose this.",
+              "time": "2026-04-16T21:19:43Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "hikezoe.birchill@mozilla.com",
+              "bug_id": 2031963,
+              "count": 3,
+              "creation_time": "2026-04-17T00:14:11Z",
+              "creator": "hikezoe.birchill@mozilla.com",
+              "id": 18020829,
+              "is_private": false,
+              "raw_text": "Geez, while I was poking the site, something has been changed. I can no longer see the capcha.\n\nWhat I've noticed is that the site adds an active touchmove event handler dynamically and does preventDefault() in the handler.  If the event listener is registered in a passive event handler, that's bug 1839095.",
+              "reactions": {},
+              "tags": [],
+              "text": "Geez, while I was poking the site, something has been changed. I can no longer see the capcha.\n\nWhat I've noticed is that the site adds an active touchmove event handler dynamically and does preventDefault() in the handler.  If the event listener is registered in a passive event handler, that's bug 1839095.",
+              "time": "2026-04-17T00:14:11Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "hikezoe.birchill@mozilla.com",
+              "bug_id": 2031963,
+              "count": 4,
+              "creation_time": "2026-04-20T10:52:51Z",
+              "creator": "hikezoe.birchill@mozilla.com",
+              "id": 18026901,
+              "is_private": false,
+              "raw_text": "Can someone try the patch on bug 1839095 to see whether this bug can be solved by the patches? The patches are not perfect, in the test case in bug 1839095 comment 0 if you move your finger quickly it will not prevent scrolling though, if you move the finger slowly, I mean, if there's enough time in between the touch-start and the first touch-move event, it will prevent scrolling. So if the temu site does something similar to bug 1839095, the patches should work.",
+              "reactions": {},
+              "tags": [],
+              "text": "Can someone try the patch on bug 1839095 to see whether this bug can be solved by the patches? The patches are not perfect, in the test case in bug 1839095 comment 0 if you move your finger quickly it will not prevent scrolling though, if you move the finger slowly, I mean, if there's enough time in between the touch-start and the first touch-move event, it will prevent scrolling. So if the temu site does something similar to bug 1839095, the patches should work.",
+              "time": "2026-04-20T10:52:51Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "botond@mozilla.com",
+              "bug_id": 2031963,
+              "count": 5,
+              "creation_time": "2026-04-21T01:56:08Z",
+              "creator": "botond@mozilla.com",
+              "id": 18028914,
+              "is_private": false,
+              "raw_text": "[Here](https://pernos.co/debug/rkp1jxfGgzh-LN02LY1jJg/index.html#f{m[Jq9Q,AQ_,t[AQ,CfHW_,f{e[Jq9O,zA_,s{aVY2A4TAA,bBQ,uIwDh,oIz9n___/) is a Pernosco recording of the bug occurring in RDM, in a build with the bug 1839095 patches applied. I've added two notebook entries, the first is a place where APZ received a preventDefault=1 content response for a touch input block, and the second is a place where APZ nonetheless scrolls in response to an event in that input block.",
+              "reactions": {},
+              "tags": [],
+              "text": "[Here](https://pernos.co/debug/rkp1jxfGgzh-LN02LY1jJg/index.html#f{m[Jq9Q,AQ_,t[AQ,CfHW_,f{e[Jq9O,zA_,s{aVY2A4TAA,bBQ,uIwDh,oIz9n___/) is a Pernosco recording of the bug occurring in RDM, in a build with the bug 1839095 patches applied. I've added two notebook entries, the first is a place where APZ received a preventDefault=1 content response for a touch input block, and the second is a place where APZ nonetheless scrolls in response to an event in that input block.",
+              "time": "2026-04-21T01:56:08Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "hikezoe.birchill@mozilla.com",
+              "bug_id": 2031963,
+              "count": 6,
+              "creation_time": "2026-04-23T02:22:15Z",
+              "creator": "hikezoe.birchill@mozilla.com",
+              "id": 18033264,
+              "is_private": false,
+              "raw_text": "I've added a new note where an active touchmove event listener is setup. In the JS call stack at the moment, I do see `react` string so I suspect the event listener is not setup directly in a passive touchstart event listener just like bug 1839095, rather it's probably deferred to somewhere else so that the patch for bug 1839095 doesn't help.",
+              "reactions": {},
+              "tags": [],
+              "text": "I've added a new note where an active touchmove event listener is setup. In the JS call stack at the moment, I do see `react` string so I suspect the event listener is not setup directly in a passive touchstart event listener just like bug 1839095, rather it's probably deferred to somewhere else so that the patch for bug 1839095 doesn't help.",
+              "time": "2026-04-23T02:22:15Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "hikezoe.birchill@mozilla.com",
+              "bug_id": 2031963,
+              "count": 7,
+              "creation_time": "2026-04-23T02:29:41Z",
+              "creator": "hikezoe.birchill@mozilla.com",
+              "id": 18033271,
+              "is_private": false,
+              "raw_text": "Note for references how I reached to the active touchmove event listener;\n\n1) Searched executions of \"mozilla::dom::EventTarget::AddEventListener\" with aType==\"touchmove\"\n2) there are a bunch of executions including the parent process\n3) On every execution I did `p ((nsIURI*)((mozilla::dom::NodeInfo*)((nsINode*)this)->mNodeInfo)->mDocument->mDocumentURI)->GetSpecOrDefault()` in the debugger to see the URL\n4) In the case of temu.com I did `p ((mozilla::dom::AddEventListenerOptions)aOptions.mValue.mAddEventListenerOptions.mStorage).mPassive` to see whether passive is false or not",
+              "reactions": {},
+              "tags": [],
+              "text": "Note for references how I reached to the active touchmove event listener;\n\n1) Searched executions of \"mozilla::dom::EventTarget::AddEventListener\" with aType==\"touchmove\"\n2) there are a bunch of executions including the parent process\n3) On every execution I did `p ((nsIURI*)((mozilla::dom::NodeInfo*)((nsINode*)this)->mNodeInfo)->mDocument->mDocumentURI)->GetSpecOrDefault()` in the debugger to see the URL\n4) In the case of temu.com I did `p ((mozilla::dom::AddEventListenerOptions)aOptions.mValue.mAddEventListenerOptions.mStorage).mPassive` to see whether passive is false or not",
+              "time": "2026-04-23T02:29:41Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "botond@mozilla.com",
+              "bug_id": 2031963,
+              "count": 8,
+              "creation_time": "2026-04-23T04:38:48Z",
+              "creator": "botond@mozilla.com",
+              "id": 18033376,
+              "is_private": false,
+              "raw_text": "[Here](https://pernos.co/debug/ncDsQlvMENqIBAZwWR7fMA/index.html#f{m[NBs6,AQ_,t[AQ,DFQX_,f{e[NBsv,HZE_,s{af2mwwAAA,bAZE,uCHCb8A,oCHnwkQ___/) is another Pernosco recording, this time taken with the [settings](https://docs.google.com/document/d/1jWq62Q1bZzeTEJmLHixngBoPfKrOtPSfVFSgsulKY1s/edit?tab=t.0) intended to allow JS debugging. Two notebook entries are marked similar to the previous recording.",
+              "reactions": {},
+              "tags": [],
+              "text": "[Here](https://pernos.co/debug/ncDsQlvMENqIBAZwWR7fMA/index.html#f{m[NBs6,AQ_,t[AQ,DFQX_,f{e[NBsv,HZE_,s{af2mwwAAA,bAZE,uCHCb8A,oCHnwkQ___/) is another Pernosco recording, this time taken with the [settings](https://docs.google.com/document/d/1jWq62Q1bZzeTEJmLHixngBoPfKrOtPSfVFSgsulKY1s/edit?tab=t.0) intended to allow JS debugging. Two notebook entries are marked similar to the previous recording.",
+              "time": "2026-04-23T04:38:48Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "hikezoe.birchill@mozilla.com",
+              "bug_id": 2031963,
+              "count": 9,
+              "creation_time": "2026-04-23T05:01:51Z",
+              "creator": "hikezoe.birchill@mozilla.com",
+              "id": 18033384,
+              "is_private": false,
+              "raw_text": "I have further diagnosis on the first pernosco session. I found an interesting fact: Before APZ received the preventDefault-ed information there were 3 touch events, a touch-start, a touch-move and a touch-move.  I checked the WR hit test results on both touch-move events, in both cases the result are `eVisibleToHitTest`. So APZ had not received `eApzAwareListeners` at the moment. I suspect this is kinda performance issue on the main-thread. If the main-thread had sent the up-to-date event listener setup within a reasonable time span, the patch for bug 1839095 should just work.",
+              "reactions": {},
+              "tags": [],
+              "text": "I have further diagnosis on the first pernosco session. I found an interesting fact: Before APZ received the preventDefault-ed information there were 3 touch events, a touch-start, a touch-move and a touch-move.  I checked the WR hit test results on both touch-move events, in both cases the result are `eVisibleToHitTest`. So APZ had not received `eApzAwareListeners` at the moment. I suspect this is kinda performance issue on the main-thread. If the main-thread had sent the up-to-date event listener setup within a reasonable time span, the patch for bug 1839095 should just work.",
+              "time": "2026-04-23T05:01:51Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "hikezoe.birchill@mozilla.com",
+              "bug_id": 2031963,
+              "count": 10,
+              "creation_time": "2026-04-23T23:20:31Z",
+              "creator": "hikezoe.birchill@mozilla.com",
+              "id": 18035892,
+              "is_private": false,
+              "raw_text": "In the new pernosco session in comment 8, there were 4 active touchmove event listeners which were registered in one or two passive touchstart event handlers. Since the active touchmove event listeners were registered,  this code\n\nhttps://searchfox.org/firefox-main/rev/be31b3948198286e39a9855e414823cb17b6e94c/layout/generic/nsIFrame.cpp#12226\n```cpp\nresult += CompositorHitTestFlags::eApzAwareListeners;\n```\n\ndidn't run at all. That's the reason why APZ didn't prevent scrolling even though APZ had received the preventDefault=1. \n\nSo the next question is why `result += CompositorHitTestFlags::eApzAwareListeners;` was not executed.\n\nEDIT: This was wrong. The line was executed.  On pernosco the break point set to the line somehow doesn't break.",
+              "reactions": {},
+              "tags": [],
+              "text": "In the new pernosco session in comment 8, there were 4 active touchmove event listeners which were registered in one or two passive touchstart event handlers. Since the active touchmove event listeners were registered,  this code\n\nhttps://searchfox.org/firefox-main/rev/be31b3948198286e39a9855e414823cb17b6e94c/layout/generic/nsIFrame.cpp#12226\n```cpp\nresult += CompositorHitTestFlags::eApzAwareListeners;\n```\n\ndidn't run at all. That's the reason why APZ didn't prevent scrolling even though APZ had received the preventDefault=1. \n\nSo the next question is why `result += CompositorHitTestFlags::eApzAwareListeners;` was not executed.\n\nEDIT: This was wrong. The line was executed.  On pernosco the break point set to the line somehow doesn't break.",
+              "time": "2026-04-23T23:20:31Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "hikezoe.birchill@mozilla.com",
+              "bug_id": 2031963,
+              "count": 11,
+              "creation_time": "2026-04-24T01:44:30Z",
+              "creator": "hikezoe.birchill@mozilla.com",
+              "id": 18036039,
+              "is_private": false,
+              "raw_text": "Okay, what I've found:\n\n1) The `eApzAwareListeners;` code was not executed in between when APZ received the touch-start and when APZ received the first touch-move\n2) During the above time span, 4 active touchmove event listeners were setup\n3) when the first touch-move arrived at APZCTreeManager::ProcessTouchInput the hit results were:\n```\n(10, eVisibleToHitTest)                                                                                  \n( 9, eVisibleToHitTest)                                                                                  \n( 9, eVisibleToHitTest)                                                                                  \n( 0, eVisibleToHitTest)\n```\n4) when the second touch-move event arrived at APZCTreeManager::ProcessTouchInput, I manually did a hit-testing by:\n```\nset $pt = (wr::WorldPoint*)malloc(8)                                                   \nset ((float*)$pt)[0] = 634.0                             \nset ((float*)$pt)[1] = 341.0                   \ncall $wr->HitTest(*$pt)\n```\n5) Then the results had eApzAwareListeners, so the active touchmove event listeners information had arrived:\n```\n(10, eVisibleToHitTest | eApzAwareListeners)\n( 9, eVisibleToHitTest | eApzAwareListeners)\n( 9, eVisibleToHitTest | eApzAwareListeners)\n( 0, eVisibleToHitTest | eApzAwareListeners) <= these scrollId:0 results might be irrelevant\n( 0, eVisibleToHitTest) \n```\n\nSo from what I can tell is that this bug is a sort of performance issue on the main-thread.  If the up-to-date information can be arrived in APZ within a reasonable time span, the patches for bug 1839095 should have been fixed this bug too.\n\nWith that I am setting bug 1839095 in this bug's dependency list, also changing the diagnosis team from APZ to Performance.",
+              "reactions": {},
+              "tags": [],
+              "text": "Okay, what I've found:\n\n1) The `eApzAwareListeners;` code was not executed in between when APZ received the touch-start and when APZ received the first touch-move\n2) During the above time span, 4 active touchmove event listeners were setup\n3) when the first touch-move arrived at APZCTreeManager::ProcessTouchInput the hit results were:\n```\n(10, eVisibleToHitTest)                                                                                  \n( 9, eVisibleToHitTest)                                                                                  \n( 9, eVisibleToHitTest)                                                                                  \n( 0, eVisibleToHitTest)\n```\n4) when the second touch-move event arrived at APZCTreeManager::ProcessTouchInput, I manually did a hit-testing by:\n```\nset $pt = (wr::WorldPoint*)malloc(8)                                                   \nset ((float*)$pt)[0] = 634.0                             \nset ((float*)$pt)[1] = 341.0                   \ncall $wr->HitTest(*$pt)\n```\n5) Then the results had eApzAwareListeners, so the active touchmove event listeners information had arrived:\n```\n(10, eVisibleToHitTest | eApzAwareListeners)\n( 9, eVisibleToHitTest | eApzAwareListeners)\n( 9, eVisibleToHitTest | eApzAwareListeners)\n( 0, eVisibleToHitTest | eApzAwareListeners) <= these scrollId:0 results might be irrelevant\n( 0, eVisibleToHitTest) \n```\n\nSo from what I can tell is that this bug is a sort of performance issue on the main-thread.  If the up-to-date information can be arrived in APZ within a reasonable time span, the patches for bug 1839095 should have been fixed this bug too.\n\nWith that I am setting bug 1839095 in this bug's dependency list, also changing the diagnosis team from APZ to Performance.",
+              "time": "2026-04-24T01:44:30Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "hikezoe.birchill@mozilla.com",
+              "bug_id": 2031963,
+              "count": 12,
+              "creation_time": "2026-04-24T01:46:11Z",
+              "creator": "hikezoe.birchill@mozilla.com",
+              "id": 18036041,
+              "is_private": false,
+              "raw_text": "Botond, in the meantime, would you mind taking a performance profile result? It would be nice to have I think.",
+              "reactions": {},
+              "tags": [],
+              "text": "Botond, in the meantime, would you mind taking a performance profile result? It would be nice to have I think.",
+              "time": "2026-04-24T01:46:11Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "botond@mozilla.com",
+              "bug_id": 2031963,
+              "count": 13,
+              "creation_time": "2026-04-27T21:01:42Z",
+              "creator": "botond@mozilla.com",
+              "id": 18043596,
+              "is_private": false,
+              "raw_text": "(In reply to Hiroyuki Ikezoe (:hiro) from comment #12)\n> Botond, in the meantime, would you mind taking a performance profile result? It would be nice to have I think.\n\nSure, [here](https://profiler.firefox.com/public/psrvytw7h8xgx3dpgqertk8gjvxtsma00r7vyag/calltree/?globalTrackOrder=6051w4&hiddenGlobalTracks=124&hiddenLocalTracksByPid=23278-01~23900-0~25391-0~23830-0~24913-0~24095-0w2&thread=b&timelineType=category&v=15) is a profile taken with the WebCompat preset.\n\nYou can see in the screenshots in the 6-9s interval that as the captcha element is being dragged, the page behind the dialog is also scrolling.",
+              "reactions": {},
+              "tags": [],
+              "text": "(In reply to Hiroyuki Ikezoe (:hiro) from comment #12)\n> Botond, in the meantime, would you mind taking a performance profile result? It would be nice to have I think.\n\nSure, [here](https://profiler.firefox.com/public/psrvytw7h8xgx3dpgqertk8gjvxtsma00r7vyag/calltree/?globalTrackOrder=6051w4&hiddenGlobalTracks=124&hiddenLocalTracksByPid=23278-01~23900-0~25391-0~23830-0~24913-0~24095-0w2&thread=b&timelineType=category&v=15) is a profile taken with the WebCompat preset.\n\nYou can see in the screenshots in the 6-9s interval that as the captcha element is being dragged, the page behind the dialog is also scrolling.",
+              "time": "2026-04-27T21:01:42Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "botond@mozilla.com",
+              "bug_id": 2031963,
+              "count": 14,
+              "creation_time": "2026-04-27T21:03:46Z",
+              "creator": "botond@mozilla.com",
+              "id": 18043598,
+              "is_private": false,
+              "raw_text": "(I didn't mean to edit the \"User Story\" field; the browser just seems to remember some stale state sometimes. Reverted now.)",
+              "reactions": {},
+              "tags": [],
+              "text": "(I didn't mean to edit the \"User Story\" field; the browser just seems to remember some stale state sometimes. Reverted now.)",
+              "time": "2026-04-27T21:03:46Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "hikezoe.birchill@mozilla.com",
+              "bug_id": 2031963,
+              "count": 15,
+              "creation_time": "2026-04-29T23:38:23Z",
+              "creator": "hikezoe.birchill@mozilla.com",
+              "id": 18048738,
+              "is_private": false,
+              "raw_text": "As far as I can tell when an active touchmove event listener is registered Chrome uses [this SetEventListenerProperties](https://source.chromium.org/chromium/chromium/src/+/main:third_party/blink/renderer/core/frame/event_handler_registry.cc;l=251-254;drc=69da8efc2d3e2fdf6aacb8ee8e63cb3a57c5ab32) to inform it to the compositor, which is an independent route from the route where the layer information (DOM structure or some such) is informed to the compositor. \n\nOn the other hand in Gecko we inform the both info altogether via [triggering a schedule paint](https://searchfox.org/firefox-main/rev/c8d15cb1b359a07625177debe620406d7fad06ac/dom/events/EventListenerManager.cpp#609). \n\nThis difference may have resulted the behavior difference between Chrome and Firefox.\n\nIt seems to me that the Chrome's machinery definitely has a race where the compositor hit-testing fails, and Claude told me there is, but I haven't confirmed it yet.",
+              "reactions": {},
+              "tags": [],
+              "text": "As far as I can tell when an active touchmove event listener is registered Chrome uses [this SetEventListenerProperties](https://source.chromium.org/chromium/chromium/src/+/main:third_party/blink/renderer/core/frame/event_handler_registry.cc;l=251-254;drc=69da8efc2d3e2fdf6aacb8ee8e63cb3a57c5ab32) to inform it to the compositor, which is an independent route from the route where the layer information (DOM structure or some such) is informed to the compositor. \n\nOn the other hand in Gecko we inform the both info altogether via [triggering a schedule paint](https://searchfox.org/firefox-main/rev/c8d15cb1b359a07625177debe620406d7fad06ac/dom/events/EventListenerManager.cpp#609). \n\nThis difference may have resulted the behavior difference between Chrome and Firefox.\n\nIt seems to me that the Chrome's machinery definitely has a race where the compositor hit-testing fails, and Claude told me there is, but I haven't confirmed it yet.",
+              "time": "2026-04-29T23:38:23Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "hikezoe.birchill@mozilla.com",
+              "bug_id": 2031963,
+              "count": 16,
+              "creation_time": "2026-04-30T04:51:00Z",
+              "creator": "hikezoe.birchill@mozilla.com",
+              "id": 18049060,
+              "is_private": false,
+              "raw_text": "(In reply to Hiroyuki Ikezoe (:hiro) from comment #15)\n> It seems to me that the Chrome's machinery definitely has a race where the compositor hit-testing fails, and Claude told me there is, but I haven't confirmed it yet.\n\nNow I am sure that there's no race. From [the touch event spec](\nhttps://w3c.github.io/touch-events/#dom-touch-target):\n\n> target\n>   The EventTarget on which the touch point started when it was first placed on the surface, even if the touch point has since moved outside the interactive area of that element.\n\nSo browsers need to use the target of the initial touch-start event on subsequent touch events.",
+              "reactions": {},
+              "tags": [],
+              "text": "(In reply to Hiroyuki Ikezoe (:hiro) from comment #15)\n> It seems to me that the Chrome's machinery definitely has a race where the compositor hit-testing fails, and Claude told me there is, but I haven't confirmed it yet.\n\nNow I am sure that there's no race. From [the touch event spec](\nhttps://w3c.github.io/touch-events/#dom-touch-target):\n\n> target\n>   The EventTarget on which the touch point started when it was first placed on the surface, even if the touch point has since moved outside the interactive area of that element.\n\nSo browsers need to use the target of the initial touch-start event on subsequent touch events.",
+              "time": "2026-04-30T04:51:00Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "hikezoe.birchill@mozilla.com",
+              "bug_id": 2031963,
+              "count": 17,
+              "creation_time": "2026-05-07T01:28:05Z",
+              "creator": "hikezoe.birchill@mozilla.com",
+              "id": 18068956,
+              "is_private": false,
+              "raw_text": "I am posting a profile analysis by Claude Code:\n\n# Bug 2031963 \u2014 profile analysis (build with bug 1839095 patches applied)\n\nProfile: <https://profiler.firefox.com/public/psrvytw7h8xgx3dpgqertk8gjvxtsma00r7vyag/calltree/?thread=b>\n(WebCompat preset, Firefox Nightly 152 on Android 13.)\n\nThe profile confirms the diagnosis from comments 11 and 15: APZ in the GPU\nprocess has already received and processed several touchmoves before the\ncontent process can communicate the newly-registered active `touchmove`\nlisteners through the paint pipeline.\n\n## Timeline of the gesture (Web Content thread t-11 vs GPU thread t-7)\n\n| Time   | Where      | Event                                                                                                                                                                                              |\n|--------|------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|\n| 5.792s | content    | `touchstart` dispatch begins (32.6 ms duration)                                                                                                                                                    |\n| 5.794s | GPU/APZ    | 1st `PAPZInputBridge::Msg_ReceiveMultiTouchInputEvent` (touchstart)                                                                                                                                |\n| 5.802\u20135.823s | content | `Perform microtasks` (21.8 ms) \u2014 React commit + listener registration                                                                                                                          |\n| 5.805s, 5.817s | GPU/APZ | 2nd, 3rd touch events arrive \u2014 still no `eApzAwareListeners`                                                                                                                                 |\n| ~5.823s | content   | `EventTarget.addEventListener` for `touchmove` runs inside the touchstart handler (visible in bottom-up tree under `static.kwcdn.com!K/y` and `static.kwcdn.com!K/v`) \u2192 triggers `SchedulePaint`   |\n| 5.825s | content    | touchstart returns; `RefreshDriverTick` + `ViewManagerFlush` Transaction **1504** sent to GPU                                                                                                       |\n| 5.827\u20135.883s | GPU/APZ | 4 more `Msg_ReceiveMultiTouchInputEvent` arrive                                                                                                                                                |\n| 5.829s | content    | 35.5 ms `dom::PostMessageRunnable`/`message` handler runs (more main-thread JS work)                                                                                                                |\n| 5.865s | content    | `PCompositorBridge::Msg_DidComposite` for tx 1504                                                                                                                                                  |\n| 6.007s | content    | `PanZoom:StateChange` \u2014 APZ has already started panning                                                                                                                                            |\n| 6.008s | content    | First `PBrowser::Msg_RealTouchMoveEvent2` reaches main thread, priority `InputLow (3)` (subsequent ones are `InputHighest (8)`) \u2014 APZ has downgraded the channel because it's already scrolling     |\n\n## Why the patches from bug 1839095 don't help here\n\nPer comment 11, APZ's hit-test result for the touch block is captured at\ntouchstart and used for the rest of the block. The fix in bug 1839095 relies\non APZ knowing about active touchmove listeners by the time it would otherwise\nbegin panning. In this profile:\n\n1. The site registers active `touchmove` listeners synchronously inside the\n   touchstart handler (the bottom-up tree shows `EventTarget.addEventListener`\n   on the path `touchstart \u2192 \u2026 \u2192 static.kwcdn.com!K/y` and `K/v`).\n2. The handler itself runs for 32.6 ms \u2014 JavaScript-heavy. While it runs,\n   APZ in the GPU process is already receiving touchmoves (4 events in the\n   GPU between 5.794s and 5.838s).\n3. The `SchedulePaint` triggered by `addEventListener` cannot send a\n   transaction to WebRender until after the touchstart handler returns. The\n   first paint commit (tx 1504) goes out at 5.825s and is composited around\n   5.865s \u2014 but APZ has already taken its decision by then.\n4. Top samples for the 5.79\u20136.01 s window: `R` (PostMessage handler, 56% of\n   active CPU) and `touchstart` (31%). All in obfuscated kwcdn JS.\n\n## What this points at\n\nThis matches Hiro's analysis in comment 15: Gecko's only path to inform APZ\nabout an `eApzAwareListeners` change goes through a paint commit + scene\nupdate + WebRender hit-test data refresh. Chrome's\n`EventHandlerRegistry::SetEventListenerProperties` sends listener-property\nbitfields to the compositor on a dedicated IPC channel that bypasses the\npaint/scene pipeline, so the compositor can update its `cc::TouchActionRegion`\nwithout waiting for the next paint.\n\nA Gecko fix in the same shape \u2014 a direct content\u2192GPU IPC for \"this layer now\nhas an active touchmove/touchstart listener\", landing in `APZCTreeManager`\nimmediately rather than via WR scene rebuild \u2014 would let the patches from\nbug 1839095 actually take effect on this site even when the listener is\nregistered inside the touchstart handler.\n\n-- END OF ANALYSIS --\n\nSo Claude suggests a new light weight path to inform eApzAwareListeners from the content to APZ.   But I am skeptical about the suggestion.  As you can see the timeline table above, at 5.805s 2nd touch event arrived in APZ, ~5.823s in the content SchedulePaint was triggered. It's already late, 20ms or so.",
+              "reactions": {},
+              "tags": [],
+              "text": "I am posting a profile analysis by Claude Code:\n\n# Bug 2031963 \u2014 profile analysis (build with bug 1839095 patches applied)\n\nProfile: <https://profiler.firefox.com/public/psrvytw7h8xgx3dpgqertk8gjvxtsma00r7vyag/calltree/?thread=b>\n(WebCompat preset, Firefox Nightly 152 on Android 13.)\n\nThe profile confirms the diagnosis from comments 11 and 15: APZ in the GPU\nprocess has already received and processed several touchmoves before the\ncontent process can communicate the newly-registered active `touchmove`\nlisteners through the paint pipeline.\n\n## Timeline of the gesture (Web Content thread t-11 vs GPU thread t-7)\n\n| Time   | Where      | Event                                                                                                                                                                                              |\n|--------|------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|\n| 5.792s | content    | `touchstart` dispatch begins (32.6 ms duration)                                                                                                                                                    |\n| 5.794s | GPU/APZ    | 1st `PAPZInputBridge::Msg_ReceiveMultiTouchInputEvent` (touchstart)                                                                                                                                |\n| 5.802\u20135.823s | content | `Perform microtasks` (21.8 ms) \u2014 React commit + listener registration                                                                                                                          |\n| 5.805s, 5.817s | GPU/APZ | 2nd, 3rd touch events arrive \u2014 still no `eApzAwareListeners`                                                                                                                                 |\n| ~5.823s | content   | `EventTarget.addEventListener` for `touchmove` runs inside the touchstart handler (visible in bottom-up tree under `static.kwcdn.com!K/y` and `static.kwcdn.com!K/v`) \u2192 triggers `SchedulePaint`   |\n| 5.825s | content    | touchstart returns; `RefreshDriverTick` + `ViewManagerFlush` Transaction **1504** sent to GPU                                                                                                       |\n| 5.827\u20135.883s | GPU/APZ | 4 more `Msg_ReceiveMultiTouchInputEvent` arrive                                                                                                                                                |\n| 5.829s | content    | 35.5 ms `dom::PostMessageRunnable`/`message` handler runs (more main-thread JS work)                                                                                                                |\n| 5.865s | content    | `PCompositorBridge::Msg_DidComposite` for tx 1504                                                                                                                                                  |\n| 6.007s | content    | `PanZoom:StateChange` \u2014 APZ has already started panning                                                                                                                                            |\n| 6.008s | content    | First `PBrowser::Msg_RealTouchMoveEvent2` reaches main thread, priority `InputLow (3)` (subsequent ones are `InputHighest (8)`) \u2014 APZ has downgraded the channel because it's already scrolling     |\n\n## Why the patches from bug 1839095 don't help here\n\nPer comment 11, APZ's hit-test result for the touch block is captured at\ntouchstart and used for the rest of the block. The fix in bug 1839095 relies\non APZ knowing about active touchmove listeners by the time it would otherwise\nbegin panning. In this profile:\n\n1. The site registers active `touchmove` listeners synchronously inside the\n   touchstart handler (the bottom-up tree shows `EventTarget.addEventListener`\n   on the path `touchstart \u2192 \u2026 \u2192 static.kwcdn.com!K/y` and `K/v`).\n2. The handler itself runs for 32.6 ms \u2014 JavaScript-heavy. While it runs,\n   APZ in the GPU process is already receiving touchmoves (4 events in the\n   GPU between 5.794s and 5.838s).\n3. The `SchedulePaint` triggered by `addEventListener` cannot send a\n   transaction to WebRender until after the touchstart handler returns. The\n   first paint commit (tx 1504) goes out at 5.825s and is composited around\n   5.865s \u2014 but APZ has already taken its decision by then.\n4. Top samples for the 5.79\u20136.01 s window: `R` (PostMessage handler, 56% of\n   active CPU) and `touchstart` (31%). All in obfuscated kwcdn JS.\n\n## What this points at\n\nThis matches Hiro's analysis in comment 15: Gecko's only path to inform APZ\nabout an `eApzAwareListeners` change goes through a paint commit + scene\nupdate + WebRender hit-test data refresh. Chrome's\n`EventHandlerRegistry::SetEventListenerProperties` sends listener-property\nbitfields to the compositor on a dedicated IPC channel that bypasses the\npaint/scene pipeline, so the compositor can update its `cc::TouchActionRegion`\nwithout waiting for the next paint.\n\nA Gecko fix in the same shape \u2014 a direct content\u2192GPU IPC for \"this layer now\nhas an active touchmove/touchstart listener\", landing in `APZCTreeManager`\nimmediately rather than via WR scene rebuild \u2014 would let the patches from\nbug 1839095 actually take effect on this site even when the listener is\nregistered inside the touchstart handler.\n\n-- END OF ANALYSIS --\n\nSo Claude suggests a new light weight path to inform eApzAwareListeners from the content to APZ.   But I am skeptical about the suggestion.  As you can see the timeline table above, at 5.805s 2nd touch event arrived in APZ, ~5.823s in the content SchedulePaint was triggered. It's already late, 20ms or so.",
+              "time": "2026-05-07T01:28:05Z"
+            },
+            {
+              "attachment_id": 9588270,
+              "author": "hikezoe.birchill@mozilla.com",
+              "bug_id": 2031963,
+              "count": 18,
+              "creation_time": "2026-05-21T01:09:16Z",
+              "creator": "hikezoe.birchill@mozilla.com",
+              "id": 18095070,
+              "is_private": false,
+              "raw_text": "\nWhen a touchstart JS handler dynamically registers a non-passive\ntouchmove (or similar APZ-aware) listener, APZ doesn't learn about\neApzAwareListeners until the next painted WebRender transaction has\nbeen scene-swapped on the compositor -- ~70 ms after the listener\nadd on temu.com. The first touchmove arrives at APZ well before\nthat, the cached touchstart hit-test is reused, and the block stays\ncommitted to async-scroll.\n\nAdd a direct content -> APZ IPC (NotifyApzAwareListenerAdded) carrying\nthe nearest scroll container's ViewID. APZCTreeManager records the\n(LayersId, ScrollId) pair under mMapLock; WRHitTester ORs in\neApzAwareListeners when a hit-test result's target APZC equals that\npair or descends from it within the same layers id.\n\nEventListenerManager::ProcessApzAwareEventListenerAdd resolves the\nScrollId via FindIDFor (not FindOrCreateIDFor): if no ViewID has\nbeen assigned yet, or the element has no primary frame / scroll\ncontainer ancestor, fall back to the existing SchedulePaint path so\nthe regular display-list rebuild propagates the flag.\n\nFast-path entries are kept until the layer tree is removed\n(NotifyLayerTreeRemoved). Clearing them in PrepareNodeForLayer would\nrace against a paint that was in flight when the listener was added.\n\nAdd MOZ_LOG=apz.fastpath logging on both sides to trace the flow.",
+              "reactions": {},
+              "tags": [],
+              "text": "Created attachment 9588270\nWIP: Bug 2031963 - Fast-path notify APZ on non-passive APZ-aware listener registration.\n\n\nWhen a touchstart JS handler dynamically registers a non-passive\ntouchmove (or similar APZ-aware) listener, APZ doesn't learn about\neApzAwareListeners until the next painted WebRender transaction has\nbeen scene-swapped on the compositor -- ~70 ms after the listener\nadd on temu.com. The first touchmove arrives at APZ well before\nthat, the cached touchstart hit-test is reused, and the block stays\ncommitted to async-scroll.\n\nAdd a direct content -> APZ IPC (NotifyApzAwareListenerAdded) carrying\nthe nearest scroll container's ViewID. APZCTreeManager records the\n(LayersId, ScrollId) pair under mMapLock; WRHitTester ORs in\neApzAwareListeners when a hit-test result's target APZC equals that\npair or descends from it within the same layers id.\n\nEventListenerManager::ProcessApzAwareEventListenerAdd resolves the\nScrollId via FindIDFor (not FindOrCreateIDFor): if no ViewID has\nbeen assigned yet, or the element has no primary frame / scroll\ncontainer ancestor, fall back to the existing SchedulePaint path so\nthe regular display-list rebuild propagates the flag.\n\nFast-path entries are kept until the layer tree is removed\n(NotifyLayerTreeRemoved). Clearing them in PrepareNodeForLayer would\nrace against a paint that was in flight when the listener was added.\n\nAdd MOZ_LOG=apz.fastpath logging on both sides to trace the flow.",
+              "time": "2026-05-21T01:09:16Z"
+            },
+            {
+              "attachment_id": 9588270,
+              "author": "phab-bot@bmo.tld",
+              "bug_id": 2031963,
+              "count": 19,
+              "creation_time": "2026-05-21T01:30:38Z",
+              "creator": "phab-bot@bmo.tld",
+              "id": 18095090,
+              "is_private": false,
+              "raw_text": "Revision D301665 was moved to bug 2041154. Setting attachment 9588270 to obsolete.",
+              "reactions": {},
+              "tags": [],
+              "text": "Comment on attachment 9588270\nWIP: Bug 2031963 - Fast-path notify APZ on non-passive APZ-aware listener registration.\n\nRevision D301665 was moved to bug 2041154. Setting attachment 9588270 to obsolete.",
+              "time": "2026-05-21T01:30:38Z"
+            }
+          ]
+        }
+      },
+      "comments": {}
+    },
+    "history": {
+      "bugs": [
+        {
+          "alias": null,
+          "history": [
+            {
+              "changes": [
+                {
+                  "added": "[webcompat-source:web-bugs][webcompat:sightline][webcompat:japan][webcompat:core]",
+                  "field_name": "whiteboard",
+                  "removed": "[webcompat-source:web-bugs]"
+                }
+              ],
+              "when": "2026-04-15T09:44:31Z",
+              "who": "release-mgmt-account-bot@mozilla.tld"
+            },
+            {
+              "changes": [
+                {
+                  "added": "dschubert@mozilla.com",
+                  "field_name": "cc",
+                  "removed": ""
+                },
+                {
+                  "added": "@@ -1 +1,7 @@\n-\n+platform:android\r\n+impact:site-broken\r\n+configuration:general\r\n+affects:all\r\n+branch:release\r\n+diagnosis-team:android\r\n+user-impact-score:1000\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                },
+                {
+                  "added": "S2",
+                  "field_name": "severity",
+                  "removed": "--"
+                },
+                {
+                  "added": "P1",
+                  "field_name": "priority",
+                  "removed": "--"
+                },
+                {
+                  "added": "webcompat:needs-diagnosis",
+                  "field_name": "keywords",
+                  "removed": ""
+                },
+                {
+                  "added": "P1",
+                  "field_name": "cf_webcompat_priority",
+                  "removed": "---"
+                },
+                {
+                  "added": "9",
+                  "field_name": "cf_webcompat_score",
+                  "removed": "---"
+                }
+              ],
+              "when": "2026-04-15T14:13:58Z",
+              "who": "sky@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "@@ -1,7 +1,7 @@\n-platform:android\r\n+platform:android\n-impact:site-broken\r\n+impact:site-broken\n-configuration:general\r\n+configuration:general\n-affects:all\r\n+affects:all\n-branch:release\r\n+branch:release\n-diagnosis-team:android\r\n+diagnosis-team:android\n-user-impact- score:1000\n+user-impact-score:1500\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-04-16T08:08:06Z",
+              "who": "release-mgmt-account-bot@mozilla.tld"
+            },
+            {
+              "changes": [
+                {
+                  "added": "hikezoe.birchill@mozilla.com",
+                  "field_name": "cc",
+                  "removed": ""
+                },
+                {
+                  "added": "@@ -1,7 +1,7 @@\n-platform:android\n-impact:site-broken\n-configuration:general\n-affects:all\n-branch:release\n-diagnosis-team:android\n+platform:android\r\n+impact:site-broken\r\n+configuration:general\r\n+affects:all\r\n+branch:release\r\n+diagnosis-team:apz\r\n user-impact-score:1500\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-04-16T21:19:43Z",
+              "who": "hikezoe.birchill@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "botond@mozilla.com",
+                  "field_name": "cc",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-04-17T22:26:26Z",
+              "who": "botond@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "https://bugzilla.mozilla.org/show_bug.cgi?id=1839095",
+                  "field_name": "see_also",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-04-20T10:52:51Z",
+              "who": "hikezoe.birchill@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "1839095",
+                  "field_name": "depends_on",
+                  "removed": ""
+                },
+                {
+                  "added": "@@ -3,5 +3,5 @@\n configuration:general\r\n affects:all\r\n branch:release\r\n-diagnosis-team:apz\r\n+diagnosis-team:performance\r\n user-impact-score:1500\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-04-24T01:44:30Z",
+              "who": "hikezoe.birchill@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "needinfo?(botond@mozilla.com)",
+                  "field_name": "flagtypes.name",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-04-24T01:46:11Z",
+              "who": "hikezoe.birchill@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "webcompat:platform-bug",
+                  "field_name": "keywords",
+                  "removed": "webcompat:needs-diagnosis"
+                },
+                {
+                  "added": "jmuizelaar@mozilla.com",
+                  "field_name": "cc",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-04-27T13:30:40Z",
+              "who": "jmuizelaar@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "@@ -3,5 +3,5 @@\n configuration:general\r\n affects:all\r\n branch:release\r\n-diagnosis-team:performance\r\n+diagnosis-team:apz\r\n user-impact-score:1500\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                },
+                {
+                  "added": "",
+                  "field_name": "flagtypes.name",
+                  "removed": "needinfo?(botond@mozilla.com)"
+                }
+              ],
+              "when": "2026-04-27T21:01:42Z",
+              "who": "botond@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "@@ -3,5 +3,5 @@\n configuration:general\r\n affects:all\r\n branch:release\r\n-diagnosis-team:apz\r\n+diagnosis-team:performance\r\n user-impact-score:1500\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-04-27T21:03:46Z",
+              "who": "botond@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "https://bugzilla.mozilla.org/show_bug.cgi?id=2041154",
+                  "field_name": "see_also",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-05-21T01:08:14Z",
+              "who": "hikezoe.birchill@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "1",
+                  "attachment_id": 9588270,
+                  "field_name": "attachments.isobsolete",
+                  "removed": "0"
+                }
+              ],
+              "when": "2026-05-21T01:30:38Z",
+              "who": "phab-bot@bmo.tld"
+            },
+            {
+              "changes": [
+                {
+                  "added": "2041154",
+                  "field_name": "depends_on",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-05-25T03:04:44Z",
+              "who": "hikezoe.birchill@mozilla.com"
+            }
+          ],
+          "id": 2031963
+        }
+      ]
+    }
+  },
+  "show_bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=2031963"
+}

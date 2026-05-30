@@ -1,0 +1,331 @@
+{
+  "task": "featurePage",
+  "browser": "chrome",
+  "executablePath": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+  "requestedUrl": "https://email.bt.com/mail/index-rui.jsp?v=MX_3.11.0.7",
+  "finalUrl": "https://prod-btemailauth.bt.com/81522fe7-47cf-4713-bdb7-b6f7bfe421a6/b2c_1a_rpbt_signin/oauth2/v2.0/authorize?client_id=bf4e9e5e-0d73-46b3-ad02-06f335bd5105&scope=bf4e9e5e-0d73-46b3-ad02-06f335bd5105%20openid%20profile%20offline_access&redirect_uri=https://email.bt.com/mail/saf/sso.jsp&response_type=code&state=rEDKj4xmgs17HhJKJMZ",
+  "httpStatus": 200,
+  "navigationError": null,
+  "viewport": {
+    "width": 1280,
+    "height": 900
+  },
+  "events": {
+    "console": [
+      {
+        "type": "log",
+        "text": "Error, missing Report Suite ID in AppMeasurement initialization"
+      },
+      {
+        "type": "log",
+        "text": "Unified - version 4.3.2022: 16:51:24 GMT+0200 (Central European Summer Time)"
+      },
+      {
+        "type": "log",
+        "text": "Resolved OrgId: 2cctnc2e CorrelationId: eee0c789-5214-46fa-baac-bed4c43b9531"
+      },
+      {
+        "type": "log",
+        "text": "Resolved OrgId: 2cctnc2e CorrelationId: eee0c789-5214-46fa-baac-bed4c43b9531"
+      },
+      {
+        "type": "log",
+        "text": "Resolved OrgId: 2cctnc2e CorrelationId: eee0c789-5214-46fa-baac-bed4c43b9531"
+      },
+      {
+        "type": "log",
+        "text": "Resolved OrgId: 2cctnc2e CorrelationId: eee0c789-5214-46fa-baac-bed4c43b9531"
+      },
+      {
+        "type": "warn",
+        "text": "tags.js already injected, skipping"
+      },
+      {
+        "type": "warn",
+        "text": "tags.js already injected, skipping"
+      },
+      {
+        "type": "warn",
+        "text": "tags.js already injected, skipping"
+      },
+      {
+        "type": "log",
+        "text": "Updated label to have aria-hidden=\"true\""
+      },
+      {
+        "type": "log",
+        "text": "Created hidden accessible label for input"
+      },
+      {
+        "type": "log",
+        "text": "Updated input field with aria-labelledby and removed unnecessary attributes"
+      }
+    ],
+    "pageErrors": [],
+    "requestFailures": []
+  },
+  "page": {
+    "url": "https://prod-btemailauth.bt.com/81522fe7-47cf-4713-bdb7-b6f7bfe421a6/b2c_1a_rpbt_signin/oauth2/v2.0/authorize?client_id=bf4e9e5e-0d73-46b3-ad02-06f335bd5105&scope=bf4e9e5e-0d73-46b3-ad02-06f335bd5105%20openid%20profile%20offline_access&redirect_uri=https://email.bt.com/mail/saf/sso.jsp&response_type=code&state=rEDKj4xmgs17HhJKJMZ",
+    "title": "Secure Authentication",
+    "readyState": "complete",
+    "scrollX": 0,
+    "scrollY": 0,
+    "viewport": {
+      "innerWidth": 1280,
+      "innerHeight": 900,
+      "devicePixelRatio": 1
+    },
+    "documentElement": {
+      "clientWidth": 1280,
+      "clientHeight": 900,
+      "scrollWidth": 1280,
+      "scrollHeight": 900
+    },
+    "bodyTextSample": "Log in\nEmail or username\nNext\nForgot log-in details?\nCancel"
+  },
+  "taskResult": {
+    "screenshots": {
+      "page": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2012085/probe_chrome148/feature_page.png"
+    },
+    "featureSupport": {
+      "speechRecognition": true,
+      "webkitSpeechRecognition": true,
+      "showOpenFilePicker": true,
+      "launchQueue": true,
+      "serviceWorker": true,
+      "getUserMedia": true,
+      "credentials": true,
+      "clipboardRead": true,
+      "pictureInPictureEnabled": true,
+      "webkitSupportsFullscreen": true,
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/148.0.0.0 Safari/537.36"
+    },
+    "visible": [
+      {
+        "index": 6,
+        "tag": "div",
+        "label": "Log in Email or username Next Forgot log-in details? Cancel page-bg SignIn SignUpSignInPage1 ios",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 900
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 7,
+        "tag": "div",
+        "label": "Log in Email or username Next Forgot log-in details? Cancel main-panel",
+        "rect": {
+          "x": 640,
+          "y": 0,
+          "width": 640,
+          "height": 900
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 8,
+        "tag": "img",
+        "label": "brandlogo",
+        "rect": {
+          "x": 260,
+          "y": 390,
+          "width": 120,
+          "height": 120
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 9,
+        "tag": "div",
+        "label": "Log in Email or username Next Forgot log-in details? Cancel api",
+        "rect": {
+          "x": 768,
+          "y": 296.453125,
+          "width": 384,
+          "height": 307.09375
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 12,
+        "tag": "div",
+        "label": "Log in intro",
+        "rect": {
+          "x": 768,
+          "y": 323,
+          "width": 384,
+          "height": 36
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 13,
+        "tag": "h2",
+        "label": "Log in",
+        "rect": {
+          "x": 768,
+          "y": 323,
+          "width": 384,
+          "height": 36
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 16,
+        "tag": "div",
+        "label": "Email or username Next entry",
+        "rect": {
+          "x": 768,
+          "y": 385.546875,
+          "width": 384,
+          "height": 158
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 17,
+        "tag": "div",
+        "label": "Email or username entry-item",
+        "rect": {
+          "x": 768,
+          "y": 385.546875,
+          "width": 384,
+          "height": 90
+        },
+        "visible": true,
+        "display": "grid",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 21,
+        "tag": "div",
+        "label": "Next buttons",
+        "rect": {
+          "x": 768,
+          "y": 475.546875,
+          "width": 384,
+          "height": 68
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 22,
+        "tag": "button",
+        "label": "Next next",
+        "rect": {
+          "x": 768,
+          "y": 475.546875,
+          "width": 384,
+          "height": 48
+        },
+        "visible": true,
+        "display": "inline-block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 23,
+        "tag": "div",
+        "label": "Forgot log-in details? Cancel claims-provider-list-text-links-bottom-under-form",
+        "rect": {
+          "x": 768,
+          "y": 543.546875,
+          "width": 384,
+          "height": 50
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 24,
+        "tag": "div",
+        "label": "Forgot log-in details?",
+        "rect": {
+          "x": 768,
+          "y": 543.546875,
+          "width": 384,
+          "height": 20
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 25,
+        "tag": "a",
+        "label": "Forgot log-in details? ForgotPasswordExchange text-link",
+        "rect": {
+          "x": 768,
+          "y": 543.546875,
+          "width": 156.640625,
+          "height": 20
+        },
+        "visible": true,
+        "display": "inline",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 26,
+        "tag": "div",
+        "label": "Cancel",
+        "rect": {
+          "x": 768,
+          "y": 573.546875,
+          "width": 384,
+          "height": 20
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 27,
+        "tag": "a",
+        "label": "Cancel TransferToCancelScreen text-link",
+        "rect": {
+          "x": 768,
+          "y": 573.546875,
+          "width": 51.109375,
+          "height": 20
+        },
+        "visible": true,
+        "display": "inline",
+        "visibility": "visible",
+        "opacity": "1"
+      }
+    ]
+  }
+}

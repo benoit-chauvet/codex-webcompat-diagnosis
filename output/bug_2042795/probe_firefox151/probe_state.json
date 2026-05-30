@@ -1,0 +1,1107 @@
+{
+  "task": "gsmarena",
+  "browser": "firefox",
+  "executablePath": "/Applications/Firefox.app/Contents/MacOS/firefox",
+  "requestedUrl": "https://www.gsmarena.com/google_android_17_continue_on-news-72910.php",
+  "finalUrl": "https://www.gsmarena.com/google_android_17_continue_on-news-72910.php",
+  "httpStatus": 200,
+  "navigationError": null,
+  "viewport": {
+    "width": 1280,
+    "height": 900
+  },
+  "events": {
+    "console": [
+      {
+        "type": "log",
+        "text": "CLVR: v2.67.4"
+      },
+      {
+        "type": "log",
+        "text": "CLVR: 73756"
+      },
+      {
+        "type": "log",
+        "text": "CLVR: 2026-05-29 14:37:05"
+      },
+      {
+        "type": "log",
+        "text": "CLVR: UI Loaded"
+      },
+      {
+        "type": "log",
+        "text": "CLVR: Format TopScroll found"
+      },
+      {
+        "type": "warn",
+        "text": "[GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.\nhttps://goo.gle/gpt-message#170"
+      },
+      {
+        "type": "startGroupCollapsed",
+        "text": "[BTAG] Attribution"
+      },
+      {
+        "type": "log",
+        "text": "[BTAG] Session cookie set: registration-source-tag → a_50015b_1748c_CABABDCAFCDAAFR"
+      },
+      {
+        "type": "log",
+        "text": "Novatiq:  Novatiq core integration library version: 2.3.cdn"
+      },
+      {
+        "type": "warn",
+        "text": "[GPT] Using deprecated googletag.encryptedSignalProviders. Please use googletag.secureSignalProviders instead.\nhttps://goo.gle/gpt-message#155"
+      },
+      {
+        "type": "warn",
+        "text": "[GPT] Using deprecated googletag.encryptedSignalProviders. Please use googletag.secureSignalProviders instead.\nhttps://goo.gle/gpt-message#155"
+      },
+      {
+        "type": "warn",
+        "text": "[GPT] Slot.getTargetingKeys is deprecated, use Slot.getConfig('targeting') instead.\nhttps://goo.gle/gpt-message#201"
+      },
+      {
+        "type": "info",
+        "text": "Powered by AMP ⚡ HTML – Version 2605071401000 https://www.gsmarena.com/google_android_17_continue_on-news-72910.php"
+      },
+      {
+        "type": "debug",
+        "text": "JSHandle@error JSHandle@error"
+      },
+      {
+        "type": "timeEnd",
+        "text": "a"
+      },
+      {
+        "type": "error",
+        "text": "SPARTEO SYNC 16:55:42.734 ERROR| Backend error, ERR02"
+      },
+      {
+        "type": "error",
+        "text": "SPARTEO SYNC 16:55:42.751 ERROR| Backend error, ERR02"
+      }
+    ],
+    "pageErrors": [
+      {
+        "name": "Error",
+        "message": "Cookie “registration-source-tag” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "SecurityError: Permission denied to access property \"pathname\" on cross-origin object"
+      },
+      {
+        "name": "Error",
+        "message": "Content-Security-Policy: The page’s settings blocked a script (script-src-elem) at https://zz.connextra.com/dcs/tagController/tag/a300d66eb9e0/cookie_exclusion from being executed because it violates the following directive: “script-src 'self' 'unsafe-inline' 'unsafe-eval' https://x.bidswitch.net https://recaptcha.net https://code.jquery.com https://www.googletagmanager.com https://*.adform.net https://connect.facebook.net https://*.sportradar.com https://*.sportradarserving.com https://*.zdassets.com https://*.doubleclick.net https://www.gstatic.com https://*.cheqzone.com https://www.google-analytics.com https://obs.cheqzone.com https://ci-mpsnare.iovation.com https://*.youtube.com https://host.olybet.com blob: https://*.cobrowse.io https://*.cloudflare.com https://*.onesignal.com https://onesignal.com https://*.cookiebot.com https://vatson.ee https://*.vatson.ee https://bing.com https://*.bing.com https://hotjar.com https://*.hotjar.com https://script.crazyegg.com https://client.britepaymentgroup.com https://*.google.com https://*.orakulas.lt https://*.olybet.dev https://*.checkout.com https://applepay.cdn-apple.com https://*.googleapis.com https://widget.surveymonkey.com https://*.sbifm.online https://unpkg.com/@img-arena/front-row-seat https://adscool.net/resources/content/olybet.js https://scripts.mediamathrdrt.com/scripts/v_olybet.js https://static.imgarena.com/event-centre-configs/olybet.json https://*.zendesk.com https://*.clarity.ms https://adscool.net/pageview/olybet https://pixel.mediamathrdrt.com/rtg/sync/olybet.gif https://*.betgames.tv https://*.game-flex.eu https://*.relaxg.com https://*.api.relaxg.com https://*.betsy.software https://*.tomhorngaming.eu https://*.mediamathrdrt.com https://mediamathrdrt.com https://*.turbostars.gg https://sdk.optimove.net https://optimove-sdk-web.optimove.net https://*.sportbook.work https://sports.olylive.fr https://sports.olybet.fr https://cdn.flows.world https://pubads.g.doubleclick.uk.net https://www.paypal.com https://casino-api.orakulas.lt https://*.newrelic.com https://*.eskimi.com https://trackadshub.com https://*.cloudflareinsights.com https://*.mxapis.com”"
+      },
+      {
+        "name": "Error",
+        "message": "Content-Security-Policy: The page’s settings blocked a script (script-src-elem) at https://edge.fullstory.com/s/fs.js from being executed because it violates the following directive: “script-src 'self' 'unsafe-inline' 'unsafe-eval' https://x.bidswitch.net https://recaptcha.net https://code.jquery.com https://www.googletagmanager.com https://*.adform.net https://connect.facebook.net https://*.sportradar.com https://*.sportradarserving.com https://*.zdassets.com https://*.doubleclick.net https://www.gstatic.com https://*.cheqzone.com https://www.google-analytics.com https://obs.cheqzone.com https://ci-mpsnare.iovation.com https://*.youtube.com https://host.olybet.com blob: https://*.cobrowse.io https://*.cloudflare.com https://*.onesignal.com https://onesignal.com https://*.cookiebot.com https://vatson.ee https://*.vatson.ee https://bing.com https://*.bing.com https://hotjar.com https://*.hotjar.com https://script.crazyegg.com https://client.britepaymentgroup.com https://*.google.com https://*.orakulas.lt https://*.olybet.dev https://*.checkout.com https://applepay.cdn-apple.com https://*.googleapis.com https://widget.surveymonkey.com https://*.sbifm.online https://unpkg.com/@img-arena/front-row-seat https://adscool.net/resources/content/olybet.js https://scripts.mediamathrdrt.com/scripts/v_olybet.js https://static.imgarena.com/event-centre-configs/olybet.json https://*.zendesk.com https://*.clarity.ms https://adscool.net/pageview/olybet https://pixel.mediamathrdrt.com/rtg/sync/olybet.gif https://*.betgames.tv https://*.game-flex.eu https://*.relaxg.com https://*.api.relaxg.com https://*.betsy.software https://*.tomhorngaming.eu https://*.mediamathrdrt.com https://mediamathrdrt.com https://*.turbostars.gg https://sdk.optimove.net https://optimove-sdk-web.optimove.net https://*.sportbook.work https://sports.olylive.fr https://sports.olybet.fr https://cdn.flows.world https://pubads.g.doubleclick.uk.net https://www.paypal.com https://casino-api.orakulas.lt https://*.newrelic.com https://*.eskimi.com https://trackadshub.com https://*.cloudflareinsights.com https://*.mxapis.com”"
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “cto_bundle” has been rejected for invalid domain."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “cto_bidid” has been rejected for invalid domain."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “sa-user-id” has been rejected for invalid domain."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “sa-user-id-v2” has been rejected for invalid domain."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “sa-user-id-v3” has been rejected for invalid domain."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “id” has been rejected for invalid domain."
+      },
+      {
+        "name": "Error",
+        "message": "Blocked loading mixed active content “http://sync.pmbmonetize.live/psync?t=s&e=247&gdpr=1&gdpr_consent=CQlBZUAQlBZUAEsACBENChFsAP_gAEPgAAIwL4NB_G7ebWFL-TL3IbtEeYxH59hr7sAxAgbIkgQFTDKSqJwGx2EYNAyQlCIKGRAAuFSBAAEgCIDURUCAKIAFrSBMKEyQYBMIJqBggBMRA2FACFhgC4ojWQCI4ursZkcUmAuN6Mqs2czwSggDhlawNmSVQBCdIYeIBYm8ZBGC-9IEdWx4tgp4-ETpEG0eQ1E_oGpoojI6YnE6ABgBhAQgQUgFBAIIAAaAAHBAAAEAAQgEBigABACAAACgACAAAEAEF8Gg_jduNrin_BgrkN2iHMYr8-wB92AYgANkQQICphlJUEYBb7CIEgRICBEEDIgAUCoAgACUBAQiIiBABEAKloA2ACYIMA2EAHAwQBmIoTAgACQgBcURrIBEcHU2MqOqRITGcGVTbKZYJAQRwylQGHJKoAxOEMGAAsSWMAiAfXkCerIlawUkfGJ0iCAMAYifyDUyUDkNcXjlAAwAggIQICACggAABANAADAgAACCAAQAIzQAAgBAAABQAAAAACAiAAA.IL4NB_G7ebXFP-TL3IbtEeYxX59hr7sAxAgbIkgQFTDKSqJwG32EYNAyQlCIKGRAAuFSBAAEoCIjURUCAKIAVrSBsKEyQYBsIJuBggDMRQ2FACFhgC4ojWQCI4ursZ0dUmQuN6Mqu2czwSggjhlawNuSVQBidIYeIBYm8ZBGC-_IE9Wx69gp4-MTpEG0eQ1E_sGpsonI64vH6ABgBhAQgQUgFBAIICAaAAHBAAAEEAQgERmgABACAAACgACAAAEBEA.d4AACHwAAAA&us_privacy=1---&gpp=&gpp_sid=&cb=https%3A%2F%2Fcookies.nextmillmedia.com%2Fsetuid%3Fbidder%3Dadipolo%26nmuid%3D%26gdpr%3D1%26gdpr_consent%3DCQlBZUAQlBZUAEsACBENChFsAP_gAEPgAAIwL4NB_G7ebWFL-TL3IbtEeYxH59hr7sAxAgbIkgQFTDKSqJwGx2EYNAyQlCIKGRAAuFSBAAEgCIDURUCAKIAFrSBMKEyQYBMIJqBggBMRA2FACFhgC4ojWQCI4ursZkcUmAuN6Mqs2czwSggDhlawNmSVQBCdIYeIBYm8ZBGC-9IEdWx4tgp4-ETpEG0eQ1E_oGpoojI6YnE6ABgBhAQgQUgFBAIIAAaAAHBAAAEAAQgEBigABACAAACgACAAAEAEF8Gg_jduNrin_BgrkN2iHMYr8-wB92AYgANkQQICphlJUEYBb7CIEgRICBEEDIgAUCoAgACUBAQiIiBABEAKloA2ACYIMA2EAHAwQBmIoTAgACQgBcURrIBEcHU2MqOqRITGcGVTbKZYJAQRwylQGHJKoAxOEMGAAsSWMAiAfXkCerIlawUkfGJ0iCAMAYifyDUyUDkNcXjlAAwAggIQICACggAABANAADAgAACCAAQAIzQAAgBAAABQAAAAACAiAAA.IL4NB_G7ebXFP-TL3IbtEeYxX59hr7sAxAgbIkgQFTDKSqJwG32EYNAyQlCIKGRAAuFSBAAEoCIjURUCAKIAVrSBsKEyQYBsIJuBggDMRQ2FACFhgC4ojWQCI4ursZ0dUmQuN6Mqu2czwSggjhlawNuSVQBidIYeIBYm8ZBGC-_IE9Wx69gp4-MTpEG0eQ1E_sGpsonI64vH6ABgBhAQgQUgFBAIICAaAAHBAAAEEAQgERmgABACAAACgACAAAEBEA.d4AACHwAAAA%26us_privacy%3D1---%26uid%3D%25USER_ID%25”"
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “AEC” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “__Secure-ENID” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      }
+    ],
+    "requestFailures": [
+      {
+        "url": "https://ap.lijit.com/pixel?gdpr=1&gdpr_consent=CQlBZUAQlBZUAEsACBENChFsAP_gAEPgAAIwL4NB_G7ebWFL-TL3IbtEeYxH59hr7sAxAgbIkgQFTDKSqJwGx2EYNAyQlCIKGRAAuFSBAAEgCIDURUCAKIAFrSBMKEyQYBMIJqBggBMRA2FACFhgC4ojWQCI4ursZkcUmAuN6Mqs2czwSggDhlawNmSVQBCdIYeIBYm8ZBGC-9IEdWx4tgp4-ETpEG0eQ1E_oGpoojI6YnE6ABgBhAQgQUgFBAIIAAaAAHBAAAEAAQgEBigABACAAACgACAAAEAEF8Gg_jduNrin_BgrkN2iHMYr8-wB92AYgANkQQICphlJUEYBb7CIEgRICBEEDIgAUCoAgACUBAQiIiBABEAKloA2ACYIMA2EAHAwQBmIoTAgACQgBcURrIBEcHU2MqOqRITGcGVTbKZYJAQRwylQGHJKoAxOEMGAAsSWMAiAfXkCerIlawUkfGJ0iCAMAYifyDUyUDkNcXjlAAwAggIQICACggAABANAADAgAACCAAQAIzQAAgBAAABQAAAAACAiAAA.IL4NB_G7ebXFP-TL3IbtEeYxX59hr7sAxAgbIkgQFTDKSqJwG32EYNAyQlCIKGRAAuFSBAAEoCIjURUCAKIAVrSBsKEyQYBsIJuBggDMRQ2FACFhgC4ojWQCI4ursZ0dUmQuN6Mqu2czwSggjhlawNuSVQBidIYeIBYm8ZBGC-_IE9Wx69gp4-MTpEG0eQ1E_sGpsonI64vH6ABgBhAQgQUgFBAIICAaAAHBAAAEEAQgERmgABACAAACgACAAAEBEA.d4AACHwAAAA&redir=https%3A%2F%2Fcs.yellowblue.io%2Fcs%3Ffwrd%3D1%26aid%3D11607%26uid%3D%24UID",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://secure.adnxs.com/getuid?https://usersync.gumgum.com/usersync?b=apn&i=$UID",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://pixel.rubiconproject.com/tap.php?v=223352&nid=4584&put=L-4GFrj5ri_WwTldDs7iXGY5uc8lkvJx54aZ2zgopVU",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://ads.pubmatic.com/AdServer/js/user_sync.html?p=156578&predirect=&gdpr=1&gdpr_consent=CQlBZUAQlBZUAEsACBENChFsAP_gAEPgAAIwL4NB_G7ebWFL-TL3IbtEeYxH59hr7sAxAgbIkgQFTDKSqJwGx2EYNAyQlCIKGRAAuFSBAAEgCIDURUCAKIAFrSBMKEyQYBMIJqBggBMRA2FACFhgC4ojWQCI4ursZkcUmAuN6Mqs2czwSggDhlawNmSVQBCdIYeIBYm8ZBGC-9IEdWx4tgp4-ETpEG0eQ1E_oGpoojI6YnE6ABgBhAQgQUgFBAIIAAaAAHBAAAEAAQgEBigABACAAACgACAAAEAEF8Gg_jduNrin_BgrkN2iHMYr8-wB92AYgANkQQICphlJUEYBb7CIEgRICBEEDIgAUCoAgACUBAQiIiBABEAKloA2ACYIMA2EAHAwQBmIoTAgACQgBcURrIBEcHU2MqOqRITGcGVTbKZYJAQRwylQGHJKoAxOEMGAAsSWMAiAfXkCerIlawUkfGJ0iCAMAYifyDUyUDkNcXjlAAwAggIQICACggAABANAADAgAACCAAQAIzQAAgBAAABQAAAAACAiAAA.IL4NB_G7ebXFP-TL3IbtEeYxX59hr7sAxAgbIkgQFTDKSqJwG32EYNAyQlCIKGRAAuFSBAAEoCIjURUCAKIAVrSBsKEyQYBsIJuBggDMRQ2FACFhgC4ojWQCI4ursZ0dUmQuN6Mqu2czwSggjhlawNuSVQBidIYeIBYm8ZBGC-_IE9Wx69gp4-MTpEG0eQ1E_sGpsonI64vH6ABgBhAQgQUgFBAIICAaAAHBAAAEEAQgERmgABACAAACgACAAAEBEA.d4AACHwAAAA&google_gid=CAESEAHR18g4AFtRek4ut-F3RWE&google_cver=1",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_ERROR_FAILURE"
+        }
+      },
+      {
+        "url": "https://image8.pubmatic.com/AdServer/ImgSync?sec=1&gdpr=1&gdpr_consent=CQlBZUAQlBZUAEsACBENChFsAP_gAEPgAAIwL4NB_G7ebWFL-TL3IbtEeYxH59hr7sAxAgbIkgQFTDKSqJwGx2EYNAyQlCIKGRAAuFSBAAEgCIDURUCAKIAFrSBMKEyQYBMIJqBggBMRA2FACFhgC4ojWQCI4ursZkcUmAuN6Mqs2czwSggDhlawNmSVQBCdIYeIBYm8ZBGC-9IEdWx4tgp4-ETpEG0eQ1E_oGpoojI6YnE6ABgBhAQgQUgFBAIIAAaAAHBAAAEAAQgEBigABACAAACgACAAAEAEF8Gg_jduNrin_BgrkN2iHMYr8-wB92AYgANkQQICphlJUEYBb7CIEgRICBEEDIgAUCoAgACUBAQiIiBABEAKloA2ACYIMA2EAHAwQBmIoTAgACQgBcURrIBEcHU2MqOqRITGcGVTbKZYJAQRwylQGHJKoAxOEMGAAsSWMAiAfXkCerIlawUkfGJ0iCAMAYifyDUyUDkNcXjlAAwAggIQICACggAABANAADAgAACCAAQAIzQAAgBAAABQAAAAACAiAAA.IL4NB_G7ebXFP-TL3IbtEeYxX59hr7sAxAgbIkgQFTDKSqJwG32EYNAyQlCIKGRAAuFSBAAEoCIjURUCAKIAVrSBsKEyQYBsIJuBggDMRQ2FACFhgC4ojWQCI4ursZ0dUmQuN6Mqu2czwSggjhlawNuSVQBidIYeIBYm8ZBGC-_IE9Wx69gp4-MTpEG0eQ1E_sGpsonI64vH6ABgBhAQgQUgFBAIICAaAAHBAAAEEAQgERmgABACAAACgACAAAEBEA.d4AACHwAAAA&us_privacy=1---",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://image8.pubmatic.com/AdServer/ImgSync?sec=1&gdpr=1&gdpr_consent=CQlBZUAQlBZUAEsACBENChFsAP_gAEPgAAIwL4NB_G7ebWFL-TL3IbtEeYxH59hr7sAxAgbIkgQFTDKSqJwGx2EYNAyQlCIKGRAAuFSBAAEgCIDURUCAKIAFrSBMKEyQYBMIJqBggBMRA2FACFhgC4ojWQCI4ursZkcUmAuN6Mqs2czwSggDhlawNmSVQBCdIYeIBYm8ZBGC-9IEdWx4tgp4-ETpEG0eQ1E_oGpoojI6YnE6ABgBhAQgQUgFBAIIAAaAAHBAAAEAAQgEBigABACAAACgACAAAEAEF8Gg_jduNrin_BgrkN2iHMYr8-wB92AYgANkQQICphlJUEYBb7CIEgRICBEEDIgAUCoAgACUBAQiIiBABEAKloA2ACYIMA2EAHAwQBmIoTAgACQgBcURrIBEcHU2MqOqRITGcGVTbKZYJAQRwylQGHJKoAxOEMGAAsSWMAiAfXkCerIlawUkfGJ0iCAMAYifyDUyUDkNcXjlAAwAggIQICACggAABANAADAgAACCAAQAIzQAAgBAAABQAAAAACAiAAA.IL4NB_G7ebXFP-TL3IbtEeYxX59hr7sAxAgbIkgQFTDKSqJwG32EYNAyQlCIKGRAAuFSBAAEoCIjURUCAKIAVrSBsKEyQYBsIJuBggDMRQ2FACFhgC4ojWQCI4ursZ0dUmQuN6Mqu2czwSggjhlawNuSVQBidIYeIBYm8ZBGC-_IE9Wx69gp4-MTpEG0eQ1E_sGpsonI64vH6ABgBhAQgQUgFBAIICAaAAHBAAAEEAQgERmgABACAAACgACAAAEBEA.d4AACHwAAAA&us_privacy=",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://match.prod.bidr.io/cookie-sync/rp?bee_sync_partners=rp&gdpr_consent=CQlBZUAQlBZUAEsACBENChFsAP_gAEPgAAIwL4NB_G7ebWFL-TL3IbtEeYxH59hr7sAxAgbIkgQFTDKSqJwGx2EYNAyQlCIKGRAAuFSBAAEgCIDURUCAKIAFrSBMKEyQYBMIJqBggBMRA2FACFhgC4ojWQCI4ursZkcUmAuN6Mqs2czwSggDhlawNmSVQBCdIYeIBYm8ZBGC-9IEdWx4tgp4-ETpEG0eQ1E_oGpoojI6YnE6ABgBhAQgQUgFBAIIAAaAAHBAAAEAAQgEBigABACAAACgACAAAEAEF8Gg_jduNrin_BgrkN2iHMYr8-wB92AYgANkQQICphlJUEYBb7CIEgRICBEEDIgAUCoAgACUBAQiIiBABEAKloA2ACYIMA2EAHAwQBmIoTAgACQgBcURrIBEcHU2MqOqRITGcGVTbKZYJAQRwylQGHJKoAxOEMGAAsSWMAiAfXkCerIlawUkfGJ0iCAMAYifyDUyUDkNcXjlAAwAggIQICACggAABANAADAgAACCAAQAIzQAAgBAAABQAAAAACAiAAA.IL4NB_G7ebXFP-TL3IbtEeYxX59hr7sAxAgbIkgQFTDKSqJwG32EYNAyQlCIKGRAAuFSBAAEoCIjURUCAKIAVrSBsKEyQYBsIJuBggDMRQ2FACFhgC4ojWQCI4ursZ0dUmQuN6Mqu2czwSggjhlawNuSVQBidIYeIBYm8ZBGC-_IE9Wx69gp4-MTpEG0eQ1E_sGpsonI64vH6ABgBhAQgQUgFBAIICAaAAHBAAAEEAQgERmgABACAAACgACAAAEBEA.d4AACHwAAAA&gdpr=1&us_privacy=1---&_bee_ppp=1",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://prebid.a-mo.net/isyn?gdpr=0&gdpr_consent=&us_privacy=&cb=https%3A%2F%2Fprebid.adtarget.biz%2Fsetuid%3Fbidder%3Damx%26gdpr%3D0%26gdpr_consent%3D%26f%3Di%26uid%3D",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/pagead/sodar?id=sodar2&v=254&li=gpt_m202605130201&jk=7632842091855598&rc=",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://www.google.com/ads/measurement/l?ebcid=ALh7CaRCedg21hV8rWiMbmwjrJZ99R21uro1MU3bT5I_2u3VtW7O3pdX_QnNUqlS6oVRBo6iVXCyfMuiP26H3VoZ7NQGQ49aJg",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://ep1.adtrafficquality.google/pagead/sodar?id=sodar2&v=254&t=2&li=gpt_m202605130201&jk=7632842091855598&bg=!cXKlchDNAAZ0wi26VMI7AEcBe5WfONbpB-Dagp_xefIKBAvDZhZLptGDPmLiHRbu-3m856kS1z9B3ChT-bLlyAEMJHKt3_8VwOMXof5LaaywzfhHzG4z_gIAAAA6UgAAAAFoAQd-ADa4YVz7IcNEbPPt6SrpUfD8xjfkbWSmTzj2ZhD26vu0PIST7vyoWWFOr0bG45XsANn5YM_s3EgKAFUtxbGZVRxgVh8Bapad5p71hHlu6EEa4OKFQqP7R4GEtnEyvr86KOvqr9TVDtr7pTrh4iG3tMKhiIgzKaio9gE_R4RYNLge-FsAIwy5YyllvM-k0VnKmQJW-okoJMnY5aKOOuEPnTVv4KFvNiZGBh-TiL6p4r1RXuNqx_zjdsfTIRnxNLY9r88XMNPxAmR5rQJAssW7z2F-6ley93DI9ZIloASiKsRILA4BIp0QhGsXnlPb5_2qMVRuWhCwMw5UasN1QLkC9pUIIHWgMoIvhlyBOYlE6FVTVCQvSngh2MWUUwUusIXNWf6rx5riDUXt1R9J60-CxNX3SRwo46RLPJwEwhZvTY-SJxvrubcTVCkqKU-wo8-IZOLy7twOE9hQOlWmxnE2l8vfjBdih691hh9cRf3GCOfZEwb0D9fF1W-PLOTIDC5oCAEG3h-_5HU76g-s_6e4S2bb9aZD1iMC2E72CK3kriLKZXmaknjkq3WkLo5hdWQRho3oiv6K3JVsIwFSlkdi50kg8t-zr2jCbsTrmkq0YetbKPPFNR511dlukeXuMqdf-nyxADrQNs7RyoTxU7aF0NIXZoceihnFOAFngBY2DBMlRPsqTZqcGv0xOhF3xx9nRiGP7XxToJdcVv-VNPCIoc4FgjWCrElRgz9OoEXAV1YEHwqzjLvxc31qKVpE7w-EgssQO8SJI4OofZJobrCG2A0ptOMwuX0M35lnyEj9kzqK2ov7Ye50I5VhPT2XlRbVY9NN1wTvQfnq8y4-ho6DaWtaE3P-ZYsnF6KWszfWxQ3LJIs7JafhzDhS2mJNgC73Zoj7cMuJ_1lg2EDStqLccfktAQv-Dm2R1iKD3lEMUUN_wfdCKkENGT5rh8k8ORfvDwlPrVVJBzMjQGvzQ_VylaEK6L1vW-TYeA",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://securepubads.g.doubleclick.net/pcs/view?xai=AKAOjsva0SA4WVCIh55a6URRvV8peP5n_j5HFFZOhwHsvCV7Hul50sGAxo1DNX1rcwiD5ITN3B-wjtTLflhk1NpPyesvMLbcJRV-GkUD7lEvMWXEujwwRd-c-LR6A6_ouHM5C0HCACvk6GEdRuRJXc0odb3zoaLM1Ke9VSZYIwV_iYUgUi8_2hZoxHZWJhFNgtcph_sEmVh3fU201cnTGHK5v-36Bl9BZMZBwqkN1GYJ6wt4NeJHuD6D6WOMhEpoCpjVW4ztAZkrq0l5C8g-w1KO-W_62wTMTEZm9O_ltJkt25RGbaRkxiGb68r4jGSZFAlJfh9I9s6YFnQwnFabZrOzE9-xrhtvUIe5_Bb924FBNp-Fb6ryKwB5C0bkxNGsGsyYFdJnv_1yHJMbgnvnRKSvkS0KN5vhfWjvmjxS4bueqobade1cXmoftGP25C3rEtvwKxEzMHIXLoQNgvF7ZFpH7FfUQ_A&sai=AMfl-YTnTN8F2T_I9tZgN5n_8ZH5amXcMyQkpEBzb_7i9dzGzW4b3eeZhnv0kqYjn9C6onPdpyGIfiLk6ICmTlHo6hCFeFBtAboLypSwOOvddsp7DcruayPX90iZSVb1B4eISxCcpaRnTtf0dVh0K-I_ZHqhsw9xdpeW7v_1-fsPN-HhtSmjQntyD1qMW7MYxny3LH4IHABaaKia1w_zkNdbmlZMLBlnhvaUoKfH6zUXwHtn2Y4&sig=Cg0ArKJSzF373PN5b6HrEAE&uach_m=%5BUACH%5D&urlfix=1&adurl=",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/pagead/gen_204?id=dv3-render&msg=running&ord=5233374162948&version=m202604070101",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/pagead/gen_204?id=dv3-render&msg=tlbr&ord=5233374162948&version=m202604070101&ct=77&x=13&cor=5250909373906743296",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://googleads.g.doubleclick.net/pagead/drt/si?st=NO_DATA",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://securepubads.g.doubleclick.net/pcs/view?xai=AKAOjsu_x05XWTrGq7CYAKZq-V6s-1OAvvdiM8lspU8tCO-JBGyMg9Ft6p0vgPRy24URN3jfDqIdzU4J3zamDt2jeIGtfsP2sAWw6LV8uKHTceCRaoa42knk3hm1G5xlqKlqsjvZpj32HwZcgqQ4HM7fRf-N84sC_YYyq3qDEiQZWhwITHjvfCYA5jfksFhru7c52hvRhlGII3fWYctk8kUOvvTgzU3VjUWrY9FD6mT09cFdHt5zLlP_GIKFGvYkuioBTRGsiQvGR3el9A32riHrtK3w-nYHbcAxEWZPmRZlyaGMpCwePTc5whcsXy3lStFqZhamQVsXFBesc340lG7hYeTa7lvqZaxa_8hJaHbbqQDEZFAIM1ufF9kdN3btV6NVfadj4oesO2bMg7YnUyuLintdxCNHChMIBSJbQI96u9y0RIqtDczVnHo5diJ7I-g03qMK_e2q8sZhq0HMXI8&sai=AMfl-YTUCNDY-U2-PwvPNzPtTVuK04vAJUiRitr6oXfEg2vR2Lb74GkPNeoCvwKpGFxokgocTzhu0Ww334Bg9E3qb-sRXnWuiqiTasan-4uqNBYtzoRYQ6nuvc1I-TZzgxxQDnsDn_h02SMWwKM5ssjJsFqQloNNheL4XOYwDrEvY9kUc_HoDWvZN21b2HIIk3jwf9Fl4ClMHyG9cWJ80rUyWRwO_JK6fQErgq-7KHXb2KvzYnU&sig=Cg0ArKJSzJ8msnyjwmccEAE&uach_m=%5BUACH%5D&urlfix=1&adurl=",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://securepubads.g.doubleclick.net/pcs/view?xai=AKAOjssUK6CAwKvypQb2a4-WjUtpFKnx3Y1X2nJ7ZgtDP-H8IYK0Aa3oDHcgYI1zr32952xr_WTZhsNMGhawcvqiLRjAeUV_e0Jdejn5F4BksahwFyNjEWxw9vbeNHPPYYN-8DbDQaYTIVlTDn9PO85Vsr3JHFLcGNuQLrdqPiII8OmhyCUcfBg3kkzRGnfU2SlensCZirraNCB8NvpSXOEQ7_7pnTy4dEt84IL6VW6Zo4i03a1oqp2skiB6DadXp0PerO3BF7cn_s7DrCi08rQ1TdqziDfLVnM2S4plemZzLdnjvHpqhd-YDk1onTG5yACbuwP0Nf0ZtkhdjOsWD9G76GOIjd9c8yfoQikh7rPU-yFcqvQYZuVgLbAmgwGOyLHpTx9--MMMcz2cs8WbDqI0QEMsPukGWJtGCR5sQDx71vhIbkpO4Lq4W_hXse359MB2KKDdpp5UqP_ooktipMQ&sai=AMfl-YScgGOjQwtGr8u-qARX07PVA_2ulm3h-JOsXK0qVePwe98ARQU4gWpbkdyu0A3310OF39z_lMelquhJeoPNdB_HAoB8Vm2N6FxFM-kWpsNqZCKaHeGgKQ2KUxc18oXRhmNdO57UCuyylByLneV5C6Sz0B744qob-32JvOx-GvCIEUwBdEl8u4UsaX6-RXNVKrVAlX30LNfyKVhNOzukk-2IgMlSxxuP5TI3q-AagdSqogg&sig=Cg0ArKJSzOYyfHXvWVstEAE&uach_m=%5BUACH%5D&urlfix=1&adurl=",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://securepubads.g.doubleclick.net/btr/view?ai=COGx0bPoaasmREI-vhcIP1Pv3iAKJvtuwhwG1xNDJ2hXZ2R4QASCIgL8UYPv5_IKICqABnK_7qALIAQPgAgCoAwHIAwiqBPMCT9DsAbFj9uyHpNJ7-N1xytTgJlMLPHTH0lQ7-Ux3trL0sxB1E8PF9Rr2zXm3VCgRNxMyG26woU79vd5DCak2KSxWrlAKct808-Q7uqFCPAWDqDjRdiFLIn7FWKBCOF8X_8Dm2GvkO6isZKFoeSTKDfAsoCgvKA1NfM3vNpXx4txvwldV2G4CWGsBRB6XHEbxc-4QW3Qx7ho2xW8SKrpsjN74Qa_H9Eqm7rlZ76JXmXohulY4Ge4Gt1kTTK8E8JOd1M1jtStfdUUvXbh-ECzLwDVmu2NMBv8gTPeMFQ1_pjiUetwOLB_gi9B0UnfJPfnDDVLIu4oFcemtrd6taOnC6K-8xaCK7GAzWxJ8v5dvUGl41QuLS9obSO9LcS7HVcJdEVv5nxQf-ZQc72dslD0bhPoqXQ-DVyopb7D6b-Q6qtVt4MiIkmtH0QLVZUl0lOhKWPffKo_nBFMyi9vyaYPngWDDRISr6PcjiXMwE9TZVr8IH0_ABNzX4OPjBeAEAYgFiruJ_1iSBQQIBBgBkgUECAUYBKAGA4AHzNCE1wGoB6fMsQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgH98KxAtgHAfIHBBCT9BvSCDYIgOGAEBABGJ0BMgiqgoCAgICACDoQgMADgICEgICUruADqIeAEEi9_cE6WITHlr2i4ZQDYAHyCBthZHgtc3Vic3luLTc0MjkwMTY5NzYwODAxNjaACgPICwGiDCRiAgoAahYKFGNvbS5uZXh0ZXJzLmhlcm93YXJzeAGIAQGQAQGqDQJGUuINEwjQpJe9ouGUAxWPV0ECHdT9HSHqDRMI47uYvaLhlAMVj1dBAh3U_R0hiA7___________8B2BMN0BUBmBYByhYCCgD4FgGAFwGyFy4KHAgAEhRwdWItNTkxNjQzMzYzNTc4NDM1NBi4zQwYASoKMjM3OTY4NDI5NlAGuhcCOAGqGBcJAAAAAEzoG0ESCjIzNzk2ODQyOTYYAbIYCRICsFMYAyIBANAYAegYAcIZAggB&sigh=iIMLGn-Y1BI&uach_m=%5B%5D&cid=CAQSjgEABaugfQawOp4ag4OUrAhI5r4rIq2XcsInd09PP5YQZZ1WLfcT9s3prI79fZykPrWH5C9Jf_XfwZYBwJu8hfZIY4lSSTD9SyaoOpR6-k6EeftWRs24pVl8ojGfDk0Eu9J7WqrWRFsIShl6_e5jF02G77OdFyko6ELa679FktoCl1R3ReRlmQS0HSGHmmriGAE&ibtr=1",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://ups.analytics.yahoo.com/ups/58679/cms?partner_id=DELI&gdpr=1&gdpr_consent=CQlBZUAQlBZUAEsACBENChFsAP_gAEPgAAIwL4NB_G7ebWFL-TL3IbtEeYxH59hr7sAxAgbIkgQFTDKSqJwGx2EYNAyQlCIKGRAAuFSBAAEgCIDURUCAKIAFrSBMKEyQYBMIJqBggBMRA2FACFhgC4ojWQCI4ursZkcUmAuN6Mqs2czwSggDhlawNmSVQBCdIYeIBYm8ZBGC-9IEdWx4tgp4-ETpEG0eQ1E_oGpoojI6YnE6ABgBhAQgQUgFBAIIAAaAAHBAAAEAAQgEBigABACAAACgACAAAEAEF8Gg_jduNrin_BgrkN2iHMYr8-wB92AYgANkQQICphlJUEYBb7CIEgRICBEEDIgAUCoAgACUBAQiIiBABEAKloA2ACYIMA2EAHAwQBmIoTAgACQgBcURrIBEcHU2MqOqRITGcGVTbKZYJAQRwylQGHJKoAxOEMGAAsSWMAiAfXkCerIlawUkfGJ0iCAMAYifyDUyUDkNcXjlAAwAggIQICACggAABANAADAgAACCAAQAIzQAAgBAAABQAAAAACAiAAA.IL4NB_G7ebXFP-TL3IbtEeYxX59hr7sAxAgbIkgQFTDKSqJwG32EYNAyQlCIKGRAAuFSBAAEoCIjURUCAKIAVrSBsKEyQYBsIJuBggDMRQ2FACFhgC4ojWQCI4ursZ0dUmQuN6Mqu2czwSggjhlawNuSVQBidIYeIBYm8ZBGC-_IE9Wx69gp4-MTpEG0eQ1E_sGpsonI64vH6ABgBhAQgQUgFBAIICAaAAHBAAAEEAQgERmgABACAAACgACAAAEBEA.d4AACHwAAAA",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://securepubads.g.doubleclick.net/pagead/adview?ai=COGx0bPoaasmREI-vhcIP1Pv3iAKJvtuwhwG1xNDJ2hXZ2R4QASCIgL8UYPv5_IKICqABnK_7qALIAQPgAgCoAwHIAwiqBPMCT9DsAbFj9uyHpNJ7-N1xytTgJlMLPHTH0lQ7-Ux3trL0sxB1E8PF9Rr2zXm3VCgRNxMyG26woU79vd5DCak2KSxWrlAKct808-Q7uqFCPAWDqDjRdiFLIn7FWKBCOF8X_8Dm2GvkO6isZKFoeSTKDfAsoCgvKA1NfM3vNpXx4txvwldV2G4CWGsBRB6XHEbxc-4QW3Qx7ho2xW8SKrpsjN74Qa_H9Eqm7rlZ76JXmXohulY4Ge4Gt1kTTK8E8JOd1M1jtStfdUUvXbh-ECzLwDVmu2NMBv8gTPeMFQ1_pjiUetwOLB_gi9B0UnfJPfnDDVLIu4oFcemtrd6taOnC6K-8xaCK7GAzWxJ8v5dvUGl41QuLS9obSO9LcS7HVcJdEVv5nxQf-ZQc72dslD0bhPoqXQ-DVyopb7D6b-Q6qtVt4MiIkmtH0QLVZUl0lOhKWPffKo_nBFMyi9vyaYPngWDDRISr6PcjiXMwE9TZVr8IH0_ABNzX4OPjBeAEAYgFiruJ_1iSBQQIBBgBkgUECAUYBKAGA4AHzNCE1wGoB6fMsQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgH98KxAtgHAfIHBBCT9BvSCDYIgOGAEBABGJ0BMgiqgoCAgICACDoQgMADgICEgICUruADqIeAEEi9_cE6WITHlr2i4ZQDYAHyCBthZHgtc3Vic3luLTc0MjkwMTY5NzYwODAxNjaACgPICwGiDCRiAgoAahYKFGNvbS5uZXh0ZXJzLmhlcm93YXJzeAGIAQGQAQGqDQJGUuINEwjQpJe9ouGUAxWPV0ECHdT9HSHqDRMI47uYvaLhlAMVj1dBAh3U_R0hiA7___________8B2BMN0BUBmBYByhYCCgD4FgGAFwGyFy4KHAgAEhRwdWItNTkxNjQzMzYzNTc4NDM1NBi4zQwYASoKMjM3OTY4NDI5NlAGuhcCOAGqGBcJAAAAAEzoG0ESCjIzNzk2ODQyOTYYAbIYCRICsFMYAyIBANAYAegYAcIZAggB&sigh=iIMLGn-Y1BI&uach_m=%5BUACH%5D&cid=CAQSjgEABaugfQawOp4ag4OUrAhI5r4rIq2XcsInd09PP5YQZZ1WLfcT9s3prI79fZykPrWH5C9Jf_XfwZYBwJu8hfZIY4lSSTD9SyaoOpR6-k6EeftWRs24pVl8ojGfDk0Eu9J7WqrWRFsIShl6_e5jF02G77OdFyko6ELa679FktoCl1R3ReRlmQS0HSGHmmriGAE&ebtr=1",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://securepubads.g.doubleclick.net/pcs/view?xai=AKAOjstXdCXgGDJG0KO4Ltm8el0otdTUUoGKzNaxKLbnc200Jphl_-5Et-vlZp3eKm_VNPfhgVsCERgI9k_5EMnfHp_WXb5xW6Kq_61vqLd1r1VilMm0ENS5hc0LEaTLA5dFoYwxw8WDBehqraSPjjxPLyKRJ0janJ_ElP8V5ypqUYszeAYEwRRHJGH57Oa-RyDCKDLParxnNiHhRaD-Qvfr5LOEzS-4uufFiz2ey0K8J4FX9v5Dh9S1X73LE3DP2X1YSxrp-BaTyzXZN6YEiEX7OeaRUj5306WsOtYU0v2ZHbq4rkvsciINBWPA-8l0rYarWyFw3dfhURU-iKe0ecc5kXYeTHZ5y9aTBTJlysXZaBtS2RdzZn-WHpgZlZ9MWGVHmKkynSEKZ6e7Wgj6WUuX7eXADoVDFFfKmvct_l97HtpvBpDP1Uhboj-NbpRsVjx8SXwdnnArhdxwAqOyWqMXxg&sai=AMfl-YSazDCPhvbhslAHA9O4BqfCSDurEc3GVm-hwe4c8_e0KcQ3xAblZVnQCCh2oWIDqX24ZPOx7_5koH7lvTn8VGkuUZSyCzL7Pphu3w3c04x76l0uDJR74c7QkwyYVZfgO_sKsh50BZj-jgKJVWeNGvOA92LRBh-IQSKCmK_kxnkWHsu7UY3_nfZ15P8dXlZVsjoxgUfa_hMOOTIW639VhrM31nwAH54NE0vPyc0hN6DpA04&sig=Cg0ArKJSzG0_3dcQHLZnEAE&uach_m=%5BUACH%5D&urlfix=1&dett=4&adurl=",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://securepubads.g.doubleclick.net/pcs/view?xai=AKAOjstz_dYOwq9a18h8GLJLlktEwcT0wokHzpT4cpdMRN9eRDLus01BIiDOlt69ZFxt_wP6a0WuOc24bDrXEZ_DMWGQVa_BfwD9BdCv1YosZoyUzw4NW3SsycfXsv68CWj0WS8QzVzzPXuRa0Z_rHyRgslq_AinfhDtksuvmQj1J99m9YkXWzS9APs60a4ZL6qQar99tmVPXxgf1A15u5_NTYaJXb5_ZsoBWsnGyBdY015mO2nVqMOpeFMMdzfNiGX_y93Mfb0jlb86GCk-CBtcXarSXh7HgiwNTMV6h7QtAiM5z1YBoBn6RklYeSfhSOwdPuLnc5WVXylIaIe_6w0j7hrocwVRzSdvKnbQD55nYajGUfLb8gSZATz-aNJAB78_MnufnqAVk2_gLnbUQs7AtYmb7ij-1yPmoUtXXxG98Jwv0ovaQUyy3c_tRszoNaaxl0hH8MT3ul8zvpHm7wM_KQ&sai=AMfl-YSWPv7kuDZOmkG4e3g3UcmlC1a8qJMwjJK4wA2nSawpemZO9WkmlVnfS3xKCTFFES1aMv24FinDEwmb6i3eII7k6LJ9U-LJITU0Jrgguww3gCmp5VtylA6OOV4gdWIGX-czenxSzJTZ0_LTh0g5PylTqhL_Jgvb-TVNk2YxDVcsG1i3wSJ24jO7ZF1ijPG8u5HLSeY6KjsfmNhYFUDv8EDUVuBD7Qvlehu0_bvPux8JBjg&sig=Cg0ArKJSzHxNX5hexpVREAE&uach_m=%5BUACH%5D&urlfix=1&dett=4&adurl=",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://securepubads.g.doubleclick.net/pcs/view?xai=AKAOjst2p2W0JS3UWBMIUJyTHLyTRa7LbhN0-Igc7oN8YiZ0kPcslHM-Gt-o93HYshuR-ZXoxMWNTqCS_gMC_jKKSf8Y9Qtjoax_OaflPIu5FguLtJnB5gp5mvOwTFOj5EUprHIePEHGvGHrSSqGZqnWISxfD1b6Exux8XE7idGZHdHDk81QgUFQC-b5y2WFJqQD9_3EBlbtXaEIFy_TzpTN_VE_Yy9V12PZ5uRMj-GsAI9yn9p4ivKIndvkgncr_gROpjnQ1D3NB1Hme57WOrrLXG_C73-Ga-11EdY0Khc1cPZ1k6h5N293dxj8BI4s85irI3C5yg9t5iJZSNm-CGVpu3AeGeE_l1iv0a86iwRkvXhB16GFJGjB_bx7Lwa9Jh1OPX9nKR9MtjiATb5dpiVQM4UXCGq2wIKTCH0xDeG_RbiXpBTQ6pAQFgezN7rylda25dB7JhhZ4CE6ve2PYHbNCAFgm1G0Rw&sai=AMfl-YRw00rDHFASKcRNVU93BsYqiI991I6tiqZDjaiFODu3ZmKTtf4kuz0d2p-GuNd-0xvIFi6H_EXxDdZFr-ZLpnFFgrYbeWU3-q6Xmpq3HWozXj_bIzCMdkL1dhDQ-NAooROVGiKwc8VoJL953EzI36_8PI0cmWoZ1mZde1PCvuJIhP_YgXHwmci_xYPXC6hM2nFRSGovl7Ouyr-v3seKfR0egpw4p_tNo33MLV7j18CWgX8&sig=Cg0ArKJSzLd1d6YizydYEAE&uach_m=%5BUACH%5D&urlfix=1&dett=4&adurl=",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://pixel-sync.sitescout.com/dmp/pixelSync?nid=143",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://ap.lijit.com/pixel?gdpr=1&gdpr_consent=CQlBZUAQlBZUAEsACBENChFsAP_gAEPgAAIwL4NB_G7ebWFL-TL3IbtEeYxH59hr7sAxAgbIkgQFTDKSqJwGx2EYNAyQlCIKGRAAuFSBAAEgCIDURUCAKIAFrSBMKEyQYBMIJqBggBMRA2FACFhgC4ojWQCI4ursZkcUmAuN6Mqs2czwSggDhlawNmSVQBCdIYeIBYm8ZBGC-9IEdWx4tgp4-ETpEG0eQ1E_oGpoojI6YnE6ABgBhAQgQUgFBAIIAAaAAHBAAAEAAQgEBigABACAAACgACAAAEAEF8Gg_jduNrin_BgrkN2iHMYr8-wB92AYgANkQQICphlJUEYBb7CIEgRICBEEDIgAUCoAgACUBAQiIiBABEAKloA2ACYIMA2EAHAwQBmIoTAgACQgBcURrIBEcHU2MqOqRITGcGVTbKZYJAQRwylQGHJKoAxOEMGAAsSWMAiAfXkCerIlawUkfGJ0iCAMAYifyDUyUDkNcXjlAAwAggIQICACggAABANAADAgAACCAAQAIzQAAgBAAABQAAAAACAiAAA.IL4NB_G7ebXFP-TL3IbtEeYxX59hr7sAxAgbIkgQFTDKSqJwG32EYNAyQlCIKGRAAuFSBAAEoCIjURUCAKIAVrSBsKEyQYBsIJuBggDMRQ2FACFhgC4ojWQCI4ursZ0dUmQuN6Mqu2czwSggjhlawNuSVQBidIYeIBYm8ZBGC-_IE9Wx69gp4-MTpEG0eQ1E_sGpsonI64vH6ABgBhAQgQUgFBAIICAaAAHBAAAEEAQgERmgABACAAACgACAAAEBEA.d4AACHwAAAA&redir=https%3A%2F%2Fcs.yellowblue.io%2Fcs%3Faid%3D11607%26uid%3D%24UID",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "http://sync.pmbmonetize.live/psync?t=s&e=247&gdpr=1&gdpr_consent=CQlBZUAQlBZUAEsACBENChFsAP_gAEPgAAIwL4NB_G7ebWFL-TL3IbtEeYxH59hr7sAxAgbIkgQFTDKSqJwGx2EYNAyQlCIKGRAAuFSBAAEgCIDURUCAKIAFrSBMKEyQYBMIJqBggBMRA2FACFhgC4ojWQCI4ursZkcUmAuN6Mqs2czwSggDhlawNmSVQBCdIYeIBYm8ZBGC-9IEdWx4tgp4-ETpEG0eQ1E_oGpoojI6YnE6ABgBhAQgQUgFBAIIAAaAAHBAAAEAAQgEBigABACAAACgACAAAEAEF8Gg_jduNrin_BgrkN2iHMYr8-wB92AYgANkQQICphlJUEYBb7CIEgRICBEEDIgAUCoAgACUBAQiIiBABEAKloA2ACYIMA2EAHAwQBmIoTAgACQgBcURrIBEcHU2MqOqRITGcGVTbKZYJAQRwylQGHJKoAxOEMGAAsSWMAiAfXkCerIlawUkfGJ0iCAMAYifyDUyUDkNcXjlAAwAggIQICACggAABANAADAgAACCAAQAIzQAAgBAAABQAAAAACAiAAA.IL4NB_G7ebXFP-TL3IbtEeYxX59hr7sAxAgbIkgQFTDKSqJwG32EYNAyQlCIKGRAAuFSBAAEoCIjURUCAKIAVrSBsKEyQYBsIJuBggDMRQ2FACFhgC4ojWQCI4ursZ0dUmQuN6Mqu2czwSggjhlawNuSVQBidIYeIBYm8ZBGC-_IE9Wx69gp4-MTpEG0eQ1E_sGpsonI64vH6ABgBhAQgQUgFBAIICAaAAHBAAAEEAQgERmgABACAAACgACAAAEBEA.d4AACHwAAAA&us_privacy=1---&gpp=&gpp_sid=&cb=https%3A%2F%2Fcookies.nextmillmedia.com%2Fsetuid%3Fbidder%3Dadipolo%26nmuid%3D%26gdpr%3D1%26gdpr_consent%3DCQlBZUAQlBZUAEsACBENChFsAP_gAEPgAAIwL4NB_G7ebWFL-TL3IbtEeYxH59hr7sAxAgbIkgQFTDKSqJwGx2EYNAyQlCIKGRAAuFSBAAEgCIDURUCAKIAFrSBMKEyQYBMIJqBggBMRA2FACFhgC4ojWQCI4ursZkcUmAuN6Mqs2czwSggDhlawNmSVQBCdIYeIBYm8ZBGC-9IEdWx4tgp4-ETpEG0eQ1E_oGpoojI6YnE6ABgBhAQgQUgFBAIIAAaAAHBAAAEAAQgEBigABACAAACgACAAAEAEF8Gg_jduNrin_BgrkN2iHMYr8-wB92AYgANkQQICphlJUEYBb7CIEgRICBEEDIgAUCoAgACUBAQiIiBABEAKloA2ACYIMA2EAHAwQBmIoTAgACQgBcURrIBEcHU2MqOqRITGcGVTbKZYJAQRwylQGHJKoAxOEMGAAsSWMAiAfXkCerIlawUkfGJ0iCAMAYifyDUyUDkNcXjlAAwAggIQICACggAABANAADAgAACCAAQAIzQAAgBAAABQAAAAACAiAAA.IL4NB_G7ebXFP-TL3IbtEeYxX59hr7sAxAgbIkgQFTDKSqJwG32EYNAyQlCIKGRAAuFSBAAEoCIjURUCAKIAVrSBsKEyQYBsIJuBggDMRQ2FACFhgC4ojWQCI4ursZ0dUmQuN6Mqu2czwSggjhlawNuSVQBidIYeIBYm8ZBGC-_IE9Wx69gp4-MTpEG0eQ1E_sGpsonI64vH6ABgBhAQgQUgFBAIICAaAAHBAAAEEAQgERmgABACAAACgACAAAEBEA.d4AACHwAAAA%26us_privacy%3D1---%26uid%3D%25USER_ID%25",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://ap.lijit.com/pixel?redir=https%3A%2F%2Fcookies.nextmillmedia.com%2Fsetuid%3Fbidder%3Dsovrn%26nmuid%3D%26gdpr%3D1%26gdpr_consent%3DCQlBZUAQlBZUAEsACBENChFsAP_gAEPgAAIwL4NB_G7ebWFL-TL3IbtEeYxH59hr7sAxAgbIkgQFTDKSqJwGx2EYNAyQlCIKGRAAuFSBAAEgCIDURUCAKIAFrSBMKEyQYBMIJqBggBMRA2FACFhgC4ojWQCI4ursZkcUmAuN6Mqs2czwSggDhlawNmSVQBCdIYeIBYm8ZBGC-9IEdWx4tgp4-ETpEG0eQ1E_oGpoojI6YnE6ABgBhAQgQUgFBAIIAAaAAHBAAAEAAQgEBigABACAAACgACAAAEAEF8Gg_jduNrin_BgrkN2iHMYr8-wB92AYgANkQQICphlJUEYBb7CIEgRICBEEDIgAUCoAgACUBAQiIiBABEAKloA2ACYIMA2EAHAwQBmIoTAgACQgBcURrIBEcHU2MqOqRITGcGVTbKZYJAQRwylQGHJKoAxOEMGAAsSWMAiAfXkCerIlawUkfGJ0iCAMAYifyDUyUDkNcXjlAAwAggIQICACggAABANAADAgAACCAAQAIzQAAgBAAABQAAAAACAiAAA.IL4NB_G7ebXFP-TL3IbtEeYxX59hr7sAxAgbIkgQFTDKSqJwG32EYNAyQlCIKGRAAuFSBAAEoCIjURUCAKIAVrSBsKEyQYBsIJuBggDMRQ2FACFhgC4ojWQCI4ursZ0dUmQuN6Mqu2czwSggjhlawNuSVQBidIYeIBYm8ZBGC-_IE9Wx69gp4-MTpEG0eQ1E_sGpsonI64vH6ABgBhAQgQUgFBAIICAaAAHBAAAEEAQgERmgABACAAACgACAAAEBEA.d4AACHwAAAA%26us_privacy%3D1---%26uid%3D%24UID",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://s.ad.smaato.net/c/?adExInit=millennium&gdpr=1&gdpr_consent=CQlBZUAQlBZUAEsACBENChFsAP_gAEPgAAIwL4NB_G7ebWFL-TL3IbtEeYxH59hr7sAxAgbIkgQFTDKSqJwGx2EYNAyQlCIKGRAAuFSBAAEgCIDURUCAKIAFrSBMKEyQYBMIJqBggBMRA2FACFhgC4ojWQCI4ursZkcUmAuN6Mqs2czwSggDhlawNmSVQBCdIYeIBYm8ZBGC-9IEdWx4tgp4-ETpEG0eQ1E_oGpoojI6YnE6ABgBhAQgQUgFBAIIAAaAAHBAAAEAAQgEBigABACAAACgACAAAEAEF8Gg_jduNrin_BgrkN2iHMYr8-wB92AYgANkQQICphlJUEYBb7CIEgRICBEEDIgAUCoAgACUBAQiIiBABEAKloA2ACYIMA2EAHAwQBmIoTAgACQgBcURrIBEcHU2MqOqRITGcGVTbKZYJAQRwylQGHJKoAxOEMGAAsSWMAiAfXkCerIlawUkfGJ0iCAMAYifyDUyUDkNcXjlAAwAggIQICACggAABANAADAgAACCAAQAIzQAAgBAAABQAAAAACAiAAA.IL4NB_G7ebXFP-TL3IbtEeYxX59hr7sAxAgbIkgQFTDKSqJwG32EYNAyQlCIKGRAAuFSBAAEoCIjURUCAKIAVrSBsKEyQYBsIJuBggDMRQ2FACFhgC4ojWQCI4ursZ0dUmQuN6Mqu2czwSggjhlawNuSVQBidIYeIBYm8ZBGC-_IE9Wx69gp4-MTpEG0eQ1E_sGpsonI64vH6ABgBhAQgQUgFBAIICAaAAHBAAAEEAQgERmgABACAAACgACAAAEBEA.d4AACHwAAAA&redir=https%3A%2F%2Fcookies.nextmillmedia.com%2Fsetuid%3Fbidder%3Dverve1%26nmuid%3D%26gdpr%3D1%26gdpr_consent%3DCQlBZUAQlBZUAEsACBENChFsAP_gAEPgAAIwL4NB_G7ebWFL-TL3IbtEeYxH59hr7sAxAgbIkgQFTDKSqJwGx2EYNAyQlCIKGRAAuFSBAAEgCIDURUCAKIAFrSBMKEyQYBMIJqBggBMRA2FACFhgC4ojWQCI4ursZkcUmAuN6Mqs2czwSggDhlawNmSVQBCdIYeIBYm8ZBGC-9IEdWx4tgp4-ETpEG0eQ1E_oGpoojI6YnE6ABgBhAQgQUgFBAIIAAaAAHBAAAEAAQgEBigABACAAACgACAAAEAEF8Gg_jduNrin_BgrkN2iHMYr8-wB92AYgANkQQICphlJUEYBb7CIEgRICBEEDIgAUCoAgACUBAQiIiBABEAKloA2ACYIMA2EAHAwQBmIoTAgACQgBcURrIBEcHU2MqOqRITGcGVTbKZYJAQRwylQGHJKoAxOEMGAAsSWMAiAfXkCerIlawUkfGJ0iCAMAYifyDUyUDkNcXjlAAwAggIQICACggAABANAADAgAACCAAQAIzQAAgBAAABQAAAAACAiAAA.IL4NB_G7ebXFP-TL3IbtEeYxX59hr7sAxAgbIkgQFTDKSqJwG32EYNAyQlCIKGRAAuFSBAAEoCIjURUCAKIAVrSBsKEyQYBsIJuBggDMRQ2FACFhgC4ojWQCI4ursZ0dUmQuN6Mqu2czwSggjhlawNuSVQBidIYeIBYm8ZBGC-_IE9Wx69gp4-MTpEG0eQ1E_sGpsonI64vH6ABgBhAQgQUgFBAIICAaAAHBAAAEEAQgERmgABACAAACgACAAAEBEA.d4AACHwAAAA%26us_privacy%3D1---%26uid%3D%24UID",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://match.sharethrough.com/FGMrCMMc/v1?redirectUri=https%3A%2F%2Fsync.sparteo.com%2Fsetuid%3Fpslabel%3Dnull%26bidder%3Dsharethrough%26gdpr%3D1%26gdpr_consent%3DCQlBZUAQlBZUAEsACBENChFsAP_gAEPgAAIwL4NB_G7ebWFL-TL3IbtEeYxH59hr7sAxAgbIkgQFTDKSqJwGx2EYNAyQlCIKGRAAuFSBAAEgCIDURUCAKIAFrSBMKEyQYBMIJqBggBMRA2FACFhgC4ojWQCI4ursZkcUmAuN6Mqs2czwSggDhlawNmSVQBCdIYeIBYm8ZBGC-9IEdWx4tgp4-ETpEG0eQ1E_oGpoojI6YnE6ABgBhAQgQUgFBAIIAAaAAHBAAAEAAQgEBigABACAAACgACAAAEAEF8Gg_jduNrin_BgrkN2iHMYr8-wB92AYgANkQQICphlJUEYBb7CIEgRICBEEDIgAUCoAgACUBAQiIiBABEAKloA2ACYIMA2EAHAwQBmIoTAgACQgBcURrIBEcHU2MqOqRITGcGVTbKZYJAQRwylQGHJKoAxOEMGAAsSWMAiAfXkCerIlawUkfGJ0iCAMAYifyDUyUDkNcXjlAAwAggIQICACggAABANAADAgAACCAAQAIzQAAgBAAABQAAAAACAiAAA.IL4NB_G7ebXFP-TL3IbtEeYxX59hr7sAxAgbIkgQFTDKSqJwG32EYNAyQlCIKGRAAuFSBAAEoCIjURUCAKIAVrSBsKEyQYBsIJuBggDMRQ2FACFhgC4ojWQCI4ursZ0dUmQuN6Mqu2czwSggjhlawNuSVQBidIYeIBYm8ZBGC-_IE9Wx69gp4-MTpEG0eQ1E_sGpsonI64vH6ABgBhAQgQUgFBAIICAaAAHBAAAEEAQgERmgABACAAACgACAAAEBEA.d4AACHwAAAA%26us_privacy%3D%26gpp%3D%26gpp_sid%3D%26f%3Di%26uid%3D%24UID&gdpr=1&gdpr_consent=CQlBZUAQlBZUAEsACBENChFsAP_gAEPgAAIwL4NB_G7ebWFL-TL3IbtEeYxH59hr7sAxAgbIkgQFTDKSqJwGx2EYNAyQlCIKGRAAuFSBAAEgCIDURUCAKIAFrSBMKEyQYBMIJqBggBMRA2FACFhgC4ojWQCI4ursZkcUmAuN6Mqs2czwSggDhlawNmSVQBCdIYeIBYm8ZBGC-9IEdWx4tgp4-ETpEG0eQ1E_oGpoojI6YnE6ABgBhAQgQUgFBAIIAAaAAHBAAAEAAQgEBigABACAAACgACAAAEAEF8Gg_jduNrin_BgrkN2iHMYr8-wB92AYgANkQQICphlJUEYBb7CIEgRICBEEDIgAUCoAgACUBAQiIiBABEAKloA2ACYIMA2EAHAwQBmIoTAgACQgBcURrIBEcHU2MqOqRITGcGVTbKZYJAQRwylQGHJKoAxOEMGAAsSWMAiAfXkCerIlawUkfGJ0iCAMAYifyDUyUDkNcXjlAAwAggIQICACggAABANAADAgAACCAAQAIzQAAgBAAABQAAAAACAiAAA.IL4NB_G7ebXFP-TL3IbtEeYxX59hr7sAxAgbIkgQFTDKSqJwG32EYNAyQlCIKGRAAuFSBAAEoCIjURUCAKIAVrSBsKEyQYBsIJuBggDMRQ2FACFhgC4ojWQCI4ursZ0dUmQuN6Mqu2czwSggjhlawNuSVQBidIYeIBYm8ZBGC-_IE9Wx69gp4-MTpEG0eQ1E_sGpsonI64vH6ABgBhAQgQUgFBAIICAaAAHBAAAEEAQgERmgABACAAACgACAAAEBEA.d4AACHwAAAA&us_privacy=",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://ib.adnxs.com/getuid?https%3A%2F%2Feuw2-cs.amx1.net%2Fsetuid%3FA%3D0815d797-6a54-46be-959f-b29a3233dfa0%26bidder%3Dappnexus%26uid%3D%24UID",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://ap.lijit.com/pixel?gdpr=1&gdpr_consent=CQlBZUAQlBZUAEsACBENChFsAP_gAEPgAAIwL4NB_G7ebWFL-TL3IbtEeYxH59hr7sAxAgbIkgQFTDKSqJwGx2EYNAyQlCIKGRAAuFSBAAEgCIDURUCAKIAFrSBMKEyQYBMIJqBggBMRA2FACFhgC4ojWQCI4ursZkcUmAuN6Mqs2czwSggDhlawNmSVQBCdIYeIBYm8ZBGC-9IEdWx4tgp4-ETpEG0eQ1E_oGpoojI6YnE6ABgBhAQgQUgFBAIIAAaAAHBAAAEAAQgEBigABACAAACgACAAAEAEF8Gg_jduNrin_BgrkN2iHMYr8-wB92AYgANkQQICphlJUEYBb7CIEgRICBEEDIgAUCoAgACUBAQiIiBABEAKloA2ACYIMA2EAHAwQBmIoTAgACQgBcURrIBEcHU2MqOqRITGcGVTbKZYJAQRwylQGHJKoAxOEMGAAsSWMAiAfXkCerIlawUkfGJ0iCAMAYifyDUyUDkNcXjlAAwAggIQICACggAABANAADAgAACCAAQAIzQAAgBAAABQAAAAACAiAAA.IL4NB_G7ebXFP-TL3IbtEeYxX59hr7sAxAgbIkgQFTDKSqJwG32EYNAyQlCIKGRAAuFSBAAEoCIjURUCAKIAVrSBsKEyQYBsIJuBggDMRQ2FACFhgC4ojWQCI4ursZ0dUmQuN6Mqu2czwSggjhlawNuSVQBidIYeIBYm8ZBGC-_IE9Wx69gp4-MTpEG0eQ1E_sGpsonI64vH6ABgBhAQgQUgFBAIICAaAAHBAAAEEAQgERmgABACAAACgACAAAEBEA.d4AACHwAAAA&redir=https%3A%2F%2Fcs.yellowblue.io%2Fcs%3Ffwrd%3D1%26aid%3D11607%26uid%3D%24UID",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://dsp.360yield.com/dsp_match/275?ssp=76&gdpr=1&gdpr_consent=CQlBZUAQlBZUAEsACBENChFsAP_gAEPgAAIwL4NB_G7ebWFL-TL3IbtEeYxH59hr7sAxAgbIkgQFTDKSqJwGx2EYNAyQlCIKGRAAuFSBAAEgCIDURUCAKIAFrSBMKEyQYBMIJqBggBMRA2FACFhgC4ojWQCI4ursZkcUmAuN6Mqs2czwSggDhlawNmSVQBCdIYeIBYm8ZBGC-9IEdWx4tgp4-ETpEG0eQ1E_oGpoojI6YnE6ABgBhAQgQUgFBAIIAAaAAHBAAAEAAQgEBigABACAAACgACAAAEAEF8Gg_jduNrin_BgrkN2iHMYr8-wB92AYgANkQQICphlJUEYBb7CIEgRICBEEDIgAUCoAgACUBAQiIiBABEAKloA2ACYIMA2EAHAwQBmIoTAgACQgBcURrIBEcHU2MqOqRITGcGVTbKZYJAQRwylQGHJKoAxOEMGAAsSWMAiAfXkCerIlawUkfGJ0iCAMAYifyDUyUDkNcXjlAAwAggIQICACggAABANAADAgAACCAAQAIzQAAgBAAABQAAAAACAiAAA.IL4NB_G7ebXFP-TL3IbtEeYxX59hr7sAxAgbIkgQFTDKSqJwG32EYNAyQlCIKGRAAuFSBAAEoCIjURUCAKIAVrSBsKEyQYBsIJuBggDMRQ2FACFhgC4ojWQCI4ursZ0dUmQuN6Mqu2czwSggjhlawNuSVQBidIYeIBYm8ZBGC-_IE9Wx69gp4-MTpEG0eQ1E_sGpsonI64vH6ABgBhAQgQUgFBAIICAaAAHBAAAEEAQgERmgABACAAACgACAAAEBEA.d4AACHwAAAA&r=https%3A%2F%2Fimage2.pubmatic.com%2FAdServer%2FPug%3Fvcode%3Dbz0yJnR5cGU9MSZjb2RlPTM3MzUmdGw9MTI5NjAw%26piggybackCookie%3D%7BDSP_USER_ID%7D%0A&publisher_user_id=507a2e5a-92af-4f71-beb0-0f062e84e7b0&publisher_dsp_id=566&publisher_call_type=redirect&dsp_callback=2&gdpr=1&gdpr_consent=CQlBZUAQlBZUAEsACBENChFsAP_gAEPgAAIwL4NB_G7ebWFL-TL3IbtEeYxH59hr7sAxAgbIkgQFTDKSqJwGx2EYNAyQlCIKGRAAuFSBAAEgCIDURUCAKIAFrSBMKEyQYBMIJqBggBMRA2FACFhgC4ojWQCI4ursZkcUmAuN6Mqs2czwSggDhlawNmSVQBCdIYeIBYm8ZBGC-9IEdWx4tgp4-ETpEG0eQ1E_oGpoojI6YnE6ABgBhAQgQUgFBAIIAAaAAHBAAAEAAQgEBigABACAAACgACAAAEAEF8Gg_jduNrin_BgrkN2iHMYr8-wB92AYgANkQQICphlJUEYBb7CIEgRICBEEDIgAUCoAgACUBAQiIiBABEAKloA2ACYIMA2EAHAwQBmIoTAgACQgBcURrIBEcHU2MqOqRITGcGVTbKZYJAQRwylQGHJKoAxOEMGAAsSWMAiAfXkCerIlawUkfGJ0iCAMAYifyDUyUDkNcXjlAAwAggIQICACggAABANAADAgAACCAAQAIzQAAgBAAABQAAAAACAiAAA.IL4NB_G7ebXFP-TL3IbtEeYxX59hr7sAxAgbIkgQFTDKSqJwG32EYNAyQlCIKGRAAuFSBAAEoCIjURUCAKIAVrSBsKEyQYBsIJuBggDMRQ2FACFhgC4ojWQCI4ursZ0dUmQuN6Mqu2czwSggjhlawNuSVQBidIYeIBYm8ZBGC-_IE9Wx69gp4-MTpEG0eQ1E_sGpsonI64vH6ABgBhAQgQUgFBAIICAaAAHBAAAEEAQgERmgABACAAACgACAAAEBEA.d4AACHwAAAA&publisher_redirecturl=https://euw-ice.360yield.com/match?dsp_callback=2",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://www.google.com/",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_ERROR_FAILURE"
+        }
+      },
+      {
+        "url": "https://onetag-sys.com/usync/?gdpr=$1&gdpr_consent=${GDPR_STRING}&pubId=7a07370227fc000&us_privacy=$",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://ap.lijit.com/pixel?gdpr=&gdpr_consent=&us_privacy=&gpp=&gpp_sid=&redir=https%3A%2F%2Fprebid.admatic.de%2Fsetuid%3Fbidder%3Dsovrn%26gdpr%3D%26gdpr_consent%3D%26f%3Di%26uid%3D%24UID",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://ap.lijit.com/pixel?gdpr=&gdpr_consent=&us_privacy=&gpp=&gpp_sid=&redir=https%3A%2F%2Fprebid.admatic.de%2Fsetuid%3Fbidder%3Dsovrn%26gdpr%3D%26gdpr_consent%3D%26f%3Di%26uid%3D%24UID",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://secure.adnxs.com/getuid?https%3a%2f%2fssp-sync.criteo.com%2fuser-sync%2fmatch%3fp%3d12YStF8zYUdRSFElMkZFNnFnbUZjZW1oMjl6c2lHSGhGMzV5ZGx3WnYxODlWNE1rTHMlM0Q%26u%3d%24UID&gdpr=&gdpr_consent=",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://ssc-cms.33across.com/ps/?m=xch&rt=html&gdpr=1&gdpr_consent=CQlBZUAQlBZUAEsACBENChFsAP_gAEPgAAIwL4NB_G7ebWFL-TL3IbtEeYxH59hr7sAxAgbIkgQFTDKSqJwGx2EYNAyQlCIKGRAAuFSBAAEgCIDURUCAKIAFrSBMKEyQYBMIJqBggBMRA2FACFhgC4ojWQCI4ursZkcUmAuN6Mqs2czwSggDhlawNmSVQBCdIYeIBYm8ZBGC-9IEdWx4tgp4-ETpEG0eQ1E_oGpoojI6YnE6ABgBhAQgQUgFBAIIAAaAAHBAAAEAAQgEBigABACAAACgACAAAEAEF8Gg_jduNrin_BgrkN2iHMYr8-wB92AYgANkQQICphlJUEYBb7CIEgRICBEEDIgAUCoAgACUBAQiIiBABEAKloA2ACYIMA2EAHAwQBmIoTAgACQgBcURrIBEcHU2MqOqRITGcGVTbKZYJAQRwylQGHJKoAxOEMGAAsSWMAiAfXkCerIlawUkfGJ0iCAMAYifyDUyUDkNcXjlAAwAggIQICACggAABANAADAgAACCAAQAIzQAAgBAAABQAAAAACAiAAA.IL4NB_G7ebXFP-TL3IbtEeYxX59hr7sAxAgbIkgQFTDKSqJwG32EYNAyQlCIKGRAAuFSBAAEoCIjURUCAKIAVrSBsKEyQYBsIJuBggDMRQ2FACFhgC4ojWQCI4ursZ0dUmQuN6Mqu2czwSggjhlawNuSVQBidIYeIBYm8ZBGC-_IE9Wx69gp4-MTpEG0eQ1E_sGpsonI64vH6ABgBhAQgQUgFBAIICAaAAHBAAAEEAQgERmgABACAAACgACAAAEBEA.d4AACHwAAAA&us_privacy=1---&ru=https%3A%2F%2Fcookies.nextmillmedia.com%2Fsetuid%3Fbidder%3D33across%26nmuid%3D%26gdpr%3D1%26gdpr_consent%3DCQlBZUAQlBZUAEsACBENChFsAP_gAEPgAAIwL4NB_G7ebWFL-TL3IbtEeYxH59hr7sAxAgbIkgQFTDKSqJwGx2EYNAyQlCIKGRAAuFSBAAEgCIDURUCAKIAFrSBMKEyQYBMIJqBggBMRA2FACFhgC4ojWQCI4ursZkcUmAuN6Mqs2czwSggDhlawNmSVQBCdIYeIBYm8ZBGC-9IEdWx4tgp4-ETpEG0eQ1E_oGpoojI6YnE6ABgBhAQgQUgFBAIIAAaAAHBAAAEAAQgEBigABACAAACgACAAAEAEF8Gg_jduNrin_BgrkN2iHMYr8-wB92AYgANkQQICphlJUEYBb7CIEgRICBEEDIgAUCoAgACUBAQiIiBABEAKloA2ACYIMA2EAHAwQBmIoTAgACQgBcURrIBEcHU2MqOqRITGcGVTbKZYJAQRwylQGHJKoAxOEMGAAsSWMAiAfXkCerIlawUkfGJ0iCAMAYifyDUyUDkNcXjlAAwAggIQICACggAABANAADAgAACCAAQAIzQAAgBAAABQAAAAACAiAAA.IL4NB_G7ebXFP-TL3IbtEeYxX59hr7sAxAgbIkgQFTDKSqJwG32EYNAyQlCIKGRAAuFSBAAEoCIjURUCAKIAVrSBsKEyQYBsIJuBggDMRQ2FACFhgC4ojWQCI4ursZ0dUmQuN6Mqu2czwSggjhlawNuSVQBidIYeIBYm8ZBGC-_IE9Wx69gp4-MTpEG0eQ1E_sGpsonI64vH6ABgBhAQgQUgFBAIICAaAAHBAAAEEAQgERmgABACAAACgACAAAEBEA.d4AACHwAAAA%26us_privacy%3D1---%26uid%3D33XUSERID33X&id=zzz000000000002zzz",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://ssc-cms.33across.com/ps/?gdpr=1&gdpr_consent=CQlBZUAQlBZUAEsACBENChFsAP_gAEPgAAIwL4NB_G7ebWFL-TL3IbtEeYxH59hr7sAxAgbIkgQFTDKSqJwGx2EYNAyQlCIKGRAAuFSBAAEgCIDURUCAKIAFrSBMKEyQYBMIJqBggBMRA2FACFhgC4ojWQCI4ursZkcUmAuN6Mqs2czwSggDhlawNmSVQBCdIYeIBYm8ZBGC-9IEdWx4tgp4-ETpEG0eQ1E_oGpoojI6YnE6ABgBhAQgQUgFBAIIAAaAAHBAAAEAAQgEBigABACAAACgACAAAEAEF8Gg_jduNrin_BgrkN2iHMYr8-wB92AYgANkQQICphlJUEYBb7CIEgRICBEEDIgAUCoAgACUBAQiIiBABEAKloA2ACYIMA2EAHAwQBmIoTAgACQgBcURrIBEcHU2MqOqRITGcGVTbKZYJAQRwylQGHJKoAxOEMGAAsSWMAiAfXkCerIlawUkfGJ0iCAMAYifyDUyUDkNcXjlAAwAggIQICACggAABANAADAgAACCAAQAIzQAAgBAAABQAAAAACAiAAA.IL4NB_G7ebXFP-TL3IbtEeYxX59hr7sAxAgbIkgQFTDKSqJwG32EYNAyQlCIKGRAAuFSBAAEoCIjURUCAKIAVrSBsKEyQYBsIJuBggDMRQ2FACFhgC4ojWQCI4ursZ0dUmQuN6Mqu2czwSggjhlawNuSVQBidIYeIBYm8ZBGC-_IE9Wx69gp4-MTpEG0eQ1E_sGpsonI64vH6ABgBhAQgQUgFBAIICAaAAHBAAAEEAQgERmgABACAAACgACAAAEBEA.d4AACHwAAAA&id=0015a00003HljHyAAJ&m=xch&rt=html&ru=https%3A%2F%2Fvisitor.europe-west9.gcp.omnitagjs.com%2Fvisitor%2Fsync%3Fgdpr%3D1%26gdpr_consent%3DCQlBZUAQlBZUAEsACBENChFsAP_gAEPgAAIwL4NB_G7ebWFL-TL3IbtEeYxH59hr7sAxAgbIkgQFTDKSqJwGx2EYNAyQlCIKGRAAuFSBAAEgCIDURUCAKIAFrSBMKEyQYBMIJqBggBMRA2FACFhgC4ojWQCI4ursZkcUmAuN6Mqs2czwSggDhlawNmSVQBCdIYeIBYm8ZBGC-9IEdWx4tgp4-ETpEG0eQ1E_oGpoojI6YnE6ABgBhAQgQUgFBAIIAAaAAHBAAAEAAQgEBigABACAAACgACAAAEAEF8Gg_jduNrin_BgrkN2iHMYr8-wB92AYgANkQQICphlJUEYBb7CIEgRICBEEDIgAUCoAgACUBAQiIiBABEAKloA2ACYIMA2EAHAwQBmIoTAgACQgBcURrIBEcHU2MqOqRITGcGVTbKZYJAQRwylQGHJKoAxOEMGAAsSWMAiAfXkCerIlawUkfGJ0iCAMAYifyDUyUDkNcXjlAAwAggIQICACggAABANAADAgAACCAAQAIzQAAgBAAABQAAAAACAiAAA.IL4NB_G7ebXFP-TL3IbtEeYxX59hr7sAxAgbIkgQFTDKSqJwG32EYNAyQlCIKGRAAuFSBAAEoCIjURUCAKIAVrSBsKEyQYBsIJuBggDMRQ2FACFhgC4ojWQCI4ursZ0dUmQuN6Mqu2czwSggjhlawNuSVQBidIYeIBYm8ZBGC-_IE9Wx69gp4-MTpEG0eQ1E_sGpsonI64vH6ABgBhAQgQUgFBAIICAaAAHBAAAEEAQgERmgABACAAACgACAAAEBEA.d4AACHwAAAA%26is_cookie_sync_uid%3D1%26name%3D33ACROSS_cookie_sync%26ttl%3D720%26uid%3D69111ecd4aa13a801a1b6a93d851020c%26visitor%3D33XUSERID33X",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://s.ad.smaato.net/i/?adExInit=sovrn&redir=https%3A%2F%2Fce.lijit.com%2Fmerge%3Fpid%3D108%263pid%3D%24UID&gdpr=1&gdpr_consent=CQlBZUAQlBZUAEsACBENChFsAP_gAEPgAAIwL4NB_G7ebWFL-TL3IbtEeYxH59hr7sAxAgbIkgQFTDKSqJwGx2EYNAyQlCIKGRAAuFSBAAEgCIDURUCAKIAFrSBMKEyQYBMIJqBggBMRA2FACFhgC4ojWQCI4ursZkcUmAuN6Mqs2czwSggDhlawNmSVQBCdIYeIBYm8ZBGC-9IEdWx4tgp4-ETpEG0eQ1E_oGpoojI6YnE6ABgBhAQgQUgFBAIIAAaAAHBAAAEAAQgEBigABACAAACgACAAAEAEF8Gg_jduNrin_BgrkN2iHMYr8-wB92AYgANkQQICphlJUEYBb7CIEgRICBEEDIgAUCoAgACUBAQiIiBABEAKloA2ACYIMA2EAHAwQBmIoTAgACQgBcURrIBEcHU2MqOqRITGcGVTbKZYJAQRwylQGHJKoAxOEMGAAsSWMAiAfXkCerIlawUkfGJ0iCAMAYifyDUyUDkNcXjlAAwAggIQICACggAABANAADAgAACCAAQAIzQAAgBAAABQAAAAACAiAAA.IL4NB_G7ebXFP-TL3IbtEeYxX59hr7sAxAgbIkgQFTDKSqJwG32EYNAyQlCIKGRAAuFSBAAEoCIjURUCAKIAVrSBsKEyQYBsIJuBggDMRQ2FACFhgC4ojWQCI4ursZ0dUmQuN6Mqu2czwSggjhlawNuSVQBidIYeIBYm8ZBGC-_IE9Wx69gp4-MTpEG0eQ1E_sGpsonI64vH6ABgBhAQgQUgFBAIICAaAAHBAAAEEAQgERmgABACAAACgACAAAEBEA.d4AACHwAAAA",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/pagead/gen_204?id=dv3-render&msg=tler&ord=5233374162948&version=m202604070101&ct=77&x=13&cor=5250909373906743296",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://onetag-sys.com/usync/?pubId=75601b04186d260",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://cs.ingage.tech/v1/syncPage/sharethrough?uid=2932e295-fcfd-4952-8edb-6cb50cd73a29&gdpr=1&gdpr_consent=CQlBZUAQlBZUAEsACBENChFsAP_gAEPgAAIwL4NB_G7ebWFL-TL3IbtEeYxH59hr7sAxAgbIkgQFTDKSqJwGx2EYNAyQlCIKGRAAuFSBAAEgCIDURUCAKIAFrSBMKEyQYBMIJqBggBMRA2FACFhgC4ojWQCI4ursZkcUmAuN6Mqs2czwSggDhlawNmSVQBCdIYeIBYm8ZBGC-9IEdWx4tgp4-ETpEG0eQ1E_oGpoojI6YnE6ABgBhAQgQUgFBAIIAAaAAHBAAAEAAQgEBigABACAAACgACAAAEAEF8Gg_jduNrin_BgrkN2iHMYr8-wB92AYgANkQQICphlJUEYBb7CIEgRICBEEDIgAUCoAgACUBAQiIiBABEAKloA2ACYIMA2EAHAwQBmIoTAgACQgBcURrIBEcHU2MqOqRITGcGVTbKZYJAQRwylQGHJKoAxOEMGAAsSWMAiAfXkCerIlawUkfGJ0iCAMAYifyDUyUDkNcXjlAAwAggIQICACggAABANAADAgAACCAAQAIzQAAgBAAABQAAAAACAiAAA.IL4NB_G7ebXFP-TL3IbtEeYxX59hr7sAxAgbIkgQFTDKSqJwG32EYNAyQlCIKGRAAuFSBAAEoCIjURUCAKIAVrSBsKEyQYBsIJuBggDMRQ2FACFhgC4ojWQCI4ursZ0dUmQuN6Mqu2czwSggjhlawNuSVQBidIYeIBYm8ZBGC-_IE9Wx69gp4-MTpEG0eQ1E_sGpsonI64vH6ABgBhAQgQUgFBAIICAaAAHBAAAEEAQgERmgABACAAACgACAAAEBEA.d4AACHwAAAA",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://cs.ingage.tech/v1/sync/sovrn/7a146dfd-56ee-4668-9f66-fbcd6633fe9d?uid=MwMf4TZH5vPMJ6spQsS8CFQg",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://onetag-sys.com/usync/?gdpr=$1&gdpr_consent=${GDPR_STRING}&pubId=7a07370227fc000&us_privacy=$1---",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://csync.copper6.com/f3c49daf592d06bab39258cac72c0de9.gif?gdpr=1&gdpr_consent=CQlBZUAQlBZUAEsACBENChFsAP_gAEPgAAIwL4NB_G7ebWFL-TL3IbtEeYxH59hr7sAxAgbIkgQFTDKSqJwGx2EYNAyQlCIKGRAAuFSBAAEgCIDURUCAKIAFrSBMKEyQYBMIJqBggBMRA2FACFhgC4ojWQCI4ursZkcUmAuN6Mqs2czwSggDhlawNmSVQBCdIYeIBYm8ZBGC-9IEdWx4tgp4-ETpEG0eQ1E_oGpoojI6YnE6ABgBhAQgQUgFBAIIAAaAAHBAAAEAAQgEBigABACAAACgACAAAEAEF8Gg_jduNrin_BgrkN2iHMYr8-wB92AYgANkQQICphlJUEYBb7CIEgRICBEEDIgAUCoAgACUBAQiIiBABEAKloA2ACYIMA2EAHAwQBmIoTAgACQgBcURrIBEcHU2MqOqRITGcGVTbKZYJAQRwylQGHJKoAxOEMGAAsSWMAiAfXkCerIlawUkfGJ0iCAMAYifyDUyUDkNcXjlAAwAggIQICACggAABANAADAgAACCAAQAIzQAAgBAAABQAAAAACAiAAA.IL4NB_G7ebXFP-TL3IbtEeYxX59hr7sAxAgbIkgQFTDKSqJwG32EYNAyQlCIKGRAAuFSBAAEoCIjURUCAKIAVrSBsKEyQYBsIJuBggDMRQ2FACFhgC4ojWQCI4ursZ0dUmQuN6Mqu2czwSggjhlawNuSVQBidIYeIBYm8ZBGC-_IE9Wx69gp4-MTpEG0eQ1E_sGpsonI64vH6ABgBhAQgQUgFBAIICAaAAHBAAAEEAQgERmgABACAAACgACAAAEBEA.d4AACHwAAAA&redir=https%3A%2F%2Fvisitor.europe-west9.gcp.omnitagjs.com%2Fvisitor%2Fsync%3Fgdpr%3D1%26gdpr_consent%3DCQlBZUAQlBZUAEsACBENChFsAP_gAEPgAAIwL4NB_G7ebWFL-TL3IbtEeYxH59hr7sAxAgbIkgQFTDKSqJwGx2EYNAyQlCIKGRAAuFSBAAEgCIDURUCAKIAFrSBMKEyQYBMIJqBggBMRA2FACFhgC4ojWQCI4ursZkcUmAuN6Mqs2czwSggDhlawNmSVQBCdIYeIBYm8ZBGC-9IEdWx4tgp4-ETpEG0eQ1E_oGpoojI6YnE6ABgBhAQgQUgFBAIIAAaAAHBAAAEAAQgEBigABACAAACgACAAAEAEF8Gg_jduNrin_BgrkN2iHMYr8-wB92AYgANkQQICphlJUEYBb7CIEgRICBEEDIgAUCoAgACUBAQiIiBABEAKloA2ACYIMA2EAHAwQBmIoTAgACQgBcURrIBEcHU2MqOqRITGcGVTbKZYJAQRwylQGHJKoAxOEMGAAsSWMAiAfXkCerIlawUkfGJ0iCAMAYifyDUyUDkNcXjlAAwAggIQICACggAABANAADAgAACCAAQAIzQAAgBAAABQAAAAACAiAAA.IL4NB_G7ebXFP-TL3IbtEeYxX59hr7sAxAgbIkgQFTDKSqJwG32EYNAyQlCIKGRAAuFSBAAEoCIjURUCAKIAVrSBsKEyQYBsIJuBggDMRQ2FACFhgC4ojWQCI4ursZ0dUmQuN6Mqu2czwSggjhlawNuSVQBidIYeIBYm8ZBGC-_IE9Wx69gp4-MTpEG0eQ1E_sGpsonI64vH6ABgBhAQgQUgFBAIICAaAAHBAAAEEAQgERmgABACAAACgACAAAEBEA.d4AACHwAAAA%26is_cookie_sync_uid%3D1%26name%3DCOPPER6_APP_cookie_sync%26ttl%3D720%26uid%3D123285a4642e0170ed8b35a36075585%26visitor%3D%5BUID%5D",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://dsp.360yield.com/dsp_match/275?ssp=76&gdpr=1&gdpr_consent=CQlBZUAQlBZUAEsACBENChFsAP_gAEPgAAIwL4NB_G7ebWFL-TL3IbtEeYxH59hr7sAxAgbIkgQFTDKSqJwGx2EYNAyQlCIKGRAAuFSBAAEgCIDURUCAKIAFrSBMKEyQYBMIJqBggBMRA2FACFhgC4ojWQCI4ursZkcUmAuN6Mqs2czwSggDhlawNmSVQBCdIYeIBYm8ZBGC-9IEdWx4tgp4-ETpEG0eQ1E_oGpoojI6YnE6ABgBhAQgQUgFBAIIAAaAAHBAAAEAAQgEBigABACAAACgACAAAEAEF8Gg_jduNrin_BgrkN2iHMYr8-wB92AYgANkQQICphlJUEYBb7CIEgRICBEEDIgAUCoAgACUBAQiIiBABEAKloA2ACYIMA2EAHAwQBmIoTAgACQgBcURrIBEcHU2MqOqRITGcGVTbKZYJAQRwylQGHJKoAxOEMGAAsSWMAiAfXkCerIlawUkfGJ0iCAMAYifyDUyUDkNcXjlAAwAggIQICACggAABANAADAgAACCAAQAIzQAAgBAAABQAAAAACAiAAA.IL4NB_G7ebXFP-TL3IbtEeYxX59hr7sAxAgbIkgQFTDKSqJwG32EYNAyQlCIKGRAAuFSBAAEoCIjURUCAKIAVrSBsKEyQYBsIJuBggDMRQ2FACFhgC4ojWQCI4ursZ0dUmQuN6Mqu2czwSggjhlawNuSVQBidIYeIBYm8ZBGC-_IE9Wx69gp4-MTpEG0eQ1E_sGpsonI64vH6ABgBhAQgQUgFBAIICAaAAHBAAAEEAQgERmgABACAAACgACAAAEBEA.d4AACHwAAAA&r=https%3A%2F%2Fimage2.pubmatic.com%2FAdServer%2FPug%3Fvcode%3Dbz0yJnR5cGU9MSZjb2RlPTM3MzUmdGw9MTI5NjAw%26piggybackCookie%3D%7BDSP_USER_ID%7D%0A&publisher_user_id=507a2e5a-92af-4f71-beb0-0f062e84e7b0&publisher_dsp_id=566&publisher_call_type=redirect&dsp_callback=2&gdpr=1&gdpr_consent=CQlBZUAQlBZUAEsACBENChFsAP_gAEPgAAIwL4NB_G7ebWFL-TL3IbtEeYxH59hr7sAxAgbIkgQFTDKSqJwGx2EYNAyQlCIKGRAAuFSBAAEgCIDURUCAKIAFrSBMKEyQYBMIJqBggBMRA2FACFhgC4ojWQCI4ursZkcUmAuN6Mqs2czwSggDhlawNmSVQBCdIYeIBYm8ZBGC-9IEdWx4tgp4-ETpEG0eQ1E_oGpoojI6YnE6ABgBhAQgQUgFBAIIAAaAAHBAAAEAAQgEBigABACAAACgACAAAEAEF8Gg_jduNrin_BgrkN2iHMYr8-wB92AYgANkQQICphlJUEYBb7CIEgRICBEEDIgAUCoAgACUBAQiIiBABEAKloA2ACYIMA2EAHAwQBmIoTAgACQgBcURrIBEcHU2MqOqRITGcGVTbKZYJAQRwylQGHJKoAxOEMGAAsSWMAiAfXkCerIlawUkfGJ0iCAMAYifyDUyUDkNcXjlAAwAggIQICACggAABANAADAgAACCAAQAIzQAAgBAAABQAAAAACAiAAA.IL4NB_G7ebXFP-TL3IbtEeYxX59hr7sAxAgbIkgQFTDKSqJwG32EYNAyQlCIKGRAAuFSBAAEoCIjURUCAKIAVrSBsKEyQYBsIJuBggDMRQ2FACFhgC4ojWQCI4ursZ0dUmQuN6Mqu2czwSggjhlawNuSVQBidIYeIBYm8ZBGC-_IE9Wx69gp4-MTpEG0eQ1E_sGpsonI64vH6ABgBhAQgQUgFBAIICAaAAHBAAAEEAQgERmgABACAAACgACAAAEBEA.d4AACHwAAAA&publisher_redirecturl=https://euw-ice.360yield.com/match?dsp_callback=2",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://ssc-cms.33across.com/ps/?gdpr=1&gdpr_consent=CQlBZUAQlBZUAEsACBENChFsAP_gAEPgAAIwL4NB_G7ebWFL-TL3IbtEeYxH59hr7sAxAgbIkgQFTDKSqJwGx2EYNAyQlCIKGRAAuFSBAAEgCIDURUCAKIAFrSBMKEyQYBMIJqBggBMRA2FACFhgC4ojWQCI4ursZkcUmAuN6Mqs2czwSggDhlawNmSVQBCdIYeIBYm8ZBGC-9IEdWx4tgp4-ETpEG0eQ1E_oGpoojI6YnE6ABgBhAQgQUgFBAIIAAaAAHBAAAEAAQgEBigABACAAACgACAAAEAEF8Gg_jduNrin_BgrkN2iHMYr8-wB92AYgANkQQICphlJUEYBb7CIEgRICBEEDIgAUCoAgACUBAQiIiBABEAKloA2ACYIMA2EAHAwQBmIoTAgACQgBcURrIBEcHU2MqOqRITGcGVTbKZYJAQRwylQGHJKoAxOEMGAAsSWMAiAfXkCerIlawUkfGJ0iCAMAYifyDUyUDkNcXjlAAwAggIQICACggAABANAADAgAACCAAQAIzQAAgBAAABQAAAAACAiAAA.IL4NB_G7ebXFP-TL3IbtEeYxX59hr7sAxAgbIkgQFTDKSqJwG32EYNAyQlCIKGRAAuFSBAAEoCIjURUCAKIAVrSBsKEyQYBsIJuBggDMRQ2FACFhgC4ojWQCI4ursZ0dUmQuN6Mqu2czwSggjhlawNuSVQBidIYeIBYm8ZBGC-_IE9Wx69gp4-MTpEG0eQ1E_sGpsonI64vH6ABgBhAQgQUgFBAIICAaAAHBAAAEEAQgERmgABACAAACgACAAAEBEA.d4AACHwAAAA&id=0015a00003HljHyAAJ&m=xch&rt=html&ru=https%3A%2F%2Fvisitor.europe-west9.gcp.omnitagjs.com%2Fvisitor%2Fsync%3Fgdpr%3D1%26gdpr_consent%3DCQlBZUAQlBZUAEsACBENChFsAP_gAEPgAAIwL4NB_G7ebWFL-TL3IbtEeYxH59hr7sAxAgbIkgQFTDKSqJwGx2EYNAyQlCIKGRAAuFSBAAEgCIDURUCAKIAFrSBMKEyQYBMIJqBggBMRA2FACFhgC4ojWQCI4ursZkcUmAuN6Mqs2czwSggDhlawNmSVQBCdIYeIBYm8ZBGC-9IEdWx4tgp4-ETpEG0eQ1E_oGpoojI6YnE6ABgBhAQgQUgFBAIIAAaAAHBAAAEAAQgEBigABACAAACgACAAAEAEF8Gg_jduNrin_BgrkN2iHMYr8-wB92AYgANkQQICphlJUEYBb7CIEgRICBEEDIgAUCoAgACUBAQiIiBABEAKloA2ACYIMA2EAHAwQBmIoTAgACQgBcURrIBEcHU2MqOqRITGcGVTbKZYJAQRwylQGHJKoAxOEMGAAsSWMAiAfXkCerIlawUkfGJ0iCAMAYifyDUyUDkNcXjlAAwAggIQICACggAABANAADAgAACCAAQAIzQAAgBAAABQAAAAACAiAAA.IL4NB_G7ebXFP-TL3IbtEeYxX59hr7sAxAgbIkgQFTDKSqJwG32EYNAyQlCIKGRAAuFSBAAEoCIjURUCAKIAVrSBsKEyQYBsIJuBggDMRQ2FACFhgC4ojWQCI4ursZ0dUmQuN6Mqu2czwSggjhlawNuSVQBidIYeIBYm8ZBGC-_IE9Wx69gp4-MTpEG0eQ1E_sGpsonI64vH6ABgBhAQgQUgFBAIICAaAAHBAAAEEAQgERmgABACAAACgACAAAEBEA.d4AACHwAAAA%26is_cookie_sync_uid%3D1%26name%3D33ACROSS_cookie_sync%26ttl%3D720%26uid%3D69111ecd4aa13a801a1b6a93d851020c%26visitor%3D33XUSERID33X",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://sync.connectad.io/umatch/1?bidder=sovrn&dataid=data12&uuid=MwMf4TZH5vPMJ6spQsS8CFQg",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://sync.connectad.io/umatch/1?bidder=rtbhouse&dataid=data6&uuid=yibaPxljoOX1DIdBMJT1hjv6oUY_LIZArjjDlJgDTKo&pi=connectad&gdpr=1&gdpr_consent=CQlBZUAQlBZUAEsACBENChFsAP_gAEPgAAIwL4NB_G7ebWFL-TL3IbtEeYxH59hr7sAxAgbIkgQFTDKSqJwGx2EYNAyQlCIKGRAAuFSBAAEgCIDURUCAKIAFrSBMKEyQYBMIJqBggBMRA2FACFhgC4ojWQCI4ursZkcUmAuN6Mqs2czwSggDhlawNmSVQBCdIYeIBYm8ZBGC-9IEdWx4tgp4-ETpEG0eQ1E_oGpoojI6YnE6ABgBhAQgQUgFBAIIAAaAAHBAAAEAAQgEBigABACAAACgACAAAEAEF8Gg_jduNrin_BgrkN2iHMYr8-wB92AYgANkQQICphlJUEYBb7CIEgRICBEEDIgAUCoAgACUBAQiIiBABEAKloA2ACYIMA2EAHAwQBmIoTAgACQgBcURrIBEcHU2MqOqRITGcGVTbKZYJAQRwylQGHJKoAxOEMGAAsSWMAiAfXkCerIlawUkfGJ0iCAMAYifyDUyUDkNcXjlAAwAggIQICACggAABANAADAgAACCAAQAIzQAAgBAAABQAAAAACAiAAA.IL4NB_G7ebXFP-TL3IbtEeYxX59hr7sAxAgbIkgQFTDKSqJwG32EYNAyQlCIKGRAAuFSBAAEoCIjURUCAKIAVrSBsKEyQYBsIJuBggDMRQ2FACFhgC4ojWQCI4ursZ0dUmQuN6Mqu2czwSggjhlawNuSVQBidIYeIBYm8ZBGC-_IE9Wx69gp4-MTpEG0eQ1E_sGpsonI64vH6ABgBhAQgQUgFBAIICAaAAHBAAAEEAQgERmgABACAAACgACAAAEBEA.d4AACHwAAAA",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://sync.connectad.io/umatch/1?bidder=adform&dataid=data4&uuid=17349996735667190",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://ib.adnxs.com/getuid?https%3A%2F%2Fmeasureadv.com%2FuserBackIframe%3Fuid%3D%24UID%26gdpr%3D%7BGDPR%7D%26gdpr_consent%3D%7BGDPR_CONSENT%7D%26p%3D7",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://onetag-sys.com/usync/?pubId=7f5d22b0006ab5a",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://ib.adnxs.com/getuid?https%3A%2F%2Feuw2-cs.amx1.net%2Fsetuid%3FA%3D1182a02a-25ad-4c1f-a7ef-56dcc87f921e%26bidder%3Dappnexus%26uid%3D%24UID",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://s.ad.smaato.net/i/?adExInit=smile&gdpr=[GDPR]&gdpr_consent=[GDPR_CONSENT]&redir=https%3A%2F%2Fcsync.smilewanted.com%2Fset_partner_userid_get%2Fsmaato%2F%24UID",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://ads.servenobid.com/sync?pid=318&uid=L-4GFrj5ri_WwTldDs7iXGY5uc8lkvJx54aZ2zgopVU",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://ib.adnxs.com/getuid?https%3A%2F%2Fads.servenobid.com%2Fsync%3Fpid%3D312%26uid%3D%24UID%26origin%3Dhttps%253A%252F%252Fvisitor.omnitagjs.com%252F",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://sync.richaudience.com/f7872c90c5d3791e2b51f7edce1a0a5d/?p=pbs&consentString=&r=https%3A%2F%2Fprebid.admatic.de%2Fsetuid%3Fbidder%3Drichaudience%26gdpr%3D%26gdpr_consent%3D%26uid%3D%5BPDID%5D",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://ib.adnxs.com/getuid?https%3A%2F%2Fmeasureadv.com%2FuserBackIframe%3Fuid%3D%24UID%26gdpr%3D%7BGDPR%7D%26gdpr_consent%3D%7BGDPR_CONSENT%7D%26p%3D7",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://u-ams.4dex.io/ortb/usync.html?publisher_id=1593&domain=https://csync.smilewanted.com/&gdpr=&gdpr_consent=&us_privacy=&r=https%3A%2F%2Fstatic.cdn.admatic.de%2Fcookie.html%3Fbidder%3Dadagio_ortb%26gdpr%3D%26gdpr_consent%3D%26f%3Db%26uid%3D%7BUID%7D",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://ads.servenobid.com/sync?pid=317&uid=1681319997478248247&gdpr=1&gdpr_consent=CQlBZUAQlBZUAEsACBENChFsAP_gAEPgAAIwL4NB_G7ebWFL-TL3IbtEeYxH59hr7sAxAgbIkgQFTDKSqJwGx2EYNAyQlCIKGRAAuFSBAAEgCIDURUCAKIAFrSBMKEyQYBMIJqBggBMRA2FACFhgC4ojWQCI4ursZkcUmAuN6Mqs2czwSggDhlawNmSVQBCdIYeIBYm8ZBGC-9IEdWx4tgp4-ETpEG0eQ1E_oGpoojI6YnE6ABgBhAQgQUgFBAIIAAaAAHBAAAEAAQgEBigABACAAACgACAAAEAEF8Gg_jduNrin_BgrkN2iHMYr8-wB92AYgANkQQICphlJUEYBb7CIEgRICBEEDIgAUCoAgACUBAQiIiBABEAKloA2ACYIMA2EAHAwQBmIoTAgACQgBcURrIBEcHU2MqOqRITGcGVTbKZYJAQRwylQGHJKoAxOEMGAAsSWMAiAfXkCerIlawUkfGJ0iCAMAYifyDUyUDkNcXjlAAwAggIQICACggAABANAADAgAACCAAQAIzQAAgBAAABQAAAAACAiAAA.IL4NB_G7ebXFP-TL3IbtEeYxX59hr7sAxAgbIkgQFTDKSqJwG32EYNAyQlCIKGRAAuFSBAAEoCIjURUCAKIAVrSBsKEyQYBsIJuBggDMRQ2FACFhgC4ojWQCI4ursZ0dUmQuN6Mqu2czwSggjhlawNuSVQBidIYeIBYm8ZBGC-_IE9Wx69gp4-MTpEG0eQ1E_sGpsonI64vH6ABgBhAQgQUgFBAIICAaAAHBAAAEEAQgERmgABACAAACgACAAAEBEA.d4AACHwAAAA",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://sync.richaudience.com/f7872c90c5d3791e2b51f7edce1a0a5d/?p=pbs&consentString=&r=https%3A%2F%2Fprebid.admatic.de%2Fsetuid%3Fbidder%3Drichaudience%26gdpr%3D%26gdpr_consent%3D%26uid%3D%5BPDID%5D",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://ads.servenobid.com/sync?pid=351&uid=2932e295-fcfd-4952-8edb-6cb50cd73a29&gdpr=1&gdpr_consent=CQlBZUAQlBZUAEsACBENChFsAP_gAEPgAAIwL4NB_G7ebWFL-TL3IbtEeYxH59hr7sAxAgbIkgQFTDKSqJwGx2EYNAyQlCIKGRAAuFSBAAEgCIDURUCAKIAFrSBMKEyQYBMIJqBggBMRA2FACFhgC4ojWQCI4ursZkcUmAuN6Mqs2czwSggDhlawNmSVQBCdIYeIBYm8ZBGC-9IEdWx4tgp4-ETpEG0eQ1E_oGpoojI6YnE6ABgBhAQgQUgFBAIIAAaAAHBAAAEAAQgEBigABACAAACgACAAAEAEF8Gg_jduNrin_BgrkN2iHMYr8-wB92AYgANkQQICphlJUEYBb7CIEgRICBEEDIgAUCoAgACUBAQiIiBABEAKloA2ACYIMA2EAHAwQBmIoTAgACQgBcURrIBEcHU2MqOqRITGcGVTbKZYJAQRwylQGHJKoAxOEMGAAsSWMAiAfXkCerIlawUkfGJ0iCAMAYifyDUyUDkNcXjlAAwAggIQICACggAABANAADAgAACCAAQAIzQAAgBAAABQAAAAACAiAAA.IL4NB_G7ebXFP-TL3IbtEeYxX59hr7sAxAgbIkgQFTDKSqJwG32EYNAyQlCIKGRAAuFSBAAEoCIjURUCAKIAVrSBsKEyQYBsIJuBggDMRQ2FACFhgC4ojWQCI4ursZ0dUmQuN6Mqu2czwSggjhlawNuSVQBidIYeIBYm8ZBGC-_IE9Wx69gp4-MTpEG0eQ1E_sGpsonI64vH6ABgBhAQgQUgFBAIICAaAAHBAAAEEAQgERmgABACAAACgACAAAEBEA.d4AACHwAAAA",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://u-ams.4dex.io/ortb/usync.html?publisher_id=1593&domain=https://csync.smilewanted.com/&gdpr=&gdpr_consent=&us_privacy=&r=https%3A%2F%2Fstatic.cdn.admatic.de%2Fcookie.html%3Fbidder%3Dadagio_ortb%26gdpr%3D%26gdpr_consent%3D%26f%3Db%26uid%3D%7BUID%7D",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://ads.servenobid.com/sync?pid=310&uid=MwMf4TZH5vPMJ6spQsS8CFQg&origin=https://visitor.omnitagjs.com/",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://cs-server-s2s.yellowblue.io/sync-pixel?gdpr=1&gdpr_consent=CQlBZUAQlBZUAEsACBENChFsAP_gAEPgAAIwL4NB_G7ebWFL-TL3IbtEeYxH59hr7sAxAgbIkgQFTDKSqJwGx2EYNAyQlCIKGRAAuFSBAAEgCIDURUCAKIAFrSBMKEyQYBMIJqBggBMRA2FACFhgC4ojWQCI4ursZkcUmAuN6Mqs2czwSggDhlawNmSVQBCdIYeIBYm8ZBGC-9IEdWx4tgp4-ETpEG0eQ1E_oGpoojI6YnE6ABgBhAQgQUgFBAIIAAaAAHBAAAEAAQgEBigABACAAACgACAAAEAEF8Gg_jduNrin_BgrkN2iHMYr8-wB92AYgANkQQICphlJUEYBb7CIEgRICBEEDIgAUCoAgACUBAQiIiBABEAKloA2ACYIMA2EAHAwQBmIoTAgACQgBcURrIBEcHU2MqOqRITGcGVTbKZYJAQRwylQGHJKoAxOEMGAAsSWMAiAfXkCerIlawUkfGJ0iCAMAYifyDUyUDkNcXjlAAwAggIQICACggAABANAADAgAACCAAQAIzQAAgBAAABQAAAAACAiAAA.IL4NB_G7ebXFP-TL3IbtEeYxX59hr7sAxAgbIkgQFTDKSqJwG32EYNAyQlCIKGRAAuFSBAAEoCIjURUCAKIAVrSBsKEyQYBsIJuBggDMRQ2FACFhgC4ojWQCI4ursZ0dUmQuN6Mqu2czwSggjhlawNuSVQBidIYeIBYm8ZBGC-_IE9Wx69gp4-MTpEG0eQ1E_sGpsonI64vH6ABgBhAQgQUgFBAIICAaAAHBAAAEEAQgERmgABACAAACgACAAAEBEA.d4AACHwAAAA&us_privacy=1---&redirect=https%3A%2F%2Fcookies.nextmillmedia.com%2Fsetuid%3Fbidder%3Dinsticator%26nmuid%3D%26gdpr%3D1%26gdpr_consent%3DCQlBZUAQlBZUAEsACBENChFsAP_gAEPgAAIwL4NB_G7ebWFL-TL3IbtEeYxH59hr7sAxAgbIkgQFTDKSqJwGx2EYNAyQlCIKGRAAuFSBAAEgCIDURUCAKIAFrSBMKEyQYBMIJqBggBMRA2FACFhgC4ojWQCI4ursZkcUmAuN6Mqs2czwSggDhlawNmSVQBCdIYeIBYm8ZBGC-9IEdWx4tgp4-ETpEG0eQ1E_oGpoojI6YnE6ABgBhAQgQUgFBAIIAAaAAHBAAAEAAQgEBigABACAAACgACAAAEAEF8Gg_jduNrin_BgrkN2iHMYr8-wB92AYgANkQQICphlJUEYBb7CIEgRICBEEDIgAUCoAgACUBAQiIiBABEAKloA2ACYIMA2EAHAwQBmIoTAgACQgBcURrIBEcHU2MqOqRITGcGVTbKZYJAQRwylQGHJKoAxOEMGAAsSWMAiAfXkCerIlawUkfGJ0iCAMAYifyDUyUDkNcXjlAAwAggIQICACggAABANAADAgAACCAAQAIzQAAgBAAABQAAAAACAiAAA.IL4NB_G7ebXFP-TL3IbtEeYxX59hr7sAxAgbIkgQFTDKSqJwG32EYNAyQlCIKGRAAuFSBAAEoCIjURUCAKIAVrSBsKEyQYBsIJuBggDMRQ2FACFhgC4ojWQCI4ursZ0dUmQuN6Mqu2czwSggjhlawNuSVQBidIYeIBYm8ZBGC-_IE9Wx69gp4-MTpEG0eQ1E_sGpsonI64vH6ABgBhAQgQUgFBAIICAaAAHBAAAEEAQgERmgABACAAACgACAAAEBEA.d4AACHwAAAA%26us_privacy%3D1---%26uid%3D%24UID&redirect=https://cs.ingage.tech/v1/sync/risecodes/7a146dfd-56ee-4668-9f66-fbcd6633fe9d?uid={partnerId}",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_ERROR_NET_INTERRUPT"
+        }
+      },
+      {
+        "url": "https://ads.servenobid.com/sync?pid=310&uid=MwMf4TZH5vPMJ6spQsS8CFQg&origin=https%3A%2F%2Fvisitor.omnitagjs.com%2F",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://ads.servenobid.com/sync?pid=335&uid=d2a48e19-7b4d-4f9c-9004-6a63c6c58a5e&origin=https%3A%2F%2Fvisitor.omnitagjs.com%2F",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://ads.servenobid.com/sync?pid=346&uid=&origin=https%3A%2F%2Fvisitor.omnitagjs.com%2F",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://ads.servenobid.com/sync?pid=353&uid=4231545394309342000V10&origin=https%3A%2F%2Fvisitor.omnitagjs.com%2F",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://ads.servenobid.com/sync?pid=352&uid=cCXE3ClnkY&origin=https%3A%2F%2Fvisitor.omnitagjs.com%2F",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://ads.servenobid.com/sync?pid=323&uid=MPSH3J6C-5-7OTO&gdpr=1&gdpr_consent=CQlBZUAQlBZUAEsACBENChFsAP_gAEPgAAIwL4NB_G7ebWFL-TL3IbtEeYxH59hr7sAxAgbIkgQFTDKSqJwGx2EYNAyQlCIKGRAAuFSBAAEgCIDURUCAKIAFrSBMKEyQYBMIJqBggBMRA2FACFhgC4ojWQCI4ursZkcUmAuN6Mqs2czwSggDhlawNmSVQBCdIYeIBYm8ZBGC-9IEdWx4tgp4-ETpEG0eQ1E_oGpoojI6YnE6ABgBhAQgQUgFBAIIAAaAAHBAAAEAAQgEBigABACAAACgACAAAEAEF8Gg_jduNrin_BgrkN2iHMYr8-wB92AYgANkQQICphlJUEYBb7CIEgRICBEEDIgAUCoAgACUBAQiIiBABEAKloA2ACYIMA2EAHAwQBmIoTAgACQgBcURrIBEcHU2MqOqRITGcGVTbKZYJAQRwylQGHJKoAxOEMGAAsSWMAiAfXkCerIlawUkfGJ0iCAMAYifyDUyUDkNcXjlAAwAggIQICACggAABANAADAgAACCAAQAIzQAAgBAAABQAAAAACAiAAA.IL4NB_G7ebXFP-TL3IbtEeYxX59hr7sAxAgbIkgQFTDKSqJwG32EYNAyQlCIKGRAAuFSBAAEoCIjURUCAKIAVrSBsKEyQYBsIJuBggDMRQ2FACFhgC4ojWQCI4ursZ0dUmQuN6Mqu2czwSggjhlawNuSVQBidIYeIBYm8ZBGC-_IE9Wx69gp4-MTpEG0eQ1E_sGpsonI64vH6ABgBhAQgQUgFBAIICAaAAHBAAAEEAQgERmgABACAAACgACAAAEBEA.d4AACHwAAAA&us_privacy=1---",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://ib.adnxs.com/getuid?https%3A%2F%2Fmeasureadv.com%2FuserBackIframe%3Fuid%3D%24UID%26gdpr%3D%7BGDPR%7D%26gdpr_consent%3D%7BGDPR_CONSENT%7D%26p%3D7",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://ssc-cms.33across.com/ps/?m=xch&rt=html&id=001Pg000009Gtq2IAC&ru=https%3A%2F%2Fcsync.smilewanted.com%2Fset_partner_userid_get%2F33across%2F33XUSERID33X",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://cs.ingage.tech/v1/syncPage/unruly?uid=RX-a64fb8af-318a-4b29-8784-f96d405ce61d-003&gdpr=1&gdpr_consent=CQlBZUAQlBZUAEsACBENChFsAP_gAEPgAAIwL4NB_G7ebWFL-TL3IbtEeYxH59hr7sAxAgbIkgQFTDKSqJwGx2EYNAyQlCIKGRAAuFSBAAEgCIDURUCAKIAFrSBMKEyQYBMIJqBggBMRA2FACFhgC4ojWQCI4ursZkcUmAuN6Mqs2czwSggDhlawNmSVQBCdIYeIBYm8ZBGC-9IEdWx4tgp4-ETpEG0eQ1E_oGpoojI6YnE6ABgBhAQgQUgFBAIIAAaAAHBAAAEAAQgEBigABACAAACgACAAAEAEF8Gg_jduNrin_BgrkN2iHMYr8-wB92AYgANkQQICphlJUEYBb7CIEgRICBEEDIgAUCoAgACUBAQiIiBABEAKloA2ACYIMA2EAHAwQBmIoTAgACQgBcURrIBEcHU2MqOqRITGcGVTbKZYJAQRwylQGHJKoAxOEMGAAsSWMAiAfXkCerIlawUkfGJ0iCAMAYifyDUyUDkNcXjlAAwAggIQICACggAABANAADAgAACCAAQAIzQAAgBAAABQAAAAACAiAAA.IL4NB_G7ebXFP-TL3IbtEeYxX59hr7sAxAgbIkgQFTDKSqJwG32EYNAyQlCIKGRAAuFSBAAEoCIjURUCAKIAVrSBsKEyQYBsIJuBggDMRQ2FACFhgC4ojWQCI4ursZ0dUmQuN6Mqu2czwSggjhlawNuSVQBidIYeIBYm8ZBGC-_IE9Wx69gp4-MTpEG0eQ1E_sGpsonI64vH6ABgBhAQgQUgFBAIICAaAAHBAAAEEAQgERmgABACAAACgACAAAEBEA.d4AACHwAAAA",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://ads.servenobid.com/sync?pid=352&uid=cCXE3ClnkY&origin=https%3A%2F%2Fvisitor.omnitagjs.com%2F",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://pixel-sync.sitescout.com/dmp/pixelSync?nid=117&redir=https%3A%2F%2Fsync.aniview.com%2Fcookiesyncendpoint%3Fauid%3D%26biddername%3D72%26pid%3D62f53b2c7850d0786f227f64%26key%3D%7BuserId%7D",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://sync.connectad.io/pixel/1?dataid=data20&uuid=MPSH3J6C-5-7OTO&gdpr=1&gdpr_consent=CQlBZUAQlBZUAEsACBENChFsAP_gAEPgAAIwL4NB_G7ebWFL-TL3IbtEeYxH59hr7sAxAgbIkgQFTDKSqJwGx2EYNAyQlCIKGRAAuFSBAAEgCIDURUCAKIAFrSBMKEyQYBMIJqBggBMRA2FACFhgC4ojWQCI4ursZkcUmAuN6Mqs2czwSggDhlawNmSVQBCdIYeIBYm8ZBGC-9IEdWx4tgp4-ETpEG0eQ1E_oGpoojI6YnE6ABgBhAQgQUgFBAIIAAaAAHBAAAEAAQgEBigABACAAACgACAAAEAEF8Gg_jduNrin_BgrkN2iHMYr8-wB92AYgANkQQICphlJUEYBb7CIEgRICBEEDIgAUCoAgACUBAQiIiBABEAKloA2ACYIMA2EAHAwQBmIoTAgACQgBcURrIBEcHU2MqOqRITGcGVTbKZYJAQRwylQGHJKoAxOEMGAAsSWMAiAfXkCerIlawUkfGJ0iCAMAYifyDUyUDkNcXjlAAwAggIQICACggAABANAADAgAACCAAQAIzQAAgBAAABQAAAAACAiAAA.IL4NB_G7ebXFP-TL3IbtEeYxX59hr7sAxAgbIkgQFTDKSqJwG32EYNAyQlCIKGRAAuFSBAAEoCIjURUCAKIAVrSBsKEyQYBsIJuBggDMRQ2FACFhgC4ojWQCI4ursZ0dUmQuN6Mqu2czwSggjhlawNuSVQBidIYeIBYm8ZBGC-_IE9Wx69gp4-MTpEG0eQ1E_sGpsonI64vH6ABgBhAQgQUgFBAIICAaAAHBAAAEEAQgERmgABACAAACgACAAAEBEA.d4AACHwAAAA",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://ad4m.at/ad/sim/ix?gdpr=1&gdpr_consent=CQlBZUAQlBZUAEsACBENChFsAP_gAEPgAAIwL4NB_G7ebWFL-TL3IbtEeYxH59hr7sAxAgbIkgQFTDKSqJwGx2EYNAyQlCIKGRAAuFSBAAEgCIDURUCAKIAFrSBMKEyQYBMIJqBggBMRA2FACFhgC4ojWQCI4ursZkcUmAuN6Mqs2czwSggDhlawNmSVQBCdIYeIBYm8ZBGC-9IEdWx4tgp4-ETpEG0eQ1E_oGpoojI6YnE6ABgBhAQgQUgFBAIIAAaAAHBAAAEAAQgEBigABACAAACgACAAAEAEF8Gg_jduNrin_BgrkN2iHMYr8-wB92AYgANkQQICphlJUEYBb7CIEgRICBEEDIgAUCoAgACUBAQiIiBABEAKloA2ACYIMA2EAHAwQBmIoTAgACQgBcURrIBEcHU2MqOqRITGcGVTbKZYJAQRwylQGHJKoAxOEMGAAsSWMAiAfXkCerIlawUkfGJ0iCAMAYifyDUyUDkNcXjlAAwAggIQICACggAABANAADAgAACCAAQAIzQAAgBAAABQAAAAACAiAAA.IL4NB_G7ebXFP-TL3IbtEeYxX59hr7sAxAgbIkgQFTDKSqJwG32EYNAyQlCIKGRAAuFSBAAEoCIjURUCAKIAVrSBsKEyQYBsIJuBggDMRQ2FACFhgC4ojWQCI4ursZ0dUmQuN6Mqu2czwSggjhlawNuSVQBidIYeIBYm8ZBGC-_IE9Wx69gp4-MTpEG0eQ1E_sGpsonI64vH6ABgBhAQgQUgFBAIICAaAAHBAAAEEAQgERmgABACAAACgACAAAEBEA.d4AACHwAAAA",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_ERROR_FAILURE"
+        }
+      },
+      {
+        "url": "https://tr.blismedia.com/v1/api/sync/pubmatic?&gdpr=1&gdpr_consent=CQlBZUAQlBZUAEsACBENChFsAP_gAEPgAAIwL4NB_G7ebWFL-TL3IbtEeYxH59hr7sAxAgbIkgQFTDKSqJwGx2EYNAyQlCIKGRAAuFSBAAEgCIDURUCAKIAFrSBMKEyQYBMIJqBggBMRA2FACFhgC4ojWQCI4ursZkcUmAuN6Mqs2czwSggDhlawNmSVQBCdIYeIBYm8ZBGC-9IEdWx4tgp4-ETpEG0eQ1E_oGpoojI6YnE6ABgBhAQgQUgFBAIIAAaAAHBAAAEAAQgEBigABACAAACgACAAAEAEF8Gg_jduNrin_BgrkN2iHMYr8-wB92AYgANkQQICphlJUEYBb7CIEgRICBEEDIgAUCoAgACUBAQiIiBABEAKloA2ACYIMA2EAHAwQBmIoTAgACQgBcURrIBEcHU2MqOqRITGcGVTbKZYJAQRwylQGHJKoAxOEMGAAsSWMAiAfXkCerIlawUkfGJ0iCAMAYifyDUyUDkNcXjlAAwAggIQICACggAABANAADAgAACCAAQAIzQAAgBAAABQAAAAACAiAAA.IL4NB_G7ebXFP-TL3IbtEeYxX59hr7sAxAgbIkgQFTDKSqJwG32EYNAyQlCIKGRAAuFSBAAEoCIjURUCAKIAVrSBsKEyQYBsIJuBggDMRQ2FACFhgC4ojWQCI4ursZ0dUmQuN6Mqu2czwSggjhlawNuSVQBidIYeIBYm8ZBGC-_IE9Wx69gp4-MTpEG0eQ1E_sGpsonI64vH6ABgBhAQgQUgFBAIICAaAAHBAAAEEAQgERmgABACAAACgACAAAEBEA.d4AACHwAAAA&us_pricacy=1---",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      }
+    ]
+  },
+  "page": {
+    "url": "https://www.gsmarena.com/google_android_17_continue_on-news-72910.php",
+    "title": "Android 17's 'Continue On' feature will let you move tasks between devices - GSMArena.com news",
+    "readyState": "complete",
+    "scrollX": 0,
+    "scrollY": 1621,
+    "viewport": {
+      "innerWidth": 1280,
+      "innerHeight": 900,
+      "devicePixelRatio": 1
+    },
+    "documentElement": {
+      "clientWidth": 1280,
+      "clientHeight": 900,
+      "scrollWidth": 1280,
+      "scrollHeight": 4326
+    },
+    "bodyTextSample": "\n\nTIP US\n\n\n2.1M\n160K\n\n\nRSS\n\n\nEV\n\n\nMERCH\n\n\nLOG IN\nSIGN UP\nHOME NEWS REVIEWS VIDEOS FEATURED PHONE FINDER DEALS MERCH COVERAGE CONTACT\nADVERTISEMENT\nAndroid 17's 'Continue On' feature will let you move tasks between devices\nPOST YOUR COMMENT\nCOMMENTS (10)\n\n\n\nSagar 20 May 2026\n\nGoogle Android Announcement\n\nGoogle made quite a few announcements on the first day of Google I/O 2026, and one of them is \"Continue On,\" which is an Android 17 feature that app developers can implement to provide cross-device continuity for their users.\n\nIn Google's own words, \"Continue On enables users to start an Android app on one Android device and then transition to another device in their Android ecosystem, continuing the user journey they started.\"\n\nIn simpler words, if you are working on a document in the Google Docs app on your Android smartphone, with Continue On, you continue the same work on an Android tablet in the Google Docs app, provided both devices are connected to the same account. The handoff suggestion will appear in the tablet's taskbar.\n\nHandoff suggestion appears in the tablet's taskbar\n\nContinue On works bidirectionally, meaning any supported Android device can both send and receive app activities and tasks. However, at launch, Continue On will only support mobile-to-tablet device transitions.\n\nContinue On supports two types of handoffs: app-to-app handoff and web handoff.\n\nApp-to-app handoff lets you continue using an app on a tablet right where you left off on a smartphone. The Google Docs example we cited above is an app-to-app handoff. The video below shows how it works.\n\nW"
+  },
+  "taskResult": {
+    "screenshots": {
+      "videos": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042795/probe_firefox151/gsmarena_videos.png"
+    },
+    "state": {
+      "canPlayTypes": {
+        "mp4": "maybe",
+        "h264": "probably",
+        "hevc": "probably",
+        "webmVp9": "probably"
+      },
+      "videos": [
+        {
+          "index": 0,
+          "src": null,
+          "currentSrc": "https://fdn.gsmarena.com/imgroot/news/26/05/google-android-17-continue-on/gsmarena_001.mp4",
+          "sources": [
+            {
+              "src": "https://fdn.gsmarena.com/imgroot/news/26/05/google-android-17-continue-on/gsmarena_001.mp4",
+              "type": "video/mp4"
+            }
+          ],
+          "readyState": 0,
+          "networkState": 3,
+          "paused": false,
+          "currentTime": 0,
+          "duration": null,
+          "videoWidth": 622,
+          "videoHeight": 364,
+          "error": null,
+          "rect": {
+            "x": 450,
+            "y": 245.43333435058594,
+            "width": 699,
+            "height": 409
+          },
+          "textNear": ""
+        },
+        {
+          "index": 1,
+          "src": null,
+          "currentSrc": "https://fdn.gsmarena.com/imgroot/news/26/05/google-android-17-continue-on/gsmarena_002.mp4",
+          "sources": [
+            {
+              "src": "https://fdn.gsmarena.com/imgroot/news/26/05/google-android-17-continue-on/gsmarena_002.mp4",
+              "type": "video/mp4"
+            }
+          ],
+          "readyState": 0,
+          "networkState": 3,
+          "paused": false,
+          "currentTime": 0,
+          "duration": null,
+          "videoWidth": 948,
+          "videoHeight": 554,
+          "error": null,
+          "rect": {
+            "x": 449.5,
+            "y": 771.933349609375,
+            "width": 700,
+            "height": 409
+          },
+          "textNear": ""
+        }
+      ]
+    }
+  }
+}

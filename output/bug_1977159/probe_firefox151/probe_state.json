@@ -1,0 +1,361 @@
+{
+  "task": "featurePage",
+  "browser": "firefox",
+  "executablePath": "/Applications/Firefox.app/Contents/MacOS/firefox",
+  "requestedUrl": "https://claude.ai/artifacts/inspiration/0e6f226e-70b0-418d-a03c-77ba65e4ba14",
+  "finalUrl": "https://claude.ai/artifacts/inspiration/0e6f226e-70b0-418d-a03c-77ba65e4ba14",
+  "httpStatus": 200,
+  "navigationError": null,
+  "viewport": {
+    "width": 1280,
+    "height": 900
+  },
+  "events": {
+    "console": [
+      {
+        "type": "info",
+        "text": "[O11Y] [DatadogRUM] Initialized JSHandle@object"
+      }
+    ],
+    "pageErrors": [],
+    "requestFailures": []
+  },
+  "page": {
+    "url": "https://claude.ai/artifacts/inspiration/0e6f226e-70b0-418d-a03c-77ba65e4ba14",
+    "title": "Claude",
+    "readyState": "complete",
+    "scrollX": 0,
+    "scrollY": 0,
+    "viewport": {
+      "innerWidth": 1280,
+      "innerHeight": 900,
+      "devicePixelRatio": 1
+    },
+    "documentElement": {
+      "clientWidth": 1280,
+      "clientHeight": 900,
+      "scrollWidth": 1280,
+      "scrollHeight": 900
+    },
+    "bodyTextSample": "Page not found\nClaude can help with many things, but finding this page isn’t one of them.\nGo back home\nCookie settings\n\nWe use cookies to deliver and improve our services, analyze site usage, and if you agree, to customize or personalize your experience and market our services to you. You can read our Cookie Policy here.\n\nCustomize Cookie Settings\nReject All Cookies\nAccept All Cookies"
+  },
+  "taskResult": {
+    "screenshots": {
+      "page": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_1977159/probe_firefox151/feature_page.png"
+    },
+    "featureSupport": {
+      "speechRecognition": false,
+      "webkitSpeechRecognition": false,
+      "showOpenFilePicker": false,
+      "launchQueue": false,
+      "serviceWorker": true,
+      "getUserMedia": true,
+      "credentials": true,
+      "clipboardRead": true,
+      "webkitSupportsFullscreen": false,
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:151.0) Gecko/20100101 Firefox/151.0"
+    },
+    "visible": [
+      {
+        "index": 0,
+        "tag": "div",
+        "label": "Page not found Claude can help with many things, but finding this page isn’t one of them. Go back home Cookie settings We use cookies to deliver and improve our services, analyze site usage, and if you agree, to customize or personalize your experience and market our services to you. You can read our Cookie Policy here. Customize Cookie Settings Reject All Cookies Accept All Cookies root",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 900
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 2,
+        "tag": "div",
+        "label": "Page not found Claude can help with many things, but finding this page isn’t one of them. Go back home root",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 900
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 3,
+        "tag": "div",
+        "label": "Page not found Claude can help with many things, but finding this page isn’t one of them. Go back home grid place-content-center min-h-min text-center gap-2 pt-24 pb-32 px-4 mx-auto h-screen w-fit",
+        "rect": {
+          "x": 349.8999938964844,
+          "y": 0,
+          "width": 580.2000122070312,
+          "height": 900
+        },
+        "visible": true,
+        "display": "grid",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 4,
+        "tag": "div",
+        "label": "mb-10 text-center",
+        "rect": {
+          "x": 365.8999938964844,
+          "y": 332.79998779296875,
+          "width": 548.2000122070312,
+          "height": 24
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 5,
+        "tag": "h2",
+        "label": "Page not found font-ui-serif text-4xl text-text-200",
+        "rect": {
+          "x": 365.8999938964844,
+          "y": 404.79998779296875,
+          "width": 548.2000122070312,
+          "height": 40
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 6,
+        "tag": "h3",
+        "label": "Claude can help with many things, but finding this page isn’t one of them. font-large text-text-500",
+        "rect": {
+          "x": 365.8999938964844,
+          "y": 452.79998779296875,
+          "width": 548.2000122070312,
+          "height": 22.399993896484375
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 7,
+        "tag": "div",
+        "label": "Go back home mx-0 mt-4 min-w-[16rem]",
+        "rect": {
+          "x": 365.8999938964844,
+          "y": 499.20001220703125,
+          "width": 548.2000122070312,
+          "height": 36
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 8,
+        "tag": "a",
+        "label": "Go back home inline-flex items-center justify-center relative isolate shrink-0 can-focus select-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none disabled:drop-shadow-none font-base-bold overflow-hidden transition-transform will-change-transform ease-[cubic-bezier(0.165,0.85,0.45,1)] duration-150 hover:scale-y-[1.015] hover:scale-x-[1.005] backface-hidden after:absolute af",
+        "rect": {
+          "x": 576.61669921875,
+          "y": 499.20001220703125,
+          "width": 126.75,
+          "height": 36
+        },
+        "visible": true,
+        "display": "inline-flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 11,
+        "tag": "div",
+        "label": "Cookie settings We use cookies to deliver and improve our services, analyze site usage, and if you agree, to customize or personalize your experience and market our services to you. You can read our Cookie Policy here. Customize Cookie Settings Reject All Cookies Accept All Cookies fixed right-2 bottom-2 z-toast max-h-[calc(100vh-1rem)] max-w-[calc(100vw-1rem)] sm:max-w-md rounded-3xl font-ui bg-b",
+        "rect": {
+          "x": 824,
+          "y": 592,
+          "width": 448,
+          "height": 300
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 12,
+        "tag": "h3",
+        "label": "Cookie settings text-xl col-span-2 mb-2 sm:mb-4 text-text-000",
+        "rect": {
+          "x": 856,
+          "y": 624,
+          "width": 384,
+          "height": 28
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 13,
+        "tag": "p",
+        "label": "We use cookies to deliver and improve our services, analyze site usage, and if you agree, to customize or personalize your experience and market our services to you. You can read our Cookie Policy here. text-sm text-text-300 mb-4",
+        "rect": {
+          "x": 856,
+          "y": 668,
+          "width": 384,
+          "height": 80
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 14,
+        "tag": "a",
+        "label": "here underline",
+        "rect": {
+          "x": 1089.183349609375,
+          "y": 729,
+          "width": 29.800003051757812,
+          "height": 18
+        },
+        "visible": true,
+        "display": "inline",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 15,
+        "tag": "div",
+        "label": "Customize Cookie Settings Reject All Cookies Accept All Cookies flex grid-cols-3 grid-rows-1 justify-between gap-2 pb-1 sm:grid sm:grid-cols-2 sm:grid-rows-2 sm:pb-0",
+        "rect": {
+          "x": 856,
+          "y": 764,
+          "width": 384,
+          "height": 96
+        },
+        "visible": true,
+        "display": "grid",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 16,
+        "tag": "button",
+        "label": "Customize Cookie Settings inline-flex items-center justify-center relative isolate shrink-0 can-focus select-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none disabled:drop-shadow-none font-base-bold border-0.5 overflow-hidden transition duration-100 backface-hidden h-11 rounded-[0.6rem] px-5 min-w-[6rem] whitespace-nowrap !text-base col-span-1 grow sm:col-span-2 _fill_10o",
+        "rect": {
+          "x": 856,
+          "y": 764,
+          "width": 384,
+          "height": 44
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 17,
+        "tag": "span",
+        "label": "Customize Cookie Settings text-center",
+        "rect": {
+          "x": 946.11669921875,
+          "y": 774,
+          "width": 203.76666259765625,
+          "height": 24
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 19,
+        "tag": "span",
+        "label": "Customize Cookie Settings hidden sm:inline",
+        "rect": {
+          "x": 946.11669921875,
+          "y": 775.5,
+          "width": 203.76666259765625,
+          "height": 21
+        },
+        "visible": true,
+        "display": "inline",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 20,
+        "tag": "button",
+        "label": "Reject All Cookies inline-flex items-center justify-center relative isolate shrink-0 can-focus select-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none disabled:drop-shadow-none font-base-bold border-0.5 overflow-hidden transition duration-100 backface-hidden h-11 rounded-[0.6rem] px-5 min-w-[6rem] whitespace-nowrap !text-base col-span-1 grow sm:col-span-1 _fill_10ocf_9 _s",
+        "rect": {
+          "x": 856,
+          "y": 816,
+          "width": 188,
+          "height": 44
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 22,
+        "tag": "span",
+        "label": "Reject All Cookies hidden sm:inline",
+        "rect": {
+          "x": 881.1500244140625,
+          "y": 826,
+          "width": 137.68333435058594,
+          "height": 24
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 23,
+        "tag": "button",
+        "label": "Accept All Cookies inline-flex items-center justify-center relative isolate shrink-0 can-focus select-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none disabled:drop-shadow-none font-base-bold overflow-hidden transition-transform will-change-transform ease-[cubic-bezier(0.165,0.85,0.45,1)] duration-150 hover:scale-y-[1.015] hover:scale-x-[1.005] backface-hidden after:absol",
+        "rect": {
+          "x": 1052,
+          "y": 816,
+          "width": 188,
+          "height": 44
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 25,
+        "tag": "span",
+        "label": "Accept All Cookies hidden sm:inline",
+        "rect": {
+          "x": 1074.2833251953125,
+          "y": 826,
+          "width": 143.41665649414062,
+          "height": 24
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      }
+    ]
+  }
+}

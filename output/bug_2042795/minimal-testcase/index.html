@@ -1,4 +1,23 @@
 <!doctype html>
 <meta charset="utf-8">
-<title>Minimal GSMArena MP4 playback failure</title>
-<video controls muted preload="auto" src="gsmarena_002_high444.mp4" style="width: 700px; max-width: 100%; background: #666"></video>
+<title>Minimal H.264 Profile 244 Video</title>
+<video id="video" controls muted src="assets/gsmarena_001_profile244.mp4" style="width:640px;max-width:100%;background:#111"></video>
+<pre id="state"></pre>
+<script>
+  const video = document.getElementById("video");
+  function state() {
+    document.getElementById("state").textContent = JSON.stringify({
+      canPlayProfile244: document.createElement("video").canPlayType('video/mp4; codecs="avc1.f4001f"'),
+      readyState: video.readyState,
+      networkState: video.networkState,
+      duration: Number.isFinite(video.duration) ? video.duration : null,
+      videoWidth: video.videoWidth,
+      videoHeight: video.videoHeight,
+      error: video.error ? { code: video.error.code, message: video.error.message } : null,
+    }, null, 2);
+  }
+  video.addEventListener("loadedmetadata", state);
+  video.addEventListener("error", state);
+  setInterval(state, 500);
+  video.load();
+</script>

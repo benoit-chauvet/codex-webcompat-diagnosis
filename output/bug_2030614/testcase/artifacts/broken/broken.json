@@ -1,0 +1,7 @@
+{
+  "mode": "broken",
+  "loaded": false,
+  "waferPresent": false,
+  "error": "can't access property \"controllers\", window.wafer is undefined",
+  "titleText": ""
+}

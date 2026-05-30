@@ -1,0 +1,1044 @@
+{
+  "task": "aolHero",
+  "browser": "firefox",
+  "executablePath": "/Applications/Firefox.app/Contents/MacOS/firefox",
+  "requestedUrl": "https://www.aol.com/",
+  "finalUrl": "https://www.aol.com/",
+  "httpStatus": 200,
+  "navigationError": null,
+  "viewport": {
+    "width": 1280,
+    "height": 900
+  },
+  "events": {
+    "console": [
+      {
+        "type": "log",
+        "text": "[PicoX] Successfully initialized"
+      },
+      {
+        "type": "log",
+        "text": "[PicoX] Successfully tracked utm params"
+      },
+      {
+        "type": "debug",
+        "text": "Yahoo Web Analytics v4.7.0"
+      },
+      {
+        "type": "debug",
+        "text": "Using gtag provider"
+      },
+      {
+        "type": "error",
+        "text": "Didomi - Google Consent Mode: gtm.load event is already present in the data layer when setting default values. Ensure GTM and other Google tags are loaded after Didomi is ready for the Google Consent Mode integration to work correctly."
+      },
+      {
+        "type": "warn",
+        "text": "OathGUCE 1.0.659: Non reg user detected. Unable to continue. Fix: http://yo/guce-js-define"
+      },
+      {
+        "type": "warn",
+        "text": "[GPT] PubAdsService.getTargeting is deprecated, use googletag.getConfig('targeting') instead.\nhttps://goo.gle/gpt-message#200"
+      },
+      {
+        "type": "warn",
+        "text": "[GPT] Slot.setSafeFrameConfig is deprecated, use Slot.setConfig({safeFrame: ...}) instead.\nhttps://goo.gle/gpt-message#171"
+      },
+      {
+        "type": "warn",
+        "text": "adgb - not initialized."
+      },
+      {
+        "type": "warn",
+        "text": "[GPT] Using deprecated googletag.encryptedSignalProviders. Please use googletag.secureSignalProviders instead.\nhttps://goo.gle/gpt-message#155"
+      },
+      {
+        "type": "warn",
+        "text": "Google Deploy of the SharedId library has been deprecated. Please select another option in the GAM UI. If you use Prebid, we suggest the Prebid.js UserId option. If you do not, you may configure GAM to allow Google to share a first party user identifier with OB and AB participants, which is either the publisherProvidedId or the __gads value when that is missing."
+      },
+      {
+        "type": "warn",
+        "text": "[GPT] Using deprecated googletag.encryptedSignalProviders. Please use googletag.secureSignalProviders instead.\nhttps://goo.gle/gpt-message#155"
+      },
+      {
+        "type": "warn",
+        "text": "[GPT] Using deprecated googletag.encryptedSignalProviders. Please use googletag.secureSignalProviders instead.\nhttps://goo.gle/gpt-message#155"
+      },
+      {
+        "type": "warn",
+        "text": "adgb - not initialized."
+      }
+    ],
+    "pageErrors": [
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "TypeError: can't access property \"WaferBaseController\", window.wafer.controllers is undefined"
+      },
+      {
+        "name": "Error",
+        "message": "TypeError: can't access property \"WaferBaseController\", window.wafer.controllers is undefined"
+      },
+      {
+        "name": "Error",
+        "message": "TypeError: can't access property \"WaferBaseController\", window.wafer.controllers is undefined"
+      },
+      {
+        "name": "Error",
+        "message": "TypeError: can't access property \"WaferBaseController\", window.wafer.controllers is undefined"
+      },
+      {
+        "name": "Error",
+        "message": "TypeError: can't access property \"WaferBaseController\", d is undefined"
+      },
+      {
+        "name": "Error",
+        "message": "TypeError: can't access property \"elementInView\", f is undefined"
+      },
+      {
+        "name": "Error",
+        "message": "TypeError: can't access property \"bindEvent\", h is undefined"
+      },
+      {
+        "name": "Error",
+        "message": "TypeError: can't access property \"WaferBaseController\", window.wafer.controllers is undefined"
+      },
+      {
+        "name": "Error",
+        "message": "TypeError: can't access property \"elementInView\", f is undefined"
+      },
+      {
+        "name": "Error",
+        "message": "TypeError: can't access property \"WaferBaseController\", window.wafer.controllers is undefined"
+      },
+      {
+        "name": "Error",
+        "message": "TypeError: can't access property \"findAncestor\", v is undefined"
+      },
+      {
+        "name": "Error",
+        "message": "TypeError: can't access property \"performanceMarkSupported\", y is undefined"
+      },
+      {
+        "name": "Error",
+        "message": "TypeError: window.wafer.ready is not a function"
+      },
+      {
+        "name": "Error",
+        "message": "TypeError: can't access property \"bindEvent\", p is undefined"
+      },
+      {
+        "name": "Error",
+        "message": "TypeError: can't access property \"WaferBaseController\", window.wafer.controllers is undefined"
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://api.rlcdn.com/api/identity/v2/envelope?pid=14287. (Reason: CORS header ‘Access-Control-Allow-Origin’ missing). Status code: 401."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://api.rlcdn.com/api/identity/v2/envelope?pid=14287. (Reason: CORS header ‘Access-Control-Allow-Origin’ missing). Status code: 401."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Content-Security-Policy: The page’s settings blocked the loading of a resource (img-src) at https://ups.analytics.aol.com/ups/58746/sync?ui=3b8168d3-8735-4b32-8ee9-22e3aaf82d0b-tuct11148038&redir=true&gdpr=true&gdpr_consent=CQlBZUAQlBZUAAOABBENCgFoAP_gAEPgACiQMHtB9G7eTWFjeTJ2YLskOYwH0VBJ4MAwBgCAAEABzBIUIBwGRmARJAyIICACGAIAIGBBIABlGABAQEAAIIAFAABIAEkAIBAAICAAAAAIAABACAAAAAAAEAAQgEAXIAQgmAYEBFoIQUhAggAAAQAAAAAEAIABAASAAAAAQAAACAAAACgAggAAAAAAAAAEAFAIAAAAIAECAgskdAAQAAAAAAgIAAYAAEABAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAEAIAACC_YAJBoVEERZEAgQCAhBAgAEFAQAUCAIAAAgAAAAEwQECAMAFRgEgBACAAAAAAAAAAAAQAACQAIQABAAACAEAAACAAIACAAAABgAAAgAEAAAAAAAAAAAAAAAAAABCAAIIAAAAQQAEFAABAAIAAAAAAAAACIAAgAABAAAAAAAAAAAIAAAIAAAAAAAAAAAAAACBEAACAAAAKAxBYAEAAAAAAAAAAAAAhAAQAAAACAAAIAAAAAAAAAAAAAAAAAAAAAQACAAAAA.IMHtB9G7eTXFneTJ2YLskOYwX0VBJ4MAwBgCAAEABzBIUIBwGVmATJEyIICACGAIAIGBBIABtGAhAQEAAIIAVAABIAEkAIBAAIGAAACAIQABACAAAAAAAEAAQgEAXIAQgmAYEBFoIQUhAkgAgAQAAAAAEAIgBCASAEAAAQAAACAAAgCgAggAAAAAAAAAEAFAIEQAAIAECAovkdgAQAAAAAAgIAAYACEABAAAAAIAAAgCAAAAAAAAAAAAAAAAAAABEAIAACAA.YAAAAAAAEJTwAAAAAAAAAAAA&gpp=DBAA&gpp_sid=-1&us_privacy=1--- because it violates the following directive: “img-src about://*.analytics.aol.com about://*.analytics.yahoo.com about://*.taboola.com about://*.demdex.net about://*.agkn.com about://*.semasio.net about://*.media6degrees.com”"
+      },
+      {
+        "name": "Error",
+        "message": "Content-Security-Policy: The page’s settings blocked the loading of a resource (img-src) at https://ups.analytics.yahoo.com/ups/58782/cms?partner_id=ADOBE&orig=ono&redir2=true because it violates the following directive: “img-src about://*.analytics.aol.com about://*.analytics.yahoo.com about://*.taboola.com about://*.demdex.net about://*.agkn.com about://*.semasio.net about://*.media6degrees.com”"
+      },
+      {
+        "name": "Error",
+        "message": "Content-Security-Policy: The page’s settings blocked the loading of a resource (img-src) at https://ups.analytics.yahoo.com/ups/58692/cms?partner_id=NEUAR&orig=ono1 because it violates the following directive: “img-src about://*.analytics.aol.com about://*.analytics.yahoo.com about://*.taboola.com about://*.demdex.net about://*.agkn.com about://*.semasio.net about://*.media6degrees.com”"
+      },
+      {
+        "name": "Error",
+        "message": "Content-Security-Policy: The page’s settings blocked the loading of a resource (img-src) at https://ups.analytics.yahoo.com/ups/58699/cms?partner_id=SEMAS&orig=ono&sInitiator=external because it violates the following directive: “img-src about://*.analytics.aol.com about://*.analytics.yahoo.com about://*.taboola.com about://*.demdex.net about://*.agkn.com about://*.semasio.net about://*.media6degrees.com”"
+      },
+      {
+        "name": "Error",
+        "message": "Content-Security-Policy: The page’s settings blocked the loading of a resource (img-src) at https://ups.analytics.yahoo.com/ups/58952/cms?partner_id=DSTILLERY because it violates the following directive: “img-src about://*.analytics.aol.com about://*.analytics.yahoo.com about://*.taboola.com about://*.demdex.net about://*.agkn.com about://*.semasio.net about://*.media6degrees.com”"
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “t_gid” has been rejected for invalid domain."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “t_pt_gid” has been rejected for invalid domain."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “sa-user-id” has been rejected for invalid domain."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “sa-user-id-v2” has been rejected for invalid domain."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “sa-user-id-v3” has been rejected for invalid domain."
+      },
+      {
+        "name": "Error",
+        "message": "The character encoding of the document was not declared, so the encoding was guessed from content. The character encoding needs to be declared in the Content-Type HTTP header, using a meta tag, or using a byte order mark."
+      },
+      {
+        "name": "Error",
+        "message": "The character encoding of the document was not declared, so the encoding was guessed from content. The character encoding needs to be declared in the Content-Type HTTP header, using a meta tag, or using a byte order mark."
+      }
+    ],
+    "requestFailures": [
+      {
+        "url": "https://pagead2.googlesyndication.com/pagead/sodar?id=sodar2&v=254&li=gpt_m202605200101&jk=422127052750064&rc=",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://ep1.adtrafficquality.google/pagead/sodar?id=sodar2&v=254&t=2&li=gpt_m202605200101&jk=422127052750064&bg=!n5ylnP7NAAZ0wi26VMI7AEcBe5WfOIqzu2z5BM0WyVlJztwpUOc-HHhodgG9wYgdNULmI331YTAKHwajQgE2lXstjgrQIPuALyQjxyKNB9tqlGHXcQK5KQIAAAArUgAAAABoAQd-ADaJQlWpOe_V8hS9hEK6QCHO06gSJeUYj1lDa9QFJhGk9FPjqPyqdvLBkqmpmAtTk8FrvK3QxcSZAkUYk5izQ-EGyoS2u0xYgETgNRsaVvDtPl5i0TvFFMdO6aMx0lFzvya8P03rIQea50OSUL7hZ9Fctc-eugtICqdU38MHSJTvhpNWlKGHIsJYVvckgBsq-nieZZnG2glBxfaYrlXGz_Sd83kfvF68o8-XLH4cfFNkFzzut_sMaAaxeB-vOWIZ7rqNvn7ley6Oz9T-7rEayAUu8KePmcT_o2iiMbBnLXQzAArQx0n3O4btFnjpsh1NXSNH8su_swzycqwQbIwscqlB1WkYIQVIzR07CIIMrKFKA6bhjkj79SOTPWZA36EfPhA_3bEwQwaEmQHuvgT5P63CIIXiC7MKXtRMgBnK2CMDD39iv9z4RlEj8zkXMzXf6iXWKhqSTSGkpf_eW11_O0suQRZBCG0XtR1-r5a0Y7D3rbGivp6bYfZj1K8jaVdRCrv9R3vDYK-gdC0Qn8r65yLPXR5iKy_l6q6oiF1CJOQreSN6UKySV8gVlYO-EJaBacHNEvelXagTfG0X5sUQo7hpaNxVo_wEr9AY2h3zLHsPnN4Ea7YirX0iavw2HhlrHccdiGKsP-AUkcNfT4b4ESc5NqOwwb4_FuSuRaTTdUFDX4prYiwpEbejc2bqUx8tRWq6H--E9mkSkcl6T1x1YjDJ9lLAZ_9dAY3g09JiZKIxOM0F6YpU1L33w7KGzeS2DEdH02cHE9x8f5649v1ADO6OoN3U4Q9Xs934CjyeEk9WCWDdVwECeDeKQUwfJQ4PSXjgRA7cE9fRWhZHIPvmQg",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://pbs.yahoo.com/setuid?bidder=gumgum&gdpr=1&gdpr_consent=CQlBZUAQlBZUAAOABBENCgFoAP_gAEPgACiQMHtB9G7eTWFjeTJ2YLskOYwH0VBJ4MAwBgCAAEABzBIUIBwGRmARJAyIICACGAIAIGBBIABlGABAQEAAIIAFAABIAEkAIBAAICAAAAAIAABACAAAAAAAEAAQgEAXIAQgmAYEBFoIQUhAggAAAQAAAAAEAIABAASAAAAAQAAACAAAACgAggAAAAAAAAAEAFAIAAAAIAECAgskdAAQAAAAAAgIAAYAAEABAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAEAIAACC_YAJBoVEERZEAgQCAhBAgAEFAQAUCAIAAAgAAAAEwQECAMAFRgEgBACAAAAAAAAAAAAQAACQAIQABAAACAEAAACAAIACAAAABgAAAgAEAAAAAAAAAAAAAAAAAABCAAIIAAAAQQAEFAABAAIAAAAAAAAACIAAgAABAAAAAAAAAAAIAAAIAAAAAAAAAAAAAACBEAACAAAAKAxBYAEAAAAAAAAAAAAAhAAQAAAACAAAIAAAAAAAAAAAAAAAAAAAAAQACAAAAA.IMHtB9G7eTXFneTJ2YLskOYwX0VBJ4MAwBgCAAEABzBIUIBwGVmATJEyIICACGAIAIGBBIABtGAhAQEAAIIAVAABIAEkAIBAAIGAAACAIQABACAAAAAAAEAAQgEAXIAQgmAYEBFoIQUhAkgAgAQAAAAAEAIgBCASAEAAAQAAACAAAgCgAggAAAAAAAAAEAFAIEQAAIAECAovkdgAQAAAAAAgIAAYACEABAAAAAIAAAgCAAAAAAAAAAAAAAAAAAABEAIAACAA.YAAAAAAAEJTwAAAAAAAAAAAA&gpp=DBAA&gpp_sid=-1&f=b&uid=e_44d974dd-6613-46aa-8ec2-a3b4e746fb5d",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://secure.adnxs.com/getuid?https://usersync.gumgum.com/usersync?b=apn&i=$UID",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://match.prod.bidr.io/cookie-sync/rp?bee_sync_partners=rp&gdpr_consent=CQlBZUAQlBZUAAOABBENCgFoAP_gAEPgACiQMHtB9G7eTWFjeTJ2YLskOYwH0VBJ4MAwBgCAAEABzBIUIBwGRmARJAyIICACGAIAIGBBIABlGABAQEAAIIAFAABIAEkAIBAAICAAAAAIAABACAAAAAAAEAAQgEAXIAQgmAYEBFoIQUhAggAAAQAAAAAEAIABAASAAAAAQAAACAAAACgAggAAAAAAAAAEAFAIAAAAIAECAgskdAAQAAAAAAgIAAYAAEABAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAEAIAACC_YAJBoVEERZEAgQCAhBAgAEFAQAUCAIAAAgAAAAEwQECAMAFRgEgBACAAAAAAAAAAAAQAACQAIQABAAACAEAAACAAIACAAAABgAAAgAEAAAAAAAAAAAAAAAAAABCAAIIAAAAQQAEFAABAAIAAAAAAAAACIAAgAABAAAAAAAAAAAIAAAIAAAAAAAAAAAAAACBEAACAAAAKAxBYAEAAAAAAAAAAAAAhAAQAAAACAAAIAAAAAAAAAAAAAAAAAAAAAQACAAAAA.IMHtB9G7eTXFneTJ2YLskOYwX0VBJ4MAwBgCAAEABzBIUIBwGVmATJEyIICACGAIAIGBBIABtGAhAQEAAIIAVAABIAEkAIBAAIGAAACAIQABACAAAAAAAEAAQgEAXIAQgmAYEBFoIQUhAkgAgAQAAAAAEAIgBCASAEAAAQAAACAAAgCgAggAAAAAAAAAEAFAIEQAAIAECAovkdgAQAAAAAAgIAAYACEABAAAAAIAAAgCAAAAAAAAAAAAAAAAAAABEAIAACAA.YAAAAAAAEJTwAAAAAAAAAAAA&gdpr=1&us_privacy=1---&_bee_ppp=1",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://api-taboola.com/2.0/json/aol-headerbidding/recommendations.notify-win-nurl?app.type=desktop&app.apikey=0208da576d71919bb5ac9ecf5d1b67100bb52c21&response.id=__ec91d51749e28ebe6734828e510dec2f__8824e5b90fe92ed03f2cb4682c64ec21__%7E%7EV1%7E%7E5458623549778600316%7E%7EqqjU0jX7n1bmOwSXJu05ex1H7BjDkzwM4IPlxq4abh0I7u8q4IBgPRxiC8z0i4V4puLc5AwHB7ju78igioFYHuTpEOwX0Kzg9jrRZYfkO4NPiBzT_-q9ICj92n74LTdEg5hcfNLsObKuB6uAaezRmujOIfYG9wSmAwA7WS_YDXyEj9M3CJT1xs9RRSllne-rz03PTdmngd6q0OhpVIGsCFRjFODmMXgMLX6DT8jZ5faJgUAccDclgCnpMa_mj173h6eZT-lNJ8n5xh_gvpIFwgCer1gj6sWLkGNNpvzjAi6opNZXxcejZD9lvSrinRDR4npZew4EFsQYEBJpGPGF5d849IrTFcVwOmVExKHcKUtUS4lMTyAZKhTwwmsdhpTPaAU-xxkgl72YhX8ANWDczQ__text&response.session=v2_36c4f97a33ee18aada6d6c6e570821f7_y-LFfEplxE2uKs0BpDq9i0DU3gPAIYT5NB%7EA_1780153016_1780153016_CIi3jgYQsutjGM3an-vQjtD6CyABKAwwSjjE1whA7IsQSJ_y1wNQ26EPWABgAGid76vK6IKrsDZwAYABAIgBAJABAA&view.external-id=238860256cf044f8&vpb=EgRTQ09EGKvWBCCfiwYqCVRhYm9vbGFIQjCowo3L5zM6GWFtLnRhYm9vbGFzeW5kaWNhdGlvbi5jb21CBzE2MzU3NjJKEWFvbC1oZWFkZXJiaWRkaW5nUgdhb2wuY29tYOjsA2oJVGFib29sYUhCcgRob21leAGCAVFhb2wuY29tX1AxNjM1NzYyX1MxNjM1NzYyX1RBT0wgLSBIb21lcGFnZSAtIERlc2t0b3AgLSBUb3BfUmlnaHRfQ19XMzAwX0g2MDBfTjFfVEKKAQJhbZABAJgB-IPJrImQ4K6eAQ&idf=true&idfs=true&idfkfc=true&wp=1.4392&obp=95bdce02527008d5&it=TaboolaHB&cu=USD&viperAppType=SCOD&route=AM%3AAM%3AV",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://securepubads.g.doubleclick.net/pcs/view?xai=AKAOjsvTKPia-F1qWQTMYPhQX5LbBsLf2CgoQyRQ1aD0e9Rucz__259cAwWIPt5-YvHAZeCabR4E7GDwUIzH8B-kLhrpiuXy-Dk4JVIAlmskb-AsqjqPVW85BqIWT9zbsYe_9qpY9allHjszcuddm4JfCmZpnWh523ViDfxGP-OmKJ4Gn8DltKRhd37AgwhuDq72LzmpwvLbG4sLnlHi90e4l3kqMzCXdJto6a5DcQbCACiDVodbMLpDSnCwCzx07nNb_1220SIp88O6YAZVoImauwx4oYwOGeTgENylVUJUl5iO9WfzjYd0pU46WEj2akfoWjP4s6APztgub9OYQ9H1gLKAHOwm36Co1KkV-5NMBEctoBpXEpEKHseTx-TGju0FrFikFsp0IrgxT9nGstX-NxgXaHWWzqgSll2HrvX1is-r_qgc_04lyozNCXsz9yliXZYEk_T4piyr_WO47AKBxKpDzAd5jznqLhGpbSqV&sai=AMfl-YTVATNTpV_ph4nx8HSgtI3cgJjfvgdbA9hUbdLpfaJfQnkzPB0v5-07cbPmr7LBoaqvllVjLgGs84sORNsabtF0HrpTjnQ3H_59D-fYHbvkN6KDbXkkN7W2Dw67j1EGOhvyy_AuqceEDSVAihGVQ7KMPkGcrkIKQcHa1eEWUdr94u1WLp2ye9_SwUCkm6DyA689dvWP8GXFMFCH8FAk5g&sig=Cg0ArKJSzM-Zp7Lg5InEEAE&uach_m=%5BUACH%5D&urlfix=1&adurl=",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://ads.pubmatic.com/AdServer/js/user_sync.html?p=156578&predirect=&gdpr=1&gdpr_consent=CQlBZUAQlBZUAAOABBENCgFoAP_gAEPgACiQMHtB9G7eTWFjeTJ2YLskOYwH0VBJ4MAwBgCAAEABzBIUIBwGRmARJAyIICACGAIAIGBBIABlGABAQEAAIIAFAABIAEkAIBAAICAAAAAIAABACAAAAAAAEAAQgEAXIAQgmAYEBFoIQUhAggAAAQAAAAAEAIABAASAAAAAQAAACAAAACgAggAAAAAAAAAEAFAIAAAAIAECAgskdAAQAAAAAAgIAAYAAEABAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAEAIAACC_YAJBoVEERZEAgQCAhBAgAEFAQAUCAIAAAgAAAAEwQECAMAFRgEgBACAAAAAAAAAAAAQAACQAIQABAAACAEAAACAAIACAAAABgAAAgAEAAAAAAAAAAAAAAAAAABCAAIIAAAAQQAEFAABAAIAAAAAAAAACIAAgAABAAAAAAAAAAAIAAAIAAAAAAAAAAAAAACBEAACAAAAKAxBYAEAAAAAAAAAAAAAhAAQAAAACAAAIAAAAAAAAAAAAAAAAAAAAAQACAAAAA.IMHtB9G7eTXFneTJ2YLskOYwX0VBJ4MAwBgCAAEABzBIUIBwGVmATJEyIICACGAIAIGBBIABtGAhAQEAAIIAVAABIAEkAIBAAIGAAACAIQABACAAAAAAAEAAQgEAXIAQgmAYEBFoIQUhAkgAgAQAAAAAEAIgBCASAEAAAQAAACAAAgCgAggAAAAAAAAAEAFAIEQAAIAECAovkdgAQAAAAAAgIAAYACEABAAAAAIAAAgCAAAAAAAAAAAAAAAAAAABEAIAACAA.YAAAAAAAEJTwAAAAAAAAAAAA&google_gid=CAESECWoytqvz0DWQ1DmiYrcJIM&google_cver=1",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_ERROR_FAILURE"
+        }
+      },
+      {
+        "url": "https://securepubads.g.doubleclick.net/pcs/view?xai=AKAOjstMF-uc9f-ccDjAsIP5tz8BOGKDgEl5DFn79r_AHcnOXTiQ7-s0x4SS_VqlhXTRKgbcAcCEQrrzbHDauIa2K44CiBZdSk1tHxSwQzWJV0s0hv9UkBybndvDp0N_8mwWNQbektmBqPYWujtD0AE66o2zs-nXLYuPEtHguJQiPCm5Jiyy_wa_212TD1rOLmgxROGHCIPGh9ojbF_NVkyzCYWAat9fLvQSayn2NoHBkaZJMGSEL9cIMG9F7cISBeUnin1SALlbHqhXqJ1aHTgUdu87JtQtyHKDaahTTSDZBg4sy9an6ET9ge8Ee5tv7povO-EwZ-NiTfwmmtSAIkUqFuCWfCkxxFmfvJ1yAyDSN9FeBkudXXAe2n4hDqZB0xqzVX3IGuJM1hve03HCU8i5qEJVdpbWMDNxm45wXUnc6_fM1fXgFDBM9xUVb8BGpBqdkrNmN7KXTLUSwRPEN6lmJfRSxNyt4TmmhVp85pguGTs&sai=AMfl-YSiQXcIVpca-fS7ysyfB1bQchtB-GeXnMvA4rravNoZbiAcDz1kBjL3maDU3XuXxjzvyKpyvWOqFn1xLSWgCEKw9GckFD_KFZtgeJLlas2kRQx_i1FRQGoVvYylEg-CRmaHfX5vtLO_8M5aB2y7PwoDMwLGl7VMdpKM7m3PkSiH7_99F4iOzG4Jt_meB6Rdxi37frgrPUqUntSHnctLcQ&sig=Cg0ArKJSzN1psQJWMALaEAE&uach_m=%5BUACH%5D&urlfix=1&dett=2&adurl=",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://pbs.yahoo.com/setuid?bidder=medianet&gdpr=1&gdpr_consent=CQlBZUAQlBZUAAOABBENCgFoAP_gAEPgACiQMHtB9G7eTWFjeTJ2YLskOYwH0VBJ4MAwBgCAAEABzBIUIBwGRmARJAyIICACGAIAIGBBIABlGABAQEAAIIAFAABIAEkAIBAAICAAAAAIAABACAAAAAAAEAAQgEAXIAQgmAYEBFoIQUhAggAAAQAAAAAEAIABAASAAAAAQAAACAAAACgAggAAAAAAAAAEAFAIAAAAIAECAgskdAAQAAAAAAgIAAYAAEABAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAEAIAACC_YAJBoVEERZEAgQCAhBAgAEFAQAUCAIAAAgAAAAEwQECAMAFRgEgBACAAAAAAAAAAAAQAACQAIQABAAACAEAAACAAIACAAAABgAAAgAEAAAAAAAAAAAAAAAAAABCAAIIAAAAQQAEFAABAAIAAAAAAAAACIAAgAABAAAAAAAAAAAIAAAIAAAAAAAAAAAAAACBEAACAAAAKAxBYAEAAAAAAAAAAAAAhAAQAAAACAAAIAAAAAAAAAAAAAAAAAAAAAQACAAAAA.IMHtB9G7eTXFneTJ2YLskOYwX0VBJ4MAwBgCAAEABzBIUIBwGVmATJEyIICACGAIAIGBBIABtGAhAQEAAIIAVAABIAEkAIBAAIGAAACAIQABACAAAAAAAEAAQgEAXIAQgmAYEBFoIQUhAkgAgAQAAAAAEAIgBCASAEAAAQAAACAAAgCgAggAAAAAAAAAEAFAIEQAAIAECAovkdgAQAAAAAAgIAAYACEABAAAAAIAAAgCAAAAAAAAAAAAAAAAAAABEAIAACAA.YAAAAAAAEJTwAAAAAAAAAAAA&gpp=DBAA&gpp_sid=-1&f=b&uid=4231546185667515000V10",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://pbs.yahoo.com/setuid?bidder=vidazoo&gdpr=1&gdpr_consent=CQlBZUAQlBZUAAOABBENCgFoAP_gAEPgACiQMHtB9G7eTWFjeTJ2YLskOYwH0VBJ4MAwBgCAAEABzBIUIBwGRmARJAyIICACGAIAIGBBIABlGABAQEAAIIAFAABIAEkAIBAAICAAAAAIAABACAAAAAAAEAAQgEAXIAQgmAYEBFoIQUhAggAAAQAAAAAEAIABAASAAAAAQAAACAAAACgAggAAAAAAAAAEAFAIAAAAIAECAgskdAAQAAAAAAgIAAYAAEABAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAEAIAACC_YAJBoVEERZEAgQCAhBAgAEFAQAUCAIAAAgAAAAEwQECAMAFRgEgBACAAAAAAAAAAAAQAACQAIQABAAACAEAAACAAIACAAAABgAAAgAEAAAAAAAAAAAAAAAAAABCAAIIAAAAQQAEFAABAAIAAAAAAAAACIAAgAABAAAAAAAAAAAIAAAIAAAAAAAAAAAAAACBEAACAAAAKAxBYAEAAAAAAAAAAAAAhAAQAAAACAAAIAAAAAAAAAAAAAAAAAAAAAQACAAAAA.IMHtB9G7eTXFneTJ2YLskOYwX0VBJ4MAwBgCAAEABzBIUIBwGVmATJEyIICACGAIAIGBBIABtGAhAQEAAIIAVAABIAEkAIBAAIGAAACAIQABACAAAAAAAEAAQgEAXIAQgmAYEBFoIQUhAkgAgAQAAAAAEAIgBCASAEAAAQAAACAAAgCgAggAAAAAAAAAEAFAIEQAAIAECAovkdgAQAAAAAAgIAAYACEABAAAAAIAAAgCAAAAAAAAAAAAAAAAAAABEAIAACAA.YAAAAAAAEJTwAAAAAAAAAAAA&gpp=DBAA&gpp_sid=-1&f=b&uid=406da6e7-e75c-7846-ad32-1c2192e4d790",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://trc.taboola.com/aol-headerbidding/log/3/bulk?route=AM%3AAM%3AV&lti=scod&tvi48=28060&cv=20260528-6-RELEASE&bulkSize=1",
+        "method": "POST",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://usr.undertone.com/userPixel/sync?partner=rubicon&uid=MPSH56S4-6-L1PX&gdpr=1&gdpr_consent=CQlBZUAQlBZUAAOABBENCgFoAP_gAEPgACiQMHtB9G7eTWFjeTJ2YLskOYwH0VBJ4MAwBgCAAEABzBIUIBwGRmARJAyIICACGAIAIGBBIABlGABAQEAAIIAFAABIAEkAIBAAICAAAAAIAABACAAAAAAAEAAQgEAXIAQgmAYEBFoIQUhAggAAAQAAAAAEAIABAASAAAAAQAAACAAAACgAggAAAAAAAAAEAFAIAAAAIAECAgskdAAQAAAAAAgIAAYAAEABAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAEAIAACC_YAJBoVEERZEAgQCAhBAgAEFAQAUCAIAAAgAAAAEwQECAMAFRgEgBACAAAAAAAAAAAAQAACQAIQABAAACAEAAACAAIACAAAABgAAAgAEAAAAAAAAAAAAAAAAAABCAAIIAAAAQQAEFAABAAIAAAAAAAAACIAAgAABAAAAAAAAAAAIAAAIAAAAAAAAAAAAAACBEAACAAAAKAxBYAEAAAAAAAAAAAAAhAAQAAAACAAAIAAAAAAAAAAAAAAAAAAAAAQACAAAAA.IMHtB9G7eTXFneTJ2YLskOYwX0VBJ4MAwBgCAAEABzBIUIBwGVmATJEyIICACGAIAIGBBIABtGAhAQEAAIIAVAABIAEkAIBAAIGAAACAIQABACAAAAAAAEAAQgEAXIAQgmAYEBFoIQUhAkgAgAQAAAAAEAIgBCASAEAAAQAAACAAAgCgAggAAAAAAAAAEAFAIEQAAIAECAovkdgAQAAAAAAgIAAYACEABAAAAAIAAAgCAAAAAAAAAAAAAAAAAAABEAIAACAA.YAAAAAAAEJTwAAAAAAAAAAAA&us_privacy=1---",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://pbs.yahoo.com/setuid?bidder=triplelift&uid=3872111592877942246443&gdpr=1&gdpr_consent=CQlBZUAQlBZUAAOABBENCgFoAP_gAEPgACiQMHtB9G7eTWFjeTJ2YLskOYwH0VBJ4MAwBgCAAEABzBIUIBwGRmARJAyIICACGAIAIGBBIABlGABAQEAAIIAFAABIAEkAIBAAICAAAAAIAABACAAAAAAAEAAQgEAXIAQgmAYEBFoIQUhAggAAAQAAAAAEAIABAASAAAAAQAAACAAAACgAggAAAAAAAAAEAFAIAAAAIAECAgskdAAQAAAAAAgIAAYAAEABAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAEAIAACC_YAJBoVEERZEAgQCAhBAgAEFAQAUCAIAAAgAAAAEwQECAMAFRgEgBACAAAAAAAAAAAAQAACQAIQABAAACAEAAACAAIACAAAABgAAAgAEAAAAAAAAAAAAAAAAAABCAAIIAAAAQQAEFAABAAIAAAAAAAAACIAAgAABAAAAAAAAAAAIAAAIAAAAAAAAAAAAAACBEAACAAAAKAxBYAEAAAAAAAAAAAAAhAAQAAAACAAAIAAAAAAAAAAAAAAAAAAAAAQACAAAAA.IMHtB9G7eTXFneTJ2YLskOYwX0VBJ4MAwBgCAAEABzBIUIBwGVmATJEyIICACGAIAIGBBIABtGAhAQEAAIIAVAABIAEkAIBAAIGAAACAIQABACAAAAAAAEAAQgEAXIAQgmAYEBFoIQUhAkgAgAQAAAAAEAIgBCASAEAAAQAAACAAAgCgAggAAAAAAAAAEAFAIEQAAIAECAovkdgAQAAAAAAgIAAYACEABAAAAAIAAAgCAAAAAAAAAAAAAAAAAAABEAIAACAA.YAAAAAAAEJTwAAAAAAAAAAAA&gpp=DBAA&gpp_sid=",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://pbs.yahoo.com/setuid?bidder=triplelift&gdpr=1&gdpr_consent=CQlBZUAQlBZUAAOABBENCgFoAP_gAEPgACiQMHtB9G7eTWFjeTJ2YLskOYwH0VBJ4MAwBgCAAEABzBIUIBwGRmARJAyIICACGAIAIGBBIABlGABAQEAAIIAFAABIAEkAIBAAICAAAAAIAABACAAAAAAAEAAQgEAXIAQgmAYEBFoIQUhAggAAAQAAAAAEAIABAASAAAAAQAAACAAAACgAggAAAAAAAAAEAFAIAAAAIAECAgskdAAQAAAAAAgIAAYAAEABAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAEAIAACC_YAJBoVEERZEAgQCAhBAgAEFAQAUCAIAAAgAAAAEwQECAMAFRgEgBACAAAAAAAAAAAAQAACQAIQABAAACAEAAACAAIACAAAABgAAAgAEAAAAAAAAAAAAAAAAAABCAAIIAAAAQQAEFAABAAIAAAAAAAAACIAAgAABAAAAAAAAAAAIAAAIAAAAAAAAAAAAAACBEAACAAAAKAxBYAEAAAAAAAAAAAAAhAAQAAAACAAAIAAAAAAAAAAAAAAAAAAAAAQACAAAAA.IMHtB9G7eTXFneTJ2YLskOYwX0VBJ4MAwBgCAAEABzBIUIBwGVmATJEyIICACGAIAIGBBIABtGAhAQEAAIIAVAABIAEkAIBAAIGAAACAIQABACAAAAAAAEAAQgEAXIAQgmAYEBFoIQUhAkgAgAQAAAAAEAIgBCASAEAAAQAAACAAAgCgAggAAAAAAAAAEAFAIEQAAIAECAovkdgAQAAAAAAgIAAYACEABAAAAAIAAAgCAAAAAAAAAAAAAAAAAAABEAIAACAA.YAAAAAAAEJTwAAAAAAAAAAAA&gpp=DBAA&gpp_sid=-1&f=b&uid=3872111592877942246443",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://hbx.media.net/cksync.html?cs=8&vsid=4231546185667515000V10&type=con&refUrl=&vid=01530198264231546185667515000V10&axid_e=&ovsid=AQAJefdhyGfc7AJx074UAQEBAQEBAQCfeGJvIgEBAJ94Ym8i&expiration=1780239419&is_secure=true&gdpr_consent=CQlBZUAQlBZUAAOABBENCgFoAP_gAEPgACiQMHtB9G7eTWFjeTJ2YLskOYwH0VBJ4MAwBgCAAEABzBIUIBwGRmARJAyIICACGAIAIGBBIABlGABAQEAAIIAFAABIAEkAIBAAICAAAAAIAABACAAAAAAAEAAQgEAXIAQgmAYEBFoIQUhAggAAAQAAAAAEAIABAASAAAAAQAAACAAAACgAggAAAAAAAAAEAFAIAAAAIAECAgskdAAQAAAAAAgIAAYAAEABAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAEAIAACC_YAJBoVEERZEAgQCAhBAgAEFAQAUCAIAAAgAAAAEwQECAMAFRgEgBACAAAAAAAAAAAAQAACQAIQABAAACAEAAACAAIACAAAABgAAAgAEAAAAAAAAAAAAAAAAAABCAAIIAAAAQQAEFAABAAIAAAAAAAAACIAAgAABAAAAAAAAAAAIAAAIAAAAAAAAAAAAAACBEAACAAAAKAxBYAEAAAAAAAAAAAAAhAAQAAAACAAAIAAAAAAAAAAAAAAAAAAAAAQACAAAAA.IMHtB9G7eTXFneTJ2YLskOYwX0VBJ4MAwBgCAAEABzBIUIBwGVmATJEyIICACGAIAIGBBIABtGAhAQEAAIIAVAABIAEkAIBAAIGAAACAIQABACAAAAAAAEAAQgEAXIAQgmAYEBFoIQUhAkgAgAQAAAAAEAIgBCASAEAAAQAAACAAAgCgAggAAAAAAAAAEAFAIEQAAIAECAovkdgAQAAAAAAgIAAYACEABAAAAAIAAAgCAAAAAAAAAAAAAAAAAAABEAIAACAA.YAAAAAAAEJTwAAAAAAAAAAAA&gdpr=1",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_ERROR_FAILURE"
+        }
+      },
+      {
+        "url": "https://pbs.yahoo.com/setuid?bidder=sonobi&gdpr=1&gdpr_consent=CQlBZUAQlBZUAAOABBENCgFoAP_gAEPgACiQMHtB9G7eTWFjeTJ2YLskOYwH0VBJ4MAwBgCAAEABzBIUIBwGRmARJAyIICACGAIAIGBBIABlGABAQEAAIIAFAABIAEkAIBAAICAAAAAIAABACAAAAAAAEAAQgEAXIAQgmAYEBFoIQUhAggAAAQAAAAAEAIABAASAAAAAQAAACAAAACgAggAAAAAAAAAEAFAIAAAAIAECAgskdAAQAAAAAAgIAAYAAEABAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAEAIAACC_YAJBoVEERZEAgQCAhBAgAEFAQAUCAIAAAgAAAAEwQECAMAFRgEgBACAAAAAAAAAAAAQAACQAIQABAAACAEAAACAAIACAAAABgAAAgAEAAAAAAAAAAAAAAAAAABCAAIIAAAAQQAEFAABAAIAAAAAAAAACIAAgAABAAAAAAAAAAAIAAAIAAAAAAAAAAAAAACBEAACAAAAKAxBYAEAAAAAAAAAAAAAhAAQAAAACAAAIAAAAAAAAAAAAAAAAAAAAAQACAAAAA.IMHtB9G7eTXFneTJ2YLskOYwX0VBJ4MAwBgCAAEABzBIUIBwGVmATJEyIICACGAIAIGBBIABtGAhAQEAAIIAVAABIAEkAIBAAIGAAACAIQABACAAAAAAAEAAQgEAXIAQgmAYEBFoIQUhAkgAgAQAAAAAEAIgBCASAEAAAQAAACAAAgCgAggAAAAAAAAAEAFAIEQAAIAECAovkdgAQAAAAAAgIAAYACEABAAAAAIAAAgCAAAAAAAAAAAAAAAAAAABEAIAACAA.YAAAAAAAEJTwAAAAAAAAAAAA&gpp=DBAA&gpp_sid=-1&f=b&uid=fa655ea0-58f7-4d31-9d0d-4a455665270e",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://aax-eu.amazon-adsystem.com/ecm3?ex=sonobi.com&id=fa655ea0-58f7-4d31-9d0d-4a455665270e",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://ib.adnxs.com/getuid?https://sync.go.sonobi.com/us.gif?nw=appnex&nuid=$UID",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://d.turn.com/r/dd/id/L21rdC84MTYvY2lkLzE3NDc3OTM0OTIvdC8y/kv/ID1=fa655ea0-58f7-4d31-9d0d-4a455665270e",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://cm.mgid.com/m?cdsp=834149&c=fa655ea0-58f7-4d31-9d0d-4a455665270e",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://capi.connatix.com/us/pixel?puid=fa655ea0-58f7-4d31-9d0d-4a455665270e&pId=43&gdpr_consent=CQlBZUAQlBZUAAOABBENCgFoAP_gAEPgACiQMHtB9G7eTWFjeTJ2YLskOYwH0VBJ4MAwBgCAAEABzBIUIBwGRmARJAyIICACGAIAIGBBIABlGABAQEAAIIAFAABIAEkAIBAAICAAAAAIAABACAAAAAAAEAAQgEAXIAQgmAYEBFoIQUhAggAAAQAAAAAEAIABAASAAAAAQAAACAAAACgAggAAAAAAAAAEAFAIAAAAIAECAgskdAAQAAAAAAgIAAYAAEABAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAEAIAACC_YAJBoVEERZEAgQCAhBAgAEFAQAUCAIAAAgAAAAEwQECAMAFRgEgBACAAAAAAAAAAAAQAACQAIQABAAACAEAAACAAIACAAAABgAAAgAEAAAAAAAAAAAAAAAAAABCAAIIAAAAQQAEFAABAAIAAAAAAAAACIAAgAABAAAAAAAAAAAIAAAIAAAAAAAAAAAAAACBEAACAAAAKAxBYAEAAAAAAAAAAAAAhAAQAAAACAAAIAAAAAAAAAAAAAAAAAAAAAQACAAAAA.IMHtB9G7eTXFneTJ2YLskOYwX0VBJ4MAwBgCAAEABzBIUIBwGVmATJEyIICACGAIAIGBBIABtGAhAQEAAIIAVAABIAEkAIBAAIGAAACAIQABACAAAAAAAEAAQgEAXIAQgmAYEBFoIQUhAkgAgAQAAAAAEAIgBCASAEAAAQAAACAAAgCgAggAAAAAAAAAEAFAIEQAAIAECAovkdgAQAAAAAAgIAAYACEABAAAAAIAAAgCAAAAAAAAAAAAAAAAAAABEAIAACAA.YAAAAAAAEJTwAAAAAAAAAAAA&callback=&us_privacy=&final=true",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      }
+    ]
+  },
+  "page": {
+    "url": "https://www.aol.com/",
+    "title": "News, Politics, Sports, Mail & Latest Headlines - AOL.com",
+    "readyState": "complete",
+    "scrollX": 0,
+    "scrollY": 0,
+    "viewport": {
+      "innerWidth": 1280,
+      "innerHeight": 900,
+      "devicePixelRatio": 1
+    },
+    "documentElement": {
+      "clientWidth": 1280,
+      "clientHeight": 900,
+      "scrollWidth": 1280,
+      "scrollHeight": 13284
+    },
+    "bodyTextSample": "Menu\n24/7\n Help\nMail\nSign in\nTrending Now\n\nWonderwall\n\nKate Middleton’s 1-word reply after her brief split from Prince William revealed\n\nABC News\n\nTrump says 'no interest' in Kennedy Center overhaul after judge's ruling\n\nWonderwall\n\nPrince Harry and Meghan Markle's marriage allegedly implodes ahead of UK visit\n\nEntertainment Weekly\n\n7 NBC shows canceled so far in 2026 — and why they got the axe\n\nPeople\n\nParents show up to daughter's birthday bash only to realize party is not at all what they were expecting\n\nSee all trending now\nDon’t miss our daily roundup.\n\nStay informed with a handpicked selection of the day's top AOL stories, delivered to your inbox.\n\nFontenay-sous-Bois, Ile-de-France\nNews & Weather\n\nChange home location\n\nFontenay-sous-Bois, Ile-de-France\nAdd / Edit\n90°F\nSunny\nH93°\nL 62°\n5 PM\n91°\n0%\n6 PM\n90°\n0%\n7 PM\n89°\n0%\n8 PM\n88°\n0%\nSee full forecast\nLocal news not available now.\n\nWe have our best people on it and should have things up and running soon.\n\nAdvertisement\n\nEntertainment\n\nEntertainment Weekly\n\n13 celebrities who have saved lives\n\nPeople\n\nNate Bargatze shares his biggest challenge in film debut 'The Breadwinner': 'How early you got to get up'\n\nAssociated Press\n\nOscar-winning 'Star Wars' editor Marcia Lucas dies at 80\n\nEntertainment Weekly\n\nEvery artist who's dropped out of the controversial Freedom 250 event so far\n\nHuffPost\n\nI had a huge hit in 1992. Then I came out as omnisexual\n\nPeople\n\nKendra Wilkinson bites back at body-shaming comments about her breast implants\n\nSee all entertainment\nLatest News\n\nPeople\n\n'Unruly' United passenger arrested after he alle"
+  },
+  "taskResult": {
+    "screenshots": {
+      "top": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2030614/probe2_firefox151/aol_home_top.png"
+    },
+    "state": {
+      "topLinks": [
+        {
+          "index": 26,
+          "href": "https://www.aol.com/",
+          "text": "",
+          "imageSrc": null,
+          "imageAlt": null,
+          "rect": {
+            "x": 51.19999694824219,
+            "y": 54,
+            "width": 113,
+            "height": 36
+          },
+          "visibleTop": true
+        },
+        {
+          "index": 33,
+          "href": "https://mail.aol.com/",
+          "text": "Mail",
+          "imageSrc": null,
+          "imageAlt": null,
+          "rect": {
+            "x": 1041.6666259765625,
+            "y": 52,
+            "width": 118.96665954589844,
+            "height": 40
+          },
+          "visibleTop": true
+        },
+        {
+          "index": 34,
+          "href": "https://oidc.www.aol.com/login/?lang=en-us&intl=us&src=fp-us&dest=https%3A%2F%2Fwww.aol.com%2F",
+          "text": "Sign in",
+          "imageSrc": null,
+          "imageAlt": null,
+          "rect": {
+            "x": 1178.63330078125,
+            "y": 56,
+            "width": 94.36666870117188,
+            "height": 32
+          },
+          "visibleTop": true
+        },
+        {
+          "index": 63,
+          "href": "https://www.aol.com/",
+          "text": "Home",
+          "imageSrc": null,
+          "imageAlt": null,
+          "rect": {
+            "x": -334,
+            "y": 80,
+            "width": 318,
+            "height": 56
+          },
+          "visibleTop": true
+        },
+        {
+          "index": 64,
+          "href": "https://www.aol.com/local/",
+          "text": "Fontenay-sous-..., Ile-de-FranceFontenay-sous-Bois, Ile-de-FranceLocal News",
+          "imageSrc": null,
+          "imageAlt": null,
+          "rect": {
+            "x": -334,
+            "y": 153,
+            "width": 318,
+            "height": 74
+          },
+          "visibleTop": true
+        },
+        {
+          "index": 65,
+          "href": "https://www.aol.com/products?ncid=mbr_rusacqlnk00000036",
+          "text": "Subscriptions",
+          "imageSrc": null,
+          "imageAlt": null,
+          "rect": {
+            "x": -334,
+            "y": 244,
+            "width": 318,
+            "height": 56
+          },
+          "visibleTop": true
+        },
+        {
+          "index": 66,
+          "href": "https://www.aol.com/animals/",
+          "text": "Animals",
+          "imageSrc": null,
+          "imageAlt": null,
+          "rect": {
+            "x": -334,
+            "y": 317,
+            "width": 318,
+            "height": 56
+          },
+          "visibleTop": true
+        },
+        {
+          "index": 67,
+          "href": "https://www.aol.com/entertainment/",
+          "text": "Entertainment",
+          "imageSrc": null,
+          "imageAlt": null,
+          "rect": {
+            "x": -334,
+            "y": 373,
+            "width": 318,
+            "height": 56
+          },
+          "visibleTop": true
+        },
+        {
+          "index": 68,
+          "href": "https://www.aol.com/food/",
+          "text": "Food",
+          "imageSrc": null,
+          "imageAlt": null,
+          "rect": {
+            "x": -334,
+            "y": 485,
+            "width": 318,
+            "height": 56
+          },
+          "visibleTop": true
+        },
+        {
+          "index": 69,
+          "href": "https://www.aol.com/games/",
+          "text": "Games",
+          "imageSrc": null,
+          "imageAlt": null,
+          "rect": {
+            "x": -334,
+            "y": 541,
+            "width": 318,
+            "height": 56
+          },
+          "visibleTop": true
+        },
+        {
+          "index": 70,
+          "href": "https://www.aol.com/home-garden/",
+          "text": "Home & Garden",
+          "imageSrc": null,
+          "imageAlt": null,
+          "rect": {
+            "x": -334,
+            "y": 653,
+            "width": 318,
+            "height": 56
+          },
+          "visibleTop": true
+        },
+        {
+          "index": 221,
+          "href": "https://www.aol.com/news/trending/",
+          "text": "Trending Now",
+          "imageSrc": null,
+          "imageAlt": null,
+          "rect": {
+            "x": 556.6666870117188,
+            "y": 579.3333129882812,
+            "width": 163.51666259765625,
+            "height": 28
+          },
+          "visibleTop": true
+        },
+        {
+          "index": 222,
+          "href": "https://www.aol.com/articles/kate-middleton-one-word-reply-201119000.html",
+          "text": "Wonderwall Kate Middleton’s 1-word reply after her brief split from Prince William revealed",
+          "imageSrc": "https://s.aolcdn.com/aoldotcom-releases/lazyload/blank.gif",
+          "imageAlt": "Wonderwall",
+          "rect": {
+            "x": 556.6666870117188,
+            "y": 635.3333129882812,
+            "width": 270,
+            "height": 110
+          },
+          "visibleTop": true
+        }
+      ],
+      "textBlocks": [
+        {
+          "index": 91,
+          "tag": "h2",
+          "text": "Trending Now",
+          "rect": {
+            "x": 556.6666870117188,
+            "y": 579.3333129882812,
+            "width": 163.51666259765625,
+            "height": 28
+          },
+          "visibleTop": true
+        },
+        {
+          "index": 92,
+          "tag": "p",
+          "text": "Wonderwall",
+          "rect": {
+            "x": 580.6666870117188,
+            "y": 638.3333129882812,
+            "width": 54.399993896484375,
+            "height": 14
+          },
+          "visibleTop": true
+        },
+        {
+          "index": 93,
+          "tag": "p",
+          "text": "Kate Middleton’s 1-word reply after her brief split from Prince William revealed",
+          "rect": {
+            "x": 556.6666870117188,
+            "y": 665.3333129882812,
+            "width": 172.89999389648438,
+            "height": 80
+          },
+          "visibleTop": true
+        }
+      ],
+      "bodyTextSample": "Menu\n24/7\n Help\nMail\nSign in\nTrending Now\n\nWonderwall\n\nKate Middleton’s 1-word reply after her brief split from Prince William revealed\n\nABC News\n\nTrump says 'no interest' in Kennedy Center overhaul after judge's ruling\n\nWonderwall\n\nPrince Harry and Meghan Markle's marriage allegedly implodes ahead of UK visit\n\nEntertainment Weekly\n\n7 NBC shows canceled so far in 2026 — and why they got the axe\n\nPeople\n\nParents show up to daughter's birthday bash only to realize party is not at all what they were expecting\n\nSee all trending now\nDon’t miss our daily roundup.\n\nStay informed with a handpicked selection of the day's top AOL stories, delivered to your inbox.\n\nFontenay-sous-Bois, Ile-de-France\nNews & Weather\n\nChange home location\n\nFontenay-sous-Bois, Ile-de-France\nAdd / Edit\n90°F\nSunny\nH93°\nL 62°\n5 PM\n91°\n0%\n6 PM\n90°\n0%\n7 PM\n89°\n0%\n8 PM\n88°\n0%\nSee full forecast\nLocal news not available now.\n\nWe have our best people on it and should have things up and running soon.\n\nAdvertisement\n\nEntertainment\n\nEntertainment Weekly\n\n13 celebrities who have saved lives\n\nPeople\n\nNate Bargatze shares his biggest challenge in film debut 'The Breadwinner': 'How early you got to get up'\n\nAssociated Press\n\nOscar-winning 'Star Wars' editor Marcia Lucas dies at 80\n\nEntertainment Weekly\n\nEvery artist who's dropped out of the controversial Freedom 250 event so far\n\nHuffPost\n\nI had a huge hit in 1992. Then I came out as omnisexual\n\nPeople\n\nKendra Wilkinson bites back at body-shaming comments about her breast implants\n\nSee all entertainment\nLatest News\n\nPeople\n\n'Unruly' United passenger arrested after he allegedly attempted to hijack plane mid-flight\n\nAssociated Press\n\nCapitol rioters clamor for payouts from Trump's new 'anti-weaponization' fund despite backlash\n\nCBS News\n\n4 more Laos gold miners rescued from flooded cave\n\nReuters\n\nWHO chief rallies community in Congo's Ebola response, calls for more funding\n\nUSA TODAY\n\nSupplements sold via Amazon, Walmart, Target, more recalled. See products\n\nAssociated Press\n\nAnother US strike on an alleged drug boat kills 3 in the eastern Pacific Ocean\n\nSee all latest news\n\nAdvertisement\n\nTrue Crime\n\nPeople\n\nWhere is Natalee Holloway's killer now? What to know about Joran van der Sloot's life 21 years after her disappearance\n\nThe Telegraph\n\n‘He desecrated my daughter’: Why killers who conceal bodies should be punished more harshly\n\nThe Independent US\n\nEx-dentist accused of setting fire to tenant’s car then fatally shooting him\n\nPeople\n\nCanadian man posed "
+    }
+  }
+}

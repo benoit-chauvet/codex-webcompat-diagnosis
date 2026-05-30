@@ -1,128 +1,60 @@
 <!doctype html>
 <meta charset="utf-8">
-<title>H.264 High 4:4:4 Predictive MP4 playback comparison</title>
+<title>GSMArena H.264 Profile 244 Playback Test</title>
 <style>
-  body {
-    margin: 24px;
-    font-family: system-ui, sans-serif;
-    color: #1b1b1b;
-    background: #f7f7f7;
-  }
-
-  main {
-    max-width: 1120px;
-    margin: 0 auto;
-  }
-
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 16px;
-  }
-
-  section {
-    background: #fff;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    padding: 16px;
-  }
-
-  video {
-    width: 100%;
-    aspect-ratio: 948 / 554;
-    background: #555;
-  }
-
-  pre {
-    white-space: pre-wrap;
-    overflow-wrap: anywhere;
-    background: #eee;
-    padding: 12px;
-    min-height: 150px;
-  }
+  body { font-family: system-ui, sans-serif; margin: 24px; color: #1f2933; }
+  main { max-width: 980px; margin: 0 auto; }
+  .grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+  .case { border: 1px solid #c9d2dc; padding: 12px; border-radius: 6px; }
+  video { width: 100%; aspect-ratio: 16 / 9; background: #111; display: block; }
+  pre { white-space: pre-wrap; background: #f4f7fa; padding: 12px; border-radius: 6px; }
 </style>
 <main>
-  <h1>H.264 profile playback comparison</h1>
-  <p>The GSMArena sample advertises AVC profile 0xf4, while the control sample advertises profile 0x64.</p>
+  <h1>GSMArena H.264 Profile 244 Playback Test</h1>
+  <p>Control uses a known playable H.264 Main-profile MP4. The GSMArena samples use H.264 profile_idc 244 from the live article.</p>
   <div class="grid">
-    <section>
-      <h2>Failing sample: avc1.f4001f</h2>
-      <video id="failing" controls muted preload="auto" src="assets/gsmarena_002_high444.mp4"></video>
-      <pre id="failing-state"></pre>
+    <section class="case">
+      <h2>Control</h2>
+      <video id="control" muted controls src="assets/control_main_profile.mp4"></video>
     </section>
-    <section>
-      <h2>Control sample: avc1.64001f</h2>
-      <video id="control" controls muted preload="auto" src="assets/control_h264_high.mp4"></video>
-      <pre id="control-state"></pre>
+    <section class="case">
+      <h2>GSMArena 001</h2>
+      <video id="gsmarena001" muted controls src="assets/gsmarena_001_profile244.mp4"></video>
+    </section>
+    <section class="case">
+      <h2>GSMArena 002</h2>
+      <video id="gsmarena002" muted controls src="assets/gsmarena_002_profile244.mp4"></video>
     </section>
   </div>
+  <pre id="state"></pre>
 </main>
 <script>
-  function hex(value) {
-    return value.toString(16).padStart(2, "0");
-  }
-
-  async function codecFromAvcC(url) {
-    const buffer = await fetch(url).then(response => response.arrayBuffer());
-    const bytes = new Uint8Array(buffer);
-    for (let index = 0; index < bytes.length - 8; index += 1) {
-      if (
-        bytes[index] === 0x61 &&
-        bytes[index + 1] === 0x76 &&
-        bytes[index + 2] === 0x63 &&
-        bytes[index + 3] === 0x43
-      ) {
-        const profile = bytes[index + 5];
-        const compatibility = bytes[index + 6];
-        const level = bytes[index + 7];
+  const ids = ["control", "gsmarena001", "gsmarena002"];
+  function collect() {
+    const state = {
+      canPlayProfile244: document.createElement("video").canPlayType('video/mp4; codecs="avc1.f4001f"'),
+      videos: ids.map(id => {
+        const video = document.getElementById(id);
         return {
-          profile,
-          compatibility,
-          level,
-          codec: `avc1.${hex(profile)}${hex(compatibility)}${hex(level)}`,
+          id,
+          readyState: video.readyState,
+          networkState: video.networkState,
+          currentTime: video.currentTime,
+          duration: Number.isFinite(video.duration) ? video.duration : null,
+          videoWidth: video.videoWidth,
+          videoHeight: video.videoHeight,
+          error: video.error ? { code: video.error.code, message: video.error.message } : null,
         };
-      }
-    }
-    return null;
-  }
-
-  function videoState(video, codec) {
-    return {
-      codec,
-      currentSrc: video.currentSrc,
-      readyState: video.readyState,
-      networkState: video.networkState,
-      paused: video.paused,
-      currentTime: video.currentTime,
-      duration: Number.isFinite(video.duration) ? video.duration : null,
-      videoWidth: video.videoWidth,
-      videoHeight: video.videoHeight,
-      error: video.error ? {
-        code: video.error.code,
-        message: video.error.message,
-      } : null,
+      }),
     };
-  }
-
-  async function runOne(id) {
-    const video = document.getElementById(id);
-    const output = document.getElementById(`${id}-state`);
-    const codec = await codecFromAvcC(video.getAttribute("src"));
-    video.muted = true;
-    video.load();
-    try {
-      await Promise.race([
-        video.play(),
-        new Promise((_, reject) => setTimeout(() => reject(new Error("play timeout")), 3500)),
-      ]);
-    } catch {}
-    await new Promise(resolve => setTimeout(resolve, 1500));
-    const state = videoState(video, codec);
-    output.textContent = JSON.stringify(state, null, 2);
+    document.getElementById("state").textContent = JSON.stringify(state, null, 2);
     return state;
   }
-
-  window.testcaseDone = Promise.all([runOne("failing"), runOne("control")]).then(([failing, control]) => {
-    window.testcaseResult = { failing, control };
-  });
+  for (const id of ids) {
+    const video = document.getElementById(id);
+    video.addEventListener("loadedmetadata", collect);
+    video.addEventListener("error", collect);
+    video.load();
+  }
+  setInterval(collect, 500);
 </script>

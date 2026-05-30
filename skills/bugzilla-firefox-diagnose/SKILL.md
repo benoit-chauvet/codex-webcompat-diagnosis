@@ -27,6 +27,7 @@ The helper:
 - Writes `output/bug_<id>/diagnosis.md` and supporting Firefox artifacts under `output/bug_<id>/firefox/`.
 - For reproduced issues, the completed diagnosis must add a reduced cause-validation test case under `output/bug_<id>/testcase/` and a minimal standalone test case under `output/bug_<id>/minimal-testcase/`.
 - Appends to `summary.md` next to the output directory with linked Bugzilla bug headings and each report's Diagnosis and Cause Analysis sections.
+- Writes `output/batch_summary_<timestamp>.md` after each run with grouped key outcomes, diagnosis, cause analysis, evidence, confidence, and links to testcase directories when present. Use `--no-batch-summary` to skip it.
 
 The helper output is only a starting point. A completed diagnosis must execute the reported reproduction steps and compare Firefox with Chrome.
 
@@ -100,18 +101,34 @@ After running the helper:
 6. If reproduced, inspect the page implementation enough to identify the likely cause. Use Puppeteer evidence where possible: console exceptions, network errors, event handlers, DOM/CSS differences, feature detection, URL/fragment handling, storage/cookie state, or minimized page code.
 7. If reproduced, create and run the reduced cause-validation test case and the minimal standalone test case, then cite their files and artifacts in the report.
 8. Update the Markdown report if the helper only produced a scaffold. Keep evidence tied to Bugzilla fields, comment 0, attachments, browser version output, screenshots/videos, command logs, browser observations, and the test cases.
-9. After all per-bug reports are finalized, append missing entries to the aggregate summary without rerunning diagnosis:
+9. After all per-bug reports are finalized, append missing entries to the aggregate summary and write a timestamped grouped batch summary without rerunning diagnosis:
 
 ```bash
 python3 ~/.codex/skills/bugzilla-firefox-diagnose/scripts/diagnose_bugzilla_firefox.py --summary-only --output-dir output
 ```
 
-This appends missing entries to `summary.md` next to `output/` by default. Use `--summary-path path/to/summary.md` when the summary should live elsewhere. The summary format is:
+This appends missing entries to `summary.md` next to `output/` by default and writes `output/batch_summary_<timestamp>.md`. Use `--summary-path path/to/summary.md` when the aggregate summary should live elsewhere. Use `--batch-summary-dir path/to/dir` when timestamped batch summaries should live elsewhere.
+
+The aggregate summary format is:
 
 - `# Diagnosis Summary`
 - `## Bug [<id>](https://bugzilla.mozilla.org/show_bug.cgi?id=<id>)`
 - `### Diagnosis`
 - `### Cause Analysis`
+
+The timestamped batch summary groups reports by key outcome:
+
+- `Reproduced With Cause/Testcases`
+- `Site/Content Drift`
+- `Blocked/Partial`
+- `Documentation-Confirmed Unsupported`
+- `Other/Needs Review`
+
+Each grouped entry includes the Bugzilla link, report link, diagnosis, cause analysis, actual-vs-expected comparison when present, controlled reproduction evidence when present, confidence, and testcase/artifact links when `testcase/` or `minimal-testcase/` directories exist. To regenerate only this timestamped grouped summary from existing reports, run:
+
+```bash
+python3 ~/.codex/skills/bugzilla-firefox-diagnose/scripts/diagnose_bugzilla_firefox.py --batch-summary-only --output-dir output
+```
 
 Keep the final report concise and include:
 
@@ -146,6 +163,12 @@ python3 ~/.codex/skills/bugzilla-firefox-diagnose/scripts/diagnose_bugzilla_fire
 # Append missing entries to the aggregate summary from existing reports; do not fetch Bugzilla data or launch browsers.
 python3 ~/.codex/skills/bugzilla-firefox-diagnose/scripts/diagnose_bugzilla_firefox.py --summary-only --output-dir output
 
+# Write only the timestamped grouped batch summary from existing reports.
+python3 ~/.codex/skills/bugzilla-firefox-diagnose/scripts/diagnose_bugzilla_firefox.py --batch-summary-only --output-dir output
+
 # Write a diagnosis report without updating the aggregate summary.
 python3 ~/.codex/skills/bugzilla-firefox-diagnose/scripts/diagnose_bugzilla_firefox.py 1905304 --no-summary
+
+# Write a diagnosis report without writing a timestamped grouped batch summary.
+python3 ~/.codex/skills/bugzilla-firefox-diagnose/scripts/diagnose_bugzilla_firefox.py 1905304 --no-batch-summary
 ```

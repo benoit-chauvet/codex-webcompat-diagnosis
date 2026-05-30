@@ -1,0 +1,243 @@
+{
+  "task": "bilibili",
+  "browser": "firefox",
+  "executablePath": "/Applications/Firefox.app/Contents/MacOS/firefox",
+  "requestedUrl": "https://www.bilibili.com/video/BV14j2TBmE9w/",
+  "finalUrl": "https://www.bilibili.com/?spm_id_from=333.788.selfDef.errorpage",
+  "httpStatus": 200,
+  "navigationError": null,
+  "viewport": {
+    "width": 1280,
+    "height": 900
+  },
+  "events": {
+    "console": [
+      {
+        "type": "info",
+        "text": "bili-fe-fp: 1.1.4"
+      },
+      {
+        "type": "log",
+        "text": "\n                     //\n         \\\\         //\n          \\\\       //\n    ##DDDDDDDDDDDDDDDDDDDDDD##\n    ## DDDDDDDDDDDDDDDDDDDD ##   ________   ___   ___        ___   ________   ___   ___        ___\n    ## hh                hh ##   |\\   __  \\ |\\  \\ |\\  \\      |\\  \\ |\\   __  \\ |\\  \\ |\\  \\      |\\  \\\n    ## hh    //    \\\\    hh ##   \\ \\  \\|\\ /_\\ \\  \\\\ \\  \\     \\ \\  \\\\ \\  \\|\\ /_\\ \\  \\\\ \\  \\     \\ \\  \\\n    ## hh   //      \\\\   hh ##    \\ \\   __  \\\\ \\  \\\\ \\  \\     \\ \\  \\\\ \\   __  \\\\ \\  \\\\ \\  \\     \\ \\  \\\n    ## hh                hh ##     \\ \\  \\|\\  \\\\ \\  \\\\ \\  \\____ \\ \\  \\\\ \\  \\|\\  \\\\ \\  \\\\ \\  \\____ \\ \\  \\\n    ## hh      wwww      hh ##      \\ \\_______\\\\ \\__\\\\ \\_______\\\\ \\__\\\\ \\_______\\\\ \\__\\\\ \\_______\\\\ \\__\\\n    ## hh                hh ##       \\|_______| \\|__| \\|_______| \\|__| \\|_______| \\|__| \\|_______| \\|__|\n    ## MMMMMMMMMMMMMMMMMMMM ##\n    ##MMMMMMMMMMMMMMMMMMMMMM##                                          Release undefined@no release yet\n         \\/            \\/                                       Powered by @bilibili/jinkela-core@2.8.14"
+      },
+      {
+        "type": "info",
+        "text": " bili-fe-mirror   v2.1.0 "
+      },
+      {
+        "type": "log",
+        "text": "白屏检测是否正常 JSHandle@object"
+      },
+      {
+        "type": "info",
+        "text": " bili-fe-mirror   v2.1.0 "
+      },
+      {
+        "type": "log",
+        "text": "白屏检测是否正常 JSHandle@object"
+      }
+    ],
+    "pageErrors": [
+      {
+        "name": "Error",
+        "message": "TypeError: can't access property \"register\", e is undefined"
+      },
+      {
+        "name": "Error",
+        "message": "ReferenceError: bmgCmptOnload is not defined"
+      }
+    ],
+    "requestFailures": []
+  },
+  "page": {
+    "url": "https://www.bilibili.com/?spm_id_from=333.788.selfDef.errorpage",
+    "title": "哔哩哔哩 (゜-゜)つロ 干杯~-bilibili",
+    "readyState": "complete",
+    "scrollX": 0,
+    "scrollY": 0,
+    "viewport": {
+      "innerWidth": 1280,
+      "innerHeight": 900,
+      "devicePixelRatio": 1
+    },
+    "documentElement": {
+      "clientWidth": 1280,
+      "clientHeight": 900,
+      "scrollWidth": 1280,
+      "scrollHeight": 1951
+    },
+    "bodyTextSample": "首页\n番剧\n直播\n游戏中心\n会员购\n漫画\n赛事\n\n看回放\n\n看回放\n\n下载客户端\n登录\n\n登录后你可以：\n\n免费看高清视频\n多端同步播放记录\n发表弹幕/评论\n热门番剧影视看不停\n立即登录\n首次使用？ 点我注册\n大会员\n消息\n动态\n收藏\n历史\n创作中心\n投稿\n动态\n热门\n番剧\n电影\n国创\n电视剧\n综艺\n纪录片\n动画\n游戏\n鬼畜\n音乐\n舞蹈\n影视\n娱乐\n知识\n科技数码\n资讯\n美食\n更多\n专栏\n直播\n活动\n课堂\n社区中心\n新歌热榜\n江浙枇杷记：老农下地种，子女上网卖\n16.1万\n791\n10:22\n这专家惹怒1.9亿学生，因为反对学生拉屎自由，但拉屎困境应该被看见！\n1万点赞\n王小七Fire\n· 昨天\n102.7万\n5278\n07:41\n全球最神秘超市！朝鲜超市卖什么？100元能买什么？\nHOLA小测佬\n· 昨天\n5.8万\n212\n01:40\n【独立连载】属于我们世代的《孤独摇滚》原创乐队番PV公开！《人生逃避号》续作制作决定\n红线乐队_redline\n· 昨天\n广告\n高效办公的秘密：AI做PPT的正确打开方式\n1000+人感兴趣\n163.5万\n2.5万\n03:12\naespa《LEMONADE》MV\nSMTOWN\n· 昨天\n222.8万\n13\n01:20\n路边离谱广告，竟然都是黑产交易暗号？\n大瑞真机灵\n· 05-28\n61.0万\n795\n01:13\n假如鲁迅来到了2026年的中国\n5万点赞\n白尘麻薯\n· 05-24\n直播\n544\n虚拟日常\n\n直播中\n【怎么会有达妮娅这么可爱的粉毛】\n\n月见梨梨娅\n\n换一换"
+  },
+  "taskResult": {
+    "screenshots": {
+      "before": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042380/probe_firefox151/bilibili_before_hover.png",
+      "after": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042380/probe_firefox151/bilibili_after_hover_play.png"
+    },
+    "before": {
+      "video": null,
+      "bodyTextSample": "首页\n番剧\n直播\n游戏中心\n会员购\n漫画\n赛事\n\n看回放\n\n看回放\n\n下载客户端\n登录\n\n登录后你可以：\n\n免费看高清视频\n多端同步播放记录\n发表弹幕/评论\n热门番剧影视看不停\n立即登录\n首次使用？ 点我注册\n大会员\n消息\n动态\n收藏\n历史\n创作中心\n投稿\n动态\n热门\n番剧\n电影\n国创\n电视剧\n综艺\n纪录片\n动画\n游戏\n鬼畜\n音乐\n舞蹈\n影视\n娱乐\n知识\n科技数码\n资讯\n美食\n更多\n专栏\n直播\n活动\n课堂\n社区中心\n新歌热榜\n笑料不断，西装暴徒空降菜场\n16.1万\n791\n10:22\n这专家惹怒1.9亿学生，因为反对学生拉屎自由，但拉屎困境应该被看见！\n1万点赞\n王小七Fire\n· 昨天\n102.7万\n5278\n07:41\n全球最神秘超市！朝鲜超市卖什么？100元能买什么？\nHOLA小测佬\n· 昨天\n5.8万\n212\n01:40\n【独立连载】属于我们世代的《孤独摇滚》原创乐队番PV公开！《人生逃避号》续作制作决定\n红线乐队_redline\n· 昨天\n广告\n高效办公的秘密：AI做PPT的正确打开方式\n1000+人感兴趣\n163.5万\n2.5万\n03:12\naespa《LEMONADE》MV\nSMTOWN\n· 昨天\n222.8万\n13\n01:20\n路边离谱广告，竟然都是黑产交易暗号？\n大瑞真机灵\n· 05-28\n61.0万\n795\n01:13\n假如鲁迅来到了2026年的中国\n5万点赞\n白尘麻薯\n· 05-24\n直播\n544\n虚拟日常\n\n直播中\n【怎么会有达妮娅这么可爱的粉毛】\n\n月见梨梨娅\n\n换一换"
+    },
+    "after": {
+      "video": null,
+      "controls": [
+        {
+          "index": 1,
+          "text": "首页 番剧 直播 游戏中心 会员购 漫画 赛事 看回放 看回放 下载客户端 登录 登录后你可以： 免费看高清视频 多端同步播放记录 发表弹幕/评论 热门番剧影视看不停 立即登录 首次使用？ 点我注册 大会员 消息 动态 收藏 历史 创作中心 投稿 动态 热门 番剧 电影 国创 电视剧 综艺 纪录片 动画 游戏 鬼畜 音乐 舞蹈 影视 娱乐 知识 科技数码 资讯 美食 更多 专栏 直播 活动 课堂 ",
+          "className": "",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 1950.566650390625
+          },
+          "visible": true
+        },
+        {
+          "index": 3,
+          "text": "首页 番剧 直播 游戏中心 会员购 漫画 赛事 看回放 看回放 下载客户端 登录 登录后你可以： 免费看高清视频 多端同步播放记录 发表弹幕/评论 热门番剧影视看不停 立即登录 首次使用？ 点我注册 大会员 消息 动态 收藏 历史 创作中心 投稿 动态 热门 番剧 电影 国创 电视剧 综艺 纪录片 动画 游戏 鬼畜 音乐 舞蹈 影视 娱乐 知识 科技数码 资讯 美食 更多 专栏 直播 活动 课堂 ",
+          "className": "bili-feed4",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 1950.566650390625
+          },
+          "visible": true
+        },
+        {
+          "index": 4,
+          "text": "首页 番剧 直播 游戏中心 会员购 漫画 赛事 看回放 看回放 下载客户端 登录 登录后你可以： 免费看高清视频 多端同步播放记录 发表弹幕/评论 热门番剧影视看不停 立即登录 首次使用？ 点我注册 大会员 消息 动态 收藏 历史 创作中心 投稿 动态 热门 番剧 电影 国创 电视剧 综艺 纪录片 动画 游戏 鬼畜 音乐 舞蹈 影视 娱乐 知识 科技数码 资讯 美食 更多 专栏 直播 活动 课堂 ",
+          "className": "bili-header large-header",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 255
+          },
+          "visible": true
+        },
+        {
+          "index": 5,
+          "text": "首页 番剧 直播 游戏中心 会员购 漫画 赛事 看回放 看回放 下载客户端 登录 登录后你可以： 免费看高清视频 多端同步播放记录 发表弹幕/评论 热门番剧影视看不停 立即登录 首次使用？ 点我注册 大会员 消息 动态 收藏 历史 创作中心 投稿",
+          "className": "bili-header__bar",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 64
+          },
+          "visible": true
+        },
+        {
+          "index": 26,
+          "text": "登录后你可以： 免费看高清视频 多端同步播放记录 发表弹幕/评论 热门番剧影视看不停 立即登录 首次使用？ 点我注册",
+          "className": "v-popover is-bottom",
+          "rect": {
+            "x": 695.5,
+            "y": 49.98333740234375,
+            "width": 361,
+            "height": 256
+          },
+          "visible": true
+        },
+        {
+          "index": 27,
+          "text": "登录后你可以： 免费看高清视频 多端同步播放记录 发表弹幕/评论 热门番剧影视看不停 立即登录 首次使用？ 点我注册",
+          "className": "v-popover-content",
+          "rect": {
+            "x": 695.5,
+            "y": 68.98333740234375,
+            "width": 361,
+            "height": 237
+          },
+          "visible": true
+        },
+        {
+          "index": 28,
+          "text": "登录后你可以： 免费看高清视频 多端同步播放记录 发表弹幕/评论 热门番剧影视看不停 立即登录 首次使用？ 点我注册",
+          "className": "login-panel-popover",
+          "rect": {
+            "x": 696.5,
+            "y": 69.98333740234375,
+            "width": 359,
+            "height": 235
+          },
+          "visible": true
+        },
+        {
+          "index": 29,
+          "text": "免费看高清视频 多端同步播放记录 发表弹幕/评论 热门番剧影视看不停",
+          "className": "login-tip-content",
+          "rect": {
+            "x": 716.5,
+            "y": 126.98333740234375,
+            "width": 319,
+            "height": 80
+          },
+          "visible": true
+        },
+        {
+          "index": 32,
+          "text": "多端同步播放记录",
+          "className": "login-tip-content-item",
+          "rect": {
+            "x": 876,
+            "y": 126.98333740234375,
+            "width": 159.5,
+            "height": 26
+          },
+          "visible": true
+        },
+        {
+          "index": 33,
+          "text": "多端同步播放记录",
+          "className": "lt-text",
+          "rect": {
+            "x": 906,
+            "y": 132.98333740234375,
+            "width": 114.39999389648438,
+            "height": 14
+          },
+          "visible": true
+        },
+        {
+          "index": 287,
+          "text": "10:22",
+          "className": "bili-video-card__stats__duration",
+          "rect": {
+            "x": 883.63330078125,
+            "y": 386.683349609375,
+            "width": 33.366668701171875,
+            "height": 18
+          },
+          "visible": true
+        },
+        {
+          "index": 319,
+          "text": "07:41",
+          "className": "bili-video-card__stats__duration",
+          "rect": {
+            "x": 1178.566650390625,
+            "y": 386.683349609375,
+            "width": 33.43333435058594,
+            "height": 18
+          },
+          "visible": true
+        },
+        {
+          "index": 350,
+          "text": "01:40",
+          "className": "bili-video-card__stats__duration",
+          "rect": {
+            "x": 882.7833251953125,
+            "y": 634.36669921875,
+            "width": 34.21665954589844,
+            "height": 18
+          },
+          "visible": true
+        }
+      ],
+      "bodyTextSample": "首页\n番剧\n直播\n游戏中心\n会员购\n漫画\n赛事\n\n看回放\n\n看回放\n\n下载客户端\n登录\n\n登录后你可以：\n\n免费看高清视频\n多端同步播放记录\n发表弹幕/评论\n热门番剧影视看不停\n立即登录\n首次使用？ 点我注册\n大会员\n消息\n动态\n收藏\n历史\n创作中心\n投稿\n动态\n热门\n番剧\n电影\n国创\n电视剧\n综艺\n纪录片\n动画\n游戏\n鬼畜\n音乐\n舞蹈\n影视\n娱乐\n知识\n科技数码\n资讯\n美食\n更多\n专栏\n直播\n活动\n课堂\n社区中心\n新歌热榜\n江浙枇杷记：老农下地种，子女上网卖\n16.1万\n791\n10:22\n这专家惹怒1.9亿学生，因为反对学生拉屎自由，但拉屎困境应该被看见！\n1万点赞\n王小七Fire\n· 昨天\n102.7万\n5278\n07:41\n全球最神秘超市！朝鲜超市卖什么？100元能买什么？\nHOLA小测佬\n· 昨天\n5.8万\n212\n01:40\n【独立连载】属于我们世代的《孤独摇滚》原创乐队番PV公开！《人生逃避号》续作制作决定\n红线乐队_redline\n· 昨天\n广告\n高效办公的秘密：AI做PPT的正确打开方式\n1000+人感兴趣\n163.5万\n2.5万\n03:12\naespa《LEMONADE》MV\nSMTOWN\n· 昨天\n222.8万\n13\n01:20\n路边离谱广告，竟然都是黑产交易暗号？\n大瑞真机灵\n· 05-28\n61.0万\n795\n01:13\n假如鲁迅来到了2026年的中国\n5万点赞\n白尘麻薯\n· 05-24\n直播\n544\n虚拟日常\n\n直播中\n【怎么会有达妮娅这么可爱的粉毛】\n\n月见梨梨娅\n\n换一换"
+    }
+  }
+}

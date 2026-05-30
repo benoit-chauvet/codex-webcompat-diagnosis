@@ -1,0 +1,1168 @@
+{
+  "task": "featurePage",
+  "browser": "firefox",
+  "executablePath": "/Applications/Firefox.app/Contents/MacOS/firefox",
+  "requestedUrl": "https://notebooklm.google.com/notebook",
+  "finalUrl": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fnotebooklm.google.com%2Flogin%3Fcontinue%3Dhttps%3A%2F%2Fnotebooklm.google.com%2Fnotebook&dsh=S926786179%3A1780152895054585&followup=https%3A%2F%2Fnotebooklm.google.com%2Flogin%3Fcontinue%3Dhttps%3A%2F%2Fnotebooklm.google.com%2Fnotebook&osid=1&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AWa2PavcoWTqBhN-gWOMgRep0djUMLcIaH21l9o1YUi4Nz5R4-AdA35uU0v8ijhZsdqOLJ8cfnJf",
+  "httpStatus": 200,
+  "navigationError": null,
+  "viewport": {
+    "width": 1280,
+    "height": 900
+  },
+  "events": {
+    "console": [
+      {
+        "type": "log",
+        "text": "WARNING!"
+      },
+      {
+        "type": "log",
+        "text": "Using this console may allow attackers to impersonate you and steal your information using an attack called Self-XSS.\nDo not enter or paste code that you do not understand."
+      }
+    ],
+    "pageErrors": [],
+    "requestFailures": [
+      {
+        "url": "https://play.google.com/log?hasfast=true&authuser=0&format=json",
+        "method": "POST",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_ERROR_FAILURE"
+        }
+      },
+      {
+        "url": "https://play.google.com/log?hasfast=true&authuser=0&format=json",
+        "method": "POST",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_ERROR_FAILURE"
+        }
+      }
+    ]
+  },
+  "page": {
+    "url": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fnotebooklm.google.com%2Flogin%3Fcontinue%3Dhttps%3A%2F%2Fnotebooklm.google.com%2Fnotebook&dsh=S926786179%3A1780152895054585&followup=https%3A%2F%2Fnotebooklm.google.com%2Flogin%3Fcontinue%3Dhttps%3A%2F%2Fnotebooklm.google.com%2Fnotebook&osid=1&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AWa2PavcoWTqBhN-gWOMgRep0djUMLcIaH21l9o1YUi4Nz5R4-AdA35uU0v8ijhZsdqOLJ8cfnJf",
+    "title": "Sign in - Google Accounts",
+    "readyState": "complete",
+    "scrollX": 0,
+    "scrollY": 0,
+    "viewport": {
+      "innerWidth": 1280,
+      "innerHeight": 900,
+      "devicePixelRatio": 1
+    },
+    "documentElement": {
+      "clientWidth": 1280,
+      "clientHeight": 900,
+      "scrollWidth": 1280,
+      "scrollHeight": 900
+    },
+    "bodyTextSample": "Sign in\nUse your Google Account\nEmail or phone\nForgot email?\nNot your computer? Use a Private Window to sign in. Learn more about using Guest mode\nNext\nCreate account\nEnglish (United States)\nHelp\nPrivacy\nTerms"
+  },
+  "taskResult": {
+    "screenshots": {
+      "page": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_1944547/probe_firefox151/feature_page.png"
+    },
+    "featureSupport": {
+      "speechRecognition": false,
+      "webkitSpeechRecognition": false,
+      "showOpenFilePicker": false,
+      "launchQueue": false,
+      "serviceWorker": true,
+      "getUserMedia": true,
+      "credentials": true,
+      "clipboardRead": true,
+      "webkitSupportsFullscreen": false,
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:151.0) Gecko/20100101 Firefox/151.0"
+    },
+    "visible": [
+      {
+        "index": 1,
+        "tag": "div",
+        "label": "Sign in Use your Google Account Email or phone Forgot email? Not your computer? Use a Private Window to sign in. Learn more about using Guest mode Next Create account English (United States) Help Privacy Terms X9monf",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 900
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 2,
+        "tag": "div",
+        "label": "Sign in Use your Google Account Email or phone Forgot email? Not your computer? Use a Private Window to sign in. Learn more about using Guest mode Next Create account English (United States) Help Privacy Terms S7xv8 LZgQXe",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 900
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 3,
+        "tag": "div",
+        "label": "Sign in Use your Google Account Email or phone Forgot email? Not your computer? Use a Private Window to sign in. Learn more about using Guest mode Next Create account TcuCfd NQ5OL",
+        "rect": {
+          "x": 200,
+          "y": 217,
+          "width": 880,
+          "height": 402
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 4,
+        "tag": "div",
+        "label": "TdwKnf",
+        "rect": {
+          "x": 236,
+          "y": 217,
+          "width": 808,
+          "height": 4
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 5,
+        "tag": "div",
+        "label": "Loading sZwd7c B6Vhqe qdulke jK7moc",
+        "rect": {
+          "x": 236,
+          "y": 217,
+          "width": 808,
+          "height": 4
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "0"
+      },
+      {
+        "index": 7,
+        "tag": "div",
+        "label": "w2zcLc Iq5ZMc",
+        "rect": {
+          "x": 236,
+          "y": 217,
+          "width": 808,
+          "height": 4
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 8,
+        "tag": "div",
+        "label": "MyvhI TKVRUb",
+        "rect": {
+          "x": -936.9500122070312,
+          "y": 217,
+          "width": 808,
+          "height": 4
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 9,
+        "tag": "span",
+        "label": "l3q5xe SQxu9c",
+        "rect": {
+          "x": -565.2666625976562,
+          "y": 217,
+          "width": 64.63333129882812,
+          "height": 4
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 10,
+        "tag": "div",
+        "label": "MyvhI sUoeld",
+        "rect": {
+          "x": -207.5,
+          "y": 217,
+          "width": 808,
+          "height": 4
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 11,
+        "tag": "span",
+        "label": "l3q5xe SQxu9c",
+        "rect": {
+          "x": 164.18333435058594,
+          "y": 217,
+          "width": 64.63333129882812,
+          "height": 4
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 12,
+        "tag": "div",
+        "label": "Sign in Use your Google Account Email or phone Forgot email? Not your computer? Use a Private Window to sign in. Learn more about using Guest mode Next Create account yDmH0d fAlnEc",
+        "rect": {
+          "x": 236,
+          "y": 325,
+          "width": 808,
+          "height": 258
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 13,
+        "tag": "div",
+        "label": "Sign in Use your Google Account zIgDIc",
+        "rect": {
+          "x": 236,
+          "y": 253,
+          "width": 404,
+          "height": 252
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 14,
+        "tag": "div",
+        "label": "Wf6lSd",
+        "rect": {
+          "x": 236,
+          "y": 253,
+          "width": 380,
+          "height": 48
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 15,
+        "tag": "div",
+        "label": "Sign in Use your Google Account ObDc3 ZYOIke",
+        "rect": {
+          "x": 236,
+          "y": 301,
+          "width": 380,
+          "height": 108
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 16,
+        "tag": "h1",
+        "label": "Sign in headingText vAV9bf",
+        "rect": {
+          "x": 236,
+          "y": 325,
+          "width": 380,
+          "height": 44
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 17,
+        "tag": "span",
+        "label": "Sign in",
+        "rect": {
+          "x": 236,
+          "y": 324,
+          "width": 108.48333740234375,
+          "height": 46
+        },
+        "visible": true,
+        "display": "inline",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 18,
+        "tag": "div",
+        "label": "Use your Google Account headingSubtext gNJDp",
+        "rect": {
+          "x": 236,
+          "y": 385,
+          "width": 380,
+          "height": 24
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 19,
+        "tag": "span",
+        "label": "Use your Google Account",
+        "rect": {
+          "x": 236,
+          "y": 386.5,
+          "width": 184.5500030517578,
+          "height": 21
+        },
+        "visible": true,
+        "display": "inline",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 20,
+        "tag": "div",
+        "label": "Email or phone Forgot email? Not your computer? Use a Private Window to sign in. Learn more about using Guest mode UXFQgc",
+        "rect": {
+          "x": 640,
+          "y": 325,
+          "width": 404,
+          "height": 180
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 21,
+        "tag": "div",
+        "label": "Email or phone Forgot email? Not your computer? Use a Private Window to sign in. Learn more about using Guest mode qWK5J",
+        "rect": {
+          "x": 664,
+          "y": 325,
+          "width": 380,
+          "height": 180
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 22,
+        "tag": "div",
+        "label": "Email or phone Forgot email? Not your computer? Use a Private Window to sign in. Learn more about using Guest mode xKcayf",
+        "rect": {
+          "x": 664,
+          "y": 325,
+          "width": 380,
+          "height": 180
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 23,
+        "tag": "div",
+        "label": "Email or phone Forgot email? AcKKx",
+        "rect": {
+          "x": 664,
+          "y": 325,
+          "width": 380,
+          "height": 96
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 24,
+        "tag": "span",
+        "label": "Email or phone Forgot email?",
+        "rect": {
+          "x": 664,
+          "y": 325,
+          "width": 380,
+          "height": 96
+        },
+        "visible": true,
+        "display": "inline",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 25,
+        "tag": "div",
+        "label": "Email or phone Forgot email? yTaH4c",
+        "rect": {
+          "x": 664,
+          "y": 325,
+          "width": 380,
+          "height": 96
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 26,
+        "tag": "div",
+        "label": "Email or phone Forgot email?",
+        "rect": {
+          "x": 664,
+          "y": 325,
+          "width": 380,
+          "height": 96
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 27,
+        "tag": "div",
+        "label": "Email or phone AFTWye vEQsqe",
+        "rect": {
+          "x": 664,
+          "y": 325,
+          "width": 380,
+          "height": 64
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 28,
+        "tag": "div",
+        "label": "Email or phone rFrNMe X3mtXb UOsO2 ToAxb zKHdkd sdJrJc u3bW4e",
+        "rect": {
+          "x": 664,
+          "y": 325,
+          "width": 380,
+          "height": 64
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 29,
+        "tag": "div",
+        "label": "Email or phone aCsJod oJeWuf",
+        "rect": {
+          "x": 664,
+          "y": 333,
+          "width": 380,
+          "height": 56
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 30,
+        "tag": "div",
+        "label": "Email or phone aXBtI Wic03c",
+        "rect": {
+          "x": 664,
+          "y": 333,
+          "width": 380,
+          "height": 54
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 31,
+        "tag": "div",
+        "label": "Email or phone Xb9hP",
+        "rect": {
+          "x": 664,
+          "y": 333,
+          "width": 380,
+          "height": 54
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 32,
+        "tag": "div",
+        "label": "Email or phone AxOyFc snByac",
+        "rect": {
+          "x": 672,
+          "y": 325,
+          "width": 93.25,
+          "height": 15.75
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 33,
+        "tag": "div",
+        "label": "i9lrp mIZh1c",
+        "rect": {
+          "x": 664,
+          "y": 333,
+          "width": 380,
+          "height": 56
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 34,
+        "tag": "div",
+        "label": "OabDMe cXrdqd Y2Zypf",
+        "rect": {
+          "x": 664,
+          "y": 333,
+          "width": 380,
+          "height": 56
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 38,
+        "tag": "div",
+        "label": "Forgot email? dMNVAe",
+        "rect": {
+          "x": 664,
+          "y": 389,
+          "width": 380,
+          "height": 32
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 39,
+        "tag": "button",
+        "label": "Forgot email?",
+        "rect": {
+          "x": 664,
+          "y": 398.5,
+          "width": 92.39999389648438,
+          "height": 19
+        },
+        "visible": true,
+        "display": "inline-block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 62,
+        "tag": "div",
+        "label": "Not your computer? Use a Private Window to sign in. Learn more about using Guest mode",
+        "rect": {
+          "x": 664,
+          "y": 453,
+          "width": 380,
+          "height": 52
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 63,
+        "tag": "div",
+        "label": "Not your computer? Use a Private Window to sign in. Learn more about using Guest mode RDsYTb",
+        "rect": {
+          "x": 664,
+          "y": 453,
+          "width": 380,
+          "height": 52
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 64,
+        "tag": "div",
+        "label": "Not your computer? Use a Private Window to sign in. Learn more about using Guest mode dMNVAe",
+        "rect": {
+          "x": 664,
+          "y": 453,
+          "width": 380,
+          "height": 52
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 65,
+        "tag": "a",
+        "label": "Learn more about using Guest mode (external, opens in a new window) Learn more about using Guest mode",
+        "rect": {
+          "x": 664,
+          "y": 462.5,
+          "width": 373.433349609375,
+          "height": 39
+        },
+        "visible": true,
+        "display": "inline",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 66,
+        "tag": "div",
+        "label": "Next Create account JYXaTc",
+        "rect": {
+          "x": 220,
+          "y": 537,
+          "width": 824,
+          "height": 52
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 67,
+        "tag": "div",
+        "label": "Next Create account O1Slxf",
+        "rect": {
+          "x": 220,
+          "y": 537,
+          "width": 824,
+          "height": 52
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 68,
+        "tag": "div",
+        "label": "Next TNTaPb",
+        "rect": {
+          "x": 965.5499877929688,
+          "y": 537,
+          "width": 78.44999694824219,
+          "height": 52
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 69,
+        "tag": "div",
+        "label": "Next identifierNext XjS9D TrZEUc",
+        "rect": {
+          "x": 965.5499877929688,
+          "y": 537,
+          "width": 78.44999694824219,
+          "height": 52
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 70,
+        "tag": "div",
+        "label": "Next VfPpkd-dgl2Hf-ppHlrf-sM5MNb",
+        "rect": {
+          "x": 965.5499877929688,
+          "y": 537,
+          "width": 78.44999694824219,
+          "height": 52
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 71,
+        "tag": "button",
+        "label": "Next VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc LQeN7 BqKGqe Jskylb TrZEUc lw1w4b",
+        "rect": {
+          "x": 965.5499877929688,
+          "y": 543,
+          "width": 78.44999694824219,
+          "height": 40
+        },
+        "visible": true,
+        "display": "inline-flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 72,
+        "tag": "div",
+        "label": "VfPpkd-Jh9lGc",
+        "rect": {
+          "x": 965.5499877929688,
+          "y": 543,
+          "width": 78.44999694824219,
+          "height": 40
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 74,
+        "tag": "div",
+        "label": "VfPpkd-RLmnJb",
+        "rect": {
+          "x": 965.5499877929688,
+          "y": 539,
+          "width": 78.44999694824219,
+          "height": 48
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 75,
+        "tag": "span",
+        "label": "Next VfPpkd-vQzf8d",
+        "rect": {
+          "x": 989.5499877929688,
+          "y": 553,
+          "width": 30.449996948242188,
+          "height": 20
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 76,
+        "tag": "div",
+        "label": "Create account FO2vFd",
+        "rect": {
+          "x": 808.5166625976562,
+          "y": 537,
+          "width": 133.03334045410156,
+          "height": 52
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 77,
+        "tag": "div",
+        "label": "Create account n3Clv",
+        "rect": {
+          "x": 808.5166625976562,
+          "y": 537,
+          "width": 133.03334045410156,
+          "height": 52
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 78,
+        "tag": "div",
+        "label": "Create account VfPpkd-xl07Ob-XxIAqe-OWXEXe-oYxtQd XjS9D",
+        "rect": {
+          "x": 808.5166625976562,
+          "y": 537,
+          "width": 133.03334045410156,
+          "height": 52
+        },
+        "visible": true,
+        "display": "inline-flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 79,
+        "tag": "div",
+        "label": "Create account",
+        "rect": {
+          "x": 808.5166625976562,
+          "y": 537,
+          "width": 133.03334045410156,
+          "height": 52
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 80,
+        "tag": "div",
+        "label": "Create account VfPpkd-dgl2Hf-ppHlrf-sM5MNb",
+        "rect": {
+          "x": 808.5166625976562,
+          "y": 552.683349609375,
+          "width": 133.03334045410156,
+          "height": 19
+        },
+        "visible": true,
+        "display": "inline",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 81,
+        "tag": "button",
+        "label": "Create account VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-dgl2Hf ksBjEc lKxP2d LQeN7 BqKGqe eR0mzb TrZEUc J7pUA",
+        "rect": {
+          "x": 808.5166625976562,
+          "y": 543,
+          "width": 133.03334045410156,
+          "height": 40
+        },
+        "visible": true,
+        "display": "inline-flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 82,
+        "tag": "div",
+        "label": "VfPpkd-Jh9lGc",
+        "rect": {
+          "x": 808.5166625976562,
+          "y": 543,
+          "width": 133.03334045410156,
+          "height": 40
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 84,
+        "tag": "div",
+        "label": "VfPpkd-RLmnJb",
+        "rect": {
+          "x": 808.5166625976562,
+          "y": 539,
+          "width": 133.03334045410156,
+          "height": 48
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 85,
+        "tag": "span",
+        "label": "Create account VfPpkd-vQzf8d",
+        "rect": {
+          "x": 824.5166625976562,
+          "y": 553,
+          "width": 101.03334045410156,
+          "height": 20
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 100,
+        "tag": "div",
+        "label": "English (United States) Help Privacy Terms wmGw4",
+        "rect": {
+          "x": 200,
+          "y": 619,
+          "width": 880,
+          "height": 64
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 101,
+        "tag": "div",
+        "label": "English (United States) eXa0v",
+        "rect": {
+          "x": 216,
+          "y": 635,
+          "width": 169.4166717529297,
+          "height": 32
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 102,
+        "tag": "div",
+        "label": "English (United States) O1htCb-H9tDt",
+        "rect": {
+          "x": 216,
+          "y": 635,
+          "width": 169.4166717529297,
+          "height": 32
+        },
+        "visible": true,
+        "display": "inline-flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 103,
+        "tag": "div",
+        "label": "English (United States) VfPpkd-O1htCb VfPpkd-O1htCb-OWXEXe-INsAgc VfPpkd-O1htCb-OWXEXe-di8rgd-V67aGc ReCbLb UAQDDf dEoyBf",
+        "rect": {
+          "x": 200,
+          "y": 635,
+          "width": 185.4166717529297,
+          "height": 32
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 104,
+        "tag": "div",
+        "label": "English (United States) VfPpkd-TkwUic",
+        "rect": {
+          "x": 200,
+          "y": 635,
+          "width": 185.4166717529297,
+          "height": 32
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 105,
+        "tag": "span",
+        "label": "VfPpkd-NSFCdd-i5vt6e VfPpkd-NSFCdd-i5vt6e-OWXEXe-NSFCdd VfPpkd-NSFCdd-i5vt6e-OWXEXe-di8rgd-V67aGc",
+        "rect": {
+          "x": 200,
+          "y": 635,
+          "width": 185.4166717529297,
+          "height": 32
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 106,
+        "tag": "span",
+        "label": "VfPpkd-NSFCdd-Brv4Fb",
+        "rect": {
+          "x": 200,
+          "y": 635,
+          "width": 12,
+          "height": 32
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 107,
+        "tag": "span",
+        "label": "VfPpkd-NSFCdd-MpmGFe",
+        "rect": {
+          "x": 212,
+          "y": 635,
+          "width": 173.4166717529297,
+          "height": 32
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 109,
+        "tag": "span",
+        "label": "English (United States) VfPpkd-uusGie-fmcmS-haAclf",
+        "rect": {
+          "x": 216,
+          "y": 635,
+          "width": 125.41667175292969,
+          "height": 32
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 110,
+        "tag": "span",
+        "label": "English (United States) i3 VfPpkd-uusGie-fmcmS",
+        "rect": {
+          "x": 216,
+          "y": 643,
+          "width": 125.41667175292969,
+          "height": 16
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 111,
+        "tag": "span",
+        "label": "VfPpkd-t08AT-Bz112c",
+        "rect": {
+          "x": 353.41668701171875,
+          "y": 641,
+          "width": 20,
+          "height": 20
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 113,
+        "tag": "div",
+        "label": "VfPpkd-aPP78e",
+        "rect": {
+          "x": 200,
+          "y": 627,
+          "width": 185.4166717529297,
+          "height": 48
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 448,
+        "tag": "a",
+        "label": "Help AVAq4d TrZEUc",
+        "rect": {
+          "x": 889.183349609375,
+          "y": 627,
+          "width": 49.33332824707031,
+          "height": 48
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 449,
+        "tag": "a",
+        "label": "Privacy AVAq4d TrZEUc",
+        "rect": {
+          "x": 946.5166625976562,
+          "y": 627,
+          "width": 64.01667785644531,
+          "height": 48
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 450,
+        "tag": "a",
+        "label": "Terms AVAq4d TrZEUc",
+        "rect": {
+          "x": 1018.5333251953125,
+          "y": 627,
+          "width": 57.46665954589844,
+          "height": 48
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      }
+    ]
+  }
+}

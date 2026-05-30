@@ -1,0 +1,299 @@
+{
+  "bug_id": "2038198",
+  "endpoints": {
+    "attachments": "https://bugzilla.mozilla.org/rest/bug/2038198/attachment?exclude_fields=data",
+    "bug": "https://bugzilla.mozilla.org/rest/bug/2038198",
+    "comments": "https://bugzilla.mozilla.org/rest/bug/2038198/comment",
+    "history": "https://bugzilla.mozilla.org/rest/bug/2038198/history"
+  },
+  "fetched_at": "2026-05-30T14:35:36+00:00",
+  "responses": {
+    "attachments": {
+      "attachments": {},
+      "bugs": {
+        "2038198": [
+          {
+            "attacher": "mbalfanz@mozilla.com",
+            "bug_id": 2038198,
+            "content_type": "image/png",
+            "creation_time": "2026-05-08T12:30:43Z",
+            "creator": "mbalfanz@mozilla.com",
+            "creator_detail": {
+              "email": "mbalfanz@mozilla.com",
+              "id": 610139,
+              "name": "mbalfanz@mozilla.com",
+              "nick": "mbalfanz",
+              "real_name": "Martin Balfanz [:mbalfanz]"
+            },
+            "description": "image(1).png",
+            "file_name": "image(1).png",
+            "flags": [],
+            "id": 9584519,
+            "is_obsolete": 0,
+            "is_patch": 0,
+            "is_private": 0,
+            "last_change_time": "2026-05-08T12:30:43Z",
+            "size": 359092,
+            "summary": "image(1).png"
+          }
+        ]
+      }
+    },
+    "bug": {
+      "bugs": [
+        {
+          "alias": null,
+          "assigned_to": "nobody@mozilla.org",
+          "assigned_to_detail": {
+            "email": "nobody@mozilla.org",
+            "id": 1,
+            "name": "nobody@mozilla.org",
+            "nick": "nobody",
+            "real_name": "Nobody; OK to take it and work on it"
+          },
+          "blocks": [],
+          "cc": [
+            "denyshon@outlook.com",
+            "sky@mozilla.com"
+          ],
+          "cc_detail": [
+            {
+              "email": "denyshon@outlook.com",
+              "id": 695774,
+              "name": "denyshon@outlook.com",
+              "nick": "denyshon",
+              "real_name": "Denys [:denyshon]"
+            },
+            {
+              "email": "sky@mozilla.com",
+              "id": 421268,
+              "name": "sky@mozilla.com",
+              "nick": "skyschub",
+              "real_name": "Sky Schubert [:skyschub]"
+            }
+          ],
+          "cf_a11y_review_project_flag": "---",
+          "cf_accessibility_severity": "---",
+          "cf_cab_review": "---",
+          "cf_fx_iteration": "---",
+          "cf_fx_points": "---",
+          "cf_last_resolved": null,
+          "cf_performance_impact": "---",
+          "cf_qa_whiteboard": "",
+          "cf_status_firefox151": "---",
+          "cf_status_firefox152": "---",
+          "cf_status_firefox153": "---",
+          "cf_status_firefox_esr115": "---",
+          "cf_status_firefox_esr140": "---",
+          "cf_tracking_firefox151": "---",
+          "cf_tracking_firefox152": "---",
+          "cf_tracking_firefox153": "---",
+          "cf_tracking_firefox_esr115": "---",
+          "cf_tracking_firefox_esr140": "---",
+          "cf_tracking_firefox_relnote": "---",
+          "cf_user_story": "platform:android,ios\r\nimpact:workflow-broken\r\nconfiguration:general\r\naffects:all\r\nbranch:release\r\ndiagnosis-team:webcompat\r\nuser-impact-score:2400\r\noutreach-assignee:akeane\r\noutreach-contact-date:2026-05-14\r\noutreach-reference:(direct emails)",
+          "cf_webcompat_priority": "P1",
+          "cf_webcompat_score": "10",
+          "classification": "Client Software",
+          "comment_count": 2,
+          "component": "Site Reports",
+          "creation_time": "2026-05-08T12:30:43Z",
+          "creator": "mbalfanz@mozilla.com",
+          "creator_detail": {
+            "email": "mbalfanz@mozilla.com",
+            "id": 610139,
+            "name": "mbalfanz@mozilla.com",
+            "nick": "mbalfanz",
+            "real_name": "Martin Balfanz [:mbalfanz]"
+          },
+          "depends_on": [],
+          "dupe_of": null,
+          "duplicates": [],
+          "flags": [],
+          "groups": [],
+          "id": 2038198,
+          "is_cc_accessible": true,
+          "is_confirmed": true,
+          "is_creator_accessible": true,
+          "is_open": true,
+          "keywords": [
+            "webcompat:contact-in-progress",
+            "webcompat:site-report"
+          ],
+          "last_change_time": "2026-05-19T13:45:13Z",
+          "mentors": [],
+          "mentors_detail": [],
+          "op_sys": "iOS",
+          "platform": "Unspecified",
+          "priority": "P1",
+          "product": "Web Compatibility",
+          "qa_contact": "",
+          "regressed_by": [],
+          "regressions": [],
+          "resolution": "",
+          "see_also": [],
+          "severity": "S2",
+          "status": "NEW",
+          "summary": "wise.com: ID confirmation doesn't work on Firefox for iOS",
+          "target_milestone": "---",
+          "type": "defect",
+          "url": "https://wise.com",
+          "version": "unspecified",
+          "votes": 0,
+          "whiteboard": "[webcompat:sightline][webcompat:core]"
+        }
+      ],
+      "faults": []
+    },
+    "comments": {
+      "bugs": {
+        "2038198": {
+          "comments": [
+            {
+              "attachment_id": 9584519,
+              "author": "mbalfanz@mozilla.com",
+              "bug_id": 2038198,
+              "count": 0,
+              "creation_time": "2026-05-08T12:30:43Z",
+              "creator": "mbalfanz@mozilla.com",
+              "id": 18071968,
+              "is_private": false,
+              "raw_text": "via #firefox-ios:\n\nReporter tried to sign up for wise.com. most of the signup work, until they were asked to take a photo of themself to confirm it matched the ID document. They received the attached screen instructing to use Chrome or Safari. Start the process all over again in Chrome worked.\n\nlooks like this might come down to facetec.com being the issue, which (for some reason) doesn't support Firefox. See https://dev.facetec.com/compatibility",
+              "reactions": {},
+              "tags": [],
+              "text": "Created attachment 9584519\nimage(1).png\n\nvia #firefox-ios:\n\nReporter tried to sign up for wise.com. most of the signup work, until they were asked to take a photo of themself to confirm it matched the ID document. They received the attached screen instructing to use Chrome or Safari. Start the process all over again in Chrome worked.\n\nlooks like this might come down to facetec.com being the issue, which (for some reason) doesn't support Firefox. See https://dev.facetec.com/compatibility",
+              "time": "2026-05-08T12:30:43Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "sky@mozilla.com",
+              "bug_id": 2038198,
+              "count": 1,
+              "creation_time": "2026-05-11T15:27:46Z",
+              "creator": "sky@mozilla.com",
+              "id": 18077174,
+              "is_private": false,
+              "raw_text": "Let's set needs-contact - but do not that we don't need to reach out to Wise, and instead we should mail Facetec",
+              "reactions": {},
+              "tags": [],
+              "text": "Let's set needs-contact - but do not that we don't need to reach out to Wise, and instead we should mail Facetec",
+              "time": "2026-05-11T15:27:46Z"
+            }
+          ]
+        }
+      },
+      "comments": {}
+    },
+    "history": {
+      "bugs": [
+        {
+          "alias": null,
+          "history": [
+            {
+              "changes": [
+                {
+                  "added": "[webcompat:sightline][webcompat:core]",
+                  "field_name": "whiteboard",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-05-08T12:44:25Z",
+              "who": "release-mgmt-account-bot@mozilla.tld"
+            },
+            {
+              "changes": [
+                {
+                  "added": "denyshon@outlook.com",
+                  "field_name": "cc",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-05-08T16:40:09Z",
+              "who": "denyshon@outlook.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "@@ -1 +1,7 @@\n-\n+platform:android,ios\r\n+impact:workflow-broken\r\n+configuration:general\r\n+affects:all\r\n+branch:release\r\n+diagnosis-team:webcompat\r\n+user-impact-score:1600\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                },
+                {
+                  "added": "P1",
+                  "field_name": "priority",
+                  "removed": "--"
+                },
+                {
+                  "added": "webcompat:needs-contact, webcompat:site-report",
+                  "field_name": "keywords",
+                  "removed": ""
+                },
+                {
+                  "added": "S2",
+                  "field_name": "severity",
+                  "removed": "--"
+                },
+                {
+                  "added": "https://wise.com",
+                  "field_name": "url",
+                  "removed": "wise.com"
+                },
+                {
+                  "added": "dschubert@mozilla.com",
+                  "field_name": "cc",
+                  "removed": ""
+                },
+                {
+                  "added": "P1",
+                  "field_name": "cf_webcompat_priority",
+                  "removed": "---"
+                },
+                {
+                  "added": "9",
+                  "field_name": "cf_webcompat_score",
+                  "removed": "---"
+                }
+              ],
+              "when": "2026-05-11T15:27:46Z",
+              "who": "sky@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "@@ -1,7 +1,7 @@\n-platform:android,ios\r\n+platform:android,ios\n-impact:workflow-broken\r\n+impact:workflow-broken\n-configuration:general\r\n+configuration:general\n-affects:all\r\n+affects:all\n-branch:release\r\n+branch:release\n-diagnosis-team:webcompat\r\n+diagnosis-team:webcompat\n-user-impact-score:1600\n+user-impact- score:2400\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                },
+                {
+                  "added": "10",
+                  "field_name": "cf_webcompat_score",
+                  "removed": "9"
+                }
+              ],
+              "when": "2026-05-13T14:33:34Z",
+              "who": "release-mgmt-account-bot@mozilla.tld"
+            },
+            {
+              "changes": [
+                {
+                  "added": "@@ -1,7 +1,10 @@\n-platform:android,ios\n+platform:android,ios\r\n-impact:workflow-broken\n+impact:workflow-broken\r\n-configuration:general\n+configuration:general\r\n-affects:all\n+affects:all\r\n-branch:release\n+branch:release\r\n-diagnosis-team:webcompat\n+diagnosis-team:webcompat\r\n-user-impact-score:2400\n+user-impact- score:2400\r\n+outreach-assignee:akeane\r\n+outreach-contact-date:2026-05-14\r\n+outreach-reference:(direct emails)\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                },
+                {
+                  "added": "webcompat:contact-in-progress",
+                  "field_name": "keywords",
+                  "removed": "webcompat:needs-contact"
+                }
+              ],
+              "when": "2026-05-19T13:45:13Z",
+              "who": "sky@mozilla.com"
+            }
+          ],
+          "id": 2038198
+        }
+      ]
+    }
+  },
+  "show_bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=2038198"
+}

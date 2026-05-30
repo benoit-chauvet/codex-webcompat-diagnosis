@@ -1,0 +1,562 @@
+{
+  "bug_id": "2035136",
+  "endpoints": {
+    "attachments": "https://bugzilla.mozilla.org/rest/bug/2035136/attachment?exclude_fields=data",
+    "bug": "https://bugzilla.mozilla.org/rest/bug/2035136",
+    "comments": "https://bugzilla.mozilla.org/rest/bug/2035136/comment",
+    "history": "https://bugzilla.mozilla.org/rest/bug/2035136/history"
+  },
+  "fetched_at": "2026-05-30T14:35:49+00:00",
+  "responses": {
+    "attachments": {
+      "attachments": {},
+      "bugs": {
+        "2035136": [
+          {
+            "attacher": "alessio.placitelli@gmail.com",
+            "bug_id": 2035136,
+            "content_type": "image/png",
+            "creation_time": "2026-04-27T09:32:21Z",
+            "creator": "alessio.placitelli@gmail.com",
+            "creator_detail": {
+              "email": "alessio.placitelli@gmail.com",
+              "id": 248036,
+              "name": "alessio.placitelli@gmail.com",
+              "nick": "Dexter",
+              "real_name": "Alessio Placitelli [:Dexter]"
+            },
+            "description": "image.png",
+            "file_name": "image.png",
+            "flags": [],
+            "id": 9574009,
+            "is_obsolete": 0,
+            "is_patch": 0,
+            "is_private": 0,
+            "last_change_time": "2026-04-27T09:32:21Z",
+            "size": 15486,
+            "summary": "image.png"
+          },
+          {
+            "attacher": "alessio.placitelli@gmail.com",
+            "bug_id": 2035136,
+            "content_type": "image/png",
+            "creation_time": "2026-04-30T07:55:05Z",
+            "creator": "alessio.placitelli@gmail.com",
+            "creator_detail": {
+              "email": "alessio.placitelli@gmail.com",
+              "id": 248036,
+              "name": "alessio.placitelli@gmail.com",
+              "nick": "Dexter",
+              "real_name": "Alessio Placitelli [:Dexter]"
+            },
+            "description": "Full option panel",
+            "file_name": "image.png",
+            "flags": [],
+            "id": 9575368,
+            "is_obsolete": 0,
+            "is_patch": 0,
+            "is_private": 0,
+            "last_change_time": "2026-04-30T07:55:05Z",
+            "size": 96324,
+            "summary": "Full option panel"
+          }
+        ]
+      }
+    },
+    "bug": {
+      "bugs": [
+        {
+          "alias": null,
+          "assigned_to": "nobody@mozilla.org",
+          "assigned_to_detail": {
+            "email": "nobody@mozilla.org",
+            "id": 1,
+            "name": "nobody@mozilla.org",
+            "nick": "nobody",
+            "real_name": "Nobody; OK to take it and work on it"
+          },
+          "blocks": [],
+          "cc": [
+            "htsai@mozilla.com",
+            "itiel_yn8@walla.com",
+            "james@hoppipolla.co.uk",
+            "jmuizelaar@mozilla.com",
+            "krosylight@mozilla.com",
+            "sky@mozilla.com"
+          ],
+          "cc_detail": [
+            {
+              "email": "htsai@mozilla.com",
+              "id": 434964,
+              "name": "htsai@mozilla.com",
+              "nick": "hsinyi",
+              "real_name": "Hsin-Yi Tsai  (she/her)[:hsinyi]"
+            },
+            {
+              "email": "itiel_yn8@walla.com",
+              "id": 353822,
+              "name": "itiel_yn8@walla.com",
+              "nick": "itiel_yn8",
+              "real_name": "Itiel"
+            },
+            {
+              "email": "james@hoppipolla.co.uk",
+              "id": 389650,
+              "name": "james@hoppipolla.co.uk",
+              "nick": "jgraham",
+              "real_name": "James Graham [:jgraham]"
+            },
+            {
+              "email": "jmuizelaar@mozilla.com",
+              "id": 309398,
+              "name": "jmuizelaar@mozilla.com",
+              "nick": "jrmuizel",
+              "real_name": "Jeff Muizelaar [:jrmuizel]"
+            },
+            {
+              "email": "krosylight@mozilla.com",
+              "id": 473060,
+              "name": "krosylight@mozilla.com",
+              "nick": "saschanaz",
+              "real_name": "Kagami Rosylight [:saschanaz] (they/them)"
+            },
+            {
+              "email": "sky@mozilla.com",
+              "id": 421268,
+              "name": "sky@mozilla.com",
+              "nick": "skyschub",
+              "real_name": "Sky Schubert [:skyschub]"
+            }
+          ],
+          "cf_a11y_review_project_flag": "---",
+          "cf_accessibility_severity": "---",
+          "cf_cab_review": "---",
+          "cf_fx_iteration": "---",
+          "cf_fx_points": "---",
+          "cf_last_resolved": null,
+          "cf_performance_impact": "---",
+          "cf_qa_whiteboard": "",
+          "cf_status_firefox151": "---",
+          "cf_status_firefox152": "---",
+          "cf_status_firefox153": "---",
+          "cf_status_firefox_esr115": "---",
+          "cf_status_firefox_esr140": "---",
+          "cf_tracking_firefox151": "---",
+          "cf_tracking_firefox152": "---",
+          "cf_tracking_firefox153": "---",
+          "cf_tracking_firefox_esr115": "---",
+          "cf_tracking_firefox_esr140": "---",
+          "cf_tracking_firefox_relnote": "---",
+          "cf_user_story": "platform:windows,mac,linux\nimpact:unsupported-feature\nconfiguration:general\naffects:all\nbranch:release\ndiagnosis-team:dom-storage\nuser-impact-score:1200",
+          "cf_webcompat_priority": "P1",
+          "cf_webcompat_score": "9",
+          "classification": "Client Software",
+          "comment_count": 9,
+          "component": "Site Reports",
+          "creation_time": "2026-04-27T09:32:21Z",
+          "creator": "alessio.placitelli@gmail.com",
+          "creator_detail": {
+            "email": "alessio.placitelli@gmail.com",
+            "id": 248036,
+            "name": "alessio.placitelli@gmail.com",
+            "nick": "Dexter",
+            "real_name": "Alessio Placitelli [:Dexter]"
+          },
+          "depends_on": [
+            1905871
+          ],
+          "dupe_of": null,
+          "duplicates": [],
+          "flags": [],
+          "groups": [],
+          "id": 2035136,
+          "is_cc_accessible": true,
+          "is_confirmed": true,
+          "is_creator_accessible": true,
+          "is_open": true,
+          "keywords": [
+            "webcompat:contact-ready",
+            "webcompat:needs-login",
+            "webcompat:platform-bug",
+            "webcompat:site-report"
+          ],
+          "last_change_time": "2026-05-13T14:31:11Z",
+          "mentors": [],
+          "mentors_detail": [],
+          "op_sys": "Unspecified",
+          "platform": "Unspecified",
+          "priority": "P1",
+          "product": "Web Compatibility",
+          "qa_contact": "",
+          "regressed_by": [],
+          "regressions": [],
+          "resolution": "",
+          "see_also": [],
+          "severity": "S2",
+          "status": "NEW",
+          "summary": "Anthropic's Claude Design \"Linking Code from your computer\" requires Chrome / Edge",
+          "target_milestone": "---",
+          "type": "enhancement",
+          "url": "https://claude.ai/design",
+          "version": "unspecified",
+          "votes": 0,
+          "whiteboard": "[webcompat:sightline][webcompat:core]"
+        }
+      ],
+      "faults": []
+    },
+    "comments": {
+      "bugs": {
+        "2035136": {
+          "comments": [
+            {
+              "attachment_id": 9574009,
+              "author": "alessio.placitelli@gmail.com",
+              "bug_id": 2035136,
+              "count": 0,
+              "creation_time": "2026-04-27T09:32:21Z",
+              "creator": "alessio.placitelli@gmail.com",
+              "id": 18042086,
+              "is_private": false,
+              "raw_text": "Anthropic's Claude Design requires using Chrome or Edge for \"Linking Code from your computer\" when setting up a new design system.",
+              "reactions": {},
+              "tags": [],
+              "text": "Created attachment 9574009\nimage.png\n\nAnthropic's Claude Design requires using Chrome or Edge for \"Linking Code from your computer\" when setting up a new design system.",
+              "time": "2026-04-27T09:32:21Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "sky@mozilla.com",
+              "bug_id": 2035136,
+              "count": 1,
+              "creation_time": "2026-04-27T15:12:01Z",
+              "creator": "sky@mozilla.com",
+              "id": 18042918,
+              "is_private": false,
+              "raw_text": "This very much smells like the File System Access API. :/",
+              "reactions": {},
+              "tags": [],
+              "text": "This very much smells like the File System Access API. :/",
+              "time": "2026-04-27T15:12:01Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "jmuizelaar@mozilla.com",
+              "bug_id": 2035136,
+              "count": 2,
+              "creation_time": "2026-04-29T14:50:26Z",
+              "creator": "jmuizelaar@mozilla.com",
+              "id": 18047779,
+              "is_private": false,
+              "raw_text": "Preemptively adding the dependency",
+              "reactions": {},
+              "tags": [],
+              "text": "Preemptively adding the dependency",
+              "time": "2026-04-29T14:50:26Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "krosylight@mozilla.com",
+              "bug_id": 2035136,
+              "count": 3,
+              "creation_time": "2026-04-29T16:39:47Z",
+              "creator": "krosylight@mozilla.com",
+              "id": 18047961,
+              "is_private": false,
+              "raw_text": "It requires a valid subscription to see that page, right?",
+              "reactions": {},
+              "tags": [],
+              "text": "It requires a valid subscription to see that page, right?",
+              "time": "2026-04-29T16:39:47Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "alessio.placitelli@gmail.com",
+              "bug_id": 2035136,
+              "count": 4,
+              "creation_time": "2026-04-29T17:14:34Z",
+              "creator": "alessio.placitelli@gmail.com",
+              "id": 18048022,
+              "is_private": false,
+              "raw_text": "(In reply to Kagami Rosylight [:saschanaz] (they/them) from comment #3)\n> It requires a valid subscription to see that page, right?\n\nYes, as far as I know.",
+              "reactions": {},
+              "tags": [],
+              "text": "(In reply to Kagami Rosylight [:saschanaz] (they/them) from comment #3)\n> It requires a valid subscription to see that page, right?\n\nYes, as far as I know.",
+              "time": "2026-04-29T17:14:34Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "jmuizelaar@mozilla.com",
+              "bug_id": 2035136,
+              "count": 5,
+              "creation_time": "2026-04-29T17:22:45Z",
+              "creator": "jmuizelaar@mozilla.com",
+              "id": 18048032,
+              "is_private": false,
+              "raw_text": "Allesio, how usable is the product without the \"Link code from your computer\" feature?",
+              "reactions": {},
+              "tags": [],
+              "text": "Allesio, how usable is the product without the \"Link code from your computer\" feature?",
+              "time": "2026-04-29T17:22:45Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "jmuizelaar@mozilla.com",
+              "bug_id": 2035136,
+              "count": 6,
+              "creation_time": "2026-04-29T23:39:32Z",
+              "creator": "jmuizelaar@mozilla.com",
+              "id": 18048740,
+              "is_private": false,
+              "raw_text": "Anthropic confirmed that this is using the file system access API",
+              "reactions": {},
+              "tags": [],
+              "text": "Anthropic confirmed that this is using the file system access API",
+              "time": "2026-04-29T23:39:32Z"
+            },
+            {
+              "attachment_id": 9575368,
+              "author": "alessio.placitelli@gmail.com",
+              "bug_id": 2035136,
+              "count": 7,
+              "creation_time": "2026-04-30T07:55:05Z",
+              "creator": "alessio.placitelli@gmail.com",
+              "id": 18049239,
+              "is_private": false,
+              "raw_text": "I can't seem to find a way to link the code _from the computer_ , so I'd say this definitely prevents this option. Sure, one could link from GitHub, but that's different.",
+              "reactions": {},
+              "tags": [],
+              "text": "Created attachment 9575368\nFull option panel\n\nI can't seem to find a way to link the code _from the computer_ , so I'd say this definitely prevents this option. Sure, one could link from GitHub, but that's different.",
+              "time": "2026-04-30T07:55:05Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "htsai@mozilla.com",
+              "bug_id": 2035136,
+              "count": 8,
+              "creation_time": "2026-05-12T14:34:12Z",
+              "creator": "htsai@mozilla.com",
+              "id": 18079591,
+              "is_private": false,
+              "raw_text": "(In reply to Jeff Muizelaar [:jrmuizel] from comment #6)\n> Anthropic confirmed that this is using the file system access API\n\nI'm removing the needs-diagnosis based on this confirmation. Please feel free to add it back if there's more investigate we should still do atm.",
+              "reactions": {},
+              "tags": [],
+              "text": "(In reply to Jeff Muizelaar [:jrmuizel] from comment #6)\n> Anthropic confirmed that this is using the file system access API\n\nI'm removing the needs-diagnosis based on this confirmation. Please feel free to add it back if there's more investigate we should still do atm.",
+              "time": "2026-05-12T14:34:12Z"
+            }
+          ]
+        }
+      },
+      "comments": {}
+    },
+    "history": {
+      "bugs": [
+        {
+          "alias": null,
+          "history": [
+            {
+              "changes": [
+                {
+                  "added": "james@hoppipolla.co.uk",
+                  "field_name": "cc",
+                  "removed": ""
+                },
+                {
+                  "added": "https://claude.ai/design",
+                  "field_name": "url",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-04-27T09:34:24Z",
+              "who": "james@hoppipolla.co.uk"
+            },
+            {
+              "changes": [
+                {
+                  "added": "itiel_yn8@walla.com",
+                  "field_name": "cc",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-04-27T12:37:48Z",
+              "who": "itiel_yn8@walla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "dschubert@mozilla.com",
+                  "field_name": "cc",
+                  "removed": ""
+                },
+                {
+                  "added": "S2",
+                  "field_name": "severity",
+                  "removed": "--"
+                },
+                {
+                  "added": "P1",
+                  "field_name": "priority",
+                  "removed": "--"
+                },
+                {
+                  "added": "@@ -1 +1,7 @@\n-\n+platform:windows,mac,linux\r\n+impact:unsupported-feature\r\n+configuration:general\r\n+affects:all\r\n+branch:release\r\n+diagnosis-team:dom\r\n+user-impact-score:800\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                },
+                {
+                  "added": "webcompat:needs-diagnosis, webcompat:site-report",
+                  "field_name": "keywords",
+                  "removed": ""
+                },
+                {
+                  "added": "P1",
+                  "field_name": "cf_webcompat_priority",
+                  "removed": "---"
+                },
+                {
+                  "added": "8",
+                  "field_name": "cf_webcompat_score",
+                  "removed": "---"
+                }
+              ],
+              "when": "2026-04-27T15:12:01Z",
+              "who": "sky@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "webcompat:contact-ready",
+                  "field_name": "keywords",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-04-27T16:58:21Z",
+              "who": "james@hoppipolla.co.uk"
+            },
+            {
+              "changes": [
+                {
+                  "added": "jmuizelaar@mozilla.com",
+                  "field_name": "cc",
+                  "removed": ""
+                },
+                {
+                  "added": "1905871",
+                  "field_name": "depends_on",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-04-29T14:50:26Z",
+              "who": "jmuizelaar@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "krosylight@mozilla.com",
+                  "field_name": "cc",
+                  "removed": ""
+                },
+                {
+                  "added": "webcompat:needs-login",
+                  "field_name": "keywords",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-04-29T16:39:47Z",
+              "who": "krosylight@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "needinfo?(alessio.placitelli@gmail.com)",
+                  "field_name": "flagtypes.name",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-04-29T17:22:45Z",
+              "who": "jmuizelaar@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "Anthropic's Claude Design \"Linking Code from your computer\" requires Chrome / Edge",
+                  "field_name": "summary",
+                  "removed": "Anthropic's Claude Design requires Chrome / Edge"
+                }
+              ],
+              "when": "2026-04-29T17:25:42Z",
+              "who": "jmuizelaar@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "",
+                  "field_name": "flagtypes.name",
+                  "removed": "needinfo?(alessio.placitelli@gmail.com)"
+                }
+              ],
+              "when": "2026-04-30T07:55:05Z",
+              "who": "alessio.placitelli@gmail.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "[webcompat:sightline][webcompat:core]",
+                  "field_name": "whiteboard",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-05-07T20:44:34Z",
+              "who": "release-mgmt-account-bot@mozilla.tld"
+            },
+            {
+              "changes": [
+                {
+                  "added": "htsai@mozilla.com",
+                  "field_name": "cc",
+                  "removed": ""
+                },
+                {
+                  "added": "@@ -3,5 +3,5 @@\n configuration:general\r\n affects:all\r\n branch:release\r\n-diagnosis-team:dom\r\n+diagnosis-team:dom-storage\r\n user-impact-score:800\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-05-12T14:11:11Z",
+              "who": "htsai@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "webcompat:platform-bug",
+                  "field_name": "keywords",
+                  "removed": "webcompat:needs-diagnosis"
+                }
+              ],
+              "when": "2026-05-12T14:34:12Z",
+              "who": "htsai@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "@@ -1,7 +1,7 @@\n-platform:windows,mac,linux\r\n+platform:windows,mac,linux\n-impact:unsupported-feature\r\n+impact:unsupported-feature\n-configuration:general\r\n+configuration:general\n-affects:all\r\n+affects:all\n-branch:release\r\n+branch:release\n-diagnosis-team:dom-storage\r\n+diagnosis-team:dom-storage\n-user-impact- score:800\n+user-impact-score:1200\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                },
+                {
+                  "added": "9",
+                  "field_name": "cf_webcompat_score",
+                  "removed": "8"
+                }
+              ],
+              "when": "2026-05-13T14:31:11Z",
+              "who": "release-mgmt-account-bot@mozilla.tld"
+            }
+          ],
+          "id": 2035136
+        }
+      ]
+    }
+  },
+  "show_bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=2035136"
+}

@@ -1,0 +1,591 @@
+{
+  "bug_id": "1852768",
+  "endpoints": {
+    "attachments": "https://bugzilla.mozilla.org/rest/bug/1852768/attachment?exclude_fields=data",
+    "bug": "https://bugzilla.mozilla.org/rest/bug/1852768",
+    "comments": "https://bugzilla.mozilla.org/rest/bug/1852768/comment",
+    "history": "https://bugzilla.mozilla.org/rest/bug/1852768/history"
+  },
+  "fetched_at": "2026-05-30T14:36:06+00:00",
+  "responses": {
+    "attachments": {
+      "attachments": {},
+      "bugs": {
+        "1852768": [
+          {
+            "attacher": "rbucata@mozilla.com",
+            "bug_id": 1852768,
+            "content_type": "image/png",
+            "creation_time": "2023-09-12T13:50:01Z",
+            "creator": "rbucata@mozilla.com",
+            "creator_detail": {
+              "email": "rbucata@mozilla.com",
+              "id": 675083,
+              "name": "rbucata@mozilla.com",
+              "nick": "rbucata",
+              "real_name": "Raul Bucata"
+            },
+            "description": "Screenshot_1.png",
+            "file_name": "Screenshot_1.png",
+            "flags": [],
+            "id": 9352689,
+            "is_obsolete": 0,
+            "is_patch": 0,
+            "is_private": 0,
+            "last_change_time": "2023-09-12T13:50:01Z",
+            "size": 846216,
+            "summary": "Screenshot_1.png"
+          }
+        ]
+      }
+    },
+    "bug": {
+      "bugs": [
+        {
+          "alias": null,
+          "assigned_to": "nobody@mozilla.org",
+          "assigned_to_detail": {
+            "email": "nobody@mozilla.org",
+            "id": 1,
+            "name": "nobody@mozilla.org",
+            "nick": "nobody",
+            "real_name": "Nobody; OK to take it and work on it"
+          },
+          "blocks": [],
+          "cc": [
+            "emanuellclaudiu@gmail.com",
+            "htsai@mozilla.com",
+            "jmuizelaar@mozilla.com",
+            "sky@mozilla.com"
+          ],
+          "cc_detail": [
+            {
+              "email": "emanuellclaudiu@gmail.com",
+              "id": 721355,
+              "name": "emanuellclaudiu@gmail.com",
+              "nick": "emanuellclaudiu",
+              "real_name": "eclaudiu64"
+            },
+            {
+              "email": "htsai@mozilla.com",
+              "id": 434964,
+              "name": "htsai@mozilla.com",
+              "nick": "hsinyi",
+              "real_name": "Hsin-Yi Tsai  (she/her)[:hsinyi]"
+            },
+            {
+              "email": "jmuizelaar@mozilla.com",
+              "id": 309398,
+              "name": "jmuizelaar@mozilla.com",
+              "nick": "jrmuizel",
+              "real_name": "Jeff Muizelaar [:jrmuizel]"
+            },
+            {
+              "email": "sky@mozilla.com",
+              "id": 421268,
+              "name": "sky@mozilla.com",
+              "nick": "skyschub",
+              "real_name": "Sky Schubert [:skyschub]"
+            }
+          ],
+          "cf_a11y_review_project_flag": "---",
+          "cf_accessibility_severity": "---",
+          "cf_cab_review": "---",
+          "cf_fx_iteration": "---",
+          "cf_fx_points": "---",
+          "cf_last_resolved": null,
+          "cf_performance_impact": "---",
+          "cf_qa_whiteboard": "",
+          "cf_status_firefox151": "---",
+          "cf_status_firefox152": "---",
+          "cf_status_firefox153": "---",
+          "cf_status_firefox_esr115": "---",
+          "cf_status_firefox_esr140": "---",
+          "cf_tracking_firefox151": "---",
+          "cf_tracking_firefox152": "---",
+          "cf_tracking_firefox153": "---",
+          "cf_tracking_firefox_esr115": "---",
+          "cf_tracking_firefox_esr140": "---",
+          "cf_tracking_firefox_relnote": "---",
+          "cf_user_story": "platform:windows,mac,linux,android\r\nimpact:feature-broken\r\nconfiguration:general\r\naffects:all\r\nuser-impact-score:900\r\nbranch:release\r\nplatform-scheduled:2026-06-30",
+          "cf_webcompat_priority": "P1",
+          "cf_webcompat_score": "8",
+          "classification": "Client Software",
+          "comment_count": 8,
+          "component": "Site Reports",
+          "creation_time": "2023-09-12T13:50:01Z",
+          "creator": "rbucata@mozilla.com",
+          "creator_detail": {
+            "email": "rbucata@mozilla.com",
+            "id": 675083,
+            "name": "rbucata@mozilla.com",
+            "nick": "rbucata",
+            "real_name": "Raul Bucata"
+          },
+          "depends_on": [
+            1882314,
+            1463402
+          ],
+          "dupe_of": null,
+          "duplicates": [],
+          "flags": [],
+          "groups": [],
+          "id": 1852768,
+          "is_cc_accessible": true,
+          "is_confirmed": true,
+          "is_creator_accessible": true,
+          "is_open": true,
+          "keywords": [
+            "webcompat:platform-bug",
+            "webcompat:site-report"
+          ],
+          "last_change_time": "2026-04-30T11:53:40Z",
+          "mentors": [],
+          "mentors_detail": [],
+          "op_sys": "Android",
+          "platform": "Other",
+          "priority": "P1",
+          "product": "Web Compatibility",
+          "qa_contact": "",
+          "regressed_by": [],
+          "regressions": [],
+          "resolution": "",
+          "see_also": [],
+          "severity": "S2",
+          "status": "NEW",
+          "summary": "The PiP option is missing from the video player at vimeo.com",
+          "target_milestone": "---",
+          "type": "defect",
+          "url": "https://vimeo.com/",
+          "version": "Firefox 119",
+          "votes": 0,
+          "whiteboard": "[webcompat:sightline][webcompat:core]"
+        }
+      ],
+      "faults": []
+    },
+    "comments": {
+      "bugs": {
+        "1852768": {
+          "comments": [
+            {
+              "attachment_id": 9352689,
+              "author": "rbucata@mozilla.com",
+              "bug_id": 1852768,
+              "count": 0,
+              "creation_time": "2023-09-12T13:50:01Z",
+              "creator": "rbucata@mozilla.com",
+              "id": 16574038,
+              "is_private": false,
+              "raw_text": "**Environment:**\nOperating system: Android 12\nFirefox version: Firefox Nightly 119.0a1 (2015972515-\ud83e\udd8e119.0a1-20230905215534\ud83e\udd8e\n\n**Preconditions:** \nClean profile\n\n\n**Steps to reproduce:**\n1. Navigate to : https://vimeo.com/598881804\n2. Perform account login.\n3. Play a video.\n4. Observe the video player options.\n\n**Expected Behavior:**\nPiP is present\n\n**Actual Behavior:**\nPiP is missing\n\n\n**Notes:**\n- Reproducible regardless of the status of ETP\n- Reproducible on the latest build of Firefox Nightly and Release\n- Works as expected using Chrome\n- Screenshot attached\n- Issue found during WebCompat team [Top100] websites testing",
+              "reactions": {},
+              "tags": [],
+              "text": "Created attachment 9352689\nScreenshot_1.png\n\n**Environment:**\nOperating system: Android 12\nFirefox version: Firefox Nightly 119.0a1 (2015972515-\ud83e\udd8e119.0a1-20230905215534\ud83e\udd8e\n\n**Preconditions:** \nClean profile\n\n\n**Steps to reproduce:**\n1. Navigate to : https://vimeo.com/598881804\n2. Perform account login.\n3. Play a video.\n4. Observe the video player options.\n\n**Expected Behavior:**\nPiP is present\n\n**Actual Behavior:**\nPiP is missing\n\n\n**Notes:**\n- Reproducible regardless of the status of ETP\n- Reproducible on the latest build of Firefox Nightly and Release\n- Works as expected using Chrome\n- Screenshot attached\n- Issue found during WebCompat team [Top100] websites testing",
+              "time": "2023-09-12T13:50:01Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "rbucata@mozilla.com",
+              "bug_id": 1852768,
+              "count": 1,
+              "creation_time": "2024-02-19T12:05:22Z",
+              "creator": "rbucata@mozilla.com",
+              "id": 16802471,
+              "is_private": false,
+              "raw_text": "Verified this issue and still reproduces on Firefox 122 and 124.\n\n\n\n\n\n\n\n**Tested with:**\n\nBrowser / Version: Firefox Release 122.1.0 (2016001831-\ud83e\udd8e122.0.1-20240205133611\ud83e\udd8e)/ Firefox Nightly 124.0a1 (2016004199-\ud83e\udd8e124.0a1-20240217214641\ud83e\udd8e)/ Chrome Mobile Version 121.0.6167.164\nOperating System: Google Pixel 3 (Android 12) -1080 x 2160 pixels, 18:9 ratio (~443 ppi density)\nOperating System: Oppo Find X5 (Android 13) - 1080 x 2400 pixels, 20:9 ratio (~402 ppi density)",
+              "reactions": {},
+              "tags": [],
+              "text": "Verified this issue and still reproduces on Firefox 122 and 124.\n\n\n\n\n\n\n\n**Tested with:**\n\nBrowser / Version: Firefox Release 122.1.0 (2016001831-\ud83e\udd8e122.0.1-20240205133611\ud83e\udd8e)/ Firefox Nightly 124.0a1 (2016004199-\ud83e\udd8e124.0a1-20240217214641\ud83e\udd8e)/ Chrome Mobile Version 121.0.6167.164\nOperating System: Google Pixel 3 (Android 12) -1080 x 2160 pixels, 18:9 ratio (~443 ppi density)\nOperating System: Oppo Find X5 (Android 13) - 1080 x 2400 pixels, 20:9 ratio (~402 ppi density)",
+              "time": "2024-02-19T12:05:22Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "sky@mozilla.com",
+              "bug_id": 1852768,
+              "count": 2,
+              "creation_time": "2024-02-20T15:04:47Z",
+              "creator": "sky@mozilla.com",
+              "id": 16803720,
+              "is_private": false,
+              "raw_text": "ni? myself to create a knowledge base entry for the PiP API.",
+              "reactions": {},
+              "tags": [],
+              "text": "ni? myself to create a knowledge base entry for the PiP API.",
+              "time": "2024-02-20T15:04:47Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "rbucata@mozilla.com",
+              "bug_id": 1852768,
+              "count": 3,
+              "creation_time": "2024-03-21T16:56:05Z",
+              "creator": "rbucata@mozilla.com",
+              "id": 16854826,
+              "is_private": false,
+              "raw_text": "Reproducible on desktop as well",
+              "reactions": {},
+              "tags": [],
+              "text": "Reproducible on desktop as well",
+              "time": "2024-03-21T16:56:05Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "release-mgmt-account-bot@mozilla.tld",
+              "bug_id": 1852768,
+              "count": 4,
+              "creation_time": "2026-02-06T12:11:40Z",
+              "creator": "release-mgmt-account-bot@mozilla.tld",
+              "id": 17878916,
+              "is_private": false,
+              "raw_text": "The severity field for this bug is set to S3. However, this bug has a P1 WebCompat priority.\n:denschub, could you consider increasing the severity of this web compatibility bug?\n\nFor more information, please visit [BugBot documentation](https://wiki.mozilla.org/BugBot#severity_high_compat_priority.py).",
+              "reactions": {},
+              "tags": [],
+              "text": "The severity field for this bug is set to S3. However, this bug has a P1 WebCompat priority.\n:denschub, could you consider increasing the severity of this web compatibility bug?\n\nFor more information, please visit [BugBot documentation](https://wiki.mozilla.org/BugBot#severity_high_compat_priority.py).",
+              "time": "2026-02-06T12:11:40Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "sky@mozilla.com",
+              "bug_id": 1852768,
+              "count": 5,
+              "creation_time": "2026-02-09T14:37:00Z",
+              "creator": "sky@mozilla.com",
+              "id": 17883110,
+              "is_private": false,
+              "raw_text": "Triage tooling suggests S2 - so shall it be.",
+              "reactions": {},
+              "tags": [],
+              "text": "Triage tooling suggests S2 - so shall it be.",
+              "time": "2026-02-09T14:37:00Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "sky@mozilla.com",
+              "bug_id": 1852768,
+              "count": 6,
+              "creation_time": "2026-02-09T14:39:14Z",
+              "creator": "sky@mozilla.com",
+              "id": 17883113,
+              "is_private": false,
+              "raw_text": "Another bug update due to the updated CrUX data - sorry.",
+              "reactions": {},
+              "tags": [],
+              "text": "Another bug update due to the updated CrUX data - sorry.",
+              "time": "2026-02-09T14:39:14Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "jmathies@mozilla.com",
+              "bug_id": 1852768,
+              "count": 7,
+              "creation_time": "2026-04-10T13:01:48Z",
+              "creator": "jmathies@mozilla.com",
+              "id": 18007037,
+              "is_private": false,
+              "raw_text": "I believe we provide sites with the ability to disable our PiP. Possibly that's what's happening here.\n\nhttps://developer.mozilla.org/en-US/docs/Web/API/HTMLVideoElement/disablePictureInPicture",
+              "reactions": {},
+              "tags": [],
+              "text": "I believe we provide sites with the ability to disable our PiP. Possibly that's what's happening here.\n\nhttps://developer.mozilla.org/en-US/docs/Web/API/HTMLVideoElement/disablePictureInPicture",
+              "time": "2026-04-10T13:01:48Z"
+            }
+          ]
+        }
+      },
+      "comments": {}
+    },
+    "history": {
+      "bugs": [
+        {
+          "alias": null,
+          "history": [
+            {
+              "changes": [
+                {
+                  "added": "emanuellclaudiu@gmail.com",
+                  "field_name": "cc",
+                  "removed": ""
+                }
+              ],
+              "when": "2023-09-12T14:05:55Z",
+              "who": "emanuellclaudiu@gmail.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "dschubert@mozilla.com",
+                  "field_name": "cc",
+                  "removed": ""
+                },
+                {
+                  "added": "needinfo?(dschubert@mozilla.com)",
+                  "field_name": "flagtypes.name",
+                  "removed": ""
+                }
+              ],
+              "when": "2024-02-20T15:04:47Z",
+              "who": "sky@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "",
+                  "field_name": "flagtypes.name",
+                  "removed": "needinfo?(dschubert@mozilla.com)"
+                },
+                {
+                  "added": "webcompat:needs-diagnosis",
+                  "field_name": "keywords",
+                  "removed": ""
+                }
+              ],
+              "when": "2024-02-20T15:05:20Z",
+              "who": "sky@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "Site Reports",
+                  "field_name": "component",
+                  "removed": "Mobile"
+                }
+              ],
+              "when": "2024-03-07T20:37:51Z",
+              "who": "nobody@mozilla.org"
+            },
+            {
+              "changes": [
+                {
+                  "added": "P1",
+                  "field_name": "priority",
+                  "removed": "P3"
+                },
+                {
+                  "added": "@@ -1 +1,4 @@\n-\n+platform:windows,mac,linux,android\r\n+impact:feature-broken\r\n+configuration:general\r\n+affects:all\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                },
+                {
+                  "added": "S2",
+                  "field_name": "severity",
+                  "removed": "--"
+                },
+                {
+                  "added": "1882314",
+                  "field_name": "depends_on",
+                  "removed": ""
+                },
+                {
+                  "added": "webcompat:platform-bug",
+                  "field_name": "keywords",
+                  "removed": "webcompat:needs-diagnosis"
+                }
+              ],
+              "when": "2024-04-29T15:43:52Z",
+              "who": "sky@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "S3",
+                  "field_name": "severity",
+                  "removed": "S2"
+                },
+                {
+                  "added": "P2",
+                  "field_name": "priority",
+                  "removed": "P1"
+                }
+              ],
+              "when": "2024-04-29T15:44:09Z",
+              "who": "sky@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "[webcompat:sightline]",
+                  "field_name": "whiteboard",
+                  "removed": ""
+                }
+              ],
+              "when": "2024-11-25T16:38:01Z",
+              "who": "release-mgmt-account-bot@mozilla.tld"
+            },
+            {
+              "changes": [
+                {
+                  "added": "P2",
+                  "field_name": "cf_webcompat_priority",
+                  "removed": "---"
+                }
+              ],
+              "when": "2025-01-24T17:44:12Z",
+              "who": "james@hoppipolla.co.uk"
+            },
+            {
+              "changes": [
+                {
+                  "added": "7",
+                  "field_name": "cf_webcompat_score",
+                  "removed": "---"
+                }
+              ],
+              "when": "2025-02-26T17:59:08Z",
+              "who": "release-mgmt-account-bot@mozilla.tld"
+            },
+            {
+              "changes": [
+                {
+                  "added": "8",
+                  "field_name": "cf_webcompat_score",
+                  "removed": "7"
+                }
+              ],
+              "when": "2025-09-03T13:54:21Z",
+              "who": "release-mgmt-account-bot@mozilla.tld"
+            },
+            {
+              "changes": [
+                {
+                  "added": "1463402",
+                  "field_name": "depends_on",
+                  "removed": ""
+                },
+                {
+                  "added": "jmuizelaar@mozilla.com",
+                  "field_name": "cc",
+                  "removed": ""
+                }
+              ],
+              "when": "2025-09-08T13:49:48Z",
+              "who": "jmuizelaar@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "@@ -1,4 +1,5 @@\n-platform:windows,mac,linux,android\r\n-impact:feature-broken\r\n-configuration:general\r\n+platform:windows,mac,linux,android\n+impact:feature-broken\n+configuration:general\n affects:all\n+user-impact-score:900\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                }
+              ],
+              "when": "2025-09-15T16:59:36Z",
+              "who": "release-mgmt-account-bot@mozilla.tld"
+            },
+            {
+              "changes": [
+                {
+                  "added": "P1",
+                  "field_name": "cf_webcompat_priority",
+                  "removed": "P2"
+                }
+              ],
+              "when": "2026-02-05T15:53:38Z",
+              "who": "release-mgmt-account-bot@mozilla.tld"
+            },
+            {
+              "changes": [
+                {
+                  "added": "needinfo?(dschubert@mozilla.com)",
+                  "field_name": "flagtypes.name",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-02-06T12:11:40Z",
+              "who": "release-mgmt-account-bot@mozilla.tld"
+            },
+            {
+              "changes": [
+                {
+                  "added": "webcompat:site-report",
+                  "field_name": "keywords",
+                  "removed": ""
+                },
+                {
+                  "added": "S2",
+                  "field_name": "severity",
+                  "removed": "S3"
+                },
+                {
+                  "added": "",
+                  "field_name": "flagtypes.name",
+                  "removed": "needinfo?(dschubert@mozilla.com)"
+                },
+                {
+                  "added": "@@ -1,5 +1,6 @@\n-platform:windows,mac,linux,android\n+platform:windows,mac,linux,android\r\n-impact:feature-broken\n+impact:feature-broken\r\n-configuration:general\n+configuration:general\r\n-affects:all\n+affects:all\r\n-user-impact-score:900\n+user-impact-score:600\r\n+branch:release\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                },
+                {
+                  "added": "P2",
+                  "field_name": "cf_webcompat_priority",
+                  "removed": "P1"
+                },
+                {
+                  "added": "7",
+                  "field_name": "cf_webcompat_score",
+                  "removed": "8"
+                }
+              ],
+              "when": "2026-02-09T14:37:00Z",
+              "who": "sky@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "@@ -2,5 +2,5 @@\n impact:feature-broken\r\n configuration:general\r\n affects:all\r\n-user-impact-score:600\r\n+user-impact-score:900\r\n branch:release\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                },
+                {
+                  "added": "P1",
+                  "field_name": "priority",
+                  "removed": "P2"
+                },
+                {
+                  "added": "P1",
+                  "field_name": "cf_webcompat_priority",
+                  "removed": "P2"
+                },
+                {
+                  "added": "8",
+                  "field_name": "cf_webcompat_score",
+                  "removed": "7"
+                }
+              ],
+              "when": "2026-02-09T14:39:14Z",
+              "who": "sky@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "[webcompat:sightline][webcompat:core]",
+                  "field_name": "whiteboard",
+                  "removed": "[webcompat:sightline]"
+                }
+              ],
+              "when": "2026-03-02T15:47:49Z",
+              "who": "release-mgmt-account-bot@mozilla.tld"
+            },
+            {
+              "changes": [
+                {
+                  "added": "@@ -3,4 +3,5 @@\n configuration:general\r\n affects:all\r\n user-impact-score:900\r\n-branch:release\n+branch:release\r\n+platform-scheduled:2026-06-30\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                },
+                {
+                  "added": "htsai@mozilla.com",
+                  "field_name": "cc",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-04-30T11:53:40Z",
+              "who": "htsai@mozilla.com"
+            }
+          ],
+          "id": 1852768
+        }
+      ]
+    }
+  },
+  "show_bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1852768"
+}

@@ -1,0 +1,423 @@
+{
+  "bug_id": "1944547",
+  "endpoints": {
+    "attachments": "https://bugzilla.mozilla.org/rest/bug/1944547/attachment?exclude_fields=data",
+    "bug": "https://bugzilla.mozilla.org/rest/bug/1944547",
+    "comments": "https://bugzilla.mozilla.org/rest/bug/1944547/comment",
+    "history": "https://bugzilla.mozilla.org/rest/bug/1944547/history"
+  },
+  "fetched_at": "2026-05-30T14:36:04+00:00",
+  "responses": {
+    "attachments": {
+      "attachments": {},
+      "bugs": {
+        "1944547": [
+          {
+            "attacher": "ctanase@mozilla.com",
+            "bug_id": 1944547,
+            "content_type": "image/png",
+            "creation_time": "2025-01-29T13:16:47Z",
+            "creator": "ctanase@mozilla.com",
+            "creator_detail": {
+              "email": "ctanase@mozilla.com",
+              "id": 707939,
+              "name": "ctanase@mozilla.com",
+              "nick": "ctanase",
+              "real_name": "Calin Tanase"
+            },
+            "description": "FF vs Chrome.png",
+            "file_name": "image.png",
+            "flags": [],
+            "id": 9462501,
+            "is_obsolete": 0,
+            "is_patch": 0,
+            "is_private": 0,
+            "last_change_time": "2025-01-29T13:16:47Z",
+            "size": 428953,
+            "summary": "FF vs Chrome.png"
+          }
+        ]
+      }
+    },
+    "bug": {
+      "bugs": [
+        {
+          "alias": null,
+          "assigned_to": "nobody@mozilla.org",
+          "assigned_to_detail": {
+            "email": "nobody@mozilla.org",
+            "id": 1,
+            "name": "nobody@mozilla.org",
+            "nick": "nobody",
+            "real_name": "Nobody; OK to take it and work on it"
+          },
+          "blocks": [],
+          "cc": [
+            "bchauvet@mozilla.com",
+            "sky@mozilla.com"
+          ],
+          "cc_detail": [
+            {
+              "email": "bchauvet@mozilla.com",
+              "id": 783163,
+              "name": "bchauvet@mozilla.com",
+              "nick": "bchauvet",
+              "real_name": "Benoit CHAUVET"
+            },
+            {
+              "email": "sky@mozilla.com",
+              "id": 421268,
+              "name": "sky@mozilla.com",
+              "nick": "skyschub",
+              "real_name": "Sky Schubert [:skyschub]"
+            }
+          ],
+          "cf_a11y_review_project_flag": "---",
+          "cf_accessibility_severity": "---",
+          "cf_cab_review": "---",
+          "cf_fx_iteration": "---",
+          "cf_fx_points": "---",
+          "cf_last_resolved": null,
+          "cf_performance_impact": "---",
+          "cf_qa_whiteboard": "",
+          "cf_status_firefox151": "---",
+          "cf_status_firefox152": "---",
+          "cf_status_firefox153": "---",
+          "cf_status_firefox_esr115": "---",
+          "cf_status_firefox_esr140": "---",
+          "cf_tracking_firefox151": "---",
+          "cf_tracking_firefox152": "---",
+          "cf_tracking_firefox153": "---",
+          "cf_tracking_firefox_esr115": "---",
+          "cf_tracking_firefox_esr140": "---",
+          "cf_tracking_firefox_relnote": "---",
+          "cf_user_story": "platform:windows,mac,linux,android\nimpact:feature-broken\nconfiguration:general\naffects:all\nbranch:release\ndiagnosis-team:ml\nuser-impact-score:900",
+          "cf_webcompat_priority": "P1",
+          "cf_webcompat_score": "8",
+          "classification": "Client Software",
+          "comment_count": 4,
+          "component": "Site Reports",
+          "creation_time": "2025-01-29T13:06:44Z",
+          "creator": "ctanase@mozilla.com",
+          "creator_detail": {
+            "email": "ctanase@mozilla.com",
+            "id": 707939,
+            "name": "ctanase@mozilla.com",
+            "nick": "ctanase",
+            "real_name": "Calin Tanase"
+          },
+          "depends_on": [
+            1856507
+          ],
+          "dupe_of": null,
+          "duplicates": [],
+          "flags": [],
+          "groups": [],
+          "id": 1944547,
+          "is_cc_accessible": true,
+          "is_confirmed": true,
+          "is_creator_accessible": true,
+          "is_open": true,
+          "keywords": [
+            "webcompat:needs-diagnosis",
+            "webcompat:site-report"
+          ],
+          "last_change_time": "2026-05-22T08:08:26Z",
+          "mentors": [],
+          "mentors_detail": [],
+          "op_sys": "Windows 10",
+          "platform": "Desktop",
+          "priority": "P2",
+          "product": "Web Compatibility",
+          "qa_contact": "",
+          "regressed_by": [],
+          "regressions": [],
+          "resolution": "",
+          "see_also": [
+            "https://github.com/webcompat/web-bugs/issues/146005"
+          ],
+          "severity": "S2",
+          "status": "NEW",
+          "summary": "notebooklm.google.com - Unable to speak, stuck loading whenever you try to join the discussion in \"Interactive mode\"",
+          "target_milestone": "---",
+          "type": "defect",
+          "url": "https://notebooklm.google.com/",
+          "version": "unspecified",
+          "votes": 0,
+          "whiteboard": "[webcompat-source:web-bugs][webcompat:sightline][webcompat:core]"
+        }
+      ],
+      "faults": []
+    },
+    "comments": {
+      "bugs": {
+        "1944547": {
+          "comments": [
+            {
+              "attachment_id": null,
+              "author": "ctanase@mozilla.com",
+              "bug_id": 1944547,
+              "count": 0,
+              "creation_time": "2025-01-29T13:06:44Z",
+              "creator": "ctanase@mozilla.com",
+              "id": 17321887,
+              "is_private": false,
+              "raw_text": "**Environment:**\nOperating system: Windows 10\nFirefox version: Firefox 133.0/134/136\n\n**Preconditions:**\n- Must be logged in with a google account\n\n**Steps to reproduce:**\n1. Go to https://notebooklm.google.com/notebook\n2. Open a note or create a new one. (Click on the \"+ Create new\" button -> Click on \"Copied text\" from \"Paste text\" -> Type a subject or paste any relevant text and click \"Insert\")\n3. Click on \"Interactive mode (BETA)\" button located on the right side of the page below the \"Audio Overview\" section. (button is only visible if the conversation was generated, if you did not generate it yet, click on \"Generate\" and the button will appear afterwards)\n4. Wait for it to load. (it might load slower, if it fails to load, refresh the page and try again)\n5. Click the play button.\n6. Click on \"Join\".\n7. Observe the behavior.\n\n**Expected Behavior:**\nAble to to speak.\n\n**Actual Behavior:**\nStuck loading.\n\n**Notes:**\n- Reproduces regardless of the status of ETP\n- Reproduces in firefox-nightly, and firefox-release\n- Does not reproduce in chrome\n\nCreated from https://github.com/webcompat/web-bugs/issues/146005",
+              "reactions": {},
+              "tags": [],
+              "text": "**Environment:**\nOperating system: Windows 10\nFirefox version: Firefox 133.0/134/136\n\n**Preconditions:**\n- Must be logged in with a google account\n\n**Steps to reproduce:**\n1. Go to https://notebooklm.google.com/notebook\n2. Open a note or create a new one. (Click on the \"+ Create new\" button -> Click on \"Copied text\" from \"Paste text\" -> Type a subject or paste any relevant text and click \"Insert\")\n3. Click on \"Interactive mode (BETA)\" button located on the right side of the page below the \"Audio Overview\" section. (button is only visible if the conversation was generated, if you did not generate it yet, click on \"Generate\" and the button will appear afterwards)\n4. Wait for it to load. (it might load slower, if it fails to load, refresh the page and try again)\n5. Click the play button.\n6. Click on \"Join\".\n7. Observe the behavior.\n\n**Expected Behavior:**\nAble to to speak.\n\n**Actual Behavior:**\nStuck loading.\n\n**Notes:**\n- Reproduces regardless of the status of ETP\n- Reproduces in firefox-nightly, and firefox-release\n- Does not reproduce in chrome\n\nCreated from https://github.com/webcompat/web-bugs/issues/146005",
+              "time": "2025-01-29T13:06:44Z"
+            },
+            {
+              "attachment_id": 9462501,
+              "author": "ctanase@mozilla.com",
+              "bug_id": 1944547,
+              "count": 1,
+              "creation_time": "2025-01-29T13:16:47Z",
+              "creator": "ctanase@mozilla.com",
+              "id": 17321903,
+              "is_private": false,
+              "raw_text": "",
+              "reactions": {},
+              "tags": [],
+              "text": "Created attachment 9462501\nFF vs Chrome.png",
+              "time": "2025-01-29T13:16:47Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "sky@mozilla.com",
+              "bug_id": 1944547,
+              "count": 2,
+              "creation_time": "2025-01-29T15:14:21Z",
+              "creator": "sky@mozilla.com",
+              "id": 17322120,
+              "is_private": false,
+              "raw_text": "Probably but 1856507, but let's verify.",
+              "reactions": {},
+              "tags": [],
+              "text": "Probably but 1856507, but let's verify.",
+              "time": "2025-01-29T15:14:21Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "jmathies@mozilla.com",
+              "bug_id": 1944547,
+              "count": 3,
+              "creation_time": "2025-02-05T17:52:28Z",
+              "creator": "jmathies@mozilla.com",
+              "id": 17333824,
+              "is_private": false,
+              "raw_text": "It's using webrtc somehow for handling the conversationing. When I clicked join, the button greyed out, and I was introduced, but the speech recognition didn't work. There were no console errors, which was interesting. I'd also guess bug 1856507.",
+              "reactions": {},
+              "tags": [],
+              "text": "It's using webrtc somehow for handling the conversationing. When I clicked join, the button greyed out, and I was introduced, but the speech recognition didn't work. There were no console errors, which was interesting. I'd also guess bug 1856507.",
+              "time": "2025-02-05T17:52:28Z"
+            }
+          ]
+        }
+      },
+      "comments": {}
+    },
+    "history": {
+      "bugs": [
+        {
+          "alias": null,
+          "history": [
+            {
+              "changes": [
+                {
+                  "added": "@@ -1 +1,7 @@\n-\n+platform:windows,mac,linux,android\r\n+impact:feature-broken\r\n+configuration:general\r\n+affects:all\r\n+branch:release\r\n+diagnosis-team:media\r\n+user-impact-score:300\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                },
+                {
+                  "added": "P2",
+                  "field_name": "priority",
+                  "removed": "--"
+                },
+                {
+                  "added": "S2",
+                  "field_name": "severity",
+                  "removed": "--"
+                },
+                {
+                  "added": "dschubert@mozilla.com",
+                  "field_name": "cc",
+                  "removed": ""
+                },
+                {
+                  "added": "webcompat:needs-diagnosis",
+                  "field_name": "keywords",
+                  "removed": ""
+                },
+                {
+                  "added": "6",
+                  "field_name": "cf_webcompat_score",
+                  "removed": "---"
+                },
+                {
+                  "added": "P2",
+                  "field_name": "cf_webcompat_priority",
+                  "removed": "---"
+                }
+              ],
+              "when": "2025-01-29T15:14:21Z",
+              "who": "sky@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "",
+                  "field_name": "keywords",
+                  "removed": "webcompat:needs-diagnosis"
+                }
+              ],
+              "when": "2025-02-05T17:52:28Z",
+              "who": "jmathies@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "7",
+                  "field_name": "cf_webcompat_score",
+                  "removed": "6"
+                }
+              ],
+              "when": "2025-09-03T13:53:40Z",
+              "who": "release-mgmt-account-bot@mozilla.tld"
+            },
+            {
+              "changes": [
+                {
+                  "added": "@@ -1,7 +1,7 @@\n-platform:windows,mac,linux,android\r\n+platform:windows,mac,linux,android\n-impact:feature-broken\r\n+impact:feature-broken\n-configuration:general\r\n+configuration:general\n-affects:all\r\n+affects:all\n-branch:release\r\n+branch:release\n-diagnosis-team:media\r\n+diagnosis-team:media\n-user-impact-score:300\n+user-impact-score:600\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                }
+              ],
+              "when": "2025-09-15T16:56:38Z",
+              "who": "release-mgmt-account-bot@mozilla.tld"
+            },
+            {
+              "changes": [
+                {
+                  "added": "[webcompat-source:web-bugs][webcompat:sightline][webcompat:core]",
+                  "field_name": "whiteboard",
+                  "removed": "[webcompat-source:web-bugs]"
+                }
+              ],
+              "when": "2026-05-07T20:44:50Z",
+              "who": "release-mgmt-account-bot@mozilla.tld"
+            },
+            {
+              "changes": [
+                {
+                  "added": "@@ -4,4 +4,4 @@\n affects:all\n branch:release\n diagnosis-team:media\n-user-impact-score:600\n+user-impact-score:900\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                },
+                {
+                  "added": "P1",
+                  "field_name": "cf_webcompat_priority",
+                  "removed": "P2"
+                },
+                {
+                  "added": "8",
+                  "field_name": "cf_webcompat_score",
+                  "removed": "7"
+                }
+              ],
+              "when": "2026-05-13T14:33:33Z",
+              "who": "release-mgmt-account-bot@mozilla.tld"
+            },
+            {
+              "changes": [
+                {
+                  "added": "@@ -1,7 +1,7 @@\n-platform:windows,mac,linux,android\n-impact:feature-broken\n-configuration:general\n-affects:all\n-branch:release\n-diagnosis-team:media\n+platform:windows,mac,linux,android\r\n+impact:feature-broken\r\n+configuration:general\r\n+affects:all\r\n+branch:release\r\n+diagnosis-team:media\r\n user-impact-score:900\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                },
+                {
+                  "added": "1856507",
+                  "field_name": "blocks",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-05-19T16:01:36Z",
+              "who": "jmathies@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "",
+                  "field_name": "blocks",
+                  "removed": "1856507"
+                },
+                {
+                  "added": "1856507",
+                  "field_name": "depends_on",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-05-21T14:31:59Z",
+              "who": "james@hoppipolla.co.uk"
+            },
+            {
+              "changes": [
+                {
+                  "added": "@@ -3,5 +3,5 @@\n configuration:general\r\n affects:all\r\n branch:release\r\n-diagnosis-team:media\r\n+diagnosis-team:ml\r\n-user-impact-score:900\n+user-impact-score:600\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                },
+                {
+                  "added": "bchauvet@mozilla.com",
+                  "field_name": "cc",
+                  "removed": ""
+                },
+                {
+                  "added": "webcompat:needs-diagnosis",
+                  "field_name": "keywords",
+                  "removed": ""
+                },
+                {
+                  "added": "P2",
+                  "field_name": "cf_webcompat_priority",
+                  "removed": "P1"
+                },
+                {
+                  "added": "7",
+                  "field_name": "cf_webcompat_score",
+                  "removed": "8"
+                }
+              ],
+              "when": "2026-05-21T15:31:39Z",
+              "who": "bchauvet@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "@@ -1,7 +1,7 @@\n-platform:windows,mac,linux,android\r\n+platform:windows,mac,linux,android\n-impact:feature-broken\r\n+impact:feature-broken\n-configuration:general\r\n+configuration:general\n-affects:all\r\n+affects:all\n-branch:release\r\n+branch:release\n-diagnosis-team:ml\r\n+diagnosis-team:ml\n-user-impact-score:600\n+user-impact-score:900\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                },
+                {
+                  "added": "P1",
+                  "field_name": "cf_webcompat_priority",
+                  "removed": "P2"
+                },
+                {
+                  "added": "8",
+                  "field_name": "cf_webcompat_score",
+                  "removed": "7"
+                }
+              ],
+              "when": "2026-05-22T08:08:26Z",
+              "who": "release-mgmt-account-bot@mozilla.tld"
+            }
+          ],
+          "id": 1944547
+        }
+      ]
+    }
+  },
+  "show_bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1944547"
+}

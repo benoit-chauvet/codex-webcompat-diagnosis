@@ -1,0 +1,1441 @@
+{
+  "task": "featurePage",
+  "browser": "chrome",
+  "executablePath": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+  "requestedUrl": "https://dev.facetec.com/compatibility",
+  "finalUrl": "https://dev.facetec.com/compatibility",
+  "httpStatus": 200,
+  "navigationError": null,
+  "viewport": {
+    "width": 1280,
+    "height": 900
+  },
+  "events": {
+    "console": [
+      {
+        "type": "info",
+        "text": "[react-ga] called ga('send', 'pageview', path);"
+      },
+      {
+        "type": "info",
+        "text": "[react-ga] with path: https://dev.facetec.com/compatibility"
+      }
+    ],
+    "pageErrors": [],
+    "requestFailures": [
+      {
+        "url": "https://www.google.com/ccm/collect?rcb=9&frm=0&ae=g&auid=50286635.1780152569&dt=FaceTec%20-%20Developer%20Account&en=page_view&dl=https%3A%2F%2Fdev.facetec.com%2Fcompatibility&scrsrc=www.googletagmanager.com&rnd=1966557879.1780152569&navt=n&npa=1&ep.ads_data_redaction=0&gtm=45He65r2v9249013120za200zd9249013120xea&gcd=13l3l3l2l1l1&dma_cps=a&dma=1&tag_exp=0~115938465~115938469~116701381~119027222~119034491&apve=1&apvf=f&apvc=1&tft=1780152568851&tfd=738",
+        "method": "POST",
+        "resourceType": "fetch",
+        "failure": {
+          "errorText": "net::ERR_ABORTED"
+        }
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?rcb=11&frm=0&auid=50286635.1780152569&dt=FaceTec%20-%20Developer%20Account&en=page_view&dl=https%3A%2F%2Fdev.facetec.com%2Fcompatibility&scrsrc=www.googletagmanager.com&rnd=1966557879.1780152569&navt=n&npa=1&gtm=45be65r2v9178799672z89249013120za20gzb9249013120zd9249013120xec&gcd=13l3l3l2l1l1&dma_cps=a&dma=1&tag_exp=0~115938465~115938468~116701381~119034491&apve=1&apvf=f&apvc=0&tids=AW-650825835&tid=AW-650825835&tft=1780152568962&tfd=849",
+        "method": "POST",
+        "resourceType": "fetch",
+        "failure": {
+          "errorText": "net::ERR_ABORTED"
+        }
+      },
+      {
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-BBJFE4TKLB&gtm=45je65r2v9125846947za20g&_p=1780152568648&gcd=13l3l3l2l2l1&npa=0&dma_cps=a&dma=1&_eu=ABAI&are=1&cid=647476386.1780152569&frm=0&pscdl=noapi&rcb=16&sr=800x600&uaa=arm&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=macOS&uapv=26.5.0&uaw=0&ul=en-gb&_s=1&tag_exp=0~115938465~115938469~119027222~119034491&dl=https%3A%2F%2Fdev.facetec.com%2Fcompatibility&dp=https%3A%2F%2Fdev.facetec.com%2Fcompatibility&dt=FaceTec%20-%20Developer%20Account&sid=1780152569&sct=1&seg=0&_tu=wAQ&en=page_view&_fv=1&_ss=1&_ee=1&tfd=1292",
+        "method": "POST",
+        "resourceType": "fetch",
+        "failure": {
+          "errorText": "net::ERR_ABORTED"
+        }
+      }
+    ]
+  },
+  "page": {
+    "url": "https://dev.facetec.com/compatibility",
+    "title": "Compatibility - FaceTec",
+    "readyState": "complete",
+    "scrollX": 0,
+    "scrollY": 0,
+    "viewport": {
+      "innerWidth": 1280,
+      "innerHeight": 900,
+      "devicePixelRatio": 1
+    },
+    "documentElement": {
+      "clientWidth": 1280,
+      "clientHeight": 900,
+      "scrollWidth": 1280,
+      "scrollHeight": 1662
+    },
+    "bodyTextSample": "Compatibility\n\nFaceTec Device SDKs are compatible with most front-facing camera devices, and the FaceTec Server is supported on Windows, Mac, and Linux machines via Docker.\n\nAndroid SDK\n\nCompatible with ALL Devices with a Front-Facing Camera, Android 5+, armv7 or arm64.\n\nBrowser SDK\n\nCompatible with ALL Devices with a Front-Facing Camera on Supported Browsers, including laptops and mobile devices. See the matrix below for Browser compatibility.\n\niOS SDK\n\nCompatible with ALL Devices iOS 12+.\n\nFaceTec Server\n\nThe FaceTec Server is a Linux container supported by all major platforms via Docker.\n\nImportant Note: Windows Users may need to perform additional steps when running Linux Docker Containers on a Windows Host Machine. FaceTec recommends using a Linux Host Machine for an optimal deployment.\nCompatibility Matrix\n\nImportant Note: If you experience difficulties proving Liveness, this could be due to the Device running on an Insecure Environment, Malware, or Device Compatibility-related Behaviors. In these scenarios, FaceTec recommends trying to prove Liveness on a different Device as this will likely resolve the problem allowing you to successfully prove Liveness. Please reach out to the FaceTec Support if the behavior persists.\n\nYOUR DEVELOPER ACCOUNT\nAccount Info & Encryption Keys\nDemo Sessions Dashboard\nDEVELOPER GUIDES\nArchitecture: Features & Options\nCompatibility: Devices & Server\nTechnical & Hardware Details\nUX, Themes & Branding\nText & Language Editing\nOCR Templates & Creator\nSuccess Rates, Biases & Diversity\n2D Image Guidelines\nDEVICE SDK DETAILS\nGetting Started\nDown"
+  },
+  "taskResult": {
+    "screenshots": {
+      "page": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2038198/probe_chrome148_facetec/feature_page.png"
+    },
+    "featureSupport": {
+      "speechRecognition": true,
+      "webkitSpeechRecognition": true,
+      "showOpenFilePicker": true,
+      "launchQueue": true,
+      "serviceWorker": true,
+      "getUserMedia": true,
+      "credentials": true,
+      "clipboardRead": true,
+      "pictureInPictureEnabled": true,
+      "webkitSupportsFullscreen": true,
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/148.0.0.0 Safari/537.36"
+    },
+    "visible": [
+      {
+        "index": 0,
+        "tag": "div",
+        "label": "Compatibility FaceTec Device SDKs are compatible with most front-facing camera devices, and the FaceTec Server is supported on Windows, Mac, and Linux machines via Docker. Android SDK Compatible with ALL Devices with a Front-Facing Camera, Android 5+, armv7 or arm64. Browser SDK Compatible with ALL Devices with a Front-Facing Camera on Supported Browsers, including laptops and mobile devices. See ",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 900
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 1,
+        "tag": "div",
+        "label": "Compatibility FaceTec Device SDKs are compatible with most front-facing camera devices, and the FaceTec Server is supported on Windows, Mac, and Linux machines via Docker. Android SDK Compatible with ALL Devices with a Front-Facing Camera, Android 5+, armv7 or arm64. Browser SDK Compatible with ALL Devices with a Front-Facing Camera on Supported Browsers, including laptops and mobile devices. See ",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 900
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 4,
+        "tag": "div",
+        "label": "Compatibility FaceTec Device SDKs are compatible with most front-facing camera devices, and the FaceTec Server is supported on Windows, Mac, and Linux machines via Docker. Android SDK Compatible with ALL Devices with a Front-Facing Camera, Android 5+, armv7 or arm64. Browser SDK Compatible with ALL Devices with a Front-Facing Camera on Supported Browsers, including laptops and mobile devices. See ",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 900
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 5,
+        "tag": "div",
+        "label": "Compatibility FaceTec Device SDKs are compatible with most front-facing camera devices, and the FaceTec Server is supported on Windows, Mac, and Linux machines via Docker. Android SDK Compatible with ALL Devices with a Front-Facing Camera, Android 5+, armv7 or arm64. Browser SDK Compatible with ALL Devices with a Front-Facing Camera on Supported Browsers, including laptops and mobile devices. See ",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 900
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 6,
+        "tag": "div",
+        "label": "Compatibility FaceTec Device SDKs are compatible with most front-facing camera devices, and the FaceTec Server is supported on Windows, Mac, and Linux machines via Docker. Android SDK Compatible with ALL Devices with a Front-Facing Camera, Android 5+, armv7 or arm64. Browser SDK Compatible with ALL Devices with a Front-Facing Camera on Supported Browsers, including laptops and mobile devices. See ",
+        "rect": {
+          "x": 265,
+          "y": 56,
+          "width": 1015,
+          "height": 1536.1875
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 7,
+        "tag": "div",
+        "label": "Compatibility FaceTec Device SDKs are compatible with most front-facing camera devices, and the FaceTec Server is supported on Windows, Mac, and Linux machines via Docker. Android SDK Compatible with ALL Devices with a Front-Facing Camera, Android 5+, armv7 or arm64. Browser SDK Compatible with ALL Devices with a Front-Facing Camera on Supported Browsers, including laptops and mobile devices. See ",
+        "rect": {
+          "x": 295,
+          "y": 86,
+          "width": 955,
+          "height": 1446.1875
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 9,
+        "tag": "div",
+        "label": "Compatibility FaceTec Device SDKs are compatible with most front-facing camera devices, and the FaceTec Server is supported on Windows, Mac, and Linux machines via Docker. Android SDK Compatible with ALL Devices with a Front-Facing Camera, Android 5+, armv7 or arm64. Browser SDK Compatible with ALL Devices with a Front-Facing Camera on Supported Browsers, including laptops and mobile devices. See ",
+        "rect": {
+          "x": 295,
+          "y": 86,
+          "width": 955,
+          "height": 1446.1875
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 10,
+        "tag": "div",
+        "label": "Compatibility row",
+        "rect": {
+          "x": 283,
+          "y": 86,
+          "width": 979,
+          "height": 37
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 11,
+        "tag": "div",
+        "label": "Compatibility col-8",
+        "rect": {
+          "x": 283,
+          "y": 86,
+          "width": 652.65625,
+          "height": 37
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 12,
+        "tag": "div",
+        "label": "Compatibility title",
+        "rect": {
+          "x": 295,
+          "y": 91,
+          "width": 628.65625,
+          "height": 27
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 13,
+        "tag": "span",
+        "label": "fa fa-list fa fa-list",
+        "rect": {
+          "x": 295,
+          "y": 91,
+          "width": 27,
+          "height": 27
+        },
+        "visible": true,
+        "display": "inline",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 14,
+        "tag": "h1",
+        "label": "Compatibility",
+        "rect": {
+          "x": 335,
+          "y": 90,
+          "width": 143.640625,
+          "height": 28
+        },
+        "visible": true,
+        "display": "inline",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 15,
+        "tag": "div",
+        "label": "col-4",
+        "rect": {
+          "x": 935.65625,
+          "y": 86,
+          "width": 326.328125,
+          "height": 37
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 16,
+        "tag": "div",
+        "label": "",
+        "rect": {
+          "x": 947.65625,
+          "y": 87,
+          "width": 302.328125,
+          "height": 34
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 17,
+        "tag": "div",
+        "label": "",
+        "rect": {
+          "x": 947.65625,
+          "y": 87,
+          "width": 302.328125,
+          "height": 34
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 18,
+        "tag": "div",
+        "label": "input-group",
+        "rect": {
+          "x": 947.65625,
+          "y": 87,
+          "width": 302.328125,
+          "height": 34
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 19,
+        "tag": "span",
+        "label": "input-group-addon",
+        "rect": {
+          "x": 1199.984375,
+          "y": 87,
+          "width": 50,
+          "height": 34
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 20,
+        "tag": "div",
+        "label": "FaceTec Device SDKs are compatible with most front-facing camera devices, and the FaceTec Server is supported on Windows, Mac, and Linux machines via Docker. Android SDK Compatible with ALL Devices with a Front-Facing Camera, Android 5+, armv7 or arm64. Browser SDK Compatible with ALL Devices with a Front-Facing Camera on Supported Browsers, including laptops and mobile devices. See the matrix bel",
+        "rect": {
+          "x": 295,
+          "y": 133,
+          "width": 955,
+          "height": 1399.1875
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 21,
+        "tag": "p",
+        "label": "FaceTec Device SDKs are compatible with most front-facing camera devices, and the FaceTec Server is supported on Windows, Mac, and Linux machines via Docker.",
+        "rect": {
+          "x": 295,
+          "y": 133,
+          "width": 955,
+          "height": 39.1875
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 22,
+        "tag": "h2",
+        "label": "Android SDK",
+        "rect": {
+          "x": 295,
+          "y": 213.1875,
+          "width": 955,
+          "height": 26.40625
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 23,
+        "tag": "a",
+        "label": "Android SDK android-sdk header-link",
+        "rect": {
+          "x": 295,
+          "y": 213.1875,
+          "width": 159.21875,
+          "height": 25
+        },
+        "visible": true,
+        "display": "inline",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 24,
+        "tag": "p",
+        "label": "Compatible with ALL Devices with a Front-Facing Camera, Android 5+, armv7 or arm64.",
+        "rect": {
+          "x": 295,
+          "y": 249.59375,
+          "width": 955,
+          "height": 19.59375
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 25,
+        "tag": "h2",
+        "label": "Browser SDK",
+        "rect": {
+          "x": 295,
+          "y": 310.1875,
+          "width": 955,
+          "height": 26.40625
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 26,
+        "tag": "a",
+        "label": "Browser SDK browser-sdk header-link",
+        "rect": {
+          "x": 295,
+          "y": 310.1875,
+          "width": 163.296875,
+          "height": 25
+        },
+        "visible": true,
+        "display": "inline",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 27,
+        "tag": "p",
+        "label": "Compatible with ALL Devices with a Front-Facing Camera on Supported Browsers, including laptops and mobile devices. See the matrix below for Browser compatibility.",
+        "rect": {
+          "x": 295,
+          "y": 346.59375,
+          "width": 955,
+          "height": 39.1875
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 28,
+        "tag": "h2",
+        "label": "iOS SDK",
+        "rect": {
+          "x": 295,
+          "y": 426.78125,
+          "width": 955,
+          "height": 26.40625
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 29,
+        "tag": "a",
+        "label": "iOS SDK ios-sdk header-link",
+        "rect": {
+          "x": 295,
+          "y": 426.78125,
+          "width": 116.25,
+          "height": 25
+        },
+        "visible": true,
+        "display": "inline",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 30,
+        "tag": "p",
+        "label": "Compatible with ALL Devices iOS 12+.",
+        "rect": {
+          "x": 295,
+          "y": 463.1875,
+          "width": 955,
+          "height": 19.59375
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 31,
+        "tag": "h2",
+        "label": "FaceTec Server",
+        "rect": {
+          "x": 295,
+          "y": 523.78125,
+          "width": 955,
+          "height": 26.40625
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 32,
+        "tag": "a",
+        "label": "FaceTec Server server-sdk header-link",
+        "rect": {
+          "x": 295,
+          "y": 523.78125,
+          "width": 187.3125,
+          "height": 25
+        },
+        "visible": true,
+        "display": "inline",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 33,
+        "tag": "p",
+        "label": "The FaceTec Server is a Linux container supported by all major platforms via Docker.",
+        "rect": {
+          "x": 295,
+          "y": 560.1875,
+          "width": 955,
+          "height": 19.59375
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 34,
+        "tag": "span",
+        "label": "Windows Users may need to perform additional steps when running Linux Docker Containers on a Windows Host Machine. FaceTec recommends using a Linux Host Machine for an optimal deployment.",
+        "rect": {
+          "x": 333,
+          "y": 628.78125,
+          "width": 862.296875,
+          "height": 40
+        },
+        "visible": true,
+        "display": "inline",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 35,
+        "tag": "h2",
+        "label": "Compatibility Matrix",
+        "rect": {
+          "x": 295,
+          "y": 738.78125,
+          "width": 955,
+          "height": 26.40625
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 36,
+        "tag": "a",
+        "label": "Compatibility Matrix compatibility-matrix header-link",
+        "rect": {
+          "x": 295,
+          "y": 738.78125,
+          "width": 235.109375,
+          "height": 25
+        },
+        "visible": true,
+        "display": "inline",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 37,
+        "tag": "p",
+        "label": "",
+        "rect": {
+          "x": 295,
+          "y": 775.1875,
+          "width": 955,
+          "height": 638.21875
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 38,
+        "tag": "img",
+        "label": "",
+        "rect": {
+          "x": 295,
+          "y": 775.1875,
+          "width": 955,
+          "height": 638.21875
+        },
+        "visible": true,
+        "display": "inline",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 46,
+        "tag": "div",
+        "label": "YOUR DEVELOPER ACCOUNT Account Info & Encryption Keys Demo Sessions Dashboard DEVELOPER GUIDES Architecture: Features & Options Compatibility: Devices & Server Technical & Hardware Details UX, Themes & Branding Text & Language Editing OCR Templates & Creator Success Rates, Biases & Diversity 2D Image Guidelines DEVICE SDK DETAILS Getting Started Download SDKs New Release Info & Notes Reducing Devi",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 265,
+          "height": 900
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 47,
+        "tag": "div",
+        "label": "YOUR DEVELOPER ACCOUNT Account Info & Encryption Keys Demo Sessions Dashboard DEVELOPER GUIDES Architecture: Features & Options Compatibility: Devices & Server Technical & Hardware Details UX, Themes & Branding Text & Language Editing OCR Templates & Creator Success Rates, Biases & Diversity 2D Image Guidelines DEVICE SDK DETAILS Getting Started Download SDKs New Release Info & Notes Reducing Devi",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 265,
+          "height": 1343
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 48,
+        "tag": "div",
+        "label": "breadcrumb",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 265,
+          "height": 50
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 49,
+        "tag": "a",
+        "label": "",
+        "rect": {
+          "x": 67.25,
+          "y": 11,
+          "width": 130.515625,
+          "height": 28
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 50,
+        "tag": "img",
+        "label": "home",
+        "rect": {
+          "x": 67.25,
+          "y": 11,
+          "width": 130.515625,
+          "height": 28
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "0.9"
+      },
+      {
+        "index": 51,
+        "tag": "div",
+        "label": "YOUR DEVELOPER ACCOUNT Account Info & Encryption Keys Demo Sessions Dashboard DEVELOPER GUIDES Architecture: Features & Options Compatibility: Devices & Server Technical & Hardware Details UX, Themes & Branding Text & Language Editing OCR Templates & Creator Success Rates, Biases & Diversity 2D Image Guidelines DEVICE SDK DETAILS Getting Started Download SDKs New Release Info & Notes Reducing Devi",
+        "rect": {
+          "x": 0,
+          "y": 57,
+          "width": 265,
+          "height": 1286
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 52,
+        "tag": "div",
+        "label": "YOUR DEVELOPER ACCOUNT Account Info & Encryption Keys Demo Sessions Dashboard DEVELOPER GUIDES Architecture: Features & Options Compatibility: Devices & Server Technical & Hardware Details UX, Themes & Branding Text & Language Editing OCR Templates & Creator Success Rates, Biases & Diversity 2D Image Guidelines DEVICE SDK DETAILS Getting Started Download SDKs New Release Info & Notes Reducing Devi",
+        "rect": {
+          "x": 0,
+          "y": 57,
+          "width": 265,
+          "height": 1286
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 53,
+        "tag": "div",
+        "label": "YOUR DEVELOPER ACCOUNT Account Info & Encryption Keys Demo Sessions Dashboard DEVELOPER GUIDES Architecture: Features & Options Compatibility: Devices & Server Technical & Hardware Details UX, Themes & Branding Text & Language Editing OCR Templates & Creator Success Rates, Biases & Diversity 2D Image Guidelines DEVICE SDK DETAILS Getting Started Download SDKs New Release Info & Notes Reducing Devi",
+        "rect": {
+          "x": 0,
+          "y": 57,
+          "width": 265,
+          "height": 1286
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 54,
+        "tag": "div",
+        "label": "YOUR DEVELOPER ACCOUNT menu-section",
+        "rect": {
+          "x": 0,
+          "y": 57,
+          "width": 265,
+          "height": 22
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 55,
+        "tag": "a",
+        "label": "Account Info & Encryption Keys",
+        "rect": {
+          "x": 0,
+          "y": 79,
+          "width": 265,
+          "height": 16
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 56,
+        "tag": "a",
+        "label": "Demo Sessions Dashboard",
+        "rect": {
+          "x": 0,
+          "y": 95,
+          "width": 265,
+          "height": 16
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 57,
+        "tag": "div",
+        "label": "DEVELOPER GUIDES menu-section",
+        "rect": {
+          "x": 0,
+          "y": 118,
+          "width": 265,
+          "height": 22
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 58,
+        "tag": "a",
+        "label": "Architecture: Features & Options",
+        "rect": {
+          "x": 0,
+          "y": 140,
+          "width": 265,
+          "height": 16
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 59,
+        "tag": "a",
+        "label": "Compatibility: Devices & Server menu-highlighted",
+        "rect": {
+          "x": 0,
+          "y": 156,
+          "width": 265,
+          "height": 16
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 60,
+        "tag": "a",
+        "label": "Technical & Hardware Details",
+        "rect": {
+          "x": 0,
+          "y": 172,
+          "width": 265,
+          "height": 16
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 61,
+        "tag": "a",
+        "label": "UX, Themes & Branding",
+        "rect": {
+          "x": 0,
+          "y": 188,
+          "width": 265,
+          "height": 16
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 62,
+        "tag": "a",
+        "label": "Text & Language Editing",
+        "rect": {
+          "x": 0,
+          "y": 204,
+          "width": 265,
+          "height": 16
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 63,
+        "tag": "a",
+        "label": "OCR Templates & Creator",
+        "rect": {
+          "x": 0,
+          "y": 220,
+          "width": 265,
+          "height": 16
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 64,
+        "tag": "a",
+        "label": "Success Rates, Biases & Diversity",
+        "rect": {
+          "x": 0,
+          "y": 236,
+          "width": 265,
+          "height": 16
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 65,
+        "tag": "a",
+        "label": "2D Image Guidelines",
+        "rect": {
+          "x": 0,
+          "y": 252,
+          "width": 265,
+          "height": 16
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 66,
+        "tag": "div",
+        "label": "DEVICE SDK DETAILS menu-section",
+        "rect": {
+          "x": 0,
+          "y": 275,
+          "width": 265,
+          "height": 22
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 67,
+        "tag": "a",
+        "label": "Getting Started",
+        "rect": {
+          "x": 0,
+          "y": 297,
+          "width": 265,
+          "height": 16
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 68,
+        "tag": "a",
+        "label": "Download SDKs",
+        "rect": {
+          "x": 0,
+          "y": 313,
+          "width": 265,
+          "height": 16
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 69,
+        "tag": "a",
+        "label": "New Release Info & Notes",
+        "rect": {
+          "x": 0,
+          "y": 329,
+          "width": 265,
+          "height": 16
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 71,
+        "tag": "a",
+        "label": "Reducing Device SDK Size",
+        "rect": {
+          "x": 0,
+          "y": 345,
+          "width": 265,
+          "height": 16
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 72,
+        "tag": "div",
+        "label": "API OVERVIEW menu-section",
+        "rect": {
+          "x": 0,
+          "y": 368,
+          "width": 265,
+          "height": 22
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 73,
+        "tag": "a",
+        "label": "API Reference Guide",
+        "rect": {
+          "x": 0,
+          "y": 390,
+          "width": 265,
+          "height": 16
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 74,
+        "tag": "a",
+        "label": "API Call List",
+        "rect": {
+          "x": 0,
+          "y": 406,
+          "width": 265,
+          "height": 16
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 75,
+        "tag": "a",
+        "label": "Testing API",
+        "rect": {
+          "x": 0,
+          "y": 422,
+          "width": 265,
+          "height": 16
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 76,
+        "tag": "a",
+        "label": "Postman Test Suite",
+        "rect": {
+          "x": 0,
+          "y": 438,
+          "width": 265,
+          "height": 16
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 77,
+        "tag": "div",
+        "label": "SOFTWARE DETAILS menu-section",
+        "rect": {
+          "x": 0,
+          "y": 461,
+          "width": 265,
+          "height": 22
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 78,
+        "tag": "a",
+        "label": "FaceTec's Best Practices",
+        "rect": {
+          "x": 0,
+          "y": 483,
+          "width": 265,
+          "height": 16
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 79,
+        "tag": "a",
+        "label": "3D FaceScan/Map Encryption",
+        "rect": {
+          "x": 0,
+          "y": 499,
+          "width": 265,
+          "height": 16
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 80,
+        "tag": "a",
+        "label": "Audit Trail Images",
+        "rect": {
+          "x": 0,
+          "y": 515,
+          "width": 265,
+          "height": 16
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 81,
+        "tag": "a",
+        "label": "Client-Side Device Security",
+        "rect": {
+          "x": 0,
+          "y": 531,
+          "width": 265,
+          "height": 16
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 82,
+        "tag": "a",
+        "label": "3D FaceMap Interoperability",
+        "rect": {
+          "x": 0,
+          "y": 547,
+          "width": 265,
+          "height": 16
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 83,
+        "tag": "a",
+        "label": "3D FaceVectors: No Images (Free)",
+        "rect": {
+          "x": 0,
+          "y": 563,
+          "width": 265,
+          "height": 16
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 84,
+        "tag": "a",
+        "label": "UR Codes - Biometric Barcodes",
+        "rect": {
+          "x": 0,
+          "y": 579,
+          "width": 265,
+          "height": 16
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 85,
+        "tag": "div",
+        "label": "--- PRODUCT FEATURES --- menu-section",
+        "rect": {
+          "x": 0,
+          "y": 602,
+          "width": 265,
+          "height": 22
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 86,
+        "tag": "div",
+        "label": "3D:3D FEATURES menu-section",
+        "rect": {
+          "x": 0,
+          "y": 631,
+          "width": 265,
+          "height": 22
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 87,
+        "tag": "a",
+        "label": "3D Liveness Detection (Paid)",
+        "rect": {
+          "x": 0,
+          "y": 653,
+          "width": 265,
+          "height": 16
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 88,
+        "tag": "a",
+        "label": "3D:3D Face Matching (Free)",
+        "rect": {
+          "x": 0,
+          "y": 669,
+          "width": 265,
+          "height": 16
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 89,
+        "tag": "div",
+        "label": "FACE MATCHING & VERIFICATION menu-section",
+        "rect": {
+          "x": 0,
+          "y": 692,
+          "width": 265,
+          "height": 22
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 90,
+        "tag": "a",
+        "label": "3D:2D Photo ID Matching (Free)",
+        "rect": {
+          "x": 0,
+          "y": 714,
+          "width": 265,
+          "height": 16
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 91,
+        "tag": "a",
+        "label": "3D:2D Portrait / NFC Match (Free)",
+        "rect": {
+          "x": 0,
+          "y": 730,
+          "width": 265,
+          "height": 16
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 92,
+        "tag": "a",
+        "label": "3D:2D 3rd-Party ID Image (Free)",
+        "rect": {
+          "x": 0,
+          "y": 746,
+          "width": 265,
+          "height": 16
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 93,
+        "tag": "a",
+        "label": "3D:2D Profile Pic Matching (Free)",
+        "rect": {
+          "x": 0,
+          "y": 762,
+          "width": 265,
+          "height": 16
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 94,
+        "tag": "a",
+        "label": "3D:2D Kiosk POS Matching (Free)",
+        "rect": {
+          "x": 0,
+          "y": 778,
+          "width": 265,
+          "height": 16
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 95,
+        "tag": "div",
+        "label": "AGE ESTIMATION menu-section",
+        "rect": {
+          "x": 0,
+          "y": 801,
+          "width": 265,
+          "height": 22
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 96,
+        "tag": "a",
+        "label": "Age Check from 3D Selfie (Free)",
+        "rect": {
+          "x": 0,
+          "y": 823,
+          "width": 265,
+          "height": 16
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 97,
+        "tag": "div",
+        "label": "PHOTO ID SCAN menu-section",
+        "rect": {
+          "x": 0,
+          "y": 846,
+          "width": 265,
+          "height": 22
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 98,
+        "tag": "a",
+        "label": "OCR Photo ID Document (Free)",
+        "rect": {
+          "x": 0,
+          "y": 868,
+          "width": 265,
+          "height": 16
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 99,
+        "tag": "a",
+        "label": "3D:2D Photo ID Matching (Free)",
+        "rect": {
+          "x": 0,
+          "y": 884,
+          "width": 265,
+          "height": 16
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 125,
+        "tag": "div",
+        "label": "sidebar-down-arrow",
+        "rect": {
+          "x": 240,
+          "y": 865,
+          "width": 17.15625,
+          "height": 20
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      }
+    ]
+  }
+}

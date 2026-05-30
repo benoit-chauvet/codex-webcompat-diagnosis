@@ -1,0 +1,56 @@
+{
+  "videoPath": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2031963/attachments/9570128_FF-vs-Chrome.mp4",
+  "metadata": {
+    "duration": 41.252344,
+    "videoWidth": 354,
+    "videoHeight": 800,
+    "error": null
+  },
+  "frames": [
+    {
+      "requestedTime": 0,
+      "screenshot": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2031963/attachments/frames/frame_0s.png",
+      "seekResult": {
+        "currentTime": 0,
+        "readyState": 4,
+        "error": null
+      }
+    },
+    {
+      "requestedTime": 2,
+      "screenshot": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2031963/attachments/frames/frame_2s.png",
+      "seekResult": {
+        "currentTime": 2,
+        "readyState": 4,
+        "error": null
+      }
+    },
+    {
+      "requestedTime": 5,
+      "screenshot": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2031963/attachments/frames/frame_5s.png",
+      "seekResult": {
+        "currentTime": 5,
+        "readyState": 4,
+        "error": null
+      }
+    },
+    {
+      "requestedTime": 10,
+      "screenshot": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2031963/attachments/frames/frame_10s.png",
+      "seekResult": {
+        "currentTime": 10,
+        "readyState": 4,
+        "error": null
+      }
+    },
+    {
+      "requestedTime": 20,
+      "screenshot": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2031963/attachments/frames/frame_20s.png",
+      "seekResult": {
+        "currentTime": 20,
+        "readyState": 4,
+        "error": null
+      }
+    }
+  ]
+}

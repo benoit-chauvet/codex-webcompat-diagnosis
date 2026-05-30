@@ -1,0 +1,1871 @@
+{
+  "task": "featurePage",
+  "browser": "firefox",
+  "executablePath": "/Applications/Firefox.app/Contents/MacOS/firefox",
+  "requestedUrl": "https://www.tauron.pl/",
+  "finalUrl": "https://www.tauron.pl/dla-domu",
+  "httpStatus": 200,
+  "navigationError": null,
+  "viewport": {
+    "width": 1280,
+    "height": 900
+  },
+  "events": {
+    "console": [
+      {
+        "type": "warn",
+        "text": "Google Maps JavaScript API has been loaded directly without loading=async. This can result in suboptimal performance. For best-practice loading patterns please see https://goo.gle/js-api-loading"
+      }
+    ],
+    "pageErrors": [
+      {
+        "name": "Error",
+        "message": "Cookie “__Secure-YEC” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “_fbp” has been rejected for invalid domain."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “_fbp” has been rejected for invalid domain."
+      }
+    ],
+    "requestFailures": [
+      {
+        "url": "https://measure.tauron.pl/_/set_cookie?val=DB%2FgX47%2F46ky5o5cmK%2BT9Ee7cYJz6kHeFzf%2Fv39Ro%2FzP4Vu2lHeTevqwehj71K%2Fgcne6SAxlxyY%2FGQ4JEWCs9ntXh63pzVLHlfN74YKXCg3eu1SGCWPq%2Bm3ldcf7UeYwmITo341TJ6tNaekJm3mOb73HuJvoGyDFerQcZV3fqHacBFv6tX%2BOFaVTu2YfmsV1NO05A4KsySdtVK97HaVaTxNskVQPbrQkMQGA7%2BI%3D&path=%2F",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      }
+    ]
+  },
+  "page": {
+    "url": "https://www.tauron.pl/dla-domu",
+    "title": "TAURON Polska Energia - Dla domu | TAURON",
+    "readyState": "complete",
+    "scrollX": 0,
+    "scrollY": 0,
+    "viewport": {
+      "innerWidth": 1280,
+      "innerHeight": 900,
+      "devicePixelRatio": 1
+    },
+    "documentElement": {
+      "clientWidth": 1280,
+      "clientHeight": 900,
+      "scrollWidth": 1280,
+      "scrollHeight": 4461
+    },
+    "bodyTextSample": "Przejdź do menu głównego\nPrzejdź do elementu\nPrzejdź do głównej części strony\nUWAGA! Cyberprzestępcy podszywają się pod Grupę TAURON w kampaniach phishingowych.\nProsimy o zachowanie szczególnej ostrożności przy odczytywaniu wiadomości e-mail, kontaktach telefonicznych oraz nieudostępnianie swoich danych osobowych / teleadresowych / numeru konta.\n\n\nZamknij\nDom\nBiznes\nGrupa TAURON\nZaloguj się\nOferta Obsługa klienta\nAA+  Kontrast  Odczyt licznika  E-faktura  Zarejestruj się \nWiele możliwości na oszczędności?\n\nJasne, że w TAURONIE!\n\n\n\nSprawdź\nNastaw się na oszczędzanie\nz Tanimi godzinami od TAURONA\n\nDopasuj rytm dnia do tańszych stref i oszczędzaj\n\n\n\n\nDowiedz się więcej\n\n\nProsta faktura\n\nZobacz nowy wzór, gdzie każdy szczegół jest na swoim miejscu.\n\nSprawdź\nWłącz Nową Energię na lata!\n\nZyskaj nawet 320 zł bonusów klienckich.\n\nDowiedz się więcej\nJasne, że oszczędności\nTanie godziny\nUłatwiamy czytanie faktur\nPrzełącz się na Nową Energię\n\nZałatw swoje sprawy\nbez wychodzenia z domu\n\nSprawdź nowe i wygodne rozwiązania.\n\nDoradca energetyczny\non-line\nWygodna e-faktura\nw TAURONIE\n\nAplikacja Mój TAURON\n\n20 zł bonusu za aktywację e-faktury w aplikacji Mój TAURON\n\nOdnowienie\ncennika\n\nOdnów cennik w ramach obowiązującej umowy\n\nMój TAURON\n\nWszystkie nowości w zasięgu ręki! Opłacaj rachunki i załatwiaj sprawy przez internet - zrób pierwszy krok online!\n\nPrzepisanie licznika prądu\n\nDowiedz się, jak najszybciej przepisać licznik prądu - całkiem online!\n\nOdczyt licznika prądu\n\nPodaj odczyt licznika przez Mój TAURON\n\nStrefa prosumenta\n\nSprawdź, co powinien wiedzieć każdy prosument.\n\nUsługi dla d"
+  },
+  "taskResult": {
+    "screenshots": {
+      "page": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2041585/probe_firefox151/feature_page.png"
+    },
+    "featureSupport": {
+      "speechRecognition": false,
+      "webkitSpeechRecognition": false,
+      "showOpenFilePicker": false,
+      "launchQueue": false,
+      "serviceWorker": true,
+      "getUserMedia": true,
+      "credentials": true,
+      "clipboardRead": true,
+      "webkitSupportsFullscreen": false,
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:151.0) Gecko/20100101 Firefox/151.0"
+    },
+    "visible": [
+      {
+        "index": 0,
+        "tag": "a",
+        "label": "Przejdź do menu głównego skip-link",
+        "rect": {
+          "x": -9999,
+          "y": 0,
+          "width": 182.63333129882812,
+          "height": 22.399993896484375
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 1,
+        "tag": "a",
+        "label": "Przejdź do elementu skip-link",
+        "rect": {
+          "x": -9999,
+          "y": 0,
+          "width": 137.5,
+          "height": 22.399993896484375
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 2,
+        "tag": "a",
+        "label": "Przejdź do głównej części strony skip-link",
+        "rect": {
+          "x": -9999,
+          "y": 0,
+          "width": 217.75,
+          "height": 22.399993896484375
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 12,
+        "tag": "div",
+        "label": "UWAGA! Cyberprzestępcy podszywają się pod Grupę TAURON w kampaniach phishingowych. Prosimy o zachowanie szczególnej ostrożności przy odczytywaniu wiadomości e-mail, kontaktach telefonicznych oraz nieudostępnianie swoich danych osobowych / teleadresowych / numeru konta. Zamknij alert-nice__box alert-nice__onlymobileheader alert-nice__expanddesktop box-0",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 129.8000030517578
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 15,
+        "tag": "div",
+        "label": "UWAGA! Cyberprzestępcy podszywają się pod Grupę TAURON w kampaniach phishingowych. Prosimy o zachowanie szczególnej ostrożności przy odczytywaniu wiadomości e-mail, kontaktach telefonicznych oraz nieudostępnianie swoich danych osobowych / teleadresowych / numeru konta. alert-nice__content",
+        "rect": {
+          "x": 61.5,
+          "y": 0,
+          "width": 1157,
+          "height": 129.8000030517578
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 16,
+        "tag": "div",
+        "label": "UWAGA! Cyberprzestępcy podszywają się pod Grupę TAURON w kampaniach phishingowych. Prosimy o zachowanie szczególnej ostrożności przy odczytywaniu wiadomości e-mail, kontaktach telefonicznych oraz nieudostępnianie swoich danych osobowych / teleadresowych / numeru konta. alert-nice__text",
+        "rect": {
+          "x": 61.5,
+          "y": 2,
+          "width": 1157,
+          "height": 125.80000305175781
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 17,
+        "tag": "span",
+        "label": "UWAGA! Cyberprzestępcy podszywają się pod Grupę TAURON w kampaniach phishingowych. header-box expand expanded",
+        "rect": {
+          "x": 61.5,
+          "y": 6,
+          "width": 1157,
+          "height": 33.69999694824219
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 18,
+        "tag": "div",
+        "label": "UWAGA! Cyberprzestępcy podszywają się pod Grupę TAURON w kampaniach phishingowych. sc-richtext",
+        "rect": {
+          "x": 61.5,
+          "y": 10.100006103515625,
+          "width": 699.4666748046875,
+          "height": 26
+        },
+        "visible": true,
+        "display": "inline",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 19,
+        "tag": "span",
+        "label": "Prosimy o zachowanie szczególnej ostrożności przy odczytywaniu wiadomości e-mail, kontaktach telefonicznych oraz nieudostępnianie swoich danych osobowych / teleadresowych / numeru konta. text-box",
+        "rect": {
+          "x": 61.5,
+          "y": 39.69999694824219,
+          "width": 1157,
+          "height": 84.10000610351562
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 20,
+        "tag": "div",
+        "label": "Prosimy o zachowanie szczególnej ostrożności przy odczytywaniu wiadomości e-mail, kontaktach telefonicznych oraz nieudostępnianie swoich danych osobowych / teleadresowych / numeru konta. sc-richtext",
+        "rect": {
+          "x": 61.5,
+          "y": 43.80000305175781,
+          "width": 1143.800048828125,
+          "height": 51.19999694824219
+        },
+        "visible": true,
+        "display": "inline",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 21,
+        "tag": "button",
+        "label": "Zamknij alert-nice__close icon-func_closer icon--after",
+        "rect": {
+          "x": 1192.316650390625,
+          "y": 5,
+          "width": 77.68333435058594,
+          "height": 36
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 29,
+        "tag": "div",
+        "label": "Dom Biznes Grupa TAURON Zaloguj się Oferta Obsługa klienta AA+ Kontrast Odczyt licznika E-faktura Zarejestruj się menu container",
+        "rect": {
+          "x": 0,
+          "y": 129.8000030517578,
+          "width": 1280,
+          "height": 109
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 30,
+        "tag": "div",
+        "label": "Dom Biznes Grupa TAURON Zaloguj się Oferta Obsługa klienta AA+ Kontrast Odczyt licznika E-faktura Zarejestruj się container__wrapper menu__wrapper menu__wrapper_alerts",
+        "rect": {
+          "x": 0,
+          "y": 129.8000030517578,
+          "width": 1280,
+          "height": 109
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 31,
+        "tag": "a",
+        "label": "Dom menu__top-url is-active",
+        "rect": {
+          "x": 130,
+          "y": 150.8000030517578,
+          "width": 32.133331298828125,
+          "height": 24
+        },
+        "visible": true,
+        "display": "inline",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 32,
+        "tag": "a",
+        "label": "Wybierz ofertę dla biznesu Biznes menu__top-url",
+        "rect": {
+          "x": 183.13333129882812,
+          "y": 150.8000030517578,
+          "width": 45.25,
+          "height": 24
+        },
+        "visible": true,
+        "display": "inline",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 33,
+        "tag": "a",
+        "label": "Grupa TAURON menu__top-url",
+        "rect": {
+          "x": 249.38333129882812,
+          "y": 150.8000030517578,
+          "width": 103.44999694824219,
+          "height": 24
+        },
+        "visible": true,
+        "display": "inline",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 34,
+        "tag": "div",
+        "label": "Zaloguj się Oferta Obsługa klienta AA+ Kontrast Odczyt licznika E-faktura Zarejestruj się menu__bottom",
+        "rect": {
+          "x": 0,
+          "y": 129.8000030517578,
+          "width": 1280,
+          "height": 109
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 35,
+        "tag": "a",
+        "label": "Strona Główna Strona Główna menu__mainpage-url",
+        "rect": {
+          "x": 0,
+          "y": 129.8000030517578,
+          "width": 109,
+          "height": 109
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 36,
+        "tag": "img",
+        "label": "Logo TAURON menu__logo lazyloaded",
+        "rect": {
+          "x": 0,
+          "y": 129.8000030517578,
+          "width": 109,
+          "height": 109
+        },
+        "visible": true,
+        "display": "inline",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 37,
+        "tag": "div",
+        "label": "Zaloguj się Oferta Obsługa klienta AA+ Kontrast Odczyt licznika E-faktura Zarejestruj się menu__flexcont",
+        "rect": {
+          "x": 109,
+          "y": 129.8000030517578,
+          "width": 1171,
+          "height": 109
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 47,
+        "tag": "div",
+        "label": "Zaloguj się menu__btncont menu__logincont is-active",
+        "rect": {
+          "x": 1158.86669921875,
+          "y": 147.8000030517578,
+          "width": 121.13333129882812,
+          "height": 34.05000305175781
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 48,
+        "tag": "a",
+        "label": "Zaloguj się menu__login-btn icon-lock",
+        "rect": {
+          "x": 1158.86669921875,
+          "y": 146.8000030517578,
+          "width": 121.13333129882812,
+          "height": 32
+        },
+        "visible": true,
+        "display": "inline",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 54,
+        "tag": "a",
+        "label": "Oferta menu__lvl-1-el",
+        "rect": {
+          "x": 130,
+          "y": 196.89999389648438,
+          "width": 60.03334045410156,
+          "height": 33
+        },
+        "visible": true,
+        "display": "inline",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 55,
+        "tag": "a",
+        "label": "Obsługa klienta menu__lvl-1-el",
+        "rect": {
+          "x": 222.23333740234375,
+          "y": 196.89999389648438,
+          "width": 147.7333221435547,
+          "height": 33
+        },
+        "visible": true,
+        "display": "inline",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 56,
+        "tag": "button",
+        "label": "Powiększ tekst AA+ menu__optcont-btn",
+        "rect": {
+          "x": 720.5833129882812,
+          "y": 152.8000030517578,
+          "width": 33.31666564941406,
+          "height": 18
+        },
+        "visible": true,
+        "display": "inline-block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 57,
+        "tag": "span",
+        "label": "A+ menu__optcont-bigtxt",
+        "rect": {
+          "x": 733.11669921875,
+          "y": 148.8000030517578,
+          "width": 20.7833251953125,
+          "height": 26
+        },
+        "visible": true,
+        "display": "inline",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 58,
+        "tag": "button",
+        "label": "Kontrast menu__optcont-btn menu__optcont-btn--cont icon-func_contrast",
+        "rect": {
+          "x": 765.2999877929688,
+          "y": 150.8000030517578,
+          "width": 83.06666564941406,
+          "height": 25
+        },
+        "visible": true,
+        "display": "inline-block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 59,
+        "tag": "a",
+        "label": "Odczyt licznika Odczyt licznika menu__optcont-btn",
+        "rect": {
+          "x": 859.7666625976562,
+          "y": 150.8000030517578,
+          "width": 99.26667785644531,
+          "height": 23
+        },
+        "visible": true,
+        "display": "inline",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 60,
+        "tag": "a",
+        "label": "E-faktura E-faktura menu__optcont-btn",
+        "rect": {
+          "x": 970.433349609375,
+          "y": 150.8000030517578,
+          "width": 65.05000305175781,
+          "height": 24
+        },
+        "visible": true,
+        "display": "inline",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 61,
+        "tag": "a",
+        "label": "Zarejestruj się Zarejestruj się menu__optcont-btn",
+        "rect": {
+          "x": 1046.88330078125,
+          "y": 150.8000030517578,
+          "width": 98.7166748046875,
+          "height": 24
+        },
+        "visible": true,
+        "display": "inline",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 63,
+        "tag": "div",
+        "label": "Wiele możliwości na oszczędności? Jasne, że w TAURONIE! Sprawdź Nastaw się na oszczędzanie z Tanimi godzinami od TAURONA Dopasuj rytm dnia do tańszych stref i oszczędzaj Dowiedz się więcej Prosta faktura Zobacz nowy wzór, gdzie każdy szczegół jest na swoim miejscu. Sprawdź Włącz Nową Energię na lata! Zyskaj nawet 320 zł bonusów klienckich. Dowiedz się więcej Jasne, że oszczędności Tanie godziny Uł",
+        "rect": {
+          "x": 0,
+          "y": 248.8000030517578,
+          "width": 1280,
+          "height": 3585.666748046875
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 64,
+        "tag": "div",
+        "label": "Wiele możliwości na oszczędności? Jasne, że w TAURONIE! Sprawdź Nastaw się na oszczędzanie z Tanimi godzinami od TAURONA Dopasuj rytm dnia do tańszych stref i oszczędzaj Dowiedz się więcej Prosta faktura Zobacz nowy wzór, gdzie każdy szczegół jest na swoim miejscu. Sprawdź Włącz Nową Energię na lata! Zyskaj nawet 320 zł bonusów klienckich. Dowiedz się więcej Jasne, że oszczędności Tanie godziny Uł",
+        "rect": {
+          "x": 0,
+          "y": 248.8000030517578,
+          "width": 1280,
+          "height": 3585.666748046875
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 65,
+        "tag": "div",
+        "label": "Wiele możliwości na oszczędności? Jasne, że w TAURONIE! Sprawdź Nastaw się na oszczędzanie z Tanimi godzinami od TAURONA Dopasuj rytm dnia do tańszych stref i oszczędzaj Dowiedz się więcej Prosta faktura Zobacz nowy wzór, gdzie każdy szczegół jest na swoim miejscu. Sprawdź Włącz Nową Energię na lata! Zyskaj nawet 320 zł bonusów klienckich. Dowiedz się więcej Jasne, że oszczędności Tanie godziny Uł",
+        "rect": {
+          "x": 0,
+          "y": 248.8000030517578,
+          "width": 1280,
+          "height": 3585.666748046875
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 66,
+        "tag": "div",
+        "label": "Wiele możliwości na oszczędności? Jasne, że w TAURONIE! Sprawdź Nastaw się na oszczędzanie z Tanimi godzinami od TAURONA Dopasuj rytm dnia do tańszych stref i oszczędzaj Dowiedz się więcej Prosta faktura Zobacz nowy wzór, gdzie każdy szczegół jest na swoim miejscu. Sprawdź Włącz Nową Energię na lata! Zyskaj nawet 320 zł bonusów klienckich. Dowiedz się więcej Jasne, że oszczędności Tanie godziny Uł",
+        "rect": {
+          "x": 0,
+          "y": 248.8000030517578,
+          "width": 1280,
+          "height": 3585.666748046875
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 71,
+        "tag": "div",
+        "label": "Wiele możliwości na oszczędności? Jasne, że w TAURONIE! Sprawdź Nastaw się na oszczędzanie z Tanimi godzinami od TAURONA Dopasuj rytm dnia do tańszych stref i oszczędzaj Dowiedz się więcej Prosta faktura Zobacz nowy wzór, gdzie każdy szczegół jest na swoim miejscu. Sprawdź Włącz Nową Energię na lata! Zyskaj nawet 320 zł bonusów klienckich. Dowiedz się więcej Jasne, że oszczędności Tanie godziny Uł",
+        "rect": {
+          "x": 0,
+          "y": 248.8000030517578,
+          "width": 1280,
+          "height": 400
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 72,
+        "tag": "div",
+        "label": "Wiele możliwości na oszczędności? Jasne, że w TAURONIE! Sprawdź Nastaw się na oszczędzanie z Tanimi godzinami od TAURONA Dopasuj rytm dnia do tańszych stref i oszczędzaj Dowiedz się więcej Prosta faktura Zobacz nowy wzór, gdzie każdy szczegół jest na swoim miejscu. Sprawdź Włącz Nową Energię na lata! Zyskaj nawet 320 zł bonusów klienckich. Dowiedz się więcej Jasne, że oszczędności Tanie godziny Uł",
+        "rect": {
+          "x": 0,
+          "y": 248.8000030517578,
+          "width": 1280,
+          "height": 400
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 73,
+        "tag": "div",
+        "label": "Wiele możliwości na oszczędności? Jasne, że w TAURONIE! Sprawdź Nastaw się na oszczędzanie z Tanimi godzinami od TAURONA Dopasuj rytm dnia do tańszych stref i oszczędzaj Dowiedz się więcej Prosta faktura Zobacz nowy wzór, gdzie każdy szczegół jest na swoim miejscu. Sprawdź Włącz Nową Energię na lata! Zyskaj nawet 320 zł bonusów klienckich. Dowiedz się więcej owl-stage-outer",
+        "rect": {
+          "x": 0,
+          "y": 248.8000030517578,
+          "width": 1280,
+          "height": 400
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 74,
+        "tag": "div",
+        "label": "Wiele możliwości na oszczędności? Jasne, że w TAURONIE! Sprawdź Nastaw się na oszczędzanie z Tanimi godzinami od TAURONA Dopasuj rytm dnia do tańszych stref i oszczędzaj Dowiedz się więcej Prosta faktura Zobacz nowy wzór, gdzie każdy szczegół jest na swoim miejscu. Sprawdź Włącz Nową Energię na lata! Zyskaj nawet 320 zł bonusów klienckich. Dowiedz się więcej owl-stage",
+        "rect": {
+          "x": -1280,
+          "y": 248.8000030517578,
+          "width": 5120,
+          "height": 400
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 75,
+        "tag": "div",
+        "label": "Wiele możliwości na oszczędności? Jasne, że w TAURONIE! Sprawdź owl-item",
+        "rect": {
+          "x": -1280,
+          "y": 248.8000030517578,
+          "width": 1280,
+          "height": 400
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 76,
+        "tag": "div",
+        "label": "Wiele możliwości na oszczędności? Jasne, że w TAURONIE! Sprawdź m_slider_element m_slider_1",
+        "rect": {
+          "x": -1280,
+          "y": 248.8000030517578,
+          "width": 1280,
+          "height": 400
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 77,
+        "tag": "div",
+        "label": "m_magenta_box",
+        "rect": {
+          "x": -1280,
+          "y": 248.8000030517578,
+          "width": 760,
+          "height": 400
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 78,
+        "tag": "div",
+        "label": "Wiele możliwości na oszczędności? Jasne, że w TAURONIE! Sprawdź c_page",
+        "rect": {
+          "x": -1280,
+          "y": 248.8000030517578,
+          "width": 1280,
+          "height": 400
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 79,
+        "tag": "div",
+        "label": "Wiele możliwości na oszczędności? Jasne, że w TAURONIE! Sprawdź m_slider_text",
+        "rect": {
+          "x": -1265,
+          "y": 248.8000030517578,
+          "width": 1250,
+          "height": 253.39999389648438
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 80,
+        "tag": "h1",
+        "label": "Wiele możliwości na oszczędności? m_32 c_semibold m_baner_main",
+        "rect": {
+          "x": -1265,
+          "y": 328.79998779296875,
+          "width": 1250,
+          "height": 26
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "0"
+      },
+      {
+        "index": 81,
+        "tag": "p",
+        "label": "Jasne, że w TAURONIE! m_20",
+        "rect": {
+          "x": -1265,
+          "y": 364.79998779296875,
+          "width": 1250,
+          "height": 16
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "0"
+      },
+      {
+        "index": 82,
+        "tag": "a",
+        "label": "Przejdź do strony Jasne że TAURON Sprawdź s_white_btn s_btn top_slider_btn",
+        "rect": {
+          "x": -1265,
+          "y": 448.20001220703125,
+          "width": 300,
+          "height": 54
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 83,
+        "tag": "div",
+        "label": "Nastaw się na oszczędzanie z Tanimi godzinami od TAURONA Dopasuj rytm dnia do tańszych stref i oszczędzaj Dowiedz się więcej owl-item active",
+        "rect": {
+          "x": 0,
+          "y": 248.8000030517578,
+          "width": 1280,
+          "height": 400
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 84,
+        "tag": "div",
+        "label": "Nastaw się na oszczędzanie z Tanimi godzinami od TAURONA Dopasuj rytm dnia do tańszych stref i oszczędzaj Dowiedz się więcej m_slider_element m_slider_5",
+        "rect": {
+          "x": 0,
+          "y": 248.8000030517578,
+          "width": 1280,
+          "height": 400
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 85,
+        "tag": "div",
+        "label": "m_magenta_box",
+        "rect": {
+          "x": 0,
+          "y": 248.8000030517578,
+          "width": 760,
+          "height": 400
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 86,
+        "tag": "div",
+        "label": "Nastaw się na oszczędzanie z Tanimi godzinami od TAURONA Dopasuj rytm dnia do tańszych stref i oszczędzaj Dowiedz się więcej c_page",
+        "rect": {
+          "x": 0,
+          "y": 248.8000030517578,
+          "width": 1280,
+          "height": 400
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 87,
+        "tag": "div",
+        "label": "Nastaw się na oszczędzanie z Tanimi godzinami od TAURONA Dopasuj rytm dnia do tańszych stref i oszczędzaj Dowiedz się więcej m_slider_text m_active",
+        "rect": {
+          "x": 15,
+          "y": 248.8000030517578,
+          "width": 1250,
+          "height": 299.20001220703125
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 88,
+        "tag": "h1",
+        "label": "Nastaw się na oszczędzanie z Tanimi godzinami od TAURONA m_32 c_semibold m_baner_main",
+        "rect": {
+          "x": 15,
+          "y": 328.79998779296875,
+          "width": 1250,
+          "height": 52
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 89,
+        "tag": "p",
+        "label": "Dopasuj rytm dnia do tańszych stref i oszczędzaj m_20",
+        "rect": {
+          "x": 15,
+          "y": 390.79998779296875,
+          "width": 1250,
+          "height": 16
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 90,
+        "tag": "a",
+        "label": "Przejdź do strony oferty Tanie godziny Dowiedz się więcej s_white_btn s_btn top_slider_btn",
+        "rect": {
+          "x": 15,
+          "y": 471.6000061035156,
+          "width": 300,
+          "height": 54
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 91,
+        "tag": "div",
+        "label": "Prosta faktura Zobacz nowy wzór, gdzie każdy szczegół jest na swoim miejscu. Sprawdź owl-item",
+        "rect": {
+          "x": 1280,
+          "y": 248.8000030517578,
+          "width": 1280,
+          "height": 400
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 92,
+        "tag": "div",
+        "label": "Prosta faktura Zobacz nowy wzór, gdzie każdy szczegół jest na swoim miejscu. Sprawdź m_slider_element m_slider_2",
+        "rect": {
+          "x": 1280,
+          "y": 248.8000030517578,
+          "width": 1280,
+          "height": 400
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 93,
+        "tag": "div",
+        "label": "m_magenta_box",
+        "rect": {
+          "x": 1280,
+          "y": 248.8000030517578,
+          "width": 760,
+          "height": 400
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 94,
+        "tag": "div",
+        "label": "Prosta faktura Zobacz nowy wzór, gdzie każdy szczegół jest na swoim miejscu. Sprawdź c_page",
+        "rect": {
+          "x": 1280,
+          "y": 248.8000030517578,
+          "width": 1280,
+          "height": 400
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 95,
+        "tag": "div",
+        "label": "Prosta faktura Zobacz nowy wzór, gdzie każdy szczegół jest na swoim miejscu. Sprawdź m_slider_text",
+        "rect": {
+          "x": 1295,
+          "y": 248.8000030517578,
+          "width": 1250,
+          "height": 244.1999969482422
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 96,
+        "tag": "h1",
+        "label": "Prosta faktura m_32 c_semibold m_baner_main",
+        "rect": {
+          "x": 1295,
+          "y": 328.79998779296875,
+          "width": 1250,
+          "height": 26
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "0"
+      },
+      {
+        "index": 97,
+        "tag": "p",
+        "label": "Zobacz nowy wzór, gdzie każdy szczegół jest na swoim miejscu. m_20",
+        "rect": {
+          "x": 1295,
+          "y": 364.79998779296875,
+          "width": 1250,
+          "height": 19.199996948242188
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "0"
+      },
+      {
+        "index": 98,
+        "tag": "span",
+        "label": "Zobacz nowy wzór, gdzie każdy szczegół jest na swoim miejscu.",
+        "rect": {
+          "x": 1295,
+          "y": 362.8999938964844,
+          "width": 426.16668701171875,
+          "height": 23
+        },
+        "visible": true,
+        "display": "inline",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 99,
+        "tag": "a",
+        "label": "Przejdź do strony prosta faktura Sprawdź s_white_btn s_btn top_slider_btn",
+        "rect": {
+          "x": 1295,
+          "y": 439,
+          "width": 300,
+          "height": 54
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 100,
+        "tag": "div",
+        "label": "Włącz Nową Energię na lata! Zyskaj nawet 320 zł bonusów klienckich. Dowiedz się więcej owl-item",
+        "rect": {
+          "x": 2560,
+          "y": 248.8000030517578,
+          "width": 1280,
+          "height": 400
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 101,
+        "tag": "div",
+        "label": "Włącz Nową Energię na lata! Zyskaj nawet 320 zł bonusów klienckich. Dowiedz się więcej m_slider_element m_slider_4",
+        "rect": {
+          "x": 2560,
+          "y": 248.8000030517578,
+          "width": 1280,
+          "height": 400
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 102,
+        "tag": "div",
+        "label": "m_magenta_box",
+        "rect": {
+          "x": 2560,
+          "y": 248.8000030517578,
+          "width": 760,
+          "height": 400
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 103,
+        "tag": "div",
+        "label": "Włącz Nową Energię na lata! Zyskaj nawet 320 zł bonusów klienckich. Dowiedz się więcej c_page",
+        "rect": {
+          "x": 2560,
+          "y": 248.8000030517578,
+          "width": 1280,
+          "height": 400
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 104,
+        "tag": "div",
+        "label": "Włącz Nową Energię na lata! Zyskaj nawet 320 zł bonusów klienckich. Dowiedz się więcej m_slider_text",
+        "rect": {
+          "x": 2575,
+          "y": 248.8000030517578,
+          "width": 1250,
+          "height": 244.1999969482422
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 105,
+        "tag": "h1",
+        "label": "Włącz Nową Energię na lata! m_32 c_semibold m_baner_main",
+        "rect": {
+          "x": 2575,
+          "y": 328.79998779296875,
+          "width": 1250,
+          "height": 26
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "0"
+      },
+      {
+        "index": 106,
+        "tag": "p",
+        "label": "Zyskaj nawet 320 zł bonusów klienckich. m_20",
+        "rect": {
+          "x": 2575,
+          "y": 364.79998779296875,
+          "width": 1250,
+          "height": 19.199996948242188
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "0"
+      },
+      {
+        "index": 107,
+        "tag": "span",
+        "label": "Zyskaj nawet 320 zł bonusów klienckich.",
+        "rect": {
+          "x": 2575,
+          "y": 362.8999938964844,
+          "width": 272.1499938964844,
+          "height": 23
+        },
+        "visible": true,
+        "display": "inline",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 108,
+        "tag": "a",
+        "label": "Przejdź do strony Nowej Energii Dowiedz się więcej s_white_btn s_btn top_slider_btn",
+        "rect": {
+          "x": 2575,
+          "y": 439,
+          "width": 300,
+          "height": 54
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 114,
+        "tag": "div",
+        "label": "Jasne, że oszczędności Tanie godziny Ułatwiamy czytanie faktur Przełącz się na Nową Energię owl-dots",
+        "rect": {
+          "x": 64,
+          "y": 593.7999877929688,
+          "width": 1152,
+          "height": 100
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 115,
+        "tag": "div",
+        "label": "Jasne, że oszczędności owl-dot",
+        "rect": {
+          "x": 64,
+          "y": 593.7999877929688,
+          "width": 288,
+          "height": 100
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 116,
+        "tag": "button",
+        "label": "Jasne, że oszczędności m_middle_dot m_24",
+        "rect": {
+          "x": 69,
+          "y": 603.7999877929688,
+          "width": 278,
+          "height": 80
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 117,
+        "tag": "div",
+        "label": "Tanie godziny owl-dot active",
+        "rect": {
+          "x": 352,
+          "y": 593.7999877929688,
+          "width": 288,
+          "height": 100
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 118,
+        "tag": "button",
+        "label": "Tanie godziny m_middle_dot m_24",
+        "rect": {
+          "x": 357,
+          "y": 603.7999877929688,
+          "width": 278,
+          "height": 80
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 119,
+        "tag": "div",
+        "label": "Ułatwiamy czytanie faktur owl-dot",
+        "rect": {
+          "x": 640,
+          "y": 593.7999877929688,
+          "width": 288,
+          "height": 100
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 120,
+        "tag": "button",
+        "label": "Ułatwiamy czytanie faktur m_middle_dot m_24",
+        "rect": {
+          "x": 645,
+          "y": 603.7999877929688,
+          "width": 278,
+          "height": 80
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 121,
+        "tag": "div",
+        "label": "Przełącz się na Nową Energię owl-dot",
+        "rect": {
+          "x": 928,
+          "y": 593.7999877929688,
+          "width": 288,
+          "height": 100
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 122,
+        "tag": "button",
+        "label": "Przełącz się na Nową Energię m_middle_dot m_24",
+        "rect": {
+          "x": 933,
+          "y": 603.7999877929688,
+          "width": 278,
+          "height": 80
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 123,
+        "tag": "div",
+        "label": "Załatw swoje sprawy bez wychodzenia z domu Sprawdź nowe i wygodne rozwiązania. Doradca energetyczny on-line Wygodna e-faktura w TAURONIE Aplikacja Mój TAURON 20 zł bonusu za aktywację e-faktury w aplikacji Mój TAURON Odnowienie cennika Odnów cennik w ramach obowiązującej umowy Mój TAURON Wszystkie nowości w zasięgu ręki! Opłacaj rachunki i załatwiaj sprawy przez internet - zrób pierwszy krok onlin",
+        "rect": {
+          "x": 0,
+          "y": 648.7999877929688,
+          "width": 1280,
+          "height": 680
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 124,
+        "tag": "div",
+        "label": "Załatw swoje sprawy bez wychodzenia z domu Sprawdź nowe i wygodne rozwiązania. Doradca energetyczny on-line Wygodna e-faktura w TAURONIE Aplikacja Mój TAURON 20 zł bonusu za aktywację e-faktury w aplikacji Mój TAURON Odnowienie cennika Odnów cennik w ramach obowiązującej umowy Mój TAURON Wszystkie nowości w zasięgu ręki! Opłacaj rachunki i załatwiaj sprawy przez internet - zrób pierwszy krok onlin",
+        "rect": {
+          "x": 0,
+          "y": 718.7999877929688,
+          "width": 1280,
+          "height": 610
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 125,
+        "tag": "div",
+        "label": "Załatw swoje sprawy bez wychodzenia z domu Sprawdź nowe i wygodne rozwiązania. Doradca energetyczny on-line Wygodna e-faktura w TAURONIE Aplikacja Mój TAURON 20 zł bonusu za aktywację e-faktury w aplikacji Mój TAURON Odnowienie cennika Odnów cennik w ramach obowiązującej umowy Mój TAURON Wszystkie nowości w zasięgu ręki! Opłacaj rachunki i załatwiaj sprawy przez internet - zrób pierwszy krok onlin",
+        "rect": {
+          "x": 0,
+          "y": 718.7999877929688,
+          "width": 1280,
+          "height": 610
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 126,
+        "tag": "div",
+        "label": "Załatw swoje sprawy bez wychodzenia z domu Sprawdź nowe i wygodne rozwiązania. Doradca energetyczny on-line Wygodna e-faktura w TAURONIE Aplikacja Mój TAURON 20 zł bonusu za aktywację e-faktury w aplikacji Mój TAURON Odnowienie cennika Odnów cennik w ramach obowiązującej umowy Mój TAURON Wszystkie nowości w zasięgu ręki! Opłacaj rachunki i załatwiaj sprawy przez internet - zrób pierwszy krok onlin",
+        "rect": {
+          "x": 0,
+          "y": 718.7999877929688,
+          "width": 2560,
+          "height": 610
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 127,
+        "tag": "div",
+        "label": "Załatw swoje sprawy bez wychodzenia z domu Sprawdź nowe i wygodne rozwiązania. Doradca energetyczny on-line Wygodna e-faktura w TAURONIE Aplikacja Mój TAURON 20 zł bonusu za aktywację e-faktury w aplikacji Mój TAURON Odnowienie cennika Odnów cennik w ramach obowiązującej umowy owl-item active",
+        "rect": {
+          "x": 0,
+          "y": 718.7999877929688,
+          "width": 1280,
+          "height": 610
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 128,
+        "tag": "div",
+        "label": "Załatw swoje sprawy bez wychodzenia z domu Sprawdź nowe i wygodne rozwiązania. Doradca energetyczny on-line Wygodna e-faktura w TAURONIE Aplikacja Mój TAURON 20 zł bonusu za aktywację e-faktury w aplikacji Mój TAURON Odnowienie cennika Odnów cennik w ramach obowiązującej umowy m_second_element m_second_element_1",
+        "rect": {
+          "x": 0,
+          "y": 738.7999877929688,
+          "width": 1280,
+          "height": 480
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 129,
+        "tag": "div",
+        "label": "Załatw swoje sprawy bez wychodzenia z domu Sprawdź nowe i wygodne rozwiązania. Doradca energetyczny on-line Wygodna e-faktura w TAURONIE Aplikacja Mój TAURON 20 zł bonusu za aktywację e-faktury w aplikacji Mój TAURON Odnowienie cennika Odnów cennik w ramach obowiązującej umowy m_slider_flex",
+        "rect": {
+          "x": 15,
+          "y": 738.7999877929688,
+          "width": 1250,
+          "height": 480
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 130,
+        "tag": "div",
+        "label": "Załatw swoje sprawy bez wychodzenia z domu Sprawdź nowe i wygodne rozwiązania. m_slider_column m_width_33",
+        "rect": {
+          "x": 15,
+          "y": 738.7999877929688,
+          "width": 387.1333312988281,
+          "height": 480
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 131,
+        "tag": "div",
+        "label": "Załatw swoje sprawy bez wychodzenia z domu Sprawdź nowe i wygodne rozwiązania. m_slider_element m_width_100 m_height_100 m_with_circle m_with_border",
+        "rect": {
+          "x": 15,
+          "y": 738.7999877929688,
+          "width": 387.1333312988281,
+          "height": 480
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 132,
+        "tag": "a",
+        "label": "Kliknij aby, przejść do strony Obsługa klienta Załatw swoje sprawy bez wychodzenia z domu Sprawdź nowe i wygodne rozwiązania. m_with_arrow m_column_flex",
+        "rect": {
+          "x": 15,
+          "y": 738.7999877929688,
+          "width": 387.1333312988281,
+          "height": 480
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 133,
+        "tag": "img",
+        "label": "sprawdź m_ab_img",
+        "rect": {
+          "x": 17,
+          "y": 740.7999877929688,
+          "width": 209,
+          "height": 242
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 134,
+        "tag": "div",
+        "label": "m_slider_element_image m_width_100",
+        "rect": {
+          "x": 33,
+          "y": 820.0999755859375,
+          "width": 351.1333312988281,
+          "height": 240
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 135,
+        "tag": "img",
+        "label": "Załatw swoje sprawy bez wychodzenia z domu",
+        "rect": {
+          "x": 33,
+          "y": 845.816650390625,
+          "width": 351.1333312988281,
+          "height": 188.5500030517578
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 139,
+        "tag": "div",
+        "label": "Doradca energetyczny on-line Wygodna e-faktura w TAURONIE Aplikacja Mój TAURON 20 zł bonusu za aktywację e-faktury w aplikacji Mój TAURON Odnowienie cennika Odnów cennik w ramach obowiązującej umowy m_slider_column m_width_66",
+        "rect": {
+          "x": 418.1333312988281,
+          "y": 738.7999877929688,
+          "width": 846.86669921875,
+          "height": 480
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 140,
+        "tag": "div",
+        "label": "Doradca energetyczny on-line Wygodna e-faktura w TAURONIE m_slider_element m_width_100 m_height_60",
+        "rect": {
+          "x": 418.1333312988281,
+          "y": 738.7999877929688,
+          "width": 846.86669921875,
+          "height": 283.20001220703125
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 141,
+        "tag": "div",
+        "label": "Doradca energetyczny on-line Wygodna e-faktura w TAURONIE m_with_arrow no-padding",
+        "rect": {
+          "x": 418.1333312988281,
+          "y": 738.7999877929688,
+          "width": 846.86669921875,
+          "height": 283.20001220703125
+        },
+        "visible": true,
+        "display": "grid",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 142,
+        "tag": "a",
+        "label": "Kliknij, aby przejść do strony e-faktury Doradca energetyczny on-line box-right",
+        "rect": {
+          "x": 418.1333312988281,
+          "y": 738.7999877929688,
+          "width": 415.433349609375,
+          "height": 283.20001220703125
+        },
+        "visible": true,
+        "display": "grid",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 143,
+        "tag": "img",
+        "label": "Doradca energetyczny ne-offer-img",
+        "rect": {
+          "x": 420.1333312988281,
+          "y": 740.7999877929688,
+          "width": 411.433349609375,
+          "height": 220
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 145,
+        "tag": "a",
+        "label": "Kliknij, aby przejść do strony e-faktury Wygodna e-faktura w TAURONIE box-right",
+        "rect": {
+          "x": 849.566650390625,
+          "y": 738.7999877929688,
+          "width": 415.433349609375,
+          "height": 283.20001220703125
+        },
+        "visible": true,
+        "display": "grid",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 146,
+        "tag": "img",
+        "label": "E-faktura invoice-offer-img",
+        "rect": {
+          "x": 851.566650390625,
+          "y": 760.7999877929688,
+          "width": 411.433349609375,
+          "height": 200
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 162,
+        "tag": "div",
+        "label": "Mój TAURON Wszystkie nowości w zasięgu ręki! Opłacaj rachunki i załatwiaj sprawy przez internet - zrób pierwszy krok online! Przepisanie licznika prądu Dowiedz się, jak najszybciej przepisać licznik prądu - całkiem online! Odczyt licznika prądu Podaj odczyt licznika przez Mój TAURON Strefa prosumenta Sprawdź, co powinien wiedzieć każdy prosument. owl-item",
+        "rect": {
+          "x": 1280,
+          "y": 718.7999877929688,
+          "width": 1280,
+          "height": 610
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 163,
+        "tag": "div",
+        "label": "Mój TAURON Wszystkie nowości w zasięgu ręki! Opłacaj rachunki i załatwiaj sprawy przez internet - zrób pierwszy krok online! Przepisanie licznika prądu Dowiedz się, jak najszybciej przepisać licznik prądu - całkiem online! Odczyt licznika prądu Podaj odczyt licznika przez Mój TAURON Strefa prosumenta Sprawdź, co powinien wiedzieć każdy prosument. m_second_element m_second_element_2",
+        "rect": {
+          "x": 1280,
+          "y": 738.7999877929688,
+          "width": 1280,
+          "height": 480
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 164,
+        "tag": "div",
+        "label": "Mój TAURON Wszystkie nowości w zasięgu ręki! Opłacaj rachunki i załatwiaj sprawy przez internet - zrób pierwszy krok online! Przepisanie licznika prądu Dowiedz się, jak najszybciej przepisać licznik prądu - całkiem online! Odczyt licznika prądu Podaj odczyt licznika przez Mój TAURON Strefa prosumenta Sprawdź, co powinien wiedzieć każdy prosument. m_slider_flex",
+        "rect": {
+          "x": 1295,
+          "y": 738.7999877929688,
+          "width": 1250,
+          "height": 480
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 165,
+        "tag": "div",
+        "label": "Mój TAURON Wszystkie nowości w zasięgu ręki! Opłacaj rachunki i załatwiaj sprawy przez internet - zrób pierwszy krok online! m_slider_column m_width_33",
+        "rect": {
+          "x": 1295,
+          "y": 738.7999877929688,
+          "width": 361.4666748046875,
+          "height": 480
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 166,
+        "tag": "div",
+        "label": "Mój TAURON Wszystkie nowości w zasięgu ręki! Opłacaj rachunki i załatwiaj sprawy przez internet - zrób pierwszy krok online! m_slider_element m_width_100 m_height_100 m_with_circle m_with_border",
+        "rect": {
+          "x": 1295,
+          "y": 738.7999877929688,
+          "width": 361.4666748046875,
+          "height": 480
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 167,
+        "tag": "a",
+        "label": "Kliknij aby, przejść do strony Mój TAURON Mój TAURON Wszystkie nowości w zasięgu ręki! Opłacaj rachunki i załatwiaj sprawy przez internet - zrób pierwszy krok online! m_with_arrow m_column_flex",
+        "rect": {
+          "x": 1295,
+          "y": 738.7999877929688,
+          "width": 361.4666748046875,
+          "height": 480
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 168,
+        "tag": "img",
+        "label": "sprawdź m_ab_img",
+        "rect": {
+          "x": 1297,
+          "y": 740.7999877929688,
+          "width": 209,
+          "height": 242
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 169,
+        "tag": "div",
+        "label": "m_slider_element_image m_width_100",
+        "rect": {
+          "x": 1313,
+          "y": 811.7000122070312,
+          "width": 325.4666748046875,
+          "height": 240
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 170,
+        "tag": "img",
+        "label": "Mój TAURON",
+        "rect": {
+          "x": 1359.7333984375,
+          "y": 815.7000122070312,
+          "width": 232,
+          "height": 232
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 174,
+        "tag": "div",
+        "label": "Przepisanie licznika prądu Dowiedz się, jak najszybciej przepisać licznik prądu - całkiem online! Odczyt licznika prądu Podaj odczyt licznika przez Mój TAURON Strefa prosumenta Sprawdź, co powinien wiedzieć każdy prosument. m_slider_column m_width_66",
+        "rect": {
+          "x": 1672.4666748046875,
+          "y": 738.7999877929688,
+          "width": 872.5333251953125,
+          "height": 480
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 175,
+        "tag": "div",
+        "label": "Przepisanie licznika prądu Dowiedz się, jak najszybciej przepisać licznik prądu - całkiem online! m_slider_element m_width_100 m_height_60 slider-change-space",
+        "rect": {
+          "x": 1672.4666748046875,
+          "y": 738.7999877929688,
+          "width": 872.5333251953125,
+          "height": 283.20001220703125
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 176,
+        "tag": "a",
+        "label": "Kliknij aby, przejść do strony Przepisanie licznika prądu Przepisanie licznika prądu Dowiedz się, jak najszybciej przepisać licznik prądu - całkiem online! m_with_arrow",
+        "rect": {
+          "x": 1672.4666748046875,
+          "y": 738.7999877929688,
+          "width": 872.5333251953125,
+          "height": 283.20001220703125
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 177,
+        "tag": "div",
+        "label": "m_slider_element_image m_width_50",
+        "rect": {
+          "x": 1690.4666748046875,
+          "y": 790.4000244140625,
+          "width": 292.7833251953125,
+          "height": 180
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 178,
+        "tag": "img",
+        "label": "Przepisanie licznika prądu",
+        "rect": {
+          "x": 1722.3499755859375,
+          "y": 790.4000244140625,
+          "width": 229,
+          "height": 180
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 179,
+        "tag": "div",
+        "label": "Przepisanie licznika prądu Dowiedz się, jak najszybciej przepisać licznik prądu - całkiem online! m_slider_element_text m_width_50",
+        "rect": {
+          "x": 1983.25,
+          "y": 842.9000244140625,
+          "width": 409.8999938964844,
+          "height": 75
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 180,
+        "tag": "p",
+        "label": "Przepisanie licznika prądu m_subtitle m_semibold m_23",
+        "rect": {
+          "x": 1983.25,
+          "y": 842.9000244140625,
+          "width": 409.8999938964844,
+          "height": 21.600006103515625
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 181,
+        "tag": "p",
+        "label": "Dowiedz się, jak najszybciej przepisać licznik prądu - całkiem online! m_18",
+        "rect": {
+          "x": 1983.25,
+          "y": 879.5,
+          "width": 409.8999938964844,
+          "height": 38.399993896484375
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 650,
+        "tag": "div",
+        "label": "Witamy w TAURONIE Musisz podać swoje imię by nawiązać połączenie Przygotowanie do rozmowy z konsultantem TAURONA. Zanim zaczniemy rozmawiać, prosimy wypełnij poniższe informacje w naszym formularzu. TUTAJ zapoznasz się z informacją, jak przetwarzamy Twoje dane osobowe. Wybierz w jakiej sprawie kontaktujesz się z nami? Wybierz Prąd Wybierz Wybierz Nr płatnika (niewymagane) PESEL / NIP (niewymagane)",
+        "rect": {
+          "x": 1170,
+          "y": 800,
+          "width": 80,
+          "height": 80
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      }
+    ]
+  }
+}

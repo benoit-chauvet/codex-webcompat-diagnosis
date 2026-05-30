@@ -1,0 +1,56 @@
+{
+  "videoPath": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2036045/attachments/9575428_The videos from AOL are only loaded after a refresh.mp4",
+  "metadata": {
+    "duration": 20.183333,
+    "videoWidth": 640,
+    "videoHeight": 552,
+    "error": null
+  },
+  "frames": [
+    {
+      "requestedTime": 0,
+      "screenshot": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2036045/attachments/frames/frame_0s.png",
+      "seekResult": {
+        "currentTime": 0,
+        "readyState": 4,
+        "error": null
+      }
+    },
+    {
+      "requestedTime": 2,
+      "screenshot": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2036045/attachments/frames/frame_2s.png",
+      "seekResult": {
+        "currentTime": 2,
+        "readyState": 4,
+        "error": null
+      }
+    },
+    {
+      "requestedTime": 5,
+      "screenshot": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2036045/attachments/frames/frame_5s.png",
+      "seekResult": {
+        "currentTime": 5,
+        "readyState": 4,
+        "error": null
+      }
+    },
+    {
+      "requestedTime": 10,
+      "screenshot": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2036045/attachments/frames/frame_10s.png",
+      "seekResult": {
+        "currentTime": 10,
+        "readyState": 4,
+        "error": null
+      }
+    },
+    {
+      "requestedTime": 20,
+      "screenshot": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2036045/attachments/frames/frame_20s.png",
+      "seekResult": {
+        "currentTime": 20,
+        "readyState": 4,
+        "error": null
+      }
+    }
+  ]
+}

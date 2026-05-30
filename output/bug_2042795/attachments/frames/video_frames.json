@@ -1,25 +1,56 @@
 {
-  "videoPath": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042795/attachments/gsmarena-mime.mp4",
+  "videoPath": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042795/attachments/9590355_gsmarena-mime.mp4",
   "metadata": {
     "duration": 9.3932,
     "videoWidth": 1280,
-    "videoHeight": 726
+    "videoHeight": 726,
+    "error": null
   },
-  "captured": [
+  "frames": [
     {
       "requestedTime": 0,
-      "targetTime": 0,
-      "screenshot": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042795/attachments/frames/frame_0s.png"
+      "screenshot": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042795/attachments/frames/frame_0s.png",
+      "seekResult": {
+        "currentTime": 0,
+        "readyState": 4,
+        "error": null
+      }
     },
     {
       "requestedTime": 2,
-      "targetTime": 2,
-      "screenshot": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042795/attachments/frames/frame_2s.png"
+      "screenshot": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042795/attachments/frames/frame_2s.png",
+      "seekResult": {
+        "currentTime": 2,
+        "readyState": 4,
+        "error": null
+      }
     },
     {
-      "requestedTime": 4,
-      "targetTime": 4,
-      "screenshot": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042795/attachments/frames/frame_4s.png"
+      "requestedTime": 5,
+      "screenshot": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042795/attachments/frames/frame_5s.png",
+      "seekResult": {
+        "currentTime": 5,
+        "readyState": 4,
+        "error": null
+      }
+    },
+    {
+      "requestedTime": 10,
+      "screenshot": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042795/attachments/frames/frame_10s.png",
+      "seekResult": {
+        "currentTime": 9.3432,
+        "readyState": 4,
+        "error": null
+      }
+    },
+    {
+      "requestedTime": 20,
+      "screenshot": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042795/attachments/frames/frame_20s.png",
+      "seekResult": {
+        "currentTime": 9.3432,
+        "readyState": 4,
+        "error": null
+      }
     }
   ]
 }

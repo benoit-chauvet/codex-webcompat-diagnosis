@@ -1,0 +1,751 @@
+{
+  "bug_id": "2037009",
+  "endpoints": {
+    "attachments": "https://bugzilla.mozilla.org/rest/bug/2037009/attachment?exclude_fields=data",
+    "bug": "https://bugzilla.mozilla.org/rest/bug/2037009",
+    "comments": "https://bugzilla.mozilla.org/rest/bug/2037009/comment",
+    "history": "https://bugzilla.mozilla.org/rest/bug/2037009/history"
+  },
+  "fetched_at": "2026-05-30T14:35:57+00:00",
+  "responses": {
+    "attachments": {
+      "attachments": {},
+      "bugs": {
+        "2037009": [
+          {
+            "attacher": "victor.medina@msidata.com",
+            "bug_id": 2037009,
+            "content_type": "text/html",
+            "creation_time": "2026-05-07T00:38:34Z",
+            "creator": "victor.medina@msidata.com",
+            "creator_detail": {
+              "email": "victor.medina@msidata.com",
+              "id": 789430,
+              "name": "victor.medina@msidata.com",
+              "nick": "victor.medina",
+              "real_name": "Victor"
+            },
+            "description": "aboutWebrtc.html",
+            "file_name": "aboutWebrtc.html",
+            "flags": [],
+            "id": 9583972,
+            "is_obsolete": 0,
+            "is_patch": 0,
+            "is_private": 0,
+            "last_change_time": "2026-05-07T00:38:34Z",
+            "size": 255629,
+            "summary": "aboutWebrtc.html"
+          }
+        ]
+      }
+    },
+    "bug": {
+      "bugs": [
+        {
+          "alias": null,
+          "assigned_to": "docfaraday@gmail.com",
+          "assigned_to_detail": {
+            "email": "docfaraday@gmail.com",
+            "id": 478411,
+            "name": "docfaraday@gmail.com",
+            "nick": "bwc",
+            "real_name": "Byron Campen [:bwc]"
+          },
+          "blocks": [],
+          "cc": [
+            "docfaraday@gmail.com",
+            "james@hoppipolla.co.uk",
+            "omer.fisher@gmail.com",
+            "sky@mozilla.com",
+            "victor.medina@msidata.com"
+          ],
+          "cc_detail": [
+            {
+              "email": "docfaraday@gmail.com",
+              "id": 478411,
+              "name": "docfaraday@gmail.com",
+              "nick": "bwc",
+              "real_name": "Byron Campen [:bwc]"
+            },
+            {
+              "email": "james@hoppipolla.co.uk",
+              "id": 389650,
+              "name": "james@hoppipolla.co.uk",
+              "nick": "jgraham",
+              "real_name": "James Graham [:jgraham]"
+            },
+            {
+              "email": "omer.fisher@gmail.com",
+              "id": 789351,
+              "name": "omer.fisher@gmail.com",
+              "nick": "omer.fisher",
+              "real_name": "Omer Fisher"
+            },
+            {
+              "email": "sky@mozilla.com",
+              "id": 421268,
+              "name": "sky@mozilla.com",
+              "nick": "skyschub",
+              "real_name": "Sky Schubert [:skyschub]"
+            },
+            {
+              "email": "victor.medina@msidata.com",
+              "id": 789430,
+              "name": "victor.medina@msidata.com",
+              "nick": "victor.medina",
+              "real_name": "Victor"
+            }
+          ],
+          "cf_a11y_review_project_flag": "---",
+          "cf_accessibility_severity": "---",
+          "cf_cab_review": "---",
+          "cf_crash_signature": "",
+          "cf_fx_iteration": "---",
+          "cf_fx_points": "---",
+          "cf_has_str": "---",
+          "cf_last_resolved": null,
+          "cf_performance_impact": "---",
+          "cf_qa_whiteboard": "",
+          "cf_rank": null,
+          "cf_size_estimate": "---",
+          "cf_status_firefox151": "---",
+          "cf_status_firefox152": "---",
+          "cf_status_firefox153": "---",
+          "cf_status_firefox_esr115": "---",
+          "cf_status_firefox_esr140": "---",
+          "cf_status_thunderbird_esr115": "---",
+          "cf_status_thunderbird_esr140": "---",
+          "cf_tracking_firefox151": "---",
+          "cf_tracking_firefox152": "---",
+          "cf_tracking_firefox153": "---",
+          "cf_tracking_firefox_esr115": "---",
+          "cf_tracking_firefox_esr140": "---",
+          "cf_tracking_firefox_relnote": "---",
+          "cf_tracking_thunderbird_esr115": "---",
+          "cf_tracking_thunderbird_esr140": "---",
+          "cf_user_story": "platform:windows,mac,linux,android\r\nimpact:feature-broken\r\nconfiguration:general\r\naffects:all\r\nbranch:release\r\ndiagnosis-team:video-conferencing\r\nuser-impact-score:900",
+          "cf_webcompat_priority": "P1",
+          "cf_webcompat_score": "8",
+          "classification": "Components",
+          "comment_count": 18,
+          "component": "WebRTC: Networking",
+          "creation_time": "2026-05-05T08:43:29Z",
+          "creator": "omer.fisher@gmail.com",
+          "creator_detail": {
+            "email": "omer.fisher@gmail.com",
+            "id": 789351,
+            "name": "omer.fisher@gmail.com",
+            "nick": "omer.fisher",
+            "real_name": "Omer Fisher"
+          },
+          "depends_on": [],
+          "dupe_of": null,
+          "duplicates": [],
+          "flags": [
+            {
+              "creation_date": "2026-05-07T01:00:19Z",
+              "id": 2355962,
+              "modification_date": "2026-05-07T01:00:19Z",
+              "name": "needinfo",
+              "requestee": "victor.medina@msidata.com",
+              "setter": "docfaraday@gmail.com",
+              "status": "?",
+              "type_id": 800
+            }
+          ],
+          "groups": [],
+          "id": 2037009,
+          "is_cc_accessible": true,
+          "is_confirmed": false,
+          "is_creator_accessible": true,
+          "is_open": true,
+          "keywords": [
+            "webcompat:needs-contact",
+            "webcompat:site-report"
+          ],
+          "last_change_time": "2026-05-30T09:21:23Z",
+          "mentors": [],
+          "mentors_detail": [],
+          "op_sys": "Unspecified",
+          "platform": "Unspecified",
+          "priority": "P1",
+          "product": "Core",
+          "qa_contact": "",
+          "regressed_by": [],
+          "regressions": [],
+          "resolution": "",
+          "see_also": [
+            "https://bugzilla.mozilla.org/show_bug.cgi?id=2036757"
+          ],
+          "severity": "S2",
+          "status": "UNCONFIRMED",
+          "summary": "WebRTC ICE consent-refresh times out mid-session against OpenAI Realtime API media server, dropping the connection on second user speech turn (Firefox 150)",
+          "target_milestone": "---",
+          "type": "defect",
+          "url": "https://chatgpt.com/",
+          "version": "Firefox 150",
+          "votes": 1,
+          "whiteboard": "[webcompat:sightline][webcompat:japan][webcompat:core]"
+        }
+      ],
+      "faults": []
+    },
+    "comments": {
+      "bugs": {
+        "2037009": {
+          "comments": [
+            {
+              "attachment_id": null,
+              "author": "omer.fisher@gmail.com",
+              "bug_id": 2037009,
+              "count": 0,
+              "creation_time": "2026-05-05T08:43:29Z",
+              "creator": "omer.fisher@gmail.com",
+              "id": 18064196,
+              "is_private": false,
+              "raw_text": "User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0\n\nSteps to reproduce:\n\n1. In Firefox 150 (Windows 11), open a page that establishes a WebRTC peer\n   connection to OpenAI's Realtime API:\n     POST https://api.openai.com/v1/realtime/calls?model=gpt-realtime-1.5\n     Content-Type: application/sdp\n   The offer contains one audio sendrecv m-section (Opus) and one\n   DataChannel (\"oai-events\"). ICE gathering uses defaults (no TURN).\n\n2. After applying the answer SDP, wait for iceConnectionState === \"connected\"\n   and dataChannel.onopen, then send a session.update event configuring\n   instructions / VAD / transcription / output voice, followed by\n   response.create.\n\n3. Allow the AI to deliver its response (~30\u201390s of inbound TTS audio over RTP).\n\n4. After receiving response.done and output_audio_buffer.stopped, begin\n   speaking into the microphone to start a second user turn (input_audio_\n   buffer.speech_started fires).\n\n\nActual results:\n\nWithin 5\u201310 seconds of input_audio_buffer.speech_started on the second user\nturn, the connection drops:\n\n  [rt-event] response.done                       \u2190 AI finishes turn 1\n  [rt-event] output_audio_buffer.stopped\n  [rt-event] input_audio_buffer.speech_started   \u2190 user starts turn 2\n  [rt-ice-state] disconnected                    \u2190 drop, 5\u201310s later\n  [rt-conn-state] disconnected\n  [rt-dc-close] readyState: closed\n\nabout:webrtc shows several successful ICE consent-refresh exchanges\nfollowed by `STUN-CLIENT(consent): Timed out`. No application-level error\nevent is signalled by the server before the drop \u2014 only routine\nrate_limits.updated events, then the closing connection-state transitions.\n\n100% reproduction across 10+ sessions, two networks (residential WiFi +\nmobile hotspot), normal mode and private mode, Firefox desktop and Firefox\non Android.\n\nTesting matrix already exhausted on the client side (none changed the\noutcome): semantic_vad \u2192 server_vad; full prompt \u2192 slim 500-char prompt;\nlanguage hint dropped; explicit STUN+TURN added (UDP-direct candidate pair\nconfirmed via getStats); session.update mid-session disabled; client noise\ngate bypassed; output GainNode bypassed; getUserMedia with all browser\naudio processing (echoCancellation, noiseSuppression, autoGainControl)\ndisabled; whisper-1 vs gpt-4o-mini-transcribe; SDP munged with usedtx=0\nand cn=0; continuous near-silent comfort tone injected upstream during AI\nplayback; addTransceiver with explicit sendrecv direction instead of\naddTrack; bundlePolicy: max-bundle + rtcpMuxPolicy: require (this one\nmade the drop instant \u2014 likely incompatible with the server's answer).\n\n\nExpected results:\n\nThe session should remain connected through the second user turn and\nsubsequent turns, as it does in Chrome (latest) and Edge (latest) with\nidentical client code, identical OpenAI account, identical model\n(gpt-realtime-1.5), and identical session.update payload \u2014 both browsers\nrun 5+ minute sessions through many turns without drops.\n\nThe OpenAI Realtime Playground also works on Firefox 150, but a DevTools /\nabout:webrtc inspection confirms the Playground uses WebSocket transport,\nnot WebRTC. This isolates the bug to the WebRTC media path specifically.\n\nSuspected regression introduced in Firefox 150. MFSA 2026-30 lists six\nWebRTC-related fixes shipped in 150:\n\n  - Bug 2021769 (CVE-2026-6747) \u2014 UAF in WebRTC\n  - Bug 2027499 (CVE-2026-6752) \u2014 boundary conditions in WebRTC\n  - Bug 2027501 (CVE-2026-6753) \u2014 boundary conditions in WebRTC\n  - Bug 2021768 (CVE-2026-6775) \u2014 boundary conditions in WebRTC\n  - Bug 2021770 (CVE-2026-6776) \u2014 boundary conditions in WebRTC: Networking\n  - Bug 2029461 (CVE-2026-7321) \u2014 sandbox escape in WebRTC: Networking\n\nThe \"incorrect boundary conditions\" cluster is a plausible source of new\npacket validation that may now reject edge-case STUN consent-refresh or\nRTCP packets the OpenAI media server emits, but I have not yet confirmed\nwhich fix is responsible. A bisect against Firefox ESR 128.x / 140.x and\nNightly is the next step I can run if it would help.",
+              "reactions": {},
+              "tags": [],
+              "text": "User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0\n\nSteps to reproduce:\n\n1. In Firefox 150 (Windows 11), open a page that establishes a WebRTC peer\n   connection to OpenAI's Realtime API:\n     POST https://api.openai.com/v1/realtime/calls?model=gpt-realtime-1.5\n     Content-Type: application/sdp\n   The offer contains one audio sendrecv m-section (Opus) and one\n   DataChannel (\"oai-events\"). ICE gathering uses defaults (no TURN).\n\n2. After applying the answer SDP, wait for iceConnectionState === \"connected\"\n   and dataChannel.onopen, then send a session.update event configuring\n   instructions / VAD / transcription / output voice, followed by\n   response.create.\n\n3. Allow the AI to deliver its response (~30\u201390s of inbound TTS audio over RTP).\n\n4. After receiving response.done and output_audio_buffer.stopped, begin\n   speaking into the microphone to start a second user turn (input_audio_\n   buffer.speech_started fires).\n\n\nActual results:\n\nWithin 5\u201310 seconds of input_audio_buffer.speech_started on the second user\nturn, the connection drops:\n\n  [rt-event] response.done                       \u2190 AI finishes turn 1\n  [rt-event] output_audio_buffer.stopped\n  [rt-event] input_audio_buffer.speech_started   \u2190 user starts turn 2\n  [rt-ice-state] disconnected                    \u2190 drop, 5\u201310s later\n  [rt-conn-state] disconnected\n  [rt-dc-close] readyState: closed\n\nabout:webrtc shows several successful ICE consent-refresh exchanges\nfollowed by `STUN-CLIENT(consent): Timed out`. No application-level error\nevent is signalled by the server before the drop \u2014 only routine\nrate_limits.updated events, then the closing connection-state transitions.\n\n100% reproduction across 10+ sessions, two networks (residential WiFi +\nmobile hotspot), normal mode and private mode, Firefox desktop and Firefox\non Android.\n\nTesting matrix already exhausted on the client side (none changed the\noutcome): semantic_vad \u2192 server_vad; full prompt \u2192 slim 500-char prompt;\nlanguage hint dropped; explicit STUN+TURN added (UDP-direct candidate pair\nconfirmed via getStats); session.update mid-session disabled; client noise\ngate bypassed; output GainNode bypassed; getUserMedia with all browser\naudio processing (echoCancellation, noiseSuppression, autoGainControl)\ndisabled; whisper-1 vs gpt-4o-mini-transcribe; SDP munged with usedtx=0\nand cn=0; continuous near-silent comfort tone injected upstream during AI\nplayback; addTransceiver with explicit sendrecv direction instead of\naddTrack; bundlePolicy: max-bundle + rtcpMuxPolicy: require (this one\nmade the drop instant \u2014 likely incompatible with the server's answer).\n\n\nExpected results:\n\nThe session should remain connected through the second user turn and\nsubsequent turns, as it does in Chrome (latest) and Edge (latest) with\nidentical client code, identical OpenAI account, identical model\n(gpt-realtime-1.5), and identical session.update payload \u2014 both browsers\nrun 5+ minute sessions through many turns without drops.\n\nThe OpenAI Realtime Playground also works on Firefox 150, but a DevTools /\nabout:webrtc inspection confirms the Playground uses WebSocket transport,\nnot WebRTC. This isolates the bug to the WebRTC media path specifically.\n\nSuspected regression introduced in Firefox 150. MFSA 2026-30 lists six\nWebRTC-related fixes shipped in 150:\n\n  - Bug 2021769 (CVE-2026-6747) \u2014 UAF in WebRTC\n  - Bug 2027499 (CVE-2026-6752) \u2014 boundary conditions in WebRTC\n  - Bug 2027501 (CVE-2026-6753) \u2014 boundary conditions in WebRTC\n  - Bug 2021768 (CVE-2026-6775) \u2014 boundary conditions in WebRTC\n  - Bug 2021770 (CVE-2026-6776) \u2014 boundary conditions in WebRTC: Networking\n  - Bug 2029461 (CVE-2026-7321) \u2014 sandbox escape in WebRTC: Networking\n\nThe \"incorrect boundary conditions\" cluster is a plausible source of new\npacket validation that may now reject edge-case STUN consent-refresh or\nRTCP packets the OpenAI media server emits, but I have not yet confirmed\nwhich fix is responsible. A bisect against Firefox ESR 128.x / 140.x and\nNightly is the next step I can run if it would help.",
+              "time": "2026-05-05T08:43:29Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "release-mgmt-account-bot@mozilla.tld",
+              "bug_id": 2037009,
+              "count": 1,
+              "creation_time": "2026-05-05T09:42:41Z",
+              "creator": "release-mgmt-account-bot@mozilla.tld",
+              "id": 18064298,
+              "is_private": false,
+              "raw_text": "The [Bugbug](https://github.com/mozilla/bugbug/) bot thinks this bug should belong to the 'Core::WebRTC: Networking' component, and is moving the bug to that component. Please correct in case you think the bot is wrong.",
+              "reactions": {},
+              "tags": [],
+              "text": "The [Bugbug](https://github.com/mozilla/bugbug/) bot thinks this bug should belong to the 'Core::WebRTC: Networking' component, and is moving the bug to that component. Please correct in case you think the bot is wrong.",
+              "time": "2026-05-05T09:42:41Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "docfaraday@gmail.com",
+              "bug_id": 2037009,
+              "count": 2,
+              "creation_time": "2026-05-06T18:44:03Z",
+              "creator": "docfaraday@gmail.com",
+              "id": 18068241,
+              "is_private": false,
+              "raw_text": "None of those bugs have anything to do with ICE consent I'm afraid, and I'd be surprised if this were a recent regression, because we only recently fixed a bug that allowed us to connect at all (https://bugzilla.mozilla.org/show_bug.cgi?id=2034159). If you can determine otherwise with mozregression, please let us know.\n\nI'm going to guess this is a site issue of some sort, but it is impossible to tell what that issue is without more information.\n\n* Maybe OpenAI is not responding to consent checks on a connection it intends to keep using; that would be a bug on their end. If Chrome and/or Safari are letting consent timeouts slide, that's a bug on their end.\n* Maybe OpenAI does *not* intend to keep the connection alive, and is either not performing an ICE restart later on when the browser is Firefox (their bug), or is performing that ICE restart in a way we do not support (maybe our bug), or that the spec does not support (their bug).\n\nI might be able to glean some more information if you attached a copy of about:webrtc to this bug.",
+              "reactions": {},
+              "tags": [],
+              "text": "None of those bugs have anything to do with ICE consent I'm afraid, and I'd be surprised if this were a recent regression, because we only recently fixed a bug that allowed us to connect at all (https://bugzilla.mozilla.org/show_bug.cgi?id=2034159). If you can determine otherwise with mozregression, please let us know.\n\nI'm going to guess this is a site issue of some sort, but it is impossible to tell what that issue is without more information.\n\n* Maybe OpenAI is not responding to consent checks on a connection it intends to keep using; that would be a bug on their end. If Chrome and/or Safari are letting consent timeouts slide, that's a bug on their end.\n* Maybe OpenAI does *not* intend to keep the connection alive, and is either not performing an ICE restart later on when the browser is Firefox (their bug), or is performing that ICE restart in a way we do not support (maybe our bug), or that the spec does not support (their bug).\n\nI might be able to glean some more information if you attached a copy of about:webrtc to this bug.",
+              "time": "2026-05-06T18:44:03Z"
+            },
+            {
+              "attachment_id": 9583972,
+              "author": "victor.medina@msidata.com",
+              "bug_id": 2037009,
+              "count": 3,
+              "creation_time": "2026-05-07T00:38:34Z",
+              "creator": "victor.medina@msidata.com",
+              "id": 18068914,
+              "is_private": false,
+              "raw_text": "I'm also experiencing the exact same symptoms, my openai realtime webRTC app was working great on 149.0, but now it keeps dropping connections on 150.0.1 less than a minute after establishing the connection.  It still works great on chromium and others, so from my view this definitely points at the recent update.\n\nAttached my about:webrtc log per Byron's request",
+              "reactions": {},
+              "tags": [],
+              "text": "Created attachment 9583972\naboutWebrtc.html\n\nI'm also experiencing the exact same symptoms, my openai realtime webRTC app was working great on 149.0, but now it keeps dropping connections on 150.0.1 less than a minute after establishing the connection.  It still works great on chromium and others, so from my view this definitely points at the recent update.\n\nAttached my about:webrtc log per Byron's request",
+              "time": "2026-05-07T00:38:34Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "docfaraday@gmail.com",
+              "bug_id": 2037009,
+              "count": 4,
+              "creation_time": "2026-05-07T01:00:19Z",
+              "creator": "docfaraday@gmail.com",
+              "id": 18068936,
+              "is_private": false,
+              "raw_text": "I am not seeing anything in that log other than the fifth consent check timing out. Can someone either point me at a service that I can reproduce with, or perform a mozregression?",
+              "reactions": {},
+              "tags": [],
+              "text": "I am not seeing anything in that log other than the fifth consent check timing out. Can someone either point me at a service that I can reproduce with, or perform a mozregression?",
+              "time": "2026-05-07T01:00:19Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "omer.fisher@gmail.com",
+              "bug_id": 2037009,
+              "count": 5,
+              "creation_time": "2026-05-07T14:48:08Z",
+              "creator": "omer.fisher@gmail.com",
+              "id": 18070148,
+              "is_private": false,
+              "raw_text": "Minimal reproduction page deployed: https://firefox-webrtc-repro.vercel.app/\n\nSingle static HTML file, ~150 lines, no dependencies. Reproduction steps are on the page itself \u2014 paste an OpenAI API key with realtime access, click Connect, speak briefly after the AI greeting. Drop happens within 5-10 seconds of input_audio_buffer.speech_started.\n\nOne refinement to the original report: in this run the drop fired on the third user turn rather than the second (turns 1 and 2 completed cleanly, then 9s into turn 3's speech_started the ICE state went to disconnected). So the failure isn't strictly tied to \"the second turn\" \u2014 it's more \"within the first few user turns once the mic starts transmitting again post-AI-output.\" 100% repro across runs in the same session, just the exact turn varies.\n\nSource visible in browser view-source for inspection.\n\nSample log from one reproduction run:\n\n\n[14:42:32.029] [ice-state] connected\n[14:42:34.058] [dc] open\n... (turns 1 and 2 completed normally) ...\n[14:43:01.333] [event] input_audio_buffer.speech_started   \u2190 turn 3 mic on\n[14:43:10.334] [ice-state] disconnected                    \u2190 9 seconds later\n[14:43:10.334] [conn-state] disconnected",
+              "reactions": {},
+              "tags": [],
+              "text": "Minimal reproduction page deployed: https://firefox-webrtc-repro.vercel.app/\n\nSingle static HTML file, ~150 lines, no dependencies. Reproduction steps are on the page itself \u2014 paste an OpenAI API key with realtime access, click Connect, speak briefly after the AI greeting. Drop happens within 5-10 seconds of input_audio_buffer.speech_started.\n\nOne refinement to the original report: in this run the drop fired on the third user turn rather than the second (turns 1 and 2 completed cleanly, then 9s into turn 3's speech_started the ICE state went to disconnected). So the failure isn't strictly tied to \"the second turn\" \u2014 it's more \"within the first few user turns once the mic starts transmitting again post-AI-output.\" 100% repro across runs in the same session, just the exact turn varies.\n\nSource visible in browser view-source for inspection.\n\nSample log from one reproduction run:\n\n\n[14:42:32.029] [ice-state] connected\n[14:42:34.058] [dc] open\n... (turns 1 and 2 completed normally) ...\n[14:43:01.333] [event] input_audio_buffer.speech_started   \u2190 turn 3 mic on\n[14:43:10.334] [ice-state] disconnected                    \u2190 9 seconds later\n[14:43:10.334] [conn-state] disconnected",
+              "time": "2026-05-07T14:48:08Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "docfaraday@gmail.com",
+              "bug_id": 2037009,
+              "count": 6,
+              "creation_time": "2026-05-07T18:37:47Z",
+              "creator": "docfaraday@gmail.com",
+              "id": 18070581,
+              "is_private": false,
+              "raw_text": "Nightly, 149, and ESR all lose their connection; this does not appear to be a regression. Chrome and Safari appear to work. There are a few differences between our consent checks and theirs:\n\n* Ours are paced every 5 seconds, in accordance with RFC 7675. Theirs are paced at about 3 seconds, which violates RFC 7675.\n* Theirs contain a (proprietary and not-standardized) GOOG-NETWORK-INFO STUN attribute.\n* Theirs contain a USE-CANDIDATE STUN attribute, which is nonsensical in a consent check.\n* Ours have PRIORITY before ICE-CONTROLLING, theirs is the other way around; this is fine and nothing should care.\n\nI am not sure which (if any) of these is making the difference here, but if any of them are the cause, that's a bug on OpenAI's end.",
+              "reactions": {},
+              "tags": [],
+              "text": "Nightly, 149, and ESR all lose their connection; this does not appear to be a regression. Chrome and Safari appear to work. There are a few differences between our consent checks and theirs:\n\n* Ours are paced every 5 seconds, in accordance with RFC 7675. Theirs are paced at about 3 seconds, which violates RFC 7675.\n* Theirs contain a (proprietary and not-standardized) GOOG-NETWORK-INFO STUN attribute.\n* Theirs contain a USE-CANDIDATE STUN attribute, which is nonsensical in a consent check.\n* Ours have PRIORITY before ICE-CONTROLLING, theirs is the other way around; this is fine and nothing should care.\n\nI am not sure which (if any) of these is making the difference here, but if any of them are the cause, that's a bug on OpenAI's end.",
+              "time": "2026-05-07T18:37:47Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "docfaraday@gmail.com",
+              "bug_id": 2037009,
+              "count": 7,
+              "creation_time": "2026-05-07T19:18:13Z",
+              "creator": "docfaraday@gmail.com",
+              "id": 18070654,
+              "is_private": false,
+              "raw_text": "A local build that puts USE-CANDIDATE in consent checks (provided we're in the controlling role, which we are in this case) seems to work.\n\nOpenAI needs to ignore USE-CANDIDATE in consent checks. That is only meaningful in ICE checks.",
+              "reactions": {},
+              "tags": [],
+              "text": "A local build that puts USE-CANDIDATE in consent checks (provided we're in the controlling role, which we are in this case) seems to work.\n\nOpenAI needs to ignore USE-CANDIDATE in consent checks. That is only meaningful in ICE checks.",
+              "time": "2026-05-07T19:18:13Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "omer.fisher@gmail.com",
+              "bug_id": 2037009,
+              "count": 8,
+              "creation_time": "2026-05-07T20:32:37Z",
+              "creator": "omer.fisher@gmail.com",
+              "id": 18070791,
+              "is_private": false,
+              "raw_text": "Thank you, Byron \u2014 building a local patch that adds USE-CANDIDATE to\nconsent checks and confirming it works is the definitive evidence I\ncouldn't have produced from the application side.\n\nThree takeaways from your analysis:\n\n- This is not a Firefox 150 regression. Bug 2034159 made connection\n  possible at all; before that, the consent-check issue was simply\n  invisible.\n\n- Firefox is correct per RFC 7675 / 8445 \u2014 USE-CANDIDATE has no defined\n  semantics in consent checks. OpenAI's media server appears to either\n  require it or treat its absence as invalidating the check. Chrome and\n  Safari coincidentally satisfy this requirement by including\n  USE-CANDIDATE non-compliantly.\n\n- There is no client-side workaround.\n\nI've filed this with OpenAI on their developer forum (the post hasn't\nbeen allowed external links yet due to a new-account restriction. One additional developer (TimoP_imc) has already\nchimed in on that thread independently confirming the same symptom, with\na similar \"worked recently, broken now\" framing \u2014 so it may be that a\nrecent OpenAI server change exposed (or introduced) the USE-CANDIDATE\nrequirement. The webcompat:site-bug tag should also help Mozilla's\nwebcompat team reach OpenAI through their own channel.\n\nThanks again.",
+              "reactions": {},
+              "tags": [],
+              "text": "Thank you, Byron \u2014 building a local patch that adds USE-CANDIDATE to\nconsent checks and confirming it works is the definitive evidence I\ncouldn't have produced from the application side.\n\nThree takeaways from your analysis:\n\n- This is not a Firefox 150 regression. Bug 2034159 made connection\n  possible at all; before that, the consent-check issue was simply\n  invisible.\n\n- Firefox is correct per RFC 7675 / 8445 \u2014 USE-CANDIDATE has no defined\n  semantics in consent checks. OpenAI's media server appears to either\n  require it or treat its absence as invalidating the check. Chrome and\n  Safari coincidentally satisfy this requirement by including\n  USE-CANDIDATE non-compliantly.\n\n- There is no client-side workaround.\n\nI've filed this with OpenAI on their developer forum (the post hasn't\nbeen allowed external links yet due to a new-account restriction. One additional developer (TimoP_imc) has already\nchimed in on that thread independently confirming the same symptom, with\na similar \"worked recently, broken now\" framing \u2014 so it may be that a\nrecent OpenAI server change exposed (or introduced) the USE-CANDIDATE\nrequirement. The webcompat:site-bug tag should also help Mozilla's\nwebcompat team reach OpenAI through their own channel.\n\nThanks again.",
+              "time": "2026-05-07T20:32:37Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "docfaraday@gmail.com",
+              "bug_id": 2037009,
+              "count": 9,
+              "creation_time": "2026-05-08T15:52:53Z",
+              "creator": "docfaraday@gmail.com",
+              "id": 18072398,
+              "is_private": false,
+              "raw_text": "Maybe one of our webcompat people has a contact over at OpenAI that we can lean on?",
+              "reactions": {},
+              "tags": [],
+              "text": "Maybe one of our webcompat people has a contact over at OpenAI that we can lean on?",
+              "time": "2026-05-08T15:52:53Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "docfaraday@gmail.com",
+              "bug_id": 2037009,
+              "count": 10,
+              "creation_time": "2026-05-08T15:58:31Z",
+              "creator": "docfaraday@gmail.com",
+              "id": 18072410,
+              "is_private": false,
+              "raw_text": "Actually, it looks like Sean DuBois is the right contact for this, I've gotten in touch.",
+              "reactions": {},
+              "tags": [],
+              "text": "Actually, it looks like Sean DuBois is the right contact for this, I've gotten in touch.",
+              "time": "2026-05-08T15:58:31Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "sky@mozilla.com",
+              "bug_id": 2037009,
+              "count": 11,
+              "creation_time": "2026-05-11T15:24:56Z",
+              "creator": "sky@mozilla.com",
+              "id": 18077167,
+              "is_private": false,
+              "raw_text": "This is effectively the platform bug for bug 2036757, I think? We're already talking to them.",
+              "reactions": {},
+              "tags": [],
+              "text": "This is effectively the platform bug for bug 2036757, I think? We're already talking to them.",
+              "time": "2026-05-11T15:24:56Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "docfaraday@gmail.com",
+              "bug_id": 2037009,
+              "count": 12,
+              "creation_time": "2026-05-11T16:02:18Z",
+              "creator": "docfaraday@gmail.com",
+              "id": 18077296,
+              "is_private": false,
+              "raw_text": "At first glance, this looks like a different issue. Probably also ICE-related though.",
+              "reactions": {},
+              "tags": [],
+              "text": "At first glance, this looks like a different issue. Probably also ICE-related though.",
+              "time": "2026-05-11T16:02:18Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "docfaraday@gmail.com",
+              "bug_id": 2037009,
+              "count": 13,
+              "creation_time": "2026-05-11T16:12:44Z",
+              "creator": "docfaraday@gmail.com",
+              "id": 18077348,
+              "is_private": false,
+              "raw_text": "Ok, from what I can tell the primary issue is not ICE related. ICE connects quickly, DTLS handshake seems to go fine, and we get bi-directional SRTP flow containing silence. So something else must be breaking. Then, about a minute in, this ICE consent bug happens. That's also a problem of course, but it is not the first show-stopper here.",
+              "reactions": {},
+              "tags": [],
+              "text": "Ok, from what I can tell the primary issue is not ICE related. ICE connects quickly, DTLS handshake seems to go fine, and we get bi-directional SRTP flow containing silence. So something else must be breaking. Then, about a minute in, this ICE consent bug happens. That's also a problem of course, but it is not the first show-stopper here.",
+              "time": "2026-05-11T16:12:44Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "docfaraday@gmail.com",
+              "bug_id": 2037009,
+              "count": 14,
+              "creation_time": "2026-05-11T16:16:59Z",
+              "creator": "docfaraday@gmail.com",
+              "id": 18077361,
+              "is_private": false,
+              "raw_text": "Same problem on ESR 140, so bug 2036757 is not a regression.",
+              "reactions": {},
+              "tags": [],
+              "text": "Same problem on ESR 140, so bug 2036757 is not a regression.",
+              "time": "2026-05-11T16:16:59Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "docfaraday@gmail.com",
+              "bug_id": 2037009,
+              "count": 15,
+              "creation_time": "2026-05-15T22:40:48Z",
+              "creator": "docfaraday@gmail.com",
+              "id": 18086420,
+              "is_private": false,
+              "raw_text": "Sean is no longer at OpenAI, so we're going to need to find another contact.",
+              "reactions": {},
+              "tags": [],
+              "text": "Sean is no longer at OpenAI, so we're going to need to find another contact.",
+              "time": "2026-05-15T22:40:48Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "jmathies@mozilla.com",
+              "bug_id": 2037009,
+              "count": 16,
+              "creation_time": "2026-05-21T17:36:05Z",
+              "creator": "jmathies@mozilla.com",
+              "id": 18096798,
+              "is_private": false,
+              "raw_text": "This needs outreach, or we land a an intervention that breaks spec (see comment 7).",
+              "reactions": {},
+              "tags": [],
+              "text": "This needs outreach, or we land a an intervention that breaks spec (see comment 7).",
+              "time": "2026-05-21T17:36:05Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "omer.fisher@gmail.com",
+              "bug_id": 2037009,
+              "count": 17,
+              "creation_time": "2026-05-30T09:21:23Z",
+              "creator": "omer.fisher@gmail.com",
+              "id": 18113923,
+              "is_private": false,
+              "raw_text": "Update 2026-05-30: still reproducing in Firefox 151.0 against the production OpenAI Realtime endpoint via WebRTC. Same drop signature \u2014 ice-state: disconnected ~30-60s in, right after the 2nd user speech turn.\n\nInteresting wrinkle: same Firefox 151 build + same OpenAI account gives different results between two payload sizes. A simplified standalone repro (~500-char prompt, raw getUserMedia) passed 3 consecutive sessions cleanly. Our production integration (~35K-char system prompt, semantic_vad, AudioContext + GainNode + noise gate) drops reliably. Possibly relevant to your USE-CANDIDATE diagnostic \u2014 different candidate-pair selection under different SDP / audio-transport conditions? Speculating.\n\nMultiple users on the OpenAI Developer Forum thread (ingsplazas May 21 on Firefox 151.0, plus TimoP, bearly_p, vb, Prashant) also report Firefox 151 still reproduces. Happy to provide additional repro data, about:webrtc dumps, or run mozregression if useful.\n\nAnything new on the OpenAI contact side since comment 15?",
+              "reactions": {},
+              "tags": [],
+              "text": "Update 2026-05-30: still reproducing in Firefox 151.0 against the production OpenAI Realtime endpoint via WebRTC. Same drop signature \u2014 ice-state: disconnected ~30-60s in, right after the 2nd user speech turn.\n\nInteresting wrinkle: same Firefox 151 build + same OpenAI account gives different results between two payload sizes. A simplified standalone repro (~500-char prompt, raw getUserMedia) passed 3 consecutive sessions cleanly. Our production integration (~35K-char system prompt, semantic_vad, AudioContext + GainNode + noise gate) drops reliably. Possibly relevant to your USE-CANDIDATE diagnostic \u2014 different candidate-pair selection under different SDP / audio-transport conditions? Speculating.\n\nMultiple users on the OpenAI Developer Forum thread (ingsplazas May 21 on Firefox 151.0, plus TimoP, bearly_p, vb, Prashant) also report Firefox 151 still reproduces. Happy to provide additional repro data, about:webrtc dumps, or run mozregression if useful.\n\nAnything new on the OpenAI contact side since comment 15?",
+              "time": "2026-05-30T09:21:23Z"
+            }
+          ]
+        }
+      },
+      "comments": {}
+    },
+    "history": {
+      "bugs": [
+        {
+          "alias": null,
+          "history": [
+            {
+              "changes": [
+                {
+                  "added": "omer.fisher@gmail.com",
+                  "field_name": "cc",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-05-05T08:43:53Z",
+              "who": "omer.fisher@gmail.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "WebRTC: Networking",
+                  "field_name": "component",
+                  "removed": "Untriaged"
+                },
+                {
+                  "added": "Core",
+                  "field_name": "product",
+                  "removed": "Firefox"
+                }
+              ],
+              "when": "2026-05-05T09:42:41Z",
+              "who": "release-mgmt-account-bot@mozilla.tld"
+            },
+            {
+              "changes": [
+                {
+                  "added": "docfaraday@gmail.com",
+                  "field_name": "cc",
+                  "removed": ""
+                },
+                {
+                  "added": "needinfo?(omer.fisher@gmail.com)",
+                  "field_name": "flagtypes.name",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-05-06T18:44:03Z",
+              "who": "docfaraday@gmail.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "victor.medina@msidata.com",
+                  "field_name": "cc",
+                  "removed": ""
+                },
+                {
+                  "added": "needinfo?(docfaraday@gmail.com)",
+                  "field_name": "flagtypes.name",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-05-07T00:38:34Z",
+              "who": "victor.medina@msidata.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "",
+                  "field_name": "flagtypes.name",
+                  "removed": "needinfo?(docfaraday@gmail.com)"
+                }
+              ],
+              "when": "2026-05-07T00:48:52Z",
+              "who": "victor.medina@msidata.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "needinfo?(victor.medina@msidata.com)",
+                  "field_name": "flagtypes.name",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-05-07T01:00:19Z",
+              "who": "docfaraday@gmail.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "",
+                  "field_name": "flagtypes.name",
+                  "removed": "needinfo?(omer.fisher@gmail.com)"
+                }
+              ],
+              "when": "2026-05-07T14:48:08Z",
+              "who": "omer.fisher@gmail.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "webcompat:needs-contact, webcompat:site-bug",
+                  "field_name": "keywords",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-05-07T18:42:05Z",
+              "who": "docfaraday@gmail.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "james@hoppipolla.co.uk",
+                  "field_name": "cc",
+                  "removed": ""
+                },
+                {
+                  "added": "needinfo?(james@hoppipolla.co.uk)",
+                  "field_name": "flagtypes.name",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-05-08T15:52:53Z",
+              "who": "docfaraday@gmail.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "",
+                  "field_name": "flagtypes.name",
+                  "removed": "needinfo?(james@hoppipolla.co.uk)"
+                }
+              ],
+              "when": "2026-05-08T15:58:31Z",
+              "who": "docfaraday@gmail.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "webcompat:site-report",
+                  "field_name": "keywords",
+                  "removed": "webcompat:site-bug"
+                }
+              ],
+              "when": "2026-05-08T17:07:27Z",
+              "who": "james@hoppipolla.co.uk"
+            },
+            {
+              "changes": [
+                {
+                  "added": "@@ -1 +1,7 @@\n-\n+platform:windows,mac,linux,android\r\n+impact:feature-broken\r\n+configuration:general\r\n+affects:all\r\n+branch:release\r\n+diagnosis-team:video-conferencing\r\n+user-impact-score:600\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                },
+                {
+                  "added": "https://bugzilla.mozilla.org/show_bug.cgi?id=2036757",
+                  "field_name": "see_also",
+                  "removed": ""
+                },
+                {
+                  "added": "webcompat:contact-in-progress",
+                  "field_name": "keywords",
+                  "removed": "webcompat:needs-contact"
+                },
+                {
+                  "added": "dschubert@mozilla.com",
+                  "field_name": "cc",
+                  "removed": ""
+                },
+                {
+                  "added": "https://chatgpt.com/",
+                  "field_name": "url",
+                  "removed": ""
+                },
+                {
+                  "added": "P2",
+                  "field_name": "cf_webcompat_priority",
+                  "removed": "---"
+                },
+                {
+                  "added": "7",
+                  "field_name": "cf_webcompat_score",
+                  "removed": "---"
+                }
+              ],
+              "when": "2026-05-11T15:24:56Z",
+              "who": "sky@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "[webcompat:sightline][webcompat:japan][webcompat:core]",
+                  "field_name": "whiteboard",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-05-11T15:44:06Z",
+              "who": "release-mgmt-account-bot@mozilla.tld"
+            },
+            {
+              "changes": [
+                {
+                  "added": "@@ -1,7 +1,7 @@\n-platform:windows,mac,linux,android\r\n+platform:windows,mac,linux,android\n-impact:feature-broken\r\n+impact:feature-broken\n-configuration:general\r\n+configuration:general\n-affects:all\r\n+affects:all\n-branch:release\r\n+branch:release\n-diagnosis-team:video-conferencing\r\n+diagnosis-team:video-conferencing\n-user-impact- score:600\n+user-impact-score:900\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                },
+                {
+                  "added": "P1",
+                  "field_name": "cf_webcompat_priority",
+                  "removed": "P2"
+                },
+                {
+                  "added": "8",
+                  "field_name": "cf_webcompat_score",
+                  "removed": "7"
+                }
+              ],
+              "when": "2026-05-13T14:33:13Z",
+              "who": "release-mgmt-account-bot@mozilla.tld"
+            },
+            {
+              "changes": [
+                {
+                  "added": "@@ -1,7 +1,7 @@\n-platform:windows,mac,linux,android\n-impact:feature-broken\n-configuration:general\n-affects:all\n-branch:release\n-diagnosis-team:video-conferencing\n+platform:windows,mac,linux,android\r\n+impact:feature-broken\r\n+configuration:general\r\n+affects:all\r\n+branch:release\r\n+diagnosis-team:video-conferencing\r\n user-impact-score:900\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                },
+                {
+                  "added": "docfaraday@gmail.com",
+                  "field_name": "assigned_to",
+                  "removed": "nobody@mozilla.org"
+                },
+                {
+                  "added": "P1",
+                  "field_name": "priority",
+                  "removed": "--"
+                },
+                {
+                  "added": "S2",
+                  "field_name": "severity",
+                  "removed": "--"
+                }
+              ],
+              "when": "2026-05-13T21:16:19Z",
+              "who": "ngrunbaum@me.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "needinfo?(james@hoppipolla.co.uk)",
+                  "field_name": "flagtypes.name",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-05-15T22:40:48Z",
+              "who": "docfaraday@gmail.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "",
+                  "field_name": "flagtypes.name",
+                  "removed": "needinfo?(james@hoppipolla.co.uk)"
+                },
+                {
+                  "added": "webcompat:needs-contact",
+                  "field_name": "keywords",
+                  "removed": "webcompat:contact-in-progress"
+                }
+              ],
+              "when": "2026-05-27T13:18:34Z",
+              "who": "james@hoppipolla.co.uk"
+            }
+          ],
+          "id": 2037009
+        }
+      ]
+    }
+  },
+  "show_bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=2037009"
+}

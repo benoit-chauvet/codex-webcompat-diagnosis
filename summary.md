@@ -14,31 +14,31 @@ The card title markup places a heading-size decorator inside `h3.headline`; the 
 
 ### Diagnosis
 
-Blocked/partial. The Tauron sign-up failure could not be fully reproduced because the reported final accept step requires valid customer registration state: an active agreement, an unactivated account, and successful identity-number steps. Firefox 151.0.2 and Chrome 148.0.7778.179 behaved the same through the accessible public flow: both reached `register/forms` and stopped at the PESEL identity field. Direct access to `register/terms-acceptance` redirected both browsers to `register/password-set`; submitting a dummy password from that state produced the same missing-session error in both browsers.
+Partial diagnosis only. The public site is reachable in both browsers, but the reported registration completion failure cannot be tested without valid Tauron account-registration inputs.
 
 ### Cause Analysis
 
-Not determined. The failing `terms-acceptance` page and its accept submission path were not reachable without the gated Tauron account/session state, and the public-flow evidence did not expose a Firefox-vs-Chrome difference. Further diagnosis needs a valid test account/session or a HAR/code capture from the reporter's final accept click.
+Not determined. The failing page and network request after clicking the acceptance button were not reachable.
 
 ## Bug [2042795](https://bugzilla.mozilla.org/show_bug.cgi?id=2042795)
 
 ### Diagnosis
 
-Reproduced as a Firefox-only compatibility issue. Firefox Nightly 153.0a1 shows the embedded GSMArena videos as unsupported, while Chrome 148 plays them. The reporter video, live page probe, and reduced testcase all match this split.
+Firefox reproduces the reported "No video with supported format and MIME type found" failure because the article's MP4s are encoded with H.264 profile 244 / High 4:4:4 Predictive (`avc1.f4001f`), which Firefox's media pipeline rejects, while Chrome accepts and decodes them.
 
 ### Cause Analysis
 
-GSMArena serves MP4 videos whose H.264 stream advertises `avc1.f4001f` / profile byte `0xf4`, i.e. High 4:4:4 Predictive with YUV444 chroma. Firefox rejects the media with a decoder capability error for YUV444, while Chrome decodes it. The reduced testcase in `output/bug_2042795/testcase/` validates the cause by comparing the failing `avc1.f4001f` sample with a playable `avc1.64001f` control. The minimal testcase in `output/bug_2042795/minimal-testcase/` reduces the same difference to one video element.
+The site serves H.264 profile-244 MP4s without a fallback encoding. Firefox's media support rejects that profile/chroma combination, producing media error code 3 in the testcase. Chrome supports or tolerates the encoding, so the same files play there. This is a content-encoding compatibility issue; serving normal H.264 High/Main profile 4:2:0, VP9, or AV1 fallback would avoid the Firefox failure.
 
 ## Bug [2042380](https://bugzilla.mozilla.org/show_bug.cgi?id=2042380)
 
 ### Diagnosis
 
-Site/environment drift. The reported Bilibili video URL redirected both Firefox 151.0.2 and Chrome 148 to the Bilibili home/error flow at `/?spm_id_from=333.788.selfDef.errorpage`, so the player timeline could not be reached.
+Not reproduced. The reporter video shows the original Firefox-vs-Chrome timing difference, but the live page now redirects away from the target video in both browsers.
 
 ### Cause Analysis
 
-Not determined. The current live page did not expose the reported video player in either browser, so no media timeline, source, or player initialization state was available to compare.
+Not determined. No player media element or timeline UI was available for inspection.
 
 ## Bug [2042167](https://bugzilla.mozilla.org/show_bug.cgi?id=2042167)
 
@@ -109,3 +109,137 @@ Not reproduced. Firefox 150 and Chrome 148 both loaded the normal Deutsche Bahn 
 ### Cause Analysis
 
 Not determined. The likely trigger is environment-specific IP reputation, geo, Linux fingerprint, session state, or anti-bot scoring rather than a general failure of Firefox 150 to load `bahn.de`.
+
+## Bug [1852768](https://bugzilla.mozilla.org/show_bug.cgi?id=1852768)
+
+### Diagnosis
+
+Partial diagnosis only. The reporter screenshot supports that Vimeo's player showed a PiP option in Chrome/another browser but not Firefox Android. The live controlled run could not reach the player.
+
+### Cause Analysis
+
+Likely related to Vimeo's player detecting Picture-in-Picture API/browser support and hiding the option when the API is unavailable. This is suggested by the controlled feature probe (`requestPictureInPicture` absent in Firefox, present in Chrome), but it was not validated on the actual player.
+
+## Bug [1944547](https://bugzilla.mozilla.org/show_bug.cgi?id=1944547)
+
+### Diagnosis
+
+Partial diagnosis only. The reporter screenshot supports a Firefox-only stuck-loading state in NotebookLM Interactive Mode, but the controlled probes could only verify that login is required.
+
+### Cause Analysis
+
+Not determined. Firefox feature probing shows Web Speech recognition constructors absent while Chrome exposes them, which may be relevant to a spoken-interaction feature, but the NotebookLM code path was not reached and this remains an unvalidated hypothesis.
+
+## Bug [1961790](https://bugzilla.mozilla.org/show_bug.cgi?id=1961790)
+
+### Diagnosis
+
+Firefox reproduces the reported unsupported voice-input behavior because Google Translate's voice input depends on the Web Speech recognition API, exposed in Chrome as `SpeechRecognition` / `webkitSpeechRecognition`. Firefox does not expose that API in the tested release.
+
+### Cause Analysis
+
+This is a web-platform API support gap or site fallback gap. Google Translate uses browser speech-recognition constructors to implement microphone translation. Chrome provides them; Firefox does not. The site does not provide a Firefox-compatible fallback, so voice input cannot start.
+
+## Bug [1977159](https://bugzilla.mozilla.org/show_bug.cgi?id=1977159)
+
+### Diagnosis
+
+Not reproduced against the current live site. The original artifact content appears unavailable or access-controlled now, so the reported Firefox-only rendering failure could not be exercised.
+
+### Cause Analysis
+
+Not determined. The failing artifact implementation is no longer available for inspection in the controlled probes.
+
+## Bug [2012085](https://bugzilla.mozilla.org/show_bug.cgi?id=2012085)
+
+### Diagnosis
+
+Partial diagnosis only. The login entry point works in both browsers, but the affected To-field autocomplete behavior is account-gated.
+
+### Cause Analysis
+
+Not determined. No authenticated composer DOM or autocomplete widget was available for inspection.
+
+## Bug [2030614](https://bugzilla.mozilla.org/show_bug.cgi?id=2030614)
+
+### Diagnosis
+
+Firefox still reproduces the AOL hero-carousel failure on the current site. The carousel data is present lower in the page, but the top hero does not hydrate from placeholder state to populated image/title/link state.
+
+### Cause Analysis
+
+The most likely cause is a Firefox-only failure in AOL/Yahoo's Wafer bootstrap path. The live Firefox page throws before Wafer-dependent modules can initialize the hero carousel, while Chrome does not. The observed failure is sufficient to leave the carousel in its initial skeleton state.
+
+This is based on live runtime evidence rather than source-map-level AOL code ownership: the proprietary page bundles are minified, and the exact ordering or feature-detection branch that makes Wafer undefined only in Firefox was not isolated.
+
+## Bug [2031963](https://bugzilla.mozilla.org/show_bug.cgi?id=2031963)
+
+### Diagnosis
+
+Partial diagnosis. The original report likely involved Firefox Android's async pan/zoom handling of touch listeners on the CAPTCHA overlay, but the current site did not present that CAPTCHA and could not be reproduced here.
+
+### Cause Analysis
+
+Inferred from the Bugzilla attachment only: the suspected platform cause is late/non-passive touch listener registration not reaching APZ quickly enough, allowing background page panning while the CAPTCHA element is dragged. This inference is consistent with the attached Phabricator title, but it was not validated against the live page.
+
+## Bug [2034048](https://bugzilla.mozilla.org/show_bug.cgi?id=2034048)
+
+### Diagnosis
+
+Documentation-confirmed unsupported browser/version. The issue is not a transient rendering failure in the help page: Canva currently documents that Firefox 149 and above are not supported for offline editing.
+
+### Cause Analysis
+
+Likely product/browser-support gating for Canva's offline-editing implementation. The exact app implementation was not tested, but the support article is explicit about the support boundary.
+
+## Bug [2035136](https://bugzilla.mozilla.org/show_bug.cgi?id=2035136)
+
+### Diagnosis
+
+Partial diagnosis. The "Link code from your computer" feature appears intentionally limited to Chromium-family browsers in Claude's UI. The likely functional dependency is Chromium's File System Access API or related local-file picker capabilities.
+
+### Cause Analysis
+
+Likely browser capability/allowlist gating for local code linking. Firefox lacks `showOpenFilePicker` in the controlled probe, while Chrome supports it. The exact Claude code path was not inspected because login was required.
+
+## Bug [2036045](https://bugzilla.mozilla.org/show_bug.cgi?id=2036045)
+
+### Diagnosis
+
+Firefox reproduces the AOL video thumbnail-loading failure. The page text and card structure load, but the lazyload step that swaps placeholder GIFs for real thumbnails does not run correctly in Firefox.
+
+### Cause Analysis
+
+The likely cause is the same AOL/Yahoo Wafer bootstrap failure seen on the AOL home page. Firefox throws in Wafer-dependent code before the lazy image loader can replace `blank.gif` placeholders with thumbnail URLs. Chrome executes the page without those Wafer bootstrap errors and the thumbnails load.
+
+The exact minified AOL script branch that leaves Wafer undefined only in Firefox was not reduced.
+
+## Bug [2036757](https://bugzilla.mozilla.org/show_bug.cgi?id=2036757)
+
+### Diagnosis
+
+Partial diagnosis only. The reporter video supports a Firefox-only spinner state after voice is activated, but the controlled environment could not enter the logged-in voice workflow.
+
+### Cause Analysis
+
+Not determined. Possible areas to inspect when credentials are available include microphone permission state, WebRTC/media capture startup, voice-mode WebSocket/WebRTC setup, and UI state transitions after the voice button click.
+
+## Bug [2037009](https://bugzilla.mozilla.org/show_bug.cgi?id=2037009)
+
+### Diagnosis
+
+Partial diagnosis. The Bugzilla attachment is consistent with a Firefox ICE consent-refresh timeout causing the connection to transition to disconnected during the second user turn. This is a Core/WebRTC networking issue rather than a simple site layout compatibility bug.
+
+### Cause Analysis
+
+Not fully determined. The available about:webrtc evidence points at ICE consent freshness failing after several successful refreshes. It does not prove whether the root cause is Firefox consent timer/state handling, network path behavior, server-side STUN response behavior, or interaction with the selected candidate pair.
+
+## Bug [2038198](https://bugzilla.mozilla.org/show_bug.cgi?id=2038198)
+
+### Diagnosis
+
+Partial diagnosis. The evidence supports a Wise/FaceTec browser-support gate in the identity-check provider rather than a generic page-load failure. The flow cannot be completed in Firefox for iOS per the reporter screenshot, while Chrome reportedly completes it.
+
+### Cause Analysis
+
+Likely site/provider browser allowlisting or unsupported-device logic in the FaceTec-powered check. The precise check was not reachable without the private signup flow and iOS device context.

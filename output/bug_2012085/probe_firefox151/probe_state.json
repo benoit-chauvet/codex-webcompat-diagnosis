@@ -1,0 +1,381 @@
+{
+  "task": "featurePage",
+  "browser": "firefox",
+  "executablePath": "/Applications/Firefox.app/Contents/MacOS/firefox",
+  "requestedUrl": "https://email.bt.com/mail/index-rui.jsp?v=MX_3.11.0.7",
+  "finalUrl": "https://prod-btemailauth.bt.com/81522fe7-47cf-4713-bdb7-b6f7bfe421a6/b2c_1a_rpbt_signin/oauth2/v2.0/authorize?client_id=bf4e9e5e-0d73-46b3-ad02-06f335bd5105&scope=bf4e9e5e-0d73-46b3-ad02-06f335bd5105%20openid%20profile%20offline_access&redirect_uri=https://email.bt.com/mail/saf/sso.jsp&response_type=code&state=mes8sJBSjnYbUM6o7vv",
+  "httpStatus": 200,
+  "navigationError": null,
+  "viewport": {
+    "width": 1280,
+    "height": 900
+  },
+  "events": {
+    "console": [
+      {
+        "type": "log",
+        "text": "Error, missing Report Suite ID in AppMeasurement initialization"
+      },
+      {
+        "type": "log",
+        "text": "Unified - version 4.3.2022: 16:51:00 GMT+0200 (Central European Summer Time)"
+      },
+      {
+        "type": "log",
+        "text": "Resolved OrgId: 2cctnc2e CorrelationId: ca9357c7-d1c8-440c-b922-7e6c2881cee4"
+      },
+      {
+        "type": "log",
+        "text": "Resolved OrgId: 2cctnc2e CorrelationId: ca9357c7-d1c8-440c-b922-7e6c2881cee4"
+      },
+      {
+        "type": "log",
+        "text": "Resolved OrgId: 2cctnc2e CorrelationId: ca9357c7-d1c8-440c-b922-7e6c2881cee4"
+      },
+      {
+        "type": "warn",
+        "text": "tags.js already injected, skipping"
+      },
+      {
+        "type": "warn",
+        "text": "tags.js already injected, skipping"
+      },
+      {
+        "type": "log",
+        "text": "Updated label to have aria-hidden=\"true\""
+      },
+      {
+        "type": "log",
+        "text": "Created hidden accessible label for input"
+      },
+      {
+        "type": "log",
+        "text": "Updated input field with aria-labelledby and removed unnecessary attributes"
+      }
+    ],
+    "pageErrors": [
+      {
+        "name": "Error",
+        "message": "ChunkLoadError: Loading chunk 291 failed.\n(error: https://email.bt.com/mail/ux/291.js)"
+      },
+      {
+        "name": "Error",
+        "message": "ChunkLoadError: Loading chunk 188 failed.\n(error: https://email.bt.com/mail/ux/188.js)"
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “ARRAffinity” has been rejected for invalid domain."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “ARRAffinitySameSite” has been rejected for invalid domain."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “ARRAffinity” has been rejected for invalid domain."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “ARRAffinitySameSite” has been rejected for invalid domain."
+      }
+    ],
+    "requestFailures": [
+      {
+        "url": "https://email.bt.com/mail/ux/291.js",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://email.bt.com/mail/ux/188.js",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      },
+      {
+        "url": "https://h64.online-metrix.net/fp/clear.png?org_id=2cctnc2e&session_id=ca9357c7-d1c8-440c-b922-7e6c2881cee4&nonce=3fa095d907416331&i=2",
+        "method": "GET",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_ERROR_FINGERPRINTING_URI"
+        }
+      }
+    ]
+  },
+  "page": {
+    "url": "https://prod-btemailauth.bt.com/81522fe7-47cf-4713-bdb7-b6f7bfe421a6/b2c_1a_rpbt_signin/oauth2/v2.0/authorize?client_id=bf4e9e5e-0d73-46b3-ad02-06f335bd5105&scope=bf4e9e5e-0d73-46b3-ad02-06f335bd5105%20openid%20profile%20offline_access&redirect_uri=https://email.bt.com/mail/saf/sso.jsp&response_type=code&state=mes8sJBSjnYbUM6o7vv",
+    "title": "Secure Authentication",
+    "readyState": "complete",
+    "scrollX": 0,
+    "scrollY": 0,
+    "viewport": {
+      "innerWidth": 1280,
+      "innerHeight": 900,
+      "devicePixelRatio": 1
+    },
+    "documentElement": {
+      "clientWidth": 1280,
+      "clientHeight": 900,
+      "scrollWidth": 1280,
+      "scrollHeight": 900
+    },
+    "bodyTextSample": "Log in\nEmail or username\nNext\nForgot log-in details?\nCancel"
+  },
+  "taskResult": {
+    "screenshots": {
+      "page": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2012085/probe_firefox151/feature_page.png"
+    },
+    "featureSupport": {
+      "speechRecognition": false,
+      "webkitSpeechRecognition": false,
+      "showOpenFilePicker": false,
+      "launchQueue": false,
+      "serviceWorker": true,
+      "getUserMedia": true,
+      "credentials": true,
+      "clipboardRead": true,
+      "webkitSupportsFullscreen": false,
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:151.0) Gecko/20100101 Firefox/151.0"
+    },
+    "visible": [
+      {
+        "index": 6,
+        "tag": "div",
+        "label": "Log in Email or username Next Forgot log-in details? Cancel page-bg SignIn SignUpSignInPage1 ios",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 900
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 7,
+        "tag": "div",
+        "label": "Log in Email or username Next Forgot log-in details? Cancel main-panel",
+        "rect": {
+          "x": 640,
+          "y": 0,
+          "width": 640,
+          "height": 900
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 8,
+        "tag": "img",
+        "label": "brandlogo",
+        "rect": {
+          "x": 260,
+          "y": 390,
+          "width": 120,
+          "height": 120
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 9,
+        "tag": "div",
+        "label": "Log in Email or username Next Forgot log-in details? Cancel api",
+        "rect": {
+          "x": 768,
+          "y": 294.933349609375,
+          "width": 384,
+          "height": 310.1333312988281
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 12,
+        "tag": "div",
+        "label": "Log in intro",
+        "rect": {
+          "x": 768,
+          "y": 321.5,
+          "width": 384,
+          "height": 36
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 13,
+        "tag": "h2",
+        "label": "Log in",
+        "rect": {
+          "x": 768,
+          "y": 321.5,
+          "width": 384,
+          "height": 36
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 16,
+        "tag": "div",
+        "label": "Email or username Next entry",
+        "rect": {
+          "x": 768,
+          "y": 384.066650390625,
+          "width": 384,
+          "height": 159
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 17,
+        "tag": "div",
+        "label": "Email or username entry-item",
+        "rect": {
+          "x": 768,
+          "y": 384.066650390625,
+          "width": 384,
+          "height": 91
+        },
+        "visible": true,
+        "display": "grid",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 21,
+        "tag": "div",
+        "label": "Next buttons",
+        "rect": {
+          "x": 768,
+          "y": 475.066650390625,
+          "width": 384,
+          "height": 68
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 22,
+        "tag": "button",
+        "label": "Next next",
+        "rect": {
+          "x": 768,
+          "y": 475.066650390625,
+          "width": 384,
+          "height": 48
+        },
+        "visible": true,
+        "display": "inline-block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 23,
+        "tag": "div",
+        "label": "Forgot log-in details? Cancel claims-provider-list-text-links-bottom-under-form",
+        "rect": {
+          "x": 768,
+          "y": 543.066650390625,
+          "width": 384,
+          "height": 52
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 24,
+        "tag": "div",
+        "label": "Forgot log-in details?",
+        "rect": {
+          "x": 768,
+          "y": 543.066650390625,
+          "width": 384,
+          "height": 21
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 25,
+        "tag": "a",
+        "label": "Forgot log-in details? ForgotPasswordExchange text-link",
+        "rect": {
+          "x": 768,
+          "y": 543.066650390625,
+          "width": 156.63333129882812,
+          "height": 21
+        },
+        "visible": true,
+        "display": "inline",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 26,
+        "tag": "div",
+        "label": "Cancel",
+        "rect": {
+          "x": 768,
+          "y": 574.066650390625,
+          "width": 384,
+          "height": 21
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 27,
+        "tag": "a",
+        "label": "Cancel TransferToCancelScreen text-link",
+        "rect": {
+          "x": 768,
+          "y": 574.066650390625,
+          "width": 51.100006103515625,
+          "height": 21
+        },
+        "visible": true,
+        "display": "inline",
+        "visibility": "visible",
+        "opacity": "1"
+      }
+    ]
+  }
+}

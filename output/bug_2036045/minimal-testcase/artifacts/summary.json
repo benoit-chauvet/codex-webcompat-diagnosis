@@ -1,0 +1,6 @@
+{
+  "firefox": {
+    "src": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==",
+    "error": "can't access property \"ready\", window.wafer is undefined"
+  }
+}

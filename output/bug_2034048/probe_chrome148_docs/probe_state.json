@@ -1,0 +1,419 @@
+{
+  "task": "featurePage",
+  "browser": "chrome",
+  "executablePath": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+  "requestedUrl": "https://www.canva.com/en_au/help/set-up-offline-access/#get-started-with-offline-editing",
+  "finalUrl": "https://www.canva.com/en_au/help/set-up-offline-access/#get-started-with-offline-editing",
+  "httpStatus": 403,
+  "navigationError": null,
+  "viewport": {
+    "width": 1280,
+    "height": 900
+  },
+  "events": {
+    "console": [
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 403 ()"
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 403 ()"
+      },
+      {
+        "type": "startGroupCollapsed",
+        "text": ""
+      },
+      {
+        "type": "debug",
+        "text": "Error"
+      },
+      {
+        "type": "log",
+        "text": "[regexp RegExp]"
+      },
+      {
+        "type": "log",
+        "text": "[regexp RegExp]"
+      },
+      {
+        "type": "log",
+        "text": "[function Function]"
+      },
+      {
+        "type": "log",
+        "text": "[function Function]"
+      },
+      {
+        "type": "log",
+        "text": "[node HTMLAnchorElement]"
+      },
+      {
+        "type": "log",
+        "text": "[node HTMLAnchorElement]"
+      },
+      {
+        "type": "count",
+        "text": "\u0000: 1"
+      },
+      {
+        "type": "count",
+        "text": "\u0000: 1"
+      },
+      {
+        "type": "debug",
+        "text": "%c%d font-size:0;color:transparent NaN"
+      },
+      {
+        "type": "debug",
+        "text": "%c%d font-size:0;color:transparent NaN"
+      },
+      {
+        "type": "dir",
+        "text": " Error"
+      },
+      {
+        "type": "dir",
+        "text": " Error"
+      },
+      {
+        "type": "dirxml",
+        "text": "%c%d font-size:0;color:transparent Error"
+      },
+      {
+        "type": "dirxml",
+        "text": "%c%d font-size:0;color:transparent Error"
+      },
+      {
+        "type": "error",
+        "text": "%c%d font-size:0;color:transparent NaN"
+      },
+      {
+        "type": "error",
+        "text": "%c%d font-size:0;color:transparent NaN"
+      },
+      {
+        "type": "info",
+        "text": "%c%d font-size:0;color:transparent NaN"
+      },
+      {
+        "type": "info",
+        "text": "%c%d font-size:0;color:transparent NaN"
+      },
+      {
+        "type": "log",
+        "text": "%c%d font-size:0;color:transparent NaN"
+      },
+      {
+        "type": "log",
+        "text": "%c%d font-size:0;color:transparent NaN"
+      },
+      {
+        "type": "table",
+        "text": "%c%d font-size:0;color:transparent Error"
+      },
+      {
+        "type": "table",
+        "text": "%c%d font-size:0;color:transparent Error"
+      },
+      {
+        "type": "trace",
+        "text": "%c%d font-size:0;color:transparent NaN"
+      },
+      {
+        "type": "trace",
+        "text": "%c%d font-size:0;color:transparent NaN"
+      },
+      {
+        "type": "warn",
+        "text": "%c%d font-size:0;color:transparent NaN"
+      },
+      {
+        "type": "warn",
+        "text": "%c%d font-size:0;color:transparent NaN"
+      },
+      {
+        "type": "endGroup",
+        "text": "console.groupEnd"
+      },
+      {
+        "type": "startGroupCollapsed",
+        "text": "Request for the Private Access Token challenge."
+      },
+      {
+        "type": "log",
+        "text": "The next request for the Private Access Token challenge may return a 401 and show a warning in console."
+      },
+      {
+        "type": "endGroup",
+        "text": "console.groupEnd"
+      }
+    ],
+    "pageErrors": [],
+    "requestFailures": []
+  },
+  "page": {
+    "url": "https://www.canva.com/en_au/help/set-up-offline-access/#get-started-with-offline-editing",
+    "title": "Just a moment...",
+    "readyState": "complete",
+    "scrollX": 0,
+    "scrollY": 0,
+    "viewport": {
+      "innerWidth": 1280,
+      "innerHeight": 900,
+      "devicePixelRatio": 1
+    },
+    "documentElement": {
+      "clientWidth": 1280,
+      "clientHeight": 900,
+      "scrollWidth": 1280,
+      "scrollHeight": 900
+    },
+    "bodyTextSample": "We’ll have you designing again soon\n\nIf you can't get past this page, reach out to Canva support with the information below.\n\nRayID: a03e92858d9088f4"
+  },
+  "taskResult": {
+    "screenshots": {
+      "page": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2034048/probe_chrome148_docs/feature_page.png"
+    },
+    "featureSupport": {
+      "speechRecognition": true,
+      "webkitSpeechRecognition": true,
+      "showOpenFilePicker": true,
+      "launchQueue": true,
+      "serviceWorker": true,
+      "getUserMedia": true,
+      "credentials": true,
+      "clipboardRead": true,
+      "pictureInPictureEnabled": true,
+      "webkitSupportsFullscreen": true,
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/148.0.0.0 Safari/537.36"
+    },
+    "visible": [
+      {
+        "index": 0,
+        "tag": "div",
+        "label": "We’ll have you designing again soon If you can't get past this page, reach out to Canva support with the information below. RayID: a03e92858d9088f4 application",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 900
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 1,
+        "tag": "div",
+        "label": "We’ll have you designing again soon If you can't get past this page, reach out to Canva support with the information below. RayID: a03e92858d9088f4 desktop-home-view",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 900
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 2,
+        "tag": "div",
+        "label": "We’ll have you designing again soon If you can't get past this page, reach out to Canva support with the information below. RayID: a03e92858d9088f4 text",
+        "rect": {
+          "x": 128,
+          "y": 108,
+          "width": 1024,
+          "height": 388.03125
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 3,
+        "tag": "div",
+        "label": "We’ll have you designing again soon If you can't get past this page, reach out to Canva support with the information below. RayID: a03e92858d9088f4 error-page-content",
+        "rect": {
+          "x": 340,
+          "y": 145,
+          "width": 600,
+          "height": 351.03125
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 4,
+        "tag": "h1",
+        "label": "We’ll have you designing again soon challenge_title i18n",
+        "rect": {
+          "x": 402.828125,
+          "y": 205,
+          "width": 474.328125,
+          "height": 36.390625
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 5,
+        "tag": "div",
+        "label": "Verification successful. Waiting for www.canva.com to respond<div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div>(function(){window._cf_chl_opt = {cFPWv: 'g',cH: 'GbJdtgFj0N3lCgS9e9R.VJa1Gwr.jp.4b7bxPzsqYSI-1780152848-1.2.1.1-DlSH0PeSyWXMuHuTmoNg.oryPGLaSt427pCr8LjwEQGZ.G0SMgLP0UVhVHzS.dJx',cITimeS: '1780152848',cRay: 'a03e92858d9088f4',cTplB: '0',",
+        "rect": {
+          "x": 340,
+          "y": 281.390625,
+          "width": 600,
+          "height": 91.25
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 6,
+        "tag": "div",
+        "label": "Verification successful. Waiting for www.canva.com to respond<div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div> main-wrapper",
+        "rect": {
+          "x": 490,
+          "y": 281.390625,
+          "width": 300,
+          "height": 91.25
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 7,
+        "tag": "div",
+        "label": "Verification successful. Waiting for www.canva.com to respond<div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div> main-content",
+        "rect": {
+          "x": 490,
+          "y": 301.390625,
+          "width": 300,
+          "height": 71.25
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 10,
+        "tag": "div",
+        "label": "BbLB6",
+        "rect": {
+          "x": 490,
+          "y": 301.390625,
+          "width": 300,
+          "height": 71.25
+        },
+        "visible": true,
+        "display": "grid",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 11,
+        "tag": "div",
+        "label": "",
+        "rect": {
+          "x": 490,
+          "y": 301.390625,
+          "width": 300,
+          "height": 71.25
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 12,
+        "tag": "div",
+        "label": "",
+        "rect": {
+          "x": 490,
+          "y": 301.390625,
+          "width": 300,
+          "height": 71.25
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 21,
+        "tag": "p",
+        "label": "If you can't get past this page, reach out to Canva support with the information below. challenge_subtitle message i18n",
+        "rect": {
+          "x": 351.328125,
+          "y": 412.640625,
+          "width": 577.328125,
+          "height": 21
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 22,
+        "tag": "a",
+        "label": "Canva support",
+        "rect": {
+          "x": 640.90625,
+          "y": 413.640625,
+          "width": 99.234375,
+          "height": 19
+        },
+        "visible": true,
+        "display": "inline",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 23,
+        "tag": "p",
+        "label": "RayID: a03e92858d9088f4 error-page-meta",
+        "rect": {
+          "x": 549.90625,
+          "y": 457.640625,
+          "width": 180.171875,
+          "height": 22.390625
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 24,
+        "tag": "div",
+        "label": "canvas-container",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 900
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      }
+    ]
+  }
+}

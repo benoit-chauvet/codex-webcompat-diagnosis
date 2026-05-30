@@ -24,6 +24,13 @@ BUGZILLA_BASE = "https://bugzilla.mozilla.org"
 URL_RE = re.compile(r"https?://[^\s<>)\"']+", re.IGNORECASE)
 REPORT_TITLE_RE = re.compile(r"^#\s+Bug\s+(\d+)\s+Diagnosis\s*$", re.MULTILINE)
 SECTION_HEADING_RE = re.compile(r"^##\s+(.+?)\s*$", re.MULTILINE)
+BATCH_SUMMARY_GROUPS = [
+    "Reproduced With Cause/Testcases",
+    "Site/Content Drift",
+    "Blocked/Partial",
+    "Documentation-Confirmed Unsupported",
+    "Other/Needs Review",
+]
 VERSION_PATTERNS = [
     re.compile(r"\bFirefox\s+(?:Nightly\s+|Release\s+|Beta\s+|version\s+)?([0-9]{2,3}(?:\.[0-9A-Za-z]+)*)", re.IGNORECASE),
     re.compile(r"\b(?:Fx|FF)\s*([0-9]{2,3}(?:\.[0-9A-Za-z]+)*)\b", re.IGNORECASE),
@@ -615,6 +622,10 @@ def default_summary_path(output_dir: Path) -> Path:
     return output_dir.parent / "summary.md"
 
 
+def default_batch_summary_dir(output_dir: Path) -> Path:
+    return output_dir
+
+
 def sort_summary_entries(entries: list[dict[str, str]], summary_path: Path) -> list[dict[str, str]]:
     existing_order = flattened_existing_summary_order(summary_path)
     if existing_order:
@@ -704,6 +715,185 @@ def append_missing_summary_entries(output_dir: Path, summary_path: Path, bugzill
 def append_summary_report(report_path: Path, summary_path: Path, bugzilla_base: str) -> int:
     entry = summary_entry(report_path, bugzilla_base)
     return append_summary_entries(summary_path, [entry] if entry else [])
+
+
+def report_metadata_value(report_text: str, label: str) -> str:
+    metadata = extract_markdown_section(report_text, "Bug Metadata")
+    for line in metadata.splitlines():
+        match = re.match(rf"^-\s+{re.escape(label)}:\s*(.*?)\s*$", line)
+        if match:
+            return match.group(1)
+    return ""
+
+
+def relative_markdown_target(target: Path, base_dir: Path) -> str:
+    try:
+        relative = target.resolve().relative_to(base_dir.resolve())
+    except ValueError:
+        relative = Path(os.path.relpath(target.resolve(), base_dir.resolve()))
+    return relative.as_posix()
+
+
+def testcase_links_for_report(report_path: Path, batch_summary_dir: Path) -> list[tuple[str, str]]:
+    bug_dir = report_path.parent
+    links: list[tuple[str, str]] = []
+    candidates = [
+        ("Reduced cause-validation test case", bug_dir / "testcase"),
+        ("Minimal standalone test case", bug_dir / "minimal-testcase"),
+        ("Reduced test artifacts", bug_dir / "testcase" / "artifacts"),
+        ("Minimal test artifacts", bug_dir / "minimal-testcase" / "artifacts"),
+    ]
+    for label, path in candidates:
+        if path.exists():
+            links.append((label, relative_markdown_target(path, batch_summary_dir)))
+    return links
+
+
+def classify_batch_summary_entry(entry: dict[str, str], testcase_links: list[tuple[str, str]]) -> str:
+    text = "\n".join(
+        [
+            entry.get("diagnosis", ""),
+            entry.get("cause_analysis", ""),
+            entry.get("actual_vs_expected", ""),
+            entry.get("cause_validation", ""),
+            entry.get("confidence", ""),
+        ]
+    ).lower()
+
+    if testcase_links or "reproduced cross-browser issue" in text:
+        return "Reproduced With Cause/Testcases"
+    if (
+        "documentation-confirmed" in text
+        or "documented unsupported" in text
+        or ("not supported" in text and any(token in text for token in ("documentation", "documents", "support article", "documented")))
+    ):
+        return "Documentation-Confirmed Unsupported"
+    if any(
+        token in text
+        for token in (
+            "site/environment drift",
+            "site/content drift",
+            "content drift",
+            "environment drift",
+            "site drift",
+            "no longer reproduces",
+            "not reproduced",
+            "redirects away",
+            "target url",
+        )
+    ):
+        return "Site/Content Drift"
+    if (
+        "blocked/partial" in text
+        or "partial diagnosis" in text
+        or "blocked" in text
+        or ("requires" in text and any(token in text for token in ("credential", "login", "account", "subscription", "device")))
+        or "cannot be completed" in text
+    ):
+        return "Blocked/Partial"
+    return "Other/Needs Review"
+
+
+def batch_summary_entry(report_path: Path, bugzilla_base: str, batch_summary_dir: Path) -> dict[str, str] | None:
+    report_text = report_path.read_text(encoding="utf-8")
+    bug_id = report_bug_id(report_text, report_path)
+    if not bug_id:
+        return None
+
+    entry = {
+        "bug_id": bug_id,
+        "summary": report_metadata_value(report_text, "Summary") or "unknown",
+        "bugzilla_url": report_bugzilla_url(report_text, bug_id, bugzilla_base),
+        "generated_at": report_generated_at(report_text),
+        "report_link": relative_markdown_target(report_path, batch_summary_dir),
+        "diagnosis": extract_markdown_section(report_text, "Diagnosis"),
+        "cause_analysis": extract_markdown_section(report_text, "Cause Analysis"),
+        "actual_vs_expected": extract_markdown_section(report_text, "Actual-vs-Expected Comparison"),
+        "evidence": extract_markdown_section(report_text, "Controlled Browser Reproduction Evidence"),
+        "cause_validation": extract_markdown_section(report_text, "Cause-Validation Test Cases"),
+        "confidence": extract_markdown_section(report_text, "Confidence"),
+    }
+    testcase_links = testcase_links_for_report(report_path, batch_summary_dir)
+    entry["testcase_links"] = "\n".join(f"- {label}: [{target}]({target})" for label, target in testcase_links)
+    entry["group"] = classify_batch_summary_entry(entry, testcase_links)
+    return entry
+
+
+def format_optional_batch_section(title: str, body: str) -> list[str]:
+    if not body or body == "Not documented.":
+        return []
+    return ["", f"#### {title}", "", body]
+
+
+def format_batch_summary_entry(entry: dict[str, str]) -> str:
+    lines = [
+        f"### Bug [{entry['bug_id']}]({entry['bugzilla_url']})",
+        "",
+        f"- Summary: {entry['summary']}",
+        f"- Report: [{entry['report_link']}]({entry['report_link']})",
+        "",
+        "#### Diagnosis",
+        "",
+        entry["diagnosis"],
+        "",
+        "#### Cause Analysis",
+        "",
+        entry["cause_analysis"],
+    ]
+    if entry["testcase_links"]:
+        lines.extend(["", "#### Test Cases", "", entry["testcase_links"]])
+    lines.extend(format_optional_batch_section("Actual-vs-Expected Comparison", entry["actual_vs_expected"]))
+    lines.extend(format_optional_batch_section("Controlled Browser Reproduction Evidence", entry["evidence"]))
+    lines.extend(format_optional_batch_section("Confidence", entry["confidence"]))
+    return "\n".join(lines).rstrip()
+
+
+def write_timestamped_batch_summary(output_dir: Path, batch_summary_dir: Path, bugzilla_base: str) -> Path | None:
+    entries: list[dict[str, str]] = []
+    for report_path in report_paths_for_summary(output_dir):
+        entry = batch_summary_entry(report_path, bugzilla_base, batch_summary_dir)
+        if entry:
+            entries.append(entry)
+    if not entries:
+        return None
+
+    batch_summary_dir.mkdir(parents=True, exist_ok=True)
+    generated_at = datetime.now(timezone.utc).astimezone()
+    generated_display = generated_at.isoformat(timespec="seconds")
+    filename_timestamp = generated_at.strftime("%Y-%m-%dT%H%M%S%z")
+    summary_path = batch_summary_dir / f"batch_summary_{filename_timestamp}.md"
+    ordered_entries = sort_summary_entries(entries, default_summary_path(output_dir))
+    grouped_entries = {
+        group: [entry for entry in ordered_entries if entry["group"] == group]
+        for group in BATCH_SUMMARY_GROUPS
+    }
+
+    lines = [
+        "# Timestamped WebCompat Diagnosis Batch Summary",
+        "",
+        f"Generated: {generated_display}",
+        f"Source output directory: `{relative_markdown_target(output_dir, batch_summary_dir)}`",
+        "",
+        "## Key Outcomes",
+        "",
+    ]
+    for group in BATCH_SUMMARY_GROUPS:
+        group_entries = grouped_entries[group]
+        if group_entries:
+            bugs = ", ".join(f"[{entry['bug_id']}]({entry['bugzilla_url']})" for entry in group_entries)
+        else:
+            bugs = "None"
+        lines.append(f"- {group}: {bugs}")
+
+    for group in BATCH_SUMMARY_GROUPS:
+        group_entries = grouped_entries[group]
+        if not group_entries:
+            continue
+        lines.extend(["", f"## {group}", ""])
+        lines.append("\n\n".join(format_batch_summary_entry(entry) for entry in group_entries))
+
+    summary_path.write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
+    return summary_path
 
 
 def command_status(result: CaptureResult) -> str:
@@ -881,6 +1071,9 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
     parser.add_argument("--summary-only", action="store_true", help="Append missing diagnosis reports to summary.md without fetching Bugzilla data or launching browsers")
     parser.add_argument("--no-summary", action="store_true", help="Do not update summary.md after writing a diagnosis report")
     parser.add_argument("--summary-path", type=Path, help="Path for the aggregate summary. Default: summary.md next to the output directory")
+    parser.add_argument("--batch-summary-only", action="store_true", help="Write a timestamped grouped batch summary from existing reports without fetching Bugzilla data or launching browsers")
+    parser.add_argument("--no-batch-summary", action="store_true", help="Do not write a timestamped grouped batch summary after this run")
+    parser.add_argument("--batch-summary-dir", type=Path, help="Directory for timestamped batch summaries. Default: output directory")
     parser.add_argument("--timeout", default=90, type=int, help="Per-screenshot timeout in seconds")
     parser.add_argument(
         "--viewport",
@@ -899,12 +1092,30 @@ def main(argv: list[str] | None = None) -> int:
         if args.summary_path
         else default_summary_path(output_dir)
     )
+    batch_summary_dir = (
+        args.batch_summary_dir.expanduser().resolve()
+        if args.batch_summary_dir
+        else default_batch_summary_dir(output_dir)
+    )
+    if args.batch_summary_only:
+        batch_summary_path = write_timestamped_batch_summary(output_dir, batch_summary_dir, args.bugzilla_base)
+        if batch_summary_path:
+            print(f"Wrote timestamped batch summary to {batch_summary_path}")
+        else:
+            print(f"No diagnosis reports found under {output_dir}; timestamped batch summary was not written")
+        return 0
     if args.summary_only:
         count = append_missing_summary_entries(output_dir, summary_path, args.bugzilla_base)
         print(f"Appended {count} missing diagnosis summary entr{'y' if count == 1 else 'ies'} to {summary_path}")
+        if not args.no_batch_summary:
+            batch_summary_path = write_timestamped_batch_summary(output_dir, batch_summary_dir, args.bugzilla_base)
+            if batch_summary_path:
+                print(f"Wrote timestamped batch summary to {batch_summary_path}")
+            else:
+                print(f"No diagnosis reports found under {output_dir}; timestamped batch summary was not written")
         return 0
     if not args.bug_id:
-        raise SystemExit("bug_id is required unless --summary-only is used")
+        raise SystemExit("bug_id is required unless --summary-only or --batch-summary-only is used")
 
     bug_id = normalize_bug_id(args.bug_id)
     bug_dir = output_dir / f"bug_{bug_id}"
@@ -962,6 +1173,12 @@ def main(argv: list[str] | None = None) -> int:
     if not args.no_summary:
         count = append_summary_report(report_path, summary_path, args.bugzilla_base)
         print(f"Appended diagnosis summary for {count} report(s) to {summary_path}")
+    if not args.no_batch_summary:
+        batch_summary_path = write_timestamped_batch_summary(output_dir, batch_summary_dir, args.bugzilla_base)
+        if batch_summary_path:
+            print(f"Wrote timestamped batch summary to {batch_summary_path}")
+        else:
+            print(f"No diagnosis reports found under {output_dir}; timestamped batch summary was not written")
     return 0
 
 

@@ -1,0 +1,26 @@
+[
+  {
+    "browser": "firefox",
+    "state": {
+      "SpeechRecognition": false,
+      "webkitSpeechRecognition": false,
+      "getUserMedia": true,
+      "clicked": true,
+      "started": false,
+      "error": null,
+      "message": "unsupported"
+    }
+  },
+  {
+    "browser": "chrome",
+    "state": {
+      "SpeechRecognition": true,
+      "webkitSpeechRecognition": true,
+      "getUserMedia": true,
+      "clicked": true,
+      "started": false,
+      "error": "not-allowed",
+      "message": "start-called"
+    }
+  }
+]

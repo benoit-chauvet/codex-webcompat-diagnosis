@@ -1,33 +1,12 @@
 {
-  "browser": "firefox",
-  "executablePath": "/Applications/Firefox Nightly.app/Contents/MacOS/firefox",
-  "pagePath": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042795/minimal-testcase/index.html",
-  "screenshot": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042795/minimal-testcase/artifacts/firefox/firefox.png",
-  "events": {
-    "console": [],
-    "pageErrors": []
-  },
-  "state": {
-    "url": "file:///Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042795/minimal-testcase/index.html",
-    "title": "Minimal GSMArena MP4 playback failure",
-    "testcaseResult": null,
-    "videos": [
-      {
-        "index": 0,
-        "currentSrc": "file:///Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042795/minimal-testcase/gsmarena_002_high444.mp4",
-        "readyState": 1,
-        "networkState": 1,
-        "paused": true,
-        "currentTime": 0,
-        "duration": 5.66,
-        "videoWidth": 948,
-        "videoHeight": 554,
-        "error": {
-          "code": 3,
-          "message": "auto mozilla::SupportChecker::AddMediaFormatChecker(const TrackInfo &)::(anonymous class)::operator()() const: Decoder may not have the capability to handle the requested video format with YUV444 chroma subsampling."
-        }
-      }
-    ],
-    "bodyText": ""
+  "canPlayProfile244": "",
+  "readyState": 1,
+  "networkState": 1,
+  "duration": 13.32,
+  "videoWidth": 622,
+  "videoHeight": 364,
+  "error": {
+    "code": 3,
+    "message": "auto mozilla::SupportChecker::AddMediaFormatChecker(const TrackInfo &)::(anonymous class)::operator()() const: Decoder may not have the capability to handle the requested video format with YUV444 chroma subsampling."
   }
 }

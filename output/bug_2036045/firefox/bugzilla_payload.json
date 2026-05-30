@@ -1,0 +1,525 @@
+{
+  "bug_id": "2036045",
+  "endpoints": {
+    "attachments": "https://bugzilla.mozilla.org/rest/bug/2036045/attachment?exclude_fields=data",
+    "bug": "https://bugzilla.mozilla.org/rest/bug/2036045",
+    "comments": "https://bugzilla.mozilla.org/rest/bug/2036045/comment",
+    "history": "https://bugzilla.mozilla.org/rest/bug/2036045/history"
+  },
+  "fetched_at": "2026-05-30T14:35:59+00:00",
+  "responses": {
+    "attachments": {
+      "attachments": {},
+      "bugs": {
+        "2036045": [
+          {
+            "attacher": "bcaliman@mozilla.com",
+            "bug_id": 2036045,
+            "content_type": "video/mp4",
+            "creation_time": "2026-04-30T12:11:25Z",
+            "creator": "bcaliman@mozilla.com",
+            "creator_detail": {
+              "email": "bcaliman@mozilla.com",
+              "id": 788919,
+              "name": "bcaliman@mozilla.com",
+              "nick": "bcaliman",
+              "real_name": "Bogdan Birsan-Caliman, DTE"
+            },
+            "description": "The videos from AOL are only loaded after a refresh.mp4",
+            "file_name": "The videos from AOL are only loaded after a refresh.mp4",
+            "flags": [],
+            "id": 9575428,
+            "is_obsolete": 0,
+            "is_patch": 0,
+            "is_private": 0,
+            "last_change_time": "2026-04-30T12:11:25Z",
+            "size": 4671395,
+            "summary": "The videos from AOL are only loaded after a refresh.mp4"
+          }
+        ]
+      }
+    },
+    "bug": {
+      "bugs": [
+        {
+          "alias": null,
+          "assigned_to": "nobody@mozilla.org",
+          "assigned_to_detail": {
+            "email": "nobody@mozilla.org",
+            "id": 1,
+            "name": "nobody@mozilla.org",
+            "nick": "nobody",
+            "real_name": "Nobody; OK to take it and work on it"
+          },
+          "blocks": [],
+          "cc": [
+            "alice0775@gmail.com",
+            "dholbert@mozilla.com",
+            "htsai@mozilla.com",
+            "kberezina@mozilla.com",
+            "krosylight@mozilla.com"
+          ],
+          "cc_detail": [
+            {
+              "email": "alice0775@gmail.com",
+              "id": 293623,
+              "name": "alice0775@gmail.com",
+              "nick": "alice0775",
+              "real_name": "Alice0775 White"
+            },
+            {
+              "email": "dholbert@mozilla.com",
+              "id": 278074,
+              "name": "dholbert@mozilla.com",
+              "nick": "dholbert",
+              "real_name": "Daniel Holbert [:dholbert]"
+            },
+            {
+              "email": "htsai@mozilla.com",
+              "id": 434964,
+              "name": "htsai@mozilla.com",
+              "nick": "hsinyi",
+              "real_name": "Hsin-Yi Tsai  (she/her)[:hsinyi]"
+            },
+            {
+              "email": "kberezina@mozilla.com",
+              "id": 638886,
+              "name": "kberezina@mozilla.com",
+              "nick": "ksenia",
+              "real_name": "Ksenia Berezina [:ksenia]"
+            },
+            {
+              "email": "krosylight@mozilla.com",
+              "id": 473060,
+              "name": "krosylight@mozilla.com",
+              "nick": "saschanaz",
+              "real_name": "Kagami Rosylight [:saschanaz] (they/them)"
+            }
+          ],
+          "cf_a11y_review_project_flag": "---",
+          "cf_accessibility_severity": "---",
+          "cf_cab_review": "---",
+          "cf_fx_iteration": "---",
+          "cf_fx_points": "---",
+          "cf_last_resolved": null,
+          "cf_performance_impact": "---",
+          "cf_qa_whiteboard": "[S4] [qa-found-in-b151]",
+          "cf_status_firefox150": "affected",
+          "cf_status_firefox151": "affected",
+          "cf_status_firefox152": "affected",
+          "cf_status_firefox153": "---",
+          "cf_status_firefox_esr115": "affected",
+          "cf_status_firefox_esr140": "affected",
+          "cf_tracking_firefox151": "---",
+          "cf_tracking_firefox152": "---",
+          "cf_tracking_firefox153": "---",
+          "cf_tracking_firefox_esr115": "---",
+          "cf_tracking_firefox_esr140": "---",
+          "cf_tracking_firefox_relnote": "---",
+          "cf_user_story": "user-impact-score:900\r\nplatform:windows,mac,linux,android\r\nimpact:content-missing\r\nconfiguration:general\r\naffects:all\r\nbranch:release\r\ndiagnosis-team:performance",
+          "cf_webcompat_priority": "P1",
+          "cf_webcompat_score": "8",
+          "classification": "Client Software",
+          "comment_count": 7,
+          "component": "Site Reports",
+          "creation_time": "2026-04-30T12:11:25Z",
+          "creator": "bcaliman@mozilla.com",
+          "creator_detail": {
+            "email": "bcaliman@mozilla.com",
+            "id": 788919,
+            "name": "bcaliman@mozilla.com",
+            "nick": "bcaliman",
+            "real_name": "Bogdan Birsan-Caliman, DTE"
+          },
+          "depends_on": [
+            2037599
+          ],
+          "dupe_of": null,
+          "duplicates": [],
+          "flags": [],
+          "groups": [],
+          "id": 2036045,
+          "is_cc_accessible": true,
+          "is_confirmed": true,
+          "is_creator_accessible": true,
+          "is_open": true,
+          "keywords": [
+            "webcompat:platform-bug",
+            "webcompat:site-report"
+          ],
+          "last_change_time": "2026-05-13T07:27:28Z",
+          "mentors": [],
+          "mentors_detail": [],
+          "op_sys": "All",
+          "platform": "Desktop",
+          "priority": "P2",
+          "product": "Web Compatibility",
+          "qa_contact": "bcaliman@mozilla.com",
+          "qa_contact_detail": {
+            "email": "bcaliman@mozilla.com",
+            "id": 788919,
+            "name": "bcaliman@mozilla.com",
+            "nick": "bcaliman",
+            "real_name": "Bogdan Birsan-Caliman, DTE"
+          },
+          "regressed_by": [],
+          "regressions": [],
+          "resolution": "",
+          "see_also": [
+            "https://bugzilla.mozilla.org/show_bug.cgi?id=2030614"
+          ],
+          "severity": "S2",
+          "status": "NEW",
+          "summary": "The video thumbnails from the AOL videos website are only loaded after a page refresh",
+          "target_milestone": "---",
+          "type": "defect",
+          "url": "https://www.aol.com/video/",
+          "version": "Firefox 151",
+          "votes": 0,
+          "whiteboard": "[webcompat:sightline][webcompat:core]"
+        }
+      ],
+      "faults": []
+    },
+    "comments": {
+      "bugs": {
+        "2036045": {
+          "comments": [
+            {
+              "attachment_id": 9575428,
+              "author": "bcaliman@mozilla.com",
+              "bug_id": 2036045,
+              "count": 0,
+              "creation_time": "2026-04-30T12:11:25Z",
+              "creator": "bcaliman@mozilla.com",
+              "id": 18049522,
+              "is_private": false,
+              "raw_text": "**Found in**\n* 151.0b3\n\n**Affected versions**\n* Nigthly - 152.0a1 \n* Firefox Beta - 151.0b3\n* Firefox 150.0.1\n* Firefox 140.10.1 ESR\n* Firefox 115.35.1 ESR\n\n**Tested platforms**\n* Affected platforms: macOS 26.4, Windows 11, Ubuntu 24.04\n\n**Preconditions**\n* Run this on a fresh profile\n\n**Steps to reproduce**\n1. Navigate to [AOL videos site.](https://www.aol.com/video/)\n2. Check the displayed videos.\n\n**Expected result**\n* The videos should be fully loaded (thumbnails and title as well).\n\n**Actual result**\n* The thumbnails of the videos are missing.\n\n**Regression range**\n* This is not a regression.\n\n**Additional notes**\n* Refreshing the page successfully loads all video thumb nails.\n* After a refresh, the videos are fully loaded each time the user re-visits the AOL videos website.",
+              "reactions": {},
+              "tags": [],
+              "text": "Created attachment 9575428\nThe videos from AOL are only loaded after a refresh.mp4\n\n**Found in**\n* 151.0b3\n\n**Affected versions**\n* Nigthly - 152.0a1 \n* Firefox Beta - 151.0b3\n* Firefox 150.0.1\n* Firefox 140.10.1 ESR\n* Firefox 115.35.1 ESR\n\n**Tested platforms**\n* Affected platforms: macOS 26.4, Windows 11, Ubuntu 24.04\n\n**Preconditions**\n* Run this on a fresh profile\n\n**Steps to reproduce**\n1. Navigate to [AOL videos site.](https://www.aol.com/video/)\n2. Check the displayed videos.\n\n**Expected result**\n* The videos should be fully loaded (thumbnails and title as well).\n\n**Actual result**\n* The thumbnails of the videos are missing.\n\n**Regression range**\n* This is not a regression.\n\n**Additional notes**\n* Refreshing the page successfully loads all video thumb nails.\n* After a refresh, the videos are fully loaded each time the user re-visits the AOL videos website.",
+              "time": "2026-04-30T12:11:25Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "dholbert@mozilla.com",
+              "bug_id": 2036045,
+              "count": 1,
+              "creation_time": "2026-05-05T16:13:41Z",
+              "creator": "dholbert@mozilla.com",
+              "id": 18065229,
+              "is_private": false,
+              "raw_text": "This only appears to affect the first pageload.\n\nAfter a reload, it fixes itself - I see a bunch of video thumbnail-images as-expected, and Firefox gives me an infobar which lets me know I need to enable DRM video.  If I click the button to enable DRM video, then the videos work properly.\n\nSo something's broken on first pageload, but it gets fixed when some state gets cached or something.",
+              "reactions": {},
+              "tags": [],
+              "text": "This only appears to affect the first pageload.\n\nAfter a reload, it fixes itself - I see a bunch of video thumbnail-images as-expected, and Firefox gives me an infobar which lets me know I need to enable DRM video.  If I click the button to enable DRM video, then the videos work properly.\n\nSo something's broken on first pageload, but it gets fixed when some state gets cached or something.",
+              "time": "2026-05-05T16:13:41Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "dholbert@mozilla.com",
+              "bug_id": 2036045,
+              "count": 2,
+              "creation_time": "2026-05-05T16:14:28Z",
+              "creator": "dholbert@mozilla.com",
+              "id": 18065230,
+              "is_private": false,
+              "raw_text": "bcaliman, can you confirm that you see the same thing that I describe in comment 1?\n\n(We should still investigate why it's broken on first load and what we can do about that, of course.)",
+              "reactions": {},
+              "tags": [],
+              "text": "bcaliman, can you confirm that you see the same thing that I describe in comment 1?\n\n(We should still investigate why it's broken on first load and what we can do about that, of course.)",
+              "time": "2026-05-05T16:14:28Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "dholbert@mozilla.com",
+              "bug_id": 2036045,
+              "count": 3,
+              "creation_time": "2026-05-05T17:47:16Z",
+              "creator": "dholbert@mozilla.com",
+              "id": 18065604,
+              "is_private": false,
+              "raw_text": "Oh, sorry, I just read the bug summary (\"are only loaded after a page refresh\") and \"Additional notes\" in comment 0.   I skimmed past those on my first read-through.\n\nIt sounds like you and I are seeing the same behavior indeed.",
+              "reactions": {},
+              "tags": [],
+              "text": "Oh, sorry, I just read the bug summary (\"are only loaded after a page refresh\") and \"Additional notes\" in comment 0.   I skimmed past those on my first read-through.\n\nIt sounds like you and I are seeing the same behavior indeed.",
+              "time": "2026-05-05T17:47:16Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "dholbert@mozilla.com",
+              "bug_id": 2036045,
+              "count": 4,
+              "creation_time": "2026-05-05T17:57:31Z",
+              "creator": "dholbert@mozilla.com",
+              "id": 18065621,
+              "is_private": false,
+              "raw_text": "I think this may be related to the \"this page needs DRM\" logic/infobar.\n\nNotably:\n- if I perform the STR and then reload the page (and see things in a fixed state) and then I do clear-recent-history (ctrl shift del), the page is **still fixed**.  So the brokenness/fixedness isn't from any sort of  cookie/cache/localstorage/etc.  Though it may be due to some locally-cached state about \"have we already let the user know that this page requires DRM, or kicked off the Widevine plugin download in case the user opts to activate it\".\n- if I start with a brand new fresh profile, and I insert this additional step before the STR...\n[Step 0: Visit some other site that uses DRM video, e.g. https://finance.yahoo.com, and click through the enable-DRM infobar]\n...and then I perform the STR (loading https://www.aol.com/video/ ) , then I get expected results.",
+              "reactions": {},
+              "tags": [],
+              "text": "I think this may be related to the \"this page needs DRM\" logic/infobar.\n\nNotably:\n- if I perform the STR and then reload the page (and see things in a fixed state) and then I do clear-recent-history (ctrl shift del), the page is **still fixed**.  So the brokenness/fixedness isn't from any sort of  cookie/cache/localstorage/etc.  Though it may be due to some locally-cached state about \"have we already let the user know that this page requires DRM, or kicked off the Widevine plugin download in case the user opts to activate it\".\n- if I start with a brand new fresh profile, and I insert this additional step before the STR...\n[Step 0: Visit some other site that uses DRM video, e.g. https://finance.yahoo.com, and click through the enable-DRM infobar]\n...and then I perform the STR (loading https://www.aol.com/video/ ) , then I get expected results.",
+              "time": "2026-05-05T17:57:31Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "htsai@mozilla.com",
+              "bug_id": 2036045,
+              "count": 5,
+              "creation_time": "2026-05-07T11:02:49Z",
+              "creator": "htsai@mozilla.com",
+              "id": 18069620,
+              "is_private": false,
+              "raw_text": "Enabling dom.script_loader.external_scripts.speculate_link_preload.enabled seems to resolve the issue for me, as what's investigated in bug 2030614",
+              "reactions": {},
+              "tags": [],
+              "text": "Enabling dom.script_loader.external_scripts.speculate_link_preload.enabled seems to resolve the issue for me, as what's investigated in bug 2030614",
+              "time": "2026-05-07T11:02:49Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "krosylight@mozilla.com",
+              "bug_id": 2036045,
+              "count": 6,
+              "creation_time": "2026-05-11T09:50:41Z",
+              "creator": "krosylight@mozilla.com",
+              "id": 18076422,
+              "is_private": false,
+              "raw_text": "I can confirm comment #5.",
+              "reactions": {
+                "+1": 1
+              },
+              "tags": [],
+              "text": "I can confirm comment #5.",
+              "time": "2026-05-11T09:50:41Z"
+            }
+          ]
+        }
+      },
+      "comments": {}
+    },
+    "history": {
+      "bugs": [
+        {
+          "alias": null,
+          "history": [
+            {
+              "changes": [
+                {
+                  "added": "https://www.aol.com/video/",
+                  "field_name": "url",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-04-30T12:16:16Z",
+              "who": "bcaliman@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "[webcompat:sightline][webcompat:core]",
+                  "field_name": "whiteboard",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-04-30T12:46:24Z",
+              "who": "release-mgmt-account-bot@mozilla.tld"
+            },
+            {
+              "changes": [
+                {
+                  "added": "alice0775@gmail.com",
+                  "field_name": "cc",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-04-30T13:11:47Z",
+              "who": "alice0775@gmail.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "@@ -1 +1 @@\n-\n+user-impact-score:0\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                },
+                {
+                  "added": "P3",
+                  "field_name": "cf_webcompat_priority",
+                  "removed": "---"
+                },
+                {
+                  "added": "1",
+                  "field_name": "cf_webcompat_score",
+                  "removed": "---"
+                }
+              ],
+              "when": "2026-05-01T08:06:59Z",
+              "who": "release-mgmt-account-bot@mozilla.tld"
+            },
+            {
+              "changes": [
+                {
+                  "added": "S2",
+                  "field_name": "severity",
+                  "removed": "--"
+                },
+                {
+                  "added": "@@ -1 +1,7 @@\n-user-impact-score:0\n+user-impact-score:600\r\n+platform:windows,mac,linux,android\r\n+impact:content-missing\r\n+configuration:general\r\n+affects:all\r\n+branch:release\r\n+diagnosis-team:dom\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                },
+                {
+                  "added": "P2",
+                  "field_name": "priority",
+                  "removed": "--"
+                },
+                {
+                  "added": "webcompat:needs-diagnosis, webcompat:site-report",
+                  "field_name": "keywords",
+                  "removed": ""
+                },
+                {
+                  "added": "kberezina@mozilla.com",
+                  "field_name": "cc",
+                  "removed": ""
+                },
+                {
+                  "added": "https://bugzilla.mozilla.org/show_bug.cgi?id=2030614",
+                  "field_name": "see_also",
+                  "removed": ""
+                },
+                {
+                  "added": "P2",
+                  "field_name": "cf_webcompat_priority",
+                  "removed": "P3"
+                },
+                {
+                  "added": "7",
+                  "field_name": "cf_webcompat_score",
+                  "removed": "1"
+                }
+              ],
+              "when": "2026-05-04T15:20:18Z",
+              "who": "kberezina@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "@@ -1,7 +1,7 @@\n-user-impact-score:600\r\n-platform:windows,mac,linux,android\r\n-impact:content-missing\r\n-configuration:general\r\n-affects:all\r\n-branch:release\r\n+user-impact-score:900\n+platform:windows,mac,linux,android\n+impact:content-missing\n+configuration:general\n+affects:all\n+branch:release\n diagnosis-team:dom\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                },
+                {
+                  "added": "P1",
+                  "field_name": "cf_webcompat_priority",
+                  "removed": "P2"
+                },
+                {
+                  "added": "8",
+                  "field_name": "cf_webcompat_score",
+                  "removed": "7"
+                }
+              ],
+              "when": "2026-05-05T08:08:23Z",
+              "who": "release-mgmt-account-bot@mozilla.tld"
+            },
+            {
+              "changes": [
+                {
+                  "added": "@@ -1,7 +1,7 @@\n-user-impact-score:900\n-platform:windows,mac,linux,android\n-impact:content-missing\n-configuration:general\n-affects:all\n-branch:release\n+user-impact-score:900\r\n+platform:windows,mac,linux,android\r\n+impact:content-missing\r\n+configuration:general\r\n+affects:all\r\n+branch:release\r\n diagnosis-team:dom\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                },
+                {
+                  "added": "dholbert@mozilla.com",
+                  "field_name": "cc",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-05-05T16:13:41Z",
+              "who": "dholbert@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "needinfo?(bcaliman@mozilla.com)",
+                  "field_name": "flagtypes.name",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-05-05T16:14:28Z",
+              "who": "dholbert@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "",
+                  "field_name": "flagtypes.name",
+                  "removed": "needinfo?(bcaliman@mozilla.com)"
+                }
+              ],
+              "when": "2026-05-05T17:47:16Z",
+              "who": "dholbert@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "The video thumbnails from the AOL videos website are only loaded after a page refresh",
+                  "field_name": "summary",
+                  "removed": "The video thumb nails from the AOL videos website are only loaded after a page refresh"
+                }
+              ],
+              "when": "2026-05-05T17:58:59Z",
+              "who": "dholbert@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "htsai@mozilla.com",
+                  "field_name": "cc",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-05-07T11:02:49Z",
+              "who": "htsai@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "webcompat:platform-bug",
+                  "field_name": "keywords",
+                  "removed": "webcompat:needs-diagnosis"
+                },
+                {
+                  "added": "krosylight@mozilla.com",
+                  "field_name": "cc",
+                  "removed": ""
+                },
+                {
+                  "added": "2037599",
+                  "field_name": "depends_on",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-05-11T09:50:41Z",
+              "who": "krosylight@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "@@ -4,4 +4,4 @@\n configuration:general\r\n affects:all\r\n branch:release\r\n-diagnosis-team:dom\n+diagnosis-team:performance\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-05-13T07:27:28Z",
+              "who": "htsai@mozilla.com"
+            }
+          ],
+          "id": 2036045
+        }
+      ]
+    }
+  },
+  "show_bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=2036045"
+}

@@ -1,0 +1,945 @@
+{
+  "bug_id": "2030614",
+  "endpoints": {
+    "attachments": "https://bugzilla.mozilla.org/rest/bug/2030614/attachment?exclude_fields=data",
+    "bug": "https://bugzilla.mozilla.org/rest/bug/2030614",
+    "comments": "https://bugzilla.mozilla.org/rest/bug/2030614/comment",
+    "history": "https://bugzilla.mozilla.org/rest/bug/2030614/history"
+  },
+  "fetched_at": "2026-05-30T14:35:34+00:00",
+  "responses": {
+    "attachments": {
+      "attachments": {},
+      "bugs": {
+        "2030614": [
+          {
+            "attacher": "rbucata@mozilla.com",
+            "bug_id": 2030614,
+            "content_type": "video/mp4",
+            "creation_time": "2026-04-09T08:41:24Z",
+            "creator": "rbucata@mozilla.com",
+            "creator_detail": {
+              "email": "rbucata@mozilla.com",
+              "id": 675083,
+              "name": "rbucata@mozilla.com",
+              "nick": "rbucata",
+              "real_name": "Raul Bucata"
+            },
+            "description": "Chr vs ff",
+            "file_name": "09.04.2026_11.37.10_REC.mp4",
+            "flags": [],
+            "id": 9568137,
+            "is_obsolete": 0,
+            "is_patch": 0,
+            "is_private": 0,
+            "last_change_time": "2026-04-09T08:41:24Z",
+            "size": 382906,
+            "summary": "Chr vs ff"
+          }
+        ]
+      }
+    },
+    "bug": {
+      "bugs": [
+        {
+          "alias": null,
+          "assigned_to": "nobody@mozilla.org",
+          "assigned_to_detail": {
+            "email": "nobody@mozilla.org",
+            "id": 1,
+            "name": "nobody@mozilla.org",
+            "nick": "nobody",
+            "real_name": "Nobody; OK to take it and work on it"
+          },
+          "blocks": [],
+          "cc": [
+            "alice0775@gmail.com",
+            "denyshon@outlook.com",
+            "emilio@crisal.io",
+            "htsai@mozilla.com",
+            "james@hoppipolla.co.uk",
+            "jmuizelaar@mozilla.com",
+            "sky@mozilla.com"
+          ],
+          "cc_detail": [
+            {
+              "email": "alice0775@gmail.com",
+              "id": 293623,
+              "name": "alice0775@gmail.com",
+              "nick": "alice0775",
+              "real_name": "Alice0775 White"
+            },
+            {
+              "email": "denyshon@outlook.com",
+              "id": 695774,
+              "name": "denyshon@outlook.com",
+              "nick": "denyshon",
+              "real_name": "Denys [:denyshon]"
+            },
+            {
+              "email": "emilio@crisal.io",
+              "id": 546716,
+              "name": "emilio@crisal.io",
+              "nick": "emilio",
+              "real_name": "Emilio Cobos \u00c1lvarez [:emilio]"
+            },
+            {
+              "email": "htsai@mozilla.com",
+              "id": 434964,
+              "name": "htsai@mozilla.com",
+              "nick": "hsinyi",
+              "real_name": "Hsin-Yi Tsai  (she/her)[:hsinyi]"
+            },
+            {
+              "email": "james@hoppipolla.co.uk",
+              "id": 389650,
+              "name": "james@hoppipolla.co.uk",
+              "nick": "jgraham",
+              "real_name": "James Graham [:jgraham]"
+            },
+            {
+              "email": "jmuizelaar@mozilla.com",
+              "id": 309398,
+              "name": "jmuizelaar@mozilla.com",
+              "nick": "jrmuizel",
+              "real_name": "Jeff Muizelaar [:jrmuizel]"
+            },
+            {
+              "email": "sky@mozilla.com",
+              "id": 421268,
+              "name": "sky@mozilla.com",
+              "nick": "skyschub",
+              "real_name": "Sky Schubert [:skyschub]"
+            }
+          ],
+          "cf_a11y_review_project_flag": "---",
+          "cf_accessibility_severity": "---",
+          "cf_cab_review": "---",
+          "cf_fx_iteration": "---",
+          "cf_fx_points": "---",
+          "cf_last_resolved": null,
+          "cf_performance_impact": "---",
+          "cf_qa_whiteboard": "",
+          "cf_status_firefox151": "---",
+          "cf_status_firefox152": "---",
+          "cf_status_firefox153": "---",
+          "cf_status_firefox_esr115": "---",
+          "cf_status_firefox_esr140": "---",
+          "cf_tracking_firefox151": "---",
+          "cf_tracking_firefox152": "---",
+          "cf_tracking_firefox153": "---",
+          "cf_tracking_firefox_esr115": "---",
+          "cf_tracking_firefox_esr140": "---",
+          "cf_tracking_firefox_relnote": "---",
+          "cf_user_story": "user-impact-score:3000\r\nplatform:windows,mac,linux,android\r\nimpact:site-broken\r\nconfiguration:general\r\naffects:all\r\nbranch:release\r\ndiagnosis-team:performance\r\noutreach-assignee:jrmuizel\r\noutreach-contact-date:2026-05-08",
+          "cf_webcompat_priority": "P1",
+          "cf_webcompat_score": "10",
+          "classification": "Client Software",
+          "comment_count": 23,
+          "component": "Site Reports",
+          "creation_time": "2026-04-09T08:41:05Z",
+          "creator": "rbucata@mozilla.com",
+          "creator_detail": {
+            "email": "rbucata@mozilla.com",
+            "id": 675083,
+            "name": "rbucata@mozilla.com",
+            "nick": "rbucata",
+            "real_name": "Raul Bucata"
+          },
+          "depends_on": [
+            2037599
+          ],
+          "dupe_of": null,
+          "duplicates": [],
+          "flags": [],
+          "groups": [],
+          "id": 2030614,
+          "is_cc_accessible": true,
+          "is_confirmed": true,
+          "is_creator_accessible": true,
+          "is_open": true,
+          "keywords": [
+            "webcompat:contact-in-progress",
+            "webcompat:platform-bug",
+            "webcompat:site-report"
+          ],
+          "last_change_time": "2026-05-12T13:35:48Z",
+          "mentors": [],
+          "mentors_detail": [],
+          "op_sys": "Windows 10",
+          "platform": "Desktop",
+          "priority": "P1",
+          "product": "Web Compatibility",
+          "qa_contact": "",
+          "regressed_by": [],
+          "regressions": [],
+          "resolution": "",
+          "see_also": [
+            "https://github.com/webcompat/web-bugs/issues/215503",
+            "https://support.mozilla.org/questions/1579530",
+            "https://bugzilla.mozilla.org/show_bug.cgi?id=2036045"
+          ],
+          "severity": "S2",
+          "status": "NEW",
+          "summary": "www.aol.com - News hero carousels are missing context (title, description, links)",
+          "target_milestone": "---",
+          "type": "defect",
+          "url": "https://www.aol.com/",
+          "version": "unspecified",
+          "votes": 0,
+          "whiteboard": "[webcompat-source:web-bugs][webcompat:sightline][webcompat:core]"
+        }
+      ],
+      "faults": []
+    },
+    "comments": {
+      "bugs": {
+        "2030614": {
+          "comments": [
+            {
+              "attachment_id": null,
+              "author": "rbucata@mozilla.com",
+              "bug_id": 2030614,
+              "count": 0,
+              "creation_time": "2026-04-09T08:41:05Z",
+              "creator": "rbucata@mozilla.com",
+              "id": 18004176,
+              "is_private": false,
+              "raw_text": "**Environment:**\nOperating system: Windows 10\nFirefox version: Firefox 149.0\n\n**Steps to reproduce:**\n1. Navigate to: https://www.aol.com/\n2. Observe\n\n**Expected Behavior:**\nThe news carousel context is visible\n\n**Actual Behavior:**\nThe news carousel cards context is missing\n\n**Notes:**\n- Reproduces regardless of the status of ETP\n- Reproduces in firefox-nightly, and firefox-release\n- Does not reproduce in chrome\n\nCreated from https://github.com/webcompat/web-bugs/issues/215503",
+              "reactions": {},
+              "tags": [],
+              "text": "**Environment:**\nOperating system: Windows 10\nFirefox version: Firefox 149.0\n\n**Steps to reproduce:**\n1. Navigate to: https://www.aol.com/\n2. Observe\n\n**Expected Behavior:**\nThe news carousel context is visible\n\n**Actual Behavior:**\nThe news carousel cards context is missing\n\n**Notes:**\n- Reproduces regardless of the status of ETP\n- Reproduces in firefox-nightly, and firefox-release\n- Does not reproduce in chrome\n\nCreated from https://github.com/webcompat/web-bugs/issues/215503",
+              "time": "2026-04-09T08:41:05Z"
+            },
+            {
+              "attachment_id": 9568137,
+              "author": "rbucata@mozilla.com",
+              "bug_id": 2030614,
+              "count": 1,
+              "creation_time": "2026-04-09T08:41:24Z",
+              "creator": "rbucata@mozilla.com",
+              "id": 18004179,
+              "is_private": false,
+              "raw_text": "",
+              "reactions": {},
+              "tags": [],
+              "text": "Created attachment 9568137\nChr vs ff",
+              "time": "2026-04-09T08:41:24Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "alice0775@gmail.com",
+              "bug_id": 2030614,
+              "count": 2,
+              "creation_time": "2026-04-09T12:03:19Z",
+              "creator": "alice0775@gmail.com",
+              "id": 18004515,
+              "is_private": false,
+              "raw_text": "Duplication of Bug 2028073 ?",
+              "reactions": {},
+              "tags": [],
+              "text": "Duplication of Bug 2028073 ?",
+              "time": "2026-04-09T12:03:19Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "james@hoppipolla.co.uk",
+              "bug_id": 2030614,
+              "count": 3,
+              "creation_time": "2026-04-13T15:23:26Z",
+              "creator": "james@hoppipolla.co.uk",
+              "id": 18010390,
+              "is_private": false,
+              "raw_text": "I intermittently see the top carousel bit either not load anything or not load the text. But usually after reload it's fine. So I suspect there's some timing issue.",
+              "reactions": {},
+              "tags": [],
+              "text": "I intermittently see the top carousel bit either not load anything or not load the text. But usually after reload it's fine. So I suspect there's some timing issue.",
+              "time": "2026-04-13T15:23:26Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "jmuizelaar@mozilla.com",
+              "bug_id": 2030614,
+              "count": 4,
+              "creation_time": "2026-04-15T13:58:06Z",
+              "creator": "jmuizelaar@mozilla.com",
+              "id": 18017444,
+              "is_private": false,
+              "raw_text": "We tried diagnosing this today and were seeing a bunch of broken stuff. It mostly seems like the server is not working well and is very slow to respond to requests. This may be causing timing brokenness.\n\nThe carousel text gets set by https://s.yimg.com/aaq/wf/wf-text-1.2.0.js in this kind of function:\n```js\n key: \"stateDidUpdate\",\n                    value: function() {\n                        var e = this._util.text;\n                        if (void 0 !== e) {\n                            var t = this._util.elem;\n                            c.destroy(t, {\n                                destroySelf: !1\n                            }),\n                            t.innerHTML = e,\n                            c.sync(t)\n                        }\n                    }\n```",
+              "reactions": {},
+              "tags": [],
+              "text": "We tried diagnosing this today and were seeing a bunch of broken stuff. It mostly seems like the server is not working well and is very slow to respond to requests. This may be causing timing brokenness.\n\nThe carousel text gets set by https://s.yimg.com/aaq/wf/wf-text-1.2.0.js in this kind of function:\n```js\n key: \"stateDidUpdate\",\n                    value: function() {\n                        var e = this._util.text;\n                        if (void 0 !== e) {\n                            var t = this._util.elem;\n                            c.destroy(t, {\n                                destroySelf: !1\n                            }),\n                            t.innerHTML = e,\n                            c.sync(t)\n                        }\n                    }\n```",
+              "time": "2026-04-15T13:58:06Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "jmuizelaar@mozilla.com",
+              "bug_id": 2030614,
+              "count": 5,
+              "creation_time": "2026-04-15T13:58:29Z",
+              "creator": "jmuizelaar@mozilla.com",
+              "id": 18017446,
+              "is_private": false,
+              "raw_text": "We can try looking at this again in the future to see if there servers are healthier",
+              "reactions": {},
+              "tags": [],
+              "text": "We can try looking at this again in the future to see if there servers are healthier",
+              "time": "2026-04-15T13:58:29Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "htsai@mozilla.com",
+              "bug_id": 2030614,
+              "count": 6,
+              "creation_time": "2026-04-16T08:39:54Z",
+              "creator": "htsai@mozilla.com",
+              "id": 18018988,
+              "is_private": false,
+              "raw_text": "(In reply to Jeff Muizelaar [:jrmuizel] from comment #5)\n> We can try looking at this again in the future to see if there servers are healthier\n\nWhat's the best keyword I can use to help my team track this, if I read the comment right that \"it's sorta diagnosed\" so no action for now? Or, is it worth anyhow give outreach a try?  \n\nHappy to find a DOM member to look at this a bit with another eye, if you think it'd be helpful. Thank you.",
+              "reactions": {},
+              "tags": [],
+              "text": "(In reply to Jeff Muizelaar [:jrmuizel] from comment #5)\n> We can try looking at this again in the future to see if there servers are healthier\n\nWhat's the best keyword I can use to help my team track this, if I read the comment right that \"it's sorta diagnosed\" so no action for now? Or, is it worth anyhow give outreach a try?  \n\nHappy to find a DOM member to look at this a bit with another eye, if you think it'd be helpful. Thank you.",
+              "time": "2026-04-16T08:39:54Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "htsai@mozilla.com",
+              "bug_id": 2030614,
+              "count": 7,
+              "creation_time": "2026-04-23T14:00:49Z",
+              "creator": "htsai@mozilla.com",
+              "id": 18034757,
+              "is_private": false,
+              "raw_text": "(In reply to Hsin-Yi Tsai  (she/her)[:hsinyi] from comment #6)\n> (In reply to Jeff Muizelaar [:jrmuizel] from comment #5)\n> > We can try looking at this again in the future to see if there servers are healthier\n> \n> What's the best keyword I can use to help my team track this, if I read the comment right that \"it's sorta diagnosed\" so no action for now? Or, is it worth anyhow give outreach a try?  \n> \n> Happy to find a DOM member to look at this a bit with another eye, if you think it'd be helpful. Thank you.\n\nI am also seeing intermittent loading issues on Chrome (though it seems easier to reproduce on Firefox), which appears to align with the finding from comment 4 - there's timing issues on their side.  Do we want to keep it open?",
+              "reactions": {},
+              "tags": [],
+              "text": "(In reply to Hsin-Yi Tsai  (she/her)[:hsinyi] from comment #6)\n> (In reply to Jeff Muizelaar [:jrmuizel] from comment #5)\n> > We can try looking at this again in the future to see if there servers are healthier\n> \n> What's the best keyword I can use to help my team track this, if I read the comment right that \"it's sorta diagnosed\" so no action for now? Or, is it worth anyhow give outreach a try?  \n> \n> Happy to find a DOM member to look at this a bit with another eye, if you think it'd be helpful. Thank you.\n\nI am also seeing intermittent loading issues on Chrome (though it seems easier to reproduce on Firefox), which appears to align with the finding from comment 4 - there's timing issues on their side.  Do we want to keep it open?",
+              "time": "2026-04-23T14:00:49Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "sky@mozilla.com",
+              "bug_id": 2030614,
+              "count": 8,
+              "creation_time": "2026-04-30T13:41:18Z",
+              "creator": "sky@mozilla.com",
+              "id": 18049757,
+              "is_private": false,
+              "raw_text": "Dropping this to `affects:some` because it sometimes works and sometimes doesn't. But this is still a valid issue we need to diagnose, sadly.",
+              "reactions": {},
+              "tags": [],
+              "text": "Dropping this to `affects:some` because it sometimes works and sometimes doesn't. But this is still a valid issue we need to diagnose, sadly.",
+              "time": "2026-04-30T13:41:18Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "sky@mozilla.com",
+              "bug_id": 2030614,
+              "count": 9,
+              "creation_time": "2026-04-30T13:51:05Z",
+              "creator": "sky@mozilla.com",
+              "id": 18049776,
+              "is_private": false,
+              "raw_text": "In a meeting, we decided that I was wrong. Reverting to `affects:all`.",
+              "reactions": {},
+              "tags": [],
+              "text": "In a meeting, we decided that I was wrong. Reverting to `affects:all`.",
+              "time": "2026-04-30T13:51:05Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "jmuizelaar@mozilla.com",
+              "bug_id": 2030614,
+              "count": 10,
+              "creation_time": "2026-05-06T14:03:44Z",
+              "creator": "jmuizelaar@mozilla.com",
+              "id": 18067561,
+              "is_private": false,
+              "raw_text": "I see wf-text-1.2.0.js loading before wafer-core.3d838d4a9e8eb572.js which seems not good",
+              "reactions": {},
+              "tags": [],
+              "text": "I see wf-text-1.2.0.js loading before wafer-core.3d838d4a9e8eb572.js which seems not good",
+              "time": "2026-05-06T14:03:44Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "emilio@crisal.io",
+              "bug_id": 2030614,
+              "count": 11,
+              "creation_time": "2026-05-06T14:21:58Z",
+              "creator": "emilio@crisal.io",
+              "id": 18067606,
+              "is_private": false,
+              "raw_text": "Whether it works or not depends on various settings. For me it's harder to repro with ETP disabled.\n\nFWIW I tried to bisect this and it's not a recent regression.",
+              "reactions": {},
+              "tags": [],
+              "text": "Whether it works or not depends on various settings. For me it's harder to repro with ETP disabled.\n\nFWIW I tried to bisect this and it's not a recent regression.",
+              "time": "2026-05-06T14:21:58Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "jmuizelaar@mozilla.com",
+              "bug_id": 2030614,
+              "count": 12,
+              "creation_time": "2026-05-06T15:12:52Z",
+              "creator": "jmuizelaar@mozilla.com",
+              "id": 18067734,
+              "is_private": false,
+              "raw_text": "It seems like the <script> node for `wafer-core.3d838d4a9e8eb572.js` is inserted after it loads and before inserting the <script> node for `wf-text-1.20.js` but because `wafer-core` takes longer to compile it ends up executing afterwards.",
+              "reactions": {},
+              "tags": [],
+              "text": "It seems like the <script> node for `wafer-core.3d838d4a9e8eb572.js` is inserted after it loads and before inserting the <script> node for `wf-text-1.20.js` but because `wafer-core` takes longer to compile it ends up executing afterwards.",
+              "time": "2026-05-06T15:12:52Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "jmuizelaar@mozilla.com",
+              "bug_id": 2030614,
+              "count": 13,
+              "creation_time": "2026-05-06T15:35:46Z",
+              "creator": "jmuizelaar@mozilla.com",
+              "id": 18067777,
+              "is_private": false,
+              "raw_text": "It looks like the script loading code comes from next.js:\nhttps://github.com/vercel/next.js/blob/04294cb47a6d67adf73c8b6f196ed6a2ddcb2b0e/packages/next/src/client/script.tsx#L61\n\nHowever there's an obfuscated ad related script `3decajspqn3ue.js` that is hooking script loading and might be breaking things",
+              "reactions": {},
+              "tags": [],
+              "text": "It looks like the script loading code comes from next.js:\nhttps://github.com/vercel/next.js/blob/04294cb47a6d67adf73c8b6f196ed6a2ddcb2b0e/packages/next/src/client/script.tsx#L61\n\nHowever there's an obfuscated ad related script `3decajspqn3ue.js` that is hooking script loading and might be breaking things",
+              "time": "2026-05-06T15:35:46Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "jmuizelaar@mozilla.com",
+              "bug_id": 2030614,
+              "count": 14,
+              "creation_time": "2026-05-06T17:41:22Z",
+              "creator": "jmuizelaar@mozilla.com",
+              "id": 18068086,
+              "is_private": false,
+              "raw_text": "It seems like the `3decajspqn3ue.js` comes from clean.io (it contains a base64 encoded \"(c) Clean.io Inc., 2022. All Rights Reserved\")",
+              "reactions": {},
+              "tags": [],
+              "text": "It seems like the `3decajspqn3ue.js` comes from clean.io (it contains a base64 encoded \"(c) Clean.io Inc., 2022. All Rights Reserved\")",
+              "time": "2026-05-06T17:41:22Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "jmuizelaar@mozilla.com",
+              "bug_id": 2030614,
+              "count": 15,
+              "creation_time": "2026-05-06T17:41:44Z",
+              "creator": "jmuizelaar@mozilla.com",
+              "id": 18068089,
+              "is_private": false,
+              "raw_text": "I have a standalone next.js projects that demonstrates the problem",
+              "reactions": {},
+              "tags": [],
+              "text": "I have a standalone next.js projects that demonstrates the problem",
+              "time": "2026-05-06T17:41:44Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "jmuizelaar@mozilla.com",
+              "bug_id": 2030614,
+              "count": 16,
+              "creation_time": "2026-05-06T17:52:37Z",
+              "creator": "jmuizelaar@mozilla.com",
+              "id": 18068123,
+              "is_private": false,
+              "raw_text": "https://github.com/jrmuizel/next.js-script-loading-order\n\nIn Safari and Chrome Script 1 always runs first. In Firefox it always runs last",
+              "reactions": {},
+              "tags": [],
+              "text": "https://github.com/jrmuizel/next.js-script-loading-order\n\nIn Safari and Chrome Script 1 always runs first. In Firefox it always runs last",
+              "time": "2026-05-06T17:52:37Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "jmuizelaar@mozilla.com",
+              "bug_id": 2030614,
+              "count": 17,
+              "creation_time": "2026-05-06T18:04:02Z",
+              "creator": "jmuizelaar@mozilla.com",
+              "id": 18068151,
+              "is_private": false,
+              "raw_text": "Having the `<link rel=\"preload\">` tags makes Chrome's behaviour a lot more deterministic. If I make script-1.js a lot bigger (17MB instead of 179KB) I'm able to get Chrome to run it last.",
+              "reactions": {},
+              "tags": [],
+              "text": "Having the `<link rel=\"preload\">` tags makes Chrome's behaviour a lot more deterministic. If I make script-1.js a lot bigger (17MB instead of 179KB) I'm able to get Chrome to run it last.",
+              "time": "2026-05-06T18:04:02Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "jmuizelaar@mozilla.com",
+              "bug_id": 2030614,
+              "count": 18,
+              "creation_time": "2026-05-06T19:23:31Z",
+              "creator": "jmuizelaar@mozilla.com",
+              "id": 18068293,
+              "is_private": false,
+              "raw_text": "This seems fixed by setting `dom.script_loader.external_scripts.speculate_link_preload.enabled=true`",
+              "reactions": {},
+              "tags": [],
+              "text": "This seems fixed by setting `dom.script_loader.external_scripts.speculate_link_preload.enabled=true`",
+              "time": "2026-05-06T19:23:31Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "jmuizelaar@mozilla.com",
+              "bug_id": 2030614,
+              "count": 19,
+              "creation_time": "2026-05-06T19:29:06Z",
+              "creator": "jmuizelaar@mozilla.com",
+              "id": 18068305,
+              "is_private": false,
+              "raw_text": "I'm marking this as site-broken because the bad script ordering seems to cause all kinds of random brokenness.",
+              "reactions": {},
+              "tags": [],
+              "text": "I'm marking this as site-broken because the bad script ordering seems to cause all kinds of random brokenness.",
+              "time": "2026-05-06T19:29:06Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "jmuizelaar@mozilla.com",
+              "bug_id": 2030614,
+              "count": 20,
+              "creation_time": "2026-05-06T19:29:47Z",
+              "creator": "jmuizelaar@mozilla.com",
+              "id": 18068306,
+              "is_private": false,
+              "raw_text": "At the same time we should probably ask Yahoo to fix the script loading stuff",
+              "reactions": {},
+              "tags": [],
+              "text": "At the same time we should probably ask Yahoo to fix the script loading stuff",
+              "time": "2026-05-06T19:29:47Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "denyshon@outlook.com",
+              "bug_id": 2030614,
+              "count": 21,
+              "creation_time": "2026-05-07T21:57:01Z",
+              "creator": "denyshon@outlook.com",
+              "id": 18070920,
+              "is_private": false,
+              "raw_text": "A minor note: the issue goes away after refreshing the page several times (though maybe that's expected, I'm not sure)",
+              "reactions": {},
+              "tags": [],
+              "text": "A minor note: the issue goes away after refreshing the page several times (though maybe that's expected, I'm not sure)",
+              "time": "2026-05-07T21:57:01Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "htsai@mozilla.com",
+              "bug_id": 2030614,
+              "count": 22,
+              "creation_time": "2026-05-12T13:35:48Z",
+              "creator": "htsai@mozilla.com",
+              "id": 18079456,
+              "is_private": false,
+              "raw_text": "(Change the needs-diagnosis team to be aligned with the bug 2037599 so that it can show up in the dashboard with the right team info)",
+              "reactions": {},
+              "tags": [],
+              "text": "(Change the needs-diagnosis team to be aligned with the bug 2037599 so that it can show up in the dashboard with the right team info)",
+              "time": "2026-05-12T13:35:48Z"
+            }
+          ]
+        }
+      },
+      "comments": {}
+    },
+    "history": {
+      "bugs": [
+        {
+          "alias": null,
+          "history": [
+            {
+              "changes": [
+                {
+                  "added": "[webcompat-source:web-bugs][webcompat:sightline][webcompat:core]",
+                  "field_name": "whiteboard",
+                  "removed": "[webcompat-source:web-bugs]"
+                }
+              ],
+              "when": "2026-04-09T09:43:30Z",
+              "who": "release-mgmt-account-bot@mozilla.tld"
+            },
+            {
+              "changes": [
+                {
+                  "added": "alice0775@gmail.com",
+                  "field_name": "cc",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-04-09T12:03:19Z",
+              "who": "alice0775@gmail.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "@@ -1 +1 @@\n-\n+user-impact-score:0\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                },
+                {
+                  "added": "P3",
+                  "field_name": "cf_webcompat_priority",
+                  "removed": "---"
+                },
+                {
+                  "added": "1",
+                  "field_name": "cf_webcompat_score",
+                  "removed": "---"
+                }
+              ],
+              "when": "2026-04-10T08:09:49Z",
+              "who": "release-mgmt-account-bot@mozilla.tld"
+            },
+            {
+              "changes": [
+                {
+                  "added": "P3",
+                  "field_name": "priority",
+                  "removed": "--"
+                },
+                {
+                  "added": "webcompat:needs-diagnosis",
+                  "field_name": "keywords",
+                  "removed": ""
+                },
+                {
+                  "added": "S2",
+                  "field_name": "severity",
+                  "removed": "--"
+                },
+                {
+                  "added": "@@ -1 +1,7 @@\n-user-impact-score:0\n+user-impact-score:60\r\n+platform:windows,mac,linux,android\r\n+impact:content-missing\r\n+configuration:general\r\n+affects:all\r\n+branch:release\r\n+diagnosis-team:dom\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                },
+                {
+                  "added": "dschubert@mozilla.com",
+                  "field_name": "cc",
+                  "removed": ""
+                },
+                {
+                  "added": "4",
+                  "field_name": "cf_webcompat_score",
+                  "removed": "1"
+                }
+              ],
+              "when": "2026-04-13T15:22:28Z",
+              "who": "sky@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "james@hoppipolla.co.uk",
+                  "field_name": "cc",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-04-13T15:23:26Z",
+              "who": "james@hoppipolla.co.uk"
+            },
+            {
+              "changes": [
+                {
+                  "added": "@@ -1,7 +1,7 @@\n-user-impact-score:60\r\n-platform:windows,mac,linux,android\r\n-impact:content-missing\r\n-configuration:general\r\n-affects:all\r\n-branch:release\r\n+user-impact-score:900\n+platform:windows,mac,linux,android\n+impact:content-missing\n+configuration:general\n+affects:all\n+branch:release\n diagnosis-team:dom\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                },
+                {
+                  "added": "P1",
+                  "field_name": "cf_webcompat_priority",
+                  "removed": "P3"
+                },
+                {
+                  "added": "8",
+                  "field_name": "cf_webcompat_score",
+                  "removed": "4"
+                }
+              ],
+              "when": "2026-04-14T08:08:16Z",
+              "who": "release-mgmt-account-bot@mozilla.tld"
+            },
+            {
+              "changes": [
+                {
+                  "added": "@@ -1,7 +1,7 @@\n-user-impact-score:900\n-platform:windows,mac,linux,android\n-impact:content-missing\n-configuration:general\n-affects:all\n-branch:release\n+user-impact-score:900\r\n+platform:windows,mac,linux,android\r\n+impact:content-missing\r\n+configuration:general\r\n+affects:all\r\n+branch:release\r\n diagnosis-team:dom\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                },
+                {
+                  "added": "jmuizelaar@mozilla.com",
+                  "field_name": "cc",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-04-15T13:58:06Z",
+              "who": "jmuizelaar@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "htsai@mozilla.com",
+                  "field_name": "cc",
+                  "removed": ""
+                },
+                {
+                  "added": "needinfo?(jmuizelaar@mozilla.com)",
+                  "field_name": "flagtypes.name",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-04-16T08:39:54Z",
+              "who": "htsai@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "P2",
+                  "field_name": "priority",
+                  "removed": "P3"
+                },
+                {
+                  "added": "@@ -1,7 +1,7 @@\n-user-impact-score:900\r\n+user-impact-score:180\r\n platform:windows,mac,linux,android\r\n impact:content-missing\r\n configuration:general\r\n-affects:all\r\n+affects:some\r\n branch:release\r\n diagnosis-team:dom\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                },
+                {
+                  "added": "S4",
+                  "field_name": "severity",
+                  "removed": "S2"
+                },
+                {
+                  "added": "P2",
+                  "field_name": "cf_webcompat_priority",
+                  "removed": "P1"
+                },
+                {
+                  "added": "5",
+                  "field_name": "cf_webcompat_score",
+                  "removed": "8"
+                }
+              ],
+              "when": "2026-04-30T13:41:18Z",
+              "who": "sky@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "S2",
+                  "field_name": "severity",
+                  "removed": "S4"
+                },
+                {
+                  "added": "@@ -1,7 +1,7 @@\n-user-impact-score:180\r\n+user-impact-score:600\r\n platform:windows,mac,linux,android\r\n impact:content-missing\r\n configuration:general\r\n-affects:some\r\n+affects:all\r\n branch:release\r\n diagnosis-team:dom\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                },
+                {
+                  "added": "7",
+                  "field_name": "cf_webcompat_score",
+                  "removed": "5"
+                }
+              ],
+              "when": "2026-04-30T13:51:05Z",
+              "who": "sky@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "@@ -1,7 +1,7 @@\n-user-impact-score:600\r\n-platform:windows,mac,linux,android\r\n-impact:content-missing\r\n-configuration:general\r\n-affects:all\r\n-branch:release\r\n+user-impact-score:900\n+platform:windows,mac,linux,android\n+impact:content-missing\n+configuration:general\n+affects:all\n+branch:release\n diagnosis-team:dom\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                },
+                {
+                  "added": "P1",
+                  "field_name": "cf_webcompat_priority",
+                  "removed": "P2"
+                },
+                {
+                  "added": "8",
+                  "field_name": "cf_webcompat_score",
+                  "removed": "7"
+                }
+              ],
+              "when": "2026-05-01T08:07:03Z",
+              "who": "release-mgmt-account-bot@mozilla.tld"
+            },
+            {
+              "changes": [
+                {
+                  "added": "denyshon@outlook.com",
+                  "field_name": "cc",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-05-02T14:06:49Z",
+              "who": "denyshon@outlook.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "@@ -1,7 +1,7 @@\n-user-impact-score:900\n-platform:windows,mac,linux,android\n-impact:content-missing\n-configuration:general\n-affects:all\n-branch:release\n+user-impact-score:900\r\n+platform:windows,mac,linux,android\r\n+impact:content-missing\r\n+configuration:general\r\n+affects:all\r\n+branch:release\r\n diagnosis-team:dom\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                },
+                {
+                  "added": "https://support.mozilla.org/questions/1579530",
+                  "field_name": "see_also",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-05-02T14:07:31Z",
+              "who": "denyshon@outlook.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "https://bugzilla.mozilla.org/show_bug.cgi?id=2036045",
+                  "field_name": "see_also",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-05-04T15:20:18Z",
+              "who": "kberezina@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "",
+                  "field_name": "flagtypes.name",
+                  "removed": "needinfo?(jmuizelaar@mozilla.com)"
+                }
+              ],
+              "when": "2026-05-06T14:03:44Z",
+              "who": "jmuizelaar@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "emilio@crisal.io",
+                  "field_name": "cc",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-05-06T14:21:58Z",
+              "who": "emilio@crisal.io"
+            },
+            {
+              "changes": [
+                {
+                  "added": "2037599",
+                  "field_name": "depends_on",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-05-06T19:26:53Z",
+              "who": "jmuizelaar@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "@@ -1,6 +1,6 @@\n-user-impact-score:900\r\n+user-impact-score:2000\r\n platform:windows,mac,linux,android\r\n-impact:content-missing\r\n+impact:site-broken\r\n configuration:general\r\n affects:all\r\n branch:release\r\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                },
+                {
+                  "added": "webcompat:platform-bug",
+                  "field_name": "keywords",
+                  "removed": "webcompat:needs-diagnosis"
+                },
+                {
+                  "added": "P1",
+                  "field_name": "priority",
+                  "removed": "P2"
+                },
+                {
+                  "added": "10",
+                  "field_name": "cf_webcompat_score",
+                  "removed": "8"
+                }
+              ],
+              "when": "2026-05-06T19:29:06Z",
+              "who": "jmuizelaar@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "webcompat:contact-ready",
+                  "field_name": "keywords",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-05-06T19:29:47Z",
+              "who": "jmuizelaar@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "@@ -1,7 +1,7 @@\n-user-impact-score:2000\r\n-platform:windows,mac,linux,android\r\n-impact:site-broken\r\n-configuration:general\r\n-affects:all\r\n-branch:release\r\n+user-impact-score:3000\n+platform:windows,mac,linux,android\n+impact:site-broken\n+configuration:general\n+affects:all\n+branch:release\n diagnosis-team:dom\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-05-07T08:09:37Z",
+              "who": "release-mgmt-account-bot@mozilla.tld"
+            },
+            {
+              "changes": [
+                {
+                  "added": "@@ -1,7 +1,7 @@\n-user-impact-score:3000\n+user-impact-score:3000\r\n-platform:windows,mac,linux,android\n+platform:windows,mac,linux,android\r\n-impact:site-broken\n+impact:site-broken\r\n-configuration:general\n+configuration:general\r\n-affects:all\n+affects:all\r\n-branch:release\n+branch:release\r\n-diagnosis-team:dom\n+diagnosis-team:performance\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-05-07T11:05:32Z",
+              "who": "htsai@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "@@ -4,4 +4,4 @@\n configuration:general\r\n affects:all\r\n branch:release\r\n-diagnosis-team:performance\n+diagnosis-team:dom\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-05-07T11:09:36Z",
+              "who": "htsai@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "@@ -4,4 +4,6 @@\n configuration:general\r\n affects:all\r\n branch:release\r\n-diagnosis-team:dom\n+diagnosis-team:dom\r\n+outreach-assignee:jrmuizel\r\n+outreach-contact-date:2026-05-08\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                },
+                {
+                  "added": "webcompat:contact-in-progress",
+                  "field_name": "keywords",
+                  "removed": "webcompat:contact-ready"
+                }
+              ],
+              "when": "2026-05-08T17:30:48Z",
+              "who": "jmuizelaar@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "@@ -4,6 +4,6 @@\n configuration:general\r\n affects:all\r\n branch:release\r\n-diagnosis-team:dom\r\n+diagnosis-team:performance\r\n outreach-assignee:jrmuizel\r\n outreach-contact-date:2026-05-08\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-05-12T13:35:48Z",
+              "who": "htsai@mozilla.com"
+            }
+          ],
+          "id": 2030614
+        }
+      ]
+    }
+  },
+  "show_bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=2030614"
+}

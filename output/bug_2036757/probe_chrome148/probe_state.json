@@ -1,0 +1,322 @@
+{
+  "task": "featurePage",
+  "browser": "chrome",
+  "executablePath": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+  "requestedUrl": "https://chatgpt.com/",
+  "finalUrl": "https://chatgpt.com/",
+  "httpStatus": 403,
+  "navigationError": null,
+  "viewport": {
+    "width": 1280,
+    "height": 900
+  },
+  "events": {
+    "console": [
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 403 ()"
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 403 ()"
+      },
+      {
+        "type": "startGroupCollapsed",
+        "text": "Request for the Private Access Token challenge."
+      },
+      {
+        "type": "log",
+        "text": "The next request for the Private Access Token challenge may return a 401 and show a warning in console."
+      },
+      {
+        "type": "endGroup",
+        "text": "console.groupEnd"
+      },
+      {
+        "type": "startGroupCollapsed",
+        "text": ""
+      },
+      {
+        "type": "debug",
+        "text": "Error"
+      },
+      {
+        "type": "log",
+        "text": "[regexp RegExp]"
+      },
+      {
+        "type": "log",
+        "text": "[regexp RegExp]"
+      },
+      {
+        "type": "log",
+        "text": "[function Function]"
+      },
+      {
+        "type": "log",
+        "text": "[function Function]"
+      },
+      {
+        "type": "log",
+        "text": "[node HTMLAnchorElement]"
+      },
+      {
+        "type": "log",
+        "text": "[node HTMLAnchorElement]"
+      },
+      {
+        "type": "count",
+        "text": "\u0000: 1"
+      },
+      {
+        "type": "count",
+        "text": "\u0000: 1"
+      },
+      {
+        "type": "debug",
+        "text": "%c%d font-size:0;color:transparent NaN"
+      },
+      {
+        "type": "debug",
+        "text": "%c%d font-size:0;color:transparent NaN"
+      },
+      {
+        "type": "dir",
+        "text": " Error"
+      },
+      {
+        "type": "dir",
+        "text": " Error"
+      },
+      {
+        "type": "dirxml",
+        "text": "%c%d font-size:0;color:transparent Error"
+      },
+      {
+        "type": "dirxml",
+        "text": "%c%d font-size:0;color:transparent Error"
+      },
+      {
+        "type": "error",
+        "text": "%c%d font-size:0;color:transparent NaN"
+      },
+      {
+        "type": "error",
+        "text": "%c%d font-size:0;color:transparent NaN"
+      },
+      {
+        "type": "info",
+        "text": "%c%d font-size:0;color:transparent NaN"
+      },
+      {
+        "type": "info",
+        "text": "%c%d font-size:0;color:transparent NaN"
+      },
+      {
+        "type": "log",
+        "text": "%c%d font-size:0;color:transparent NaN"
+      },
+      {
+        "type": "log",
+        "text": "%c%d font-size:0;color:transparent NaN"
+      },
+      {
+        "type": "table",
+        "text": "%c%d font-size:0;color:transparent Error"
+      },
+      {
+        "type": "table",
+        "text": "%c%d font-size:0;color:transparent Error"
+      },
+      {
+        "type": "trace",
+        "text": "%c%d font-size:0;color:transparent NaN"
+      },
+      {
+        "type": "trace",
+        "text": "%c%d font-size:0;color:transparent NaN"
+      },
+      {
+        "type": "warn",
+        "text": "%c%d font-size:0;color:transparent NaN"
+      },
+      {
+        "type": "warn",
+        "text": "%c%d font-size:0;color:transparent NaN"
+      },
+      {
+        "type": "endGroup",
+        "text": "console.groupEnd"
+      },
+      {
+        "type": "warn",
+        "text": "The resource https://chatgpt.com/cdn/assets/conversation-small-gb9vledm.css was preloaded using link preload in Early Hints but not used within a few seconds from the window's load event."
+      },
+      {
+        "type": "warn",
+        "text": "The resource https://chatgpt.com/cdn/assets/root-n0p757yt.css was preloaded using link preload in Early Hints but not used within a few seconds from the window's load event."
+      }
+    ],
+    "pageErrors": [],
+    "requestFailures": []
+  },
+  "page": {
+    "url": "https://chatgpt.com/",
+    "title": "Just a moment...",
+    "readyState": "complete",
+    "scrollX": 0,
+    "scrollY": 0,
+    "viewport": {
+      "innerWidth": 1280,
+      "innerHeight": 900,
+      "devicePixelRatio": 1
+    },
+    "documentElement": {
+      "clientWidth": 1280,
+      "clientHeight": 900,
+      "scrollWidth": 1280,
+      "scrollHeight": 900
+    },
+    "bodyTextSample": ""
+  },
+  "taskResult": {
+    "screenshots": {
+      "page": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2036757/probe_chrome148/feature_page.png"
+    },
+    "featureSupport": {
+      "speechRecognition": true,
+      "webkitSpeechRecognition": true,
+      "showOpenFilePicker": true,
+      "launchQueue": true,
+      "serviceWorker": true,
+      "getUserMedia": true,
+      "credentials": true,
+      "clipboardRead": true,
+      "pictureInPictureEnabled": true,
+      "webkitSupportsFullscreen": true,
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/148.0.0.0 Safari/537.36"
+    },
+    "visible": [
+      {
+        "index": 0,
+        "tag": "div",
+        "label": "Verification successful. Waiting for chatgpt.com to respond<div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div>(function(){window._cf_chl_opt = {cFPWv: 'g',cH: 'Yw8a_d_R32lWWVBc3RHKOXFVy9_t9R06aQfXcH0HNw8-1780152728-1.2.1.1-kdjZPcKjQiSAaUGlmLCLcIkQhyf7xu46RmD3vXWbVA8_CvNTGnD.X8LK1z7StDVN',cITimeS: '1780152728',cRay: 'a03e8f99afaa03ff',cTplB: '0',cT",
+        "rect": {
+          "x": 8,
+          "y": 8,
+          "width": 1264,
+          "height": 884
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 1,
+        "tag": "div",
+        "label": "logo",
+        "rect": {
+          "x": 616,
+          "y": 367.546875,
+          "width": 48,
+          "height": 48
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 2,
+        "tag": "div",
+        "label": "Verification successful. Waiting for chatgpt.com to respond<div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div>(function(){window._cf_chl_opt = {cFPWv: 'g',cH: 'Yw8a_d_R32lWWVBc3RHKOXFVy9_t9R06aQfXcH0HNw8-1780152728-1.2.1.1-kdjZPcKjQiSAaUGlmLCLcIkQhyf7xu46RmD3vXWbVA8_CvNTGnD.X8LK1z7StDVN',cITimeS: '1780152728',cRay: 'a03e8f99afaa03ff',cTplB: '0',cT",
+        "rect": {
+          "x": 490,
+          "y": 447.546875,
+          "width": 300,
+          "height": 84.90625
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 3,
+        "tag": "div",
+        "label": "Verification successful. Waiting for chatgpt.com to respond<div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div> main-wrapper",
+        "rect": {
+          "x": 490,
+          "y": 467.453125,
+          "width": 300,
+          "height": 65
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 4,
+        "tag": "div",
+        "label": "Verification successful. Waiting for chatgpt.com to respond<div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div> main-content",
+        "rect": {
+          "x": 490,
+          "y": 467.453125,
+          "width": 300,
+          "height": 65
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 7,
+        "tag": "div",
+        "label": "BbLB6",
+        "rect": {
+          "x": 490,
+          "y": 467.453125,
+          "width": 300,
+          "height": 65
+        },
+        "visible": true,
+        "display": "grid",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 8,
+        "tag": "div",
+        "label": "",
+        "rect": {
+          "x": 490,
+          "y": 467.453125,
+          "width": 300,
+          "height": 65
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 9,
+        "tag": "div",
+        "label": "",
+        "rect": {
+          "x": 490,
+          "y": 467.453125,
+          "width": 300,
+          "height": 65
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      }
+    ]
+  }
+}

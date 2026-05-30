@@ -1,0 +1,9 @@
+<!doctype html>
+<meta charset="utf-8">
+<button id="mic">Voice input</button>
+<pre id="state"></pre>
+<script>
+  const supported = "SpeechRecognition" in window || "webkitSpeechRecognition" in window;
+  document.getElementById("mic").disabled = !supported;
+  document.getElementById("state").textContent = JSON.stringify({ supported }, null, 2);
+</script>

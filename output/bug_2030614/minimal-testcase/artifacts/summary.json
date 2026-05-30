@@ -1,0 +1,6 @@
+{
+  "firefox": {
+    "loaded": false,
+    "error": "can't access property \"ready\", window.wafer is undefined"
+  }
+}

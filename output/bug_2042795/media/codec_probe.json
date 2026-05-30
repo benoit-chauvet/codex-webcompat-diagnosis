@@ -1,0 +1,54 @@
+[
+  {
+    "file": "output/bug_2042795/media/gsmarena_001.mp4",
+    "size": 6227520,
+    "avcC": [
+      {
+        "path": "moov/trak/mdia/minf/stbl/stsd/avc1/avcC",
+        "configurationVersion": 1,
+        "avcProfileIndication": 244,
+        "profileCompatibility": 0,
+        "avcLevelIndication": 31,
+        "lengthSizeMinusOne": 3,
+        "sps": [
+          {
+            "profile_idc": 244,
+            "constraints": 0,
+            "level_idc": 31,
+            "sps_id": 0,
+            "chroma_format_idc": 1,
+            "separate_colour_plane_flag": 0,
+            "bit_depth_luma_minus8": 0,
+            "bit_depth_chroma_minus8": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "output/bug_2042795/media/gsmarena_002.mp4",
+    "size": 7698605,
+    "avcC": [
+      {
+        "path": "moov/trak/mdia/minf/stbl/stsd/avc1/avcC",
+        "configurationVersion": 1,
+        "avcProfileIndication": 244,
+        "profileCompatibility": 0,
+        "avcLevelIndication": 31,
+        "lengthSizeMinusOne": 3,
+        "sps": [
+          {
+            "profile_idc": 244,
+            "constraints": 0,
+            "level_idc": 31,
+            "sps_id": 0,
+            "chroma_format_idc": 1,
+            "separate_colour_plane_flag": 0,
+            "bit_depth_luma_minus8": 0,
+            "bit_depth_chroma_minus8": 0
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,56 @@
+{
+  "videoPath": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2036757/attachments/9582374_04.05.2026_15.58.06_REC.mp4",
+  "metadata": {
+    "duration": 27.979456,
+    "videoWidth": 1280,
+    "videoHeight": 686,
+    "error": null
+  },
+  "frames": [
+    {
+      "requestedTime": 0,
+      "screenshot": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2036757/attachments/frames/frame_0s.png",
+      "seekResult": {
+        "currentTime": 0,
+        "readyState": 4,
+        "error": null
+      }
+    },
+    {
+      "requestedTime": 2,
+      "screenshot": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2036757/attachments/frames/frame_2s.png",
+      "seekResult": {
+        "currentTime": 2,
+        "readyState": 4,
+        "error": null
+      }
+    },
+    {
+      "requestedTime": 5,
+      "screenshot": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2036757/attachments/frames/frame_5s.png",
+      "seekResult": {
+        "currentTime": 5,
+        "readyState": 4,
+        "error": null
+      }
+    },
+    {
+      "requestedTime": 10,
+      "screenshot": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2036757/attachments/frames/frame_10s.png",
+      "seekResult": {
+        "currentTime": 10,
+        "readyState": 4,
+        "error": null
+      }
+    },
+    {
+      "requestedTime": 20,
+      "screenshot": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2036757/attachments/frames/frame_20s.png",
+      "seekResult": {
+        "currentTime": 20,
+        "readyState": 4,
+        "error": null
+      }
+    }
+  ]
+}

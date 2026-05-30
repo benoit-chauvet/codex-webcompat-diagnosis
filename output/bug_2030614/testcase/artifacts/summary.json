@@ -1,0 +1,16 @@
+{
+  "broken": {
+    "mode": "broken",
+    "loaded": false,
+    "waferPresent": false,
+    "error": "can't access property \"controllers\", window.wafer is undefined",
+    "titleText": ""
+  },
+  "fixed": {
+    "mode": "fixed",
+    "loaded": true,
+    "waferPresent": true,
+    "error": null,
+    "titleText": "Hero title context loaded by Wafer"
+  }
+}

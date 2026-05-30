@@ -1,0 +1,737 @@
+{
+  "task": "aolHero",
+  "browser": "firefox",
+  "executablePath": "/Applications/Firefox.app/Contents/MacOS/firefox",
+  "requestedUrl": "https://www.aol.com/",
+  "finalUrl": "https://www.aol.com/",
+  "httpStatus": 200,
+  "navigationError": null,
+  "viewport": {
+    "width": 1280,
+    "height": 900
+  },
+  "events": {
+    "console": [
+      {
+        "type": "log",
+        "text": "[PicoX] Successfully initialized"
+      },
+      {
+        "type": "log",
+        "text": "[PicoX] Successfully tracked utm params"
+      },
+      {
+        "type": "debug",
+        "text": "Yahoo Web Analytics v4.7.0"
+      },
+      {
+        "type": "debug",
+        "text": "Using gtag provider"
+      }
+    ],
+    "pageErrors": [
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "Cookie “A1S” has been rejected because it is in a cross-site context and its “SameSite” is “Lax” or “Strict”."
+      },
+      {
+        "name": "Error",
+        "message": "TypeError: can't access property \"WaferBaseController\", window.wafer.controllers is undefined"
+      },
+      {
+        "name": "Error",
+        "message": "TypeError: can't access property \"WaferBaseController\", window.wafer.controllers is undefined"
+      },
+      {
+        "name": "Error",
+        "message": "TypeError: can't access property \"WaferBaseController\", window.wafer.controllers is undefined"
+      },
+      {
+        "name": "Error",
+        "message": "TypeError: can't access property \"WaferBaseController\", window.wafer.controllers is undefined"
+      },
+      {
+        "name": "Error",
+        "message": "TypeError: can't access property \"WaferBaseController\", d is undefined"
+      },
+      {
+        "name": "Error",
+        "message": "TypeError: can't access property \"bindEvent\", h is undefined"
+      },
+      {
+        "name": "Error",
+        "message": "TypeError: can't access property \"elementInView\", f is undefined"
+      },
+      {
+        "name": "Error",
+        "message": "TypeError: can't access property \"findAncestor\", v is undefined"
+      },
+      {
+        "name": "Error",
+        "message": "TypeError: can't access property \"WaferBaseController\", window.wafer.controllers is undefined"
+      },
+      {
+        "name": "Error",
+        "message": "TypeError: can't access property \"elementInView\", f is undefined"
+      },
+      {
+        "name": "Error",
+        "message": "TypeError: can't access property \"WaferBaseController\", window.wafer.controllers is undefined"
+      },
+      {
+        "name": "Error",
+        "message": "TypeError: window.wafer.ready is not a function"
+      },
+      {
+        "name": "Error",
+        "message": "TypeError: can't access property \"performanceMarkSupported\", y is undefined"
+      },
+      {
+        "name": "Error",
+        "message": "TypeError: can't access property \"WaferBaseController\", window.wafer.controllers is undefined"
+      },
+      {
+        "name": "Error",
+        "message": "TypeError: can't access property \"bindEvent\", p is undefined"
+      }
+    ],
+    "requestFailures": [
+      {
+        "url": "https://scaredslip.com/ib5prws9nlx8tg0nhz66zbp3w5y5nini3yasj7p_1",
+        "method": "POST",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_ERROR_FAILURE"
+        }
+      }
+    ]
+  },
+  "page": {
+    "url": "https://www.aol.com/",
+    "title": "News, Politics, Sports, Mail & Latest Headlines - AOL.com",
+    "readyState": "complete",
+    "scrollX": 0,
+    "scrollY": 0,
+    "viewport": {
+      "innerWidth": 1280,
+      "innerHeight": 900,
+      "devicePixelRatio": 1
+    },
+    "documentElement": {
+      "clientWidth": 1280,
+      "clientHeight": 900,
+      "scrollWidth": 1280,
+      "scrollHeight": 13308
+    },
+    "bodyTextSample": "Your privacy choices\nIf you click 'Accept all', we and our partners including 247 who are part of the IAB Transparency & Consent Framework, will also store and / or access information on a device (in other words, use cookies) and use precise geolocation data and other personal data such as technical identifiers and browsing and search data, for analytics, personalised advertising and content, advertising and content measurement, and audience research and services development.\n\n\n\nIf you do not want us and our partners to use cookies and personal data for these additional purposes, click 'Reject all'.\n\n\n\n\nIf you would like to customize your choices, click 'Manage privacy settings'.\n\n\n\n\nYou can withdraw your consent or change your choices at any time by clicking on the 'Privacy & Cookie settings' link on our sites and apps. Find out more about how we use your personal data in our Privacy Policy and Cookie Policy.\n\nAccept all\nReject all\nManage privacy settings\nMenu\n24/7\n Help\nMail\nSign in\n\nAdvertisement\n\nTrending Now\n\nWonderwall\n\nKate Middleton’s 1-word reply after her brief split from Prince William revealed\n\nABC News\n\nTrump says 'no interest' in Kennedy Center overhaul after judge's ruling\n\nWonderwall\n\nPrince Harry and Meghan Markle's marriage allegedly implodes ahead of UK visit\n\nEntertainment Weekly\n\n7 NBC shows canceled so far in 2026 — and why they got the axe\n\nPeople\n\nParents show up to daughter's birthday bash only to realize party is not at all what they were expecting\n\nSee all trending now\nDon’t miss our daily roundup.\n\nStay informed with a handpicked selection of the"
+  },
+  "taskResult": {
+    "screenshots": {
+      "top": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2030614/probe_firefox151/aol_home_top.png"
+    },
+    "state": {
+      "topLinks": [
+        {
+          "index": 30,
+          "href": "https://www.aol.com/",
+          "text": "",
+          "imageSrc": null,
+          "imageAlt": null,
+          "rect": {
+            "x": 51.19999694824219,
+            "y": 54,
+            "width": 113,
+            "height": 36
+          },
+          "visibleTop": true
+        },
+        {
+          "index": 37,
+          "href": "https://mail.aol.com/",
+          "text": "Mail",
+          "imageSrc": null,
+          "imageAlt": null,
+          "rect": {
+            "x": 1041.6666259765625,
+            "y": 52,
+            "width": 118.96665954589844,
+            "height": 40
+          },
+          "visibleTop": true
+        },
+        {
+          "index": 38,
+          "href": "https://oidc.www.aol.com/login/?lang=en-us&intl=us&src=fp-us&dest=https%3A%2F%2Fwww.aol.com%2F",
+          "text": "Sign in",
+          "imageSrc": null,
+          "imageAlt": null,
+          "rect": {
+            "x": 1178.63330078125,
+            "y": 56,
+            "width": 94.36666870117188,
+            "height": 32
+          },
+          "visibleTop": true
+        },
+        {
+          "index": 67,
+          "href": "https://www.aol.com/",
+          "text": "Home",
+          "imageSrc": null,
+          "imageAlt": null,
+          "rect": {
+            "x": -334,
+            "y": 80,
+            "width": 318,
+            "height": 56
+          },
+          "visibleTop": true
+        },
+        {
+          "index": 68,
+          "href": "https://www.aol.com/local/",
+          "text": "Fontenay-sous-..., Ile-de-FranceFontenay-sous-Bois, Ile-de-FranceLocal News",
+          "imageSrc": null,
+          "imageAlt": null,
+          "rect": {
+            "x": -334,
+            "y": 153,
+            "width": 318,
+            "height": 74
+          },
+          "visibleTop": true
+        },
+        {
+          "index": 69,
+          "href": "https://www.aol.com/products?ncid=mbr_rusacqlnk00000036",
+          "text": "Subscriptions",
+          "imageSrc": null,
+          "imageAlt": null,
+          "rect": {
+            "x": -334,
+            "y": 244,
+            "width": 318,
+            "height": 56
+          },
+          "visibleTop": true
+        },
+        {
+          "index": 70,
+          "href": "https://www.aol.com/animals/",
+          "text": "Animals",
+          "imageSrc": null,
+          "imageAlt": null,
+          "rect": {
+            "x": -334,
+            "y": 317,
+            "width": 318,
+            "height": 56
+          },
+          "visibleTop": true
+        },
+        {
+          "index": 71,
+          "href": "https://www.aol.com/entertainment/",
+          "text": "Entertainment",
+          "imageSrc": null,
+          "imageAlt": null,
+          "rect": {
+            "x": -334,
+            "y": 373,
+            "width": 318,
+            "height": 56
+          },
+          "visibleTop": true
+        },
+        {
+          "index": 72,
+          "href": "https://www.aol.com/food/",
+          "text": "Food",
+          "imageSrc": null,
+          "imageAlt": null,
+          "rect": {
+            "x": -334,
+            "y": 485,
+            "width": 318,
+            "height": 56
+          },
+          "visibleTop": true
+        },
+        {
+          "index": 73,
+          "href": "https://www.aol.com/games/",
+          "text": "Games",
+          "imageSrc": null,
+          "imageAlt": null,
+          "rect": {
+            "x": -334,
+            "y": 541,
+            "width": 318,
+            "height": 56
+          },
+          "visibleTop": true
+        },
+        {
+          "index": 74,
+          "href": "https://www.aol.com/home-garden/",
+          "text": "Home & Garden",
+          "imageSrc": null,
+          "imageAlt": null,
+          "rect": {
+            "x": -334,
+            "y": 653,
+            "width": 318,
+            "height": 56
+          },
+          "visibleTop": true
+        },
+        {
+          "index": 231,
+          "href": "https://www.aol.com/news/trending/",
+          "text": "Trending Now",
+          "imageSrc": null,
+          "imageAlt": null,
+          "rect": {
+            "x": 556.6666870117188,
+            "y": 579.3333129882812,
+            "width": 163.51666259765625,
+            "height": 28
+          },
+          "visibleTop": true
+        },
+        {
+          "index": 232,
+          "href": "https://www.aol.com/articles/kate-middleton-one-word-reply-201119000.html",
+          "text": "Wonderwall Kate Middleton’s 1-word reply after her brief split from Prince William revealed",
+          "imageSrc": "https://s.aolcdn.com/aoldotcom-releases/lazyload/blank.gif",
+          "imageAlt": "Wonderwall",
+          "rect": {
+            "x": 556.6666870117188,
+            "y": 635.3333129882812,
+            "width": 270,
+            "height": 110
+          },
+          "visibleTop": true
+        }
+      ],
+      "textBlocks": [
+        {
+          "index": 0,
+          "tag": "h3",
+          "text": "Your privacy choices",
+          "rect": {
+            "x": 296,
+            "y": 241.9499969482422,
+            "width": 688,
+            "height": 28.083343505859375
+          },
+          "visibleTop": true
+        },
+        {
+          "index": 1,
+          "tag": "p",
+          "text": "If you do not want us and our partners to use cookies and personal data for these additional purposes, click 'Reject all'.",
+          "rect": {
+            "x": 296,
+            "y": 430.0333251953125,
+            "width": 688,
+            "height": 48
+          },
+          "visibleTop": true
+        },
+        {
+          "index": 2,
+          "tag": "p",
+          "text": "If you would like to customize your choices, click 'Manage privacy settings'.",
+          "rect": {
+            "x": 296,
+            "y": 502.0333251953125,
+            "width": 688,
+            "height": 24
+          },
+          "visibleTop": true
+        },
+        {
+          "index": 3,
+          "tag": "p",
+          "text": "You can withdraw your consent or change your choices at any time by clicking on the 'Privacy & Cookie settings' link on our sites and apps. Find out more about how we use your personal data in our Privacy Policy and Cookie Policy.",
+          "rect": {
+            "x": 296,
+            "y": 550.0333251953125,
+            "width": 688,
+            "height": 72
+          },
+          "visibleTop": true
+        },
+        {
+          "index": 98,
+          "tag": "p",
+          "text": "Advertisement",
+          "rect": {
+            "x": 964.11669921875,
+            "y": 420,
+            "width": 105.09999084472656,
+            "height": 20
+          },
+          "visibleTop": true
+        },
+        {
+          "index": 99,
+          "tag": "h2",
+          "text": "Trending Now",
+          "rect": {
+            "x": 556.6666870117188,
+            "y": 579.3333129882812,
+            "width": 163.51666259765625,
+            "height": 28
+          },
+          "visibleTop": true
+        },
+        {
+          "index": 100,
+          "tag": "p",
+          "text": "Wonderwall",
+          "rect": {
+            "x": 580.6666870117188,
+            "y": 638.3333129882812,
+            "width": 54.399993896484375,
+            "height": 14
+          },
+          "visibleTop": true
+        },
+        {
+          "index": 101,
+          "tag": "p",
+          "text": "Kate Middleton’s 1-word reply after her brief split from Prince William revealed",
+          "rect": {
+            "x": 556.6666870117188,
+            "y": 665.3333129882812,
+            "width": 172.89999389648438,
+            "height": 80
+          },
+          "visibleTop": true
+        }
+      ],
+      "bodyTextSample": "Your privacy choices\nIf you click 'Accept all', we and our partners including 247 who are part of the IAB Transparency & Consent Framework, will also store and / or access information on a device (in other words, use cookies) and use precise geolocation data and other personal data such as technical identifiers and browsing and search data, for analytics, personalised advertising and content, advertising and content measurement, and audience research and services development.\n\n\n\nIf you do not want us and our partners to use cookies and personal data for these additional purposes, click 'Reject all'.\n\n\n\n\nIf you would like to customize your choices, click 'Manage privacy settings'.\n\n\n\n\nYou can withdraw your consent or change your choices at any time by clicking on the 'Privacy & Cookie settings' link on our sites and apps. Find out more about how we use your personal data in our Privacy Policy and Cookie Policy.\n\nAccept all\nReject all\nManage privacy settings\nMenu\n24/7\n Help\nMail\nSign in\n\nAdvertisement\n\nTrending Now\n\nWonderwall\n\nKate Middleton’s 1-word reply after her brief split from Prince William revealed\n\nABC News\n\nTrump says 'no interest' in Kennedy Center overhaul after judge's ruling\n\nWonderwall\n\nPrince Harry and Meghan Markle's marriage allegedly implodes ahead of UK visit\n\nEntertainment Weekly\n\n7 NBC shows canceled so far in 2026 — and why they got the axe\n\nPeople\n\nParents show up to daughter's birthday bash only to realize party is not at all what they were expecting\n\nSee all trending now\nDon’t miss our daily roundup.\n\nStay informed with a handpicked selection of the day's top AOL stories, delivered to your inbox.\n\nFontenay-sous-Bois, Ile-de-France\nNews & Weather\n\nChange home location\n\nFontenay-sous-Bois, Ile-de-France\nAdd / Edit\n94°F\nSunny\nH93°\nL 62°\n5 PM\n92°\n0%\n6 PM\n91°\n0%\n7 PM\n90°\n0%\n8 PM\n88°\n0%\nSee full forecast\nLocal news not available now.\n\nWe have our best people on it and should have things up and running soon.\n\nAdvertisement\n\nEntertainment\n\nEntertainment Weekly\n\n13 celebrities who have saved lives\n\nPeople\n\nNate Bargatze shares his biggest challenge in film debut 'The Breadwinner': 'How early you got to get up'\n\nAssociated Press\n\nOscar-winning 'Star Wars' editor Marcia Lucas dies at 80\n\nEntertainment Weekly\n\nEvery artist who's dropped out of the controversial Freedom 250 event so far\n\nHuffPost\n\nI had a huge hit in 1992. Then I came out as omnisexual\n\nPeople\n\nKendra Wilkinson bites back at body-shaming comments about her breast implants\n\nSee "
+    }
+  }
+}

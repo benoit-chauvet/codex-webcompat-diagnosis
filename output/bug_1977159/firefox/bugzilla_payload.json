@@ -1,0 +1,557 @@
+{
+  "bug_id": "1977159",
+  "endpoints": {
+    "attachments": "https://bugzilla.mozilla.org/rest/bug/1977159/attachment?exclude_fields=data",
+    "bug": "https://bugzilla.mozilla.org/rest/bug/1977159",
+    "comments": "https://bugzilla.mozilla.org/rest/bug/1977159/comment",
+    "history": "https://bugzilla.mozilla.org/rest/bug/1977159/history"
+  },
+  "fetched_at": "2026-05-30T14:35:39+00:00",
+  "responses": {
+    "attachments": {
+      "attachments": {},
+      "bugs": {
+        "1977159": [
+          {
+            "attacher": "railioaie@mozilla.com",
+            "bug_id": 1977159,
+            "content_type": "image/png",
+            "creation_time": "2025-07-14T09:12:50Z",
+            "creator": "railioaie@mozilla.com",
+            "creator_detail": {
+              "email": "railioaie@mozilla.com",
+              "id": 743581,
+              "name": "railioaie@mozilla.com",
+              "nick": "railioaie",
+              "real_name": ""
+            },
+            "description": "Screenshot_327.png",
+            "file_name": "Screenshot_327.png",
+            "flags": [],
+            "id": 9500336,
+            "is_obsolete": 0,
+            "is_patch": 0,
+            "is_private": 0,
+            "last_change_time": "2025-07-14T09:12:50Z",
+            "size": 66853,
+            "summary": "Screenshot_327.png"
+          },
+          {
+            "attacher": "railioaie@mozilla.com",
+            "bug_id": 1977159,
+            "content_type": "image/png",
+            "creation_time": "2025-07-14T09:13:18Z",
+            "creator": "railioaie@mozilla.com",
+            "creator_detail": {
+              "email": "railioaie@mozilla.com",
+              "id": 743581,
+              "name": "railioaie@mozilla.com",
+              "nick": "railioaie",
+              "real_name": ""
+            },
+            "description": "Chrome.png",
+            "file_name": "Screenshot_328.png",
+            "flags": [],
+            "id": 9500337,
+            "is_obsolete": 0,
+            "is_patch": 0,
+            "is_private": 0,
+            "last_change_time": "2025-07-14T09:13:18Z",
+            "size": 68579,
+            "summary": "Chrome.png"
+          }
+        ]
+      }
+    },
+    "bug": {
+      "bugs": [
+        {
+          "alias": null,
+          "assigned_to": "nobody@mozilla.org",
+          "assigned_to_detail": {
+            "email": "nobody@mozilla.org",
+            "id": 1,
+            "name": "nobody@mozilla.org",
+            "nick": "nobody",
+            "real_name": "Nobody; OK to take it and work on it"
+          },
+          "blocks": [],
+          "cc": [
+            "james@hoppipolla.co.uk",
+            "jboutin@rockdown.net",
+            "jmuizelaar@mozilla.com",
+            "mozilla@keithcirkel.co.uk",
+            "sky@mozilla.com"
+          ],
+          "cc_detail": [
+            {
+              "email": "james@hoppipolla.co.uk",
+              "id": 389650,
+              "name": "james@hoppipolla.co.uk",
+              "nick": "jgraham",
+              "real_name": "James Graham [:jgraham]"
+            },
+            {
+              "email": "jboutin@rockdown.net",
+              "id": 532970,
+              "name": "jboutin@rockdown.net",
+              "nick": "jboutin",
+              "real_name": ""
+            },
+            {
+              "email": "jmuizelaar@mozilla.com",
+              "id": 309398,
+              "name": "jmuizelaar@mozilla.com",
+              "nick": "jrmuizel",
+              "real_name": "Jeff Muizelaar [:jrmuizel]"
+            },
+            {
+              "email": "mozilla@keithcirkel.co.uk",
+              "id": 607606,
+              "name": "mozilla@keithcirkel.co.uk",
+              "nick": "keithamus",
+              "real_name": "Keith Cirkel [:keithamus]"
+            },
+            {
+              "email": "sky@mozilla.com",
+              "id": 421268,
+              "name": "sky@mozilla.com",
+              "nick": "skyschub",
+              "real_name": "Sky Schubert [:skyschub]"
+            }
+          ],
+          "cf_a11y_review_project_flag": "---",
+          "cf_accessibility_severity": "---",
+          "cf_cab_review": "---",
+          "cf_fx_iteration": "---",
+          "cf_fx_points": "---",
+          "cf_last_resolved": null,
+          "cf_performance_impact": "---",
+          "cf_qa_whiteboard": "",
+          "cf_status_firefox140": "affected",
+          "cf_status_firefox141": "affected",
+          "cf_status_firefox142": "affected",
+          "cf_status_firefox151": "---",
+          "cf_status_firefox152": "---",
+          "cf_status_firefox153": "---",
+          "cf_status_firefox_esr115": "---",
+          "cf_status_firefox_esr140": "---",
+          "cf_tracking_firefox151": "---",
+          "cf_tracking_firefox152": "---",
+          "cf_tracking_firefox153": "---",
+          "cf_tracking_firefox_esr115": "---",
+          "cf_tracking_firefox_esr140": "---",
+          "cf_tracking_firefox_relnote": "---",
+          "cf_user_story": "platform:windows,mac,linux,android\r\nimpact:workflow-broken\r\nconfiguration:general\r\naffects:all\r\nbranch:release\r\ndiagnosis-team:networking\r\nuser-impact-score:2400",
+          "cf_webcompat_priority": "P1",
+          "cf_webcompat_score": "10",
+          "classification": "Client Software",
+          "comment_count": 9,
+          "component": "Site Reports",
+          "creation_time": "2025-07-14T09:12:02Z",
+          "creator": "railioaie@mozilla.com",
+          "creator_detail": {
+            "email": "railioaie@mozilla.com",
+            "id": 743581,
+            "name": "railioaie@mozilla.com",
+            "nick": "railioaie",
+            "real_name": ""
+          },
+          "depends_on": [
+            1815926
+          ],
+          "dupe_of": null,
+          "duplicates": [],
+          "flags": [],
+          "groups": [],
+          "id": 1977159,
+          "is_cc_accessible": true,
+          "is_confirmed": true,
+          "is_creator_accessible": true,
+          "is_open": true,
+          "keywords": [
+            "webcompat:needs-login",
+            "webcompat:platform-bug",
+            "webcompat:site-report"
+          ],
+          "last_change_time": "2026-05-26T15:18:55Z",
+          "mentors": [],
+          "mentors_detail": [],
+          "op_sys": "Windows 10",
+          "platform": "Desktop",
+          "priority": "P1",
+          "product": "Web Compatibility",
+          "qa_contact": "",
+          "regressed_by": [],
+          "regressions": [],
+          "resolution": "",
+          "see_also": [
+            "https://github.com/webcompat/web-bugs/issues/166104"
+          ],
+          "severity": "S2",
+          "status": "NEW",
+          "summary": "claude.ai - The page is not loading correctly",
+          "target_milestone": "---",
+          "type": "defect",
+          "url": "https://claude.ai/artifacts/inspiration/0e6f226e-70b0-418d-a03c-77ba65e4ba14",
+          "version": "unspecified",
+          "votes": 0,
+          "whiteboard": "[webcompat-source:web-bugs][webcompat:sightline][webcompat:core]"
+        }
+      ],
+      "faults": []
+    },
+    "comments": {
+      "bugs": {
+        "1977159": {
+          "comments": [
+            {
+              "attachment_id": null,
+              "author": "railioaie@mozilla.com",
+              "bug_id": 1977159,
+              "count": 0,
+              "creation_time": "2025-07-14T09:12:02Z",
+              "creator": "railioaie@mozilla.com",
+              "id": 17580090,
+              "is_private": false,
+              "raw_text": "**Environment:**\nOperating system: Windows 10\nFirefox version: Firefox 140.0\n\n**Preconditions:**\nClean profile\n\n**Steps to reproduce:**\n1. Navigate to: https://claude.ai/artifacts/inspiration/0e6f226e-70b0-418d-a03c-77ba65e4ba14\n2. Observe\n\n**Expected Behavior:**\nThe page is loading correctly\n\n**Actual Behavior:**\nThe page is not loading correctly\n\n**Notes:**\n- Reproduces regardless of the status of ETP\n- Reproduces in firefox-nightly, and firefox-release\n- Does not reproduce in chrome\n\nCreated from https://github.com/webcompat/web-bugs/issues/166104",
+              "reactions": {},
+              "tags": [],
+              "text": "**Environment:**\nOperating system: Windows 10\nFirefox version: Firefox 140.0\n\n**Preconditions:**\nClean profile\n\n**Steps to reproduce:**\n1. Navigate to: https://claude.ai/artifacts/inspiration/0e6f226e-70b0-418d-a03c-77ba65e4ba14\n2. Observe\n\n**Expected Behavior:**\nThe page is loading correctly\n\n**Actual Behavior:**\nThe page is not loading correctly\n\n**Notes:**\n- Reproduces regardless of the status of ETP\n- Reproduces in firefox-nightly, and firefox-release\n- Does not reproduce in chrome\n\nCreated from https://github.com/webcompat/web-bugs/issues/166104",
+              "time": "2025-07-14T09:12:02Z"
+            },
+            {
+              "attachment_id": 9500336,
+              "author": "railioaie@mozilla.com",
+              "bug_id": 1977159,
+              "count": 1,
+              "creation_time": "2025-07-14T09:12:50Z",
+              "creator": "railioaie@mozilla.com",
+              "id": 17580091,
+              "is_private": false,
+              "raw_text": "",
+              "reactions": {},
+              "tags": [],
+              "text": "Created attachment 9500336\nScreenshot_327.png",
+              "time": "2025-07-14T09:12:50Z"
+            },
+            {
+              "attachment_id": 9500337,
+              "author": "railioaie@mozilla.com",
+              "bug_id": 1977159,
+              "count": 2,
+              "creation_time": "2025-07-14T09:13:18Z",
+              "creator": "railioaie@mozilla.com",
+              "id": 17580092,
+              "is_private": false,
+              "raw_text": "",
+              "reactions": {},
+              "tags": [],
+              "text": "Created attachment 9500337\nChrome.png",
+              "time": "2025-07-14T09:13:18Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "mozilla@keithcirkel.co.uk",
+              "bug_id": 1977159,
+              "count": 3,
+              "creation_time": "2025-07-14T15:42:28Z",
+              "creator": "mozilla@keithcirkel.co.uk",
+              "id": 17580692,
+              "is_private": false,
+              "raw_text": "Looks like it's trying to postmessage to the main frame with the URL `https://*.anthropic.com` which Firefox considers an illegal host string. For a reduced example:\n\n```\ndata:text/html,<iframe id=i></iframe><script>i.contentWindow.parent.postMessage('foo', 'http://*.foo.com')</script>\n```\n\nNote that executing this page in Firefox will result in the SyntaxError:\n\n```\nDOMException: An invalid or illegal string was specified\n```\n\nWhile in Chrome we merely get a warning:\n\n```\nFailed to execute 'postMessage' on 'DOMWindow': The target origin provided ('http://%2A.foo.com') does not match the recipient window's origin ('null').\n```\n\nFurther, this seems to be in URL parsing. The JS expression `new URL('http://*.foo.com')` will result in an error in Firefox but not in Chrome.\n\nA quick gloss through the URL spec and I feel as though Chrome is correct here.",
+              "reactions": {},
+              "tags": [],
+              "text": "Looks like it's trying to postmessage to the main frame with the URL `https://*.anthropic.com` which Firefox considers an illegal host string. For a reduced example:\n\n```\ndata:text/html,<iframe id=i></iframe><script>i.contentWindow.parent.postMessage('foo', 'http://*.foo.com')</script>\n```\n\nNote that executing this page in Firefox will result in the SyntaxError:\n\n```\nDOMException: An invalid or illegal string was specified\n```\n\nWhile in Chrome we merely get a warning:\n\n```\nFailed to execute 'postMessage' on 'DOMWindow': The target origin provided ('http://%2A.foo.com') does not match the recipient window's origin ('null').\n```\n\nFurther, this seems to be in URL parsing. The JS expression `new URL('http://*.foo.com')` will result in an error in Firefox but not in Chrome.\n\nA quick gloss through the URL spec and I feel as though Chrome is correct here.",
+              "time": "2025-07-14T15:42:28Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "jboutin@rockdown.net",
+              "bug_id": 1977159,
+              "count": 4,
+              "creation_time": "2025-07-24T05:27:57Z",
+              "creator": "jboutin@rockdown.net",
+              "id": 17594818,
+              "is_private": false,
+              "raw_text": "Do we know if this is going to be worked on/fixed on the Firefox side?",
+              "reactions": {},
+              "tags": [],
+              "text": "Do we know if this is going to be worked on/fixed on the Firefox side?",
+              "time": "2025-07-24T05:27:57Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "echen@mozilla.com",
+              "bug_id": 1977159,
+              "count": 5,
+              "creation_time": "2025-08-01T03:40:20Z",
+              "creator": "echen@mozilla.com",
+              "id": 17607488,
+              "is_private": false,
+              "raw_text": "(Since this is related to bug 1815926, switch `diagnosis-team` to `networking`)",
+              "reactions": {},
+              "tags": [],
+              "text": "(Since this is related to bug 1815926, switch `diagnosis-team` to `networking`)",
+              "time": "2025-08-01T03:40:20Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "jmuizelaar@mozilla.com",
+              "bug_id": 1977159,
+              "count": 6,
+              "creation_time": "2026-05-05T16:25:50Z",
+              "creator": "jmuizelaar@mozilla.com",
+              "id": 18065378,
+              "is_private": false,
+              "raw_text": "jboutin, can you still reproduce this?",
+              "reactions": {},
+              "tags": [],
+              "text": "jboutin, can you still reproduce this?",
+              "time": "2026-05-05T16:25:50Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "release-mgmt-account-bot@mozilla.tld",
+              "bug_id": 1977159,
+              "count": 7,
+              "creation_time": "2026-05-25T12:29:42Z",
+              "creator": "release-mgmt-account-bot@mozilla.tld",
+              "id": 18102798,
+              "is_private": false,
+              "raw_text": "Redirect a needinfo that is pending on an inactive user to the triage owner.\n:skyschub, since the bug has high priority, high severity and recent activity, could you have a look please?\n\nFor more information, please visit [BugBot documentation](https://wiki.mozilla.org/BugBot#inactive_ni_pending.py).",
+              "reactions": {},
+              "tags": [],
+              "text": "Redirect a needinfo that is pending on an inactive user to the triage owner.\n:skyschub, since the bug has high priority, high severity and recent activity, could you have a look please?\n\nFor more information, please visit [BugBot documentation](https://wiki.mozilla.org/BugBot#inactive_ni_pending.py).",
+              "time": "2026-05-25T12:29:42Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "sky@mozilla.com",
+              "bug_id": 1977159,
+              "count": 8,
+              "creation_time": "2026-05-26T15:18:55Z",
+              "creator": "sky@mozilla.com",
+              "id": 18104688,
+              "is_private": false,
+              "raw_text": "The underlying issue seems to be valid and already diagnosed, so I don't think we're blocked on feedback.",
+              "reactions": {},
+              "tags": [],
+              "text": "The underlying issue seems to be valid and already diagnosed, so I don't think we're blocked on feedback.",
+              "time": "2026-05-26T15:18:55Z"
+            }
+          ]
+        }
+      },
+      "comments": {}
+    },
+    "history": {
+      "bugs": [
+        {
+          "alias": null,
+          "history": [
+            {
+              "changes": [
+                {
+                  "added": "dschubert@mozilla.com",
+                  "field_name": "cc",
+                  "removed": ""
+                },
+                {
+                  "added": "@@ -1 +1,7 @@\n-\n+platform:windows,mac,linux,android\r\n+impact:workflow-broken\r\n+configuration:general\r\n+affects:all\r\n+branch:release\r\n+diagnosis-team:dom\r\n+user-impact-score:1600\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                },
+                {
+                  "added": "webcompat:needs-diagnosis, webcompat:needs-login",
+                  "field_name": "keywords",
+                  "removed": ""
+                },
+                {
+                  "added": "P1",
+                  "field_name": "priority",
+                  "removed": "--"
+                },
+                {
+                  "added": "S2",
+                  "field_name": "severity",
+                  "removed": "--"
+                },
+                {
+                  "added": "P1",
+                  "field_name": "cf_webcompat_priority",
+                  "removed": "---"
+                },
+                {
+                  "added": "9",
+                  "field_name": "cf_webcompat_score",
+                  "removed": "---"
+                }
+              ],
+              "when": "2025-07-14T15:21:46Z",
+              "who": "sky@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "mozilla@keithcirkel.co.uk",
+                  "field_name": "cc",
+                  "removed": ""
+                }
+              ],
+              "when": "2025-07-14T15:42:28Z",
+              "who": "mozilla@keithcirkel.co.uk"
+            },
+            {
+              "changes": [
+                {
+                  "added": "1815926",
+                  "field_name": "depends_on",
+                  "removed": ""
+                }
+              ],
+              "when": "2025-07-14T16:01:19Z",
+              "who": "mozilla@keithcirkel.co.uk"
+            },
+            {
+              "changes": [
+                {
+                  "added": "",
+                  "field_name": "keywords",
+                  "removed": "webcompat:needs-diagnosis"
+                },
+                {
+                  "added": "affected",
+                  "field_name": "cf_status_firefox140",
+                  "removed": "---"
+                },
+                {
+                  "added": "affected",
+                  "field_name": "cf_status_firefox141",
+                  "removed": "---"
+                },
+                {
+                  "added": "affected",
+                  "field_name": "cf_status_firefox142",
+                  "removed": "---"
+                }
+              ],
+              "when": "2025-07-14T16:05:49Z",
+              "who": "mozilla@keithcirkel.co.uk"
+            },
+            {
+              "changes": [
+                {
+                  "added": "jboutin@rockdown.net",
+                  "field_name": "cc",
+                  "removed": ""
+                }
+              ],
+              "when": "2025-07-24T05:27:57Z",
+              "who": "jboutin@rockdown.net"
+            },
+            {
+              "changes": [
+                {
+                  "added": "webcompat:platform-bug",
+                  "field_name": "keywords",
+                  "removed": ""
+                },
+                {
+                  "added": "james@hoppipolla.co.uk",
+                  "field_name": "cc",
+                  "removed": ""
+                }
+              ],
+              "when": "2025-07-24T12:35:04Z",
+              "who": "james@hoppipolla.co.uk"
+            },
+            {
+              "changes": [
+                {
+                  "added": "@@ -3,5 +3,5 @@\n configuration:general\r\n affects:all\r\n branch:release\r\n-diagnosis-team:dom\r\n+diagnosis-team:networking\r\n user-impact-score:1600\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                }
+              ],
+              "when": "2025-08-01T03:40:20Z",
+              "who": "echen@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "needinfo?(jboutin@rockdown.net)",
+                  "field_name": "flagtypes.name",
+                  "removed": ""
+                },
+                {
+                  "added": "jmuizelaar@mozilla.com",
+                  "field_name": "cc",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-05-05T16:25:50Z",
+              "who": "jmuizelaar@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "[webcompat-source:web-bugs][webcompat:sightline][webcompat:core]",
+                  "field_name": "whiteboard",
+                  "removed": "[webcompat-source:web-bugs]"
+                }
+              ],
+              "when": "2026-05-07T20:44:57Z",
+              "who": "release-mgmt-account-bot@mozilla.tld"
+            },
+            {
+              "changes": [
+                {
+                  "added": "@@ -1,7 +1,7 @@\n-platform:windows,mac,linux,android\r\n+platform:windows,mac,linux,android\n-impact:workflow-broken\r\n+impact:workflow-broken\n-configuration:general\r\n+configuration:general\n-affects:all\r\n+affects:all\n-branch:release\r\n+branch:release\n-diagnosis-team:networking\r\n+diagnosis-team:networking\n-user-impact-score:1600\n+user- impact-score:2400\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                },
+                {
+                  "added": "10",
+                  "field_name": "cf_webcompat_score",
+                  "removed": "9"
+                }
+              ],
+              "when": "2026-05-13T14:35:17Z",
+              "who": "release-mgmt-account-bot@mozilla.tld"
+            },
+            {
+              "changes": [
+                {
+                  "added": "needinfo?(sky@mozilla.com)",
+                  "field_name": "flagtypes.name",
+                  "removed": "needinfo?(jboutin@rockdown.net)"
+                }
+              ],
+              "when": "2026-05-25T12:29:42Z",
+              "who": "release-mgmt-account-bot@mozilla.tld"
+            },
+            {
+              "changes": [
+                {
+                  "added": "",
+                  "field_name": "flagtypes.name",
+                  "removed": "needinfo?(sky@mozilla.com)"
+                },
+                {
+                  "added": "@@ -1,7 +1,7 @@\n-platform:windows,mac,linux,android\n-impact:workflow-broken\n-configuration:general\n-affects:all\n-branch:release\n-diagnosis-team:networking\n+platform:windows,mac,linux,android\r\n+impact:workflow-broken\r\n+configuration:general\r\n+affects:all\r\n+branch:release\r\n+diagnosis-team:networking\r\n user-impact-score:2400\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-05-26T15:18:55Z",
+              "who": "sky@mozilla.com"
+            }
+          ],
+          "id": 1977159
+        }
+      ]
+    }
+  },
+  "show_bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1977159"
+}

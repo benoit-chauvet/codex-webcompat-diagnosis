@@ -6,7 +6,7 @@
     "comments": "https://bugzilla.mozilla.org/rest/bug/2042795/comment",
     "history": "https://bugzilla.mozilla.org/rest/bug/2042795/history"
   },
-  "fetched_at": "2026-05-28T07:50:56+00:00",
+  "fetched_at": "2026-05-30T14:35:53+00:00",
   "responses": {
     "attachments": {
       "attachments": {},
@@ -83,9 +83,9 @@
           "cf_tracking_firefox_esr115": "---",
           "cf_tracking_firefox_esr140": "---",
           "cf_tracking_firefox_relnote": "---",
-          "cf_user_story": "platform:windows,mac,linux,android\r\nimpact:content-missing\r\nconfiguration:general\r\naffects:all\r\nbranch:release\r\ndiagnosis-team:media\r\nuser-impact-score:450",
-          "cf_webcompat_priority": "P2",
-          "cf_webcompat_score": "6",
+          "cf_user_story": "platform:windows,mac,linux,android\nimpact:content-missing\nconfiguration:general\naffects:all\nbranch:release\ndiagnosis-team:media\nuser-impact-score:900",
+          "cf_webcompat_priority": "P1",
+          "cf_webcompat_score": "8",
           "classification": "Client Software",
           "comment_count": 3,
           "component": "Site Reports",
@@ -112,7 +112,7 @@
             "webcompat:needs-diagnosis",
             "webcompat:site-report"
           ],
-          "last_change_time": "2026-05-27T14:10:17Z",
+          "last_change_time": "2026-05-28T08:07:11Z",
           "mentors": [],
           "mentors_detail": [],
           "op_sys": "Windows",
@@ -274,6 +274,27 @@
               ],
               "when": "2026-05-27T14:09:24Z",
               "who": "kberezina@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "@@ -1,7 +1,7 @@\n-platform:windows,mac,linux,android\r\n+platform:windows,mac,linux,android\n-impact:content-missing\r\n+impact:content-missing\n-configuration:general\r\n+configuration:general\n-affects:all\r\n+affects:all\n-branch:release\r\n+branch:release\n-diagnosis-team:media\r\n+diagnosis-team:media\n-user-impact-score:450\n+user-impact- score:900\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                },
+                {
+                  "added": "P1",
+                  "field_name": "cf_webcompat_priority",
+                  "removed": "P2"
+                },
+                {
+                  "added": "8",
+                  "field_name": "cf_webcompat_score",
+                  "removed": "6"
+                }
+              ],
+              "when": "2026-05-28T08:07:11Z",
+              "who": "release-mgmt-account-bot@mozilla.tld"
             }
           ],
           "id": 2042795

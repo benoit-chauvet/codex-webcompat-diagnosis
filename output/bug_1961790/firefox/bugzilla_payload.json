@@ -1,0 +1,486 @@
+{
+  "bug_id": "1961790",
+  "endpoints": {
+    "attachments": "https://bugzilla.mozilla.org/rest/bug/1961790/attachment?exclude_fields=data",
+    "bug": "https://bugzilla.mozilla.org/rest/bug/1961790",
+    "comments": "https://bugzilla.mozilla.org/rest/bug/1961790/comment",
+    "history": "https://bugzilla.mozilla.org/rest/bug/1961790/history"
+  },
+  "fetched_at": "2026-05-30T14:36:02+00:00",
+  "responses": {
+    "attachments": {
+      "attachments": {},
+      "bugs": {
+        "1961790": [
+          {
+            "attacher": "ctanase@mozilla.com",
+            "bug_id": 1961790,
+            "content_type": "image/png",
+            "creation_time": "2025-04-22T11:59:01Z",
+            "creator": "ctanase@mozilla.com",
+            "creator_detail": {
+              "email": "ctanase@mozilla.com",
+              "id": 707939,
+              "name": "ctanase@mozilla.com",
+              "nick": "ctanase",
+              "real_name": "Calin Tanase"
+            },
+            "description": "Firefox.png",
+            "file_name": "image.png",
+            "flags": [],
+            "id": 9480247,
+            "is_obsolete": 0,
+            "is_patch": 0,
+            "is_private": 0,
+            "last_change_time": "2025-04-22T11:59:01Z",
+            "size": 61250,
+            "summary": "Firefox.png"
+          }
+        ]
+      }
+    },
+    "bug": {
+      "bugs": [
+        {
+          "alias": null,
+          "assigned_to": "nobody@mozilla.org",
+          "assigned_to_detail": {
+            "email": "nobody@mozilla.org",
+            "id": 1,
+            "name": "nobody@mozilla.org",
+            "nick": "nobody",
+            "real_name": "Nobody; OK to take it and work on it"
+          },
+          "blocks": [],
+          "cc": [
+            "apehrson@mozilla.com",
+            "bchauvet@mozilla.com",
+            "peter@peternowee.com",
+            "rjesup@jesup.org",
+            "sky@mozilla.com",
+            "thorin@torproject.org"
+          ],
+          "cc_detail": [
+            {
+              "email": "apehrson@mozilla.com",
+              "id": 489889,
+              "name": "apehrson@mozilla.com",
+              "nick": "pehrsons",
+              "real_name": "Andreas Pehrson [:pehrsons]"
+            },
+            {
+              "email": "bchauvet@mozilla.com",
+              "id": 783163,
+              "name": "bchauvet@mozilla.com",
+              "nick": "bchauvet",
+              "real_name": "Benoit CHAUVET"
+            },
+            {
+              "email": "peter@peternowee.com",
+              "id": 638356,
+              "name": "peter@peternowee.com",
+              "nick": "peter",
+              "real_name": "Peter Nowee"
+            },
+            {
+              "email": "rjesup@jesup.org",
+              "id": 11539,
+              "name": "rjesup@jesup.org",
+              "nick": "jesup",
+              "real_name": "Randell Jesup [:jesup] (needinfo me)"
+            },
+            {
+              "email": "sky@mozilla.com",
+              "id": 421268,
+              "name": "sky@mozilla.com",
+              "nick": "skyschub",
+              "real_name": "Sky Schubert [:skyschub]"
+            },
+            {
+              "email": "thorin@torproject.org",
+              "id": 587136,
+              "name": "thorin@torproject.org",
+              "nick": "thorin",
+              "real_name": "Thorin [:thorin]"
+            }
+          ],
+          "cf_a11y_review_project_flag": "---",
+          "cf_accessibility_severity": "---",
+          "cf_cab_review": "---",
+          "cf_fx_iteration": "---",
+          "cf_fx_points": "---",
+          "cf_last_resolved": null,
+          "cf_performance_impact": "---",
+          "cf_qa_whiteboard": "",
+          "cf_status_firefox151": "---",
+          "cf_status_firefox152": "---",
+          "cf_status_firefox153": "---",
+          "cf_status_firefox_esr115": "---",
+          "cf_status_firefox_esr140": "---",
+          "cf_tracking_firefox151": "---",
+          "cf_tracking_firefox152": "---",
+          "cf_tracking_firefox153": "---",
+          "cf_tracking_firefox_esr115": "---",
+          "cf_tracking_firefox_esr140": "---",
+          "cf_tracking_firefox_relnote": "---",
+          "cf_user_story": "platform:windows,mac,linux,android\r\nimpact:feature-broken\r\nconfiguration:general\r\naffects:all\r\nbranch:release\r\nuser-impact-score:900\r\ndiagnosis-team:ml",
+          "cf_webcompat_priority": "P1",
+          "cf_webcompat_score": "8",
+          "classification": "Client Software",
+          "comment_count": 7,
+          "component": "Site Reports",
+          "creation_time": "2025-04-22T11:56:59Z",
+          "creator": "ctanase@mozilla.com",
+          "creator_detail": {
+            "email": "ctanase@mozilla.com",
+            "id": 707939,
+            "name": "ctanase@mozilla.com",
+            "nick": "ctanase",
+            "real_name": "Calin Tanase"
+          },
+          "depends_on": [
+            1856507
+          ],
+          "dupe_of": null,
+          "duplicates": [],
+          "flags": [],
+          "groups": [],
+          "id": 1961790,
+          "is_cc_accessible": true,
+          "is_confirmed": true,
+          "is_creator_accessible": true,
+          "is_open": true,
+          "keywords": [
+            "webcompat:platform-bug",
+            "webcompat:site-report"
+          ],
+          "last_change_time": "2026-05-21T15:30:59Z",
+          "mentors": [],
+          "mentors_detail": [],
+          "op_sys": "Windows 10",
+          "platform": "Desktop",
+          "priority": "P1",
+          "product": "Web Compatibility",
+          "qa_contact": "",
+          "regressed_by": [],
+          "regressions": [],
+          "resolution": "",
+          "see_also": [
+            "https://github.com/webcompat/web-bugs/issues/152336",
+            "https://github.com/webcompat/web-bugs/issues/68858",
+            "https://bugzilla.mozilla.org/show_bug.cgi?id=1244460",
+            "https://bugzilla.mozilla.org/show_bug.cgi?id=1248897",
+            "https://bugzilla.mozilla.org/show_bug.cgi?id=1409526",
+            "https://bugzilla.mozilla.org/show_bug.cgi?id=1940906"
+          ],
+          "severity": "S2",
+          "status": "NEW",
+          "summary": "translate.google.com - Voice input  is not supported",
+          "target_milestone": "---",
+          "type": "defect",
+          "url": "https://translate.google.com/",
+          "version": "unspecified",
+          "votes": 0,
+          "whiteboard": "[webcompat-source:web-bugs][webcompat:sightline][webcompat:core]"
+        }
+      ],
+      "faults": []
+    },
+    "comments": {
+      "bugs": {
+        "1961790": {
+          "comments": [
+            {
+              "attachment_id": null,
+              "author": "ctanase@mozilla.com",
+              "bug_id": 1961790,
+              "count": 0,
+              "creation_time": "2025-04-22T11:56:59Z",
+              "creator": "ctanase@mozilla.com",
+              "id": 17454322,
+              "is_private": false,
+              "raw_text": "**Environment:**\nOperating system: Windows 10\nFirefox version: Firefox 137/139\n\n**Steps to reproduce:**\n1. Go to https://translate.google.com/\n2. Select english as source language.\n3. Click on the microphone button.\n\n**Expected Behavior:**\nVoice input can be used.\n\n**Actual Behavior:**\nVoice input cannot be used, unsupported.\n\n**Notes:**\n- Reproduces regardless of the status of ETP\n- Reproduces in firefox-nightly, and firefox-release\n- Does not reproduce in chrome\n\nCreated from https://github.com/webcompat/web-bugs/issues/152336",
+              "reactions": {},
+              "tags": [],
+              "text": "**Environment:**\nOperating system: Windows 10\nFirefox version: Firefox 137/139\n\n**Steps to reproduce:**\n1. Go to https://translate.google.com/\n2. Select english as source language.\n3. Click on the microphone button.\n\n**Expected Behavior:**\nVoice input can be used.\n\n**Actual Behavior:**\nVoice input cannot be used, unsupported.\n\n**Notes:**\n- Reproduces regardless of the status of ETP\n- Reproduces in firefox-nightly, and firefox-release\n- Does not reproduce in chrome\n\nCreated from https://github.com/webcompat/web-bugs/issues/152336",
+              "time": "2025-04-22T11:56:59Z"
+            },
+            {
+              "attachment_id": 9480247,
+              "author": "ctanase@mozilla.com",
+              "bug_id": 1961790,
+              "count": 1,
+              "creation_time": "2025-04-22T11:59:01Z",
+              "creator": "ctanase@mozilla.com",
+              "id": 17454324,
+              "is_private": false,
+              "raw_text": "",
+              "reactions": {},
+              "tags": [],
+              "text": "Created attachment 9480247\nFirefox.png",
+              "time": "2025-04-22T11:59:01Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "apehrson@mozilla.com",
+              "bug_id": 1961790,
+              "count": 2,
+              "creation_time": "2025-04-22T12:59:14Z",
+              "creator": "apehrson@mozilla.com",
+              "id": 17454443,
+              "is_private": false,
+              "raw_text": "Note that google translate's voice input only uses `webkitSpeechRecognition`.",
+              "reactions": {},
+              "tags": [],
+              "text": "Note that google translate's voice input only uses `webkitSpeechRecognition`.",
+              "time": "2025-04-22T12:59:14Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "rjesup@jesup.org",
+              "bug_id": 1961790,
+              "count": 3,
+              "creation_time": "2025-05-04T22:16:47Z",
+              "creator": "rjesup@jesup.org",
+              "id": 17472186,
+              "is_private": false,
+              "raw_text": "Jim - what's the current status/plans for WebSpeech?",
+              "reactions": {},
+              "tags": [],
+              "text": "Jim - what's the current status/plans for WebSpeech?",
+              "time": "2025-05-04T22:16:47Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "jmathies@mozilla.com",
+              "bug_id": 1961790,
+              "count": 4,
+              "creation_time": "2025-05-20T17:21:20Z",
+              "creator": "jmathies@mozilla.com",
+              "id": 17500711,
+              "is_private": false,
+              "raw_text": "A high priority for this bug should really only apply to mobile, IMHO. Desktop speech input for search is pretty corner case.",
+              "reactions": {},
+              "tags": [],
+              "text": "A high priority for this bug should really only apply to mobile, IMHO. Desktop speech input for search is pretty corner case.",
+              "time": "2025-05-20T17:21:20Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "sky@mozilla.com",
+              "bug_id": 1961790,
+              "count": 5,
+              "creation_time": "2025-05-27T13:44:24Z",
+              "creator": "sky@mozilla.com",
+              "id": 17510728,
+              "is_private": false,
+              "raw_text": "(In reply to Jim Mathies [:jimm] from comment #4)\n> Desktop speech input for search is pretty corner case.\n\nI'd disagree with that. Both Android and iOS do have system-native voice inputs as part of their keyboard interfaces, so users actually do have a way to use voice input on mobile already. That's not true generally true on Desktop. This also is somewhat confirmed that the vast majority of user reports we get complaining about missing speech inputs are coming from Desktop users, not from Mobile users. So if anything, these issues are probably *more significant* on Desktop.\n\nI had a look at the other WebSpeech reports, and they seem to all be triaged as `feature-broken`, which seems fair. It's not a broken workflow in any of the apps, but it's evidently important enough that we get quite a few user reports. It's also possibly an accessibility issue, but we don't really take that into our prioritization considerations at the moment.",
+              "reactions": {},
+              "tags": [],
+              "text": "(In reply to Jim Mathies [:jimm] from comment #4)\n> Desktop speech input for search is pretty corner case.\n\nI'd disagree with that. Both Android and iOS do have system-native voice inputs as part of their keyboard interfaces, so users actually do have a way to use voice input on mobile already. That's not true generally true on Desktop. This also is somewhat confirmed that the vast majority of user reports we get complaining about missing speech inputs are coming from Desktop users, not from Mobile users. So if anything, these issues are probably *more significant* on Desktop.\n\nI had a look at the other WebSpeech reports, and they seem to all be triaged as `feature-broken`, which seems fair. It's not a broken workflow in any of the apps, but it's evidently important enough that we get quite a few user reports. It's also possibly an accessibility issue, but we don't really take that into our prioritization considerations at the moment.",
+              "time": "2025-05-27T13:44:24Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "ttz2ubch8@mozmail.com",
+              "bug_id": 1961790,
+              "count": 6,
+              "creation_time": "2025-06-03T22:17:51Z",
+              "creator": "ttz2ubch8@mozmail.com",
+              "id": 17522153,
+              "is_private": false,
+              "raw_text": "Workaround for Windows users: [Use voice typing on your PC](https://support.microsoft.com/windows/use-voice-typing-to-talk-instead-of-type-on-your-pc-fec94565-c4bd-329d-e59a-af033fa5689f).",
+              "reactions": {},
+              "tags": [],
+              "text": "Workaround for Windows users: [Use voice typing on your PC](https://support.microsoft.com/windows/use-voice-typing-to-talk-instead-of-type-on-your-pc-fec94565-c4bd-329d-e59a-af033fa5689f).",
+              "time": "2025-06-03T22:17:51Z"
+            }
+          ]
+        }
+      },
+      "comments": {}
+    },
+    "history": {
+      "bugs": [
+        {
+          "alias": null,
+          "history": [
+            {
+              "changes": [
+                {
+                  "added": "https://github.com/webcompat/web-bugs/issues/68858, https://bugzilla.mozilla.org/show_bug.cgi?id=1244460, https://bugzilla.mozilla.org/show_bug.cgi?id=1248897",
+                  "field_name": "see_also",
+                  "removed": ""
+                }
+              ],
+              "when": "2025-04-22T11:57:29Z",
+              "who": "ctanase@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "[webcompat-source:web-bugs][webcompat:sightline]",
+                  "field_name": "whiteboard",
+                  "removed": "[webcompat-source:web-bugs]"
+                }
+              ],
+              "when": "2025-04-22T12:43:10Z",
+              "who": "release-mgmt-account-bot@mozilla.tld"
+            },
+            {
+              "changes": [
+                {
+                  "added": "https://bugzilla.mozilla.org/show_bug.cgi?id=1409526",
+                  "field_name": "see_also",
+                  "removed": ""
+                },
+                {
+                  "added": "apehrson@mozilla.com",
+                  "field_name": "cc",
+                  "removed": ""
+                }
+              ],
+              "when": "2025-04-22T12:59:14Z",
+              "who": "apehrson@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "thorin@torproject.org",
+                  "field_name": "cc",
+                  "removed": ""
+                }
+              ],
+              "when": "2025-04-22T18:10:12Z",
+              "who": "thorin@torproject.org"
+            },
+            {
+              "changes": [
+                {
+                  "added": "@@ -1 +1,6 @@\n-\n+platform:windows,mac,linux,android\r\n+impact:feature-broken\r\n+configuration:general\r\n+affects:all\r\n+branch:release\r\n+user-impact-score:900\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                },
+                {
+                  "added": "1856507",
+                  "field_name": "depends_on",
+                  "removed": ""
+                },
+                {
+                  "added": "S2",
+                  "field_name": "severity",
+                  "removed": "--"
+                },
+                {
+                  "added": "webcompat:platform-bug",
+                  "field_name": "keywords",
+                  "removed": ""
+                },
+                {
+                  "added": "dschubert@mozilla.com",
+                  "field_name": "cc",
+                  "removed": ""
+                },
+                {
+                  "added": "P1",
+                  "field_name": "priority",
+                  "removed": "--"
+                },
+                {
+                  "added": "8",
+                  "field_name": "cf_webcompat_score",
+                  "removed": "---"
+                },
+                {
+                  "added": "P1",
+                  "field_name": "cf_webcompat_priority",
+                  "removed": "---"
+                }
+              ],
+              "when": "2025-04-23T14:10:54Z",
+              "who": "sky@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "rjesup@jesup.org",
+                  "field_name": "cc",
+                  "removed": ""
+                },
+                {
+                  "added": "needinfo?(jmathies@mozilla.com)",
+                  "field_name": "flagtypes.name",
+                  "removed": ""
+                }
+              ],
+              "when": "2025-05-04T22:16:47Z",
+              "who": "rjesup@jesup.org"
+            },
+            {
+              "changes": [
+                {
+                  "added": "https://bugzilla.mozilla.org/show_bug.cgi?id=1940906",
+                  "field_name": "see_also",
+                  "removed": ""
+                }
+              ],
+              "when": "2025-05-18T15:18:20Z",
+              "who": "rjesup@jesup.org"
+            },
+            {
+              "changes": [
+                {
+                  "added": "",
+                  "field_name": "flagtypes.name",
+                  "removed": "needinfo?(jmathies@mozilla.com)"
+                }
+              ],
+              "when": "2025-05-20T17:21:20Z",
+              "who": "jmathies@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "[webcompat-source:web-bugs][webcompat:sightline][webcompat:core]",
+                  "field_name": "whiteboard",
+                  "removed": "[webcompat-source:web-bugs][webcompat:sightline]"
+                }
+              ],
+              "when": "2026-03-02T15:51:17Z",
+              "who": "release-mgmt-account-bot@mozilla.tld"
+            },
+            {
+              "changes": [
+                {
+                  "added": "peter@peternowee.com",
+                  "field_name": "cc",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-05-01T16:33:15Z",
+              "who": "peter@peternowee.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "@@ -3,4 +3,5 @@\n configuration:general\r\n affects:all\r\n branch:release\r\n-user-impact-score:900\n+user-impact-score:900\r\n+diagnosis-team:ml\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                },
+                {
+                  "added": "bchauvet@mozilla.com",
+                  "field_name": "cc",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-05-21T15:30:59Z",
+              "who": "bchauvet@mozilla.com"
+            }
+          ],
+          "id": 1961790
+        }
+      ]
+    }
+  },
+  "show_bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1961790"
+}

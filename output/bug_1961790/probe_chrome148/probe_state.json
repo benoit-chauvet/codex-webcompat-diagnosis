@@ -1,0 +1,67 @@
+{
+  "task": "translateMic",
+  "browser": "chrome",
+  "executablePath": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+  "requestedUrl": "https://translate.google.com/",
+  "finalUrl": "https://consent.google.com/m?continue=https://translate.google.com/&gl=FR&m=0&pc=t&cm=2&hl=en-US&src=1",
+  "httpStatus": 200,
+  "navigationError": null,
+  "viewport": {
+    "width": 1280,
+    "height": 900
+  },
+  "events": {
+    "console": [
+      {
+        "type": "log",
+        "text": "%c%s color: red; background: yellow; font-size: 24px; WARNING!"
+      },
+      {
+        "type": "log",
+        "text": "%c%s font-size: 18px; Using this console may allow attackers to impersonate you and steal your information using an attack called Self-XSS.\nDo not enter or paste code that you do not understand."
+      }
+    ],
+    "pageErrors": [],
+    "requestFailures": []
+  },
+  "page": {
+    "url": "https://consent.google.com/m?continue=https://translate.google.com/&gl=FR&m=0&pc=t&cm=2&hl=en-US&src=1",
+    "title": "Before you continue",
+    "readyState": "complete",
+    "scrollX": 0,
+    "scrollY": 0,
+    "viewport": {
+      "innerWidth": 1280,
+      "innerHeight": 900,
+      "devicePixelRatio": 1
+    },
+    "documentElement": {
+      "clientWidth": 1280,
+      "clientHeight": 900,
+      "scrollWidth": 1280,
+      "scrollHeight": 1162
+    },
+    "bodyTextSample": "EN\nSign in\nBefore you continue to Google\n\nWe use cookies and data to\n\nDeliver and maintain Google services\nTrack outages and protect against spam, fraud, and abuse\nMeasure audience engagement and site statistics to understand how our services are used and enhance the quality of those services\n\nIf you choose to “Accept all,” we will also use cookies and data to\n\nDevelop and improve new services\nDeliver and measure the effectiveness of ads\nShow personalized content, depending on your settings\nShow personalized ads, depending on your settings\n\nIf you choose to “Reject all,” we will not use cookies for these additional purposes.\n\nNon-personalized content is influenced by things like the content you’re currently viewing, activity in your active Search session, and your location. Non-personalized ads are influenced by the content you’re currently viewing and your general location. Personalized content and ads can also include more relevant results, recommendations, and tailored ads based on past activity from this browser, like previous Google searches. We also use cookies and data to tailor the experience to be age-appropriate, if relevant.\n\nSelect “More options” to see additional information, including details about managing your privacy settings. You can also visit g.co/privacytools at any time.\n\nReject all\nAccept all\nMore options\nPrivacy Policy\nTerms of Service"
+  },
+  "taskResult": {
+    "screenshots": {
+      "before": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_1961790/probe_chrome148/translate_before_mic.png",
+      "after": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_1961790/probe_chrome148/translate_after_mic.png"
+    },
+    "support": {
+      "speechRecognition": true,
+      "webkitSpeechRecognition": true,
+      "mediaDevices": true,
+      "getUserMedia": true,
+      "permissions": true
+    },
+    "click": {
+      "clicked": false,
+      "candidates": []
+    },
+    "after": {
+      "bodyTextSample": "EN\nSign in\nBefore you continue to Google\n\nWe use cookies and data to\n\nDeliver and maintain Google services\nTrack outages and protect against spam, fraud, and abuse\nMeasure audience engagement and site statistics to understand how our services are used and enhance the quality of those services\n\nIf you choose to “Accept all,” we will also use cookies and data to\n\nDevelop and improve new services\nDeliver and measure the effectiveness of ads\nShow personalized content, depending on your settings\nShow personalized ads, depending on your settings\n\nIf you choose to “Reject all,” we will not use cookies for these additional purposes.\n\nNon-personalized content is influenced by things like the content you’re currently viewing, activity in your active Search session, and your location. Non-personalized ads are influenced by the content you’re currently viewing and your general location. Personalized content and ads can also include more relevant results, recommendations, and tailored ads based on past activity from this browser, like previous Google searches. We also use cookies and data to tailor the experience to be age-appropriate, if relevant.\n\nSelect “More options” to see additional information, including details about managing your privacy settings. You can also visit g.co/privacytools at any time.\n\nReject all\nAccept all\nMore options\nPrivacy Policy\nTerms of Service",
+      "dialogs": []
+    }
+  }
+}

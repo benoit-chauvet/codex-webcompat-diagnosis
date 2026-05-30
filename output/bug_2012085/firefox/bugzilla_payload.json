@@ -1,0 +1,1020 @@
+{
+  "bug_id": "2012085",
+  "endpoints": {
+    "attachments": "https://bugzilla.mozilla.org/rest/bug/2012085/attachment?exclude_fields=data",
+    "bug": "https://bugzilla.mozilla.org/rest/bug/2012085",
+    "comments": "https://bugzilla.mozilla.org/rest/bug/2012085/comment",
+    "history": "https://bugzilla.mozilla.org/rest/bug/2012085/history"
+  },
+  "fetched_at": "2026-05-30T14:35:44+00:00",
+  "responses": {
+    "attachments": {
+      "attachments": {},
+      "bugs": {
+        "2012085": []
+      }
+    },
+    "bug": {
+      "bugs": [
+        {
+          "alias": null,
+          "assigned_to": "nobody@mozilla.org",
+          "assigned_to_detail": {
+            "email": "nobody@mozilla.org",
+            "id": 1,
+            "name": "nobody@mozilla.org",
+            "nick": "nobody",
+            "real_name": "Nobody; OK to take it and work on it"
+          },
+          "blocks": [],
+          "cc": [
+            "bobowencode@gmail.com",
+            "denyshon@outlook.com",
+            "epopescu@mozilla.com",
+            "htsai@mozilla.com",
+            "james@hoppipolla.co.uk",
+            "jmuizelaar@mozilla.com",
+            "jwalker@mozilla.com",
+            "krosylight@mozilla.com",
+            "mak@mozilla.com",
+            "mozilla@keithcirkel.co.uk",
+            "sky@mozilla.com",
+            "slloyd@mozilla.com"
+          ],
+          "cc_detail": [
+            {
+              "email": "bobowencode@gmail.com",
+              "id": 458623,
+              "name": "bobowencode@gmail.com",
+              "nick": "bobowen",
+              "real_name": "Bob Owen (:bobowen)"
+            },
+            {
+              "email": "denyshon@outlook.com",
+              "id": 695774,
+              "name": "denyshon@outlook.com",
+              "nick": "denyshon",
+              "real_name": "Denys [:denyshon]"
+            },
+            {
+              "email": "epopescu@mozilla.com",
+              "id": 704256,
+              "name": "epopescu@mozilla.com",
+              "nick": "epopescu",
+              "real_name": "Ina Popescu, Desktop QA"
+            },
+            {
+              "email": "htsai@mozilla.com",
+              "id": 434964,
+              "name": "htsai@mozilla.com",
+              "nick": "hsinyi",
+              "real_name": "Hsin-Yi Tsai  (she/her)[:hsinyi]"
+            },
+            {
+              "email": "james@hoppipolla.co.uk",
+              "id": 389650,
+              "name": "james@hoppipolla.co.uk",
+              "nick": "jgraham",
+              "real_name": "James Graham [:jgraham]"
+            },
+            {
+              "email": "jmuizelaar@mozilla.com",
+              "id": 309398,
+              "name": "jmuizelaar@mozilla.com",
+              "nick": "jrmuizel",
+              "real_name": "Jeff Muizelaar [:jrmuizel]"
+            },
+            {
+              "email": "jwalker@mozilla.com",
+              "id": 337891,
+              "name": "jwalker@mozilla.com",
+              "nick": "jwalker",
+              "real_name": "Joe Walker [:jwalker]"
+            },
+            {
+              "email": "krosylight@mozilla.com",
+              "id": 473060,
+              "name": "krosylight@mozilla.com",
+              "nick": "saschanaz",
+              "real_name": "Kagami Rosylight [:saschanaz] (they/them)"
+            },
+            {
+              "email": "mak@mozilla.com",
+              "id": 240353,
+              "name": "mak@mozilla.com",
+              "nick": "mak",
+              "real_name": "Marco Bonardo [:mak]"
+            },
+            {
+              "email": "mozilla@keithcirkel.co.uk",
+              "id": 607606,
+              "name": "mozilla@keithcirkel.co.uk",
+              "nick": "keithamus",
+              "real_name": "Keith Cirkel [:keithamus]"
+            },
+            {
+              "email": "sky@mozilla.com",
+              "id": 421268,
+              "name": "sky@mozilla.com",
+              "nick": "skyschub",
+              "real_name": "Sky Schubert [:skyschub]"
+            },
+            {
+              "email": "slloyd@mozilla.com",
+              "id": 779682,
+              "name": "slloyd@mozilla.com",
+              "nick": "slloyd",
+              "real_name": "Sam Lloyd [:slloyd]"
+            }
+          ],
+          "cf_a11y_review_project_flag": "---",
+          "cf_accessibility_severity": "---",
+          "cf_cab_review": "---",
+          "cf_fx_iteration": "---",
+          "cf_fx_points": "---",
+          "cf_last_resolved": null,
+          "cf_performance_impact": "---",
+          "cf_qa_whiteboard": "qa\u2011not\u2011actionable",
+          "cf_status_firefox151": "---",
+          "cf_status_firefox152": "---",
+          "cf_status_firefox153": "---",
+          "cf_status_firefox_esr115": "---",
+          "cf_status_firefox_esr140": "---",
+          "cf_tracking_firefox151": "---",
+          "cf_tracking_firefox152": "---",
+          "cf_tracking_firefox153": "---",
+          "cf_tracking_firefox_esr115": "---",
+          "cf_tracking_firefox_esr140": "---",
+          "cf_tracking_firefox_relnote": "---",
+          "cf_user_story": "platform:windows,mac,linux,android\r\nimpact:workflow-broken\r\nconfiguration:general\r\naffects:all\r\nbranch:release\r\ndiagnosis-team:dom\r\nuser-impact-score:1600\r\noutreach-contact-date:2026-03-31\r\noutreach-assignee:hsinyi",
+          "cf_webcompat_priority": "P1",
+          "cf_webcompat_score": "9",
+          "classification": "Client Software",
+          "comment_count": 26,
+          "component": "Site Reports",
+          "creation_time": "2026-01-23T10:46:54Z",
+          "creator": "c.r.allen@btinternet.com",
+          "creator_detail": {
+            "email": "c.r.allen@btinternet.com",
+            "id": 784120,
+            "name": "c.r.allen@btinternet.com",
+            "nick": "c.r.allen",
+            "real_name": "Colin"
+          },
+          "depends_on": [],
+          "dupe_of": null,
+          "duplicates": [],
+          "flags": [],
+          "groups": [],
+          "id": 2012085,
+          "is_cc_accessible": true,
+          "is_confirmed": true,
+          "is_creator_accessible": true,
+          "is_open": true,
+          "keywords": [
+            "webcompat:contact-in-progress",
+            "webcompat:needs-login",
+            "webcompat:site-report"
+          ],
+          "last_change_time": "2026-04-30T10:29:52Z",
+          "mentors": [],
+          "mentors_detail": [],
+          "op_sys": "Unspecified",
+          "platform": "Unspecified",
+          "priority": "P1",
+          "product": "Web Compatibility",
+          "qa_contact": "",
+          "regressed_by": [],
+          "regressions": [],
+          "resolution": "",
+          "see_also": [],
+          "severity": "S2",
+          "status": "NEW",
+          "summary": "Firefox fails to select email addresses in BT email",
+          "target_milestone": "---",
+          "type": "defect",
+          "url": "https://email.bt.com/mail/index-rui.jsp?v=MX_3.11.0.7",
+          "version": "Firefox 147",
+          "votes": 0,
+          "whiteboard": "[webcompat:core]"
+        }
+      ],
+      "faults": []
+    },
+    "comments": {
+      "bugs": {
+        "2012085": {
+          "comments": [
+            {
+              "attachment_id": null,
+              "author": "c.r.allen@btinternet.com",
+              "bug_id": 2012085,
+              "count": 0,
+              "creation_time": "2026-01-23T10:46:54Z",
+              "creator": "c.r.allen@btinternet.com",
+              "id": 17855932,
+              "is_private": false,
+              "raw_text": "User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0\n\nSteps to reproduce:\n\n* Write an email (doesn't even need to be forward)\n* Begin typing in the \"To:\" field, autocomplete options appear\n* Select an autocomplete option (mouse or cursor)\n\nActual results:\n\n* The autocomplete prefix is used as the email address rather than the selected email, obviously, as this is not a valid email address it appears with a red border.\n\nExpected results:\n\n* The selected email address is used as the \"To:\" address.\n\nThis makes BT email basically unusable from Firefox.",
+              "reactions": {},
+              "tags": [],
+              "text": "User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0\n\nSteps to reproduce:\n\n* Write an email (doesn't even need to be forward)\n* Begin typing in the \"To:\" field, autocomplete options appear\n* Select an autocomplete option (mouse or cursor)\n\nActual results:\n\n* The autocomplete prefix is used as the email address rather than the selected email, obviously, as this is not a valid email address it appears with a red border.\n\nExpected results:\n\n* The selected email address is used as the \"To:\" address.\n\nThis makes BT email basically unusable from Firefox.",
+              "time": "2026-01-23T10:46:54Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "release-mgmt-account-bot@mozilla.tld",
+              "bug_id": 2012085,
+              "count": 1,
+              "creation_time": "2026-01-23T11:42:22Z",
+              "creator": "release-mgmt-account-bot@mozilla.tld",
+              "id": 17855982,
+              "is_private": false,
+              "raw_text": "The [Bugbug](https://github.com/mozilla/bugbug/) bot thinks this bug should belong to the 'Firefox::Address Bar' component, and is moving the bug to that component. Please correct in case you think the bot is wrong.",
+              "reactions": {},
+              "tags": [],
+              "text": "The [Bugbug](https://github.com/mozilla/bugbug/) bot thinks this bug should belong to the 'Firefox::Address Bar' component, and is moving the bug to that component. Please correct in case you think the bot is wrong.",
+              "time": "2026-01-23T11:42:22Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "mak@mozilla.com",
+              "bug_id": 2012085,
+              "count": 2,
+              "creation_time": "2026-01-26T16:46:20Z",
+              "creator": "mak@mozilla.com",
+              "id": 17860125,
+              "is_private": false,
+              "raw_text": "Is this bug related to Thunderbird client, or are you using a Web Mail client?\nCould you please tell us more about that, or attach a screenshot after removing any personal or identifyable information from it?",
+              "reactions": {},
+              "tags": [],
+              "text": "Is this bug related to Thunderbird client, or are you using a Web Mail client?\nCould you please tell us more about that, or attach a screenshot after removing any personal or identifyable information from it?",
+              "time": "2026-01-26T16:46:20Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "mak@mozilla.com",
+              "bug_id": 2012085,
+              "count": 3,
+              "creation_time": "2026-01-26T23:40:10Z",
+              "creator": "mak@mozilla.com",
+              "id": 17860747,
+              "is_private": false,
+              "raw_text": "From the screenshot you send me privately, I think this is a Web Mail client, that you upen in Firefox. In the screenshot I only see the client.\n\nIf you look up in Firefox Address Bar, can you tell us which domain (e.g. somemail.com) you see?",
+              "reactions": {},
+              "tags": [],
+              "text": "From the screenshot you send me privately, I think this is a Web Mail client, that you upen in Firefox. In the screenshot I only see the client.\n\nIf you look up in Firefox Address Bar, can you tell us which domain (e.g. somemail.com) you see?",
+              "time": "2026-01-26T23:40:10Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "mak@mozilla.com",
+              "bug_id": 2012085,
+              "count": 4,
+              "creation_time": "2026-01-28T08:36:01Z",
+              "creator": "mak@mozilla.com",
+              "id": 17862821,
+              "is_private": false,
+              "raw_text": "Thank you. Based on information exchanged through mail this seems to be a Web compatibility issue with [BT email web client](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://email.bt.com/mail&ved=2ahUKEwj1-qLn6a2SAxU_87sIHcmeG6UQFnoECA4QAQ&usg=AOvVaw0vm6-sR3ZpP9vULzxWe8C7)",
+              "reactions": {},
+              "tags": [],
+              "text": "Thank you. Based on information exchanged through mail this seems to be a Web compatibility issue with [BT email web client](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://email.bt.com/mail&ved=2ahUKEwj1-qLn6a2SAxU_87sIHcmeG6UQFnoECA4QAQ&usg=AOvVaw0vm6-sR3ZpP9vULzxWe8C7)",
+              "time": "2026-01-28T08:36:01Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "krosylight@mozilla.com",
+              "bug_id": 2012085,
+              "count": 5,
+              "creation_time": "2026-01-29T18:32:04Z",
+              "creator": "krosylight@mozilla.com",
+              "id": 17865644,
+              "is_private": false,
+              "raw_text": "Where is the sign up page? I only see the sign in page and it doesn't give me any way to sign up. From bt.com I guess this needs some telecom contract to access?",
+              "reactions": {},
+              "tags": [],
+              "text": "Where is the sign up page? I only see the sign in page and it doesn't give me any way to sign up. From bt.com I guess this needs some telecom contract to access?",
+              "time": "2026-01-29T18:32:04Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "krosylight@mozilla.com",
+              "bug_id": 2012085,
+              "count": 6,
+              "creation_time": "2026-02-02T16:10:35Z",
+              "creator": "krosylight@mozilla.com",
+              "id": 17871457,
+              "is_private": false,
+              "raw_text": "The reporter tried to send me a way to access the service, but it sadly didn't work out. Marking it as stalled until someone can get the access.",
+              "reactions": {},
+              "tags": [],
+              "text": "The reporter tried to send me a way to access the service, but it sadly didn't work out. Marking it as stalled until someone can get the access.",
+              "time": "2026-02-02T16:10:35Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "jmuizelaar@mozilla.com",
+              "bug_id": 2012085,
+              "count": 7,
+              "creation_time": "2026-02-09T15:35:39Z",
+              "creator": "jmuizelaar@mozilla.com",
+              "id": 17883228,
+              "is_private": false,
+              "raw_text": "James, are you able to find a person that might have bt.com account?",
+              "reactions": {},
+              "tags": [],
+              "text": "James, are you able to find a person that might have bt.com account?",
+              "time": "2026-02-09T15:35:39Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "james@hoppipolla.co.uk",
+              "bug_id": 2012085,
+              "count": 8,
+              "creation_time": "2026-02-09T16:30:02Z",
+              "creator": "james@hoppipolla.co.uk",
+              "id": 17883314,
+              "is_private": false,
+              "raw_text": "jwalker had a contact who had an account, but otherwise I haven't found anyone with an account.",
+              "reactions": {},
+              "tags": [],
+              "text": "jwalker had a contact who had an account, but otherwise I haven't found anyone with an account.",
+              "time": "2026-02-09T16:30:02Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "epopescu@mozilla.com",
+              "bug_id": 2012085,
+              "count": 9,
+              "creation_time": "2026-02-10T13:33:06Z",
+              "creator": "epopescu@mozilla.com",
+              "id": 17884994,
+              "is_private": false,
+              "raw_text": "Marking this as qa\u2011not\u2011actionable because it can not be reproduced without a BT email account.",
+              "reactions": {},
+              "tags": [],
+              "text": "Marking this as qa\u2011not\u2011actionable because it can not be reproduced without a BT email account.",
+              "time": "2026-02-10T13:33:06Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "krosylight@mozilla.com",
+              "bug_id": 2012085,
+              "count": 10,
+              "creation_time": "2026-02-10T14:19:20Z",
+              "creator": "krosylight@mozilla.com",
+              "id": 17885090,
+              "is_private": false,
+              "raw_text": "https://www.bt.com/help/email/manage-email-account/account-set-up/how-do-i-create-and-activate-a-new-bt-email-address-\n\n> If you do not already have a BT Email address, you\u2019ll no longer be able to create one; this option was withdrawn on 26 October 2022.\n\nErr. But then it continues:\n\n> How to create and gift a new email address to a new user (new affiliate account)\n\nHeh. Hi Colin, is this something you can try?",
+              "reactions": {},
+              "tags": [],
+              "text": "https://www.bt.com/help/email/manage-email-account/account-set-up/how-do-i-create-and-activate-a-new-bt-email-address-\n\n> If you do not already have a BT Email address, you\u2019ll no longer be able to create one; this option was withdrawn on 26 October 2022.\n\nErr. But then it continues:\n\n> How to create and gift a new email address to a new user (new affiliate account)\n\nHeh. Hi Colin, is this something you can try?",
+              "time": "2026-02-10T14:19:20Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "krosylight@mozilla.com",
+              "bug_id": 2012085,
+              "count": 11,
+              "creation_time": "2026-02-10T14:21:02Z",
+              "creator": "krosylight@mozilla.com",
+              "id": 17885096,
+              "is_private": false,
+              "raw_text": "Err, forget it, you'll still need a BT ID that requires a bill: https://my.bt.com/s/apps/appsselfserve/index.html#/createbtid\n\n> You'll find your BT account number on any bill that we've sent you.\n\nHah, no.",
+              "reactions": {},
+              "tags": [],
+              "text": "Err, forget it, you'll still need a BT ID that requires a bill: https://my.bt.com/s/apps/appsselfserve/index.html#/createbtid\n\n> You'll find your BT account number on any bill that we've sent you.\n\nHah, no.",
+              "time": "2026-02-10T14:21:02Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "jwalker@mozilla.com",
+              "bug_id": 2012085,
+              "count": 12,
+              "creation_time": "2026-02-15T14:53:05Z",
+              "creator": "jwalker@mozilla.com",
+              "id": 17893029,
+              "is_private": false,
+              "raw_text": "I've been able to repro this.\nNo errors in the web console, some blocked connections in network monitor, but nothing obvious.\n\nSteps to reproduce:\n\n1. Write an email (doesn't even need to be forward)\n2. Begin typing in the \"To:\" field, autocomplete options appear\n3. Select an autocomplete option (mouse or cursor)\n\nActual results:\n\nThe autocomplete prefix is used as the email address rather than the selected email, obviously, as this is not a valid email address it appears with a red border.\n\nExpected results:\n\nThe selected email address is used as the \"To:\" address.\n\nThis makes BT email basically unusable from Firefox. It seems from https://www.bt.com/help/email/manage-email-account/account-set-up/how-do-i-create-and-activate-a-new-bt-email-address- that I/we can't sign up for a new address, but maybe I could persuade my contact to give me an affiliate account (see the link)?",
+              "reactions": {},
+              "tags": [],
+              "text": "I've been able to repro this.\nNo errors in the web console, some blocked connections in network monitor, but nothing obvious.\n\nSteps to reproduce:\n\n1. Write an email (doesn't even need to be forward)\n2. Begin typing in the \"To:\" field, autocomplete options appear\n3. Select an autocomplete option (mouse or cursor)\n\nActual results:\n\nThe autocomplete prefix is used as the email address rather than the selected email, obviously, as this is not a valid email address it appears with a red border.\n\nExpected results:\n\nThe selected email address is used as the \"To:\" address.\n\nThis makes BT email basically unusable from Firefox. It seems from https://www.bt.com/help/email/manage-email-account/account-set-up/how-do-i-create-and-activate-a-new-bt-email-address- that I/we can't sign up for a new address, but maybe I could persuade my contact to give me an affiliate account (see the link)?",
+              "time": "2026-02-15T14:53:05Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "krosylight@mozilla.com",
+              "bug_id": 2012085,
+              "count": 13,
+              "creation_time": "2026-02-15T15:12:44Z",
+              "creator": "krosylight@mozilla.com",
+              "id": 17893034,
+              "is_private": false,
+              "raw_text": "(see comment #11 about that)",
+              "reactions": {},
+              "tags": [],
+              "text": "(see comment #11 about that)",
+              "time": "2026-02-15T15:12:44Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "jwalker@mozilla.com",
+              "bug_id": 2012085,
+              "count": 14,
+              "creation_time": "2026-02-15T17:33:46Z",
+              "creator": "jwalker@mozilla.com",
+              "id": 17893110,
+              "is_private": false,
+              "raw_text": "(In reply to Kagami Rosylight [:saschanaz] (they/them) from comment #13)\n> (see comment #11 about that)\n\nI think the idea of an affiliate account is/was - One person in the household sets up the broadband account, but others in the household still want an email address, so they get an affiliate account. In this case the BT ID would be that of the person that invited me? Maybe? I think it's worth a go.",
+              "reactions": {},
+              "tags": [],
+              "text": "(In reply to Kagami Rosylight [:saschanaz] (they/them) from comment #13)\n> (see comment #11 about that)\n\nI think the idea of an affiliate account is/was - One person in the household sets up the broadband account, but others in the household still want an email address, so they get an affiliate account. In this case the BT ID would be that of the person that invited me? Maybe? I think it's worth a go.",
+              "time": "2026-02-15T17:33:46Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "krosylight@mozilla.com",
+              "bug_id": 2012085,
+              "count": 15,
+              "creation_time": "2026-02-24T14:40:20Z",
+              "creator": "krosylight@mozilla.com",
+              "id": 17909215,
+              "is_private": false,
+              "raw_text": "Did you have some luck for that? \ud83d\udc40",
+              "reactions": {},
+              "tags": [],
+              "text": "Did you have some luck for that? \ud83d\udc40",
+              "time": "2026-02-24T14:40:20Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "jwalker@mozilla.com",
+              "bug_id": 2012085,
+              "count": 16,
+              "creation_time": "2026-02-27T10:43:18Z",
+              "creator": "jwalker@mozilla.com",
+              "id": 17915410,
+              "is_private": false,
+              "raw_text": "Working on it!",
+              "reactions": {
+                "+1": 1
+              },
+              "tags": [],
+              "text": "Working on it!",
+              "time": "2026-02-27T10:43:18Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "htsai@mozilla.com",
+              "bug_id": 2012085,
+              "count": 17,
+              "creation_time": "2026-03-12T11:35:38Z",
+              "creator": "htsai@mozilla.com",
+              "id": 17938793,
+              "is_private": false,
+              "raw_text": "We need a contact as a next action and unblock further investigation. Adjusting the keywords accordingly.",
+              "reactions": {},
+              "tags": [],
+              "text": "We need a contact as a next action and unblock further investigation. Adjusting the keywords accordingly.",
+              "time": "2026-03-12T11:35:38Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "htsai@mozilla.com",
+              "bug_id": 2012085,
+              "count": 18,
+              "creation_time": "2026-03-31T10:25:05Z",
+              "creator": "htsai@mozilla.com",
+              "id": 17981785,
+              "is_private": false,
+              "raw_text": "I just gave an outreach try, emailing to an address that I can find...",
+              "reactions": {},
+              "tags": [],
+              "text": "I just gave an outreach try, emailing to an address that I can find...",
+              "time": "2026-03-31T10:25:05Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "htsai@mozilla.com",
+              "bug_id": 2012085,
+              "count": 19,
+              "creation_time": "2026-04-08T16:13:34Z",
+              "creator": "htsai@mozilla.com",
+              "id": 18002544,
+              "is_private": false,
+              "raw_text": "I also post a reply to an existing thread in the BT forum: in https://community.bt.com/t5/Webmail/contact-email-addresses-don-t-load/m-p/2458494/highlight/false#M2528  Hope we will get some luck.",
+              "reactions": {},
+              "tags": [],
+              "text": "I also post a reply to an existing thread in the BT forum: in https://community.bt.com/t5/Webmail/contact-email-addresses-don-t-load/m-p/2458494/highlight/false#M2528  Hope we will get some luck.",
+              "time": "2026-04-08T16:13:34Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "htsai@mozilla.com",
+              "bug_id": 2012085,
+              "count": 20,
+              "creation_time": "2026-04-16T11:27:13Z",
+              "creator": "htsai@mozilla.com",
+              "id": 18019327,
+              "is_private": false,
+              "raw_text": "I'm removing needs-diagnosis keyword and adding webcompat:blocked to reflect the fact. \nAccording to a response in the BT forum, the BT team has been looking at this issue. I keep the \"webcompat:contact-in-progress\" keyword as well.",
+              "reactions": {},
+              "tags": [],
+              "text": "I'm removing needs-diagnosis keyword and adding webcompat:blocked to reflect the fact. \nAccording to a response in the BT forum, the BT team has been looking at this issue. I keep the \"webcompat:contact-in-progress\" keyword as well.",
+              "time": "2026-04-16T11:27:13Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "bobowencode@gmail.com",
+              "bug_id": 2012085,
+              "count": 21,
+              "creation_time": "2026-04-23T13:27:32Z",
+              "creator": "bobowencode@gmail.com",
+              "id": 18034668,
+              "is_private": false,
+              "raw_text": "Hi, I have access to an account that I can reproduce this on.\nIf you click the email in the list it fails as described.\nHowever, if you just select the email (with arrow keys if there is more than one) and hit `Enter` or `Tab` then the correct contact/email is added.\nEdge works if you click the email as well.",
+              "reactions": {},
+              "tags": [],
+              "text": "Hi, I have access to an account that I can reproduce this on.\nIf you click the email in the list it fails as described.\nHowever, if you just select the email (with arrow keys if there is more than one) and hit `Enter` or `Tab` then the correct contact/email is added.\nEdge works if you click the email as well.",
+              "time": "2026-04-23T13:27:32Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "mozilla@keithcirkel.co.uk",
+              "bug_id": 2012085,
+              "count": 22,
+              "creation_time": "2026-04-23T14:54:38Z",
+              "creator": "mozilla@keithcirkel.co.uk",
+              "id": 18034919,
+              "is_private": false,
+              "raw_text": "I just want to point out the response from a moderator at BT:\n\n> I can say with certainty that our email team are working on a fix for these issues, but these fixes tend to be incorporated with wider updates to the platform, so aren't always immediate.",
+              "reactions": {},
+              "tags": [],
+              "text": "I just want to point out the response from a moderator at BT:\n\n> I can say with certainty that our email team are working on a fix for these issues, but these fixes tend to be incorporated with wider updates to the platform, so aren't always immediate.",
+              "time": "2026-04-23T14:54:38Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "htsai@mozilla.com",
+              "bug_id": 2012085,
+              "count": 23,
+              "creation_time": "2026-04-24T13:08:44Z",
+              "creator": "htsai@mozilla.com",
+              "id": 18037338,
+              "is_private": false,
+              "raw_text": "Thanks Bob! \nKeith, please help us collaborate with Bob and investigate this a bit.",
+              "reactions": {},
+              "tags": [],
+              "text": "Thanks Bob! \nKeith, please help us collaborate with Bob and investigate this a bit.",
+              "time": "2026-04-24T13:08:44Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "mozilla@keithcirkel.co.uk",
+              "bug_id": 2012085,
+              "count": 24,
+              "creation_time": "2026-04-28T12:55:32Z",
+              "creator": "mozilla@keithcirkel.co.uk",
+              "id": 18044920,
+              "is_private": false,
+              "raw_text": "Bob and I took a look at this, this morning. Unfortunately it's a little tricky to debug, but some overall comments:\n\n1. We can consistently reproduce. \n2. It seems to be a racey timing issue; using a debugger to break on the mouse listener code point \"fixes\" the issue. I suspect this might be to do with event timing or a mixture of async/sync code.\n3. Observing the minified code: it seems to be pre-hooks React code, so using classes with `render()` and `this.setState`. We observed several setters on the class object (`this.state.shouldFocusInput` & `this.state.optionIndex` or similar), these setters interleaved with `this.setState` could be triggering the racey behaviour - as `this.setState` is asynchronous. \n\nUnfortunately the use of React makes this a really tricky debug due to React's synthetic event system which adds a lot of entry points and can be very difficult to follow (especially in minified code). We tried using React Devtools but their deployment either A) predates React Devtools or B) has the various symbols/hooks compiled out in the production build.",
+              "reactions": {},
+              "tags": [],
+              "text": "Bob and I took a look at this, this morning. Unfortunately it's a little tricky to debug, but some overall comments:\n\n1. We can consistently reproduce. \n2. It seems to be a racey timing issue; using a debugger to break on the mouse listener code point \"fixes\" the issue. I suspect this might be to do with event timing or a mixture of async/sync code.\n3. Observing the minified code: it seems to be pre-hooks React code, so using classes with `render()` and `this.setState`. We observed several setters on the class object (`this.state.shouldFocusInput` & `this.state.optionIndex` or similar), these setters interleaved with `this.setState` could be triggering the racey behaviour - as `this.setState` is asynchronous. \n\nUnfortunately the use of React makes this a really tricky debug due to React's synthetic event system which adds a lot of entry points and can be very difficult to follow (especially in minified code). We tried using React Devtools but their deployment either A) predates React Devtools or B) has the various symbols/hooks compiled out in the production build.",
+              "time": "2026-04-28T12:55:32Z"
+            },
+            {
+              "attachment_id": null,
+              "author": "htsai@mozilla.com",
+              "bug_id": 2012085,
+              "count": 25,
+              "creation_time": "2026-04-30T10:29:52Z",
+              "creator": "htsai@mozilla.com",
+              "id": 18049405,
+              "is_private": false,
+              "raw_text": "Based on comment 24, I don't think we'll be able to do much more without significant debugging time and it also hints a lot of tricky bits going on on the side. Also, from the sounds of it, the BT team are aware and are hopefully addressing the issue. \n\n\"webcompat:contact-in-progress\" remains the right status and the best fit IMO.",
+              "reactions": {},
+              "tags": [],
+              "text": "Based on comment 24, I don't think we'll be able to do much more without significant debugging time and it also hints a lot of tricky bits going on on the side. Also, from the sounds of it, the BT team are aware and are hopefully addressing the issue. \n\n\"webcompat:contact-in-progress\" remains the right status and the best fit IMO.",
+              "time": "2026-04-30T10:29:52Z"
+            }
+          ]
+        }
+      },
+      "comments": {}
+    },
+    "history": {
+      "bugs": [
+        {
+          "alias": null,
+          "history": [
+            {
+              "changes": [
+                {
+                  "added": "Address Bar",
+                  "field_name": "component",
+                  "removed": "Untriaged"
+                }
+              ],
+              "when": "2026-01-23T11:42:22Z",
+              "who": "release-mgmt-account-bot@mozilla.tld"
+            },
+            {
+              "changes": [
+                {
+                  "added": "needinfo?(c.r.allen@btinternet.com)",
+                  "field_name": "flagtypes.name",
+                  "removed": ""
+                },
+                {
+                  "added": "mak@mozilla.com",
+                  "field_name": "cc",
+                  "removed": ""
+                },
+                {
+                  "added": "Untriaged",
+                  "field_name": "component",
+                  "removed": "Address Bar"
+                }
+              ],
+              "when": "2026-01-26T16:46:20Z",
+              "who": "mak@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "",
+                  "field_name": "flagtypes.name",
+                  "removed": "needinfo?(c.r.allen@btinternet.com)"
+                },
+                {
+                  "added": "Web Compatibility",
+                  "field_name": "product",
+                  "removed": "Firefox"
+                },
+                {
+                  "added": "Firefox not allowing emails to be forwarded on BT email",
+                  "field_name": "summary",
+                  "removed": "Firefox not allowing emails to be forwarded"
+                },
+                {
+                  "added": "Site Reports",
+                  "field_name": "component",
+                  "removed": "Untriaged"
+                }
+              ],
+              "when": "2026-01-28T08:36:01Z",
+              "who": "mak@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "@@ -1 +1,7 @@\n-\n+platform:windows,mac,linux,android\r\n+impact:workflow-broken\r\n+configuration:general\r\n+affects:all\r\n+branch:release\r\n+diagnosis-team:dom\r\n+user-impact-score:1600\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                },
+                {
+                  "added": "S2",
+                  "field_name": "severity",
+                  "removed": "--"
+                },
+                {
+                  "added": "dschubert@mozilla.com",
+                  "field_name": "cc",
+                  "removed": ""
+                },
+                {
+                  "added": "webcompat:needs-diagnosis, webcompat:needs-login, webcompat:site-report",
+                  "field_name": "keywords",
+                  "removed": ""
+                },
+                {
+                  "added": "https://email.bt.com/mail/index-rui.jsp?v=MX_3.11.0.7",
+                  "field_name": "url",
+                  "removed": ""
+                },
+                {
+                  "added": "P1",
+                  "field_name": "priority",
+                  "removed": "--"
+                },
+                {
+                  "added": "P1",
+                  "field_name": "cf_webcompat_priority",
+                  "removed": "---"
+                },
+                {
+                  "added": "9",
+                  "field_name": "cf_webcompat_score",
+                  "removed": "---"
+                }
+              ],
+              "when": "2026-01-28T15:07:54Z",
+              "who": "sky@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "krosylight@mozilla.com",
+                  "field_name": "cc",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-01-29T18:32:04Z",
+              "who": "krosylight@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "stalled",
+                  "field_name": "keywords",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-02-02T16:10:35Z",
+              "who": "krosylight@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "needinfo?(james@hoppipolla.co.uk)",
+                  "field_name": "flagtypes.name",
+                  "removed": ""
+                },
+                {
+                  "added": "james@hoppipolla.co.uk, jmuizelaar@mozilla.com",
+                  "field_name": "cc",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-02-09T15:35:39Z",
+              "who": "jmuizelaar@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "needinfo?(jwalker@mozilla.com)",
+                  "field_name": "flagtypes.name",
+                  "removed": "needinfo?(james@hoppipolla.co.uk)"
+                },
+                {
+                  "added": "jwalker@mozilla.com",
+                  "field_name": "cc",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-02-09T16:30:02Z",
+              "who": "james@hoppipolla.co.uk"
+            },
+            {
+              "changes": [
+                {
+                  "added": "epopescu@mozilla.com",
+                  "field_name": "cc",
+                  "removed": ""
+                },
+                {
+                  "added": "qa\u2011not\u2011actionable",
+                  "field_name": "cf_qa_whiteboard",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-02-10T13:33:06Z",
+              "who": "epopescu@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "needinfo?(c.r.allen@btinternet.com)",
+                  "field_name": "flagtypes.name",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-02-10T14:19:20Z",
+              "who": "krosylight@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "",
+                  "field_name": "flagtypes.name",
+                  "removed": "needinfo?(c.r.allen@btinternet.com)"
+                }
+              ],
+              "when": "2026-02-10T14:21:02Z",
+              "who": "krosylight@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "",
+                  "field_name": "flagtypes.name",
+                  "removed": "needinfo?(jwalker@mozilla.com)"
+                }
+              ],
+              "when": "2026-02-15T14:53:05Z",
+              "who": "jwalker@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "Firefox fails to select email addresses in BT email",
+                  "field_name": "summary",
+                  "removed": "Firefox not allowing emails to be forwarded on BT email"
+                }
+              ],
+              "when": "2026-02-16T17:48:01Z",
+              "who": "jwalker@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "needinfo?(jwalker@mozilla.com)",
+                  "field_name": "flagtypes.name",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-02-24T14:40:20Z",
+              "who": "krosylight@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "",
+                  "field_name": "flagtypes.name",
+                  "removed": "needinfo?(jwalker@mozilla.com)"
+                }
+              ],
+              "when": "2026-02-27T10:43:18Z",
+              "who": "jwalker@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "[webcompat:core]",
+                  "field_name": "whiteboard",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-03-02T15:53:16Z",
+              "who": "release-mgmt-account-bot@mozilla.tld"
+            },
+            {
+              "changes": [
+                {
+                  "added": "slloyd@mozilla.com",
+                  "field_name": "cc",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-03-05T13:48:10Z",
+              "who": "slloyd@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "htsai@mozilla.com",
+                  "field_name": "cc",
+                  "removed": ""
+                },
+                {
+                  "added": "webcompat:needs-contact",
+                  "field_name": "keywords",
+                  "removed": "webcompat:needs-diagnosis"
+                }
+              ],
+              "when": "2026-03-12T11:35:38Z",
+              "who": "htsai@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "webcompat:needs-diagnosis",
+                  "field_name": "keywords",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-03-12T11:36:08Z",
+              "who": "htsai@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "1",
+                  "field_name": "is_confirmed",
+                  "removed": "0"
+                },
+                {
+                  "added": "denyshon@outlook.com",
+                  "field_name": "cc",
+                  "removed": ""
+                },
+                {
+                  "added": "NEW",
+                  "field_name": "status",
+                  "removed": "UNCONFIRMED"
+                }
+              ],
+              "when": "2026-03-28T04:22:40Z",
+              "who": "denyshon@outlook.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "@@ -4,4 +4,6 @@\n affects:all\r\n branch:release\r\n diagnosis-team:dom\r\n-user-impact-score:1600\n+user-impact-score:1600\r\n+outreach-contact-date:2026-03-31\r\n+outreach-assignee:hsinyi\n",
+                  "field_name": "cf_user_story",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-03-31T10:24:08Z",
+              "who": "htsai@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "webcompat:contact-in-progress",
+                  "field_name": "keywords",
+                  "removed": "webcompat:needs-contact"
+                }
+              ],
+              "when": "2026-03-31T10:29:17Z",
+              "who": "htsai@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "mozilla@keithcirkel.co.uk",
+                  "field_name": "cc",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-04-14T11:42:32Z",
+              "who": "mozilla@keithcirkel.co.uk"
+            },
+            {
+              "changes": [
+                {
+                  "added": "webcompat:blocked",
+                  "field_name": "keywords",
+                  "removed": "webcompat:needs-diagnosis"
+                }
+              ],
+              "when": "2026-04-16T11:27:13Z",
+              "who": "htsai@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "needinfo?(htsai@mozilla.com)",
+                  "field_name": "flagtypes.name",
+                  "removed": ""
+                },
+                {
+                  "added": "bobowencode@gmail.com",
+                  "field_name": "cc",
+                  "removed": ""
+                }
+              ],
+              "when": "2026-04-23T13:27:32Z",
+              "who": "bobowencode@gmail.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "needinfo?(mozilla@keithcirkel.co.uk)",
+                  "field_name": "flagtypes.name",
+                  "removed": "needinfo?(htsai@mozilla.com)"
+                }
+              ],
+              "when": "2026-04-24T13:08:44Z",
+              "who": "htsai@mozilla.com"
+            },
+            {
+              "changes": [
+                {
+                  "added": "",
+                  "field_name": "flagtypes.name",
+                  "removed": "needinfo?(mozilla@keithcirkel.co.uk)"
+                }
+              ],
+              "when": "2026-04-28T12:55:32Z",
+              "who": "mozilla@keithcirkel.co.uk"
+            },
+            {
+              "changes": [
+                {
+                  "added": "",
+                  "field_name": "keywords",
+                  "removed": "stalled, webcompat:blocked"
+                }
+              ],
+              "when": "2026-04-30T10:29:52Z",
+              "who": "htsai@mozilla.com"
+            }
+          ],
+          "id": 2012085
+        }
+      ]
+    }
+  },
+  "show_bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=2012085"
+}

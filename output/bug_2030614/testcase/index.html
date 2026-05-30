@@ -1,0 +1,48 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>AOL Hero Wafer Initialization Mock</title>
+<style>
+  body { font-family: Arial, sans-serif; margin: 24px; }
+  .hero { display: grid; grid-template-columns: 2fr 1fr; width: 760px; min-height: 360px; box-shadow: 0 10px 28px #d5dce4; }
+  .image { background: linear-gradient(90deg, #eee, #ddd); }
+  .context { padding: 36px; }
+  .loaded .image { background: url("https://s.yimg.com/os/creatr-uploaded-images/2026-05/9e821100-3947-11f0-bbfb-c4a51e141939") center / cover; }
+  .placeholder { color: transparent; background: linear-gradient(90deg, #eee, #ddd); min-height: 24px; margin: 10px 0; }
+  .loaded .placeholder { color: #17202a; background: none; }
+</style>
+<main>
+  <h1>AOL Hero Wafer Initialization Mock</h1>
+  <p>The broken mode reproduces the observed live-site failure shape: Wafer-dependent code throws before replacing the skeleton with image/title context.</p>
+  <section id="hero" class="hero">
+    <div class="image" aria-label="hero image"></div>
+    <div class="context">
+      <p id="source" class="placeholder">People</p>
+      <h2 id="title" class="placeholder">Hero title context loaded by Wafer</h2>
+      <a id="link" class="placeholder" href="#">Story link context</a>
+    </div>
+  </section>
+  <pre id="state"></pre>
+</main>
+<script>
+  const mode = new URLSearchParams(location.search).get("mode") || "broken";
+  if (mode === "fixed") {
+    window.wafer = { controllers: { WaferBaseController: class {} }, ready(callback) { callback(); } };
+  }
+  function collect(error = null) {
+    const hero = document.getElementById("hero");
+    document.getElementById("state").textContent = JSON.stringify({
+      mode,
+      loaded: hero.classList.contains("loaded"),
+      waferPresent: !!window.wafer,
+      error,
+      titleText: getComputedStyle(document.getElementById("title")).color === "rgba(0, 0, 0, 0)" ? "" : document.getElementById("title").textContent,
+    }, null, 2);
+  }
+  try {
+    class HeroController extends window.wafer.controllers.WaferBaseController {}
+    window.wafer.ready(() => document.getElementById("hero").classList.add("loaded"));
+    collect();
+  } catch (error) {
+    collect(error.message);
+  }
+</script>

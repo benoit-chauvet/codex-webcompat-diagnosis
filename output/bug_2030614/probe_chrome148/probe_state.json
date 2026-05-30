@@ -1,0 +1,479 @@
+{
+  "task": "aolHero",
+  "browser": "chrome",
+  "executablePath": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+  "requestedUrl": "https://www.aol.com/",
+  "finalUrl": "https://www.aol.com/",
+  "httpStatus": 200,
+  "navigationError": null,
+  "viewport": {
+    "width": 1280,
+    "height": 900
+  },
+  "events": {
+    "console": [
+      {
+        "type": "debug",
+        "text": "Yahoo Web Analytics v4.7.0"
+      },
+      {
+        "type": "debug",
+        "text": "Using gtag provider"
+      },
+      {
+        "type": "log",
+        "text": "[PicoX] Successfully initialized"
+      },
+      {
+        "type": "log",
+        "text": "[PicoX] Successfully tracked utm params"
+      },
+      {
+        "type": "warn",
+        "text": "Didomi - User is a bot and consent is not required for bots. The notice will not be shown."
+      },
+      {
+        "type": "warn",
+        "text": "OathGUCE 1.0.659: Non reg user detected. Unable to continue. Fix: http://yo/guce-js-define"
+      },
+      {
+        "type": "warn",
+        "text": "adgb - not initialized."
+      },
+      {
+        "type": "warn",
+        "text": "[GPT] PubAdsService.disableInitialLoad is deprecated, use googletag.setConfig({disableInitialLoad: ...}) instead.\nhttps://goo.gle/gpt-message#170"
+      },
+      {
+        "type": "warn",
+        "text": "[GPT] Slot.setSafeFrameConfig is deprecated, use Slot.setConfig({safeFrame: ...}) instead.\nhttps://goo.gle/gpt-message#171"
+      },
+      {
+        "type": "warn",
+        "text": "VIDEOJS: WARN: videojs.mergeOptions is deprecated and will be removed in 9.0; please use videojs.obj.merge instead."
+      }
+    ],
+    "pageErrors": [],
+    "requestFailures": [
+      {
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-XXSF6S1T3W&gtm=45je65r2v9194194908za200zd9194194908&_p=1780152170456&gcs=G1-0&gcd=13l3q3q2q5l1&npa=1&dma_cps=-&dma=1&tcfd=10001&are=1&cid=232865716.1780152170&frm=0&pscdl=noapi&rcb=5&sr=800x600&uaa=arm&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=macOS&uapv=26.5.0&uaw=0&ul=en-gb&_s=1&tag_exp=0~115938465~115938469~119034491&sid=1780152170&sct=1&seg=0&dl=https%3A%2F%2Fwww.aol.com%2F&dt=News%2C%20Politics%2C%20Sports%2C%20Mail%20%26%20Latest%20Headlines%20-%20AOL.com&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&ep.yAnalyticsJSVersion=3.80.0&ep.yPageContentType=aolfrontpage&ep.yPageType=home&tfd=1970",
+        "method": "POST",
+        "resourceType": "fetch",
+        "failure": {
+          "errorText": "net::ERR_ABORTED"
+        }
+      },
+      {
+        "url": "https://edge.api.brightcove.com/playback/v1/accounts/6415665815001/videos/6397051496112/master.m3u8?bcov_auth=eyJhbGciOiJSUzI1NiJ9.eyJhY2NpZCI6IjY0MTU2NjU4MTUwMDEiLCJhdWQiOlsic3RhdGljLnBsYXliYWNrLmFwaS5icmlnaHRjb3ZlLmNvbSJdLCJwa2lkIjoiOTIxODQzMjAtOGZmMy00NWU5LWI2MDAtOTkwZjgyMmM4NjY3IiwiZHJ1bGVzIjpbIjNlMTI4YjcxLTk2YjktNDYxZC05OWVhLTY5ZTBkNDQwNzU4YyJdLCJleHAiOjE3ODAxNTU3NzEsImlhdCI6MTc4MDE1MjE3MX0.MNuvwUBRMOyGspdgQ8O9yKM0k8oazmXOGvz33s7TqYzNNyOOYFvffrCumIytPSzcPboeZcbyuqGLJAytZKu4NXmn_o5WOM-ktRu9145-XzQruBhuQ9XNunAL-1z15s6LYLpjwBG-F7SaGc8nHRLv20b3Mpq29CfnkSxyAdnV7LCVpptSExTUCzMPwfVY2yx5fKLI2_SKUZstNuvK8qX_3A1V9mC4V-XKqTD8La9IwjZQaAe9tesE8dzADjYYeIwTEkip31bMxr9iCFZ6_36zXSRdOkL-B176zoc6yXHgrAGxvtoO_YLNfC7QVV3YlXzGAfRfGJEHqUCpt8doXeDftQ",
+        "method": "GET",
+        "resourceType": "xhr",
+        "failure": {
+          "errorText": "net::ERR_ABORTED"
+        }
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/pagead/ping?e=1",
+        "method": "POST",
+        "resourceType": "fetch",
+        "failure": {
+          "errorText": "net::ERR_ABORTED"
+        }
+      },
+      {
+        "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-XXSF6S1T3W&gtm=45je65r2v9194194908za200zd9194194908&_p=1780152170456&gcs=G110&gcu=1&gcd=13n3q3r2r5l1&npa=0&dma_cps=a&dma=1&tcfd=10001&gdid=dMTc4Zm&are=1&cid=232865716.1780152170&frm=0&gcut=3&pscdl=noapi&rcb=5&sr=800x600&uaa=arm&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=macOS&uapv=26.5.0&uaw=0&ul=en-gb&_s=2&tag_exp=0~115938465~115938469~119034491&sid=1780152170&sct=1&seg=0&dl=https%3A%2F%2Fwww.aol.com%2F&dt=News%2C%20Politics%2C%20Sports%2C%20Mail%20%26%20Latest%20Headlines%20-%20AOL.com&en=user_engagement&ep.yAnalyticsJSVersion=3.80.0&ep.yPageContentType=aolfrontpage&ep.yPageType=home&_et=3&tfd=6975",
+        "method": "POST",
+        "resourceType": "fetch",
+        "failure": {
+          "errorText": "net::ERR_ABORTED"
+        }
+      }
+    ]
+  },
+  "page": {
+    "url": "https://www.aol.com/",
+    "title": "News, Politics, Sports, Mail & Latest Headlines - AOL.com",
+    "readyState": "complete",
+    "scrollX": 0,
+    "scrollY": 0,
+    "viewport": {
+      "innerWidth": 1280,
+      "innerHeight": 900,
+      "devicePixelRatio": 1
+    },
+    "documentElement": {
+      "clientWidth": 1280,
+      "clientHeight": 900,
+      "scrollWidth": 1280,
+      "scrollHeight": 14254
+    },
+    "bodyTextSample": "Menu\n24/7\n Help\nMail\nSign in\nPeople\n'Unruly' United passenger arrested after he allegedly attempted to hijack plane mid-flight\nForces emergency landing\n3 of 54\n\nAdvertisement\n\nMore to Explore\n“I Haven’t Recovered”: 83 Hilariously Painful Posts About Married Life (New Pics)\nBored Panda\n“$1,000 In Equipment Wasted”: 69 Places That Were Once Filled With Life But Have Since Been Abandoned\nBored Panda\n42 Times People Experienced Something Entirely Unsettling In The Comfort Of Their Own Homes\nBored Panda\n58 Food Memes That Are Absolutely Well Done\nBored Panda\n67 Funny And Relatable Couple Memes To Send Your Partner Instead Of Paying For Couple’s Therapy\nBored Panda\nNobody Knows Why These 47 People Lied Online, As It’s So Painfully Obvious\nBored Panda\nGuy Asks Men If They Regret Having Their Kids, And 40 Give Honest Answers\nBored Panda\nTrending Now\n\nWonderwall\n\nKate Middleton’s 1-word reply after her brief split from Prince William revealed\n\nABC News\n\nTrump says 'no interest' in Kennedy Center overhaul after judge's ruling\n\nWonderwall\n\nPrince Harry and Meghan Markle's marriage allegedly implodes ahead of UK visit\n\nEntertainment Weekly\n\n7 NBC shows canceled so far in 2026 — and why they got the axe\n\nPeople\n\nParents show up to daughter's birthday bash only to realize party is not at all what they were expecting\n\nSee all trending now\nDon’t miss our daily roundup.\n\nStay informed with a handpicked selection of the day's top AOL stories, delivered to your inbox.\n\nFontenay-sous-Bois, Ile-de-France\nNews & Weather\n\nChange home location\n\nFontenay-sous-Bois, Ile-de-France\nAdd / Edit\n90°F\nSun"
+  },
+  "taskResult": {
+    "screenshots": {
+      "top": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2030614/probe_chrome148/aol_home_top.png"
+    },
+    "state": {
+      "topLinks": [
+        {
+          "index": 26,
+          "href": "https://www.aol.com/",
+          "text": "",
+          "imageSrc": null,
+          "imageAlt": null,
+          "rect": {
+            "x": 51.203125,
+            "y": 22,
+            "width": 113,
+            "height": 36
+          },
+          "visibleTop": true
+        },
+        {
+          "index": 33,
+          "href": "https://mail.aol.com/",
+          "text": "Mail",
+          "imageSrc": null,
+          "imageAlt": null,
+          "rect": {
+            "x": 1041.65625,
+            "y": 20,
+            "width": 118.96875,
+            "height": 40
+          },
+          "visibleTop": true
+        },
+        {
+          "index": 34,
+          "href": "https://oidc.www.aol.com/login/?lang=en-us&intl=us&src=fp-us&dest=https%3A%2F%2Fwww.aol.com%2F",
+          "text": "Sign in",
+          "imageSrc": null,
+          "imageAlt": null,
+          "rect": {
+            "x": 1178.625,
+            "y": 24,
+            "width": 94.375,
+            "height": 32
+          },
+          "visibleTop": true
+        },
+        {
+          "index": 63,
+          "href": "https://www.aol.com/",
+          "text": "Home",
+          "imageSrc": null,
+          "imageAlt": null,
+          "rect": {
+            "x": -334,
+            "y": 80,
+            "width": 318,
+            "height": 56
+          },
+          "visibleTop": true
+        },
+        {
+          "index": 64,
+          "href": "https://www.aol.com/local/",
+          "text": "Fontenay-sous-..., Ile-de-FranceFontenay-sous-Bois, Ile-de-FranceLocal News",
+          "imageSrc": null,
+          "imageAlt": null,
+          "rect": {
+            "x": -334,
+            "y": 153,
+            "width": 318,
+            "height": 74
+          },
+          "visibleTop": true
+        },
+        {
+          "index": 65,
+          "href": "https://www.aol.com/products?ncid=mbr_rusacqlnk00000036",
+          "text": "Subscriptions",
+          "imageSrc": null,
+          "imageAlt": null,
+          "rect": {
+            "x": -334,
+            "y": 244,
+            "width": 318,
+            "height": 56
+          },
+          "visibleTop": true
+        },
+        {
+          "index": 66,
+          "href": "https://www.aol.com/animals/",
+          "text": "Animals",
+          "imageSrc": null,
+          "imageAlt": null,
+          "rect": {
+            "x": -334,
+            "y": 317,
+            "width": 318,
+            "height": 56
+          },
+          "visibleTop": true
+        },
+        {
+          "index": 67,
+          "href": "https://www.aol.com/entertainment/",
+          "text": "Entertainment",
+          "imageSrc": null,
+          "imageAlt": null,
+          "rect": {
+            "x": -334,
+            "y": 373,
+            "width": 318,
+            "height": 56
+          },
+          "visibleTop": true
+        },
+        {
+          "index": 68,
+          "href": "https://www.aol.com/food/",
+          "text": "Food",
+          "imageSrc": null,
+          "imageAlt": null,
+          "rect": {
+            "x": -334,
+            "y": 485,
+            "width": 318,
+            "height": 56
+          },
+          "visibleTop": true
+        },
+        {
+          "index": 69,
+          "href": "https://www.aol.com/games/",
+          "text": "Games",
+          "imageSrc": null,
+          "imageAlt": null,
+          "rect": {
+            "x": -334,
+            "y": 541,
+            "width": 318,
+            "height": 56
+          },
+          "visibleTop": true
+        },
+        {
+          "index": 70,
+          "href": "https://www.aol.com/home-garden/",
+          "text": "Home & Garden",
+          "imageSrc": null,
+          "imageAlt": null,
+          "rect": {
+            "x": -334,
+            "y": 653,
+            "width": 318,
+            "height": 56
+          },
+          "visibleTop": true
+        },
+        {
+          "index": 89,
+          "href": "https://www.aol.com/shopping/gifting/articles/the-best-fathers-day-gifts-for-dads-who-love-to-snack-151519437.html",
+          "text": "",
+          "imageSrc": "https://s.aolcdn.com/images/dims?format=jpg&quality=80&thumbnail=600%2C450%2Cauto&image_uri=https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2Fuser-uploaded%2Fgettyimages-145062073_4998.jpg&client=76f99bdb8f78cd44cc0b&signature=cb3290a8b6cab26b91acfc47519def4af4cb28c7",
+          "imageAlt": "The best Father's Day gifts for dads who love to snack",
+          "rect": {
+            "x": -2321.171875,
+            "y": 104,
+            "width": 511.546875,
+            "height": 383.65625
+          },
+          "visibleTop": true
+        },
+        {
+          "index": 92,
+          "href": "https://www.aol.com/articles/maria-shriver-calls-judges-decision-001907872.html",
+          "text": "",
+          "imageSrc": "https://s.aolcdn.com/images/dims?format=jpg&quality=80&thumbnail=600%2C450%2Cauto&image_uri=https%3A%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2026-05%2F0dd0be60-5c27-11f1-bfbc-1300c2038b99&client=76f99bdb8f78cd44cc0b&signature=9bfefcd5f5b76426834670ebe52e6070620f0e8f",
+          "imageAlt": "Maria Shriver reacts to judge's decision to reverse the Trump-Kennedy Center rebrand",
+          "rect": {
+            "x": -1534.171875,
+            "y": 104,
+            "width": 511.546875,
+            "height": 383.65625
+          },
+          "visibleTop": true
+        },
+        {
+          "index": 95,
+          "href": "https://www.aol.com/articles/brooks-nader-plunging-swimsuit-high-235832043.html",
+          "text": "",
+          "imageSrc": "https://s.aolcdn.com/images/dims?format=jpg&quality=80&thumbnail=600%2C450%2Cauto&image_uri=https%3A%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2026-05%2F2730c810-5c30-11f1-957d-906eac72a9cb&client=76f99bdb8f78cd44cc0b&signature=06b7c87368e5b1647449ed15f8b64794442fde6d",
+          "imageAlt": "Brooks Nader's plunging swimsuit is about as high-cut as it gets",
+          "rect": {
+            "x": -747.171875,
+            "y": 104,
+            "width": 511.546875,
+            "height": 383.65625
+          },
+          "visibleTop": true
+        },
+        {
+          "index": 98,
+          "href": "https://www.aol.com/articles/unruly-united-airlines-passenger-arrested-120600232.html",
+          "text": "",
+          "imageSrc": "https://s.aolcdn.com/images/dims?format=jpg&quality=80&thumbnail=600%2C450%2Cauto&image_uri=https%3A%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2026-05%2Fb2ef1520-5c2e-11f1-9fa2-09e78a9c62d5&client=76f99bdb8f78cd44cc0b&signature=11dd992bdd332ac62bdd774db668edf2f89f0c98",
+          "imageAlt": "'Unruly' United passenger arrested after he allegedly attempted to hijack plane mid-flight",
+          "rect": {
+            "x": 39.828125,
+            "y": 104,
+            "width": 511.546875,
+            "height": 383.65625
+          },
+          "visibleTop": true
+        },
+        {
+          "index": 101,
+          "href": "https://www.aol.com/articles/every-artist-whos-dropped-controversial-220843877.html",
+          "text": "",
+          "imageSrc": "https://s.aolcdn.com/images/dims?format=jpg&quality=80&thumbnail=600%2C450%2Cauto&image_uri=https%3A%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2026-05%2Fcc64aca0-5bc9-11f1-b95f-c3da096ce140&client=76f99bdb8f78cd44cc0b&signature=970441e5c09f25b75544e5d5e4efc589c26c03fe",
+          "imageAlt": "Every artist who's dropped out of the controversial Freedom 250 event",
+          "rect": {
+            "x": 826.828125,
+            "y": 104,
+            "width": 511.546875,
+            "height": 383.65625
+          },
+          "visibleTop": true
+        },
+        {
+          "index": 104,
+          "href": "https://www.aol.com/articles/meghan-markle-prince-harry-marriage-150808721.html",
+          "text": "",
+          "imageSrc": "https://s.aolcdn.com/images/dims?format=jpg&quality=80&thumbnail=600%2C450%2Cauto&image_uri=https%3A%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2026-05%2Ff6645db0-5b75-11f1-b77e-77d31feb2045&client=76f99bdb8f78cd44cc0b&signature=291f1cba4b5e6f603a1c34553761437172d5790d",
+          "imageAlt": "Prince Harry and Meghan Markle's marriage allegedly implodes ahead of UK visit",
+          "rect": {
+            "x": 2400.828125,
+            "y": 104,
+            "width": 511.546875,
+            "height": 383.65625
+          },
+          "visibleTop": true
+        },
+        {
+          "index": 107,
+          "href": "https://www.aol.com/articles/unruly-united-airlines-passenger-arrested-120600232.html",
+          "text": "'Unruly' United passenger arrested after he allegedly attempted to hijack plane mid-flight",
+          "imageSrc": null,
+          "imageAlt": null,
+          "rect": {
+            "x": 571.328125,
+            "y": 168,
+            "width": 184,
+            "height": 120
+          },
+          "visibleTop": true
+        },
+        {
+          "index": 108,
+          "href": "https://www.aol.com/articles/unruly-united-airlines-passenger-arrested-120600232.html",
+          "text": "Forces emergency landing",
+          "imageSrc": null,
+          "imageAlt": null,
+          "rect": {
+            "x": 571.328125,
+            "y": 304,
+            "width": 184,
+            "height": 127.65625
+          },
+          "visibleTop": true
+        },
+        {
+          "index": 109,
+          "href": "https://www.aol.com/articles/83-funny-times-married-people-221002148.html",
+          "text": "“I Haven’t Recovered”: 83 Hilariously Painful Posts About Married Life (New Pics) Bored Panda",
+          "imageSrc": "https://s.aolcdn.com/images/dims?format=jpg&quality=80&thumbnail=400%2C200%2Cauto&image_uri=https%3A%2F%2Fmedia.zenfs.com%2Fen%2Faol_bored_panda_979%2Fa3bd6309ee6eaa478f05b907c1197396&client=76f99bdb8f78cd44cc0b&signature=47e3497e19a0179d69fbf754abf648a2240640dd",
+          "imageAlt": "“I Haven’t Recovered”: 83 Hilariously Painful Posts About Married Life (New Pics)",
+          "rect": {
+            "x": 143.328125,
+            "y": 608.84375,
+            "width": 338.875,
+            "height": 269.609375
+          },
+          "visibleTop": true
+        },
+        {
+          "index": 110,
+          "href": "https://www.aol.com/articles/14-million-abandoned-mansion-69-220102439.html",
+          "text": "“$1,000 In Equipment Wasted”: 69 Places That Were Once Filled With Life But Have Since Been Abandoned Bored Panda",
+          "imageSrc": "https://s.aolcdn.com/images/dims?format=jpg&quality=80&thumbnail=400%2C200%2Cauto&image_uri=https%3A%2F%2Fmedia.zenfs.com%2Fen%2Faol_bored_panda_979%2Fe917716ddd49159cae27ddbca2088eab&client=76f99bdb8f78cd44cc0b&signature=3255a6e651a8ab0a1efb6d4a9c2f7fbdca40a6b6",
+          "imageAlt": "“$1,000 In Equipment Wasted”: 69 Places That Were Once Filled With Life But Have Since Been Abandoned",
+          "rect": {
+            "x": 522.203125,
+            "y": 608.84375,
+            "width": 338.875,
+            "height": 289.609375
+          },
+          "visibleTop": true
+        },
+        {
+          "index": 111,
+          "href": "https://www.aol.com/articles/slept-bathtub-night-42-real-220102289.html",
+          "text": "42 Times People Experienced Something Entirely Unsettling In The Comfort Of Their Own Homes Bored Panda",
+          "imageSrc": "https://s.aolcdn.com/images/dims?format=jpg&quality=80&thumbnail=400%2C200%2Cauto&image_uri=https%3A%2F%2Fmedia.zenfs.com%2Fen%2Faol_bored_panda_979%2F9fea8b0f6bdd1f9238a6841fd50453f0&client=76f99bdb8f78cd44cc0b&signature=70e4f910ddddd7a1dc75d195b90e7048725749ca",
+          "imageAlt": "42 Times People Experienced Something Entirely Unsettling In The Comfort Of Their Own Homes",
+          "rect": {
+            "x": 901.078125,
+            "y": 608.84375,
+            "width": 338.875,
+            "height": 269.609375
+          },
+          "visibleTop": true
+        }
+      ],
+      "textBlocks": [
+        {
+          "index": 14,
+          "tag": "h3",
+          "text": "People",
+          "rect": {
+            "x": 595.328125,
+            "y": 146,
+            "width": 160,
+            "height": 12
+          },
+          "visibleTop": true
+        },
+        {
+          "index": 15,
+          "tag": "h2",
+          "text": "'Unruly' United passenger arrested after he allegedly attempted to hijack plane mid-flight",
+          "rect": {
+            "x": 571.328125,
+            "y": 168,
+            "width": 184,
+            "height": 120
+          },
+          "visibleTop": true
+        },
+        {
+          "index": 16,
+          "tag": "p",
+          "text": "Advertisement",
+          "rect": {
+            "x": 964.109375,
+            "y": 394.5,
+            "width": 105.078125,
+            "height": 19
+          },
+          "visibleTop": true
+        },
+        {
+          "index": 17,
+          "tag": "h2",
+          "text": "More to Explore",
+          "rect": {
+            "x": 143.328125,
+            "y": 560.25,
+            "width": 1096.671875,
+            "height": 32
+          },
+          "visibleTop": true
+        }
+      ],
+      "bodyTextSample": "Menu\n24/7\n Help\nMail\nSign in\nPeople\n'Unruly' United passenger arrested after he allegedly attempted to hijack plane mid-flight\nForces emergency landing\n3 of 54\n\nAdvertisement\n\nMore to Explore\n“I Haven’t Recovered”: 83 Hilariously Painful Posts About Married Life (New Pics)\nBored Panda\n“$1,000 In Equipment Wasted”: 69 Places That Were Once Filled With Life But Have Since Been Abandoned\nBored Panda\n42 Times People Experienced Something Entirely Unsettling In The Comfort Of Their Own Homes\nBored Panda\n58 Food Memes That Are Absolutely Well Done\nBored Panda\n67 Funny And Relatable Couple Memes To Send Your Partner Instead Of Paying For Couple’s Therapy\nBored Panda\nNobody Knows Why These 47 People Lied Online, As It’s So Painfully Obvious\nBored Panda\nGuy Asks Men If They Regret Having Their Kids, And 40 Give Honest Answers\nBored Panda\nTrending Now\n\nWonderwall\n\nKate Middleton’s 1-word reply after her brief split from Prince William revealed\n\nABC News\n\nTrump says 'no interest' in Kennedy Center overhaul after judge's ruling\n\nWonderwall\n\nPrince Harry and Meghan Markle's marriage allegedly implodes ahead of UK visit\n\nEntertainment Weekly\n\n7 NBC shows canceled so far in 2026 — and why they got the axe\n\nPeople\n\nParents show up to daughter's birthday bash only to realize party is not at all what they were expecting\n\nSee all trending now\nDon’t miss our daily roundup.\n\nStay informed with a handpicked selection of the day's top AOL stories, delivered to your inbox.\n\nFontenay-sous-Bois, Ile-de-France\nNews & Weather\n\nChange home location\n\nFontenay-sous-Bois, Ile-de-France\nAdd / Edit\n90°F\nSunny\nH93°\nL 62°\n5 PM\n91°\n0%\n6 PM\n90°\n0%\n7 PM\n89°\n0%\n8 PM\n88°\n0%\nSee full forecast\nLocal news not available now.\n\nWe have our best people on it and should have things up and running soon.\n\nAdvertisement\n\nEntertainment\n\nEntertainment Weekly\n\n13 celebrities who have saved lives\n\nPeople\n\nNate Bargatze shares his biggest challenge in film debut 'The Breadwinner': 'How early you got to get up'\n\nAssociated Press\n\nOscar-winning 'Star Wars' editor Marcia Lucas dies at 80\n\nEntertainment Weekly\n\nEvery artist who's dropped out of the controversial Freedom 250 event so far\n\nHuffPost\n\nI had a huge hit in 1992. Then I came out as omnisexual\n\nPeople\n\nKendra Wilkinson bites back at body-shaming comments about her breast implants\n\nSee all entertainment\nLatest News\n\nPeople\n\n'Unruly' United passenger arrested after he allegedly attempted to hijack plane mid-flight\n\nAssociated Press\n\nCapitol rioters clamor for"
+    }
+  }
+}

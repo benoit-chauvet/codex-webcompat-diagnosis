@@ -1,30 +1,9 @@
 {
-  "browser": "chrome",
-  "executablePath": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
-  "pagePath": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042795/minimal-testcase/index.html",
-  "screenshot": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042795/minimal-testcase/artifacts/chrome/chrome.png",
-  "events": {
-    "console": [],
-    "pageErrors": []
-  },
-  "state": {
-    "url": "file:///Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042795/minimal-testcase/index.html",
-    "title": "Minimal GSMArena MP4 playback failure",
-    "testcaseResult": null,
-    "videos": [
-      {
-        "index": 0,
-        "currentSrc": "file:///Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042795/minimal-testcase/gsmarena_002_high444.mp4",
-        "readyState": 4,
-        "networkState": 1,
-        "paused": true,
-        "currentTime": 0,
-        "duration": 5.66,
-        "videoWidth": 948,
-        "videoHeight": 554,
-        "error": null
-      }
-    ],
-    "bodyText": ""
-  }
+  "canPlayProfile244": "maybe",
+  "readyState": 4,
+  "networkState": 1,
+  "duration": 13.32,
+  "videoWidth": 622,
+  "videoHeight": 364,
+  "error": null
 }

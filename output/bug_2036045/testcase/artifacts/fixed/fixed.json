@@ -1,0 +1,21 @@
+{
+  "mode": "fixed",
+  "error": null,
+  "images": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='124'%3E%3Crect width='220' height='124' fill='%23006fe6'/%3E%3Ctext x='18' y='68' font-size='24' fill='white'%3Ethumb 1%3C/text%3E%3C/svg%3E",
+      "naturalWidth": 220,
+      "complete": true
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='124'%3E%3Crect width='220' height='124' fill='%239735d8'/%3E%3Ctext x='18' y='68' font-size='24' fill='white'%3Ethumb 2%3C/text%3E%3C/svg%3E",
+      "naturalWidth": 220,
+      "complete": true
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='124'%3E%3Crect width='220' height='124' fill='%230f8b4c'/%3E%3Ctext x='18' y='68' font-size='24' fill='white'%3Ethumb 3%3C/text%3E%3C/svg%3E",
+      "naturalWidth": 220,
+      "complete": true
+    }
+  ]
+}

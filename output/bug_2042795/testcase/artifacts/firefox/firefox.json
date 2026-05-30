@@ -1,83 +1,41 @@
 {
-  "browser": "firefox",
-  "executablePath": "/Applications/Firefox Nightly.app/Contents/MacOS/firefox",
-  "pagePath": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042795/testcase/index.html",
-  "screenshot": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042795/testcase/artifacts/firefox/firefox.png",
-  "events": {
-    "console": [],
-    "pageErrors": []
-  },
-  "state": {
-    "url": "file:///Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042795/testcase/index.html",
-    "title": "H.264 High 4:4:4 Predictive MP4 playback comparison",
-    "testcaseResult": {
-      "failing": {
-        "codec": {
-          "profile": 244,
-          "compatibility": 0,
-          "level": 31,
-          "codec": "avc1.f4001f"
-        },
-        "currentSrc": "file:///Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042795/testcase/assets/gsmarena_002_high444.mp4",
-        "readyState": 1,
-        "networkState": 1,
-        "paused": false,
-        "currentTime": 0,
-        "duration": 5.66,
-        "videoWidth": 948,
-        "videoHeight": 554,
-        "error": {
-          "code": 3,
-          "message": "auto mozilla::SupportChecker::AddMediaFormatChecker(const TrackInfo &)::(anonymous class)::operator()() const: Decoder may not have the capability to handle the requested video format with YUV444 chroma subsampling."
-        }
-      },
-      "control": {
-        "codec": {
-          "profile": 100,
-          "compatibility": 0,
-          "level": 31,
-          "codec": "avc1.64001f"
-        },
-        "currentSrc": "file:///Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042795/testcase/assets/control_h264_high.mp4",
-        "readyState": 4,
-        "networkState": 1,
-        "paused": false,
-        "currentTime": 1.486056,
-        "duration": 5.055,
-        "videoWidth": 960,
-        "videoHeight": 540,
-        "error": null
+  "canPlayProfile244": "",
+  "videos": [
+    {
+      "id": "control",
+      "readyState": 4,
+      "networkState": 1,
+      "currentTime": 0,
+      "duration": 9.394,
+      "videoWidth": 1280,
+      "videoHeight": 726,
+      "error": null
+    },
+    {
+      "id": "gsmarena001",
+      "readyState": 1,
+      "networkState": 1,
+      "currentTime": 0,
+      "duration": 13.32,
+      "videoWidth": 622,
+      "videoHeight": 364,
+      "error": {
+        "code": 3,
+        "message": "auto mozilla::SupportChecker::AddMediaFormatChecker(const TrackInfo &)::(anonymous class)::operator()() const: Decoder may not have the capability to handle the requested video format with YUV444 chroma subsampling."
       }
     },
-    "videos": [
-      {
-        "index": 0,
-        "currentSrc": "file:///Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042795/testcase/assets/gsmarena_002_high444.mp4",
-        "readyState": 1,
-        "networkState": 1,
-        "paused": false,
-        "currentTime": 0,
-        "duration": 5.66,
-        "videoWidth": 948,
-        "videoHeight": 554,
-        "error": {
-          "code": 3,
-          "message": "auto mozilla::SupportChecker::AddMediaFormatChecker(const TrackInfo &)::(anonymous class)::operator()() const: Decoder may not have the capability to handle the requested video format with YUV444 chroma subsampling."
-        }
-      },
-      {
-        "index": 1,
-        "currentSrc": "file:///Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042795/testcase/assets/control_h264_high.mp4",
-        "readyState": 2,
-        "networkState": 1,
-        "paused": true,
-        "currentTime": 5.056,
-        "duration": 5.056,
-        "videoWidth": 960,
-        "videoHeight": 540,
-        "error": null
+    {
+      "id": "gsmarena002",
+      "readyState": 1,
+      "networkState": 1,
+      "currentTime": 0,
+      "duration": 5.66,
+      "videoWidth": 948,
+      "videoHeight": 554,
+      "error": {
+        "code": 3,
+        "message": "auto mozilla::SupportChecker::AddMediaFormatChecker(const TrackInfo &)::(anonymous class)::operator()() const: Decoder may not have the capability to handle the requested video format with YUV444 chroma subsampling."
       }
-    ],
-    "bodyText": "H.264 profile playback comparison\n\nThe GSMArena sample advertises AVC profile 0xf4, while the control sample advertises profile 0x64.\n\nFailing sample: avc1.f4001f\n{\n  \"codec\": {\n    \"profile\": 244,\n    \"compatibility\": 0,\n    \"level\": 31,\n    \"codec\": \"avc1.f4001f\"\n  },\n  \"currentSrc\": \"file:///Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042795/testcase/assets/gsmarena_002_high444.mp4\",\n  \"readyState\": 1,\n  \"networkState\": 1,\n  \"paused\": false,\n  \"currentTime\": 0,\n  \"duration\": 5.66,\n  \"videoWidth\": 948,\n  \"videoHeight\": 554,\n  \"error\": {\n    \"code\": 3,\n    \"message\": \"auto mozilla::SupportChecker::AddMediaFormatChecker(const TrackInfo &)::(anonymous class)::operator()() const: Decoder may not have the capability to handle the requested video format with YUV444 chroma subsampling.\"\n  }\n}\nControl sample: avc1.64001f\n{\n  \"codec\": {\n    \"profile\": 100,\n    \"compatibility\": 0,\n    \"level\": 31,\n    \"codec\": \"avc1.64001f\"\n  },\n  \"currentSrc\": \"file:///Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042795/testcase/assets/control_h264_high.mp4\",\n  \"readyState\": 4,\n  \"networkState\": 1,\n  \"paused\": false,\n  \"currentTime\": 1.486056,\n  \"duration\": 5.055,\n  \"videoWidth\": 960,\n  \"videoHeight\": 540,\n  \"error\": null\n}"
-  }
+    }
+  ]
 }

@@ -1,0 +1,662 @@
+{
+  "task": "featurePage",
+  "browser": "chrome",
+  "executablePath": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+  "requestedUrl": "https://notebooklm.google.com/notebook",
+  "finalUrl": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fnotebooklm.google.com%2Flogin%3Fcontinue%3Dhttps%3A%2F%2Fnotebooklm.google.com%2Fnotebook&dsh=S1023518771%3A1780152904897197&followup=https%3A%2F%2Fnotebooklm.google.com%2Flogin%3Fcontinue%3Dhttps%3A%2F%2Fnotebooklm.google.com%2Fnotebook&osid=1&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&ifkv=AWa2Pavpkr85gPdmZndCBLaMYdpqQ_WTs0dSuwIB0BHgo52ysCigPTwk9WnSIAHXlNg6JtD-9wElpQ",
+  "httpStatus": 200,
+  "navigationError": null,
+  "viewport": {
+    "width": 1280,
+    "height": 900
+  },
+  "events": {
+    "console": [
+      {
+        "type": "verbose",
+        "text": "[DOM] Input elements should have autocomplete attributes (suggested: \"current-password\"): (More info: https://goo.gl/9p2vKq) %o"
+      }
+    ],
+    "pageErrors": [],
+    "requestFailures": []
+  },
+  "page": {
+    "url": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fnotebooklm.google.com%2Flogin%3Fcontinue%3Dhttps%3A%2F%2Fnotebooklm.google.com%2Fnotebook&dsh=S1023518771%3A1780152904897197&followup=https%3A%2F%2Fnotebooklm.google.com%2Flogin%3Fcontinue%3Dhttps%3A%2F%2Fnotebooklm.google.com%2Fnotebook&osid=1&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&ifkv=AWa2Pavpkr85gPdmZndCBLaMYdpqQ_WTs0dSuwIB0BHgo52ysCigPTwk9WnSIAHXlNg6JtD-9wElpQ",
+    "title": "Sign in - Google Accounts",
+    "readyState": "complete",
+    "scrollX": 0,
+    "scrollY": 0,
+    "viewport": {
+      "innerWidth": 1280,
+      "innerHeight": 900,
+      "devicePixelRatio": 1
+    },
+    "documentElement": {
+      "clientWidth": 1280,
+      "clientHeight": 900,
+      "scrollWidth": 1280,
+      "scrollHeight": 900
+    },
+    "bodyTextSample": "Sign in\n\nwith your Google Account. This account will be available to other Google apps in the browser.\n\nEmail or phone\n\nForgot email?\n\nNot your computer? Use a private browsing window to sign in. Learn more about using Guest mode\n\nNext\nCreate account\nAfrikaans\nazərbaycan\nbosanski\ncatalà\nČeština\nCymraeg\nDansk\nDeutsch\neesti\nEnglish (United Kingdom)\nEnglish (United States)\nEspañol (España)\nEspañol (Latinoamérica)\neuskara\nFilipino\nFrançais (Canada)\nFrançais (France)\nGaeilge\ngalego\nHrvatski\nIndonesia\nisiZulu\níslenska\nItaliano\nKiswahili\nlatviešu\nlietuvių\nmagyar\nMelayu\nNederlands\nnorsk\no‘zbek\npolski\nPortuguês (Brasil)\nPortuguês (Portugal)\nromână\nshqip\nSlovenčina\nslovenščina\nsrpski (latinica)\nSuomi\nSvenska\nTiếng Việt\nTürkçe\nΕλληνικά\nбеларуская\nбългарски\nкыргызча\nқазақ тілі\nмакедонски\nмонгол\nРусский\nсрпски (ћирилица)\nУкраїнська\nქართული\nհայերեն\n‫עברית‬‎\n‫اردو‬‎\n‫العربية‬‎\n‫فارسی‬‎\nአማርኛ\nनेपाली\nमराठी\nहिन्दी\nঅসমীয়া\nবাংলা\nਪੰਜਾਬੀ\nગુજરાતી\nଓଡ଼ିଆ\nதமிழ்\nతెలుగు\nಕನ್ನಡ\nമലയാളം\nසිංහල\nไทย\nລາວ\nမြန်မာ\nខ្មែរ\n한국어\n中文（香港）\n日本語\n简体中文\n繁體中文\nHelpPrivacyTerms"
+  },
+  "taskResult": {
+    "screenshots": {
+      "page": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_1944547/probe_chrome148/feature_page.png"
+    },
+    "featureSupport": {
+      "speechRecognition": true,
+      "webkitSpeechRecognition": true,
+      "showOpenFilePicker": true,
+      "launchQueue": true,
+      "serviceWorker": true,
+      "getUserMedia": true,
+      "credentials": true,
+      "clipboardRead": true,
+      "pictureInPictureEnabled": true,
+      "webkitSupportsFullscreen": true,
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/148.0.0.0 Safari/537.36"
+    },
+    "visible": [
+      {
+        "index": 1,
+        "tag": "div",
+        "label": "Sign in with your Google Account. This account will be available to other Google apps in the browser. Email or phone Forgot email? Not your computer? Use a private browsing window to sign in. Learn more about using Guest mode Next Create account Afrikaans azərbaycan bosanski català Čeština Cymraeg Dansk Deutsch eesti English (United Kingdom) English (United States) Español (España) Español (Latino",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 900
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 2,
+        "tag": "div",
+        "label": "Sign in with your Google Account. This account will be available to other Google apps in the browser. Email or phone Forgot email? Not your computer? Use a private browsing window to sign in. Learn more about using Guest mode Next Create account Afrikaans azərbaycan bosanski català Čeština Cymraeg Dansk Deutsch eesti English (United Kingdom) English (United States) Español (España) Español (Latino",
+        "rect": {
+          "x": 415,
+          "y": 197,
+          "width": 450,
+          "height": 505.984375
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 3,
+        "tag": "div",
+        "label": "Sign in with your Google Account. This account will be available to other Google apps in the browser. Email or phone Forgot email? Not your computer? Use a private browsing window to sign in. Learn more about using Guest mode Next Create account Or16q",
+        "rect": {
+          "x": 416,
+          "y": 198,
+          "width": 448,
+          "height": 503.984375
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 4,
+        "tag": "div",
+        "label": "Sign in with your Google Account. This account will be available to other Google apps in the browser. Email or phone Forgot email? Not your computer? Use a private browsing window to sign in. Learn more about using Guest mode Next Create account",
+        "rect": {
+          "x": 456,
+          "y": 246,
+          "width": 368,
+          "height": 435.984375
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 5,
+        "tag": "div",
+        "label": "gEc4r",
+        "rect": {
+          "x": 456,
+          "y": 246,
+          "width": 368,
+          "height": 24
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 6,
+        "tag": "img",
+        "label": "Google TrZEUc",
+        "rect": {
+          "x": 603,
+          "y": 246,
+          "width": 74,
+          "height": 24
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 7,
+        "tag": "div",
+        "label": "Sign in with your Google Account. This account will be available to other Google apps in the browser. Email or phone Forgot email? Not your computer? Use a private browsing window to sign in. Learn more about using Guest mode Next Create account EQIoSc",
+        "rect": {
+          "x": 456,
+          "y": 270,
+          "width": 368,
+          "height": 411.984375
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 8,
+        "tag": "div",
+        "label": "Sign in with your Google Account. This account will be available to other Google apps in the browser.",
+        "rect": {
+          "x": 456,
+          "y": 270,
+          "width": 368,
+          "height": 103.984375
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 9,
+        "tag": "div",
+        "label": "Sign in with your Google Account. This account will be available to other Google apps in the browser. aMfydd",
+        "rect": {
+          "x": 456,
+          "y": 270,
+          "width": 368,
+          "height": 103.984375
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 10,
+        "tag": "h1",
+        "label": "Sign in Tn0LBd",
+        "rect": {
+          "x": 456,
+          "y": 270,
+          "width": 368,
+          "height": 47.984375
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 11,
+        "tag": "p",
+        "label": "with your Google Account. This account will be available to other Google apps in the browser. a2CQh",
+        "rect": {
+          "x": 456,
+          "y": 317.984375,
+          "width": 368,
+          "height": 56
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 12,
+        "tag": "div",
+        "label": "Email or phone Forgot email? iEhbme",
+        "rect": {
+          "x": 456,
+          "y": 373.984375,
+          "width": 368,
+          "height": 120
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 13,
+        "tag": "div",
+        "label": "Email or phone Forgot email? yOnVIb",
+        "rect": {
+          "x": 432,
+          "y": 405.984375,
+          "width": 416,
+          "height": 88
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 14,
+        "tag": "div",
+        "label": "Email or phone Fu5aXd",
+        "rect": {
+          "x": 456,
+          "y": 405.984375,
+          "width": 368,
+          "height": 56
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 15,
+        "tag": "div",
+        "label": "Email or phone Flfooc",
+        "rect": {
+          "x": 456,
+          "y": 405.984375,
+          "width": 368,
+          "height": 56
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 16,
+        "tag": "div",
+        "label": "Email or phone TRuRhd YKooDc",
+        "rect": {
+          "x": 456,
+          "y": 405.984375,
+          "width": 368,
+          "height": 56
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 17,
+        "tag": "div",
+        "label": "Email or phone fjpXlc",
+        "rect": {
+          "x": 456,
+          "y": 405.984375,
+          "width": 368,
+          "height": 56
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 18,
+        "tag": "div",
+        "label": "Email or phone nWPx2e",
+        "rect": {
+          "x": 456,
+          "y": 405.984375,
+          "width": 368,
+          "height": 56
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 19,
+        "tag": "div",
+        "label": "YhhY8",
+        "rect": {
+          "x": 456,
+          "y": 405.984375,
+          "width": 8,
+          "height": 56
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 20,
+        "tag": "div",
+        "label": "Email or phone CCQ94b",
+        "rect": {
+          "x": 464,
+          "y": 399.984375,
+          "width": 92.71875,
+          "height": 62
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 21,
+        "tag": "div",
+        "label": "tNASEf",
+        "rect": {
+          "x": 556.71875,
+          "y": 405.984375,
+          "width": 267.28125,
+          "height": 56
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 24,
+        "tag": "p",
+        "label": "Forgot email? vOZun",
+        "rect": {
+          "x": 456,
+          "y": 461.984375,
+          "width": 368,
+          "height": 32
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 25,
+        "tag": "a",
+        "label": "Forgot email?",
+        "rect": {
+          "x": 456,
+          "y": 470.984375,
+          "width": 88.84375,
+          "height": 20
+        },
+        "visible": true,
+        "display": "inline-block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 30,
+        "tag": "span",
+        "label": "Not your computer? Use a private browsing window to sign in. Learn more about using Guest mode",
+        "rect": {
+          "x": 456,
+          "y": 525.984375,
+          "width": 368,
+          "height": 52
+        },
+        "visible": true,
+        "display": "inline",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 31,
+        "tag": "div",
+        "label": "Not your computer? Use a private browsing window to sign in. Learn more about using Guest mode D4rY0b",
+        "rect": {
+          "x": 456,
+          "y": 525.984375,
+          "width": 368,
+          "height": 52
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 32,
+        "tag": "p",
+        "label": "Not your computer? Use a private browsing window to sign in. Learn more about using Guest mode vOZun",
+        "rect": {
+          "x": 456,
+          "y": 525.984375,
+          "width": 368,
+          "height": 52
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 33,
+        "tag": "a",
+        "label": "Learn more about using Guest mode (external, opens in a new window) Learn more about using Guest mode",
+        "rect": {
+          "x": 474.6875,
+          "y": 554.984375,
+          "width": 236.28125,
+          "height": 20
+        },
+        "visible": true,
+        "display": "inline-block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 34,
+        "tag": "div",
+        "label": "Next Create account i2knIc",
+        "rect": {
+          "x": 448,
+          "y": 609.984375,
+          "width": 376,
+          "height": 72
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 35,
+        "tag": "div",
+        "label": "Next Create account wg0fFb",
+        "rect": {
+          "x": 448,
+          "y": 609.984375,
+          "width": 376,
+          "height": 52
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 36,
+        "tag": "div",
+        "label": "Next RhTxBf",
+        "rect": {
+          "x": 653.828125,
+          "y": 609.984375,
+          "width": 170.171875,
+          "height": 36
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 37,
+        "tag": "button",
+        "label": "Next identifierNext JnOM6e TrZEUc Pbg5uc rDisVe",
+        "rect": {
+          "x": 746.609375,
+          "y": 609.984375,
+          "width": 77.390625,
+          "height": 36
+        },
+        "visible": true,
+        "display": "inline-block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 38,
+        "tag": "div",
+        "label": "Create account tmMcIf",
+        "rect": {
+          "x": 448,
+          "y": 609.984375,
+          "width": 205.828125,
+          "height": 36
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 39,
+        "tag": "a",
+        "label": "Create account JnOM6e TrZEUc kTeh9 Pbg5uc KXbQ4b",
+        "rect": {
+          "x": 448,
+          "y": 609.984375,
+          "width": 113.046875,
+          "height": 36
+        },
+        "visible": true,
+        "display": "inline-block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 40,
+        "tag": "div",
+        "label": "Afrikaans azərbaycan bosanski català Čeština Cymraeg Dansk Deutsch eesti English (United Kingdom) English (United States) Español (España) Español (Latinoamérica) euskara Filipino Français (Canada) Français (France) Gaeilge galego Hrvatski Indonesia isiZulu íslenska Italiano Kiswahili latviešu lietuvių magyar Melayu Nederlands norsk o‘zbek polski Português (Brasil) Português (Portugal) română shqi",
+        "rect": {
+          "x": 400,
+          "y": 701.984375,
+          "width": 177,
+          "height": 48
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 41,
+        "tag": "a",
+        "label": "Help pUP0Nd TrZEUc",
+        "rect": {
+          "x": 687.296875,
+          "y": 701.984375,
+          "width": 56.6875,
+          "height": 48
+        },
+        "visible": true,
+        "display": "inline-block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 42,
+        "tag": "span",
+        "label": "Help UskCyf",
+        "rect": {
+          "x": 703.296875,
+          "y": 718.984375,
+          "width": 24.6875,
+          "height": 14
+        },
+        "visible": true,
+        "display": "inline",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 43,
+        "tag": "a",
+        "label": "Privacy pUP0Nd TrZEUc",
+        "rect": {
+          "x": 743.984375,
+          "y": 701.984375,
+          "width": 71.34375,
+          "height": 48
+        },
+        "visible": true,
+        "display": "inline-block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 44,
+        "tag": "span",
+        "label": "Privacy UskCyf",
+        "rect": {
+          "x": 759.984375,
+          "y": 718.984375,
+          "width": 39.34375,
+          "height": 14
+        },
+        "visible": true,
+        "display": "inline",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 45,
+        "tag": "a",
+        "label": "Terms pUP0Nd TrZEUc",
+        "rect": {
+          "x": 815.328125,
+          "y": 701.984375,
+          "width": 64.671875,
+          "height": 48
+        },
+        "visible": true,
+        "display": "inline-block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 46,
+        "tag": "span",
+        "label": "Terms UskCyf",
+        "rect": {
+          "x": 831.328125,
+          "y": 718.984375,
+          "width": 32.671875,
+          "height": 14
+        },
+        "visible": true,
+        "display": "inline",
+        "visibility": "visible",
+        "opacity": "1"
+      }
+    ]
+  }
+}

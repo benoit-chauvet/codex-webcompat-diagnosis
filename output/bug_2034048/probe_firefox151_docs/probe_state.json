@@ -1,0 +1,2335 @@
+{
+  "task": "featurePage",
+  "browser": "firefox",
+  "executablePath": "/Applications/Firefox.app/Contents/MacOS/firefox",
+  "requestedUrl": "https://www.canva.com/en_au/help/set-up-offline-access/#get-started-with-offline-editing",
+  "finalUrl": "https://www.canva.com/en_au/help/set-up-offline-access/#get-started-with-offline-editing",
+  "httpStatus": 200,
+  "navigationError": null,
+  "viewport": {
+    "width": 1280,
+    "height": 900
+  },
+  "events": {
+    "console": [
+      {
+        "type": "warn",
+        "text": "[GSI_LOGGER]: Your client application uses one of the Google One Tap prompt UI status methods that may stop functioning when FedCM becomes mandatory. Refer to the migration guide to update your code accordingly and opt-in to FedCM to test your changes. Learn more: https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#display_moment and https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#skipped_moment"
+      }
+    ],
+    "pageErrors": [
+      {
+        "name": "Error",
+        "message": "TypeError: this.api.logApiCall is not a function"
+      },
+      {
+        "name": "Error",
+        "message": "TypeError: this.api.logApiCall is not a function"
+      }
+    ],
+    "requestFailures": []
+  },
+  "page": {
+    "url": "https://www.canva.com/en_au/help/set-up-offline-access/#get-started-with-offline-editing",
+    "title": "Set up and use offline editing in Canva - Canva Help Centre",
+    "readyState": "complete",
+    "scrollX": 0,
+    "scrollY": 0,
+    "viewport": {
+      "innerWidth": 1280,
+      "innerHeight": 900,
+      "devicePixelRatio": 1
+    },
+    "documentElement": {
+      "clientWidth": 1280,
+      "clientHeight": 900,
+      "scrollWidth": 1280,
+      "scrollHeight": 9962
+    },
+    "bodyTextSample": "Loading finished\n\nSkip to main content\n\nCanva home\nDesign\nProduct\nPlans\nBusiness\nEducation\nHelp\nSign up\nLog in\nHelp Centre\nSubmit Search\nHelp Centre\n\n...\n\n...\n\nSet up and use offline editing in Canva\nSet up and use offline editing in Canva\n\nIN THIS ARTICLE\n\nGet started with offline editing\n\nBefore you go offline\n\nMake designs available offline\n\nEdit your designs offline\n\nWhat you can do while offline\n\nUpload images while offline\n\nWhat needs internet\n\nSave your changes\n\nManage offline storage\n\nSet up offline design permissions\n\nQuick troubleshooting\n\nFAQs\n\nRelated guides\n\nEdit your Canva designs without an internet connection. Work offline, then sync your changes when you're back online.\n\nGet started with offline editing\n\nBefore you start working offline, you'll need to set things up while you're online.\n\nSupported devices\n\nChrome, Edge, or Safari (desktop browsers)\nFirefox (versions below 149)\nCanva desktop app\nAndroid app\nMobile browsers\n\nNot supported:\n\niOS and iPad apps\nFirefox (versions 149 and above)\nPrivate or incognito mode\nBefore you go offline\n\nMake sure you understand these key limits before working offline:\n\nYou must make your designs available offline first.\nDesigns enabled for offline are available on the device only, and won’t be available on other devices.\nYou can only edit existing designs (no new designs offline)\nSome features won’t work without internet.\nYour changes are saved locally on your device.\nYou can work offline for up to 14 days.\nDon’t sign out while online, this removes offline designs.\nAvoid adding video or audio while offline, as this may caus"
+  },
+  "taskResult": {
+    "screenshots": {
+      "page": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2034048/probe_firefox151_docs/feature_page.png"
+    },
+    "featureSupport": {
+      "speechRecognition": false,
+      "webkitSpeechRecognition": false,
+      "showOpenFilePicker": false,
+      "launchQueue": false,
+      "serviceWorker": true,
+      "getUserMedia": true,
+      "credentials": true,
+      "clipboardRead": true,
+      "webkitSupportsFullscreen": false,
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:151.0) Gecko/20100101 Firefox/151.0"
+    },
+    "visible": [
+      {
+        "index": 6,
+        "tag": "div",
+        "label": "Skip to main content Canva home Design Product Plans Business Education Help Sign up Log in Help Centre Submit Search Help Centre ... ... Set up and use offline editing in Canva Set up and use offline editing in Canva IN THIS ARTICLE Get started with offline editing Before you go offline Make designs available offline Edit your designs offline What you can do while offline Upload images while offl",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 9962
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 7,
+        "tag": "div",
+        "label": "Skip to main content Canva home Design Product Plans Business Education Help Sign up Log in Help Centre Submit Search Help Centre ... ... Set up and use offline editing in Canva Set up and use offline editing in Canva IN THIS ARTICLE Get started with offline editing Before you go offline Make designs available offline Edit your designs offline What you can do while offline Upload images while offl",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 9962
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 8,
+        "tag": "div",
+        "label": "Skip to main content Canva home Design Product Plans Business Education Help Sign up Log in Help Centre Submit Search Help Centre ... ... Set up and use offline editing in Canva Set up and use offline editing in Canva IN THIS ARTICLE Get started with offline editing Before you go offline Make designs available offline Edit your designs offline What you can do while offline Upload images while offl",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 9962
+        },
+        "visible": true,
+        "display": "grid",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 11,
+        "tag": "a",
+        "label": "Skip to main content Ej7lEg WkdUeQ _3bC2IQ",
+        "rect": {
+          "x": 7,
+          "y": 7,
+          "width": 32,
+          "height": 54
+        },
+        "visible": true,
+        "display": "inline",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 12,
+        "tag": "span",
+        "label": "Skip to main content N00Reg",
+        "rect": {
+          "x": 7,
+          "y": 7,
+          "width": 32,
+          "height": 54
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 13,
+        "tag": "div",
+        "label": "Canva home Design Product Plans Business Education Help Sign up Log in bYNRjQ R6drfw NisvUg",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 80
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 14,
+        "tag": "div",
+        "label": "Canva home Design Product Plans Business Education Help Sign up Log in Vq1Qrg KDEQLA BMOCzQ LuBWVA",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 80
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 16,
+        "tag": "div",
+        "label": "Canva home Design Product Plans Business Education Help Sign up Log in NNbVxg BMOCzQ fOwrSw LuBWVA",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 80
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 17,
+        "tag": "div",
+        "label": "Canva home Design Product Plans Business Education Help Sign up Log in _6QpqYA _h2n8A BMOCzQ fOwrSw LuBWVA",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 80
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 18,
+        "tag": "div",
+        "label": "Canva home Design Product Plans Business Education Help Sign up Log in theme light fA_rnA BMOCzQ fOwrSw _6Mu4Ow MYb60A LuBWVA",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 80
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 19,
+        "tag": "div",
+        "label": "Canva home Design Product Plans Business Education Help Sign up Log in eRuTAw BMOCzQ fOwrSw EC2pjw _6Mu4Ow FQ64gg LuBWVA",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 80
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 20,
+        "tag": "div",
+        "label": "Canva home Fdg5UQ BMOCzQ _6Mu4Ow _WIyVQ FQ64gg LuBWVA",
+        "rect": {
+          "x": 48,
+          "y": 24,
+          "width": 352.83331298828125,
+          "height": 32
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 21,
+        "tag": "div",
+        "label": "Canva home Hjt0Ug Fdg5UQ BMOCzQ _6Mu4Ow FQ64gg LuBWVA",
+        "rect": {
+          "x": 48,
+          "y": 24,
+          "width": 352.83331298828125,
+          "height": 32
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 213,
+        "tag": "a",
+        "label": "Canva home Ej7lEg WkdUeQ _3bC2IQ",
+        "rect": {
+          "x": 48,
+          "y": 24,
+          "width": 90,
+          "height": 32
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 215,
+        "tag": "div",
+        "label": "ObdJzA BmJe0A BMOCzQ LuBWVA",
+        "rect": {
+          "x": 48,
+          "y": 24,
+          "width": 90,
+          "height": 32
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 216,
+        "tag": "span",
+        "label": "_0ZlDwQ",
+        "rect": {
+          "x": 48,
+          "y": 24,
+          "width": 90,
+          "height": 33.75
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 217,
+        "tag": "img",
+        "label": "",
+        "rect": {
+          "x": 48,
+          "y": 24,
+          "width": 90,
+          "height": 33.75
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 219,
+        "tag": "div",
+        "label": "Design Product Plans Business Education Help FSXSWQ BMOCzQ LuBWVA",
+        "rect": {
+          "x": 408.83331298828125,
+          "y": 24,
+          "width": 462.3333435058594,
+          "height": 32
+        },
+        "visible": true,
+        "display": "grid",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 220,
+        "tag": "div",
+        "label": "Design Product Plans Business Education Help Lvj8DA",
+        "rect": {
+          "x": 408.83331298828125,
+          "y": 24,
+          "width": 462.3333435058594,
+          "height": 32
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 221,
+        "tag": "button",
+        "label": "Design PuABGQ A_H5UA do3Vpg n156ng BMOCzQ fOwrSw _6Mu4Ow FQ64gg LuBWVA uMo6Kw YnfReg vFBXLA",
+        "rect": {
+          "x": 432.83331298828125,
+          "y": 24,
+          "width": 62.116668701171875,
+          "height": 32
+        },
+        "visible": true,
+        "display": "grid",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 222,
+        "tag": "span",
+        "label": "Design aWBg0w aZskFA u16U_g",
+        "rect": {
+          "x": 440.83331298828125,
+          "y": 29,
+          "width": 46.116668701171875,
+          "height": 22
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 223,
+        "tag": "button",
+        "label": "Product PuABGQ A_H5UA do3Vpg n156ng BMOCzQ fOwrSw _6Mu4Ow FQ64gg LuBWVA uMo6Kw YnfReg vFBXLA",
+        "rect": {
+          "x": 498.95001220703125,
+          "y": 24,
+          "width": 70.48333740234375,
+          "height": 32
+        },
+        "visible": true,
+        "display": "grid",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 224,
+        "tag": "span",
+        "label": "Product aWBg0w aZskFA u16U_g",
+        "rect": {
+          "x": 506.95001220703125,
+          "y": 29,
+          "width": 54.48333740234375,
+          "height": 22
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 225,
+        "tag": "button",
+        "label": "Plans PuABGQ A_H5UA do3Vpg n156ng BMOCzQ fOwrSw _6Mu4Ow FQ64gg LuBWVA uMo6Kw YnfReg vFBXLA",
+        "rect": {
+          "x": 573.433349609375,
+          "y": 24,
+          "width": 52.899993896484375,
+          "height": 32
+        },
+        "visible": true,
+        "display": "grid",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 226,
+        "tag": "span",
+        "label": "Plans aWBg0w aZskFA u16U_g",
+        "rect": {
+          "x": 581.433349609375,
+          "y": 29,
+          "width": 36.899993896484375,
+          "height": 22
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 227,
+        "tag": "button",
+        "label": "Business PuABGQ A_H5UA do3Vpg n156ng BMOCzQ fOwrSw _6Mu4Ow FQ64gg LuBWVA uMo6Kw YnfReg vFBXLA",
+        "rect": {
+          "x": 630.3333129882812,
+          "y": 24,
+          "width": 75.95001220703125,
+          "height": 32
+        },
+        "visible": true,
+        "display": "grid",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 228,
+        "tag": "span",
+        "label": "Business aWBg0w aZskFA u16U_g",
+        "rect": {
+          "x": 638.3333129882812,
+          "y": 29,
+          "width": 59.95001220703125,
+          "height": 22
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 229,
+        "tag": "button",
+        "label": "Education PuABGQ A_H5UA do3Vpg n156ng BMOCzQ fOwrSw _6Mu4Ow FQ64gg LuBWVA uMo6Kw YnfReg vFBXLA",
+        "rect": {
+          "x": 710.2833251953125,
+          "y": 24,
+          "width": 84.79998779296875,
+          "height": 32
+        },
+        "visible": true,
+        "display": "grid",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 230,
+        "tag": "span",
+        "label": "Education aWBg0w aZskFA u16U_g",
+        "rect": {
+          "x": 718.2833251953125,
+          "y": 29,
+          "width": 68.79998779296875,
+          "height": 22
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 231,
+        "tag": "button",
+        "label": "Help PuABGQ A_H5UA do3Vpg n156ng BMOCzQ fOwrSw _6Mu4Ow FQ64gg LuBWVA uMo6Kw YnfReg vFBXLA",
+        "rect": {
+          "x": 799.0833129882812,
+          "y": 24,
+          "width": 48.083343505859375,
+          "height": 32
+        },
+        "visible": true,
+        "display": "grid",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 232,
+        "tag": "span",
+        "label": "Help aWBg0w aZskFA u16U_g",
+        "rect": {
+          "x": 807.0833129882812,
+          "y": 29,
+          "width": 32.083343505859375,
+          "height": 22
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 234,
+        "tag": "div",
+        "label": "Sign up Log in Fdg5UQ BMOCzQ _6Mu4Ow YgHDng FQ64gg LuBWVA",
+        "rect": {
+          "x": 879.1666870117188,
+          "y": 24,
+          "width": 352.83331298828125,
+          "height": 32
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 235,
+        "tag": "div",
+        "label": "Sign up Log in uy0XCA BMOCzQ _6Mu4Ow FQ64gg LuBWVA",
+        "rect": {
+          "x": 1085.5833740234375,
+          "y": 24,
+          "width": 146.4166717529297,
+          "height": 32
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 236,
+        "tag": "div",
+        "label": "Sign up Lvj8DA",
+        "rect": {
+          "x": 1085.5833740234375,
+          "y": 24,
+          "width": 74,
+          "height": 32
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 237,
+        "tag": "button",
+        "label": "Sign up _5KtATA LQzFZw VgvqkQ _8ERLTg Z3nT2A LQzFZw VgvqkQ f5yKmw j34Zww aqbYPg _3FvZZg UB5XWg",
+        "rect": {
+          "x": 1085.5833740234375,
+          "y": 24,
+          "width": 74,
+          "height": 32
+        },
+        "visible": true,
+        "display": "inline-flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 238,
+        "tag": "span",
+        "label": "Sign up khPe7Q",
+        "rect": {
+          "x": 1097.5833740234375,
+          "y": 29,
+          "width": 50,
+          "height": 22
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 239,
+        "tag": "button",
+        "label": "Log in _5KtATA LQzFZw VgvqkQ _8ERLTg rV61VQ LQzFZw VgvqkQ f5yKmw j34Zww aqbYPg _3FvZZg t61TJQ",
+        "rect": {
+          "x": 1167.5833740234375,
+          "y": 24,
+          "width": 64.41667175292969,
+          "height": 32
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 240,
+        "tag": "span",
+        "label": "Log in khPe7Q",
+        "rect": {
+          "x": 1179.5833740234375,
+          "y": 29,
+          "width": 40.41667175292969,
+          "height": 22
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 242,
+        "tag": "div",
+        "label": "Help Centre Submit Search Help Centre ... ... Set up and use offline editing in Canva Set up and use offline editing in Canva IN THIS ARTICLE Get started with offline editing Before you go offline Make designs available offline Edit your designs offline What you can do while offline Upload images while offline What needs internet Save your changes Manage offline storage Set up offline design permi",
+        "rect": {
+          "x": 0,
+          "y": 80,
+          "width": 1280,
+          "height": 9882
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 244,
+        "tag": "div",
+        "label": "Help Centre Submit Search Help Centre ... ... Set up and use offline editing in Canva Set up and use offline editing in Canva IN THIS ARTICLE Get started with offline editing Before you go offline Make designs available offline Edit your designs offline What you can do while offline Upload images while offline What needs internet Save your changes Manage offline storage Set up offline design permi",
+        "rect": {
+          "x": 8,
+          "y": 88,
+          "width": 1264,
+          "height": 9874
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 245,
+        "tag": "div",
+        "label": "Help Centre Submit Search Help Centre ... ... Set up and use offline editing in Canva Set up and use offline editing in Canva IN THIS ARTICLE Get started with offline editing Before you go offline Make designs available offline Edit your designs offline What you can do while offline Upload images while offline What needs internet Save your changes Manage offline storage Set up offline design permi",
+        "rect": {
+          "x": 8,
+          "y": 88,
+          "width": 1264,
+          "height": 9874
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 246,
+        "tag": "div",
+        "label": "Help Centre Submit Search BMOCzQ _6Mu4Ow uN3EIA MYb60A LuBWVA",
+        "rect": {
+          "x": 8,
+          "y": 88,
+          "width": 1264,
+          "height": 112
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 247,
+        "tag": "div",
+        "label": "Help Centre Submit Search BMOCzQ fOwrSw EC2pjw _6Mu4Ow uN3EIA FQ64gg LuBWVA",
+        "rect": {
+          "x": 8,
+          "y": 88,
+          "width": 1264,
+          "height": 112
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 248,
+        "tag": "div",
+        "label": "Help Centre XGMRGA BMOCzQ fOwrSw EC2pjw LuBWVA",
+        "rect": {
+          "x": 24,
+          "y": 96,
+          "width": 1232,
+          "height": 32
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 249,
+        "tag": "a",
+        "label": "Help Centre Ej7lEg pTsp_A _3bC2IQ",
+        "rect": {
+          "x": 48,
+          "y": 96,
+          "width": 1184,
+          "height": 32
+        },
+        "visible": true,
+        "display": "inline",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 250,
+        "tag": "h3",
+        "label": "Help Centre _7ATl0g aZskFA u16U_g",
+        "rect": {
+          "x": 48,
+          "y": 96,
+          "width": 1184,
+          "height": 32
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 251,
+        "tag": "div",
+        "label": "Submit Search BMOCzQ fOwrSw _6Mu4Ow MYb60A LuBWVA",
+        "rect": {
+          "x": 24,
+          "y": 128,
+          "width": 1232,
+          "height": 64
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 252,
+        "tag": "div",
+        "label": "Submit Search nvwN1g BMOCzQ EC2pjw LuBWVA",
+        "rect": {
+          "x": 400,
+          "y": 128,
+          "width": 480,
+          "height": 64
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 253,
+        "tag": "div",
+        "label": "Submit Search _94P4tA",
+        "rect": {
+          "x": 400,
+          "y": 144,
+          "width": 480,
+          "height": 40
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 255,
+        "tag": "div",
+        "label": "KG7fEA RojmUw",
+        "rect": {
+          "x": 400,
+          "y": 144,
+          "width": 480,
+          "height": 40
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 256,
+        "tag": "div",
+        "label": "CW_yWQ Pe8c4g SNEyeQ XLEWAA gj85JQ",
+        "rect": {
+          "x": 400,
+          "y": 144,
+          "width": 480,
+          "height": 40
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 257,
+        "tag": "div",
+        "label": "_0ViUFA BKK6_g",
+        "rect": {
+          "x": 404,
+          "y": 145,
+          "width": 36,
+          "height": 38
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 258,
+        "tag": "span",
+        "label": "_9HegA _6XqXLQ Pk6ZMQ aOnMLw",
+        "rect": {
+          "x": 408,
+          "y": 152,
+          "width": 24,
+          "height": 24
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 260,
+        "tag": "button",
+        "label": "Submit Search",
+        "rect": {
+          "x": -1,
+          "y": 79,
+          "width": 102.43333435058594,
+          "height": 22
+        },
+        "visible": true,
+        "display": "inline-block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 262,
+        "tag": "div",
+        "label": "Help Centre ... ... Set up and use offline editing in Canva Set up and use offline editing in Canva IN THIS ARTICLE Get started with offline editing Before you go offline Make designs available offline Edit your designs offline What you can do while offline Upload images while offline What needs internet Save your changes Manage offline storage Set up offline design permissions Quick troubleshooti",
+        "rect": {
+          "x": 8,
+          "y": 201,
+          "width": 1264,
+          "height": 8341
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 263,
+        "tag": "div",
+        "label": "Help Centre ... ... Set up and use offline editing in Canva Set up and use offline editing in Canva IN THIS ARTICLE Get started with offline editing Before you go offline Make designs available offline Edit your designs offline What you can do while offline Upload images while offline What needs internet Save your changes Manage offline storage Set up offline design permissions Quick troubleshooti",
+        "rect": {
+          "x": 258,
+          "y": 201,
+          "width": 764,
+          "height": 8341
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 264,
+        "tag": "div",
+        "label": "Help Centre ... ... Set up and use offline editing in Canva Set up and use offline editing in Canva IN THIS ARTICLE Get started with offline editing Before you go offline Make designs available offline Edit your designs offline What you can do while offline Upload images while offline What needs internet Save your changes Manage offline storage Set up offline design permissions Quick troubleshooti",
+        "rect": {
+          "x": 258,
+          "y": 201,
+          "width": 764,
+          "height": 8341
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 265,
+        "tag": "div",
+        "label": "Help Centre ... ... Set up and use offline editing in Canva BMOCzQ EC2pjw LuBWVA",
+        "rect": {
+          "x": 290,
+          "y": 201,
+          "width": 700,
+          "height": 54
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 266,
+        "tag": "span",
+        "label": "_8aVEnQ",
+        "rect": {
+          "x": 290,
+          "y": 217,
+          "width": 16,
+          "height": 16
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 267,
+        "tag": "a",
+        "label": "Help Centre Ej7lEg pTsp_A _3bC2IQ",
+        "rect": {
+          "x": 290,
+          "y": 233,
+          "width": 81.01666259765625,
+          "height": 22
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 268,
+        "tag": "span",
+        "label": "Help Centre aWBg0w aZskFA u16U_g",
+        "rect": {
+          "x": 290,
+          "y": 234,
+          "width": 81.01666259765625,
+          "height": 20
+        },
+        "visible": true,
+        "display": "inline",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 269,
+        "tag": "span",
+        "label": "hQTWkQ njlxGQ Pk6ZMQ uUy_1w",
+        "rect": {
+          "x": 379.01666259765625,
+          "y": 236,
+          "width": 16,
+          "height": 16
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 271,
+        "tag": "button",
+        "label": "Show hidden breadcrumb item ... _5KtATA LQzFZw VgvqkQ _8ERLTg Ao21pw LQzFZw VgvqkQ j34Zww aqbYPg _3FvZZg w5ZkaA",
+        "rect": {
+          "x": 403.01666259765625,
+          "y": 233,
+          "width": 15.050003051757812,
+          "height": 22
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 272,
+        "tag": "span",
+        "label": "... khPe7Q",
+        "rect": {
+          "x": 405.01666259765625,
+          "y": 233,
+          "width": 11.050003051757812,
+          "height": 22
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 273,
+        "tag": "p",
+        "label": "... aWBg0w aZskFA u16U_g",
+        "rect": {
+          "x": 405.01666259765625,
+          "y": 233,
+          "width": 11.050003051757812,
+          "height": 22
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 274,
+        "tag": "span",
+        "label": "hQTWkQ njlxGQ Pk6ZMQ uUy_1w",
+        "rect": {
+          "x": 426.066650390625,
+          "y": 236,
+          "width": 16,
+          "height": 16
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 276,
+        "tag": "button",
+        "label": "Show hidden breadcrumb item ... _5KtATA LQzFZw VgvqkQ _8ERLTg Ao21pw LQzFZw VgvqkQ j34Zww aqbYPg _3FvZZg w5ZkaA",
+        "rect": {
+          "x": 450.066650390625,
+          "y": 233,
+          "width": 15.050003051757812,
+          "height": 22
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 277,
+        "tag": "span",
+        "label": "... khPe7Q",
+        "rect": {
+          "x": 452.066650390625,
+          "y": 233,
+          "width": 11.050003051757812,
+          "height": 22
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 278,
+        "tag": "p",
+        "label": "... aWBg0w aZskFA u16U_g",
+        "rect": {
+          "x": 452.066650390625,
+          "y": 233,
+          "width": 11.050003051757812,
+          "height": 22
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 279,
+        "tag": "span",
+        "label": "hQTWkQ njlxGQ Pk6ZMQ uUy_1w",
+        "rect": {
+          "x": 473.1166687011719,
+          "y": 236,
+          "width": 16,
+          "height": 16
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 280,
+        "tag": "div",
+        "label": "Set up and use offline editing in Canva",
+        "rect": {
+          "x": 497.1166687011719,
+          "y": 233,
+          "width": 257.23333740234375,
+          "height": 22
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 281,
+        "tag": "button",
+        "label": "Set up and use offline editing in Canva - Expand breadcrumb Set up and use offline editing in Canva PuABGQ x__uvw BMOCzQ fOwrSw _6Mu4Ow LuBWVA vFBXLA",
+        "rect": {
+          "x": 497.1166687011719,
+          "y": 233,
+          "width": 257.23333740234375,
+          "height": 22
+        },
+        "visible": true,
+        "display": "inline-block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 282,
+        "tag": "span",
+        "label": "Set up and use offline editing in Canva aWBg0w aZskFA Ywwu0g",
+        "rect": {
+          "x": 497.1166687011719,
+          "y": 234,
+          "width": 257.23333740234375,
+          "height": 20
+        },
+        "visible": true,
+        "display": "inline",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 283,
+        "tag": "span",
+        "label": "_8aVEnQ",
+        "rect": {
+          "x": 290,
+          "y": 255,
+          "width": 16,
+          "height": 16
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 284,
+        "tag": "h1",
+        "label": "Set up and use offline editing in Canva _8yjy_A V5s4kA aZskFA u16U_g",
+        "rect": {
+          "x": 290,
+          "y": 271,
+          "width": 700,
+          "height": 40
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 285,
+        "tag": "div",
+        "label": "IN THIS ARTICLE BMOCzQ EC2pjw LuBWVA",
+        "rect": {
+          "x": 290,
+          "y": 319,
+          "width": 700,
+          "height": 36
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 286,
+        "tag": "p",
+        "label": "IN THIS ARTICLE _2a6tNg aZskFA T5LNnw MHu4Kw",
+        "rect": {
+          "x": 290,
+          "y": 335,
+          "width": 700,
+          "height": 20
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 287,
+        "tag": "span",
+        "label": "_8aVEnQ",
+        "rect": {
+          "x": 290,
+          "y": 355,
+          "width": 8,
+          "height": 8
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 288,
+        "tag": "button",
+        "label": "Get started with offline editing PuABGQ A_H5UA do3Vpg wx6ntw BMOCzQ fOwrSw _6Mu4Ow FQ64gg LuBWVA uMo6Kw YnfReg vFBXLA",
+        "rect": {
+          "x": 290,
+          "y": 363,
+          "width": 700,
+          "height": 40
+        },
+        "visible": true,
+        "display": "grid",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 289,
+        "tag": "span",
+        "label": "Get started with offline editing Ka9auQ",
+        "rect": {
+          "x": 286,
+          "y": 372,
+          "width": 688,
+          "height": 22
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 290,
+        "tag": "span",
+        "label": "aDc6Yg",
+        "rect": {
+          "x": 286,
+          "y": 375,
+          "width": 24,
+          "height": 16
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 291,
+        "tag": "span",
+        "label": "njlxGQ Pk6ZMQ",
+        "rect": {
+          "x": 294,
+          "y": 375,
+          "width": 16,
+          "height": 16
+        },
+        "visible": true,
+        "display": "inline-flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 292,
+        "tag": "span",
+        "label": "Get started with offline editing aDc6Yg",
+        "rect": {
+          "x": 310,
+          "y": 372,
+          "width": 664,
+          "height": 22
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 293,
+        "tag": "p",
+        "label": "Get started with offline editing aWBg0w aZskFA T5LNnw",
+        "rect": {
+          "x": 318,
+          "y": 372,
+          "width": 656,
+          "height": 22
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 294,
+        "tag": "button",
+        "label": "Before you go offline PuABGQ A_H5UA do3Vpg wx6ntw BMOCzQ fOwrSw _6Mu4Ow FQ64gg LuBWVA uMo6Kw YnfReg vFBXLA",
+        "rect": {
+          "x": 290,
+          "y": 407,
+          "width": 700,
+          "height": 40
+        },
+        "visible": true,
+        "display": "grid",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 295,
+        "tag": "span",
+        "label": "Before you go offline Ka9auQ",
+        "rect": {
+          "x": 286,
+          "y": 416,
+          "width": 688,
+          "height": 22
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 296,
+        "tag": "span",
+        "label": "aDc6Yg",
+        "rect": {
+          "x": 286,
+          "y": 419,
+          "width": 24,
+          "height": 16
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 297,
+        "tag": "span",
+        "label": "njlxGQ Pk6ZMQ",
+        "rect": {
+          "x": 294,
+          "y": 419,
+          "width": 16,
+          "height": 16
+        },
+        "visible": true,
+        "display": "inline-flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 298,
+        "tag": "span",
+        "label": "Before you go offline aDc6Yg",
+        "rect": {
+          "x": 310,
+          "y": 416,
+          "width": 664,
+          "height": 22
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 299,
+        "tag": "p",
+        "label": "Before you go offline aWBg0w aZskFA T5LNnw",
+        "rect": {
+          "x": 318,
+          "y": 416,
+          "width": 656,
+          "height": 22
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 300,
+        "tag": "button",
+        "label": "Make designs available offline PuABGQ A_H5UA do3Vpg wx6ntw BMOCzQ fOwrSw _6Mu4Ow FQ64gg LuBWVA uMo6Kw YnfReg vFBXLA",
+        "rect": {
+          "x": 290,
+          "y": 451,
+          "width": 700,
+          "height": 40
+        },
+        "visible": true,
+        "display": "grid",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 301,
+        "tag": "span",
+        "label": "Make designs available offline Ka9auQ",
+        "rect": {
+          "x": 286,
+          "y": 460,
+          "width": 688,
+          "height": 22
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 302,
+        "tag": "span",
+        "label": "aDc6Yg",
+        "rect": {
+          "x": 286,
+          "y": 463,
+          "width": 24,
+          "height": 16
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 303,
+        "tag": "span",
+        "label": "njlxGQ Pk6ZMQ",
+        "rect": {
+          "x": 294,
+          "y": 463,
+          "width": 16,
+          "height": 16
+        },
+        "visible": true,
+        "display": "inline-flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 304,
+        "tag": "span",
+        "label": "Make designs available offline aDc6Yg",
+        "rect": {
+          "x": 310,
+          "y": 460,
+          "width": 664,
+          "height": 22
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 305,
+        "tag": "p",
+        "label": "Make designs available offline aWBg0w aZskFA T5LNnw",
+        "rect": {
+          "x": 318,
+          "y": 460,
+          "width": 656,
+          "height": 22
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 306,
+        "tag": "button",
+        "label": "Edit your designs offline PuABGQ A_H5UA do3Vpg wx6ntw BMOCzQ fOwrSw _6Mu4Ow FQ64gg LuBWVA uMo6Kw YnfReg vFBXLA",
+        "rect": {
+          "x": 290,
+          "y": 495,
+          "width": 700,
+          "height": 40
+        },
+        "visible": true,
+        "display": "grid",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 307,
+        "tag": "span",
+        "label": "Edit your designs offline Ka9auQ",
+        "rect": {
+          "x": 286,
+          "y": 504,
+          "width": 688,
+          "height": 22
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 308,
+        "tag": "span",
+        "label": "aDc6Yg",
+        "rect": {
+          "x": 286,
+          "y": 507,
+          "width": 24,
+          "height": 16
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 309,
+        "tag": "span",
+        "label": "njlxGQ Pk6ZMQ",
+        "rect": {
+          "x": 294,
+          "y": 507,
+          "width": 16,
+          "height": 16
+        },
+        "visible": true,
+        "display": "inline-flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 310,
+        "tag": "span",
+        "label": "Edit your designs offline aDc6Yg",
+        "rect": {
+          "x": 310,
+          "y": 504,
+          "width": 664,
+          "height": 22
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 311,
+        "tag": "p",
+        "label": "Edit your designs offline aWBg0w aZskFA T5LNnw",
+        "rect": {
+          "x": 318,
+          "y": 504,
+          "width": 656,
+          "height": 22
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 312,
+        "tag": "button",
+        "label": "What you can do while offline PuABGQ A_H5UA do3Vpg wx6ntw BMOCzQ fOwrSw _6Mu4Ow FQ64gg LuBWVA uMo6Kw YnfReg vFBXLA",
+        "rect": {
+          "x": 290,
+          "y": 539,
+          "width": 700,
+          "height": 40
+        },
+        "visible": true,
+        "display": "grid",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 313,
+        "tag": "span",
+        "label": "What you can do while offline Ka9auQ",
+        "rect": {
+          "x": 286,
+          "y": 548,
+          "width": 688,
+          "height": 22
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 314,
+        "tag": "span",
+        "label": "aDc6Yg",
+        "rect": {
+          "x": 286,
+          "y": 551,
+          "width": 24,
+          "height": 16
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 315,
+        "tag": "span",
+        "label": "njlxGQ Pk6ZMQ",
+        "rect": {
+          "x": 294,
+          "y": 551,
+          "width": 16,
+          "height": 16
+        },
+        "visible": true,
+        "display": "inline-flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 316,
+        "tag": "span",
+        "label": "What you can do while offline aDc6Yg",
+        "rect": {
+          "x": 310,
+          "y": 548,
+          "width": 664,
+          "height": 22
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 317,
+        "tag": "p",
+        "label": "What you can do while offline aWBg0w aZskFA T5LNnw",
+        "rect": {
+          "x": 318,
+          "y": 548,
+          "width": 656,
+          "height": 22
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 318,
+        "tag": "button",
+        "label": "Upload images while offline PuABGQ A_H5UA do3Vpg wx6ntw BMOCzQ fOwrSw _6Mu4Ow FQ64gg LuBWVA uMo6Kw YnfReg vFBXLA",
+        "rect": {
+          "x": 290,
+          "y": 583,
+          "width": 700,
+          "height": 40
+        },
+        "visible": true,
+        "display": "grid",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 319,
+        "tag": "span",
+        "label": "Upload images while offline Ka9auQ",
+        "rect": {
+          "x": 286,
+          "y": 592,
+          "width": 688,
+          "height": 22
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 320,
+        "tag": "span",
+        "label": "aDc6Yg",
+        "rect": {
+          "x": 286,
+          "y": 595,
+          "width": 24,
+          "height": 16
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 321,
+        "tag": "span",
+        "label": "njlxGQ Pk6ZMQ",
+        "rect": {
+          "x": 294,
+          "y": 595,
+          "width": 16,
+          "height": 16
+        },
+        "visible": true,
+        "display": "inline-flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 322,
+        "tag": "span",
+        "label": "Upload images while offline aDc6Yg",
+        "rect": {
+          "x": 310,
+          "y": 592,
+          "width": 664,
+          "height": 22
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 323,
+        "tag": "p",
+        "label": "Upload images while offline aWBg0w aZskFA T5LNnw",
+        "rect": {
+          "x": 318,
+          "y": 592,
+          "width": 656,
+          "height": 22
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 324,
+        "tag": "button",
+        "label": "What needs internet PuABGQ A_H5UA do3Vpg wx6ntw BMOCzQ fOwrSw _6Mu4Ow FQ64gg LuBWVA uMo6Kw YnfReg vFBXLA",
+        "rect": {
+          "x": 290,
+          "y": 627,
+          "width": 700,
+          "height": 40
+        },
+        "visible": true,
+        "display": "grid",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 325,
+        "tag": "span",
+        "label": "What needs internet Ka9auQ",
+        "rect": {
+          "x": 286,
+          "y": 636,
+          "width": 688,
+          "height": 22
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 326,
+        "tag": "span",
+        "label": "aDc6Yg",
+        "rect": {
+          "x": 286,
+          "y": 639,
+          "width": 24,
+          "height": 16
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 327,
+        "tag": "span",
+        "label": "njlxGQ Pk6ZMQ",
+        "rect": {
+          "x": 294,
+          "y": 639,
+          "width": 16,
+          "height": 16
+        },
+        "visible": true,
+        "display": "inline-flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 328,
+        "tag": "span",
+        "label": "What needs internet aDc6Yg",
+        "rect": {
+          "x": 310,
+          "y": 636,
+          "width": 664,
+          "height": 22
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 329,
+        "tag": "p",
+        "label": "What needs internet aWBg0w aZskFA T5LNnw",
+        "rect": {
+          "x": 318,
+          "y": 636,
+          "width": 656,
+          "height": 22
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 330,
+        "tag": "button",
+        "label": "Save your changes PuABGQ A_H5UA do3Vpg wx6ntw BMOCzQ fOwrSw _6Mu4Ow FQ64gg LuBWVA uMo6Kw YnfReg vFBXLA",
+        "rect": {
+          "x": 290,
+          "y": 671,
+          "width": 700,
+          "height": 40
+        },
+        "visible": true,
+        "display": "grid",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 331,
+        "tag": "span",
+        "label": "Save your changes Ka9auQ",
+        "rect": {
+          "x": 286,
+          "y": 680,
+          "width": 688,
+          "height": 22
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 332,
+        "tag": "span",
+        "label": "aDc6Yg",
+        "rect": {
+          "x": 286,
+          "y": 683,
+          "width": 24,
+          "height": 16
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 333,
+        "tag": "span",
+        "label": "njlxGQ Pk6ZMQ",
+        "rect": {
+          "x": 294,
+          "y": 683,
+          "width": 16,
+          "height": 16
+        },
+        "visible": true,
+        "display": "inline-flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 334,
+        "tag": "span",
+        "label": "Save your changes aDc6Yg",
+        "rect": {
+          "x": 310,
+          "y": 680,
+          "width": 664,
+          "height": 22
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 335,
+        "tag": "p",
+        "label": "Save your changes aWBg0w aZskFA T5LNnw",
+        "rect": {
+          "x": 318,
+          "y": 680,
+          "width": 656,
+          "height": 22
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 336,
+        "tag": "button",
+        "label": "Manage offline storage PuABGQ A_H5UA do3Vpg wx6ntw BMOCzQ fOwrSw _6Mu4Ow FQ64gg LuBWVA uMo6Kw YnfReg vFBXLA",
+        "rect": {
+          "x": 290,
+          "y": 715,
+          "width": 700,
+          "height": 40
+        },
+        "visible": true,
+        "display": "grid",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 337,
+        "tag": "span",
+        "label": "Manage offline storage Ka9auQ",
+        "rect": {
+          "x": 286,
+          "y": 724,
+          "width": 688,
+          "height": 22
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 338,
+        "tag": "span",
+        "label": "aDc6Yg",
+        "rect": {
+          "x": 286,
+          "y": 727,
+          "width": 24,
+          "height": 16
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 339,
+        "tag": "span",
+        "label": "njlxGQ Pk6ZMQ",
+        "rect": {
+          "x": 294,
+          "y": 727,
+          "width": 16,
+          "height": 16
+        },
+        "visible": true,
+        "display": "inline-flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 340,
+        "tag": "span",
+        "label": "Manage offline storage aDc6Yg",
+        "rect": {
+          "x": 310,
+          "y": 724,
+          "width": 664,
+          "height": 22
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 341,
+        "tag": "p",
+        "label": "Manage offline storage aWBg0w aZskFA T5LNnw",
+        "rect": {
+          "x": 318,
+          "y": 724,
+          "width": 656,
+          "height": 22
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 342,
+        "tag": "button",
+        "label": "Set up offline design permissions PuABGQ A_H5UA do3Vpg wx6ntw BMOCzQ fOwrSw _6Mu4Ow FQ64gg LuBWVA uMo6Kw YnfReg vFBXLA",
+        "rect": {
+          "x": 290,
+          "y": 759,
+          "width": 700,
+          "height": 40
+        },
+        "visible": true,
+        "display": "grid",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 343,
+        "tag": "span",
+        "label": "Set up offline design permissions Ka9auQ",
+        "rect": {
+          "x": 286,
+          "y": 768,
+          "width": 688,
+          "height": 22
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 344,
+        "tag": "span",
+        "label": "aDc6Yg",
+        "rect": {
+          "x": 286,
+          "y": 771,
+          "width": 24,
+          "height": 16
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 345,
+        "tag": "span",
+        "label": "njlxGQ Pk6ZMQ",
+        "rect": {
+          "x": 294,
+          "y": 771,
+          "width": 16,
+          "height": 16
+        },
+        "visible": true,
+        "display": "inline-flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 346,
+        "tag": "span",
+        "label": "Set up offline design permissions aDc6Yg",
+        "rect": {
+          "x": 310,
+          "y": 768,
+          "width": 664,
+          "height": 22
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 347,
+        "tag": "p",
+        "label": "Set up offline design permissions aWBg0w aZskFA T5LNnw",
+        "rect": {
+          "x": 318,
+          "y": 768,
+          "width": 656,
+          "height": 22
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 348,
+        "tag": "button",
+        "label": "Quick troubleshooting PuABGQ A_H5UA do3Vpg wx6ntw BMOCzQ fOwrSw _6Mu4Ow FQ64gg LuBWVA uMo6Kw YnfReg vFBXLA",
+        "rect": {
+          "x": 290,
+          "y": 803,
+          "width": 700,
+          "height": 40
+        },
+        "visible": true,
+        "display": "grid",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 349,
+        "tag": "span",
+        "label": "Quick troubleshooting Ka9auQ",
+        "rect": {
+          "x": 286,
+          "y": 812,
+          "width": 688,
+          "height": 22
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 350,
+        "tag": "span",
+        "label": "aDc6Yg",
+        "rect": {
+          "x": 286,
+          "y": 815,
+          "width": 24,
+          "height": 16
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 351,
+        "tag": "span",
+        "label": "njlxGQ Pk6ZMQ",
+        "rect": {
+          "x": 294,
+          "y": 815,
+          "width": 16,
+          "height": 16
+        },
+        "visible": true,
+        "display": "inline-flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 352,
+        "tag": "span",
+        "label": "Quick troubleshooting aDc6Yg",
+        "rect": {
+          "x": 310,
+          "y": 812,
+          "width": 664,
+          "height": 22
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 353,
+        "tag": "p",
+        "label": "Quick troubleshooting aWBg0w aZskFA T5LNnw",
+        "rect": {
+          "x": 318,
+          "y": 812,
+          "width": 656,
+          "height": 22
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 354,
+        "tag": "button",
+        "label": "FAQs PuABGQ A_H5UA do3Vpg wx6ntw BMOCzQ fOwrSw _6Mu4Ow FQ64gg LuBWVA uMo6Kw YnfReg vFBXLA",
+        "rect": {
+          "x": 290,
+          "y": 847,
+          "width": 700,
+          "height": 40
+        },
+        "visible": true,
+        "display": "grid",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 355,
+        "tag": "span",
+        "label": "FAQs Ka9auQ",
+        "rect": {
+          "x": 286,
+          "y": 856,
+          "width": 688,
+          "height": 22
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 356,
+        "tag": "span",
+        "label": "aDc6Yg",
+        "rect": {
+          "x": 286,
+          "y": 859,
+          "width": 24,
+          "height": 16
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 357,
+        "tag": "span",
+        "label": "njlxGQ Pk6ZMQ",
+        "rect": {
+          "x": 294,
+          "y": 859,
+          "width": 16,
+          "height": 16
+        },
+        "visible": true,
+        "display": "inline-flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 358,
+        "tag": "span",
+        "label": "FAQs aDc6Yg",
+        "rect": {
+          "x": 310,
+          "y": 856,
+          "width": 664,
+          "height": 22
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 359,
+        "tag": "p",
+        "label": "FAQs aWBg0w aZskFA T5LNnw",
+        "rect": {
+          "x": 318,
+          "y": 856,
+          "width": 656,
+          "height": 22
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 360,
+        "tag": "button",
+        "label": "Related guides PuABGQ A_H5UA do3Vpg wx6ntw BMOCzQ fOwrSw _6Mu4Ow FQ64gg LuBWVA uMo6Kw YnfReg vFBXLA",
+        "rect": {
+          "x": 290,
+          "y": 891,
+          "width": 700,
+          "height": 40
+        },
+        "visible": true,
+        "display": "grid",
+        "visibility": "visible",
+        "opacity": "1"
+      }
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Web Speech Voice Input Feature Gate</title>
+<style>
+  body { font-family: system-ui, sans-serif; margin: 24px; color: #1f2933; }
+  main { max-width: 760px; margin: 0 auto; }
+  button { font: inherit; padding: 10px 14px; }
+  .unsupported { color: #9f1d1d; }
+  .supported { color: #0f6b35; }
+  pre { background: #f4f7fa; padding: 12px; border-radius: 6px; }
+</style>
+<main>
+  <h1>Web Speech Voice Input Feature Gate</h1>
+  <p id="status"></p>
+  <button id="mic">Voice input</button>
+  <pre id="state"></pre>
+</main>
+<script>
+  const state = {
+    SpeechRecognition: "SpeechRecognition" in window,
+    webkitSpeechRecognition: "webkitSpeechRecognition" in window,
+    getUserMedia: !!navigator.mediaDevices?.getUserMedia,
+    clicked: false,
+    started: false,
+    error: null,
+    message: "",
+  };
+  function render() {
+    const supported = state.SpeechRecognition || state.webkitSpeechRecognition;
+    document.getElementById("status").className = supported ? "supported" : "unsupported";
+    document.getElementById("status").textContent = supported
+      ? "Speech recognition constructor is available; voice input can be started."
+      : "Speech recognition constructor is missing; voice input is unsupported.";
+    document.getElementById("state").textContent = JSON.stringify(state, null, 2);
+  }
+  document.getElementById("mic").addEventListener("click", () => {
+    state.clicked = true;
+    const Constructor = window.SpeechRecognition || window.webkitSpeechRecognition;
+    if (!Constructor) {
+      state.message = "unsupported";
+      render();
+      return;
+    }
+    try {
+      const recognition = new Constructor();
+      recognition.onstart = () => { state.started = true; state.message = "started"; render(); };
+      recognition.onerror = event => { state.error = event.error || String(event); render(); };
+      recognition.start();
+      state.message = "start-called";
+    } catch (error) {
+      state.error = error.message || String(error);
+    }
+    render();
+  });
+  render();
+</script>

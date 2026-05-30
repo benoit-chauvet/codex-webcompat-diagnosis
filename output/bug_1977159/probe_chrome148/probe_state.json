@@ -1,0 +1,495 @@
+{
+  "task": "featurePage",
+  "browser": "chrome",
+  "executablePath": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+  "requestedUrl": "https://claude.ai/artifacts/inspiration/0e6f226e-70b0-418d-a03c-77ba65e4ba14",
+  "finalUrl": "https://claude.ai/artifacts/inspiration/0e6f226e-70b0-418d-a03c-77ba65e4ba14",
+  "httpStatus": 403,
+  "navigationError": null,
+  "viewport": {
+    "width": 1280,
+    "height": 900
+  },
+  "events": {
+    "console": [
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 403 ()"
+      },
+      {
+        "type": "startGroupCollapsed",
+        "text": ""
+      },
+      {
+        "type": "debug",
+        "text": "Error"
+      },
+      {
+        "type": "log",
+        "text": "[regexp RegExp]"
+      },
+      {
+        "type": "log",
+        "text": "[regexp RegExp]"
+      },
+      {
+        "type": "log",
+        "text": "[function Function]"
+      },
+      {
+        "type": "log",
+        "text": "[function Function]"
+      },
+      {
+        "type": "log",
+        "text": "[node HTMLAnchorElement]"
+      },
+      {
+        "type": "log",
+        "text": "[node HTMLAnchorElement]"
+      },
+      {
+        "type": "count",
+        "text": "\u0000: 1"
+      },
+      {
+        "type": "count",
+        "text": "\u0000: 1"
+      },
+      {
+        "type": "debug",
+        "text": "%c%d font-size:0;color:transparent NaN"
+      },
+      {
+        "type": "debug",
+        "text": "%c%d font-size:0;color:transparent NaN"
+      },
+      {
+        "type": "dir",
+        "text": " Error"
+      },
+      {
+        "type": "dir",
+        "text": " Error"
+      },
+      {
+        "type": "dirxml",
+        "text": "%c%d font-size:0;color:transparent Error"
+      },
+      {
+        "type": "dirxml",
+        "text": "%c%d font-size:0;color:transparent Error"
+      },
+      {
+        "type": "error",
+        "text": "%c%d font-size:0;color:transparent NaN"
+      },
+      {
+        "type": "error",
+        "text": "%c%d font-size:0;color:transparent NaN"
+      },
+      {
+        "type": "info",
+        "text": "%c%d font-size:0;color:transparent NaN"
+      },
+      {
+        "type": "info",
+        "text": "%c%d font-size:0;color:transparent NaN"
+      },
+      {
+        "type": "log",
+        "text": "%c%d font-size:0;color:transparent NaN"
+      },
+      {
+        "type": "log",
+        "text": "%c%d font-size:0;color:transparent NaN"
+      },
+      {
+        "type": "table",
+        "text": "%c%d font-size:0;color:transparent Error"
+      },
+      {
+        "type": "table",
+        "text": "%c%d font-size:0;color:transparent Error"
+      },
+      {
+        "type": "trace",
+        "text": "%c%d font-size:0;color:transparent NaN"
+      },
+      {
+        "type": "trace",
+        "text": "%c%d font-size:0;color:transparent NaN"
+      },
+      {
+        "type": "warn",
+        "text": "%c%d font-size:0;color:transparent NaN"
+      },
+      {
+        "type": "warn",
+        "text": "%c%d font-size:0;color:transparent NaN"
+      },
+      {
+        "type": "endGroup",
+        "text": "console.groupEnd"
+      },
+      {
+        "type": "startGroupCollapsed",
+        "text": "Request for the Private Access Token challenge."
+      },
+      {
+        "type": "log",
+        "text": "The next request for the Private Access Token challenge may return a 401 and show a warning in console."
+      },
+      {
+        "type": "endGroup",
+        "text": "console.groupEnd"
+      },
+      {
+        "type": "warn",
+        "text": "The resource https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/index-C8tuKOhP.js was preloaded using link preload in Early Hints but not used within a few seconds from the window's load event."
+      },
+      {
+        "type": "warn",
+        "text": "The resource https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c66fc489e-C-BHYa_K.woff2 was preloaded using link preload in Early Hints but not used within a few seconds from the window's load event."
+      },
+      {
+        "type": "warn",
+        "text": "The resource https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c6a992d55-CAgg__up.css was preloaded using link preload in Early Hints but not used within a few seconds from the window's load event."
+      },
+      {
+        "type": "warn",
+        "text": "The resource https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/cc27851ad-CFxw3nG7.woff2 was preloaded using link preload in Early Hints but not used within a few seconds from the window's load event."
+      },
+      {
+        "type": "warn",
+        "text": "The resource https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c2591c98b-yIeMwlTz.css was preloaded using link preload in Early Hints but not used within a few seconds from the window's load event."
+      }
+    ],
+    "pageErrors": [],
+    "requestFailures": []
+  },
+  "page": {
+    "url": "https://claude.ai/artifacts/inspiration/0e6f226e-70b0-418d-a03c-77ba65e4ba14",
+    "title": "Just a moment...",
+    "readyState": "complete",
+    "scrollX": 0,
+    "scrollY": 0,
+    "viewport": {
+      "innerWidth": 1280,
+      "innerHeight": 900,
+      "devicePixelRatio": 1
+    },
+    "documentElement": {
+      "clientWidth": 1280,
+      "clientHeight": 900,
+      "scrollWidth": 1280,
+      "scrollHeight": 900
+    },
+    "bodyTextSample": "claude.ai\nPerforming security verification\n\nThis website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\n\nRay ID: a03e83461f253ca1\nPerformance and Security by Cloudflare\nPrivacy"
+  },
+  "taskResult": {
+    "screenshots": {
+      "page": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_1977159/probe_chrome148/feature_page.png"
+    },
+    "featureSupport": {
+      "speechRecognition": true,
+      "webkitSpeechRecognition": true,
+      "showOpenFilePicker": true,
+      "launchQueue": true,
+      "serviceWorker": true,
+      "getUserMedia": true,
+      "credentials": true,
+      "clipboardRead": true,
+      "pictureInPictureEnabled": true,
+      "webkitSupportsFullscreen": true,
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/148.0.0.0 Safari/537.36"
+    },
+    "visible": [
+      {
+        "index": 0,
+        "tag": "div",
+        "label": "claude.ai Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. main-wrapper lang-en-us",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 831
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 1,
+        "tag": "div",
+        "label": "claude.ai Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. main-content",
+        "rect": {
+          "x": 160,
+          "y": 128,
+          "width": 960,
+          "height": 244.390625
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 2,
+        "tag": "div",
+        "label": "claude.ai ch-title-zone",
+        "rect": {
+          "x": 192,
+          "y": 128,
+          "width": 896,
+          "height": 50
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 3,
+        "tag": "img",
+        "label": "Icon for claude.ai heading-favicon",
+        "rect": {
+          "x": 192,
+          "y": 137,
+          "width": 32,
+          "height": 32
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 4,
+        "tag": "h1",
+        "label": "claude.ai",
+        "rect": {
+          "x": 248,
+          "y": 128,
+          "width": 162.015625,
+          "height": 50
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 5,
+        "tag": "h2",
+        "label": "Performing security verification FbRG5 ch-title spacer-bottom",
+        "rect": {
+          "x": 192,
+          "y": 186,
+          "width": 896,
+          "height": 30
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 6,
+        "tag": "p",
+        "label": "This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. jpqrL2 ch-description spacer-top",
+        "rect": {
+          "x": 192,
+          "y": 224,
+          "width": 896,
+          "height": 48
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 7,
+        "tag": "div",
+        "label": "BbLB6",
+        "rect": {
+          "x": 192,
+          "y": 304,
+          "width": 896,
+          "height": 68.390625
+        },
+        "visible": true,
+        "display": "grid",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 8,
+        "tag": "div",
+        "label": "",
+        "rect": {
+          "x": 192,
+          "y": 304,
+          "width": 896,
+          "height": 68.390625
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 9,
+        "tag": "div",
+        "label": "",
+        "rect": {
+          "x": 192,
+          "y": 304,
+          "width": 896,
+          "height": 68.390625
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 18,
+        "tag": "div",
+        "label": "Ray ID: a03e83461f253ca1 Performance and Security by Cloudflare Privacy footer",
+        "rect": {
+          "x": 160,
+          "y": 831,
+          "width": 960,
+          "height": 69
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 19,
+        "tag": "div",
+        "label": "Ray ID: a03e83461f253ca1 Performance and Security by Cloudflare Privacy footer-inner",
+        "rect": {
+          "x": 192,
+          "y": 831,
+          "width": 896,
+          "height": 69
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 20,
+        "tag": "div",
+        "label": "Ray ID: a03e83461f253ca1 Performance and Security by Cloudflare Privacy footer-wrapper",
+        "rect": {
+          "x": 497.4375,
+          "y": 848,
+          "width": 285.125,
+          "height": 36
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 21,
+        "tag": "div",
+        "label": "Ray ID: a03e83461f253ca1 clearfix diagnostic-wrapper",
+        "rect": {
+          "x": 497.4375,
+          "y": 848,
+          "width": 285.125,
+          "height": 18
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 22,
+        "tag": "div",
+        "label": "Ray ID: a03e83461f253ca1 ray-id",
+        "rect": {
+          "x": 497.4375,
+          "y": 848,
+          "width": 285.125,
+          "height": 18
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 23,
+        "tag": "div",
+        "label": "Performance and Security by Cloudflare Privacy footer-link-wrapper",
+        "rect": {
+          "x": 497.4375,
+          "y": 866,
+          "width": 285.125,
+          "height": 18
+        },
+        "visible": true,
+        "display": "flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 24,
+        "tag": "span",
+        "label": "Performance and Security by Cloudflare footer-text",
+        "rect": {
+          "x": 497.4375,
+          "y": 866,
+          "width": 225.84375,
+          "height": 18
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 25,
+        "tag": "a",
+        "label": "Cloudflare",
+        "rect": {
+          "x": 664.9375,
+          "y": 866,
+          "width": 58.34375,
+          "height": 18
+        },
+        "visible": true,
+        "display": "inline-block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "index": 27,
+        "tag": "a",
+        "label": "Privacy privacy-link footer-text",
+        "rect": {
+          "x": 741.28125,
+          "y": 866,
+          "width": 41.28125,
+          "height": 18
+        },
+        "visible": true,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      }
+    ]
+  }
+}

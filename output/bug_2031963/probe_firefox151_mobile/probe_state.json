@@ -1,0 +1,1668 @@
+{
+  "task": "temuCaptcha",
+  "browser": "firefox",
+  "executablePath": "/Applications/Firefox.app/Contents/MacOS/firefox",
+  "requestedUrl": "https://www.temu.com/pl/ul/kuiper/un3.html?_bg_fs=1",
+  "finalUrl": "https://www.temu.com/pl?_p_rfs_rd=1&refer_page_name=kuiper_default&refer_page_id=13393_1780152444387_2wyirbo3ii&refer_page_sn=13393&_x_sessn_id=1k6rxqpxt2",
+  "httpStatus": 200,
+  "navigationError": null,
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "events": {
+    "console": [
+      {
+        "type": "warn",
+        "text": "[mobx.array] Attempt to read an array index (0) that is out of bounds (0). Please check length first. Out of bound indices will not be tracked by MobX"
+      },
+      {
+        "type": "warn",
+        "text": "[mobx.array] Attempt to read an array index (0) that is out of bounds (0). Please check length first. Out of bound indices will not be tracked by MobX"
+      },
+      {
+        "type": "warn",
+        "text": "login token renewal need browser platform"
+      },
+      {
+        "type": "warn",
+        "text": "[mobx.array] Attempt to read an array index (0) that is out of bounds (0). Please check length first. Out of bound indices will not be tracked by MobX"
+      },
+      {
+        "type": "warn",
+        "text": "[mobx.array] Attempt to read an array index (0) that is out of bounds (0). Please check length first. Out of bound indices will not be tracked by MobX"
+      },
+      {
+        "type": "warn",
+        "text": "[mobx.array] Attempt to read an array index (0) that is out of bounds (0). Please check length first. Out of bound indices will not be tracked by MobX"
+      }
+    ],
+    "pageErrors": [
+      {
+        "name": "Error",
+        "message": "WebRTC: Using five or more STUN/TURN servers slows down discovery"
+      },
+      {
+        "name": "Error",
+        "message": "WebRTC: Using five or more STUN/TURN servers slows down discovery"
+      },
+      {
+        "name": "Error",
+        "message": "uncaught exception: AxiosError: Request failed with status code 403"
+      },
+      {
+        "name": "Error",
+        "message": "uncaught exception: AxiosError: Request failed with status code 403"
+      }
+    ],
+    "requestFailures": [
+      {
+        "url": "https://eu.pftk.temu.com/pmm/api/pmm/defined",
+        "method": "POST",
+        "resourceType": {
+          "unsupported": true,
+          "message": "UnsupportedOperation"
+        },
+        "failure": {
+          "errorText": "NS_BINDING_ABORTED"
+        }
+      }
+    ]
+  },
+  "page": {
+    "url": "https://www.temu.com/pl?_p_rfs_rd=1&refer_page_name=kuiper_default&refer_page_id=13393_1780152444387_2wyirbo3ii&refer_page_sn=13393&_x_sessn_id=1k6rxqpxt2",
+    "title": "Temu",
+    "readyState": "complete",
+    "scrollX": 0,
+    "scrollY": 0,
+    "viewport": {
+      "innerWidth": 390,
+      "innerHeight": 844,
+      "devicePixelRatio": 1
+    },
+    "documentElement": {
+      "clientWidth": 390,
+      "clientHeight": 844,
+      "scrollWidth": 390,
+      "scrollHeight": 844
+    },
+    "bodyTextSample": "​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​\nTemu: Kupuj jak milioner\nOdkryj niezapomniane okazje na Temu\nPOBIERZ\nPrzeszukaj Temu\nPrzeszukaj Temu\nWszystko\nKobiety\nMężczyźni\nDom\nSport\nBiżuteria\nDzieci\nPrzemysłowe\nElektronika\nTorby\nRękodzieło\nUroda\nZabawki\nMotoryzacja\nOgród\nNiemowlęta\nBiuro\nZdrowie\nWyposażenie domu\nZwierzęta domowe\nMuzyczne\nUrządzenia\nŻywność\nKsiążki\nDlaczego wybrać Temu?\nBezpieczne płatności\nOchrona prywatności\nBezpieczne płatności\nRekomendacja\nzdjęcie przedmiotu Letnia Koszulka Polo Męska z Nadrukiem Liter i Flagi, Kołnierzyk i Guziki, Sportowa Casual Biznesowa Wygodna Koszulka z Krótkim Rękawem\nLetnia Koszulka Polo Męska z Nadrukiem Liter i Flagi, Kołnierzyk i Guziki, Sportowa Casual Biznesowa Wygodna Koszulka z Krótkim Rękawem\n30,74 zł\nzdjęcie przedmiotu 2 Rolki Kompaktowych Chusteczek Samochodowych w Kwiaty – Cylindryczne Tubki na Chusteczki, Papier do Foteli Samochodowych, Pasujące do Uchwytów na Kubki, Włącznie z Chusteczkami do Twarzy\n2 Rolki Kompaktowych Chusteczek Samochodowych w Kwiaty – Cylindryczne Tubki na Chusteczki, Papier do Foteli Samochodowych, Pasujące do Uchwytów na Kubki, Włącznie z Chusteczkami do Twarzy\n10,77 zł\n20,98 zł\nzdjęcie przedmiotu 2/4/6/8/12/16 szt. wkładek ortopedycznych do butów sportowych, antypoślizgowe ochraniacze na stopy z tylnymi naklejkami\n2/4/6/8/12/16 szt. wkładek "
+  },
+  "taskResult": {
+    "screenshots": {
+      "before": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2031963/probe_firefox151_mobile/temu_before_drag.png",
+      "after": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2031963/probe_firefox151_mobile/temu_after_drag.png"
+    },
+    "before": {
+      "scrollY": 0,
+      "bodyTextSample": "​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​\nTemu: Kupuj jak milioner\nOdkryj niezapomniane okazje na Temu\nPOBIERZ\nPrzeszukaj Temu\nPrzeszukaj Temu\nWszystko\nKobiety\nMężczyźni\nDom\nSport\nBiżuteria\nDzieci\nPrzemysłowe\nElektronika\nTorby\nRękodzieło\nUroda\nZabawki\nMotoryzacja\nOgród\nNiemowlęta\nBiuro\nZdrowie\nWyposażenie domu\nZwierzęta domowe\nMuzyczne\nUrządzenia\nŻywność\nKsiążki\nDlaczego wybrać Temu?\nBezpieczne płatności\nOchrona prywatności\nBezpieczne płatności\nRekomendacja\nzdjęcie przedmiotu Letnia Koszulka Polo Męska z Nadrukiem Liter i Flagi, Kołnierzyk i Guziki, Sportowa Casual Biznesowa Wygodna Koszulka z Krótkim Rękawem\nLetnia Koszulka Polo Męska z Nadrukiem Liter i Flagi, Kołnierzyk i Guziki, Sportowa Casual Biznesowa Wygodna Koszulka z Krótkim Rękawem\n30,74 zł\nzdjęcie przedmiotu 2 Rolki Kompaktowych Chusteczek Samochodowych w Kwiaty – Cylindryczne Tubki na Chusteczki, Papier do Foteli Samochodowych, Pasujące do Uchwytów na Kubki, Włącznie z Chusteczkami do Twarzy\n2 Rolki Kompaktowych Chusteczek Samochodowych w Kwiaty – Cylindryczne Tubki na Chusteczki, Papier do Foteli Samochodowych, Pasujące do Uchwytów na Kubki, Włącznie z Chusteczkami do Twarzy\n10,77 zł\n20,98 zł\nzdjęcie przedmiotu 2/4/6/8/12/16 szt. wkładek ortopedycznych do butów sportowych, antypoślizgowe ochraniacze na stopy z tylnymi naklejkami\n2/4/6/8/12/16 szt. wkładek ortopedycznych do butów sportowych, antypoślizgowe ochraniacze na stopy z tylnymi naklejkami\n3,74 zł\nzdjęcie przedmiotu 2w1 Składana Bieżnia do Chodzenia i Biegania, 2.0HP Szczytowy Silnik DC, Regulowana Prędkość 1-12 km/h, Wielofunkcyjny Panel LED, 12 Programów + System Dźwiękowy, 3 Tryby Treningu, Kompaktowy Sprzęt do Domowej Siłowni\n2w1 Składana Bieżnia do Chodzenia i Biegania, 2.0HP Szczytowy Silnik DC, Regulowana Prędkość 1-12 km/h, Wielofunkcyjny Panel LED, 12 Programów + System Dźwiękowy, 3 Tryby Treningu, Kompaktowy Sprzęt do Domowej Siłowni\n584,08 zł\nzdjęcie przedmiotu Projektor Magcubic HY300 Pro Dual Wifi6 290ANSI BT5.2 z współczynnikiem rzutowania 0.8:1 i automatyczną korekcją trapezu, lokalny głośnik 720P, przenośny mini kina domowego z funkcją streamingu, kompaktna konstrukcja do filmów, prezentacji, gier, biura i zestawu gamingowego\nProjektor Magcubic HY300 Pro Dual Wifi6 ",
+      "visible": [
+        {
+          "index": 1,
+          "tag": "div",
+          "text": "Temu: Kupuj jak milioner Odkryj niezapomniane okazje na Temu POBIERZ Przeszukaj Temu Przeszukaj Temu Wszystko Kobiety Mężczyźni Dom Sport Biżuteria Dzieci Przemysłowe Elektronika Torby Rękodzieło Uroda Zabawki Motoryzacj",
+          "className": "",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 844
+          },
+          "visible": true
+        },
+        {
+          "index": 3,
+          "tag": "div",
+          "text": "Temu: Kupuj jak milioner Odkryj niezapomniane okazje na Temu POBIERZ Przeszukaj Temu Przeszukaj Temu Wszystko Kobiety Mężczyźni Dom Sport Biżuteria Dzieci Przemysłowe Elektronika Torby Rękodzieło Uroda Zabawki Motoryzacj",
+          "className": "loadable-container",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 3649.316650390625
+          },
+          "visible": true
+        },
+        {
+          "index": 4,
+          "tag": "img",
+          "text": "",
+          "className": "lcpele-3Za8p",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 382.20001220703125,
+            "height": 728
+          },
+          "visible": true
+        },
+        {
+          "index": 5,
+          "tag": "div",
+          "text": "Temu: Kupuj jak milioner Odkryj niezapomniane okazje na Temu POBIERZ Przeszukaj Temu Przeszukaj Temu Wszystko Kobiety Mężczyźni Dom Sport Biżuteria Dzieci Przemysłowe Elektronika Torby Rękodzieło Uroda Zabawki Motoryzacj",
+          "className": "root-h11gn",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 3649.316650390625
+          },
+          "visible": true
+        },
+        {
+          "index": 10,
+          "tag": "div",
+          "text": "Temu: Kupuj jak milioner Odkryj niezapomniane okazje na Temu POBIERZ Przeszukaj Temu Przeszukaj Temu",
+          "className": "",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 110.23333740234375
+          },
+          "visible": true
+        },
+        {
+          "index": 11,
+          "tag": "div",
+          "text": "Temu: Kupuj jak milioner Odkryj niezapomniane okazje na Temu POBIERZ",
+          "className": "",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 68.63333129882812
+          },
+          "visible": true
+        },
+        {
+          "index": 12,
+          "tag": "div",
+          "text": "",
+          "className": "",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 68.63333129882812
+          },
+          "visible": true
+        },
+        {
+          "index": 13,
+          "tag": "div",
+          "text": "Temu: Kupuj jak milioner Odkryj niezapomniane okazje na Temu POBIERZ",
+          "className": "",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 68.63333129882812
+          },
+          "visible": true
+        },
+        {
+          "index": 14,
+          "tag": "div",
+          "text": "Temu: Kupuj jak milioner Odkryj niezapomniane okazje na Temu POBIERZ",
+          "className": "",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 68.63333129882812
+          },
+          "visible": true
+        },
+        {
+          "index": 15,
+          "tag": "div",
+          "text": "Temu: Kupuj jak milioner Odkryj niezapomniane okazje na Temu POBIERZ",
+          "className": "",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 68.63333129882812
+          },
+          "visible": true
+        },
+        {
+          "index": 16,
+          "tag": "div",
+          "text": "Temu: Kupuj jak milioner Odkryj niezapomniane okazje na Temu POBIERZ",
+          "className": "",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 68.63333129882812
+          },
+          "visible": true
+        },
+        {
+          "index": 17,
+          "tag": "div",
+          "text": "Temu: Kupuj jak milioner Odkryj niezapomniane okazje na Temu POBIERZ",
+          "className": "",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 68.63333129882812
+          },
+          "visible": true
+        },
+        {
+          "index": 18,
+          "tag": "div",
+          "text": "Temu: Kupuj jak milioner Odkryj niezapomniane okazje na Temu POBIERZ",
+          "className": "downloadsWrapper-RLshn downloadsWithBottomBorder-3-05y nativeWidth-jbbzv",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 68.63333129882812
+          },
+          "visible": true
+        },
+        {
+          "index": 19,
+          "tag": "div",
+          "text": "Temu: Kupuj jak milioner Odkryj niezapomniane okazje na Temu POBIERZ",
+          "className": "downloadUI-1EdpI",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 68.63333129882812
+          },
+          "visible": true
+        },
+        {
+          "index": 20,
+          "tag": "button",
+          "text": "close",
+          "className": "button-3Io9M buttonReset-2qcAZ closeArea-2feCU",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 28.083328247070312,
+            "height": 68.63333129882812
+          },
+          "visible": true
+        },
+        {
+          "index": 21,
+          "tag": "div",
+          "text": "Temu: Kupuj jak milioner Odkryj niezapomniane okazje na Temu",
+          "className": "main-2xpgs",
+          "rect": {
+            "x": 88.39999389648438,
+            "y": 15.583328247070312,
+            "width": 204.68333435058594,
+            "height": 37.45001220703125
+          },
+          "visible": true
+        },
+        {
+          "index": 24,
+          "tag": "button",
+          "text": "POBIERZ",
+          "className": "button-3Io9M buttonReset-2qcAZ confirmButton-3tk8J",
+          "rect": {
+            "x": 301.3999938964844,
+            "y": 20.26666259765625,
+            "width": 80.28334045410156,
+            "height": 28.083343505859375
+          },
+          "visible": true
+        },
+        {
+          "index": 25,
+          "tag": "div",
+          "text": "Przeszukaj Temu Przeszukaj Temu",
+          "className": "wrap-1uLiP",
+          "rect": {
+            "x": 0,
+            "y": 68.63333129882812,
+            "width": 390,
+            "height": 41.600006103515625
+          },
+          "visible": true
+        },
+        {
+          "index": 26,
+          "tag": "div",
+          "text": "Przeszukaj Temu Przeszukaj Temu",
+          "className": "",
+          "rect": {
+            "x": 0,
+            "y": 68.63333129882812,
+            "width": 390,
+            "height": 41.600006103515625
+          },
+          "visible": true
+        },
+        {
+          "index": 27,
+          "tag": "div",
+          "text": "Przeszukaj Temu Przeszukaj Temu",
+          "className": "topTabContainer-1gkWH",
+          "rect": {
+            "x": 0,
+            "y": 68.63333129882812,
+            "width": 390,
+            "height": 41.600006103515625
+          },
+          "visible": true
+        },
+        {
+          "index": 28,
+          "tag": "div",
+          "text": "Przeszukaj Temu Przeszukaj Temu",
+          "className": "wrapper-3OuAi bottomBorder-RgA07 wrapperWithSearch-31C6E homeWrapper-3Zyzm topTabEle-2vH_T",
+          "rect": {
+            "x": 0,
+            "y": 68.63333129882812,
+            "width": 390,
+            "height": 41.600006103515625
+          },
+          "visible": true
+        },
+        {
+          "index": 29,
+          "tag": "div",
+          "text": "temu",
+          "className": "leftWrapper-Hrbqr",
+          "rect": {
+            "x": 12.48333740234375,
+            "y": 71.75,
+            "width": 72.80000305175781,
+            "height": 35.366668701171875
+          },
+          "visible": true
+        },
+        {
+          "index": 31,
+          "tag": "div",
+          "text": "temu",
+          "className": "homeLogo-372Zr",
+          "rect": {
+            "x": 12.48333740234375,
+            "y": 79.55000305175781,
+            "width": 72.80000305175781,
+            "height": 20.800003051757812
+          },
+          "visible": true
+        },
+        {
+          "index": 32,
+          "tag": "div",
+          "text": "Przeszukaj Temu",
+          "className": "searchBar-3m_IK",
+          "rect": {
+            "x": 101.91667175292969,
+            "y": 75.38333129882812,
+            "width": 138.31666564941406,
+            "height": 28.083328247070312
+          },
+          "visible": true
+        },
+        {
+          "index": 33,
+          "tag": "div",
+          "text": "Kategorie",
+          "className": "tabs-3QgVI",
+          "rect": {
+            "x": 248.5500030517578,
+            "y": 71.75,
+            "width": 137.25,
+            "height": 35.366668701171875
+          },
+          "visible": true
+        },
+        {
+          "index": 34,
+          "tag": "div",
+          "text": "Kategorie",
+          "className": "tab-d3nPD",
+          "rect": {
+            "x": 248.5500030517578,
+            "y": 71.75,
+            "width": 45.75,
+            "height": 35.366668701171875
+          },
+          "visible": true
+        },
+        {
+          "index": 35,
+          "tag": "div",
+          "text": "",
+          "className": "itemWrap-12KZ8",
+          "rect": {
+            "x": 253.75,
+            "y": 71.75,
+            "width": 35.350006103515625,
+            "height": 35.366668701171875
+          },
+          "visible": true
+        },
+        {
+          "index": 36,
+          "tag": "div",
+          "text": "",
+          "className": "item-1VaVx",
+          "rect": {
+            "x": 256.8666687011719,
+            "y": 74.86666870117188,
+            "width": 29.116668701171875,
+            "height": 29.116668701171875
+          },
+          "visible": true
+        },
+        {
+          "index": 37,
+          "tag": "div",
+          "text": "Moje Konto",
+          "className": "tab-d3nPD",
+          "rect": {
+            "x": 294.29998779296875,
+            "y": 71.75,
+            "width": 45.75,
+            "height": 35.366668701171875
+          },
+          "visible": true
+        },
+        {
+          "index": 38,
+          "tag": "div",
+          "text": "",
+          "className": "itemWrap-12KZ8",
+          "rect": {
+            "x": 299.5,
+            "y": 71.75,
+            "width": 35.350006103515625,
+            "height": 35.366668701171875
+          },
+          "visible": true
+        },
+        {
+          "index": 39,
+          "tag": "div",
+          "text": "",
+          "className": "item-1VaVx",
+          "rect": {
+            "x": 302.6166687011719,
+            "y": 74.86666870117188,
+            "width": 29.116668701171875,
+            "height": 29.116668701171875
+          },
+          "visible": true
+        },
+        {
+          "index": 40,
+          "tag": "div",
+          "text": "Koszyk",
+          "className": "tab-d3nPD",
+          "rect": {
+            "x": 340.04998779296875,
+            "y": 71.75,
+            "width": 45.75,
+            "height": 35.366668701171875
+          },
+          "visible": true
+        },
+        {
+          "index": 41,
+          "tag": "div",
+          "text": "",
+          "className": "itemWrap-12KZ8",
+          "rect": {
+            "x": 345.25,
+            "y": 71.75,
+            "width": 35.350006103515625,
+            "height": 35.366668701171875
+          },
+          "visible": true
+        },
+        {
+          "index": 42,
+          "tag": "div",
+          "text": "",
+          "className": "item-1VaVx",
+          "rect": {
+            "x": 348.3666687011719,
+            "y": 74.86666870117188,
+            "width": 29.116668701171875,
+            "height": 29.116668701171875
+          },
+          "visible": true
+        },
+        {
+          "index": 90,
+          "tag": "div",
+          "text": "",
+          "className": "placeholder-3Gx7L",
+          "rect": {
+            "x": 0,
+            "y": 68.63333129882812,
+            "width": 390,
+            "height": 41.600006103515625
+          },
+          "visible": true
+        },
+        {
+          "index": 93,
+          "tag": "div",
+          "text": "Wszystko Kobiety Mężczyźni Dom Sport Biżuteria Dzieci Przemysłowe Elektronika Torby Rękodzieło Uroda Zabawki Motoryzacja Ogród Niemowlęta Biuro Zdrowie Wyposażenie domu Zwierzęta domowe Muzyczne Urządzenia Żywność Książk",
+          "className": "container-3VaqI",
+          "rect": {
+            "x": 0,
+            "y": 110.23333740234375,
+            "width": 390,
+            "height": 3539.083251953125
+          },
+          "visible": true
+        },
+        {
+          "index": 94,
+          "tag": "div",
+          "text": "Wszystko Kobiety Mężczyźni Dom Sport Biżuteria Dzieci Przemysłowe Elektronika Torby Rękodzieło Uroda Zabawki Motoryzacja Ogród Niemowlęta Biuro Zdrowie Wyposażenie domu Zwierzęta domowe Muzyczne Urządzenia Żywność Książk",
+          "className": "wrap-1uLiP",
+          "rect": {
+            "x": 0,
+            "y": 110.23333740234375,
+            "width": 390,
+            "height": 42.633331298828125
+          },
+          "visible": true
+        },
+        {
+          "index": 95,
+          "tag": "div",
+          "text": "Wszystko Kobiety Mężczyźni Dom Sport Biżuteria Dzieci Przemysłowe Elektronika Torby Rękodzieło Uroda Zabawki Motoryzacja Ogród Niemowlęta Biuro Zdrowie Wyposażenie domu Zwierzęta domowe Muzyczne Urządzenia Żywność Książk",
+          "className": "",
+          "rect": {
+            "x": 0,
+            "y": 110.23333740234375,
+            "width": 390,
+            "height": 42.633331298828125
+          },
+          "visible": true
+        },
+        {
+          "index": 96,
+          "tag": "div",
+          "text": "Wszystko Kobiety Mężczyźni Dom Sport Biżuteria Dzieci Przemysłowe Elektronika Torby Rękodzieło Uroda Zabawki Motoryzacja Ogród Niemowlęta Biuro Zdrowie Wyposażenie domu Zwierzęta domowe Muzyczne Urządzenia Żywność Książk",
+          "className": "wrap-9Gulm",
+          "rect": {
+            "x": 0,
+            "y": 110.23333740234375,
+            "width": 390,
+            "height": 42.633331298828125
+          },
+          "visible": true
+        },
+        {
+          "index": 97,
+          "tag": "div",
+          "text": "",
+          "className": "exceedBg-2ztZc",
+          "rect": {
+            "x": 0,
+            "y": 10.23333740234375,
+            "width": 390,
+            "height": 142.63333129882812
+          },
+          "visible": true
+        },
+        {
+          "index": 98,
+          "tag": "div",
+          "text": "Wszystko Kobiety Mężczyźni Dom Sport Biżuteria Dzieci Przemysłowe Elektronika Torby Rękodzieło Uroda Zabawki Motoryzacja Ogród Niemowlęta Biuro Zdrowie Wyposażenie domu Zwierzęta domowe Muzyczne Urządzenia Żywność Książk",
+          "className": "fixAndroid-13mpW",
+          "rect": {
+            "x": 0,
+            "y": 110.23333740234375,
+            "width": 390,
+            "height": 42.633331298828125
+          },
+          "visible": true
+        },
+        {
+          "index": 99,
+          "tag": "div",
+          "text": "Wszystko Kobiety Mężczyźni Dom Sport Biżuteria Dzieci Przemysłowe Elektronika Torby Rękodzieło Uroda Zabawki Motoryzacja Ogród Niemowlęta Biuro Zdrowie Wyposażenie domu Zwierzęta domowe Muzyczne Urządzenia Żywność Książk",
+          "className": "wrap-1057f",
+          "rect": {
+            "x": 0,
+            "y": 110.23333740234375,
+            "width": 390,
+            "height": 42.633331298828125
+          },
+          "visible": true
+        },
+        {
+          "index": 150,
+          "tag": "div",
+          "text": "Dlaczego wybrać Temu? Bezpieczne płatności Ochrona prywatności Bezpieczne płatności Rekomendacja zdjęcie przedmiotu Letnia Koszulka Polo Męska z Nadrukiem Liter i Flagi, Kołnierzyk i Guziki, Sportowa Casual Biznesowa Wyg",
+          "className": "",
+          "rect": {
+            "x": 0,
+            "y": 152.86666870117188,
+            "width": 390,
+            "height": 3496.449951171875
+          },
+          "visible": true
+        },
+        {
+          "index": 151,
+          "tag": "div",
+          "text": "Dlaczego wybrać Temu? Bezpieczne płatności Ochrona prywatności Bezpieczne płatności Rekomendacja zdjęcie przedmiotu Letnia Koszulka Polo Męska z Nadrukiem Liter i Flagi, Kołnierzyk i Guziki, Sportowa Casual Biznesowa Wyg",
+          "className": "content-3At1g allowPinchZoom-2NYLe",
+          "rect": {
+            "x": 0,
+            "y": 152.86666870117188,
+            "width": 390,
+            "height": 3496.449951171875
+          },
+          "visible": true
+        },
+        {
+          "index": 152,
+          "tag": "div",
+          "text": "Dlaczego wybrać Temu? Bezpieczne płatności Ochrona prywatności Bezpieczne płatności Rekomendacja zdjęcie przedmiotu Letnia Koszulka Polo Męska z Nadrukiem Liter i Flagi, Kołnierzyk i Guziki, Sportowa Casual Biznesowa Wyg",
+          "className": "item-VH8jt",
+          "rect": {
+            "x": 0,
+            "y": 152.86666870117188,
+            "width": 390,
+            "height": 3496.449951171875
+          },
+          "visible": true
+        },
+        {
+          "index": 153,
+          "tag": "div",
+          "text": "Dlaczego wybrać Temu? Bezpieczne płatności Ochrona prywatności Bezpieczne płatności Rekomendacja zdjęcie przedmiotu Letnia Koszulka Polo Męska z Nadrukiem Liter i Flagi, Kołnierzyk i Guziki, Sportowa Casual Biznesowa Wyg",
+          "className": "innerItem-3XeXr",
+          "rect": {
+            "x": 0,
+            "y": 152.86666870117188,
+            "width": 390,
+            "height": 3496.449951171875
+          },
+          "visible": true
+        },
+        {
+          "index": 154,
+          "tag": "div",
+          "text": "Dlaczego wybrać Temu? Bezpieczne płatności Ochrona prywatności Bezpieczne płatności Rekomendacja zdjęcie przedmiotu Letnia Koszulka Polo Męska z Nadrukiem Liter i Flagi, Kołnierzyk i Guziki, Sportowa Casual Biznesowa Wyg",
+          "className": "homeContainer-5gkJn",
+          "rect": {
+            "x": 0,
+            "y": 152.86666870117188,
+            "width": 390,
+            "height": 3496.449951171875
+          },
+          "visible": true
+        },
+        {
+          "index": 155,
+          "tag": "div",
+          "text": "Dlaczego wybrać Temu? Bezpieczne płatności Ochrona prywatności Bezpieczne płatności",
+          "className": "moduleContainer-3zkKH",
+          "rect": {
+            "x": 0,
+            "y": 152.86666870117188,
+            "width": 390,
+            "height": 45.75
+          },
+          "visible": true
+        },
+        {
+          "index": 156,
+          "tag": "div",
+          "text": "Dlaczego wybrać Temu? Bezpieczne płatności Ochrona prywatności Bezpieczne płatności",
+          "className": "bannerWrap-216Af splitWrap-2sKCM --skin-benefit-text",
+          "rect": {
+            "x": 0,
+            "y": 152.86666870117188,
+            "width": 390,
+            "height": 45.75
+          },
+          "visible": true
+        },
+        {
+          "index": 157,
+          "tag": "div",
+          "text": "Dlaczego wybrać Temu? Bezpieczne płatności Ochrona prywatności Bezpieczne płatności",
+          "className": "banner-3ItBH",
+          "rect": {
+            "x": 12.48333740234375,
+            "y": 161.18333435058594,
+            "width": 365.0333251953125,
+            "height": 29.116668701171875
+          },
+          "visible": true
+        },
+        {
+          "index": 158,
+          "tag": "div",
+          "text": "Dlaczego wybrać Temu? Bezpieczne płatności Ochrona prywatności Bezpieczne płatności",
+          "className": "textWrap-1eRvJ",
+          "rect": {
+            "x": 38.48333740234375,
+            "y": 161.18333435058594,
+            "width": 319.2833251953125,
+            "height": 29.116668701171875
+          },
+          "visible": true
+        },
+        {
+          "index": 159,
+          "tag": "div",
+          "text": "Dlaczego wybrać Temu?",
+          "className": "mainTitle-39dnG",
+          "rect": {
+            "x": 38.48333740234375,
+            "y": 161.18333435058594,
+            "width": 163.9499969482422,
+            "height": 29.116668701171875
+          },
+          "visible": true
+        },
+        {
+          "index": 160,
+          "tag": "div",
+          "text": "Bezpieczne płatności Ochrona prywatności Bezpieczne płatności",
+          "className": "contentWrap-1ogI7 flexEnd-1Py7D",
+          "rect": {
+            "x": 222.73333740234375,
+            "y": 102.94999694824219,
+            "width": 134,
+            "height": 87.35000610351562
+          },
+          "visible": true
+        },
+        {
+          "index": 162,
+          "tag": "div",
+          "text": "Rekomendacja zdjęcie przedmiotu Letnia Koszulka Polo Męska z Nadrukiem Liter i Flagi, Kołnierzyk i Guziki, Sportowa Casual Biznesowa Wygodna Koszulka z Krótkim Rękawem Letnia Koszulka Polo Męska z Nadrukiem Liter i Flagi",
+          "className": "group-1DPb4 childVisible-1eCkJ",
+          "rect": {
+            "x": 0,
+            "y": 198.61666870117188,
+            "width": 390,
+            "height": 2906.816650390625
+          },
+          "visible": true
+        },
+        {
+          "index": 163,
+          "tag": "div",
+          "text": "Rekomendacja zdjęcie przedmiotu Letnia Koszulka Polo Męska z Nadrukiem Liter i Flagi, Kołnierzyk i Guziki, Sportowa Casual Biznesowa Wygodna Koszulka z Krótkim Rękawem Letnia Koszulka Polo Męska z Nadrukiem Liter i Flagi",
+          "className": "recTabWrap-l4qwK",
+          "rect": {
+            "x": 0,
+            "y": 198.61666870117188,
+            "width": 390,
+            "height": 2906.816650390625
+          },
+          "visible": true
+        },
+        {
+          "index": 164,
+          "tag": "div",
+          "text": "Rekomendacja",
+          "className": "",
+          "rect": {
+            "x": 0,
+            "y": 198.61666870117188,
+            "width": 390,
+            "height": 37.43333435058594
+          },
+          "visible": true
+        },
+        {
+          "index": 165,
+          "tag": "div",
+          "text": "Rekomendacja",
+          "className": "wrap-1MtTr",
+          "rect": {
+            "x": 0,
+            "y": 198.61666870117188,
+            "width": 390,
+            "height": 37.43333435058594
+          },
+          "visible": true
+        },
+        {
+          "index": 166,
+          "tag": "div",
+          "text": "Rekomendacja",
+          "className": "title-3DocC",
+          "rect": {
+            "x": 0,
+            "y": 198.61666870117188,
+            "width": 390,
+            "height": 37.43333435058594
+          },
+          "visible": true
+        },
+        {
+          "index": 167,
+          "tag": "div",
+          "text": "zdjęcie przedmiotu Letnia Koszulka Polo Męska z Nadrukiem Liter i Flagi, Kołnierzyk i Guziki, Sportowa Casual Biznesowa Wygodna Koszulka z Krótkim Rękawem Letnia Koszulka Polo Męska z Nadrukiem Liter i Flagi, Kołnierzyk ",
+          "className": "bg-3guUm",
+          "rect": {
+            "x": 0,
+            "y": 236.0500030517578,
+            "width": 390,
+            "height": 2869.38330078125
+          },
+          "visible": true
+        },
+        {
+          "index": 168,
+          "tag": "div",
+          "text": "zdjęcie przedmiotu Letnia Koszulka Polo Męska z Nadrukiem Liter i Flagi, Kołnierzyk i Guziki, Sportowa Casual Biznesowa Wygodna Koszulka z Krótkim Rękawem Letnia Koszulka Polo Męska z Nadrukiem Liter i Flagi, Kołnierzyk ",
+          "className": "",
+          "rect": {
+            "x": 0,
+            "y": 236.0500030517578,
+            "width": 390,
+            "height": 2869.38330078125
+          },
+          "visible": true
+        },
+        {
+          "index": 169,
+          "tag": "div",
+          "text": "zdjęcie przedmiotu Letnia Koszulka Polo Męska z Nadrukiem Liter i Flagi, Kołnierzyk i Guziki, Sportowa Casual Biznesowa Wygodna Koszulka z Krótkim Rękawem Letnia Koszulka Polo Męska z Nadrukiem Liter i Flagi, Kołnierzyk ",
+          "className": "content-3At1g allowPinchZoom-2NYLe",
+          "rect": {
+            "x": 0,
+            "y": 236.0500030517578,
+            "width": 390,
+            "height": 2869.38330078125
+          },
+          "visible": true
+        },
+        {
+          "index": 170,
+          "tag": "div",
+          "text": "zdjęcie przedmiotu Letnia Koszulka Polo Męska z Nadrukiem Liter i Flagi, Kołnierzyk i Guziki, Sportowa Casual Biznesowa Wygodna Koszulka z Krótkim Rękawem Letnia Koszulka Polo Męska z Nadrukiem Liter i Flagi, Kołnierzyk ",
+          "className": "item-VH8jt",
+          "rect": {
+            "x": 0,
+            "y": 236.0500030517578,
+            "width": 390,
+            "height": 2869.38330078125
+          },
+          "visible": true
+        },
+        {
+          "index": 171,
+          "tag": "div",
+          "text": "zdjęcie przedmiotu Letnia Koszulka Polo Męska z Nadrukiem Liter i Flagi, Kołnierzyk i Guziki, Sportowa Casual Biznesowa Wygodna Koszulka z Krótkim Rękawem Letnia Koszulka Polo Męska z Nadrukiem Liter i Flagi, Kołnierzyk ",
+          "className": "innerItem-3XeXr",
+          "rect": {
+            "x": 0,
+            "y": 236.0500030517578,
+            "width": 390,
+            "height": 2869.38330078125
+          },
+          "visible": true
+        },
+        {
+          "index": 172,
+          "tag": "div",
+          "text": "zdjęcie przedmiotu Letnia Koszulka Polo Męska z Nadrukiem Liter i Flagi, Kołnierzyk i Guziki, Sportowa Casual Biznesowa Wygodna Koszulka z Krótkim Rękawem Letnia Koszulka Polo Męska z Nadrukiem Liter i Flagi, Kołnierzyk ",
+          "className": "bg-3guUm",
+          "rect": {
+            "x": 0,
+            "y": 236.0500030517578,
+            "width": 390,
+            "height": 2869.38330078125
+          },
+          "visible": true
+        },
+        {
+          "index": 173,
+          "tag": "div",
+          "text": "zdjęcie przedmiotu Letnia Koszulka Polo Męska z Nadrukiem Liter i Flagi, Kołnierzyk i Guziki, Sportowa Casual Biznesowa Wygodna Koszulka z Krótkim Rękawem Letnia Koszulka Polo Męska z Nadrukiem Liter i Flagi, Kołnierzyk ",
+          "className": "",
+          "rect": {
+            "x": 0,
+            "y": 236.0500030517578,
+            "width": 390,
+            "height": 2869.38330078125
+          },
+          "visible": true
+        },
+        {
+          "index": 174,
+          "tag": "div",
+          "text": "zdjęcie przedmiotu Letnia Koszulka Polo Męska z Nadrukiem Liter i Flagi, Kołnierzyk i Guziki, Sportowa Casual Biznesowa Wygodna Koszulka z Krótkim Rękawem Letnia Koszulka Polo Męska z Nadrukiem Liter i Flagi, Kołnierzyk ",
+          "className": "wrap-hgKYF",
+          "rect": {
+            "x": 0,
+            "y": 236.0500030517578,
+            "width": 390,
+            "height": 2869.38330078125
+          },
+          "visible": true
+        },
+        {
+          "index": 175,
+          "tag": "div",
+          "text": "zdjęcie przedmiotu Letnia Koszulka Polo Męska z Nadrukiem Liter i Flagi, Kołnierzyk i Guziki, Sportowa Casual Biznesowa Wygodna Koszulka z Krótkim Rękawem Letnia Koszulka Polo Męska z Nadrukiem Liter i Flagi, Kołnierzyk ",
+          "className": "list-3U7_4 cardList-2zm3F listItem-1SXp4",
+          "rect": {
+            "x": 0,
+            "y": 236.0500030517578,
+            "width": 390,
+            "height": 2815.300048828125
+          },
+          "visible": true
+        },
+        {
+          "index": 176,
+          "tag": "div",
+          "text": "zdjęcie przedmiotu Letnia Koszulka Polo Męska z Nadrukiem Liter i Flagi, Kołnierzyk i Guziki, Sportowa Casual Biznesowa Wygodna Koszulka z Krótkim Rękawem Letnia Koszulka Polo Męska z Nadrukiem Liter i Flagi, Kołnierzyk ",
+          "className": "columnWrap-2Zdoj",
+          "rect": {
+            "x": 4.1666717529296875,
+            "y": 236.0500030517578,
+            "width": 188.76666259765625,
+            "height": 2626.833251953125
+          },
+          "visible": true
+        },
+        {
+          "index": 177,
+          "tag": "div",
+          "text": "zdjęcie przedmiotu Letnia Koszulka Polo Męska z Nadrukiem Liter i Flagi, Kołnierzyk i Guziki, Sportowa Casual Biznesowa Wygodna Koszulka z Krótkim Rękawem Letnia Koszulka Polo Męska z Nadrukiem Liter i Flagi, Kołnierzyk ",
+          "className": "imgCardWrap-JwDQx",
+          "rect": {
+            "x": 4.1666717529296875,
+            "y": 236.0500030517578,
+            "width": 188.76666259765625,
+            "height": 313.01666259765625
+          },
+          "visible": true
+        },
+        {
+          "index": 178,
+          "tag": "div",
+          "text": "zdjęcie przedmiotu Letnia Koszulka Polo Męska z Nadrukiem Liter i Flagi, Kołnierzyk i Guziki, Sportowa Casual Biznesowa Wygodna Koszulka z Krótkim Rękawem Letnia Koszulka Polo Męska z Nadrukiem Liter i Flagi, Kołnierzyk ",
+          "className": "item-1mFcE",
+          "rect": {
+            "x": 4.1666717529296875,
+            "y": 236.0500030517578,
+            "width": 188.76666259765625,
+            "height": 313.01666259765625
+          },
+          "visible": true
+        },
+        {
+          "index": 179,
+          "tag": "div",
+          "text": "zdjęcie przedmiotu Letnia Koszulka Polo Męska z Nadrukiem Liter i Flagi, Kołnierzyk i Guziki, Sportowa Casual Biznesowa Wygodna Koszulka z Krótkim Rękawem",
+          "className": "imgWrap-2CsZW imgMaskWrap-35Fm0",
+          "rect": {
+            "x": 4.1666717529296875,
+            "y": 236.0500030517578,
+            "width": 188.76666259765625,
+            "height": 251.68333435058594
+          },
+          "visible": true
+        },
+        {
+          "index": 180,
+          "tag": "img",
+          "text": "",
+          "className": "lazy-image img-1Mipb img-rrWu0 fadeIn-2OQO_ loaded",
+          "rect": {
+            "x": 4.1666717529296875,
+            "y": 236.0500030517578,
+            "width": 188.76666259765625,
+            "height": 251.68333435058594
+          },
+          "visible": true
+        },
+        {
+          "index": 181,
+          "tag": "div",
+          "text": "zdjęcie przedmiotu Letnia Koszulka Polo Męska z Nadrukiem Liter i Flagi, Kołnierzyk i Guziki, Sportowa Casual Biznesowa Wygodna Koszulka z Krótkim Rękawem",
+          "className": "watermarkWrap-2gPnx",
+          "rect": {
+            "x": 4.1666717529296875,
+            "y": 236.0500030517578,
+            "width": 188.76666259765625,
+            "height": 251.68333435058594
+          },
+          "visible": true
+        },
+        {
+          "index": 182,
+          "tag": "div",
+          "text": "zdjęcie przedmiotu Letnia Koszulka Polo Męska z Nadrukiem Liter i Flagi, Kołnierzyk i Guziki, Sportowa Casual Biznesowa Wygodna Koszulka z Krótkim Rękawem",
+          "className": "placeholder-2ELq1",
+          "rect": {
+            "x": 4.1666717529296875,
+            "y": 236.0500030517578,
+            "width": 188.76666259765625,
+            "height": 251.68333435058594
+          },
+          "visible": true
+        },
+        {
+          "index": 183,
+          "tag": "div",
+          "text": "zdjęcie przedmiotu Letnia Koszulka Polo Męska z Nadrukiem Liter i Flagi, Kołnierzyk i Guziki, Sportowa Casual Biznesowa Wygodna Koszulka z Krótkim Rękawem",
+          "className": "mainImgLabel-f8VO0",
+          "rect": {
+            "x": 4.1666717529296875,
+            "y": 236.0500030517578,
+            "width": 188.76666259765625,
+            "height": 251.68333435058594
+          },
+          "visible": true
+        },
+        {
+          "index": 184,
+          "tag": "div",
+          "text": "Letnia Koszulka Polo Męska z Nadrukiem Liter i Flagi, Kołnierzyk i Guziki, Sportowa Casual Biznesowa Wygodna Koszulka z Krótkim Rękawem 30,74 zł",
+          "className": "area-1xxE4",
+          "rect": {
+            "x": 4.1666717529296875,
+            "y": 492.933349609375,
+            "width": 188.76666259765625,
+            "height": 48.850006103515625
+          },
+          "visible": true
+        },
+        {
+          "index": 187,
+          "tag": "div",
+          "text": "30,74 zł",
+          "className": "info-2rJO_ mt-s-1-Y2p4W",
+          "rect": {
+            "x": 7.2833404541015625,
+            "y": 512.6666870117188,
+            "width": 182.5333251953125,
+            "height": 22.883331298828125
+          },
+          "visible": true
+        },
+        {
+          "index": 188,
+          "tag": "div",
+          "text": "30,74 zł",
+          "className": "priceLineBox-1limT",
+          "rect": {
+            "x": 7.2833404541015625,
+            "y": 512.6666870117188,
+            "width": 137.81666564941406,
+            "height": 22.883331298828125
+          },
+          "visible": true
+        },
+        {
+          "index": 189,
+          "tag": "div",
+          "text": "30,74 zł",
+          "className": "priceInfoBox-2Zv2R",
+          "rect": {
+            "x": 7.2833404541015625,
+            "y": 512.6666870117188,
+            "width": 137.81666564941406,
+            "height": 22.883331298828125
+          },
+          "visible": true
+        },
+        {
+          "index": 190,
+          "tag": "div",
+          "text": "30,74 zł",
+          "className": "left-1K5Z_",
+          "rect": {
+            "x": 7.2833404541015625,
+            "y": 512.6666870117188,
+            "width": 137.81666564941406,
+            "height": 22.883331298828125
+          },
+          "visible": true
+        },
+        {
+          "index": 192,
+          "tag": "div",
+          "text": "",
+          "className": "cartWrap-3HxW3",
+          "rect": {
+            "x": 145.0833282470703,
+            "y": 511.6333312988281,
+            "width": 53.05000305175781,
+            "height": 35.350006103515625
+          },
+          "visible": true
+        },
+        {
+          "index": 193,
+          "tag": "div",
+          "text": "Dodaj do koszyka",
+          "className": "cartButtonWrap-3HfCS cartButton-1F9w8",
+          "rect": {
+            "x": 149.25,
+            "y": 513.7166748046875,
+            "width": 40.56666564941406,
+            "height": 27.033340454101562
+          },
+          "visible": true
+        },
+        {
+          "index": 194,
+          "tag": "div",
+          "text": "",
+          "className": "button-1Qoj5",
+          "rect": {
+            "x": 149.25,
+            "y": 513.7166748046875,
+            "width": 40.56666564941406,
+            "height": 27.033340454101562
+          },
+          "visible": true
+        },
+        {
+          "index": 195,
+          "tag": "div",
+          "text": "",
+          "className": "iconWrap-QfnEY",
+          "rect": {
+            "x": 158.61666870117188,
+            "y": 516.8333129882812,
+            "width": 21.833328247070312,
+            "height": 20.800003051757812
+          },
+          "visible": true
+        },
+        {
+          "index": 196,
+          "tag": "div",
+          "text": "zdjęcie przedmiotu 2 Rolki Kompaktowych Chusteczek Samochodowych w Kwiaty – Cylindryczne Tubki na Chusteczki, Papier do Foteli Samochodowych, Pasujące do Uchwytów na Kubki, Włącznie z Chusteczkami do Twarzy 2 Rolki Kompa",
+          "className": "imgCardWrap-JwDQx",
+          "rect": {
+            "x": 4.1666717529296875,
+            "y": 549.066650390625,
+            "width": 188.76666259765625,
+            "height": 250.10000610351562
+          },
+          "visible": true
+        },
+        {
+          "index": 197,
+          "tag": "div",
+          "text": "zdjęcie przedmiotu 2 Rolki Kompaktowych Chusteczek Samochodowych w Kwiaty – Cylindryczne Tubki na Chusteczki, Papier do Foteli Samochodowych, Pasujące do Uchwytów na Kubki, Włącznie z Chusteczkami do Twarzy 2 Rolki Kompa",
+          "className": "item-1mFcE",
+          "rect": {
+            "x": 4.1666717529296875,
+            "y": 549.066650390625,
+            "width": 188.76666259765625,
+            "height": 250.10000610351562
+          },
+          "visible": true
+        },
+        {
+          "index": 198,
+          "tag": "div",
+          "text": "zdjęcie przedmiotu 2 Rolki Kompaktowych Chusteczek Samochodowych w Kwiaty – Cylindryczne Tubki na Chusteczki, Papier do Foteli Samochodowych, Pasujące do Uchwytów na Kubki, Włącznie z Chusteczkami do Twarzy",
+          "className": "imgWrap-2CsZW imgMaskWrap-35Fm0",
+          "rect": {
+            "x": 4.1666717529296875,
+            "y": 549.066650390625,
+            "width": 188.76666259765625,
+            "height": 188.76666259765625
+          },
+          "visible": true
+        },
+        {
+          "index": 199,
+          "tag": "img",
+          "text": "",
+          "className": "lazy-image img-1Mipb img-rrWu0 fadeIn-2OQO_ loaded",
+          "rect": {
+            "x": 4.1666717529296875,
+            "y": 549.066650390625,
+            "width": 188.76666259765625,
+            "height": 188.76666259765625
+          },
+          "visible": true
+        },
+        {
+          "index": 200,
+          "tag": "div",
+          "text": "zdjęcie przedmiotu 2 Rolki Kompaktowych Chusteczek Samochodowych w Kwiaty – Cylindryczne Tubki na Chusteczki, Papier do Foteli Samochodowych, Pasujące do Uchwytów na Kubki, Włącznie z Chusteczkami do Twarzy",
+          "className": "watermarkWrap-2gPnx",
+          "rect": {
+            "x": 4.1666717529296875,
+            "y": 549.066650390625,
+            "width": 188.76666259765625,
+            "height": 188.76666259765625
+          },
+          "visible": true
+        },
+        {
+          "index": 201,
+          "tag": "div",
+          "text": "zdjęcie przedmiotu 2 Rolki Kompaktowych Chusteczek Samochodowych w Kwiaty – Cylindryczne Tubki na Chusteczki, Papier do Foteli Samochodowych, Pasujące do Uchwytów na Kubki, Włącznie z Chusteczkami do Twarzy",
+          "className": "placeholder-2ELq1",
+          "rect": {
+            "x": 4.1666717529296875,
+            "y": 549.066650390625,
+            "width": 188.76666259765625,
+            "height": 188.76666259765625
+          },
+          "visible": true
+        },
+        {
+          "index": 202,
+          "tag": "div",
+          "text": "zdjęcie przedmiotu 2 Rolki Kompaktowych Chusteczek Samochodowych w Kwiaty – Cylindryczne Tubki na Chusteczki, Papier do Foteli Samochodowych, Pasujące do Uchwytów na Kubki, Włącznie z Chusteczkami do Twarzy",
+          "className": "mainImgLabel-f8VO0",
+          "rect": {
+            "x": 4.1666717529296875,
+            "y": 549.066650390625,
+            "width": 188.76666259765625,
+            "height": 188.76666259765625
+          },
+          "visible": true
+        },
+        {
+          "index": 203,
+          "tag": "div",
+          "text": "2 Rolki Kompaktowych Chusteczek Samochodowych w Kwiaty – Cylindryczne Tubki na Chusteczki, Papier do Foteli Samochodowych, Pasujące do Uchwytów na Kubki, Włącznie z Chusteczkami do Twarzy 10,77 zł 20,98 zł",
+          "className": "area-1xxE4",
+          "rect": {
+            "x": 4.1666717529296875,
+            "y": 743.0333251953125,
+            "width": 188.76666259765625,
+            "height": 48.84999084472656
+          },
+          "visible": true
+        },
+        {
+          "index": 206,
+          "tag": "div",
+          "text": "10,77 zł 20,98 zł",
+          "className": "info-2rJO_ mt-s-1-Y2p4W",
+          "rect": {
+            "x": 7.2833404541015625,
+            "y": 762.7666625976562,
+            "width": 182.5333251953125,
+            "height": 22.883331298828125
+          },
+          "visible": true
+        },
+        {
+          "index": 207,
+          "tag": "div",
+          "text": "10,77 zł 20,98 zł",
+          "className": "priceLineBox-1limT",
+          "rect": {
+            "x": 7.2833404541015625,
+            "y": 762.7666625976562,
+            "width": 137.81666564941406,
+            "height": 22.883331298828125
+          },
+          "visible": true
+        },
+        {
+          "index": 208,
+          "tag": "div",
+          "text": "10,77 zł 20,98 zł",
+          "className": "priceInfoBox-2Zv2R",
+          "rect": {
+            "x": 7.2833404541015625,
+            "y": 762.7666625976562,
+            "width": 137.81666564941406,
+            "height": 22.883331298828125
+          },
+          "visible": true
+        },
+        {
+          "index": 209,
+          "tag": "div",
+          "text": "10,77 zł 20,98 zł",
+          "className": "left-1K5Z_",
+          "rect": {
+            "x": 7.2833404541015625,
+            "y": 762.7666625976562,
+            "width": 137.81666564941406,
+            "height": 22.883331298828125
+          },
+          "visible": true
+        },
+        {
+          "index": 212,
+          "tag": "div",
+          "text": "",
+          "className": "cartWrap-3HxW3",
+          "rect": {
+            "x": 145.0833282470703,
+            "y": 761.7333374023438,
+            "width": 53.05000305175781,
+            "height": 35.34999084472656
+          },
+          "visible": true
+        },
+        {
+          "index": 213,
+          "tag": "div",
+          "text": "Dodaj do koszyka",
+          "className": "cartButtonWrap-3HfCS cartButton-1F9w8",
+          "rect": {
+            "x": 149.25,
+            "y": 763.816650390625,
+            "width": 40.56666564941406,
+            "height": 27.033340454101562
+          },
+          "visible": true
+        },
+        {
+          "index": 214,
+          "tag": "div",
+          "text": "",
+          "className": "button-1Qoj5",
+          "rect": {
+            "x": 149.25,
+            "y": 763.816650390625,
+            "width": 40.56666564941406,
+            "height": 27.033340454101562
+          },
+          "visible": true
+        },
+        {
+          "index": 215,
+          "tag": "div",
+          "text": "",
+          "className": "iconWrap-QfnEY",
+          "rect": {
+            "x": 158.61666870117188,
+            "y": 766.933349609375,
+            "width": 21.833328247070312,
+            "height": 20.800003051757812
+          },
+          "visible": true
+        },
+        {
+          "index": 216,
+          "tag": "div",
+          "text": "zdjęcie przedmiotu 2/4/6/8/12/16 szt. wkładek ortopedycznych do butów sportowych, antypoślizgowe ochraniacze na stopy z tylnymi naklejkami 2/4/6/8/12/16 szt. wkładek ortopedycznych do butów sportowych, antypoślizgowe och",
+          "className": "imgCardWrap-JwDQx",
+          "rect": {
+            "x": 4.1666717529296875,
+            "y": 799.1666870117188,
+            "width": 188.76666259765625,
+            "height": 250.09999084472656
+          },
+          "visible": true
+        },
+        {
+          "index": 217,
+          "tag": "div",
+          "text": "zdjęcie przedmiotu 2/4/6/8/12/16 szt. wkładek ortopedycznych do butów sportowych, antypoślizgowe ochraniacze na stopy z tylnymi naklejkami 2/4/6/8/12/16 szt. wkładek ortopedycznych do butów sportowych, antypoślizgowe och",
+          "className": "item-1mFcE",
+          "rect": {
+            "x": 4.1666717529296875,
+            "y": 799.1666870117188,
+            "width": 188.76666259765625,
+            "height": 250.09999084472656
+          },
+          "visible": true
+        },
+        {
+          "index": 218,
+          "tag": "div",
+          "text": "zdjęcie przedmiotu 2/4/6/8/12/16 szt. wkładek ortopedycznych do butów sportowych, antypoślizgowe ochraniacze na stopy z tylnymi naklejkami",
+          "className": "imgWrap-2CsZW imgMaskWrap-35Fm0",
+          "rect": {
+            "x": 4.1666717529296875,
+            "y": 799.1666870117188,
+            "width": 188.76666259765625,
+            "height": 188.76666259765625
+          },
+          "visible": true
+        },
+        {
+          "index": 219,
+          "tag": "img",
+          "text": "",
+          "className": "lazy-image img-1Mipb img-rrWu0 fadeIn-2OQO_ loaded",
+          "rect": {
+            "x": 4.1666717529296875,
+            "y": 799.1666870117188,
+            "width": 188.76666259765625,
+            "height": 188.76666259765625
+          },
+          "visible": true
+        },
+        {
+          "index": 220,
+          "tag": "div",
+          "text": "zdjęcie przedmiotu 2/4/6/8/12/16 szt. wkładek ortopedycznych do butów sportowych, antypoślizgowe ochraniacze na stopy z tylnymi naklejkami",
+          "className": "watermarkWrap-2gPnx",
+          "rect": {
+            "x": 4.1666717529296875,
+            "y": 799.1666870117188,
+            "width": 188.76666259765625,
+            "height": 188.76666259765625
+          },
+          "visible": true
+        },
+        {
+          "index": 221,
+          "tag": "div",
+          "text": "zdjęcie przedmiotu 2/4/6/8/12/16 szt. wkładek ortopedycznych do butów sportowych, antypoślizgowe ochraniacze na stopy z tylnymi naklejkami",
+          "className": "placeholder-2ELq1",
+          "rect": {
+            "x": 4.1666717529296875,
+            "y": 799.1666870117188,
+            "width": 188.76666259765625,
+            "height": 188.76666259765625
+          },
+          "visible": true
+        },
+        {
+          "index": 222,
+          "tag": "div",
+          "text": "zdjęcie przedmiotu 2/4/6/8/12/16 szt. wkładek ortopedycznych do butów sportowych, antypoślizgowe ochraniacze na stopy z tylnymi naklejkami",
+          "className": "mainImgLabel-f8VO0",
+          "rect": {
+            "x": 4.1666717529296875,
+            "y": 799.1666870117188,
+            "width": 188.76666259765625,
+            "height": 188.76666259765625
+          },
+          "visible": true
+        },
+        {
+          "index": 371,
+          "tag": "div",
+          "text": "zdjęcie przedmiotu Zestaw 3 bransoletek plażowych na wakacje, w seksownym stylu bohemy z perłowymi koralikami, ozdobionych zawieszkami w kształcie rozgwiazdy i muszelek, idealne do noszenia na co dzień, na wakacje, do bi",
+          "className": "columnWrap-2Zdoj",
+          "rect": {
+            "x": 197.06666564941406,
+            "y": 236.0500030517578,
+            "width": 188.76666259765625,
+            "height": 2815.300048828125
+          },
+          "visible": true
+        },
+        {
+          "index": 372,
+          "tag": "div",
+          "text": "zdjęcie przedmiotu Zestaw 3 bransoletek plażowych na wakacje, w seksownym stylu bohemy z perłowymi koralikami, ozdobionych zawieszkami w kształcie rozgwiazdy i muszelek, idealne do noszenia na co dzień, na wakacje, do bi",
+          "className": "imgCardWrap-JwDQx",
+          "rect": {
+            "x": 197.06666564941406,
+            "y": 236.0500030517578,
+            "width": 188.76666259765625,
+            "height": 250.09999084472656
+          },
+          "visible": true
+        },
+        {
+          "index": 373,
+          "tag": "div",
+          "text": "zdjęcie przedmiotu Zestaw 3 bransoletek plażowych na wakacje, w seksownym stylu bohemy z perłowymi koralikami, ozdobionych zawieszkami w kształcie rozgwiazdy i muszelek, idealne do noszenia na co dzień, na wakacje, do bi",
+          "className": "item-1mFcE",
+          "rect": {
+            "x": 197.06666564941406,
+            "y": 236.0500030517578,
+            "width": 188.76666259765625,
+            "height": 250.09999084472656
+          },
+          "visible": true
+        },
+        {
+          "index": 374,
+          "tag": "div",
+          "text": "zdjęcie przedmiotu Zestaw 3 bransoletek plażowych na wakacje, w seksownym stylu bohemy z perłowymi koralikami, ozdobionych zawieszkami w kształcie rozgwiazdy i muszelek, idealne do noszenia na co dzień, na wakacje, do bi",
+          "className": "imgWrap-2CsZW imgMaskWrap-35Fm0",
+          "rect": {
+            "x": 197.06666564941406,
+            "y": 236.0500030517578,
+            "width": 188.76666259765625,
+            "height": 188.76666259765625
+          },
+          "visible": true
+        },
+        {
+          "index": 375,
+          "tag": "img",
+          "text": "",
+          "className": "lazy-image img-1Mipb img-rrWu0 fadeIn-2OQO_ loaded",
+          "rect": {
+            "x": 197.06666564941406,
+            "y": 236.0500030517578,
+            "width": 188.76666259765625,
+            "height": 188.76666259765625
+          },
+          "visible": true
+        },
+        {
+          "index": 376,
+          "tag": "div",
+          "text": "zdjęcie przedmiotu Zestaw 3 bransoletek plażowych na wakacje, w seksownym stylu bohemy z perłowymi koralikami, ozdobionych zawieszkami w kształcie rozgwiazdy i muszelek, idealne do noszenia na co dzień, na wakacje, do bi",
+          "className": "watermarkWrap-2gPnx",
+          "rect": {
+            "x": 197.06666564941406,
+            "y": 236.0500030517578,
+            "width": 188.76666259765625,
+            "height": 188.76666259765625
+          },
+          "visible": true
+        },
+        {
+          "index": 377,
+          "tag": "div",
+          "text": "zdjęcie przedmiotu Zestaw 3 bransoletek plażowych na wakacje, w seksownym stylu bohemy z perłowymi koralikami, ozdobionych zawieszkami w kształcie rozgwiazdy i muszelek, idealne do noszenia na co dzień, na wakacje, do bi",
+          "className": "placeholder-2ELq1",
+          "rect": {
+            "x": 197.06666564941406,
+            "y": 236.0500030517578,
+            "width": 188.76666259765625,
+            "height": 188.76666259765625
+          },
+          "visible": true
+        },
+        {
+          "index": 378,
+          "tag": "div",
+          "text": "zdjęcie przedmiotu Zestaw 3 bransoletek plażowych na wakacje, w seksownym stylu bohemy z perłowymi koralikami, ozdobionych zawieszkami w kształcie rozgwiazdy i muszelek, idealne do noszenia na co dzień, na wakacje, do bi",
+          "className": "mainImgLabel-f8VO0",
+          "rect": {
+            "x": 197.06666564941406,
+            "y": 236.0500030517578,
+            "width": 188.76666259765625,
+            "height": 188.76666259765625
+          },
+          "visible": true
+        },
+        {
+          "index": 379,
+          "tag": "div",
+          "text": "Zestaw 3 bransoletek plażowych na wakacje, w seksownym stylu bohemy z perłowymi koralikami, ozdobionych zawieszkami w kształcie rozgwiazdy i muszelek, idealne do noszenia na co dzień, na wakacje, do bikini i na plażę. 3,",
+          "className": "area-1xxE4",
+          "rect": {
+            "x": 197.06666564941406,
+            "y": 430.01666259765625,
+            "width": 188.76666259765625,
+            "height": 48.850006103515625
+          },
+          "visible": true
+        },
+        {
+          "index": 382,
+          "tag": "div",
+          "text": "3,73 zł 13,30 zł",
+          "className": "info-2rJO_ mt-s-1-Y2p4W",
+          "rect": {
+            "x": 200.18333435058594,
+            "y": 449.75,
+            "width": 182.5333251953125,
+            "height": 22.883331298828125
+          },
+          "visible": true
+        },
+        {
+          "index": 383,
+          "tag": "div",
+          "text": "3,73 zł 13,30 zł",
+          "className": "priceLineBox-1limT",
+          "rect": {
+            "x": 200.18333435058594,
+            "y": 449.75,
+            "width": 137.81666564941406,
+            "height": 22.883331298828125
+          },
+          "visible": true
+        },
+        {
+          "index": 384,
+          "tag": "div",
+          "text": "3,73 zł 13,30 zł",
+          "className": "priceInfoBox-2Zv2R",
+          "rect": {
+            "x": 200.18333435058594,
+            "y": 449.75,
+            "width": 137.81666564941406,
+            "height": 22.883331298828125
+          },
+          "visible": true
+        },
+        {
+          "index": 385,
+          "tag": "div",
+          "text": "3,73 zł 13,30 zł",
+          "className": "left-1K5Z_",
+          "rect": {
+            "x": 200.18333435058594,
+            "y": 449.75,
+            "width": 137.81666564941406,
+            "height": 22.883331298828125
+          },
+          "visible": true
+        }
+      ]
+    },
+    "after": {
+      "scrollY": 0,
+      "bodyTextSample": "​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​\nTemu: Kupuj jak milioner\nOdkryj niezapomniane okazje na Temu\nPOBIERZ\nPrzeszukaj Temu\nPrzeszukaj Temu\nWszystko\nKobiety\nMężczyźni\nDom\nSport\nBiżuteria\nDzieci\nPrzemysłowe\nElektronika\nTorby\nRękodzieło\nUroda\nZabawki\nMotoryzacja\nOgród\nNiemowlęta\nBiuro\nZdrowie\nWyposażenie domu\nZwierzęta domowe\nMuzyczne\nUrządzenia\nŻywność\nKsiążki\nDlaczego wybrać Temu?\nBezpieczne płatności\nOchrona prywatności\nBezpieczne płatności\nRekomendacja\nzdjęcie przedmiotu Letnia Koszulka Polo Męska z Nadrukiem Liter i Flagi, Kołnierzyk i Guziki, Sportowa Casual Biznesowa Wygodna Koszulka z Krótkim Rękawem\nLetnia Koszulka Polo Męska z Nadrukiem Liter i Flagi, Kołnierzyk i Guziki, Sportowa Casual Biznesowa Wygodna Koszulka z Krótkim Rękawem\n30,74 zł\nzdjęcie przedmiotu 2 Rolki Kompaktowych Chusteczek Samochodowych w Kwiaty – Cylindryczne Tubki na Chusteczki, Papier do Foteli Samochodowych, Pasujące do Uchwytów na Kubki, Włącznie z Chusteczkami do Twarzy\n2 Rolki Kompaktowych Chusteczek Samochodowych w Kwiaty – Cylindryczne Tubki na Chusteczki, Papier do Foteli Samochodowych, Pasujące do Uchwytów na Kubki, Włącznie z Chusteczkami do Twarzy\n10,77 zł\n20,98 zł\nzdjęcie przedmiotu 2/4/6/8/12/16 szt. wkładek ortopedycznych do butów sportowych, antypoślizgowe ochraniacze na stopy z tylnymi naklejkami\n2/4/6/8/12/16 szt. wkładek ortopedycznych do butów sportowych, antypoślizgowe ochraniacze na stopy z tylnymi naklejkami\n3,74 zł\nzdjęcie przedmiotu 2w1 Składana Bieżnia do Chodzenia i Biegania, 2.0HP Szczytowy Silnik DC, Regulowana Prędkość 1-12 km/h, Wielofunkcyjny Panel LED, 12 Programów + System Dźwiękowy, 3 Tryby Treningu, Kompaktowy Sprzęt do Domowej Siłowni\n2w1 Składana Bieżnia do Chodzenia i Biegania, 2.0HP Szczytowy Silnik DC, Regulowana Prędkość 1-12 km/h, Wielofunkcyjny Panel LED, 12 Programów + System Dźwiękowy, 3 Tryby Treningu, Kompaktowy Sprzęt do Domowej Siłowni\n584,08 zł\nzdjęcie przedmiotu Projektor Magcubic HY300 Pro Dual Wifi6 290ANSI BT5.2 z współczynnikiem rzutowania 0.8:1 i automatyczną korekcją trapezu, lokalny głośnik 720P, przenośny mini kina domowego z funkcją streamingu, kompaktna konstrukcja do filmów, prezentacji, gier, biura i zestawu gamingowego\nProjektor Magcubic HY300 Pro Dual Wifi6 "
+    },
+    "scrollDelta": 0
+  }
+}

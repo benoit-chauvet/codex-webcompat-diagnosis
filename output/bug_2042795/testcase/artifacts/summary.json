@@ -1,0 +1,86 @@
+[
+  {
+    "browser": "firefox",
+    "state": {
+      "canPlayProfile244": "",
+      "videos": [
+        {
+          "id": "control",
+          "readyState": 4,
+          "networkState": 1,
+          "currentTime": 0,
+          "duration": 9.394,
+          "videoWidth": 1280,
+          "videoHeight": 726,
+          "error": null
+        },
+        {
+          "id": "gsmarena001",
+          "readyState": 1,
+          "networkState": 1,
+          "currentTime": 0,
+          "duration": 13.32,
+          "videoWidth": 622,
+          "videoHeight": 364,
+          "error": {
+            "code": 3,
+            "message": "auto mozilla::SupportChecker::AddMediaFormatChecker(const TrackInfo &)::(anonymous class)::operator()() const: Decoder may not have the capability to handle the requested video format with YUV444 chroma subsampling."
+          }
+        },
+        {
+          "id": "gsmarena002",
+          "readyState": 1,
+          "networkState": 1,
+          "currentTime": 0,
+          "duration": 5.66,
+          "videoWidth": 948,
+          "videoHeight": 554,
+          "error": {
+            "code": 3,
+            "message": "auto mozilla::SupportChecker::AddMediaFormatChecker(const TrackInfo &)::(anonymous class)::operator()() const: Decoder may not have the capability to handle the requested video format with YUV444 chroma subsampling."
+          }
+        }
+      ]
+    },
+    "screenshot": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042795/testcase/artifacts/firefox/firefox.png"
+  },
+  {
+    "browser": "chrome",
+    "state": {
+      "canPlayProfile244": "maybe",
+      "videos": [
+        {
+          "id": "control",
+          "readyState": 4,
+          "networkState": 1,
+          "currentTime": 0,
+          "duration": 9.3932,
+          "videoWidth": 1280,
+          "videoHeight": 726,
+          "error": null
+        },
+        {
+          "id": "gsmarena001",
+          "readyState": 4,
+          "networkState": 1,
+          "currentTime": 0,
+          "duration": 13.32,
+          "videoWidth": 622,
+          "videoHeight": 364,
+          "error": null
+        },
+        {
+          "id": "gsmarena002",
+          "readyState": 4,
+          "networkState": 1,
+          "currentTime": 0,
+          "duration": 5.66,
+          "videoWidth": 948,
+          "videoHeight": 554,
+          "error": null
+        }
+      ]
+    },
+    "screenshot": "/Users/bchauvet/codex-webcompat-diagnosis/output/bug_2042795/testcase/artifacts/chrome/chrome.png"
+  }
+]
