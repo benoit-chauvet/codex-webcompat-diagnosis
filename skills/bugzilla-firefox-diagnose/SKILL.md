@@ -10,11 +10,11 @@ description: Fetch Mozilla Bugzilla web compatibility bugs, extract the first co
 Start with the bundled helper for repeatable Bugzilla fetching and Firefox setup:
 
 ```bash
-python3 ~/.codex/skills/bugzilla-firefox-diagnose/scripts/diagnose_bugzilla_firefox.py <bug_id> --output-dir output
+python3 skills/bugzilla-firefox-diagnose/scripts/diagnose_bugzilla_firefox.py <bug_id> --output-dir output
 ```
 
-If working from a local copy of this skill, run the script from that skill path instead.
-The helper uses `scripts/puppeteer_capture.mjs` for browser automation. If Node cannot resolve Puppeteer, run `npm install` in the `bugzilla-firefox-diagnose` skill directory before rerunning the helper.
+Run this from the repository root. If the checkout lives elsewhere, adjust the script and output paths explicitly.
+The helper uses `scripts/puppeteer_capture.mjs` beside the Python script for browser automation. If Node cannot resolve Puppeteer, run `npm --prefix skills/bugzilla-firefox-diagnose install` before rerunning the helper.
 
 The helper:
 
@@ -104,7 +104,7 @@ After running the helper:
 9. After all per-bug reports are finalized, append missing entries to the aggregate summary and write a timestamped grouped batch summary without rerunning diagnosis:
 
 ```bash
-python3 ~/.codex/skills/bugzilla-firefox-diagnose/scripts/diagnose_bugzilla_firefox.py --summary-only --output-dir output
+python3 skills/bugzilla-firefox-diagnose/scripts/diagnose_bugzilla_firefox.py --summary-only --output-dir output
 ```
 
 This appends missing entries to `summary.md` next to `output/` by default and writes `output/batch_summary_<timestamp>.md`. Use `--summary-path path/to/summary.md` when the aggregate summary should live elsewhere. Use `--batch-summary-dir path/to/dir` when timestamped batch summaries should live elsewhere.
@@ -127,7 +127,7 @@ The timestamped batch summary groups reports by key outcome:
 Each grouped entry includes the Bugzilla link, report link, diagnosis, cause analysis, actual-vs-expected comparison when present, controlled reproduction evidence when present, confidence, and testcase/artifact links when `testcase/` or `minimal-testcase/` directories exist. To regenerate only this timestamped grouped summary from existing reports, run:
 
 ```bash
-python3 ~/.codex/skills/bugzilla-firefox-diagnose/scripts/diagnose_bugzilla_firefox.py --batch-summary-only --output-dir output
+python3 skills/bugzilla-firefox-diagnose/scripts/diagnose_bugzilla_firefox.py --batch-summary-only --output-dir output
 ```
 
 Keep the final report concise and include:
@@ -149,26 +149,26 @@ Keep the final report concise and include:
 
 ```bash
 # Use a specific Firefox binary.
-python3 ~/.codex/skills/bugzilla-firefox-diagnose/scripts/diagnose_bugzilla_firefox.py 1905304 --firefox-bin /Applications/Firefox.app/Contents/MacOS/firefox
+python3 skills/bugzilla-firefox-diagnose/scripts/diagnose_bugzilla_firefox.py 1905304 --firefox-bin /Applications/Firefox.app/Contents/MacOS/firefox
 
 # Download the requested Firefox release when no local match is installed.
-python3 ~/.codex/skills/bugzilla-firefox-diagnose/scripts/diagnose_bugzilla_firefox.py 1905304 --download-firefox
+python3 skills/bugzilla-firefox-diagnose/scripts/diagnose_bugzilla_firefox.py 1905304 --download-firefox
 
 # Capture a specific URL if Bugzilla has no usable target URL.
-python3 ~/.codex/skills/bugzilla-firefox-diagnose/scripts/diagnose_bugzilla_firefox.py 1905304 --url https://example.com/
+python3 skills/bugzilla-firefox-diagnose/scripts/diagnose_bugzilla_firefox.py 1905304 --url https://example.com/
 
 # Gather Bugzilla evidence and write a report without launching Firefox.
-python3 ~/.codex/skills/bugzilla-firefox-diagnose/scripts/diagnose_bugzilla_firefox.py 1905304 --skip-browser
+python3 skills/bugzilla-firefox-diagnose/scripts/diagnose_bugzilla_firefox.py 1905304 --skip-browser
 
 # Append missing entries to the aggregate summary from existing reports; do not fetch Bugzilla data or launch browsers.
-python3 ~/.codex/skills/bugzilla-firefox-diagnose/scripts/diagnose_bugzilla_firefox.py --summary-only --output-dir output
+python3 skills/bugzilla-firefox-diagnose/scripts/diagnose_bugzilla_firefox.py --summary-only --output-dir output
 
 # Write only the timestamped grouped batch summary from existing reports.
-python3 ~/.codex/skills/bugzilla-firefox-diagnose/scripts/diagnose_bugzilla_firefox.py --batch-summary-only --output-dir output
+python3 skills/bugzilla-firefox-diagnose/scripts/diagnose_bugzilla_firefox.py --batch-summary-only --output-dir output
 
 # Write a diagnosis report without updating the aggregate summary.
-python3 ~/.codex/skills/bugzilla-firefox-diagnose/scripts/diagnose_bugzilla_firefox.py 1905304 --no-summary
+python3 skills/bugzilla-firefox-diagnose/scripts/diagnose_bugzilla_firefox.py 1905304 --no-summary
 
 # Write a diagnosis report without writing a timestamped grouped batch summary.
-python3 ~/.codex/skills/bugzilla-firefox-diagnose/scripts/diagnose_bugzilla_firefox.py 1905304 --no-batch-summary
+python3 skills/bugzilla-firefox-diagnose/scripts/diagnose_bugzilla_firefox.py 1905304 --no-batch-summary
 ```

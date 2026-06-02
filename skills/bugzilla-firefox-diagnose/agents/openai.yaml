@@ -1,4 +1,4 @@
 interface:
   display_name: "Bugzilla Firefox Diagnose"
   short_description: "Diagnose Bugzilla webcompat bugs with Puppeteer Firefox/Chrome evidence"
-  default_prompt: "Use $bugzilla-firefox-diagnose to diagnose Mozilla Bugzilla bug 1905304 with a Puppeteer Firefox-versus-Chrome comparison, write the report to output/, and refresh summary.md."
+  default_prompt: "Diagnose Mozilla Bugzilla bug 1905304 from this checkout with a Puppeteer Firefox-versus-Chrome comparison, write the report to output/, and refresh summary.md."

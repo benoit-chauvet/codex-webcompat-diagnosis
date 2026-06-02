@@ -23,6 +23,7 @@ The bundled script:
 - `skills/bugzilla-firefox-diagnose/SKILL.md`: Codex skill instructions.
 - `skills/bugzilla-firefox-diagnose/scripts/diagnose_bugzilla_firefox.py`: helper script used by the skill.
 - `skills/bugzilla-firefox-diagnose/scripts/puppeteer_capture.mjs`: Puppeteer capture helper used by the Python script.
+- `.codex-plugin/plugin.json`: checkout-local Codex plugin manifest that exposes the bundled skill.
 - `output/bug_<id>/diagnosis.md`: generated diagnosis report.
 - `output/bug_<id>/firefox/`: Bugzilla payload and Firefox screenshot artifacts.
 - `output/bug_<id>/chrome/`: Chrome comparison artifacts when collected.
@@ -30,31 +31,30 @@ The bundled script:
 - `output/bug_<id>/minimal-testcase/`: smallest standalone reproduction for reproduced issues.
 - `summary.md`: Summary of the diagnosed bugs
 
-The installed skill copy lives at:
-
-```bash
-~/.codex/skills/bugzilla-firefox-diagnose
-```
-
 ## Usage
+
+This checkout is self-contained. Run commands from the repository root; no copy under
+the user-level Codex skills directory is required.
 
 Install the skill's Node dependency once if it is not already present:
 
 ```bash
-cd ~/.codex/skills/bugzilla-firefox-diagnose
-npm install
+npm --prefix skills/bugzilla-firefox-diagnose install
 ```
 
-Run the installed skill helper:
-
-```bash
-python3 ~/.codex/skills/bugzilla-firefox-diagnose/scripts/diagnose_bugzilla_firefox.py 1905304 --output-dir output --download-firefox
-```
-
-Run the source copy from this repo:
+Run the bundled helper from the repository root:
 
 ```bash
 python3 skills/bugzilla-firefox-diagnose/scripts/diagnose_bugzilla_firefox.py 1905304 --output-dir output --download-firefox
+```
+
+If Codex opens this checkout, the `.codex-plugin/plugin.json` manifest exposes the
+`bugzilla-firefox-diagnose` skill from `./skills/` without relying on a global skill install.
+
+To run the helper from another working directory, pass absolute or relative paths explicitly:
+
+```bash
+python3 /path/to/codex-webcompat-diagnosis/skills/bugzilla-firefox-diagnose/scripts/diagnose_bugzilla_firefox.py 1905304 --output-dir /path/to/codex-webcompat-diagnosis/output --download-firefox
 ```
 
 ## Useful Options
@@ -84,10 +84,9 @@ The report includes bug metadata, Bugzilla evidence, Firefox version selection, 
 
 ## Validation
 
-Validate the installed skill:
+Basic local checks:
 
 ```bash
-python3 ~/.codex/skills/.system/skill-creator/scripts/quick_validate.py ~/.codex/skills/bugzilla-firefox-diagnose
+PYTHONPYCACHEPREFIX=/tmp/codex-pycache python3 -m py_compile skills/bugzilla-firefox-diagnose/scripts/diagnose_bugzilla_firefox.py
+node --check skills/bugzilla-firefox-diagnose/scripts/puppeteer_capture.mjs
 ```
-
-The validator requires `PyYAML` in the active Python environment.

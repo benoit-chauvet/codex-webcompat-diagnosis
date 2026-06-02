@@ -1,0 +1,33 @@
+{
+  "name": "bugzilla-firefox-diagnose",
+  "version": "0.1.0",
+  "description": "Diagnose Mozilla Bugzilla web compatibility bugs with Firefox and Chrome evidence.",
+  "author": {
+    "name": "Codex WebCompat Diagnosis"
+  },
+  "license": "MPL-2.0",
+  "keywords": [
+    "bugzilla",
+    "firefox",
+    "webcompat",
+    "diagnosis",
+    "puppeteer"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Bugzilla Firefox Diagnose",
+    "shortDescription": "Diagnose Bugzilla webcompat bugs with Firefox and Chrome evidence",
+    "longDescription": "Fetch Mozilla Bugzilla web compatibility bugs, inspect reporter evidence, run controlled Firefox-versus-Chrome reproduction probes, and write diagnosis reports with reduced test cases when issues reproduce.",
+    "developerName": "Codex WebCompat Diagnosis",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Diagnose Mozilla Bugzilla bug 1905304."
+    ],
+    "brandColor": "#FF7139"
+  }
+}
